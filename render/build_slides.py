@@ -215,8 +215,8 @@ slides.append(img)
 # --- 03 WAS ÜBERALL STEHT
 img, d = new(3)
 y = kicker(d, 270, "Was überall steht", MUTED)
-y = block(d, y, "„Ab diesem Datum gelten strenge EU-Pflichten für genau "
-                "diese Systeme."", f("BOOK", 48), INK, MAXW, 1.4, 60)
+y = block(d, y, '„Ab diesem Datum gelten strenge EU-Pflichten für genau '
+                'diese Systeme.“', f("BOOK", 48), INK, MAXW, 1.4, 60)
 fo = f("COND", 88)
 d.text((M, y), "2. AUGUST 2026", font=fo, fill=INK)
 y += 130
@@ -250,7 +250,7 @@ fo = f("MONOB", 30)
 d.text((M + 44, ty), "VERORDNUNG (EU) 2026/1744", font=fo, fill=INK)
 ty += 58
 fo = f("MONO", 28)
-for ln in ["„Digital Omnibus on AI"",
+for ln in ['„Digital Omnibus on AI“',
            "In Kraft: 27.07.2026",
            "Anhang III (Beschäftigung):",
            "Geltungsbeginn 02.12.2027"]:
@@ -263,7 +263,7 @@ slides.append(img)
 # --- 06 DER HAKEN
 img, d = new(6)
 y = kicker(d, 250, "Der Haken")
-y = block(d, y, "„Verschoben" heißt nicht „erlaubt".", f("COND", 66), INK, MAXW, 1.3, 50)
+y = block(d, y, '„Verschoben“ heißt nicht „erlaubt“.', f("COND", 66), INK, MAXW, 1.3, 50)
 y = block(d, y, "DSGVO, BDSG, AGG und die Mitbestimmung des Betriebsrats gelten "
                 "unverändert weiter.", f("BOOK", 46), INK, MAXW, 1.42, 44)
 block(d, y, "Und die Kennzeichnungspflicht für KI-Inhalte bleibt beim "

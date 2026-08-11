@@ -72,13 +72,25 @@ Siehe **`research/ideas.md`** (Backlog) und **`CLAUDE.md`** (Recherche-Regeln). 
 
 ---
 
-## Rendering — aktueller Stand ⚠️
+## Rendering — läuft lokal
 
-`render/build_slides.py` stammt aus der mobilen Session und läuft **noch nicht auf diesem Windows-Rechner**:
+Voraussetzung einmalig: virtuelle Umgebung + Pillow (venv liegt unter `.venv/`, ist gitignored):
 
-- Schriftpfade sind Linux-fest (`/usr/share/fonts/truetype/dejavu/`).
-- Ausgabepfad ist die Sandbox (`/mnt/user-data/outputs`).
-- Die in der mobilen Session erzeugten PNGs liegen **nicht** hier.
+```powershell
+python -m venv .venv
+.venv\Scripts\python.exe -m pip install Pillow
+```
 
-**Nächster Schritt (offene Aufgabe):** Schriften (Oswald / Archivo Narrow) ins Repo unter `brand/fonts/`
-holen, Pfade auf repo-relativ umstellen, Post 1 lokal neu rendern. Details in `docs/handoff.md` §12.
+Schriften liegen im Repo unter `brand/fonts/` (Oswald, Archivo, JetBrains Mono — alle OFL,
+kommerziell nutzbar). Rendern:
+
+```powershell
+.venv\Scripts\python.exe render\build_slides.py
+```
+
+Erzeugt Logo (`brand/logo/`) und alle Blätter von Post 1 (`posts/post-001-…/slides/`).
+`render/build_slides.py` sucht Schriften über `find_font()` (erst `brand/fonts/`, dann OS-Fonts),
+Ausgabe-Pfade sind repo-relativ.
+
+**Bekannter Feinschliff:** Im Logo überlappt das Korrekturzeichen aktuell die Wortmarke „ki"
+(Oswald hat andere Metriken als der frühere Platzhalter). Position in `logo_square()` nachjustieren.

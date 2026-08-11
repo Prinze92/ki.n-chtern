@@ -23,7 +23,7 @@ posts:
     offen:
       - "Blatt 05 durch echten EUR-Lex-Screenshot ersetzen"
       - "rechtlich gegenlesen"
-      - "lokal neu rendern (Windows/Fonts)"
+      - "Logo: Korrekturzeichen kollidiert mit der Wortmarke (Position nachjustieren)"
     kennzahlen:
       reach: null
       sends: null
