@@ -19,7 +19,7 @@ Account: **@ki.nuechtern** · Profilname „KI nüchtern — ohne Hype" · Auswe
 
 ## Offene Punkte je Post
 
-- **Post 1:** Blatt 05 → echter EUR-Lex-Screenshot · rechtlich gegenlesen · Logo-Korrekturzeichen nachjustieren.
+- **Post 1:** Blatt 05 → echter EUR-Lex-Screenshot · rechtlich gegenlesen.
 - **Post 2:** Blätter rendern · Indeed-Zahl (~39 %) erst am Original prüfen, sonst weglassen.
 - **Post 3:** Blätter rendern.
 

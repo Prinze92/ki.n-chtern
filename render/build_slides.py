@@ -101,10 +101,15 @@ def logo_square(size, bg, fg_caret, fg_text, filename, with_text=True):
     if with_text:
         fo = f("COND", int(400 * s))
         t = "ki"
-        tw = d.textlength(t, font=fo)
-        tx = size / 2 - tw / 2
-        d.text((tx, size * 0.27), t, font=fo, fill=fg_text)
-        caret(d, size / 2, size * 0.735, size * 0.20, int(34 * s), fg_caret)
+        bbox = d.textbbox((0, 0), t, font=fo)
+        tw = bbox[2] - bbox[0]
+        ty = size * 0.26
+        tx = (size - tw) / 2 - bbox[0]
+        d.text((tx, ty), t, font=fo, fill=fg_text)
+        # Korrekturzeichen mit festem Abstand UNTER der gemessenen Wortmarke —
+        # fontunabhängig, damit es nicht mit den Buchstaben kollidiert.
+        letter_bottom = ty + bbox[3]
+        caret(d, size / 2, letter_bottom + size * 0.06, size * 0.20, int(34 * s), fg_caret)
     else:
         caret(d, size / 2, size / 2, size * 0.46, int(72 * s), fg_caret)
     img.save(OUT_LOGO / filename, "PNG")
@@ -119,11 +124,13 @@ logo_square(1000, PAPER, RED, INK, "bildmarke_pur.png", with_text=False)
 wm = Image.new("RGB", (1600, 440), PAPER)
 d = ImageDraw.Draw(wm)
 fo = f("COND", 150)
-d.text((110, 120), "ki.nüchtern", font=fo, fill=INK)
-tw = d.textlength("ki.nüchtern", font=fo)
-caret(d, 110 + tw / 2, 320, 90, 18, RED)
+wm_t = "ki.nüchtern"
+d.text((110, 90), wm_t, font=fo, fill=INK)
+bb = d.textbbox((110, 90), wm_t, font=fo)
+tw = bb[2] - bb[0]
+caret(d, 110 + tw / 2, bb[3] + 34, 90, 18, RED)
 fo2 = f("MONO", 36)
-d.text((110, 350), "OHNE HYPE. MIT QUELLE.", font=fo2, fill=MUTED)
+d.text((110, bb[3] + 66), "OHNE HYPE. MIT QUELLE.", font=fo2, fill=MUTED)
 wm.save(OUT_LOGO / "wortmarke.png", "PNG")
 
 

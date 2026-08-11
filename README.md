@@ -92,5 +92,5 @@ Erzeugt Logo (`brand/logo/`) und alle Blätter von Post 1 (`posts/post-001-…/s
 `render/build_slides.py` sucht Schriften über `find_font()` (erst `brand/fonts/`, dann OS-Fonts),
 Ausgabe-Pfade sind repo-relativ.
 
-**Bekannter Feinschliff:** Im Logo überlappt das Korrekturzeichen aktuell die Wortmarke „ki"
-(Oswald hat andere Metriken als der frühere Platzhalter). Position in `logo_square()` nachjustieren.
+Das Korrekturzeichen wird über die gemessene Textunterkante positioniert (`textbbox`), sitzt also
+fontunabhängig sauber unter der Wortmarke — ein Font-Wechsel bricht die Logo-Geometrie nicht mehr.
