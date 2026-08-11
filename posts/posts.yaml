@@ -1,0 +1,66 @@
+# Führendes Register aller Posts (maschinenlesbar).
+# Bei JEDER Statusänderung hier UND in POSTS.md nachziehen.
+#
+# status-Lebenszyklus: idee -> entwurf -> gerendert -> geprueft -> geplant -> gepostet
+# saeule: betrifft_dich | fall_der_woche | hype_check | unbequeme_frage
+# kennzahlen: erst nach dem Posten füllen. Leitgröße = sends_per_reach.
+
+account:
+  handle: ki.nuechtern          # bestätigt (Account-Name steht fest)
+  profilname: "KI nüchtern — ohne Hype"
+  ausweich_handle: ohne.hype
+
+posts:
+  - id: 1
+    slug: bewerbung-ki-frist
+    ordner: post-001-bewerbung-ki-frist
+    titel: "Deine Bewerbung sortiert eine Software aus"
+    saeule: betrifft_dich
+    status: gerendert          # in der mobilen Session gerendert; PNGs müssen lokal reproduziert werden
+    blaetter: 9
+    geplant_fuer: montag
+    gepostet_am: null
+    offen:
+      - "Blatt 05 durch echten EUR-Lex-Screenshot ersetzen"
+      - "rechtlich gegenlesen"
+      - "lokal neu rendern (Windows/Fonts)"
+    kennzahlen:
+      reach: null
+      sends: null
+      sends_per_reach: null
+      saves: null
+
+  - id: 2
+    slug: arbeitslosigkeit-hype-check
+    ordner: post-002-arbeitslosigkeit-hype-check
+    titel: "Nein, die KI hat die drei Millionen nicht verursacht"
+    saeule: hype_check
+    status: entwurf            # Konzept + Blatt-Texte stehen, noch nicht gerendert
+    blaetter: 8
+    geplant_fuer: mittwoch
+    gepostet_am: null
+    offen:
+      - "Blätter rendern"
+      - "Indeed-Hiring-Lab-Zahl (~39%) NICHT verwenden bis am Original geprüft"
+    kennzahlen:
+      reach: null
+      sends: null
+      sends_per_reach: null
+      saves: null
+
+  - id: 3
+    slug: was-du-tun-kannst
+    ordner: post-003-was-du-tun-kannst
+    titel: "Was du tun kannst, wenn eine Software dich aussortiert"
+    saeule: betrifft_dich
+    status: entwurf
+    blaetter: 8
+    geplant_fuer: freitag
+    gepostet_am: null
+    offen:
+      - "Blätter rendern"
+    kennzahlen:
+      reach: null
+      sends: null
+      sends_per_reach: null
+      saves: null

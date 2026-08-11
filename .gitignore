@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Scratch / exports that are not the source of truth
+/_scratch/
+/exports/
+
+# NOTE: rendered slide PNGs under posts/**/slides/ ARE committed on purpose.
+# They are the archive of what was published. See README.md ("Was ist schon gepostet?").

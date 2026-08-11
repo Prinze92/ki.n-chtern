@@ -1,0 +1,14 @@
+# Text: normalisierte Zeilenenden im Repo, egal auf welchem OS bearbeitet.
+* text=auto
+
+*.md   text
+*.py   text
+*.yaml text
+*.yml  text
+
+# Binär: gerenderte Slides & Logos NIE als Text behandeln (kein CRLF-Umbau).
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.ttf  binary
+*.otf  binary
