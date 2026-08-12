@@ -43,6 +43,9 @@ Nicht „Ist KI moralisch?", sondern „Deine Bewerbung wurde aussortiert. Darf 
 - **Encoding:** immer UTF-8. Umlaute korrekt schreiben, kein Mojibake.
 - **Status-Wahrheit:** `posts/posts.yaml` ist das führende Register. Jede Statusänderung eines Posts
   wird dort UND in `posts/POSTS.md` nachgezogen.
+- **Gepostete Posts archivieren:** Sobald ein Post veröffentlicht ist, wandert sein Ordner nach
+  `archive/<ordner>` (eingefrorener, veröffentlichter Stand — nicht mehr aktiv gerendert). Die Register
+  bleiben in `posts/` und führen weiterhin alle Posts (auch die archivierten).
 - **Neues Thema?** Erst in `posts/posts.yaml` und `research/ideas.md` prüfen, ob es schon existiert.
 - **Korrekturen sichtbar machen:** Fehler nie still löschen. Als eigener Commit mit klarer Message.
 - **Keine KI-Bilder** ohne Kennzeichnung (Art. 50 AI Act, gilt seit 02.08.2026).

@@ -49,9 +49,14 @@ steht das im Post. 3. Es wird nichts verkauft.
 
 Säule 2 ist die Zeitfalle: **ein** Thema pro Woche, keine Nachrichtenjagd. Genauer, nicht schneller.
 
+**Format „Stimmt das?" (Hype-Check-Motor):** Virale KI-Behauptungen aus Meme-/Hype-Accounts nüchtern auf
+Deutsch einordnen — der Aufregung die belegte Version danebenstellen. Auswahlkriterien, die vier
+Leitplanken (Behauptung statt Account zerlegen; bei Unbeweisbarem „unbestätigt" statt „falsch"; nüchtern
+statt süffisant; keine fremden Bilder) und der Blattaufbau stehen in `../research/hype-check-workflow.md`.
+
 ## 4. Arbeitsrhythmus (Ziel 3 h/Woche)
 
-Alle 14 Tage Blockproduktion (90 Min. Text + 60 Min. Gestaltung → 6 Carousels). Posting Mo/Mi/Fr.
+Alle 14 Tage Blockproduktion (90 Min. Text + 60 Min. Gestaltung → 6 Carousels). Posting mehrmals pro Woche, Tage flexibel.
 15 Min./Tag Kommentare, nach dem zweiten Kommentar keine Diskussion. Erste 8 Wochen zusätzlich:
 täglich 2–3 substanzielle Kommentare unter größeren deutschen Accounts — bei Null die einzige
 verlässliche Wachstumsmethode.

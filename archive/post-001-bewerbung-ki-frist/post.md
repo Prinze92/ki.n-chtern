@@ -1,8 +1,8 @@
 # Post 1 — „Deine Bewerbung sortiert eine Software aus"
 
 - **Säule:** Betrifft dich direkt
-- **Tag:** Montag (Eröffnungspost der Serie „Regel → Realität → Handlung")
-- **Status:** gerendert (mobil) — lokal neu rendern, siehe `../POSTS.md`
+- **Tag:** Eröffnungspost der Serie „Regel → Realität → Handlung" (Rhythmus flexibel)
+- **Status:** gerendert — lokal reproduzierbar (9 PNGs committet, byte-identisch), Fakten geprüft 11.08.2026
 - **Blätter:** 9
 - **Warum jetzt:** Der Digital Omnibus on AI ist am 27.07.2026 in Kraft getreten. Nahezu jeder
   Ratgeber, der noch „ab 2. August 2026 gelten die Hochrisiko-Pflichten" schreibt, ist seitdem
@@ -12,7 +12,7 @@
 
 | Blatt | Kicker | Inhalt |
 |-------|--------|--------|
-| 01 | Hook | **DEINE BEWERBUNG SORTIERT EINE SOFTWARE AUS.** Und die Regel dafür wurde vor zwei Wochen verschoben. Fast alle Ratgeber im Netz sind seitdem falsch. |
+| 01 | Hook | **DEINE BEWERBUNG SORTIERT EINE SOFTWARE AUS.** _Kein Mensch — eine KI._ Und die Regel dafür wurde vor zwei Wochen verschoben. Fast alle Ratgeber im Netz sind seitdem falsch. |
 | 02 | Der Fall | Größere Unternehmen setzen Software ein, die Lebensläufe liest, bewertet und in eine Rangfolge bringt — bevor ein Mensch sie sieht. |
 | 03 | Was überall steht | „Ab diesem Datum gelten strenge EU-Pflichten für genau diese Systeme." → **2. AUGUST 2026** (Risikomanagement. Menschliche Aufsicht. Dokumentation.) |
 | 04 | Die Korrektur *(Signatur-Blatt)* | ~~2. AUGUST 2026~~ → **2. DEZEMBER 2027**. Am 27.07.2026 ist die Digital-Omnibus-Verordnung in Kraft getreten. Die Pflichten für Bewerbungs-KI greifen 16 Monate später als angekündigt. |
@@ -40,7 +40,13 @@
 
 ## Vor dem Posten (Checkliste)
 
-- [ ] Blatt 05 durch echten Screenshot der EUR-Lex-Seite ersetzen (amtliche EU-Texte sind verwendbar).
-- [ ] Rechtliche Formulierungen gegenlesen — ein Fehler im Eröffnungspost zerstört die Positionierung.
-- [ ] Lokal rendern (Windows/Fonts), 9 PNGs nach `slides/` legen.
-- [ ] `posts.yaml` + `POSTS.md` auf `geprüft`/`geplant` setzen.
+- [x] **Fakten gegen Primärquelle geprüft (11.08.2026):** Verordnung (EU) 2026/1744 real,
+      Anhang III → 02.12.2027, Art. 50 bleibt 02.08.2026. Details in `sources.md`.
+- [x] **Lokal gerendert (Windows/Fonts):** 9 PNGs in `slides/`, byte-identisch zum committeten Stand.
+- [ ] **Blatt 05 — Entscheidung offen:** Zitat-Faksimile beibehalten (ehrlich, nennt Amtsblatt) **oder**
+      durch echten EUR-Lex-Screenshot ersetzen. Empfehlung: Faksimile behalten, OJ-/ELI-Fundstelle
+      ergänzen (`ABl. L, 24.07.2026` / ELI `reg/2026/1744`). Ein echter Screenshot bleibt manueller Schritt.
+- [ ] **Rechtliches Gegenlesen (extern):** Fokus Blatt 07 / Art. 22 DSGVO auf Absagen (umstritten, s. `sources.md`).
+- [ ] Optional: Hook Blatt 01 „Fast alle Ratgeber … falsch" — sachlich haltbar, aber pauschal;
+      ggf. auf „Viele Ratgeber … seitdem überholt" abschwächen (erfordert Re-Render).
+- [ ] Nach externem Gegenlesen: `posts.yaml` + `POSTS.md` auf `geprüft`/`geplant` setzen.

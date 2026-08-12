@@ -31,7 +31,10 @@ insta_ai/
 │   └── post-XYZ-slug/
 │       ├── post.md        Blatt-Texte, Caption, Alt-Text, Hashtags
 │       ├── sources.md     Quellen mit Belastbarkeits-Bewertung
-│       └── slides/        gerenderte PNGs = das Archiv des Veröffentlichten
+│       └── slides/        gerenderte PNGs (nach dem Posten → archive/)
+│
+├── archive/               ← GEPOSTETE Posts: eingefrorener, veröffentlichter Stand
+│   └── post-XYZ-slug/     gleiche Struktur; wird nicht mehr neu gerendert
 │
 ├── research/              ← wie wir entscheiden, was wir posten
 │   ├── ideas.md           Themen-Backlog (Pipeline), nach Säule sortiert

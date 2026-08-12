@@ -76,7 +76,7 @@ Farben, Schriften, Layout und die „Aktenblatt"-Bildsprache stehen in `design-s
 **Zeitfalle:** Säule 2 nur **ein** Thema pro Woche. Nicht schneller als andere, sondern genauer.
 
 **Rhythmus (Ziel 3 h/Woche):** alle 14 Tage eine Blockproduktion (90 Min. Recherche/Text,
-60 Min. Gestaltung) → 6 fertige Carousels. 3 Posts/Woche (Mo/Mi/Fr). 15 Min./Tag Kommentare,
+60 Min. Gestaltung) → 6 fertige Carousels. ~3 Posts/Woche (Tage flexibel). 15 Min./Tag Kommentare,
 harte Regel: nach dem zweiten Kommentar keine Diskussion. Erste 8 Wochen zusätzlich: täglich
 2–3 substanzielle Kommentare unter größeren deutschen Accounts zu Arbeit, Karriere, Digitalpolitik.
 

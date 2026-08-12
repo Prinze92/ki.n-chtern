@@ -4,6 +4,7 @@
 # status-Lebenszyklus: idee -> entwurf -> gerendert -> geprueft -> geplant -> gepostet
 # saeule: betrifft_dich | fall_der_woche | hype_check | unbequeme_frage
 # kennzahlen: erst nach dem Posten füllen. Leitgröße = sends_per_reach.
+# ordner: aktive Posts unter posts/<ordner>, GEPOSTETE unter archive/<ordner> (dieses Register bleibt für alle führend).
 
 account:
   handle: ki.nuechtern          # bestätigt (Account-Name steht fest)
@@ -11,18 +12,36 @@ account:
   ausweich_handle: ohne.hype
 
 posts:
+  - id: 0
+    slug: start
+    ordner: post-000-start
+    titel: "KI. Nüchtern. (Intro / Start)"
+    saeule: meta
+    status: gepostet           # live am 11.08.2026 (ohne die Rhythmus-Folie, Caption angepasst)
+    blaetter: 6
+    geplant_fuer: erster_post
+    gepostet_am: 2026-08-11
+    offen:
+      - "Archiv = Repo-Stand (so uebernommen); Live wich leicht ab (Cadence-Folie weggelassen, Caption angepasst)"
+    kennzahlen:
+      reach: null
+      sends: null
+      sends_per_reach: null
+      saves: null
+
   - id: 1
     slug: bewerbung-ki-frist
     ordner: post-001-bewerbung-ki-frist
     titel: "Deine Bewerbung sortiert eine Software aus"
     saeule: betrifft_dich
-    status: gerendert          # in der mobilen Session gerendert; PNGs müssen lokal reproduziert werden
+    status: gepostet           # live am 11.08.2026; Fakten vorab gegen Primaerquelle geprueft
     blaetter: 9
-    geplant_fuer: montag
-    gepostet_am: null
+    geplant_fuer: offen
+    gepostet_am: 2026-08-11
     offen:
-      - "Blatt 05 durch echten EUR-Lex-Screenshot ersetzen"
-      - "rechtlich gegenlesen"
+      - "Archiv = Repo-Stand (so uebernommen)"
+      - "Nach ~7 Tagen Kennzahlen (reach/sends/saves) aus Insights nachtragen"
+      - "Falls Art. 22 / Blatt 07 extern beanstandet: sichtbar korrigieren (Korrekturkultur)"
     kennzahlen:
       reach: null
       sends: null
@@ -34,13 +53,13 @@ posts:
     ordner: post-002-arbeitslosigkeit-hype-check
     titel: "Nein, die KI hat die drei Millionen nicht verursacht"
     saeule: hype_check
-    status: entwurf            # Konzept + Blatt-Texte stehen, noch nicht gerendert
+    status: geprueft           # BA-Zahlen an Primaerquelle bestaetigt; Destatis korrigiert (223.000 / 45,54 Mio.); Kurzarbeit-Aussage entfernt (11.08.2026)
     blaetter: 8
-    geplant_fuer: mittwoch
+    geplant_fuer: offen
     gepostet_am: null
     offen:
-      - "Blätter rendern"
-      - "Indeed-Hiring-Lab-Zahl (~39%) NICHT verwenden bis am Original geprüft"
+      - "Caption + Alt-Text final vor dem Posten"
+      - "Indeed-Hiring-Lab-Zahl bleibt bewusst draussen"
     kennzahlen:
       reach: null
       sends: null
@@ -52,12 +71,65 @@ posts:
     ordner: post-003-was-du-tun-kannst
     titel: "Was du tun kannst, wenn eine Software dich aussortiert"
     saeule: betrifft_dich
-    status: entwurf
+    status: geprueft           # DSGVO Art. 15/22 + AGG am Gesetzestext bestaetigt (11.08.2026); beschreibend
     blaetter: 8
-    geplant_fuer: freitag
+    geplant_fuer: offen
     gepostet_am: null
     offen:
-      - "Blätter rendern"
+      - "Optional: externes arbeitsrechtliches Gegenlesen (Art. 22 auf Absagen umstritten)"
+      - "Caption + Alt-Text final vor dem Posten"
+    kennzahlen:
+      reach: null
+      sends: null
+      sends_per_reach: null
+      saves: null
+
+  - id: 4
+    slug: ki-kennzeichnung
+    ordner: post-004-ki-kennzeichnung
+    titel: "Seit dem 2. August muss KI sich zu erkennen geben"
+    saeule: betrifft_dich
+    status: gepostet           # live; Art. 50 vorab am Artikeltext (EN+DE) gegengelesen
+    blaetter: 7
+    geplant_fuer: aktuell
+    gepostet_am: 2026-08-11
+    offen:
+      - "gepostet_am bestaetigen (vorlaeufig auf 11.08. gesetzt, ggf. korrigieren)"
+      - "Nach ~7 Tagen Kennzahlen (reach/sends/saves) aus Insights nachtragen"
+    kennzahlen:
+      reach: null
+      sends: null
+      sends_per_reach: null
+      saves: null
+
+  - id: 5
+    slug: killt-ki-die-jobs
+    ordner: post-005-killt-ki-die-jobs
+    titel: "Killt KI die Jobs?"
+    saeule: hype_check
+    status: gerendert          # 8 Blätter (12.08.2026); IAB/BIBB/GWS-Szenario recherchiert; als Projektion gekennzeichnet
+    blaetter: 8
+    geplant_fuer: aktuell
+    gepostet_am: null
+    offen:
+      - "Optional: Zahlen am IAB-Forschungsbericht-Volltext gegenlesen, dann geprueft"
+    kennzahlen:
+      reach: null
+      sends: null
+      sends_per_reach: null
+      saves: null
+
+  - id: 6
+    slug: ki-manipuliert-aisi
+    ordner: post-006-ki-manipuliert-aisi
+    titel: "Eine KI hat echte Menschen manipuliert (AISI-Test)"
+    saeule: fall_der_woche
+    status: gepostet           # live am 12.08.2026; AISI-Bericht + Medien recherchiert; neutral/balanciert; liegt in archive/
+    blaetter: 8
+    geplant_fuer: aktuell
+    gepostet_am: 2026-08-12
+    offen:
+      - "Nach ~7 Tagen Kennzahlen (reach/sends/saves) aus Insights nachtragen"
     kennzahlen:
       reach: null
       sends: null

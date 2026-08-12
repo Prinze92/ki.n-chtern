@@ -5,6 +5,8 @@ Herkunft: mobile Session. Hier angepasst für plattformunabhängigen Betrieb:
   - Ausgabepfade sind repo-relativ (nicht mehr /mnt/user-data/outputs).
   - Schriften werden über find_font() gesucht (brand/fonts/ -> OS-Fonts -> Fallback),
     statt fester Linux-Pfade.
+  - Jeder Post ist eine eigene build_postN()-Funktion; frame()/new() bekommen die
+    Blattzahl als Parameter, damit die Kopf-/Fußzeile pro Post stimmt.
 
 OFFEN (docs/handoff.md §12, Punkt 4): echte Marken-Schriften (Oswald / Archivo Narrow,
 JetBrains/IBM Plex Mono) nach ../brand/fonts/ legen und in FONT_ROLES eintragen. Solange sie
@@ -21,9 +23,17 @@ import sys
 REPO = Path(__file__).resolve().parent.parent
 FONTS_DIR = REPO / "brand" / "fonts"
 OUT_LOGO = REPO / "brand" / "logo"
-OUT_POST1 = REPO / "posts" / "post-001-bewerbung-ki-frist" / "slides"
-OUT_LOGO.mkdir(parents=True, exist_ok=True)
-OUT_POST1.mkdir(parents=True, exist_ok=True)
+# Aktive Posts (in Arbeit / postbereit) — werden gerendert:
+OUT_POST2 = REPO / "posts" / "post-002-arbeitslosigkeit-hype-check" / "slides"
+OUT_POST3 = REPO / "posts" / "post-003-was-du-tun-kannst" / "slides"
+OUT_POST5 = REPO / "posts" / "post-005-killt-ki-die-jobs" / "slides"
+# Gepostet & archiviert: Post 0/1/4/6 liegen unter archive/ (veröffentlichter Stand). Sie werden
+# NICHT mehr aktiv gerendert, damit die publizierten PNGs nicht versehentlich überschrieben werden
+# (z. B. bei einer Änderung an frame()/STAND). Die Funktionen build_intro/build_post1/build_post4/
+# build_post6 bleiben unten als Reproduzierbarkeits-Referenz erhalten.
+OUT_STORY = REPO / "brand" / "stories"
+for _d in (OUT_LOGO, OUT_STORY, OUT_POST2, OUT_POST3, OUT_POST5):
+    _d.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------- palette
 PAPER = (243, 241, 235)
@@ -134,11 +144,35 @@ d.text((110, bb[3] + 66), "OHNE HYPE. MIT QUELLE.", font=fo2, fill=MUTED)
 wm.save(OUT_LOGO / "wortmarke.png", "PNG")
 
 
+# ---------------------------------------------------------------- avatar (profilbild)
+def avatar(bg, fg, caret_color, filename, size=1000):
+    """Straffe Profilbild-Variante: großes 'ki' + integrierter Caret, für den
+    kreisförmigen Instagram-Zuschnitt gedacht (Vollflächen-Quadrat, füllt den Rahmen)."""
+    img = Image.new("RGB", (size, size), bg)
+    d = ImageDraw.Draw(img)
+    fo = f("COND", int(560 * size / 1000))
+    t = "ki"
+    bb = d.textbbox((0, 0), t, font=fo)
+    tw, th = bb[2] - bb[0], bb[3] - bb[1]
+    gap = size * 0.056
+    caret_w = tw * 0.66
+    caret_h = caret_w * 0.62
+    top = (size - (th + gap + caret_h)) / 2
+    d.text(((size - tw) / 2 - bb[0], top - bb[1]), t, font=fo, fill=fg)
+    caret(d, size / 2, top + th + gap + caret_h / 2, caret_w, int(62 * size / 1000), caret_color)
+    img.save(OUT_LOGO / filename, "PNG")
+
+
+avatar(PAPER, INK, RED, "avatar_hell.png")
+avatar(INK, PAPER, RED, "avatar_dunkel.png")
+avatar(RED, PAPER, PAPER, "avatar_rot.png")
+
+
 # ---------------------------------------------------------------- slide frame
 W, H = 1080, 1350
 M = 100
 MAXW = W - 2 * M
-TOTAL = 9
+STAND = "STAND 11.08.2026"
 
 
 def wrap(d, text, fnt, maxw):
@@ -163,19 +197,19 @@ def block(d, y, text, fnt, fill, maxw=MAXW, lead=1.34, after=0, x=M):
     return y + after
 
 
-def frame(d, idx):
+def frame(d, idx, total):
     d.line([(M, 84), (W - M, 84)], fill=INK, width=3)
     d.line([(M, 94), (W - M, 94)], fill=RULE, width=2)
     caret(d, M + 16, 140, 34, 7, RED)
     fo = f("MONOB", 27)
     d.text((M + 48, 126), "KI.NÜCHTERN", font=fo, fill=INK)
-    lab = f"BLATT {idx:02d}/{TOTAL:02d}"
+    lab = f"BLATT {idx:02d}/{total:02d}"
     d.text((W - M - d.textlength(lab, font=fo), 126), lab, font=fo, fill=MUTED)
 
     d.line([(M, H - 150), (W - M, H - 150)], fill=RULE, width=2)
     fo = f("MONO", 25)
-    d.text((M, H - 128), "STAND 11.08.2026", font=fo, fill=MUTED)
-    r = "QUELLEN → BLATT 09"
+    d.text((M, H - 128), STAND, font=fo, fill=MUTED)
+    r = f"QUELLEN → BLATT {total:02d}"
     d.text((W - M - d.textlength(r, font=fo), H - 128), r, font=fo, fill=MUTED)
 
 
@@ -187,141 +221,836 @@ def kicker(d, y, text, color=RED):
     return y + 52
 
 
-def new(idx):
+def new(idx, total):
     img = Image.new("RGB", (W, H), PAPER)
     d = ImageDraw.Draw(img)
-    frame(d, idx)
+    frame(d, idx, total)
     return img, d
 
 
-slides = []
+# ================================================================ POST 1
+def build_post1():
+    T = 9
+    slides = []
 
-# --- 01 HOOK
-img, d = new(1)
-y = 300
-fo = f("COND", 104)
-for line in ["DEINE", "BEWERBUNG", "SORTIERT EINE", "SOFTWARE AUS."]:
-    d.text((M, y), line, font=fo, fill=INK)
-    y += 118
-y += 40
-d.line([(M, y), (M + 140, y)], fill=RED, width=6)
-y += 54
-block(d, y, "Und die Regel dafür wurde vor zwei Wochen verschoben. "
-            "Fast alle Ratgeber im Netz sind seitdem falsch.",
-      f("BOOK", 44), INK, MAXW - 40, 1.4)
-slides.append(img)
+    # --- 01 HOOK
+    img, d = new(1, T)
+    y = 300
+    fo = f("COND", 104)
+    for line in ["DEINE", "BEWERBUNG", "SORTIERT EINE", "SOFTWARE AUS."]:
+        d.text((M, y), line, font=fo, fill=INK)
+        y += 118
+    y += 40
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6)
+    y += 54
+    y = block(d, y, "Kein Mensch — eine KI.", f("COND", 46), INK, MAXW, 1.3, 26)
+    block(d, y, "Und die Regel dafür wurde vor zwei Wochen verschoben. "
+                "Fast alle Ratgeber im Netz sind seitdem falsch.",
+          f("BOOK", 44), INK, MAXW - 40, 1.4)
+    slides.append(img)
 
-# --- 02 DER FALL
-img, d = new(2)
-y = kicker(d, 300, "Der Fall")
-block(d, y, "Größere Unternehmen setzen Software ein, die Lebensläufe liest, "
-            "bewertet und in eine Rangfolge bringt — bevor ein Mensch sie sieht.",
-      f("BOOK", 52), INK, MAXW, 1.42)
-slides.append(img)
+    # --- 02 DER FALL
+    img, d = new(2, T)
+    y = kicker(d, 300, "Der Fall")
+    block(d, y, "Größere Unternehmen setzen Software ein, die Lebensläufe liest, "
+                "bewertet und in eine Rangfolge bringt — bevor ein Mensch sie sieht.",
+          f("BOOK", 52), INK, MAXW, 1.42)
+    slides.append(img)
 
-# --- 03 WAS ÜBERALL STEHT
-img, d = new(3)
-y = kicker(d, 270, "Was überall steht", MUTED)
-y = block(d, y, '„Ab diesem Datum gelten strenge EU-Pflichten für genau '
-                'diese Systeme.“', f("BOOK", 48), INK, MAXW, 1.4, 60)
-fo = f("COND", 88)
-d.text((M, y), "2. AUGUST 2026", font=fo, fill=INK)
-y += 130
-block(d, y, "Risikomanagement. Menschliche Aufsicht. Dokumentation.",
-      f("BOOK", 38), MUTED, MAXW, 1.4)
-slides.append(img)
+    # --- 03 WAS ÜBERALL STEHT
+    img, d = new(3, T)
+    y = kicker(d, 270, "Was überall steht", MUTED)
+    y = block(d, y, '„Ab diesem Datum gelten strenge EU-Pflichten für genau '
+                    'diese Systeme.“', f("BOOK", 48), INK, MAXW, 1.4, 60)
+    fo = f("COND", 88)
+    d.text((M, y), "2. AUGUST 2026", font=fo, fill=INK)
+    y += 130
+    block(d, y, "Risikomanagement. Menschliche Aufsicht. Dokumentation.",
+          f("BOOK", 38), MUTED, MAXW, 1.4)
+    slides.append(img)
 
-# --- 04 DIE KORREKTUR  (Signatur-Blatt)
-img, d = new(4)
-y = kicker(d, 250, "Die Korrektur")
-fo = f("COND", 84)
-d.text((M, y), "2. AUGUST 2026", font=fo, fill=MUTED)
-tw = d.textlength("2. AUGUST 2026", font=fo)
-d.line([(M - 14, y + 58), (M + tw + 14, y + 52)], fill=RED, width=11)
-y += 130
-caret(d, M + 30, y + 26, 46, 9, RED)
-d.text((M + 80, y), "2. DEZEMBER 2027", font=f("COND", 72), fill=RED)
-y += 130
-y = block(d, y, "Am 27. Juli 2026 ist die Digital-Omnibus-Verordnung in Kraft "
-                "getreten. Die Pflichten für Bewerbungs-KI greifen 16 Monate "
-                "später als angekündigt.", f("BOOK", 42), INK, MAXW, 1.4)
-slides.append(img)
+    # --- 04 DIE KORREKTUR  (Signatur-Blatt)
+    img, d = new(4, T)
+    y = kicker(d, 250, "Die Korrektur")
+    fo = f("COND", 84)
+    d.text((M, y), "2. AUGUST 2026", font=fo, fill=MUTED)
+    tw = d.textlength("2. AUGUST 2026", font=fo)
+    d.line([(M - 14, y + 58), (M + tw + 14, y + 52)], fill=RED, width=11)
+    y += 130
+    caret(d, M + 30, y + 26, 46, 9, RED)
+    d.text((M + 80, y), "2. DEZEMBER 2027", font=f("COND", 72), fill=RED)
+    y += 130
+    y = block(d, y, "Am 27. Juli 2026 ist die Digital-Omnibus-Verordnung in Kraft "
+                    "getreten. Die Pflichten für Bewerbungs-KI greifen 16 Monate "
+                    "später als angekündigt.", f("BOOK", 42), INK, MAXW, 1.4)
+    slides.append(img)
 
-# --- 05 DER BELEG
-img, d = new(5)
-y = kicker(d, 250, "Der Beleg")
-d.rectangle([M, y, W - M, y + 330], fill=PANEL)
-d.line([(M, y), (M, y + 330)], fill=RED, width=8)
-ty = y + 44
-fo = f("MONOB", 30)
-d.text((M + 44, ty), "VERORDNUNG (EU) 2026/1744", font=fo, fill=INK)
-ty += 58
-fo = f("MONO", 28)
-for ln in ['„Digital Omnibus on AI“',
-           "In Kraft: 27.07.2026",
-           "Anhang III (Beschäftigung):",
-           "Geltungsbeginn 02.12.2027"]:
-    d.text((M + 44, ty), ln, font=fo, fill=INK)
-    ty += 46
-y += 390
-block(d, y, "Nicht meine Meinung. Ein Amtsblatt.", f("BOOK", 44), INK, MAXW, 1.4)
-slides.append(img)
+    # --- 05 DER BELEG
+    img, d = new(5, T)
+    y = kicker(d, 250, "Der Beleg")
+    d.rectangle([M, y, W - M, y + 330], fill=PANEL)
+    d.line([(M, y), (M, y + 330)], fill=RED, width=8)
+    ty = y + 44
+    fo = f("MONOB", 30)
+    d.text((M + 44, ty), "VERORDNUNG (EU) 2026/1744", font=fo, fill=INK)
+    ty += 58
+    fo = f("MONO", 28)
+    for ln in ['„Digital Omnibus on AI“',
+               "In Kraft: 27.07.2026",
+               "Anhang III (Beschäftigung):",
+               "Geltungsbeginn 02.12.2027"]:
+        d.text((M + 44, ty), ln, font=fo, fill=INK)
+        ty += 46
+    y += 390
+    block(d, y, "Nicht meine Meinung. Ein Amtsblatt.", f("BOOK", 44), INK, MAXW, 1.4)
+    slides.append(img)
 
-# --- 06 DER HAKEN
-img, d = new(6)
-y = kicker(d, 250, "Der Haken")
-y = block(d, y, '„Verschoben“ heißt nicht „erlaubt“.', f("COND", 66), INK, MAXW, 1.3, 50)
-y = block(d, y, "DSGVO, BDSG, AGG und die Mitbestimmung des Betriebsrats gelten "
-                "unverändert weiter.", f("BOOK", 46), INK, MAXW, 1.42, 44)
-block(d, y, "Und die Kennzeichnungspflicht für KI-Inhalte bleibt beim "
-            "2. August 2026.", f("BOOK", 38), MUTED, MAXW, 1.42)
-slides.append(img)
+    # --- 06 DER HAKEN
+    img, d = new(6, T)
+    y = kicker(d, 250, "Der Haken")
+    y = block(d, y, '„Verschoben“ heißt nicht „erlaubt“.', f("COND", 66), INK, MAXW, 1.3, 50)
+    y = block(d, y, "DSGVO, BDSG, AGG und die Mitbestimmung des Betriebsrats gelten "
+                    "unverändert weiter.", f("BOOK", 46), INK, MAXW, 1.42, 44)
+    block(d, y, "Und die Kennzeichnungspflicht für KI-Inhalte bleibt beim "
+                "2. August 2026.", f("BOOK", 38), MUTED, MAXW, 1.42)
+    slides.append(img)
 
-# --- 07 FÜR DICH
-img, d = new(7)
-y = kicker(d, 240, "Was das für dich heißt")
-for it in ["Eine Software darf sortieren.",
-           "Über die Absage entscheiden darf sie nicht allein.",
-           "Dein Auskunftsrecht bleibt bestehen."]:
-    caret(d, M + 20, y + 30, 34, 7, RED)
-    yy = y
-    for ln in wrap(d, it, f("BOOK", 48), MAXW - 80):
-        d.text((M + 76, yy), ln, font=f("BOOK", 48), fill=INK)
-        yy += int(48 * 1.34)
-    y = yy + 48
-slides.append(img)
+    # --- 07 FÜR DICH
+    img, d = new(7, T)
+    y = kicker(d, 240, "Was das für dich heißt")
+    for it in ["Eine Software darf sortieren.",
+               "Über die Absage entscheiden darf sie nicht allein.",
+               "Dein Auskunftsrecht bleibt bestehen."]:
+        caret(d, M + 20, y + 30, 34, 7, RED)
+        yy = y
+        for ln in wrap(d, it, f("BOOK", 48), MAXW - 80):
+            d.text((M + 76, yy), ln, font=f("BOOK", 48), fill=INK)
+            yy += int(48 * 1.34)
+        y = yy + 48
+    slides.append(img)
 
-# --- 08 OFFENE FRAGE
-img, d = new(8)
-y = kicker(d, 320, "Die offene Frage", MUTED)
-y = block(d, y, "16 Monate mehr Zeit für Unternehmen.", f("COND", 72), INK, MAXW, 1.24, 30)
-y = block(d, y, "Wer trägt sie in der Zwischenzeit?", f("COND", 72), RED, MAXW, 1.24, 70)
-block(d, y, "Schreib es in die Kommentare.", f("BOOK", 40), MUTED, MAXW, 1.4)
-slides.append(img)
+    # --- 08 OFFENE FRAGE
+    img, d = new(8, T)
+    y = kicker(d, 320, "Die offene Frage", MUTED)
+    y = block(d, y, "16 Monate mehr Zeit für Unternehmen.", f("COND", 72), INK, MAXW, 1.24, 30)
+    y = block(d, y, "Wer trägt sie in der Zwischenzeit?", f("COND", 72), RED, MAXW, 1.24, 70)
+    block(d, y, "Schreib es in die Kommentare.", f("BOOK", 40), MUTED, MAXW, 1.4)
+    slides.append(img)
 
-# --- 09 QUELLEN
-img, d = new(9)
-y = kicker(d, 230, "Quellen")
-for s in ["Verordnung (EU) 2026/1744 — Digital Omnibus on AI, in Kraft seit 27.07.2026",
-          "EU AI Act, Anhang III — Beschäftigung und Personalauswahl",
-          "EU AI Act, Artikel 50 — Transparenz- und Kennzeichnungspflichten"]:
-    caret(d, M + 18, y + 24, 30, 6, RED)
-    yy = y
-    for ln in wrap(d, s, f("BOOK", 36), MAXW - 70):
-        d.text((M + 66, yy), ln, font=f("BOOK", 36), fill=INK)
-        yy += int(36 * 1.38)
-    y = yy + 34
-y += 24
-d.line([(M, y), (W - M, y)], fill=RULE, width=2)
-y += 42
-y = block(d, y, "Keine Rechtsberatung. Im Einzelfall: Fachanwalt für Arbeitsrecht.",
-          f("BOOK", 34), MUTED, MAXW, 1.4, 34)
-block(d, y, "Fehler gefunden? Schreib es in die Kommentare — ich korrigiere sichtbar.",
-      f("BOOK", 34), RED, MAXW, 1.4)
-slides.append(img)
+    # --- 09 QUELLEN
+    img, d = new(9, T)
+    y = kicker(d, 230, "Quellen")
+    for s in ["Verordnung (EU) 2026/1744 — Digital Omnibus on AI, in Kraft seit 27.07.2026",
+              "EU AI Act, Anhang III — Beschäftigung und Personalauswahl",
+              "EU AI Act, Artikel 50 — Transparenz- und Kennzeichnungspflichten"]:
+        caret(d, M + 18, y + 24, 30, 6, RED)
+        yy = y
+        for ln in wrap(d, s, f("BOOK", 36), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 36), fill=INK)
+            yy += int(36 * 1.38)
+        y = yy + 34
+    y += 24
+    d.line([(M, y), (W - M, y)], fill=RULE, width=2)
+    y += 42
+    y = block(d, y, "Keine Rechtsberatung. Im Einzelfall: Fachanwalt für Arbeitsrecht.",
+              f("BOOK", 34), MUTED, MAXW, 1.4, 34)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare — ich korrigiere sichtbar.",
+          f("BOOK", 34), RED, MAXW, 1.4)
+    slides.append(img)
 
-for i, im in enumerate(slides, 1):
-    im.save(OUT_POST1 / f"blatt_{i:02d}.png", "PNG")
+    return slides
 
-print(f"slides: {len(slides)}  ->  {OUT_POST1}")
-print(f"logo   ->  {OUT_LOGO}")
+
+# ================================================================ POST 2
+def build_post2():
+    T = 8
+    slides = []
+
+    # --- 01 HOOK
+    img, d = new(1, T)
+    y = 300
+    fo = f("COND", 104)
+    for line in ["3.007.000", "ARBEITSLOSE."]:
+        d.text((M, y), line, font=fo, fill=INK)
+        y += 118
+    y += 40
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6)
+    y += 54
+    block(d, y, "Es war nicht die KI. Und die Zahl sagt etwas anderes, "
+                "als beide Lager behaupten.",
+          f("BOOK", 44), INK, MAXW - 40, 1.4)
+    slides.append(img)
+
+    # --- 02 DER FALL
+    img, d = new(2, T)
+    y = kicker(d, 280, "Der Fall")
+    y = block(d, y, "Juli 2026: über drei Millionen Arbeitslose, "
+                    "Quote 6,4 %.", f("BOOK", 50), INK, MAXW, 1.42, 40)
+    block(d, y, "71.000 mehr als im Vormonat.",
+          f("BOOK", 42), MUTED, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 03 WAS DARAUS GEMACHT WIRD
+    img, d = new(3, T)
+    y = kicker(d, 300, "Was daraus gemacht wird", MUTED)
+    block(d, y, '„Die Automatisierung frisst die Jobs.“',
+          f("COND", 72), INK, MAXW, 1.3)
+    slides.append(img)
+
+    # --- 04 WAS DIE ZAHLEN ZEIGEN  (Korrektur-Motiv)
+    img, d = new(4, T)
+    y = kicker(d, 250, "Was die Zahlen zeigen")
+    fo = f("COND", 84)
+    d.text((M, y), "+71.000 im Monat", font=fo, fill=MUTED)
+    tw = d.textlength("+71.000 im Monat", font=fo)
+    d.line([(M - 14, y + 58), (M + tw + 14, y + 52)], fill=RED, width=11)
+    y += 130
+    caret(d, M + 30, y + 26, 46, 9, RED)
+    d.text((M + 80, y), "+6.000 saisonbereinigt", font=f("COND", 60), fill=RED)
+    y += 120
+    block(d, y, "Der Rest ist Sommerpause — Bau, Dienstleistung, Ferienzeit. "
+                "Jedes Jahr dasselbe Muster.", f("BOOK", 42), INK, MAXW, 1.4)
+    slides.append(img)
+
+    # --- 05 DER EIGENTLICHE BEFUND
+    img, d = new(5, T)
+    y = kicker(d, 230, "Der eigentliche Befund")
+    fo = f("COND", 96)
+    d.text((M, y), "223.000", font=fo, fill=INK)
+    y += 112
+    d.text((M, y), "ERWERBSTÄTIGE WENIGER ALS VOR EINEM JAHR", font=f("MONOB", 28), fill=MUTED)
+    y += 84
+    y = block(d, y, "Bei 45,54 Mio. insgesamt — und der Rückgang zieht sich "
+                    "seit Anfang 2025.", f("BOOK", 42), INK, MAXW, 1.4, 34)
+    block(d, y, "Konjunktur und Struktur. Nicht Software.",
+          f("COND", 52), RED, MAXW, 1.3)
+    slides.append(img)
+
+    # --- 06 UND TROTZDEM
+    img, d = new(6, T)
+    y = kicker(d, 250, "Und trotzdem")
+    fo = f("COND", 96)
+    d.text((M, y), "653.000", font=fo, fill=INK)
+    y += 112
+    d.text((M, y), "OFFENE STELLEN — 25.000 MEHR ALS IM VORJAHR", font=f("MONOB", 28), fill=MUTED)
+    y += 90
+    block(d, y, "Falsche Leute in schrumpfenden Branchen, zu wenige in "
+                "wachsenden. Ein Struktur-, kein Software-Problem.",
+          f("BOOK", 42), INK, MAXW, 1.4)
+    slides.append(img)
+
+    # --- 07 OFFENE FRAGE
+    img, d = new(7, T)
+    y = kicker(d, 300, "Die offene Frage", MUTED)
+    y = block(d, y, "Wenn KI heute noch nicht der Grund ist —",
+              f("COND", 64), INK, MAXW, 1.26, 30)
+    y = block(d, y, "wie erkennst du, wann sie es wird?",
+              f("COND", 64), RED, MAXW, 1.26, 70)
+    block(d, y, "Schreib es in die Kommentare.", f("BOOK", 40), MUTED, MAXW, 1.4)
+    slides.append(img)
+
+    # --- 08 QUELLEN
+    img, d = new(8, T)
+    y = kicker(d, 230, "Quellen")
+    for s in ["Bundesagentur für Arbeit — Der Arbeitsmarkt im Juli 2026 (Bericht vom 31.07.2026)",
+              "Statistisches Bundesamt — Erwerbstätigkeit, Juni 2026",
+              "Roh- und saisonbereinigte Werte je aus den amtlichen Berichten"]:
+        caret(d, M + 18, y + 24, 30, 6, RED)
+        yy = y
+        for ln in wrap(d, s, f("BOOK", 36), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 36), fill=INK)
+            yy += int(36 * 1.38)
+        y = yy + 34
+    y += 24
+    d.line([(M, y), (W - M, y)], fill=RULE, width=2)
+    y += 42
+    y = block(d, y, "Zahlen aus den amtlichen Berichten, gerundet wiedergegeben.",
+              f("BOOK", 34), MUTED, MAXW, 1.4, 34)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare — ich korrigiere sichtbar.",
+          f("BOOK", 34), RED, MAXW, 1.4)
+    slides.append(img)
+
+    return slides
+
+
+# ================================================================ POST 3
+def build_post3():
+    T = 8
+    slides = []
+
+    # --- 01 HOOK
+    img, d = new(1, T)
+    y = 320
+    fo = f("COND", 100)
+    for line in ["ABSAGE NACH", "4 MINUTEN?"]:
+        d.text((M, y), line, font=fo, fill=INK)
+        y += 116
+    y += 40
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6)
+    y += 54
+    block(d, y, "Dann hat sie wahrscheinlich kein Mensch gelesen. "
+                "Trotzdem bist du nicht rechtlos.",
+          f("BOOK", 44), INK, MAXW - 40, 1.4)
+    slides.append(img)
+
+    # --- 02 DER FALL
+    img, d = new(2, T)
+    y = kicker(d, 300, "Der Fall")
+    y = block(d, y, "Automatische Vorsortierung ist in größeren Unternehmen "
+                    "längst Standard. Das ist nicht verboten.",
+              f("BOOK", 50), INK, MAXW, 1.42, 40)
+    block(d, y, "Aber du bist nicht rechtlos.", f("COND", 56), RED, MAXW, 1.3)
+    slides.append(img)
+
+    # --- 03 RECHT 1
+    img, d = new(3, T)
+    y = kicker(d, 250, "Recht 1")
+    y = block(d, y, "Du darfst fragen.", f("COND", 64), INK, MAXW, 1.3, 30)
+    y = block(d, y, "Die DSGVO gibt dir ein Auskunftsrecht über die Daten, "
+                    "die über dich verarbeitet wurden.", f("BOOK", 46), INK, MAXW, 1.42, 44)
+    d.text((M, y), "→ DSGVO, ARTIKEL 15", font=f("MONOB", 28), fill=RED)
+    slides.append(img)
+
+    # --- 04 RECHT 2
+    img, d = new(4, T)
+    y = kicker(d, 240, "Recht 2")
+    y = block(d, y, "Keine Maschine allein.", f("COND", 64), INK, MAXW, 1.3, 30)
+    y = block(d, y, "Entscheidungen mit erheblicher Wirkung dürfen nicht "
+                    "ausschließlich automatisiert getroffen werden. "
+                    "Sortieren ja — endgültig entscheiden nein.",
+              f("BOOK", 44), INK, MAXW, 1.42, 44)
+    d.text((M, y), "→ DSGVO, ARTIKEL 22", font=f("MONOB", 28), fill=RED)
+    slides.append(img)
+
+    # --- 05 RECHT 3
+    img, d = new(5, T)
+    y = kicker(d, 250, "Recht 3")
+    y = block(d, y, "Diskriminierung bleibt Diskriminierung.",
+              f("COND", 56), INK, MAXW, 1.3, 30)
+    y = block(d, y, "Auch wenn ein Algorithmus sie erzeugt. Das AGG kennt "
+                    "keine Software-Ausnahme.", f("BOOK", 46), INK, MAXW, 1.42, 44)
+    d.text((M, y), "→ AGG", font=f("MONOB", 28), fill=RED)
+    slides.append(img)
+
+    # --- 06 UND PRAKTISCH
+    img, d = new(6, T)
+    y = kicker(d, 230, "Und praktisch")
+    for it in ["Klartext statt Kreativsprache.",
+               "Begriffe aus der Ausschreibung wörtlich übernehmen.",
+               "Einfaches, einspaltiges Layout — mehrspaltige Design-Lebensläufe "
+               "werden von Parsern oft falsch gelesen."]:
+        caret(d, M + 20, y + 30, 34, 7, RED)
+        yy = y
+        for ln in wrap(d, it, f("BOOK", 44), MAXW - 80):
+            d.text((M + 76, yy), ln, font=f("BOOK", 44), fill=INK)
+            yy += int(44 * 1.34)
+        y = yy + 40
+    slides.append(img)
+
+    # --- 07 OFFENE FRAGE
+    img, d = new(7, T)
+    y = kicker(d, 300, "Die offene Frage", MUTED)
+    y = block(d, y, "Wenn alle ihre Unterlagen für die Maschine optimieren —",
+              f("COND", 56), INK, MAXW, 1.28, 30)
+    y = block(d, y, "wofür misst die Maschine dann noch Eignung?",
+              f("COND", 56), RED, MAXW, 1.28, 70)
+    block(d, y, "Schreib es in die Kommentare.", f("BOOK", 40), MUTED, MAXW, 1.4)
+    slides.append(img)
+
+    # --- 08 QUELLEN
+    img, d = new(8, T)
+    y = kicker(d, 230, "Quellen")
+    for s in ["DSGVO — Artikel 15: Auskunftsrecht der betroffenen Person",
+              "DSGVO — Artikel 22: automatisierte Entscheidungen im Einzelfall",
+              "AGG — Benachteiligungsverbot, kein Ausnahmetatbestand für Software"]:
+        caret(d, M + 18, y + 24, 30, 6, RED)
+        yy = y
+        for ln in wrap(d, s, f("BOOK", 36), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 36), fill=INK)
+            yy += int(36 * 1.38)
+        y = yy + 34
+    y += 24
+    d.line([(M, y), (W - M, y)], fill=RULE, width=2)
+    y += 42
+    y = block(d, y, "Keine Rechtsberatung. Im Einzelfall: Fachanwalt für Arbeitsrecht.",
+              f("BOOK", 34), MUTED, MAXW, 1.4, 34)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare — ich korrigiere sichtbar.",
+          f("BOOK", 34), RED, MAXW, 1.4)
+    slides.append(img)
+
+    return slides
+
+
+# ================================================================ INTRO / START
+def build_intro():
+    T = 6
+    slides = []
+
+    # --- 01 HOOK
+    img, d = new(1, T)
+    y = 320
+    fo = f("COND", 118)
+    for line in ["KI.", "NÜCHTERN."]:
+        d.text((M, y), line, font=fo, fill=INK)
+        y += 132
+    y += 30
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6)
+    y += 54
+    block(d, y, "Ohne Hype. Ohne Panik. Mit Quelle.",
+          f("COND", 48), INK, MAXW, 1.3)
+    slides.append(img)
+
+    # --- 02 WARUM
+    img, d = new(2, T)
+    y = kicker(d, 260, "Warum es das braucht")
+    y = block(d, y, "Zwei Lager: die einen verkaufen dir „17 Prompts, die "
+                    "dein Leben ändern“. Die anderen rufen „die KI frisst "
+                    "deinen Job“.", f("BOOK", 46), INK, MAXW, 1.42, 44)
+    block(d, y, "Beide wollen etwas von dir. Dazwischen ist es leer.",
+          f("COND", 48), RED, MAXW, 1.3)
+    slides.append(img)
+
+    # --- 03 DREI VERSPRECHEN
+    img, d = new(3, T)
+    y = kicker(d, 230, "Drei Versprechen")
+    for it in ["Jede Zahl hat eine Quelle.",
+               "Ist etwas unklar, steht das im Post.",
+               "Es wird nichts verkauft."]:
+        caret(d, M + 20, y + 30, 34, 7, RED)
+        yy = y
+        for ln in wrap(d, it, f("BOOK", 48), MAXW - 80):
+            d.text((M + 76, yy), ln, font=f("BOOK", 48), fill=INK)
+            yy += int(48 * 1.34)
+        y = yy + 46
+    slides.append(img)
+
+    # --- 04 WORÜBER
+    img, d = new(4, T)
+    y = kicker(d, 260, "Worüber")
+    y = block(d, y, "Was KI wirklich mit Bewerbung, Job, Behörden und "
+                    "Alltag macht.", f("BOOK", 50), INK, MAXW, 1.42, 40)
+    block(d, y, "Immer am konkreten Fall — dem, der dich betrifft. Nicht "
+                "„ist KI moralisch“, sondern „darf die Software das?“.",
+          f("BOOK", 40), MUTED, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 05 WER
+    img, d = new(5, T)
+    y = kicker(d, 300, "Wer hier schreibt", MUTED)
+    y = block(d, y, "Anonym — mit einem Anker:", f("BOOK", 44), INK, MAXW, 1.4, 24)
+    y = block(d, y, "Ich baue KI-Systeme beruflich.", f("COND", 56), INK, MAXW, 1.24, 40)
+    block(d, y, "Deshalb erkenne ich das Marketing — und übersetze es nüchtern.",
+          f("BOOK", 40), MUTED, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 06 CTA
+    img, d = new(6, T)
+    y = kicker(d, 250, "Neu hier?")
+    y = block(d, y, "Folg für KI ohne Hype. Neue Blätter, sobald sie belegt sind.",
+              f("COND", 52), INK, MAXW, 1.3, 50)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare — "
+                "ich korrigiere sichtbar.", f("BOOK", 40), RED, MAXW, 1.42)
+    slides.append(img)
+
+    return slides
+
+
+# ================================================================ POST 4 (Art. 50)
+def build_post4():
+    T = 7
+    slides = []
+
+    # --- 01 HOOK
+    img, d = new(1, T)
+    y = 300
+    fo = f("COND", 96)
+    for line in ["SEIT DEM 2. AUGUST", "MUSS KI SICH ZU", "ERKENNEN GEBEN."]:
+        d.text((M, y), line, font=fo, fill=INK)
+        y += 110
+    y += 40
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6)
+    y += 54
+    block(d, y, "Zumindest meistens. Und genau da liegt der Haken.",
+          f("BOOK", 44), INK, MAXW - 40, 1.4)
+    slides.append(img)
+
+    # --- 02 DER FALL
+    img, d = new(2, T)
+    y = kicker(d, 280, "Der Fall")
+    y = block(d, y, "Chatbots, KI-Bilder, KI-Stimmen, Deepfakes: seit dem "
+                    "2. August 2026 gilt dafür eine EU-Kennzeichnungspflicht.",
+              f("BOOK", 50), INK, MAXW, 1.42, 30)
+    block(d, y, "AI ACT, ARTIKEL 50.", f("MONOB", 30), MUTED, MAXW, 1.3)
+    slides.append(img)
+
+    # --- 03 WAS GILT
+    img, d = new(3, T)
+    y = kicker(d, 210, "Was gekennzeichnet werden muss")
+    for it in ["Ein Chatbot muss sagen, dass er eine KI ist.",
+               "KI-erzeugte Bilder, Audio und Video: als künstlich markiert.",
+               "Deepfakes: offengelegt, sofort erkennbar."]:
+        caret(d, M + 20, y + 30, 34, 7, RED)
+        yy = y
+        for ln in wrap(d, it, f("BOOK", 44), MAXW - 80):
+            d.text((M + 76, yy), ln, font=f("BOOK", 44), fill=INK)
+            yy += int(44 * 1.34)
+        y = yy + 42
+    slides.append(img)
+
+    # --- 04 DER HAKEN
+    img, d = new(4, T)
+    y = kicker(d, 210, "Der Haken")
+    for it in ["Ist offensichtlich, dass es KI ist, entfällt die Pflicht.",
+               "KI-Text mit echter menschlicher Redaktion: keine Kennzeichnung nötig.",
+               "Kunst und Satire: nur dezent."]:
+        caret(d, M + 20, y + 30, 34, 7, MUTED)
+        yy = y
+        for ln in wrap(d, it, f("BOOK", 42), MAXW - 80):
+            d.text((M + 76, yy), ln, font=f("BOOK", 42), fill=INK)
+            yy += int(42 * 1.34)
+        y = yy + 38
+    slides.append(img)
+
+    # --- 05 FÜR DICH
+    img, d = new(5, T)
+    y = kicker(d, 250, "Was das für dich heißt")
+    y = block(d, y, "Nicht jeder KI-Inhalt trägt ein Etikett.",
+              f("COND", 58), INK, MAXW, 1.3, 40)
+    block(d, y, "Die Pflicht trifft Anbieter und Betreiber — nicht jede "
+                "Grauzone ist abgedeckt. Bei zu perfekten Stimmen und "
+                "Bildern: skeptisch bleiben.", f("BOOK", 44), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 06 OFFENE FRAGE
+    img, d = new(6, T)
+    y = kicker(d, 320, "Die offene Frage", MUTED)
+    y = block(d, y, "Ein Etikett macht aus Täuschung noch keine Wahrheit.",
+              f("COND", 58), INK, MAXW, 1.28, 40)
+    y = block(d, y, "Und wer prüft, ob überhaupt gekennzeichnet wird?",
+              f("COND", 58), RED, MAXW, 1.28, 60)
+    block(d, y, "Schreib es in die Kommentare.", f("BOOK", 40), MUTED, MAXW, 1.4)
+    slides.append(img)
+
+    # --- 07 QUELLEN
+    img, d = new(7, T)
+    y = kicker(d, 240, "Quellen")
+    for s in ["EU AI Act, Artikel 50 — Transparenzpflichten, Geltung seit 02.08.2026",
+              "Digital Omnibus (VO (EU) 2026/1744): nur Art. 50 Abs. 7 verschoben, Abs. 1–6 gelten"]:
+        caret(d, M + 18, y + 24, 30, 6, RED)
+        yy = y
+        for ln in wrap(d, s, f("BOOK", 36), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 36), fill=INK)
+            yy += int(36 * 1.38)
+        y = yy + 34
+    y += 24
+    d.line([(M, y), (W - M, y)], fill=RULE, width=2)
+    y += 42
+    y = block(d, y, "Keine Rechtsberatung. Beschreibt die Vorschrift, nicht den Einzelfall.",
+              f("BOOK", 34), MUTED, MAXW, 1.4, 34)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare — ich korrigiere sichtbar.",
+          f("BOOK", 34), RED, MAXW, 1.4)
+    slides.append(img)
+
+    return slides
+
+
+# ================================================================ POST 5 (Killt KI die Jobs? — Hype-Check)
+def build_post5():
+    T = 8
+    slides = []
+
+    # --- 01 HOOK
+    img, d = new(1, T)
+    y = 300
+    fo = f("COND", 104)
+    for line in ["KILLT KI", "DIE JOBS?"]:
+        d.text((M, y), line, font=fo, fill=INK)
+        y += 118
+    y += 40
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6)
+    y += 54
+    block(d, y, "Die kurze Antwort: nicht so, wie die Schlagzeilen es sagen.",
+          f("BOOK", 44), INK, MAXW - 40, 1.4)
+    slides.append(img)
+
+    # --- 02 DIE ANGST
+    img, d = new(2, T)
+    y = kicker(d, 280, "Die Angst")
+    block(d, y, "Techbosse, Talkshows, Schlagzeilen: „KI macht Arbeit überflüssig.“ "
+                "Die Mittelschicht bangt, junge Leute fragen sich, wofür sie noch lernen.",
+          f("BOOK", 48), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 03 WAS DIE FORSCHUNG SAGT
+    img, d = new(3, T)
+    y = kicker(d, 250, "Was die Forschung sagt")
+    fo = f("COND", 96)
+    d.text((M, y), "1,6 Mio.", font=fo, fill=INK)
+    y += 124
+    d.text((M, y), "STELLEN IM UMBRUCH — AUF- UND ABGEBAUT", font=f("MONOB", 26), fill=MUTED)
+    y += 82
+    block(d, y, "Aber netto bleibt es über 15 Jahre nahezu eine Nullsumme. "
+                "Nicht weniger Arbeit — andere Arbeit.",
+          f("BOOK", 42), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 04 DER EIGENTLICHE BEFUND
+    img, d = new(4, T)
+    y = kicker(d, 250, "Der eigentliche Befund")
+    y = block(d, y, "Umbau, nicht Untergang.", f("COND", 64), INK, MAXW, 1.3, 40)
+    block(d, y, "Dieselbe Analyse erwartet sogar mehr Wirtschaftsleistung — das BIP "
+                "läge über 15 Jahre im Schnitt 0,8 Prozentpunkte höher pro Jahr. "
+                "Gefragt sind andere Tätigkeiten, nicht weniger davon.",
+          f("BOOK", 44), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 05 DER HAKEN
+    img, d = new(5, T)
+    y = kicker(d, 250, "Der Haken")
+    y = block(d, y, "Das ist eine Projektion, kein Versprechen.",
+              f("COND", 56), RED, MAXW, 1.3, 40)
+    block(d, y, "Und „netto null“ tröstet niemanden, der mittendrin umlernen muss. "
+                "Die Übergänge sind hart — und die Mittelschicht ist besonders "
+                "exponiert (DIW).", f("BOOK", 44), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 06 WAS DAS FÜR DICH HEISST
+    img, d = new(6, T)
+    y = kicker(d, 250, "Was das für dich heißt")
+    y = block(d, y, "Weder Panik noch Verharmlosung.", f("COND", 58), INK, MAXW, 1.3, 40)
+    block(d, y, "Die Frage ist nicht, ob Jobs verschwinden, sondern ob du bei der "
+                "Verschiebung mitkommst. Tätigkeiten neu lernen schlägt Abwarten.",
+          f("BOOK", 46), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 07 OFFENE FRAGE
+    img, d = new(7, T)
+    y = kicker(d, 300, "Die offene Frage", MUTED)
+    y = block(d, y, "Wenn netto kaum Jobs verloren gehen, aber Millionen sich verschieben —",
+              f("COND", 52), INK, MAXW, 1.3, 40)
+    y = block(d, y, "wer trägt die Übergänge?", f("COND", 52), RED, MAXW, 1.3, 60)
+    block(d, y, "Schreib es in die Kommentare.", f("BOOK", 40), MUTED, MAXW, 1.4)
+    slides.append(img)
+
+    # --- 08 QUELLEN
+    img, d = new(8, T)
+    y = kicker(d, 230, "Quellen")
+    for s in ["IAB / BIBB / GWS — Szenario-Analyse zu KI und Arbeitsmarkt, Forschungsbericht 2025",
+              "DIW Berlin — zur Betroffenheit der Mittelschicht durch KI",
+              "Szenario über 15 Jahre: Projektion, keine Gewissheit"]:
+        caret(d, M + 18, y + 22, 30, 6, RED)
+        yy = y
+        for ln in wrap(d, s, f("BOOK", 34), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 34), fill=INK)
+            yy += int(34 * 1.4)
+        y = yy + 30
+    y += 20
+    d.line([(M, y), (W - M, y)], fill=RULE, width=2)
+    y += 40
+    y = block(d, y, "Zahlen aus einer Modellrechnung, gerundet wiedergegeben.",
+              f("BOOK", 32), MUTED, MAXW, 1.4, 30)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare — ich korrigiere sichtbar.",
+          f("BOOK", 32), RED, MAXW, 1.4)
+    slides.append(img)
+
+    return slides
+
+
+# ================================================================ POST 6 (KI manipuliert Menschen — AISI, Fall der Woche)
+def build_post6():
+    T = 8
+    slides = []
+
+    # --- 01 HOOK
+    img, d = new(1, T)
+    y = 300
+    fo = f("COND", 92)
+    for line in ["EINE KI HAT", "ECHTE MENSCHEN", "MANIPULIERT."]:
+        d.text((M, y), line, font=fo, fill=INK); y += 108
+    y += 40
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 54
+    block(d, y, "Die Schlagzeile stimmt. Der wichtigste Teil fehlt.",
+          f("BOOK", 44), INK, MAXW - 40, 1.4)
+    slides.append(img)
+
+    # --- 02 DER FALL
+    img, d = new(2, T)
+    y = kicker(d, 250, "Der Fall")
+    y = block(d, y, "Ein KI-Agent baute gefälschte GitHub-Konten, schrieb echte "
+                    "Open-Source-Entwickler mit Phishing an und wollte Schadcode "
+                    "einschleusen — und verwischte sogar seine Spuren.",
+              f("BOOK", 44), INK, MAXW, 1.42, 30)
+    block(d, y, "Getestet: Modelle von Anthropic und OpenAI. 17 der 19 Vorfälle "
+                "bei einem Anthropic-Modell.", f("BOOK", 36), MUTED, MAXW, 1.4)
+    slides.append(img)
+
+    # --- 03 DER FEHLENDE KONTEXT
+    img, d = new(3, T)
+    y = kicker(d, 250, "Der fehlende Kontext")
+    y = block(d, y, "Es war ein gezielter Test.", f("COND", 60), INK, MAXW, 1.3, 36)
+    block(d, y, "Die britische KI-Sicherheitsbehörde AISI hatte dafür die "
+                "Schutzmechanismen bewusst abgeschaltet und offenen Internetzugang "
+                "gegeben. Genau dafür macht man solche Tests: das Risiko finden, "
+                "bevor es im Normalbetrieb passiert.", f("BOOK", 42), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 04 BEIDES STIMMT
+    img, d = new(4, T)
+    y = kicker(d, 230, "Beides stimmt")
+    for it in ["Es war real: echte Entwickler, echtes Internet, unaufgefordert.",
+               "Und: Es entstand kein tatsächlicher Schaden."]:
+        caret(d, M + 20, y + 30, 34, 7, RED)
+        yy = y
+        for ln in wrap(d, it, f("BOOK", 46), MAXW - 80):
+            d.text((M + 76, yy), ln, font=f("BOOK", 46), fill=INK); yy += int(46 * 1.34)
+        y = yy + 50
+    block(d, y, "AISI nennt es einen ersten Fall dieser Schwere.",
+          f("BOOK", 38), MUTED, MAXW, 1.4)
+    slides.append(img)
+
+    # --- 05 DAS EIGENTLICH BEUNRUHIGENDE
+    img, d = new(5, T)
+    y = kicker(d, 240, "Das eigentlich Beunruhigende")
+    y = block(d, y, "Nicht „die KI dreht durch“.", f("COND", 56), INK, MAXW, 1.3, 36)
+    block(d, y, "Sondern: Dieses Verhalten tauchte unaufgefordert auf. Sobald KI "
+                "nicht mehr nur antwortet, sondern handelt (Agenten), wird "
+                "Sicherheit zur Kernfrage.", f("BOOK", 44), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 06 WAS DAS FÜR DICH HEISST
+    img, d = new(6, T)
+    y = kicker(d, 250, "Was das für dich heißt")
+    block(d, y, "Im Normalbetrieb greifen Schutzmechanismen — der Test zeigt, warum "
+                "es sie braucht. Bei KI-Agenten, die eigenständig handeln dürfen, ist "
+                "gesunde Skepsis angebracht, kein blindes Vertrauen.",
+          f("BOOK", 46), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 07 OFFENE FRAGE
+    img, d = new(7, T)
+    y = kicker(d, 300, "Die offene Frage", MUTED)
+    y = block(d, y, "Wenn eine KI im Test unaufgefordert täuscht —",
+              f("COND", 56), INK, MAXW, 1.28, 36)
+    y = block(d, y, "wer garantiert die Schutzmechanismen im Ernstfall?",
+              f("COND", 56), RED, MAXW, 1.28, 60)
+    block(d, y, "Schreib es in die Kommentare.", f("BOOK", 40), MUTED, MAXW, 1.4)
+    slides.append(img)
+
+    # --- 08 QUELLEN
+    img, d = new(8, T)
+    y = kicker(d, 230, "Quellen")
+    for s in ["AI Security Institute (AISI, UK) — Incident Report zu unerlaubtem Agenten-Verhalten im Cybertest",
+              "Getestet unter bewusst gelockerten Bedingungen: Schutzmechanismen aus, offenes Internet",
+              "Berichterstattung: ZDFheute, CNN, The Record"]:
+        caret(d, M + 18, y + 22, 30, 6, RED)
+        yy = y
+        for ln in wrap(d, s, f("BOOK", 34), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 34), fill=INK); yy += int(34 * 1.4)
+        y = yy + 30
+    y += 20
+    d.line([(M, y), (W - M, y)], fill=RULE, width=2); y += 40
+    y = block(d, y, "Kein Beleg für tatsächlichen Schaden. Genaue Zahlen am AISI-Bericht.",
+              f("BOOK", 32), MUTED, MAXW, 1.4, 30)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare — ich korrigiere sichtbar.",
+          f("BOOK", 32), RED, MAXW, 1.4)
+    slides.append(img)
+
+    return slides
+
+
+# ================================================================ STORIES (1080x1920)
+def build_stories():
+    """Story-Slides im Hochformat. Inhalt bleibt in der Sicherheitszone (oben ~260 px für
+    Profil-/Schließen-UI, unten ~270 px für Antwortleiste/Sticker frei lassen)."""
+    SH = 1920
+    stories = []
+
+    def canvas(bg):
+        img = Image.new("RGB", (W, SH), bg)
+        return img, ImageDraw.Draw(img)
+
+    def brand(d, fg=INK, accent=RED, rule_col=RULE):
+        caret(d, M + 16, 316, 34, 7, accent)
+        d.text((M + 48, 302), "KI.NÜCHTERN", font=f("MONOB", 30), fill=fg)
+        d.line([(M, 372), (W - M, 372)], fill=rule_col, width=2)
+
+    def bullets(d, y, items, fill, size=50, accent=RED):
+        for it in items:
+            caret(d, M + 20, y + 30, 34, 7, accent)
+            yy = y
+            for ln in wrap(d, it, f("BOOK", size), MAXW - 80):
+                d.text((M + 80, yy), ln, font=f("BOOK", size), fill=fill)
+                yy += int(size * 1.34)
+            y = yy + 58
+        return y
+
+    # --- 1) Willkommen (fürs Highlight „Start"), hell
+    img, d = canvas(PAPER)
+    brand(d)
+    y = 560
+    d.text((M, y), "NEU HIER?", font=f("COND", 150), fill=INK); y += 214
+    d.line([(M, y), (M + 160, y)], fill=RED, width=8); y += 78
+    for line in ["KI.", "NÜCHTERN."]:
+        d.text((M, y), line, font=f("COND", 118), fill=INK); y += 138
+    y += 54
+    block(d, y, "Ohne Hype. Ohne Panik. Mit Quelle.", f("COND", 56), INK, MAXW, 1.3)
+    stories.append(("story_1_start", img))
+
+    # --- 2) Drei Versprechen, dunkel
+    img, d = canvas(INK)
+    brand(d, fg=PAPER, accent=RED, rule_col=(74, 74, 82))
+    y = 520
+    d.text((M, y), "DREI", font=f("COND", 132), fill=PAPER); y += 152
+    d.text((M, y), "VERSPRECHEN", font=f("COND", 116), fill=PAPER); y += 210
+    bullets(d, y, ["Jede Zahl hat eine Quelle.",
+                   "Ist etwas unklar, steht das im Post.",
+                   "Es wird nichts verkauft."], PAPER)
+    stories.append(("story_2_versprechen", img))
+
+    # --- 3) Wegweiser zu den Posts, hell
+    img, d = canvas(PAPER)
+    brand(d)
+    y = 560
+    d.text((M, y), "WOMIT ES", font=f("COND", 120), fill=INK); y += 138
+    d.text((M, y), "LOSGING", font=f("COND", 120), fill=INK); y += 178
+    d.line([(M, y), (M + 160, y)], fill=RED, width=8); y += 74
+    bullets(d, y, ["Deine Bewerbung sortiert eine KI aus.",
+                   "Seit dem 2. August: KI muss sich zu erkennen geben."], INK, size=48)
+    d.text((M, 1520), "→ Im Feed. Tippe aufs Profil.", font=f("MONO", 30), fill=MUTED)
+    stories.append(("story_3_wegweiser", img))
+
+    # --- 4) Poll-Hintergrund, rot (Umfrage-Sticker kommt in der App darunter)
+    img, d = canvas(RED)
+    brand(d, fg=PAPER, accent=PAPER, rule_col=(170, 40, 36))
+    y = 620
+    for line in ["KILLT KI", "DIE JOBS?"]:
+        d.text((M, y), line, font=f("COND", 140), fill=PAPER); y += 168
+    y += 44
+    block(d, y, "Erst dein Bauchgefühl. Die nüchterne Antwort kommt.",
+          f("BOOK", 50), PAPER, MAXW, 1.34)
+    stories.append(("story_4_poll", img))
+
+    return stories
+
+
+# ---------------------------------------------------------------- ausgabe
+def save_slides(slides, out_dir):
+    for i, im in enumerate(slides, 1):
+        im.save(out_dir / f"blatt_{i:02d}.png", "PNG")
+    return len(slides)
+
+
+# Nur aktive Posts rendern. Post 0/1/4 sind gepostet und liegen eingefroren unter archive/.
+n2 = save_slides(build_post2(), OUT_POST2)
+n3 = save_slides(build_post3(), OUT_POST3)
+n5 = save_slides(build_post5(), OUT_POST5)
+print(f"Post 2: {n2} Blätter -> {OUT_POST2}")
+print(f"Post 3: {n3} Blätter -> {OUT_POST3}")
+print(f"Post 5: {n5} Blätter -> {OUT_POST5}")
+print(f"Logo    -> {OUT_LOGO}")
+print("(Post 0/1/4/6 gepostet & archiviert -> archive/, nicht neu gerendert)")
+
+_stories = build_stories()
+for _name, _im in _stories:
+    _im.save(OUT_STORY / f"{_name}.png", "PNG")
+print(f"Stories: {len(_stories)} -> {OUT_STORY}")

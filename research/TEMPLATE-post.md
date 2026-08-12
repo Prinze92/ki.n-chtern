@@ -3,7 +3,7 @@
 > Vorlage. Kopieren nach `../posts/post-XYZ-slug/post.md`, dann `posts.yaml` + `POSTS.md` ergänzen.
 
 - **Säule:** Betrifft dich direkt | Fall der Woche | Hype-Check | Unbequeme Frage
-- **Tag:** Mo | Mi | Fr
+- **Tag:** (Rhythmus flexibel)
 - **Status:** entwurf
 - **Blätter:** 8–9
 - **Warum jetzt / warum stark:** <ein Satz Anlass + warum der Post die Positionierung stützt>

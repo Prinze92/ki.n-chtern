@@ -1,8 +1,8 @@
 # Post 3 — „Was du tun kannst, wenn eine Software dich aussortiert"
 
 - **Säule:** Betrifft dich direkt (Nutzwert — höchstes Weiterleitungspotenzial der drei)
-- **Tag:** Freitag
-- **Status:** entwurf (Konzept + Blatt-Texte stehen, noch nicht gerendert)
+- **Tag:** offen (Rhythmus flexibel)
+- **Status:** geprüft (11.08.2026) — DSGVO Art. 15/22 + AGG am Gesetzestext bestätigt; beschreibend; externes Gegenlesen optional
 - **Blätter:** 8
 
 ## Blätter
@@ -25,5 +25,7 @@
 
 ## Vor dem Posten
 
-- [ ] Blätter rendern.
-- [ ] Rechtsformulierungen beschreibend halten (keine Einzelfallbewertung).
+- [x] Blätter rendern (8 PNGs in `slides/`).
+- [x] Recht am Gesetzestext gegengelesen (11.08.2026): DSGVO Art. 15 (Auskunft), Art. 22 (autom. Entscheidung, inkl. Ausnahmen Abs. 2 / Schutzrechte Abs. 3), AGG. Beschreibend gehalten.
+- [ ] Optional: externes arbeitsrechtliches Gegenlesen (Art. 22 auf Absagen ist umstritten — s. `sources.md`).
+- [ ] Caption + Alt-Text final vor dem Posten.
