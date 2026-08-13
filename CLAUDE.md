@@ -27,6 +27,16 @@ Verbindliche Regeln für die Arbeit an diesem Projekt. Diese Datei wird bei jede
 **Leitprinzip Inhalt:** Ethik nie abstrakt, immer am Einzelfall — und der Fall betrifft den Zuschauer selbst.
 Nicht „Ist KI moralisch?", sondern „Deine Bewerbung wurde aussortiert. Darf die Software das?"
 
+## Tonlage (gilt für Posts und Kommentare)
+
+- **Nüchtern heißt genau, nicht kalt.** Die Reibung kommt aus der Präzision, nie aus Spott.
+- **Wohlwollender Ausgangspunkt.** Eine These erst ernst nehmen, dann genau hinsehen —
+  nicht mit dem Ziel starten, sie zu widerlegen.
+- **Etwas hinzufügen, nicht nur korrigieren.** Ein Beitrag, der nur sagt, was falsch ist,
+  wird nicht veröffentlicht.
+- **Humor und Selbstironie sind erwünscht** — solange sie sich gegen uns selbst richten,
+  nie gegen das Gegenüber.
+
 ## Recherche-Regeln
 
 - Primärquellen zuerst: EUR-Lex / Amtsblatt der EU, Bundesagentur für Arbeit, Statistisches Bundesamt,
