@@ -3,62 +3,77 @@
 Wozu: Unter diesen Accounts nüchtern kommentieren → Profilbesuche → Follower. Wachstumsmotor bei kleiner
 Reichweite (siehe `../docs/konzept.md`). **Nicht** Follow-for-Follow; folgen dient Feed + Kommentar-Routine.
 
-> Handle-Status: **✅ gesehen** = Handle in einer Session direkt gesehen (real). **⚠️ prüfen** = aus
-> Web-Recherche, in der App bestätigen. Follower-Zahlen ca., in der App prüfen.
+> Handle-Status: **✅** = Handle bestätigt (in Session gesehen oder Instagram-Profil in der Recherche
+> aufgetaucht). **⚠️ prüfen** = Name sicher, Handle in der App bestätigen. Follower-Zahlen ca.
 
 ## Auswahllogik (wichtiger als die Liste)
 
-Kommentiere dort, wo (a) das Publikum **betroffen** ist (Arbeitnehmer, Jobsuchende, Digital-Interessierte),
-(b) das Thema **passt** (KI · Arbeit · Recht · Digitalpolitik) und (c) der Account **mittel bis groß** ist —
-unter Riesen ertrinkt der Kommentar, unter mittelgroßen fällt ein präziser Beitrag auf. Nach dem **zweiten**
-Kommentar keine Diskussion. Nie Arbeitgeber/Branche erkennbar machen.
+Kommentiere dort, wo (a) das Publikum **betroffen/interessiert** ist, (b) das Thema **passt**
+(KI · Arbeit · Recht · Digitalpolitik) und (c) der Account **mittel bis groß** ist. Nach dem **zweiten**
+Kommentar keine Diskussion. Nie Arbeitgeber/Branche erkennbar machen. Bevorzugt zu Themen kommentieren,
+zu denen du **tiefe Posts hast** — dann ist der Kommentar ein Vorgeschmack aufs Carousel.
 
-## Tier 1 — zuerst folgen & regelmäßig kommentieren (Nische trifft Publikum)
+## Tier 1 — Kern-Nische, zuerst folgen & regelmäßig kommentieren
 
-| Handle | Was | Warum stark |
+| Handle | Was | Reichweite |
 |---|---|---|
-| `netzpolitikorg` ✅ | Digitalpolitik, KI, Überwachung | Exakt deine Nische, quellenbasiert (Geistesverwandter) |
-| `bsi_bund` ✅ | Bundesamt IT-Sicherheit | KI-Sicherheit/Agenten, seriös, deutsch |
-| `correctiv_org` ✅ | Investigativ / Faktencheck | KI-Fakes, Desinfo — dein Medienkompetenz-Thema |
-| `christina_linke` ⚠️ | Arbeitsrechtsanwältin (~178k) | Groß **und** genau deine „betrifft dich"-Zielgruppe |
-| `bundesagenturfuerarbeit` ✅ | Bundesagentur für Arbeit | Arbeitsmarkt, Bewerbung, Ausbildung — Kern-Publikum |
+| `algorithmwatch` ✅ | KI-Ethik, Algorithmen, Grundrechte — **exakte Nische** | ~12k |
+| `netzpolitikorg` ✅ | Digitalpolitik, KI, Überwachung (quellenbasiert) | groß |
+| `bsi_bund` ✅ | Bundesamt IT-Sicherheit — KI-Sicherheit/Agenten | groß |
+| `correctiv_org` ✅ | Investigativ / Faktencheck — KI-Fakes, Desinfo | groß |
+| `christina_linke` ⚠️ | Arbeitsrechtsanwältin — genau deine „betrifft dich"-Zielgruppe | ~178k |
+| `bundesagenturfuerarbeit` ✅ | Arbeitsmarkt, Bewerbung, Ausbildung | groß |
 
-## Tier 2 — große Reichweite, gezielt bei KI-/Arbeit-Posts kommentieren
+## Tier 1b — Große KI-/Tech-Fachmedien (berichten täglich über KI)  ⭐ NEU
 
-| Handle | Was |
-|---|---|
-| `spiegelmagazin` ✅ | Nachrichten/Wirtschaft — fährt KI-Themen groß (Marx, Jobs, Anthropic) |
-| `zdfheute` ✅ | Nachrichten — KI-Kennzeichnung, KI-Sicherheit |
-| `sz` ✅ | Süddeutsche — KI-Experimente, seriös |
-| `tagesspiegel` ✅ | Nachrichten/Digitalpolitik — KI & Politik |
-
-*(Riesen-Accounts: nur bei passendem KI-/Arbeit-Post kommentieren, sonst drowned.)*
-
-## Tier 3 — kleiner/ergänzend, thematisch perfekt
+Dein natürlichstes Terrain: Publikum ist KI-interessiert, Themen decken sich 1:1.
 
 | Handle | Was |
 |---|---|
-| `ig_metall` ✅ | Gewerkschaft — **Vorsicht:** parteipolitisch + Branchennähe, meist nur mitlesen (s. Notiz unten) |
+| `t3n_magazin` ✅ | Digital-/Tech-Magazin, viel KI |
+| `heiseonline` ✅ | IT-News, KI-Update täglich |
+| `golem.de` ✅ | Tech/IT, KI und Netzpolitik |
+
+*The Decoder (KI-Fachmagazin) ist **nicht** relevant auf Instagram — nur X (@TheDecoderDE), LinkedIn, Web/Newsletter. Daher gestrichen.*
+
+## Tier 1c — Wissenschafts-Creator (groß, erklären KI für Laien)  ⭐ NEU
+
+Riesige, engagierte Reichweite; genau der „nüchtern erklärt"-Ton.
+
+| Handle | Was | Reichweite |
+|---|---|---|
+| `breakinglab` ✅ | Jacob Beautemps, Physiker — **promoviert zu KI**, erklärt Zukunftsthemen | ~123k |
+| `maithink` ✅ | Mai Thi Nguyen-Kim (maiLab / MAITHINK X) — Wissenschaft nüchtern | ~736k |
+| `doktorwhatson` ✅ | Cedric Engels — Zukunftstech, Gesellschaft | groß |
+
+## Tier 2 — Große Nachrichten (nur bei passenden KI-/Arbeit-Posts kommentieren)
+
+Riesige Reichweite, aber Kommentare drohen zu drowned → gezielt, wenn ein KI-/Arbeit-Thema läuft.
+
+| Handle | Was |
+|---|---|
+| `spiegelmagazin` ✅ · `zdfheute` ✅ · `sz` ✅ · `tagesspiegel` ✅ | fahren KI-Themen groß (schon getestet) |
+| `tagesschau` ⚠️ · `zeitonline` ⚠️ · `handelsblatt` ⚠️ · `ntv` ⚠️ | große News mit KI-Berichterstattung |
+
+## Tier 3 — ergänzend / kleiner, thematisch perfekt
+
+| Handle | Was |
+|---|---|
+| `bitkom` ⚠️ | Digitalverband — KI-Wirtschaft/Studien |
 | `integrationsbeauftragte` ✅ | Bundesbehörde — gelegentlich KI/Arbeit |
-| `arbeitnehmeranwalt` ⚠️ | Anwalt für Arbeitnehmer/Betriebsräte (klein) |
-| `arbeitsrecht2go` ⚠️ | Arbeitsrecht verständlich (Rotwang Law, klein) |
-| `kliemt.arbeitsrecht` ⚠️ | Arbeitsrechts-Kanzlei |
-| `die.kuendigungsschutzkanzlei` ⚠️ | Kündigungsschutz (klein) |
-| `mgp_arbeitsrecht` ⚠️ | Anwältin, Berlin (klein) |
+| `arbeitnehmeranwalt` ⚠️ · `arbeitsrecht2go` ⚠️ · `kliemt.arbeitsrecht` ⚠️ · `die.kuendigungsschutzkanzlei` ⚠️ · `mgp_arbeitsrecht` ⚠️ | Arbeitsrecht-Kanzleien (klein, aber Thema passt) |
 | `lektorat.moor` ✅ | Lektorat — KI-Text-Debatte (Eigeninteresse beachten) |
 
 ## Quell-Accounts — nur Aufhänger, NICHT kommentieren
 
-Englischsprachige KI-Hype/Meme-Seiten. Liefern virale Behauptungen für „Stimmt das?"-Posts (siehe
-`hype-check-workflow.md`), sind aber **keine** Kommentar-Ziele (falsche Sprache/Publikum).
-
+Englische KI-Hype/Meme-Seiten: liefern virale Behauptungen für „Stimmt das?"-Posts
+(siehe `hype-check-workflow.md`), sind aber keine Kommentar-Ziele (falsche Sprache/Publikum).
 - `evolving.ai` ✅ · `artificialintelligenceee` ✅ (AI3E)
 
 ## Notizen / Vorsicht
 
-- **`ig_metall`:** Tarif-/Arbeitskampf-Posts sind parteipolitisches Minenfeld und berühren deine Branche —
-  hier eher liken/speichern als kommentieren.
-- **In-App weiterbauen:** Einem Tier-1-Account folgen → Instagram schlägt ähnliche vor („Vorgeschlagen").
-  So wächst die Liste organisch. Neue bestätigte Handles hier eintragen.
-- **Meta-Faustregel:** Kommentiere bevorzugt zu Themen, zu denen du **tiefe Posts hast** (Bewerbungs-KI,
-  Kennzeichnung, Arbeitslosenzahlen, KI-Sicherheit) — dann ist der Kommentar ein Vorgeschmack aufs Carousel.
+- **`ig_metall`:** Tarif-/Arbeitskampf-Posts = parteipolitisches Minenfeld + Branchennähe → eher mitlesen.
+- **Beste neue Ziele** (falls du priorisieren willst): `breakinglab`, `algorithmwatch`, `maithink`,
+  `christina_linke`, `t3n_magazin` — groß **und** exakt on-topic.
+- **In-App weiterbauen:** einem Tier-1-Account folgen → „Vorgeschlagen" liefert ähnliche. Neue bestätigte
+  Handles hier eintragen; ⚠️ nach dem Bestätigen auf ✅ setzen.
