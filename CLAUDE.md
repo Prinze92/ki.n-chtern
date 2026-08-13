@@ -29,9 +29,13 @@ Nicht „Ist KI moralisch?", sondern „Deine Bewerbung wurde aussortiert. Darf 
 
 ## Recherche-Regeln
 
-- **Immer recherchieren, bei jeder Anfrage** — auch bei einem einzelnen Kommentar, einer kurzen Antwort
-  oder einer Nebenbemerkung. Umfang (viel oder wenig) liegt im eigenen Ermessen, aber ungeprüft bleibt
-  nichts, was als Fakt formuliert wird.
+- **Immer recherchieren, bei jeder Anfrage** — auch bei einem einzelnen Kommentar oder einer kurzen
+  Antwort. Ungeprüft bleibt nichts, was als Fakt formuliert wird. Der Umfang richtet sich nach dem Zweck:
+  - **Kommentare: kurz halten.** Die zentrale Behauptung an einer Primärquelle prüfen, Ergebnis knapp
+    festhalten. Keine Quellentabelle, keine Nebenstränge — nur der Kommentartext plus Quellenangabe
+    und ein Hinweis, falls etwas ungeprüft bleibt.
+  - **Posts: vollständig recherchieren.** Primärquellen, Gegenstimmen, Zahlenherkunft, `sources.md`
+    mit Belastbarkeitsbewertung.
 - Primärquellen zuerst: EUR-Lex / Amtsblatt der EU, Bundesagentur für Arbeit, Statistisches Bundesamt,
   Gesetzestexte (DSGVO, BDSG, AGG, BetrVG). Aggregatoren und Presse nur als Zeiger auf das Original.
 - Jede Zahl in einem Post muss in `sources.md` eine Fundstelle haben.
