@@ -135,3 +135,37 @@ posts:
       sends: null
       sends_per_reach: null
       saves: null
+
+  - id: 7
+    slug: ki-eingaben-datenschutz
+    ordner: post-007-ki-eingaben-datenschutz
+    titel: "Was du besser nicht in eine KI eintippst"
+    saeule: betrifft_dich
+    status: gepostet           # live am 13.08.2026; Bitkom-Studie + DSGVO recherchiert; liegt in archive/
+    blaetter: 6
+    geplant_fuer: aktuell
+    gepostet_am: 2026-08-13
+    offen:
+      - "Nach ~7 Tagen Kennzahlen (reach/sends/saves) aus Insights nachtragen"
+    kennzahlen:
+      reach: null
+      sends: null
+      sends_per_reach: null
+      saves: null
+
+  - id: 8
+    slug: ki-wasserzeichen
+    ordner: post-008-ki-wasserzeichen
+    titel: "KI-Text hat jetzt ein Wasserzeichen"
+    saeule: betrifft_dich
+    status: gerendert          # 6 Blätter (13.08.2026); Anthropic/Google-Wasserzeichen + Art. 50 + SynthID-Robustheit recherchiert; neutral (auch eigene Firma)
+    blaetter: 6
+    geplant_fuer: aktuell
+    gepostet_am: null
+    offen:
+      - "Optional: Anthropic-Primaerankuendigung + SynthID-Robustheitsstudie direkt gegenlesen, dann geprueft"
+    kennzahlen:
+      reach: null
+      sends: null
+      sends_per_reach: null
+      saves: null

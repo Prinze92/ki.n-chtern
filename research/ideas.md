@@ -24,6 +24,8 @@ Wie wir entscheiden, was wir posten. Reihenfolge: **Idee → Recherche an Primä
 | Neuorientierung im KI-Zeitalter — Umbau statt Untergang | Betrifft dich | IAB-Befund (Umverteilung von Tätigkeiten) | roh |
 | „Killt KI Jobs / die Programmierer?" — Verschiebung statt Verschwinden | Hype-Check | IAB/BIBB/GWS-Studie 2025 (netto ~Nullsumme) | verplant → Post 5 |
 | „Die KI-Antwort ganz oben" — warum AI Overviews Stereotype/Fehler als Fakt zeigen | Betrifft dich | Google AI Overview (dokumentierte Fehlausgaben 2024); Mechanik: fasst Top-Ranking zusammen | roh |
+| „Was du nicht in eine KI eintippst" — Datenschutz bei Eingaben | Betrifft dich | Bitkom-Studie 2026; DSGVO | verplant → Post 7 |
+| KI-Wasserzeichen — was das unsichtbare Zeichen wirklich beweist | Betrifft dich | Anthropic/Google-Wasserzeichen; Art. 50; SynthID-Robustheit | verplant → Post 8 |
 
 > Die fünf Ideen oberhalb (Palantir … AI Overview) stammen aus der **Kommentar-Session (Aug 2026)** —
 > externe Aufhänger bei @bundesagenturfuerarbeit, @netzpolitikorg, @zdfheute, @spiegelmagazin, @evolving.ai.

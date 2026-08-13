@@ -27,12 +27,13 @@ OUT_LOGO = REPO / "brand" / "logo"
 OUT_POST2 = REPO / "posts" / "post-002-arbeitslosigkeit-hype-check" / "slides"
 OUT_POST3 = REPO / "posts" / "post-003-was-du-tun-kannst" / "slides"
 OUT_POST5 = REPO / "posts" / "post-005-killt-ki-die-jobs" / "slides"
-# Gepostet & archiviert: Post 0/1/4/6 liegen unter archive/ (veröffentlichter Stand). Sie werden
+# Gepostet & archiviert: Post 0/1/4/6/7 liegen unter archive/ (veröffentlichter Stand). Sie werden
 # NICHT mehr aktiv gerendert, damit die publizierten PNGs nicht versehentlich überschrieben werden
 # (z. B. bei einer Änderung an frame()/STAND). Die Funktionen build_intro/build_post1/build_post4/
-# build_post6 bleiben unten als Reproduzierbarkeits-Referenz erhalten.
+# build_post6/build_post7 bleiben unten als Reproduzierbarkeits-Referenz erhalten.
+OUT_POST8 = REPO / "posts" / "post-008-ki-wasserzeichen" / "slides"
 OUT_STORY = REPO / "brand" / "stories"
-for _d in (OUT_LOGO, OUT_STORY, OUT_POST2, OUT_POST3, OUT_POST5):
+for _d in (OUT_LOGO, OUT_STORY, OUT_POST2, OUT_POST3, OUT_POST5, OUT_POST8):
     _d.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------- palette
@@ -172,7 +173,7 @@ avatar(RED, PAPER, PAPER, "avatar_rot.png")
 W, H = 1080, 1350
 M = 100
 MAXW = W - 2 * M
-STAND = "STAND 11.08.2026"
+STAND = "STAND 13.08.2026"
 
 
 def wrap(d, text, fnt, maxw):
@@ -958,6 +959,168 @@ def build_post6():
     return slides
 
 
+# ================================================================ POST 7 (Was du nicht in KI eingibst)
+def build_post7():
+    T = 6
+    slides = []
+
+    # --- 01 HOOK
+    img, d = new(1, T)
+    y = 320
+    fo = f("COND", 100)
+    for line in ["58 PROZENT", "NUTZEN SCHON KI."]:
+        d.text((M, y), line, font=fo, fill=INK); y += 116
+    y += 34
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 54
+    block(d, y, "Kaum jemand weiß, was mit dem passiert, was man da eintippt.",
+          f("BOOK", 44), INK, MAXW - 40, 1.4)
+    slides.append(img)
+
+    # --- 02 Was mit der Eingabe passiert
+    img, d = new(2, T)
+    y = kicker(d, 250, "Was mit deiner Eingabe passiert")
+    block(d, y, "Was du eintippst, verlässt dein Gerät. Es liegt dann auf den "
+                "Servern des Anbieters und wird bei vielen kostenlosen Versionen "
+                "zum Training des Modells genutzt, solange du nicht widersprichst. "
+                "Ein Chatfenster wirkt privat. Technisch ist es das nicht.",
+          f("BOOK", 42), INK, MAXW, 1.44)
+    slides.append(img)
+
+    # --- 03 Der Teil, den viele übersehen
+    img, d = new(3, T)
+    y = kicker(d, 240, "Der Teil, den viele übersehen")
+    block(d, y, "Heikel wird es bei Daten von anderen. Wer den Lebenslauf einer "
+                "Bewerberin oder Kundendaten reinkopiert, verarbeitet fremde "
+                "personenbezogene Daten und trägt die Verantwortung dafür. Laut "
+                "Bitkom wissen das selbst viele Firmen nicht genau. Die Unsicherheit "
+                "ist also nicht deine allein.",
+          f("BOOK", 42), INK, MAXW, 1.44)
+    slides.append(img)
+
+    # --- 04 Zwei klare Grenzen
+    img, d = new(4, T)
+    y = kicker(d, 250, "Zwei klare Grenzen")
+    block(d, y, "Zwei Dinge sind eindeutig. Erstens: personenbezogene Daten von "
+                "anderen gehören nicht ungefragt in ein KI-Tool. Zweitens: was unter "
+                "Geheimhaltung fällt, etwa Firmeninterna oder Vertragsdetails, bleibt "
+                "draußen. Bei eigenen sensiblen Themen wie Gesundheit gilt dasselbe "
+                "im Kleinen.",
+          f("BOOK", 42), INK, MAXW, 1.44)
+    slides.append(img)
+
+    # --- 05 Und trotzdem nutzbar
+    img, d = new(5, T)
+    y = kicker(d, 250, "Und trotzdem nutzbar")
+    block(d, y, "Das heißt nicht Finger weg von KI. Meistens reicht es, Namen und "
+                "erkennbare Details rauszunehmen und in den Einstellungen dem Training "
+                "zu widersprechen. Das wirklich Vertrauliche schreibst du gar nicht "
+                "erst rein. Aus einem echten Fall wird so ein allgemeines Beispiel, "
+                "und die KI hilft trotzdem.",
+          f("BOOK", 42), INK, MAXW, 1.44)
+    slides.append(img)
+
+    # --- 06 Quellen
+    img, d = new(6, T)
+    y = kicker(d, 240, "Quellen")
+    for s in ["Bitkom: Studie zur KI-Nutzung in Deutschland, Bevölkerung 2026 (58 % nutzen KI; Datenschutz als größte Unsicherheit)",
+              "DSGVO: Verantwortlichkeit für die Verarbeitung personenbezogener Daten"]:
+        caret(d, M + 18, y + 24, 30, 6, RED)
+        yy = y
+        for ln in wrap(d, s, f("BOOK", 36), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 36), fill=INK); yy += int(36 * 1.38)
+        y = yy + 34
+    y += 24
+    d.line([(M, y), (W - M, y)], fill=RULE, width=2); y += 42
+    y = block(d, y, "Kein Rechtsrat. Im Zweifel: Datenschutzbeauftragte oder Fachanwalt.",
+              f("BOOK", 34), MUTED, MAXW, 1.4, 34)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar.",
+          f("BOOK", 34), RED, MAXW, 1.4)
+    slides.append(img)
+
+    return slides
+
+
+# ================================================================ POST 8 (KI-Wasserzeichen)
+def build_post8():
+    T = 6
+    slides = []
+
+    # --- 01 HOOK
+    img, d = new(1, T)
+    y = 300
+    fo = f("COND", 92)
+    for line in ["KI-TEXT HAT JETZT", "EIN WASSERZEICHEN."]:
+        d.text((M, y), line, font=fo, fill=INK); y += 108
+    y += 36
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 54
+    block(d, y, "Du siehst es nicht. Und es beweist weniger, als du denkst.",
+          f("BOOK", 44), INK, MAXW - 40, 1.4)
+    slides.append(img)
+
+    # --- 02 Was da passiert
+    img, d = new(2, T)
+    y = kicker(d, 250, "Was da passiert")
+    block(d, y, "Seit dem 2. August verlangt der AI Act, dass Anbieter KI-Ausgaben "
+                "maschinenlesbar kennzeichnen. Anthropic setzt das für Claude-Text um, "
+                "Google für Gemini mit SynthID. Das Zeichen steckt als statistisches "
+                "Muster in der Wortwahl. Für Menschen ist es unsichtbar, erkennbar nur "
+                "über ein eigenes Prüf-Tool.",
+          f("BOOK", 42), INK, MAXW, 1.44)
+    slides.append(img)
+
+    # --- 03 Was ein Treffer wirklich zeigt
+    img, d = new(3, T)
+    y = kicker(d, 240, "Was ein Treffer wirklich zeigt")
+    block(d, y, "Ein gefundenes Wasserzeichen zeigt nur, dass die KI den Text "
+                "verarbeitet hat. Ob sie ihn selbst geschrieben oder bloß korrigiert "
+                "hat, sagt es nicht. Wer seinen eigenen Text zum Übersetzen oder "
+                "Glätten einwirft, bekommt dasselbe Zeichen.",
+          f("BOOK", 42), INK, MAXW, 1.44)
+    slides.append(img)
+
+    # --- 04 Wie schnell es verschwindet
+    img, d = new(4, T)
+    y = kicker(d, 240, "Wie schnell es verschwindet")
+    block(d, y, "Weg ist es auch leicht. Etwas umformulieren, durch eine andere "
+                "Sprache und zurück übersetzen oder ein Humanizer-Tool drüberlaufen "
+                "lassen, und der Nachweis ist futsch. An Googles SynthID wurde das "
+                "getestet, es hält solchen Änderungen kaum stand. Wer KI bewusst "
+                "verstecken will, umgeht das Zeichen mühelos.",
+          f("BOOK", 42), INK, MAXW, 1.44)
+    slides.append(img)
+
+    # --- 05 Was das für dich heißt
+    img, d = new(5, T)
+    y = kicker(d, 250, "Was das für dich heißt")
+    block(d, y, "Für dich heißt das zweierlei. Lässt du dein Bewerbungsschreiben von "
+                "einer KI glätten, kann es später als KI-verarbeitet auffallen, obwohl "
+                "der Inhalt von dir stammt. Und ein KI-Detektor taugt nicht als Beweis, "
+                "in keine Richtung. Ein Ergebnis ist ein Hinweis, kein Urteil.",
+          f("BOOK", 42), INK, MAXW, 1.44)
+    slides.append(img)
+
+    # --- 06 Quellen
+    img, d = new(6, T)
+    y = kicker(d, 240, "Quellen")
+    for s in ["Berichte zur Wasserzeichen-Kennzeichnung bei Claude, August 2026",
+              "Google SynthID und Studien zur Entfernbarkeit statistischer Wasserzeichen",
+              "AI Act, Artikel 50: maschinenlesbare Kennzeichnung von KI-Ausgaben"]:
+        caret(d, M + 18, y + 22, 30, 6, RED)
+        yy = y
+        for ln in wrap(d, s, f("BOOK", 34), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 34), fill=INK); yy += int(34 * 1.4)
+        y = yy + 30
+    y += 20
+    d.line([(M, y), (W - M, y)], fill=RULE, width=2); y += 40
+    y = block(d, y, "Kein Rechtsrat. Beschreibt die Technik und die Regel, nicht den Einzelfall.",
+              f("BOOK", 32), MUTED, MAXW, 1.4, 30)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar.",
+          f("BOOK", 32), RED, MAXW, 1.4)
+    slides.append(img)
+
+    return slides
+
+
 # ================================================================ STORIES (1080x1920)
 def build_stories():
     """Story-Slides im Hochformat. Inhalt bleibt in der Sicherheitszone (oben ~260 px für
@@ -1044,11 +1207,13 @@ def save_slides(slides, out_dir):
 n2 = save_slides(build_post2(), OUT_POST2)
 n3 = save_slides(build_post3(), OUT_POST3)
 n5 = save_slides(build_post5(), OUT_POST5)
+n8 = save_slides(build_post8(), OUT_POST8)
 print(f"Post 2: {n2} Blätter -> {OUT_POST2}")
 print(f"Post 3: {n3} Blätter -> {OUT_POST3}")
 print(f"Post 5: {n5} Blätter -> {OUT_POST5}")
+print(f"Post 8: {n8} Blätter -> {OUT_POST8}")
 print(f"Logo    -> {OUT_LOGO}")
-print("(Post 0/1/4/6 gepostet & archiviert -> archive/, nicht neu gerendert)")
+print("(Post 0/1/4/6/7 gepostet & archiviert -> archive/, nicht neu gerendert)")
 
 _stories = build_stories()
 for _name, _im in _stories:
