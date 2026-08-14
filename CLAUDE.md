@@ -50,6 +50,10 @@ Gilt für jeden Karussell-Post. Vorbild sind Post 7, 8 und 9.
 **Aufbau**
 - **Blatt 01 Hook:** Schlagzeile in Großbuchstaben über zwei bis drei Zeilen, darunter ein Satz mit der
   konkretesten Zahl.
+  **Das Thema muss auf Blatt 01 beim Namen genannt sein.** Im Feed sieht man oft nur das erste Blatt.
+  Produkt, Hersteller, Behörde, Gesetz oder Ort ausschreiben, statt sie als „die Brille" oder „die
+  Software" zu umschreiben. Catchy und konkret schließen sich nicht aus, der Name gehört in die
+  Schlagzeile selbst und nicht erst in die Unterzeile.
 - **Blätter dazwischen:** je ein Kicker und ein zusammenhängender Absatz aus drei bis sechs Sätzen.
   Keine Stichpunktlisten auf den Inhaltsblättern.
 - **Letztes Blatt Quellen:** kurze Quellenzeilen, Trennlinie, Hinweis „Kein Rechtsrat", Einladung zur

@@ -1260,7 +1260,7 @@ def build_post10():
     img, d = new(1, T, ST)
     y = 268
     fo = f("COND", 88)
-    for line in ["DIE BRILLE SIEHT,", "WAS DU SIEHST. UND", "HÖRT ZWEI METER WEIT."]:
+    for line in ["METAS KI-BRILLE SIEHT,", "WAS DU SIEHST. UND", "HÖRT ZWEI METER WEIT."]:
         d.text((M, y), line, font=fo, fill=INK); y += 104
     y += 34
     d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 52

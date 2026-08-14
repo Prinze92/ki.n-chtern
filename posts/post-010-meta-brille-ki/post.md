@@ -1,4 +1,4 @@
-# Post 10 — „Die Brille sieht, was du siehst"
+# Post 10 — „Metas KI-Brille sieht, was du siehst"
 
 - **Säule:** Betrifft dich direkt
 - **Tag:** aktuell (HateAid-Strafanzeige vom 12.08.2026, Bundesnetzagentur prüft)
@@ -19,7 +19,7 @@
 
 | Blatt | Kicker | Inhalt |
 |-------|--------|--------|
-| 01 | Hook | **DIE BRILLE SIEHT, WAS DU SIEHST. UND HÖRT ZWEI METER WEIT.** Über sieben Millionen sind verkauft. Ansehen kann man ihnen das kaum. |
+| 01 | Hook | **METAS KI-BRILLE SIEHT, WAS DU SIEHST. UND HÖRT ZWEI METER WEIT.** Über sieben Millionen sind verkauft. Ansehen kann man ihnen das kaum. |
 | 02 | Was drinsteckt | Kamera und sechs Mikrofone, laut BfDI mindestens zwei Meter Reichweite. Die KI greift auf die Kamera zu und wertet aus, was der Träger ansieht. Übersetzung läuft auf dem Gerät, bei aktiver Cloud-Verarbeitung gehen Daten an Metas Server. |
 | 03 | Was die Leuchte verrät | **Beleg-Panel** mit dem Wortlaut des BfDI: LED leuchtet bei Foto, Video und Audio, „Einen Indikator für reine Sprachaufnahmen gibt es nicht." Darunter: Der Hamburger Datenschutzbeauftragte hält die Leuchte im Alltag für kaum wahrnehmbar. |
 | 04 | Wer noch mitschaut | Februar 2026, Nairobi: über dreißig Beschäftigte beschrifteten Material aus den Brillen fürs KI-Training und sahen Nacktaufnahmen, Sex und Bankdaten. Meta beendete den Vertrag. Der BfDI schreibt dagegen, Bildmaterial werde derzeit nicht genutzt. Das passt nicht zusammen. |
@@ -54,7 +54,7 @@
 
 ## Alt-Text (je Blatt)
 
-- **01:** Papierbeiges Aktenblatt, große Schlagzeile „Die Brille sieht, was du siehst, und hört zwei Meter weit", darunter der Hinweis auf über sieben Millionen verkaufte Geräte.
+- **01:** Papierbeiges Aktenblatt, große Schlagzeile „Metas KI-Brille sieht, was du siehst, und hört zwei Meter weit", darunter der Hinweis auf über sieben Millionen verkaufte Geräte.
 - **02:** Kicker „Was drinsteckt": Kamera und sechs Mikrofone mit mindestens zwei Metern Reichweite, KI mit Kamerazugriff, Live-Übersetzung lokal, Cloud-Verarbeitung überträgt an Metas Server.
 - **03:** Kicker „Was die Leuchte verrät": ein hervorgehobenes Zitatfeld mit dem Wortlaut des Bundesdatenschutzbeauftragten, wonach die LED bei Foto-, Video- und Audioaufnahmen aufleuchtet, es für reine Sprachaufnahmen aber keinen Indikator gibt. Darunter: Der Hamburger Datenschutzbeauftragte hält die Leuchte im Alltag für kaum wahrnehmbar.
 - **04:** Kicker „Wer noch mitschaut": Recherche aus Nairobi vom Februar 2026, über dreißig Beschäftigte beschrifteten Brillenmaterial fürs KI-Training, Meta beendete den Vertrag, 1.108 Betroffene.

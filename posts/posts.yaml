@@ -193,7 +193,7 @@ posts:
   - id: 10
     slug: meta-brille-ki
     ordner: post-010-meta-brille-ki
-    titel: "Die Brille sieht, was du siehst"
+    titel: "Metas KI-Brille sieht, was du siehst"
     saeule: betrifft_dich
     status: gerendert          # 6 Blätter (14.08.2026); Ankerquelle BfDI-FAQ, dazu HateAid-Strafanzeige 12.08.2026
     blaetter: 6
