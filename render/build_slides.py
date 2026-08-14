@@ -32,8 +32,9 @@ OUT_POST5 = REPO / "posts" / "post-005-killt-ki-die-jobs" / "slides"
 # (z. B. bei einer Änderung an frame()/STAND). Die Funktionen build_intro/build_post1/build_post4/
 # build_post6/build_post7 bleiben unten als Reproduzierbarkeits-Referenz erhalten.
 OUT_POST8 = REPO / "posts" / "post-008-ki-wasserzeichen" / "slides"
+OUT_POST9 = REPO / "posts" / "post-009-verhaltenserkennung-mannheim" / "slides"
 OUT_STORY = REPO / "brand" / "stories"
-for _d in (OUT_LOGO, OUT_STORY, OUT_POST2, OUT_POST3, OUT_POST5, OUT_POST8):
+for _d in (OUT_LOGO, OUT_STORY, OUT_POST2, OUT_POST3, OUT_POST5, OUT_POST8, OUT_POST9):
     _d.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------- palette
@@ -173,7 +174,7 @@ avatar(RED, PAPER, PAPER, "avatar_rot.png")
 W, H = 1080, 1350
 M = 100
 MAXW = W - 2 * M
-STAND = "STAND 13.08.2026"
+STAND = "STAND 13.08.2026"          # Vorgabe; je Post via new(..., stand=) überschreibbar
 
 
 def wrap(d, text, fnt, maxw):
@@ -198,7 +199,7 @@ def block(d, y, text, fnt, fill, maxw=MAXW, lead=1.34, after=0, x=M):
     return y + after
 
 
-def frame(d, idx, total):
+def frame(d, idx, total, stand=None):
     d.line([(M, 84), (W - M, 84)], fill=INK, width=3)
     d.line([(M, 94), (W - M, 94)], fill=RULE, width=2)
     caret(d, M + 16, 140, 34, 7, RED)
@@ -209,7 +210,7 @@ def frame(d, idx, total):
 
     d.line([(M, H - 150), (W - M, H - 150)], fill=RULE, width=2)
     fo = f("MONO", 25)
-    d.text((M, H - 128), STAND, font=fo, fill=MUTED)
+    d.text((M, H - 128), stand or STAND, font=fo, fill=MUTED)
     r = f"QUELLEN → BLATT {total:02d}"
     d.text((W - M - d.textlength(r, font=fo), H - 128), r, font=fo, fill=MUTED)
 
@@ -222,10 +223,10 @@ def kicker(d, y, text, color=RED):
     return y + 52
 
 
-def new(idx, total):
+def new(idx, total, stand=None):
     img = Image.new("RGB", (W, H), PAPER)
     d = ImageDraw.Draw(img)
-    frame(d, idx, total)
+    frame(d, idx, total, stand)
     return img, d
 
 
@@ -1121,6 +1122,93 @@ def build_post8():
     return slides
 
 
+def build_post9():
+    T = 6
+    ST = "STAND 14.08.2026"
+    slides = []
+
+    # --- 01 HOOK
+    img, d = new(1, T, ST)
+    y = 268
+    fo = f("COND", 88)
+    for line in ["POLIZISTEN SPIELEN", "SCHLÄGE VOR, DAMIT", "DIE KAMERA LERNT."]:
+        d.text((M, y), line, font=fo, fill=INK); y += 104
+    y += 34
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 52
+    block(d, y, "2.000 Filme sind gedreht. 10.000 sollen es werden.",
+          f("BOOK", 44), INK, MAXW - 40, 1.4)
+    slides.append(img)
+
+    # --- 02 Was in Mannheim läuft
+    img, d = new(2, T, ST)
+    y = kicker(d, 240, "Was in Mannheim läuft")
+    block(d, y, "Seit Dezember 2018 wertet in Mannheim eine Software aus, wie sich "
+                "Menschen auf der Straße bewegen. Erfasst sind fünf Bereiche der "
+                "Innenstadt, darunter der Bahnhofsvorplatz und der Marktplatz. Von 72 "
+                "geplanten Kameras hängen 68, an die Software angeschlossen sind 59. "
+                "Sie soll 17 Bewegungsmuster erkennen, etwa Schläge, Tritte oder Stürze. "
+                "Welche genau es sind, gibt das Polizeipräsidium nicht heraus.",
+          f("BOOK", 42), INK, MAXW, 1.44)
+    slides.append(img)
+
+    # --- 03 Warum gedreht wird
+    img, d = new(3, T, ST)
+    y = kicker(d, 240, "Warum gedreht wird")
+    block(d, y, "Damit ein System Gewalt erkennt, braucht es Aufnahmen von Gewalt. Die "
+                "gibt es kaum. Also stellen Polizisten die Szenen selbst nach, mit "
+                "Bodenmatte und mehrseitigem Drehbuch. 2020 waren es 136 Sequenzen. "
+                "Inzwischen sind rund 2.000 Filme gedreht, geplant sind 10.000.",
+          f("BOOK", 42), INK, MAXW, 1.44)
+    slides.append(img)
+
+    # --- 04 Was das Land selbst schrieb
+    img, d = new(4, T, ST)
+    y = kicker(d, 232, "Was das Land selbst schrieb")
+    block(d, y, "Im Dezember 2023 hat das Innenministerium dem Landtag berichtet, wie "
+                "es um die Software steht. Sie erzeugt zwar Alarme, die werden aber "
+                "ausschließlich zur Weiterentwicklung genutzt und nicht einheitlich "
+                "protokolliert. Auswerten lässt sich deshalb nicht, wie viel sie "
+                "wirklich erkennt. Eine Marktreife war nicht erreicht. Die 552 Vorgänge "
+                "des Jahres fand das Personal an der herkömmlichen Videobeobachtung.",
+          f("BOOK", 41), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 05 Was das für dich heißt
+    img, d = new(5, T, ST)
+    y = kicker(d, 232, "Was das für dich heißt")
+    block(d, y, "Das Projekt endet im November 2026, die wissenschaftliche Auswertung "
+                "ist für Anfang 2027 geplant. Ausgeweitet wird trotzdem schon. Hamburg "
+                "testet seit 2025, Heidelberg ist als nächster Standort vorgesehen. Am "
+                "Nordende der Breiten Straße, einem der überwachten Orte, verzeichnet "
+                "die Kriminalstatistik seit 2017 keine Delikte. Das Polizeigesetz "
+                "verlangt dort eine Belastung, die sich deutlich abhebt.",
+          f("BOOK", 41), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 06 Quellen
+    img, d = new(6, T, ST)
+    y = kicker(d, 240, "Quellen")
+    for s_ in ["Landtag Baden-Württemberg, Drucksache 17/5816: Stellungnahme des "
+               "Innenministeriums vom 12. Dezember 2023",
+               "netzpolitik.org, Recherchen zum Mannheimer Projekt, 2025 und August 2026",
+               "Paragraf 44 Polizeigesetz Baden-Württemberg, Absätze 3, 4 und 10"]:
+        caret(d, M + 18, y + 22, 30, 6, RED)
+        yy = y
+        for ln in wrap(d, s_, f("BOOK", 33), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 33), fill=INK); yy += int(33 * 1.4)
+        y = yy + 26
+    y += 16
+    d.line([(M, y), (W - M, y)], fill=RULE, width=2); y += 36
+    y = block(d, y, "Kein Rechtsrat. Beschreibt die Vorschrift und die amtlichen Angaben, "
+                    "nicht den Einzelfall.",
+              f("BOOK", 31), MUTED, MAXW, 1.4, 28)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar.",
+          f("BOOK", 31), RED, MAXW, 1.4)
+    slides.append(img)
+
+    return slides
+
+
 # ================================================================ STORIES (1080x1920)
 def build_stories():
     """Story-Slides im Hochformat. Inhalt bleibt in der Sicherheitszone (oben ~260 px für
@@ -1208,10 +1296,12 @@ n2 = save_slides(build_post2(), OUT_POST2)
 n3 = save_slides(build_post3(), OUT_POST3)
 n5 = save_slides(build_post5(), OUT_POST5)
 n8 = save_slides(build_post8(), OUT_POST8)
+n9 = save_slides(build_post9(), OUT_POST9)
 print(f"Post 2: {n2} Blätter -> {OUT_POST2}")
 print(f"Post 3: {n3} Blätter -> {OUT_POST3}")
 print(f"Post 5: {n5} Blätter -> {OUT_POST5}")
 print(f"Post 8: {n8} Blätter -> {OUT_POST8}")
+print(f"Post 9: {n9} Blätter -> {OUT_POST9}")
 print(f"Logo    -> {OUT_LOGO}")
 print("(Post 0/1/4/6/7 gepostet & archiviert -> archive/, nicht neu gerendert)")
 

@@ -37,6 +37,44 @@ Nicht „Ist KI moralisch?", sondern „Deine Bewerbung wurde aussortiert. Darf 
 - **Humor und Selbstironie sind erwünscht** — solange sie sich gegen uns selbst richten,
   nie gegen das Gegenüber.
 
+## Post-Regeln (Aufbau, Umfang, Sprache)
+
+Gilt für jeden Karussell-Post. Vorbild sind Post 7, 8 und 9.
+
+**Umfang**
+- **5 bis 6 Blätter, nie mehr.** Lieber dichter als länger.
+- Ein Gedanke pro Blatt. Was nicht draufpasst, kommt in die Caption oder wird ein eigener Post.
+- Was bewusst weggelassen wurde, in `post.md` unter „Bewusst nicht auf den Blättern" festhalten.
+  Das ist auch der Vorrat für Antworten auf Nachfragen in den Kommentaren.
+
+**Aufbau**
+- **Blatt 01 Hook:** Schlagzeile in Großbuchstaben über zwei bis drei Zeilen, darunter ein Satz mit der
+  konkretesten Zahl.
+- **Blätter dazwischen:** je ein Kicker und ein zusammenhängender Absatz aus drei bis sechs Sätzen.
+  Keine Stichpunktlisten auf den Inhaltsblättern.
+- **Letztes Blatt Quellen:** kurze Quellenzeilen, Trennlinie, Hinweis „Kein Rechtsrat", Einladung zur
+  sichtbaren Korrektur.
+
+**Sprache (menschlich, keine KI-Tells)**
+- Keine Gedankenstriche, kein Dreiklang, keine „nicht X, sondern Y"-Konstruktion.
+- Kicker variieren, nicht schematisch durchzählen. Ganze Sätze, Alltagssprache.
+- Zahlen ausschreiben und einordnen, statt sie nur zu nennen.
+
+**Immer dabei**
+- **Caption:** Kern zuerst, dann die Einschränkung, dann was es für den Leser heißt. Endet mit
+  Quellenhinweis und Korrektur-Einladung. Fünf bis neun Hashtags.
+- **Alt-Text je Blatt.**
+- **`sources.md`** mit Belegtabelle, Belastbarkeitsbewertung und offenen Lücken.
+
+**Rendern**
+- Eine `build_postN()` je Post in `render/build_slides.py`, Ausgabe nach `posts/<ordner>/slides/blatt_NN.png`.
+- Aufruf: `python render/build_slides.py` (braucht Pillow).
+- Das Skript rendert **alle aktiven Posts plus Logo und Stories** neu und fasst dabei auch fremde PNGs an.
+  Nach dem Lauf alles zurücksetzen, was nicht zum eigenen Post gehört (`git checkout -- <pfad>`),
+  damit der Commit sauber bleibt.
+- Stand-Datum je Post über `new(idx, total, stand)` setzen, nicht die globale Konstante ändern.
+- Gepostete Posts liegen unter `archive/` und werden nicht neu gerendert.
+
 ## Recherche-Regeln
 
 - **Immer recherchieren, bei jeder Anfrage** — auch bei einem einzelnen Kommentar oder einer kurzen
