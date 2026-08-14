@@ -26,6 +26,10 @@ Wie wir entscheiden, was wir posten. Reihenfolge: **Idee → Recherche an Primä
 | „Die KI-Antwort ganz oben" — warum AI Overviews Stereotype/Fehler als Fakt zeigen | Betrifft dich | Google AI Overview (dokumentierte Fehlausgaben 2024); Mechanik: fasst Top-Ranking zusammen | roh |
 | „Was du nicht in eine KI eintippst" — Datenschutz bei Eingaben | Betrifft dich | Bitkom-Studie 2026; DSGVO | verplant → Post 7 |
 | KI-Wasserzeichen — was das unsichtbare Zeichen wirklich beweist | Betrifft dich | Anthropic/Google-Wasserzeichen; Art. 50; SynthID-Robustheit | verplant → Post 8 |
+| Verhaltenserkennung Mannheim — wer belegt, dass es funktioniert? | Unbequeme Frage | Landtag BW 17/5816 (Stellungnahme IM 12.12.2023); § 44 PolG BW | verplant → Post 9 |
+| KI-Chatbots als Gesprächspartner von Kindern | Betrifft dich | DAK/UKE-Längsschnittstudie 03/2026 (rund 8 % gegen Einsamkeit, bei depressiven Symptomen über 30 %) | recherchiert |
+| Werbung in ChatGPT — wovon hängt ab, was dir angezeigt wird? | Betrifft dich | OpenAI-Ankündigung; Rollout 11.08.2026 (UK, MX, BR, JP, KR) | roh |
+| BMG lizenziert an Suno, 12 Tage nach dem GEMA-Urteil | Unbequeme Frage | LG München I 42 O 763/25; BMG-Mitteilung 12.08.2026 | roh |
 
 > Die fünf Ideen oberhalb (Palantir … AI Overview) stammen aus der **Kommentar-Session (Aug 2026)** —
 > externe Aufhänger bei @bundesagenturfuerarbeit, @netzpolitikorg, @zdfheute, @spiegelmagazin, @evolving.ai.

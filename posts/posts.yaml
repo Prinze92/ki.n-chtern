@@ -169,3 +169,23 @@ posts:
       sends: null
       sends_per_reach: null
       saves: null
+
+  - id: 9
+    slug: verhaltenserkennung-mannheim
+    ordner: post-009-verhaltenserkennung-mannheim
+    titel: "Polizisten spielen Schläge vor, damit die Kamera sie erkennt"
+    saeule: unbequeme_frage
+    status: entwurf            # 9 Blätter geplant; Kernbefund an Primärquelle (Landtag BW 17/5816) im Volltext geprüft
+    blaetter: 9
+    geplant_fuer: aktuell
+    gepostet_am: null
+    offen:
+      - "Aktuelle Zahlen (68/72 Kameras, 59 angeschlossen, 2.000/10.000 Filme, 17 Muster) = Einzelquelle netzpolitik 13.08.2026; gegenpruefen oder als Recherchestand kennzeichnen"
+      - "Protokollierungslage nach 12.2023 nicht dokumentiert; Blatt 05 datiert die Aussage bewusst auf 2023"
+      - "Ergebnis der Pruefung durch die Landesdatenschutzbehoerde offen"
+      - "Rendern, slides/ fuellen"
+    kennzahlen:
+      reach: null
+      sends: null
+      sends_per_reach: null
+      saves: null
