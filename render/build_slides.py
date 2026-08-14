@@ -33,8 +33,9 @@ OUT_POST5 = REPO / "posts" / "post-005-killt-ki-die-jobs" / "slides"
 # build_post6/build_post7/build_post9 bleiben unten als Reproduzierbarkeits-Referenz erhalten.
 OUT_POST8 = REPO / "posts" / "post-008-ki-wasserzeichen" / "slides"
 OUT_POST10 = REPO / "posts" / "post-010-meta-brille-ki" / "slides"
+OUT_POST11 = REPO / "posts" / "post-011-korrektur-58-prozent" / "slides"
 OUT_STORY = REPO / "brand" / "stories"
-for _d in (OUT_LOGO, OUT_STORY, OUT_POST2, OUT_POST3, OUT_POST5, OUT_POST8, OUT_POST10):
+for _d in (OUT_LOGO, OUT_STORY, OUT_POST2, OUT_POST3, OUT_POST5, OUT_POST8, OUT_POST10, OUT_POST11):
     _d.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------- palette
@@ -1345,6 +1346,91 @@ def build_post10():
     return slides
 
 
+def build_post11():
+    """Bauform: Die Korrektur. Beleg-Panel zitiert ausnahmsweise den eigenen Post."""
+    T = 6
+    ST = "STAND 14.08.2026"
+    slides = []
+
+    # --- 01 HOOK
+    img, d = new(1, T, ST)
+    y = 268
+    fo = f("COND", 88)
+    for line in ["58 PROZENT NUTZEN KI,", "SAGTEN WIR. RICHTIGER", "WÄREN 34 GEWESEN."]:
+        d.text((M, y), line, font=fo, fill=INK); y += 104
+    y += 34
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 52
+    block(d, y, "Eine Korrektur in eigener Sache.", f("BOOK", 48), INK, MAXW - 40, 1.4)
+    slides.append(img)
+
+    # --- 02 Was wir geschrieben haben
+    img, d = new(2, T, ST)
+    y = kicker(d, 228, "Was wir geschrieben haben")
+    y = beleg(d, y, "ki.nüchtern, Blatt 01",
+              ['„58 Prozent nutzen schon KI.“'],
+              sub="Post vom 13.08.2026")
+    y += 54
+    block(d, y, "Die Zahl ist richtig abgeschrieben, sie steht so im Studienbericht "
+                "von Bitkom. Richtig war die Zahl. Die Auswahl war es nicht.",
+          f("BOOK", 44), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 03 Was in der Studie steht
+    img, d = new(3, T, ST)
+    y = kicker(d, 232, "Was in der Studie steht")
+    y = block(d, y, "Bitkom hat 1.005 Menschen ab 16 Jahren befragt. Die Studie nennt "
+                    "drei Zahlen. Wir haben eine davon genommen.",
+              f("BOOK", 44), INK, MAXW, 1.42, 56)
+    balken(d, y, [("NUTZEN ÜBERHAUPT", 58, "58 %"),
+                  ("MINDESTENS WÖCHENTLICH", 34, "34 %"),
+                  ("TÄGLICH", 15, "15 %")])
+    slides.append(img)
+
+    # --- 04 Warum das ein Unterschied ist
+    img, d = new(4, T, ST)
+    y = kicker(d, 232, "Warum das ein Unterschied ist")
+    block(d, y, "24 der 58 Prozentpunkte nutzen KI seltener als einmal pro Woche. "
+                "Einmal ausprobiert und jede Woche benutzt ist nicht dasselbe. Bitkom "
+                "überschreibt das Kapitel selbst mit „Ein Drittel nutzt mindestens "
+                "einmal pro Woche KI“. Wir haben die größere Zahl genommen, obwohl die "
+                "kleinere danebenstand.",
+          f("BOOK", 44), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 05 Was wir daraus machen
+    img, d = new(5, T, ST)
+    y = kicker(d, 232, "Was wir daraus machen")
+    y = block(d, y, "Bietet eine Studie mehrere Zahlen an, nennen wir ab jetzt die "
+                    "engste. Klingt eine größere besser, ist genau das ein Warnzeichen.",
+              f("BOOK", 46), INK, MAXW, 1.42, 54)
+    block(d, y, "Unangenehm ist dabei weniger die Zahl als die Notiz: In unseren eigenen "
+                "Unterlagen stand, den Studienbericht vor dem Posten gegenzulesen. "
+                "Gelesen haben wir ihn heute.",
+          f("BOOK", 40), MUTED, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 06 Quellen
+    img, d = new(6, T, ST)
+    y = kicker(d, 240, "Quellen")
+    for s_ in ["Bitkom, Studienbericht „Künstliche Intelligenz in Deutschland“ 2026, "
+               "1.005 Befragte ab 16 Jahren",
+               "Unser Post „Was du besser nicht in eine KI eintippst“ vom 13. August 2026"]:
+        caret(d, M + 18, y + 22, 30, 6, RED)
+        yy = y
+        for ln in wrap(d, s_, f("BOOK", 37), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 37), fill=INK); yy += int(37 * 1.4)
+        y = yy + 26
+    y += 16
+    d.line([(M, y), (W - M, y)], fill=RULE, width=2); y += 36
+    y = block(d, y, "Die übrigen Aussagen aus dem Post bleiben gültig. Korrigiert wird "
+                    "der Aufmacher.", f("BOOK", 35), MUTED, MAXW, 1.4, 28)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar. "
+                "Wie hier.", f("BOOK", 35), RED, MAXW, 1.4)
+    slides.append(img)
+
+    return slides
+
+
 # ================================================================ STORIES (1080x1920)
 def build_stories():
     """Story-Slides im Hochformat. Inhalt bleibt in der Sicherheitszone (oben ~260 px für
@@ -1433,11 +1519,13 @@ n3 = save_slides(build_post3(), OUT_POST3)
 n5 = save_slides(build_post5(), OUT_POST5)
 n8 = save_slides(build_post8(), OUT_POST8)
 n10 = save_slides(build_post10(), OUT_POST10)
+n11 = save_slides(build_post11(), OUT_POST11)
 print(f"Post 2: {n2} Blätter -> {OUT_POST2}")
 print(f"Post 3: {n3} Blätter -> {OUT_POST3}")
 print(f"Post 5: {n5} Blätter -> {OUT_POST5}")
 print(f"Post 8: {n8} Blätter -> {OUT_POST8}")
 print(f"Post 10: {n10} Blätter -> {OUT_POST10}")
+print(f"Post 11: {n11} Blätter -> {OUT_POST11}")
 print(f"Logo    -> {OUT_LOGO}")
 print("(Post 0/1/4/6/7/9 gepostet & archiviert -> archive/, nicht neu gerendert)")
 

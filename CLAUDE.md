@@ -59,9 +59,35 @@ Gilt für jeden Karussell-Post. Vorbild sind Post 7, 8 und 9.
 - **Letztes Blatt Quellen:** kurze Quellenzeilen, Trennlinie, Hinweis „Kein Rechtsrat", Einladung zur
   sichtbaren Korrektur.
 
+**Bauformen (zwischen ihnen wechseln, nicht immer dieselbe)**
+
+Befund vom 14.08.2026: „Was das für dich heißt" kam sechsmal vor, „Die offene Frage" sechsmal,
+„Der Fall" fünfmal. Jeder Post füllte dasselbe Formular aus. Deshalb gilt: **Bauform bewusst wählen
+und in `post.md` unter „Bauform" notieren.** Optik bleibt gleich, Dramaturgie wechselt.
+
+- **Der Fall** (Standard): Hook, was passiert ist, wie es funktioniert, was es für dich heißt, Quellen.
+- **Der Widerspruch:** zwei Beleg-Panels gegeneinander, dazwischen ein Satz. Für Fälle, in denen zwei
+  belastbare Quellen sich widersprechen.
+- **Die Rekonstruktion:** ein Blatt je Schritt, in der Reihenfolge, in der es passiert ist.
+- **Das Selbstexperiment:** „Ich habe X gemacht, das kam zurück." Erst anwenden, wenn wir es wirklich
+  getan haben.
+- **Die Korrektur:** eigener Fehler, Beleg, was daraus folgt. Umgesetzt in Post 11.
+  **Nur bei echten Fehlern.** Eine erfundene Korrektur wäre der teuerste Fehler überhaupt.
+
+**Humor (die Regel aus der Tonlage einlösen)**
+- **Der Witz liegt im Material, nicht im Kommentar dazu.** Absurdes stehen lassen und nicht erklären.
+  Polizisten, die nach Drehbuch Schläge nachspielen, brauchen keine Pointe.
+- **Selbstironie gehört an eine feste Stelle**, meist aufs vorletzte Blatt oder ins Quellenblatt.
+  Sie richtet sich ausschließlich gegen uns. Beispiel aus Post 11: „In unseren eigenen Unterlagen stand,
+  den Studienbericht vor dem Posten gegenzulesen. Gelesen haben wir ihn heute."
+- **Ich-Sätze sind erlaubt und erwünscht.** Was uns überrascht hat, was wir nicht auflösen konnten,
+  wie lange etwas gedauert hat. Anonym heißt nicht stimmlos.
+
 **Sprache (menschlich, keine KI-Tells)**
 - Keine Gedankenstriche, kein Dreiklang, keine „nicht X, sondern Y"-Konstruktion.
-- Kicker variieren, nicht schematisch durchzählen. Ganze Sätze, Alltagssprache.
+- **Kicker sollen etwas sagen, nicht etikettieren.** „Was drinsteckt" ist ein Aktenrücken,
+  „Sechs Mikrofone, zwei Meter" ist eine Information. Nicht schematisch durchzählen.
+- Ganze Sätze, Alltagssprache.
 - Zahlen ausschreiben und einordnen, statt sie nur zu nennen.
 
 **Bildhaftes (stützt den Beleg, schmückt nie)**

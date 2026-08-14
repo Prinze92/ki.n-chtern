@@ -209,3 +209,22 @@ posts:
       sends: null
       sends_per_reach: null
       saves: null
+
+  - id: 11
+    slug: korrektur-58-prozent
+    ordner: post-011-korrektur-58-prozent
+    titel: "58 Prozent nutzen KI, sagten wir. Richtiger wären 34 gewesen."
+    saeule: meta
+    bauform: korrektur
+    status: gerendert          # 6 Blätter (14.08.2026); Fehler am Bitkom-Studienbericht belegt
+    blaetter: 6
+    geplant_fuer: aktuell
+    gepostet_am: null
+    offen:
+      - "Korrigiert Post 7 (Aufmacher 58 % statt 34 %); Fehler am Primaerdokument geprueft"
+      - "NACH dem Posten: Korrekturhinweis in archive/post-007-.../post.md und sources.md ergaenzen, nicht still aendern"
+    kennzahlen:
+      reach: null
+      sends: null
+      sends_per_reach: null
+      saves: null
