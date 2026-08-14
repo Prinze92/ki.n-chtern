@@ -1282,12 +1282,18 @@ def build_post10():
 
     # --- 03 Was die Leuchte verrät
     img, d = new(3, T, ST)
-    y = kicker(d, 240, "Was die Leuchte verrät")
-    block(d, y, "Eine kleine Leuchtdiode am Rahmen zeigt an, dass aufgenommen wird. Für "
-                "reine Sprachaufnahmen gibt es diesen Hinweis nicht. Der Hamburger "
-                "Datenschutzbeauftragte hat die Brille testen lassen und hält die "
-                "Leuchte im Alltag für kaum wahrnehmbar.",
-          f("BOOK", 42), INK, MAXW, 1.44)
+    y = kicker(d, 228, "Was die Leuchte verrät")
+    y = beleg(d, y, "Bundesbeauftragter für den Datenschutz",
+              ['„Auf der Vorderseite der Brille ist',
+               ' eine LED angebracht, welche bei Foto-',
+               ' oder Video- bzw. Audioaufnahmen',
+               ' aufleuchtet. Einen Indikator für reine',
+               ' Sprachaufnahmen gibt es nicht.“'],
+              sub="FAQ zu den Ray-Ban Meta Smart Glasses")
+    y += 54
+    block(d, y, "Der Hamburger Datenschutzbeauftragte hat die Brille testen lassen und "
+                "hält die Leuchte im Alltag für kaum wahrnehmbar.",
+          f("BOOK", 38), INK, MAXW, 1.42)
     slides.append(img)
 
     # --- 04 Wer noch mitschaut

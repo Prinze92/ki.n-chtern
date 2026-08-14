@@ -4,6 +4,8 @@
 - **Tag:** aktuell (HateAid-Strafanzeige vom 12.08.2026, Bundesnetzagentur prüft)
 - **Status:** gerendert (6 Blätter, 14.08.2026)
 - **Blätter:** 6 (Textdichte auf Post-9-Niveau, rund 50 Wörter je Inhaltsblatt)
+- **Bildhaftes:** Blatt 03 Beleg-Panel mit dem wörtlichen BfDI-Zitat zur fehlenden Anzeige bei
+  Sprachaufnahmen. Keine Balkenreihe, weil dem Post eine Zahlenentwicklung fehlt.
 - **Warum jetzt / warum stark:** Über sieben Millionen verkaufte Geräte, und seit dem 12. August läuft eine
   Strafanzeige gegen Meta und vier Händlerketten. Der Post erklärt, was technisch drinsteckt, statt nur
   zu warnen, und korrigiert die verbreitete Schlagzeile „Verbot droht".
@@ -19,7 +21,7 @@
 |-------|--------|--------|
 | 01 | Hook | **DIE BRILLE SIEHT, WAS DU SIEHST. UND HÖRT ZWEI METER WEIT.** Über sieben Millionen sind verkauft. Ansehen kann man ihnen das kaum. |
 | 02 | Was drinsteckt | Kamera und sechs Mikrofone, laut BfDI mindestens zwei Meter Reichweite. Die KI greift auf die Kamera zu und wertet aus, was der Träger ansieht. Übersetzung läuft auf dem Gerät, bei aktiver Cloud-Verarbeitung gehen Daten an Metas Server. |
-| 03 | Was die Leuchte verrät | LED zeigt an, dass aufgenommen wird. Für reine Sprachaufnahmen gibt es keinen Hinweis. Der Hamburger Datenschutzbeauftragte hält die Leuchte im Alltag für kaum wahrnehmbar. |
+| 03 | Was die Leuchte verrät | **Beleg-Panel** mit dem Wortlaut des BfDI: LED leuchtet bei Foto, Video und Audio, „Einen Indikator für reine Sprachaufnahmen gibt es nicht." Darunter: Der Hamburger Datenschutzbeauftragte hält die Leuchte im Alltag für kaum wahrnehmbar. |
 | 04 | Wer noch mitschaut | Februar 2026, Nairobi: über dreißig Beschäftigte beschrifteten Material aus den Brillen fürs KI-Training und sahen Nacktaufnahmen, Sex und Bankdaten. Meta beendete den Vertrag. Der BfDI schreibt dagegen, Bildmaterial werde derzeit nicht genutzt. Das passt nicht zusammen. |
 | 05 | Was für dich gilt | Wer Fremde filmt, verarbeitet deren Daten, die Privatausnahme greift draußen nicht. Aufgenommene können ihre Rechte laut BfDI kaum ausüben. Seit 12. August läuft eine Strafanzeige. Ein Verbot steht bisher nicht an, die Bundesnetzagentur sieht die Voraussetzungen nicht erfüllt. |
 | 06 | Quellen | BfDI-FAQ · HateAid 12.08.2026 · Svenska Dagbladet und Göteborgs-Posten · Kein Rechtsrat. |
@@ -54,7 +56,7 @@
 
 - **01:** Papierbeiges Aktenblatt, große Schlagzeile „Die Brille sieht, was du siehst, und hört zwei Meter weit", darunter der Hinweis auf über sieben Millionen verkaufte Geräte.
 - **02:** Kicker „Was drinsteckt": Kamera und sechs Mikrofone mit mindestens zwei Metern Reichweite, KI mit Kamerazugriff, Live-Übersetzung lokal, Cloud-Verarbeitung überträgt an Metas Server.
-- **03:** Kicker „Was die Leuchte verrät": LED signalisiert Foto und Video, für reine Sprachaufnahmen fehlt der Hinweis, Hamburger Datenschutzbeauftragter hält sie für kaum wahrnehmbar.
+- **03:** Kicker „Was die Leuchte verrät": ein hervorgehobenes Zitatfeld mit dem Wortlaut des Bundesdatenschutzbeauftragten, wonach die LED bei Foto-, Video- und Audioaufnahmen aufleuchtet, es für reine Sprachaufnahmen aber keinen Indikator gibt. Darunter: Der Hamburger Datenschutzbeauftragte hält die Leuchte im Alltag für kaum wahrnehmbar.
 - **04:** Kicker „Wer noch mitschaut": Recherche aus Nairobi vom Februar 2026, über dreißig Beschäftigte beschrifteten Brillenmaterial fürs KI-Training, Meta beendete den Vertrag, 1.108 Betroffene.
 - **05:** Kicker „Was für dich gilt": Träger verarbeiten fremde Daten, Privatausnahme greift draußen nicht, Aufgenommene können Rechte kaum ausüben, Strafanzeige seit 12. August, Bundesnetzagentur sieht keinen Verbotsgrund.
 - **06:** Kicker „Quellen": FAQ des Bundesdatenschutzbeauftragten, HateAid-Strafanzeige vom 12. August 2026, Recherche von Svenska Dagbladet und Göteborgs-Posten, Hinweis kein Rechtsrat.

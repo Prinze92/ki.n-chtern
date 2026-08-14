@@ -60,6 +60,18 @@ Gilt für jeden Karussell-Post. Vorbild sind Post 7, 8 und 9.
 - Kicker variieren, nicht schematisch durchzählen. Ganze Sätze, Alltagssprache.
 - Zahlen ausschreiben und einordnen, statt sie nur zu nennen.
 
+**Bildhaftes (stützt den Beleg, schmückt nie)**
+- **Ein Beleg-Panel je Post.** Die wichtigste Fundstelle wird als Objekt gesetzt statt als Fließtext:
+  `beleg(d, y, kopf, zeilen, sub=)` zeichnet beiges Feld, roten Balken links, Monospace.
+  **Nur wörtliche Zitate ins Panel.** Wortlaut vorher an der Quelle prüfen, keine Zusammenfassung
+  in Anführungszeichen setzen. Kopf nennt die Quelle, `sub` das Datum.
+- **Zahlenreihen als Balken statt im Text:** `balken(d, y, [(label, wert, anzeige)])`.
+  **Immer lineare Skala**, auch wenn ein Balken dadurch zum Splitter wird. Genau das ist die Aussage.
+- **Höchstens zwei bebilderte Blätter je Post.** Die Ruhe des Aktenblatts ist das
+  Unterscheidungsmerkmal im Feed, sie darf nicht wegdekoriert werden.
+- **Keine Fotos, keine Stockbilder, keine KI-Bilder.** Alles wird aus der Marken-Palette gezeichnet.
+  (KI-Bilder wären zusätzlich nach Art. 50 kennzeichnungspflichtig, siehe Repo-Konventionen.)
+
 **Immer dabei**
 - **Caption:** Kern zuerst, dann die Einschränkung, dann was es für den Leser heißt. Endet mit
   Quellenhinweis und Korrektur-Einladung. Fünf bis neun Hashtags.

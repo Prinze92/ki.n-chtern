@@ -22,12 +22,12 @@ Verbot des Inverkehrbringens getarnter Abhör- und Bildaufnahmegeräte.
 
 | Aussage im Post | Quelle | Belastbarkeit |
 |---|---|---|
-| Kamera und Mikrofone; Mikrofone nehmen **mindestens zwei Meter** weit auf | P1 | belastbar (Aufsichtsbehörde) |
+| Kamera und Mikrofone; Mikrofone nehmen **mindestens zwei Meter** weit auf | P1, wörtlich: „Soweit aus der Dokumentation von Meta zur Übersetzungsfunktion ersichtlich, kann das Mikrofon mindestens im Umkreis von zwei Metern aufnehmen." | belastbar (Aufsichtsbehörde) |
 | **Sechs Mikrofone** in Gen 2 seit April 2026 (vorher fünf) | Fachberichterstattung zur Gen-2-Modellpflege | einzelquelle |
 | KI greift auf die Kamera zu und analysiert Bildinhalte (Gebäude beschreiben, Speisekarten übersetzen) | P1 | belastbar |
 | **Live-Übersetzung läuft lokal** auf dem Gerät | P1 | belastbar |
 | Datenübertragung an Meta-Server **nur bei aktivierter Cloud-Verarbeitung**, außerdem beim KI-Feature | P1 | belastbar |
-| **LED leuchtet bei Foto, Video und Audio; für reine Sprachaufnahmen existiert kein Indikator**; bei Gegenlicht oder Sonne möglicherweise nicht sichtbar | P1 | belastbar |
+| **LED leuchtet bei Foto, Video und Audio; für reine Sprachaufnahmen existiert kein Indikator**; bei Gegenlicht oder Sonne möglicherweise nicht sichtbar | P1, wörtlich: „Auf der Vorderseite der Brille ist eine LED angebracht, welche bei Foto- oder Video- bzw. Audioaufnahmen aufleuchtet. Einen Indikator für reine Sprachaufnahmen gibt es nicht." (Wortlaut am 14.08.2026 an der Quelle geprüft, steht als Zitat auf Blatt 03) | belastbar |
 | Hamburger Datenschutzbeauftragter **Thomas Fuchs**: Verbot möglich, LED im Alltag kaum wahrnehmbar (Aussage Ende Juli 2026); Behörde prüft seit Sommer 2025 | Berichterstattung mehrerer Medien, übereinstimmend | belastbar (mehrfach), **Originalzitat nicht selbst eingesehen** |
 | Betroffene können ihre DSGVO-Rechte **nur eingeschränkt** ausüben | P1 | belastbar |
 | Aufnahmen Fremder im öffentlichen Raum sind Verarbeitung personenbezogener Daten; die **Haushaltsausnahme greift dort nicht** | DSGVO Art. 2 Abs. 2 lit. c; übereinstimmende Fachdarstellungen | belastbar |
