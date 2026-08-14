@@ -224,6 +224,42 @@ def kicker(d, y, text, color=RED):
     return y + 52
 
 
+def beleg(d, y, kopf, zeilen, sub=None):
+    """Beleg-Panel: Quelle als sichtbares Objekt statt als Fließtext.
+    Beiges Feld, roter Balken links, Monospace. Verallgemeinert das Muster
+    aus Post 1, Blatt 05. Gibt die Unterkante zurück."""
+    pad = 44
+    h = pad + 38 + (62 if sub else 0) + len(zeilen) * 46 + pad
+    d.rectangle([M, y, W - M, y + h], fill=PANEL)
+    d.line([(M, y), (M, y + h)], fill=RED, width=8)
+    ty = y + pad
+    d.text((M + pad, ty), kopf.upper(), font=f("MONOB", 30), fill=INK)
+    ty += 38
+    if sub:
+        ty += 14
+        d.text((M + pad, ty), sub, font=f("MONO", 26), fill=MUTED)
+        ty += 48
+    for ln in zeilen:
+        d.text((M + pad, ty), ln, font=f("MONO", 28), fill=INK)
+        ty += 46
+    return y + h
+
+
+def balken(d, y, reihen):
+    """Waagerechte Balken für Zahlenreihen. reihen = [(label, wert, anzeige)].
+    Lineare Skala, damit die Größenverhältnisse ehrlich bleiben."""
+    hoechst = max(w for _, w, _ in reihen) or 1
+    bahn = MAXW - 300
+    for label, wert, anzeige in reihen:
+        d.text((M, y), label, font=f("MONO", 26), fill=MUTED)
+        by = y + 36
+        bw = max(6, int(bahn * wert / hoechst))
+        d.rectangle([M, by, M + bw, by + 40], fill=RED)
+        d.text((M + bw + 20, by - 4), anzeige, font=f("BOOK", 34), fill=INK)
+        y = by + 40 + 40
+    return y
+
+
 def new(idx, total, stand=None):
     img = Image.new("RGB", (W, H), PAPER)
     d = ImageDraw.Draw(img)
@@ -1154,24 +1190,30 @@ def build_post9():
 
     # --- 03 Warum gedreht wird
     img, d = new(3, T, ST)
-    y = kicker(d, 240, "Warum gedreht wird")
-    block(d, y, "Damit ein System Gewalt erkennt, braucht es Aufnahmen von Gewalt. Die "
-                "gibt es kaum. Also stellen Polizisten die Szenen selbst nach, mit "
-                "Bodenmatte und mehrseitigem Drehbuch. 2020 waren es 136 Sequenzen. "
-                "Inzwischen sind rund 2.000 Filme gedreht, geplant sind 10.000.",
-          f("BOOK", 42), INK, MAXW, 1.44)
+    y = kicker(d, 236, "Warum gedreht wird")
+    y = block(d, y, "Damit ein System Gewalt erkennt, braucht es Aufnahmen von Gewalt. "
+                    "Die gibt es kaum. Also stellen Polizisten die Szenen selbst nach, "
+                    "mit Bodenmatte und Drehbuch.",
+              f("BOOK", 42), INK, MAXW, 1.44, 56)
+    balken(d, y, [("2020", 136, "136 Sequenzen"),
+                  ("HEUTE", 2000, "rund 2.000"),
+                  ("GEPLANT", 10000, "10.000")])
     slides.append(img)
 
     # --- 04 Was das Land selbst schrieb
     img, d = new(4, T, ST)
-    y = kicker(d, 232, "Was das Land selbst schrieb")
-    block(d, y, "Im Dezember 2023 hat das Innenministerium dem Landtag berichtet, wie "
-                "es um die Software steht. Sie erzeugt zwar Alarme, die werden aber "
-                "ausschließlich zur Weiterentwicklung genutzt und nicht einheitlich "
-                "protokolliert. Auswerten lässt sich deshalb nicht, wie viel sie "
-                "wirklich erkennt. Eine Marktreife war nicht erreicht. Die 552 Vorgänge "
-                "des Jahres fand das Personal an der herkömmlichen Videobeobachtung.",
-          f("BOOK", 41), INK, MAXW, 1.42)
+    y = kicker(d, 228, "Was das Land selbst schrieb")
+    y = beleg(d, y, "Landtag BW, Drucksache 17/5816",
+              ['„Diese sogenannten Trainingsdaten',
+               ' unterliegen keiner standardisierten',
+               ' Protokollierung und bieten somit keine',
+               ' detaillierte Auswertemöglichkeit …“'],
+              sub="Innenministerium an den Landtag, 12.12.2023")
+    y += 54
+    block(d, y, "Auswerten lässt sich also nicht, wie viel die Software erkennt. Eine "
+                "Marktreife war nicht erreicht. Die 552 Vorgänge des Jahres fand das "
+                "Personal an der herkömmlichen Videobeobachtung.",
+          f("BOOK", 38), INK, MAXW, 1.42)
     slides.append(img)
 
     # --- 05 Was das für dich heißt

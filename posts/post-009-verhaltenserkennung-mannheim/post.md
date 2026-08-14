@@ -4,6 +4,8 @@
 - **Tag:** aktuell (netzpolitik-Bericht vom 13.08.2026 zum Stand des Mannheimer Projekts)
 - **Status:** gerendert (6 Blätter, 14.08.2026); Kernbefund an der Primärquelle geprüft
 - **Blätter:** 6 (bewusst dicht, ein Gedanke pro Blatt)
+- **Bildhaftes:** Blatt 03 Balkenreihe (136 / 2.000 / 10.000, lineare Skala), Blatt 04 Beleg-Panel
+  mit dem Zitat der Drucksache. Beides aus der Marken-Palette gezeichnet, keine Fotos, keine KI-Bilder.
 - **Warum stark:** Der Wirksamkeitsnachweis fehlt nicht laut Kritikern, sondern laut dem Innenministerium
   selbst. Das steht schriftlich in einer Landtagsdrucksache und ist damit belastbarer als jede Empörung.
 - **Warum es den Zuschauer betrifft:** Wer über den Mannheimer Bahnhofsvorplatz läuft, wird gefilmt und sein
@@ -17,8 +19,8 @@
 |-------|--------|--------|
 | 01 | Hook | **POLIZISTEN SPIELEN SCHLÄGE VOR, DAMIT DIE KAMERA LERNT.** 2.000 Filme sind gedreht. 10.000 sollen es werden. |
 | 02 | Was in Mannheim läuft | Seit Dezember 2018, fünf Bereiche der Innenstadt, darunter Bahnhofsvorplatz und Marktplatz. Von 72 geplanten Kameras hängen 68, angeschlossen sind 59. 17 Bewegungsmuster, welche genau, wird nicht herausgegeben. |
-| 03 | Warum gedreht wird | Aufnahmen echter Gewalt gibt es kaum. Also stellen Polizisten die Szenen nach, mit Bodenmatte und Drehbuch. 2020 waren es 136 Sequenzen, heute rund 2.000, geplant 10.000. |
-| 04 | Was das Land selbst schrieb | Innenministerium an den Landtag, Dezember 2023: Alarme werden erzeugt, aber nur zur Weiterentwicklung genutzt und nicht einheitlich protokolliert. Auswertbar ist daher nicht, wie viel die Software erkennt. Marktreife nicht erreicht. Die 552 Vorgänge des Jahres fand das Personal an der herkömmlichen Technik. |
+| 03 | Warum gedreht wird | Aufnahmen echter Gewalt gibt es kaum. Also stellen Polizisten die Szenen nach, mit Bodenmatte und Drehbuch. **Balkenreihe:** 136 Sequenzen 2020, rund 2.000 heute, 10.000 geplant. |
+| 04 | Was das Land selbst schrieb | **Beleg-Panel** mit dem Wortlaut aus Drucksache 17/5816 (Innenministerium, 12.12.2023). Darunter: Auswertbar ist daher nicht, wie viel die Software erkennt. Marktreife nicht erreicht. Die 552 Vorgänge fand das Personal an der herkömmlichen Technik. |
 | 05 | Was das für dich heißt | Projektende November 2026, Auswertung erst Anfang 2027, Ausweitung läuft trotzdem: Hamburg seit 2025, Heidelberg vorgesehen. Am Nordende der Breiten Straße verzeichnet die Kriminalstatistik seit 2017 keine Delikte. Das Polizeigesetz verlangt eine Belastung, die sich deutlich abhebt. |
 | 06 | Quellen | Landtag BW 17/5816 · netzpolitik 08/2026 · § 44 PolG BW · Kein Rechtsrat. |
 
@@ -53,8 +55,8 @@
 
 - **01:** Papierbeiges Aktenblatt, große Schlagzeile „Polizisten spielen Schläge vor, damit die Kamera lernt", darunter der Hinweis auf 2.000 gedrehte und 10.000 geplante Trainingsfilme.
 - **02:** Kicker „Was in Mannheim läuft": seit Dezember 2018, fünf Innenstadtbereiche mit Bahnhofsvorplatz und Marktplatz, 68 von 72 Kameras installiert, 59 an die Software angeschlossen, 17 Bewegungsmuster.
-- **03:** Kicker „Warum gedreht wird": zu wenige echte Aufnahmen, deshalb nachgestellte Szenen mit Bodenmatte und Drehbuch, 136 Sequenzen im Jahr 2020, heute rund 2.000, geplant 10.000.
-- **04:** Kicker „Was das Land selbst schrieb": Stellungnahme des Innenministeriums von Dezember 2023, Alarme nur zur Weiterentwicklung, keine einheitliche Protokollierung, keine Marktreife, die 552 Vorgänge fand das Personal an herkömmlicher Technik.
+- **03:** Kicker „Warum gedreht wird": zu wenige echte Aufnahmen, deshalb nachgestellte Szenen mit Bodenmatte und Drehbuch. Darunter drei rote Balken im Größenvergleich: 136 Sequenzen 2020, rund 2.000 heute, 10.000 geplant.
+- **04:** Kicker „Was das Land selbst schrieb": ein hervorgehobenes Zitatfeld aus der Landtagsdrucksache 17/5816 vom 12. Dezember 2023 mit dem Wortlaut, dass die Trainingsdaten keiner standardisierten Protokollierung unterliegen. Darunter: keine Auswertbarkeit, keine Marktreife, die 552 Vorgänge fand das Personal an herkömmlicher Technik.
 - **05:** Kicker „Was das für dich heißt": Projektende November 2026, Auswertung Anfang 2027, Ausweitung nach Hamburg und Heidelberg, am Nordende der Breiten Straße seit 2017 keine Delikte in der Kriminalstatistik.
 - **06:** Kicker „Quellen": Landtagsdrucksache 17/5816, netzpolitik-Recherche August 2026, Paragraf 44 Polizeigesetz Baden-Württemberg, Hinweis kein Rechtsrat.
 
