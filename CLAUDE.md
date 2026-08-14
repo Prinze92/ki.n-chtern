@@ -90,6 +90,12 @@ Gilt für jeden Karussell-Post. Vorbild sind Post 7, 8 und 9.
   damit der Commit sauber bleibt.
 - Stand-Datum je Post über `new(idx, total, stand)` setzen, nicht die globale Konstante ändern.
 - Gepostete Posts liegen unter `archive/` und werden nicht neu gerendert.
+- **Schriftgrößen (Lesbarkeit auf dem Handy, Stand 14.08.2026):** Kicker `kicker(...)` steht auf **38**,
+  Fließtext auf den Inhaltsblättern auf **45 bis 50**, Quellenzeilen auf **40**, Fußnoten auf **35 bis 38**.
+  Kleiner nicht, im Feed wird das Blatt auf Handygröße skaliert. Archivierte Posts übergeben `size=30`
+  am Kicker, damit ihr veröffentlichter Stand reproduzierbar bleibt.
+- **Nach jeder Größenänderung auf Überlauf prüfen.** Inhalt darf nicht unter y=1185 reichen (Fußlinie bei
+  1200). Schnelltest: gerenderte PNGs auf Nicht-Hintergrundpixel zwischen y=1120 und y=1185 abtasten.
 
 ## Kommentar-Regeln (Form und Treffsicherheit)
 

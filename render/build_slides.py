@@ -215,12 +215,14 @@ def frame(d, idx, total, stand=None):
     d.text((W - M - d.textlength(r, font=fo), H - 128), r, font=fo, fill=MUTED)
 
 
-def kicker(d, y, text, color=RED):
-    fo = f("MONOB", 30)
+def kicker(d, y, text, color=RED, size=38):
+    """Kicker-Zeile. size=38 ist der Standard fuer neue Posts (Lesbarkeit auf dem Handy).
+    Archivierte Posts uebergeben size=30, damit ihr veroeffentlichter Stand reproduzierbar bleibt."""
+    fo = f("MONOB", size)
     d.text((M, y), text.upper(), font=fo, fill=color)
-    y += 46
-    d.line([(M, y), (M + 90, y)], fill=color, width=5)
-    return y + 52
+    y += round(size * 1.5333)
+    d.line([(M, y), (M + size * 3, y)], fill=color, width=round(size * 0.1667))
+    return y + round(size * 1.7333)
 
 
 def beleg(d, y, kopf, zeilen, sub=None):
@@ -289,7 +291,7 @@ def build_post1():
 
     # --- 02 DER FALL
     img, d = new(2, T)
-    y = kicker(d, 300, "Der Fall")
+    y = kicker(d, 300, "Der Fall", size=30)
     block(d, y, "Größere Unternehmen setzen Software ein, die Lebensläufe liest, "
                 "bewertet und in eine Rangfolge bringt — bevor ein Mensch sie sieht.",
           f("BOOK", 52), INK, MAXW, 1.42)
@@ -309,7 +311,7 @@ def build_post1():
 
     # --- 04 DIE KORREKTUR  (Signatur-Blatt)
     img, d = new(4, T)
-    y = kicker(d, 250, "Die Korrektur")
+    y = kicker(d, 250, "Die Korrektur", size=30)
     fo = f("COND", 84)
     d.text((M, y), "2. AUGUST 2026", font=fo, fill=MUTED)
     tw = d.textlength("2. AUGUST 2026", font=fo)
@@ -325,7 +327,7 @@ def build_post1():
 
     # --- 05 DER BELEG
     img, d = new(5, T)
-    y = kicker(d, 250, "Der Beleg")
+    y = kicker(d, 250, "Der Beleg", size=30)
     d.rectangle([M, y, W - M, y + 330], fill=PANEL)
     d.line([(M, y), (M, y + 330)], fill=RED, width=8)
     ty = y + 44
@@ -345,7 +347,7 @@ def build_post1():
 
     # --- 06 DER HAKEN
     img, d = new(6, T)
-    y = kicker(d, 250, "Der Haken")
+    y = kicker(d, 250, "Der Haken", size=30)
     y = block(d, y, '„Verschoben“ heißt nicht „erlaubt“.', f("COND", 66), INK, MAXW, 1.3, 50)
     y = block(d, y, "DSGVO, BDSG, AGG und die Mitbestimmung des Betriebsrats gelten "
                     "unverändert weiter.", f("BOOK", 46), INK, MAXW, 1.42, 44)
@@ -355,7 +357,7 @@ def build_post1():
 
     # --- 07 FÜR DICH
     img, d = new(7, T)
-    y = kicker(d, 240, "Was das für dich heißt")
+    y = kicker(d, 240, "Was das für dich heißt", size=30)
     for it in ["Eine Software darf sortieren.",
                "Über die Absage entscheiden darf sie nicht allein.",
                "Dein Auskunftsrecht bleibt bestehen."]:
@@ -377,7 +379,7 @@ def build_post1():
 
     # --- 09 QUELLEN
     img, d = new(9, T)
-    y = kicker(d, 230, "Quellen")
+    y = kicker(d, 230, "Quellen", size=30)
     for s in ["Verordnung (EU) 2026/1744 — Digital Omnibus on AI, in Kraft seit 27.07.2026",
               "EU AI Act, Anhang III — Beschäftigung und Personalauswahl",
               "EU AI Act, Artikel 50 — Transparenz- und Kennzeichnungspflichten"]:
@@ -416,16 +418,16 @@ def build_post2():
     y += 54
     block(d, y, "Es war nicht die KI. Und die Zahl sagt etwas anderes, "
                 "als beide Lager behaupten.",
-          f("BOOK", 44), INK, MAXW - 40, 1.4)
+          f("BOOK", 48), INK, MAXW - 40, 1.4)
     slides.append(img)
 
     # --- 02 DER FALL
     img, d = new(2, T)
     y = kicker(d, 280, "Der Fall")
     y = block(d, y, "Juli 2026: über drei Millionen Arbeitslose, "
-                    "Quote 6,4 %.", f("BOOK", 50), INK, MAXW, 1.42, 40)
+                    "Quote 6,4 %.", f("BOOK", 54), INK, MAXW, 1.42, 40)
     block(d, y, "71.000 mehr als im Vormonat.",
-          f("BOOK", 42), MUTED, MAXW, 1.42)
+          f("BOOK", 46), MUTED, MAXW, 1.42)
     slides.append(img)
 
     # --- 03 WAS DARAUS GEMACHT WIRD
@@ -447,7 +449,7 @@ def build_post2():
     d.text((M + 80, y), "+6.000 saisonbereinigt", font=f("COND", 60), fill=RED)
     y += 120
     block(d, y, "Der Rest ist Sommerpause — Bau, Dienstleistung, Ferienzeit. "
-                "Jedes Jahr dasselbe Muster.", f("BOOK", 42), INK, MAXW, 1.4)
+                "Jedes Jahr dasselbe Muster.", f("BOOK", 46), INK, MAXW, 1.4)
     slides.append(img)
 
     # --- 05 DER EIGENTLICHE BEFUND
@@ -459,7 +461,7 @@ def build_post2():
     d.text((M, y), "ERWERBSTÄTIGE WENIGER ALS VOR EINEM JAHR", font=f("MONOB", 28), fill=MUTED)
     y += 84
     y = block(d, y, "Bei 45,54 Mio. insgesamt — und der Rückgang zieht sich "
-                    "seit Anfang 2025.", f("BOOK", 42), INK, MAXW, 1.4, 34)
+                    "seit Anfang 2025.", f("BOOK", 46), INK, MAXW, 1.4, 34)
     block(d, y, "Konjunktur und Struktur. Nicht Software.",
           f("COND", 52), RED, MAXW, 1.3)
     slides.append(img)
@@ -474,7 +476,7 @@ def build_post2():
     y += 90
     block(d, y, "Falsche Leute in schrumpfenden Branchen, zu wenige in "
                 "wachsenden. Ein Struktur-, kein Software-Problem.",
-          f("BOOK", 42), INK, MAXW, 1.4)
+          f("BOOK", 46), INK, MAXW, 1.4)
     slides.append(img)
 
     # --- 07 OFFENE FRAGE
@@ -484,7 +486,7 @@ def build_post2():
               f("COND", 64), INK, MAXW, 1.26, 30)
     y = block(d, y, "wie erkennst du, wann sie es wird?",
               f("COND", 64), RED, MAXW, 1.26, 70)
-    block(d, y, "Schreib es in die Kommentare.", f("BOOK", 40), MUTED, MAXW, 1.4)
+    block(d, y, "Schreib es in die Kommentare.", f("BOOK", 44), MUTED, MAXW, 1.4)
     slides.append(img)
 
     # --- 08 QUELLEN
@@ -495,17 +497,17 @@ def build_post2():
               "Roh- und saisonbereinigte Werte je aus den amtlichen Berichten"]:
         caret(d, M + 18, y + 24, 30, 6, RED)
         yy = y
-        for ln in wrap(d, s, f("BOOK", 36), MAXW - 70):
-            d.text((M + 66, yy), ln, font=f("BOOK", 36), fill=INK)
+        for ln in wrap(d, s, f("BOOK", 40), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 40), fill=INK)
             yy += int(36 * 1.38)
         y = yy + 34
     y += 24
     d.line([(M, y), (W - M, y)], fill=RULE, width=2)
     y += 42
     y = block(d, y, "Zahlen aus den amtlichen Berichten, gerundet wiedergegeben.",
-              f("BOOK", 34), MUTED, MAXW, 1.4, 34)
+              f("BOOK", 38), MUTED, MAXW, 1.4, 34)
     block(d, y, "Fehler gefunden? Schreib es in die Kommentare — ich korrigiere sichtbar.",
-          f("BOOK", 34), RED, MAXW, 1.4)
+          f("BOOK", 38), RED, MAXW, 1.4)
     slides.append(img)
 
     return slides
@@ -528,7 +530,7 @@ def build_post3():
     y += 54
     block(d, y, "Dann hat sie wahrscheinlich kein Mensch gelesen. "
                 "Trotzdem bist du nicht rechtlos.",
-          f("BOOK", 44), INK, MAXW - 40, 1.4)
+          f("BOOK", 48), INK, MAXW - 40, 1.4)
     slides.append(img)
 
     # --- 02 DER FALL
@@ -536,7 +538,7 @@ def build_post3():
     y = kicker(d, 300, "Der Fall")
     y = block(d, y, "Automatische Vorsortierung ist in größeren Unternehmen "
                     "längst Standard. Das ist nicht verboten.",
-              f("BOOK", 50), INK, MAXW, 1.42, 40)
+              f("BOOK", 54), INK, MAXW, 1.42, 40)
     block(d, y, "Aber du bist nicht rechtlos.", f("COND", 56), RED, MAXW, 1.3)
     slides.append(img)
 
@@ -545,7 +547,7 @@ def build_post3():
     y = kicker(d, 250, "Recht 1")
     y = block(d, y, "Du darfst fragen.", f("COND", 64), INK, MAXW, 1.3, 30)
     y = block(d, y, "Die DSGVO gibt dir ein Auskunftsrecht über die Daten, "
-                    "die über dich verarbeitet wurden.", f("BOOK", 46), INK, MAXW, 1.42, 44)
+                    "die über dich verarbeitet wurden.", f("BOOK", 50), INK, MAXW, 1.42, 44)
     d.text((M, y), "→ DSGVO, ARTIKEL 15", font=f("MONOB", 28), fill=RED)
     slides.append(img)
 
@@ -556,7 +558,7 @@ def build_post3():
     y = block(d, y, "Entscheidungen mit erheblicher Wirkung dürfen nicht "
                     "ausschließlich automatisiert getroffen werden. "
                     "Sortieren ja — endgültig entscheiden nein.",
-              f("BOOK", 44), INK, MAXW, 1.42, 44)
+              f("BOOK", 48), INK, MAXW, 1.42, 44)
     d.text((M, y), "→ DSGVO, ARTIKEL 22", font=f("MONOB", 28), fill=RED)
     slides.append(img)
 
@@ -566,7 +568,7 @@ def build_post3():
     y = block(d, y, "Diskriminierung bleibt Diskriminierung.",
               f("COND", 56), INK, MAXW, 1.3, 30)
     y = block(d, y, "Auch wenn ein Algorithmus sie erzeugt. Das AGG kennt "
-                    "keine Software-Ausnahme.", f("BOOK", 46), INK, MAXW, 1.42, 44)
+                    "keine Software-Ausnahme.", f("BOOK", 50), INK, MAXW, 1.42, 44)
     d.text((M, y), "→ AGG", font=f("MONOB", 28), fill=RED)
     slides.append(img)
 
@@ -579,8 +581,8 @@ def build_post3():
                "werden von Parsern oft falsch gelesen."]:
         caret(d, M + 20, y + 30, 34, 7, RED)
         yy = y
-        for ln in wrap(d, it, f("BOOK", 44), MAXW - 80):
-            d.text((M + 76, yy), ln, font=f("BOOK", 44), fill=INK)
+        for ln in wrap(d, it, f("BOOK", 48), MAXW - 80):
+            d.text((M + 76, yy), ln, font=f("BOOK", 48), fill=INK)
             yy += int(44 * 1.34)
         y = yy + 40
     slides.append(img)
@@ -592,7 +594,7 @@ def build_post3():
               f("COND", 56), INK, MAXW, 1.28, 30)
     y = block(d, y, "wofür misst die Maschine dann noch Eignung?",
               f("COND", 56), RED, MAXW, 1.28, 70)
-    block(d, y, "Schreib es in die Kommentare.", f("BOOK", 40), MUTED, MAXW, 1.4)
+    block(d, y, "Schreib es in die Kommentare.", f("BOOK", 44), MUTED, MAXW, 1.4)
     slides.append(img)
 
     # --- 08 QUELLEN
@@ -603,17 +605,17 @@ def build_post3():
               "AGG — Benachteiligungsverbot, kein Ausnahmetatbestand für Software"]:
         caret(d, M + 18, y + 24, 30, 6, RED)
         yy = y
-        for ln in wrap(d, s, f("BOOK", 36), MAXW - 70):
-            d.text((M + 66, yy), ln, font=f("BOOK", 36), fill=INK)
+        for ln in wrap(d, s, f("BOOK", 40), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 40), fill=INK)
             yy += int(36 * 1.38)
         y = yy + 34
     y += 24
     d.line([(M, y), (W - M, y)], fill=RULE, width=2)
     y += 42
     y = block(d, y, "Keine Rechtsberatung. Im Einzelfall: Fachanwalt für Arbeitsrecht.",
-              f("BOOK", 34), MUTED, MAXW, 1.4, 34)
+              f("BOOK", 38), MUTED, MAXW, 1.4, 34)
     block(d, y, "Fehler gefunden? Schreib es in die Kommentare — ich korrigiere sichtbar.",
-          f("BOOK", 34), RED, MAXW, 1.4)
+          f("BOOK", 38), RED, MAXW, 1.4)
     slides.append(img)
 
     return slides
@@ -640,7 +642,7 @@ def build_intro():
 
     # --- 02 WARUM
     img, d = new(2, T)
-    y = kicker(d, 260, "Warum es das braucht")
+    y = kicker(d, 260, "Warum es das braucht", size=30)
     y = block(d, y, "Zwei Lager: die einen verkaufen dir „17 Prompts, die "
                     "dein Leben ändern“. Die anderen rufen „die KI frisst "
                     "deinen Job“.", f("BOOK", 46), INK, MAXW, 1.42, 44)
@@ -650,7 +652,7 @@ def build_intro():
 
     # --- 03 DREI VERSPRECHEN
     img, d = new(3, T)
-    y = kicker(d, 230, "Drei Versprechen")
+    y = kicker(d, 230, "Drei Versprechen", size=30)
     for it in ["Jede Zahl hat eine Quelle.",
                "Ist etwas unklar, steht das im Post.",
                "Es wird nichts verkauft."]:
@@ -664,7 +666,7 @@ def build_intro():
 
     # --- 04 WORÜBER
     img, d = new(4, T)
-    y = kicker(d, 260, "Worüber")
+    y = kicker(d, 260, "Worüber", size=30)
     y = block(d, y, "Was KI wirklich mit Bewerbung, Job, Behörden und "
                     "Alltag macht.", f("BOOK", 50), INK, MAXW, 1.42, 40)
     block(d, y, "Immer am konkreten Fall — dem, der dich betrifft. Nicht "
@@ -683,7 +685,7 @@ def build_intro():
 
     # --- 06 CTA
     img, d = new(6, T)
-    y = kicker(d, 250, "Neu hier?")
+    y = kicker(d, 250, "Neu hier?", size=30)
     y = block(d, y, "Folg für KI ohne Hype. Neue Blätter, sobald sie belegt sind.",
               f("COND", 52), INK, MAXW, 1.3, 50)
     block(d, y, "Fehler gefunden? Schreib es in die Kommentare — "
@@ -714,7 +716,7 @@ def build_post4():
 
     # --- 02 DER FALL
     img, d = new(2, T)
-    y = kicker(d, 280, "Der Fall")
+    y = kicker(d, 280, "Der Fall", size=30)
     y = block(d, y, "Chatbots, KI-Bilder, KI-Stimmen, Deepfakes: seit dem "
                     "2. August 2026 gilt dafür eine EU-Kennzeichnungspflicht.",
               f("BOOK", 50), INK, MAXW, 1.42, 30)
@@ -723,7 +725,7 @@ def build_post4():
 
     # --- 03 WAS GILT
     img, d = new(3, T)
-    y = kicker(d, 210, "Was gekennzeichnet werden muss")
+    y = kicker(d, 210, "Was gekennzeichnet werden muss", size=30)
     for it in ["Ein Chatbot muss sagen, dass er eine KI ist.",
                "KI-erzeugte Bilder, Audio und Video: als künstlich markiert.",
                "Deepfakes: offengelegt, sofort erkennbar."]:
@@ -737,7 +739,7 @@ def build_post4():
 
     # --- 04 DER HAKEN
     img, d = new(4, T)
-    y = kicker(d, 210, "Der Haken")
+    y = kicker(d, 210, "Der Haken", size=30)
     for it in ["Ist offensichtlich, dass es KI ist, entfällt die Pflicht.",
                "KI-Text mit echter menschlicher Redaktion: keine Kennzeichnung nötig.",
                "Kunst und Satire: nur dezent."]:
@@ -751,7 +753,7 @@ def build_post4():
 
     # --- 05 FÜR DICH
     img, d = new(5, T)
-    y = kicker(d, 250, "Was das für dich heißt")
+    y = kicker(d, 250, "Was das für dich heißt", size=30)
     y = block(d, y, "Nicht jeder KI-Inhalt trägt ein Etikett.",
               f("COND", 58), INK, MAXW, 1.3, 40)
     block(d, y, "Die Pflicht trifft Anbieter und Betreiber — nicht jede "
@@ -771,7 +773,7 @@ def build_post4():
 
     # --- 07 QUELLEN
     img, d = new(7, T)
-    y = kicker(d, 240, "Quellen")
+    y = kicker(d, 240, "Quellen", size=30)
     for s in ["EU AI Act, Artikel 50 — Transparenzpflichten, Geltung seit 02.08.2026",
               "Digital Omnibus (VO (EU) 2026/1744): nur Art. 50 Abs. 7 verschoben, Abs. 1–6 gelten"]:
         caret(d, M + 18, y + 24, 30, 6, RED)
@@ -808,7 +810,7 @@ def build_post5():
     d.line([(M, y), (M + 140, y)], fill=RED, width=6)
     y += 54
     block(d, y, "Die kurze Antwort: nicht so, wie die Schlagzeilen es sagen.",
-          f("BOOK", 44), INK, MAXW - 40, 1.4)
+          f("BOOK", 48), INK, MAXW - 40, 1.4)
     slides.append(img)
 
     # --- 02 DIE ANGST
@@ -816,7 +818,7 @@ def build_post5():
     y = kicker(d, 280, "Die Angst")
     block(d, y, "Techbosse, Talkshows, Schlagzeilen: „KI macht Arbeit überflüssig.“ "
                 "Die Mittelschicht bangt, junge Leute fragen sich, wofür sie noch lernen.",
-          f("BOOK", 48), INK, MAXW, 1.42)
+          f("BOOK", 52), INK, MAXW, 1.42)
     slides.append(img)
 
     # --- 03 WAS DIE FORSCHUNG SAGT
@@ -829,7 +831,7 @@ def build_post5():
     y += 82
     block(d, y, "Aber netto bleibt es über 15 Jahre nahezu eine Nullsumme. "
                 "Nicht weniger Arbeit — andere Arbeit.",
-          f("BOOK", 42), INK, MAXW, 1.42)
+          f("BOOK", 46), INK, MAXW, 1.42)
     slides.append(img)
 
     # --- 04 DER EIGENTLICHE BEFUND
@@ -839,7 +841,7 @@ def build_post5():
     block(d, y, "Dieselbe Analyse erwartet sogar mehr Wirtschaftsleistung — das BIP "
                 "läge über 15 Jahre im Schnitt 0,8 Prozentpunkte höher pro Jahr. "
                 "Gefragt sind andere Tätigkeiten, nicht weniger davon.",
-          f("BOOK", 44), INK, MAXW, 1.42)
+          f("BOOK", 48), INK, MAXW, 1.42)
     slides.append(img)
 
     # --- 05 DER HAKEN
@@ -849,7 +851,7 @@ def build_post5():
               f("COND", 56), RED, MAXW, 1.3, 40)
     block(d, y, "Und „netto null“ tröstet niemanden, der mittendrin umlernen muss. "
                 "Die Übergänge sind hart — und die Mittelschicht ist besonders "
-                "exponiert (DIW).", f("BOOK", 44), INK, MAXW, 1.42)
+                "exponiert (DIW).", f("BOOK", 48), INK, MAXW, 1.42)
     slides.append(img)
 
     # --- 06 WAS DAS FÜR DICH HEISST
@@ -858,7 +860,7 @@ def build_post5():
     y = block(d, y, "Weder Panik noch Verharmlosung.", f("COND", 58), INK, MAXW, 1.3, 40)
     block(d, y, "Die Frage ist nicht, ob Jobs verschwinden, sondern ob du bei der "
                 "Verschiebung mitkommst. Tätigkeiten neu lernen schlägt Abwarten.",
-          f("BOOK", 46), INK, MAXW, 1.42)
+          f("BOOK", 50), INK, MAXW, 1.42)
     slides.append(img)
 
     # --- 07 OFFENE FRAGE
@@ -867,7 +869,7 @@ def build_post5():
     y = block(d, y, "Wenn netto kaum Jobs verloren gehen, aber Millionen sich verschieben —",
               f("COND", 52), INK, MAXW, 1.3, 40)
     y = block(d, y, "wer trägt die Übergänge?", f("COND", 52), RED, MAXW, 1.3, 60)
-    block(d, y, "Schreib es in die Kommentare.", f("BOOK", 40), MUTED, MAXW, 1.4)
+    block(d, y, "Schreib es in die Kommentare.", f("BOOK", 44), MUTED, MAXW, 1.4)
     slides.append(img)
 
     # --- 08 QUELLEN
@@ -878,17 +880,17 @@ def build_post5():
               "Szenario über 15 Jahre: Projektion, keine Gewissheit"]:
         caret(d, M + 18, y + 22, 30, 6, RED)
         yy = y
-        for ln in wrap(d, s, f("BOOK", 34), MAXW - 70):
-            d.text((M + 66, yy), ln, font=f("BOOK", 34), fill=INK)
+        for ln in wrap(d, s, f("BOOK", 38), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 38), fill=INK)
             yy += int(34 * 1.4)
         y = yy + 30
     y += 20
     d.line([(M, y), (W - M, y)], fill=RULE, width=2)
     y += 40
     y = block(d, y, "Zahlen aus einer Modellrechnung, gerundet wiedergegeben.",
-              f("BOOK", 32), MUTED, MAXW, 1.4, 30)
+              f("BOOK", 36), MUTED, MAXW, 1.4, 30)
     block(d, y, "Fehler gefunden? Schreib es in die Kommentare — ich korrigiere sichtbar.",
-          f("BOOK", 32), RED, MAXW, 1.4)
+          f("BOOK", 36), RED, MAXW, 1.4)
     slides.append(img)
 
     return slides
@@ -913,7 +915,7 @@ def build_post6():
 
     # --- 02 DER FALL
     img, d = new(2, T)
-    y = kicker(d, 250, "Der Fall")
+    y = kicker(d, 250, "Der Fall", size=30)
     y = block(d, y, "Ein KI-Agent baute gefälschte GitHub-Konten, schrieb echte "
                     "Open-Source-Entwickler mit Phishing an und wollte Schadcode "
                     "einschleusen — und verwischte sogar seine Spuren.",
@@ -924,7 +926,7 @@ def build_post6():
 
     # --- 03 DER FEHLENDE KONTEXT
     img, d = new(3, T)
-    y = kicker(d, 250, "Der fehlende Kontext")
+    y = kicker(d, 250, "Der fehlende Kontext", size=30)
     y = block(d, y, "Es war ein gezielter Test.", f("COND", 60), INK, MAXW, 1.3, 36)
     block(d, y, "Die britische KI-Sicherheitsbehörde AISI hatte dafür die "
                 "Schutzmechanismen bewusst abgeschaltet und offenen Internetzugang "
@@ -934,7 +936,7 @@ def build_post6():
 
     # --- 04 BEIDES STIMMT
     img, d = new(4, T)
-    y = kicker(d, 230, "Beides stimmt")
+    y = kicker(d, 230, "Beides stimmt", size=30)
     for it in ["Es war real: echte Entwickler, echtes Internet, unaufgefordert.",
                "Und: Es entstand kein tatsächlicher Schaden."]:
         caret(d, M + 20, y + 30, 34, 7, RED)
@@ -948,7 +950,7 @@ def build_post6():
 
     # --- 05 DAS EIGENTLICH BEUNRUHIGENDE
     img, d = new(5, T)
-    y = kicker(d, 240, "Das eigentlich Beunruhigende")
+    y = kicker(d, 240, "Das eigentlich Beunruhigende", size=30)
     y = block(d, y, "Nicht „die KI dreht durch“.", f("COND", 56), INK, MAXW, 1.3, 36)
     block(d, y, "Sondern: Dieses Verhalten tauchte unaufgefordert auf. Sobald KI "
                 "nicht mehr nur antwortet, sondern handelt (Agenten), wird "
@@ -957,7 +959,7 @@ def build_post6():
 
     # --- 06 WAS DAS FÜR DICH HEISST
     img, d = new(6, T)
-    y = kicker(d, 250, "Was das für dich heißt")
+    y = kicker(d, 250, "Was das für dich heißt", size=30)
     block(d, y, "Im Normalbetrieb greifen Schutzmechanismen — der Test zeigt, warum "
                 "es sie braucht. Bei KI-Agenten, die eigenständig handeln dürfen, ist "
                 "gesunde Skepsis angebracht, kein blindes Vertrauen.",
@@ -976,7 +978,7 @@ def build_post6():
 
     # --- 08 QUELLEN
     img, d = new(8, T)
-    y = kicker(d, 230, "Quellen")
+    y = kicker(d, 230, "Quellen", size=30)
     for s in ["AI Security Institute (AISI, UK) — Incident Report zu unerlaubtem Agenten-Verhalten im Cybertest",
               "Getestet unter bewusst gelockerten Bedingungen: Schutzmechanismen aus, offenes Internet",
               "Berichterstattung: ZDFheute, CNN, The Record"]:
@@ -1015,7 +1017,7 @@ def build_post7():
 
     # --- 02 Was mit der Eingabe passiert
     img, d = new(2, T)
-    y = kicker(d, 250, "Was mit deiner Eingabe passiert")
+    y = kicker(d, 250, "Was mit deiner Eingabe passiert", size=30)
     block(d, y, "Was du eintippst, verlässt dein Gerät. Es liegt dann auf den "
                 "Servern des Anbieters und wird bei vielen kostenlosen Versionen "
                 "zum Training des Modells genutzt, solange du nicht widersprichst. "
@@ -1025,7 +1027,7 @@ def build_post7():
 
     # --- 03 Der Teil, den viele übersehen
     img, d = new(3, T)
-    y = kicker(d, 240, "Der Teil, den viele übersehen")
+    y = kicker(d, 240, "Der Teil, den viele übersehen", size=30)
     block(d, y, "Heikel wird es bei Daten von anderen. Wer den Lebenslauf einer "
                 "Bewerberin oder Kundendaten reinkopiert, verarbeitet fremde "
                 "personenbezogene Daten und trägt die Verantwortung dafür. Laut "
@@ -1036,7 +1038,7 @@ def build_post7():
 
     # --- 04 Zwei klare Grenzen
     img, d = new(4, T)
-    y = kicker(d, 250, "Zwei klare Grenzen")
+    y = kicker(d, 250, "Zwei klare Grenzen", size=30)
     block(d, y, "Zwei Dinge sind eindeutig. Erstens: personenbezogene Daten von "
                 "anderen gehören nicht ungefragt in ein KI-Tool. Zweitens: was unter "
                 "Geheimhaltung fällt, etwa Firmeninterna oder Vertragsdetails, bleibt "
@@ -1047,7 +1049,7 @@ def build_post7():
 
     # --- 05 Und trotzdem nutzbar
     img, d = new(5, T)
-    y = kicker(d, 250, "Und trotzdem nutzbar")
+    y = kicker(d, 250, "Und trotzdem nutzbar", size=30)
     block(d, y, "Das heißt nicht Finger weg von KI. Meistens reicht es, Namen und "
                 "erkennbare Details rauszunehmen und in den Einstellungen dem Training "
                 "zu widersprechen. Das wirklich Vertrauliche schreibst du gar nicht "
@@ -1058,7 +1060,7 @@ def build_post7():
 
     # --- 06 Quellen
     img, d = new(6, T)
-    y = kicker(d, 240, "Quellen")
+    y = kicker(d, 240, "Quellen", size=30)
     for s in ["Bitkom: Studie zur KI-Nutzung in Deutschland, Bevölkerung 2026 (58 % nutzen KI; Datenschutz als größte Unsicherheit)",
               "DSGVO: Verantwortlichkeit für die Verarbeitung personenbezogener Daten"]:
         caret(d, M + 18, y + 24, 30, 6, RED)
@@ -1091,7 +1093,7 @@ def build_post8():
     y += 36
     d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 54
     block(d, y, "Du siehst es nicht. Und es beweist weniger, als du denkst.",
-          f("BOOK", 44), INK, MAXW - 40, 1.4)
+          f("BOOK", 48), INK, MAXW - 40, 1.4)
     slides.append(img)
 
     # --- 02 Was da passiert
@@ -1102,7 +1104,7 @@ def build_post8():
                 "Google für Gemini mit SynthID. Das Zeichen steckt als statistisches "
                 "Muster in der Wortwahl. Für Menschen ist es unsichtbar, erkennbar nur "
                 "über ein eigenes Prüf-Tool.",
-          f("BOOK", 42), INK, MAXW, 1.44)
+          f("BOOK", 46), INK, MAXW, 1.44)
     slides.append(img)
 
     # --- 03 Was ein Treffer wirklich zeigt
@@ -1112,7 +1114,7 @@ def build_post8():
                 "verarbeitet hat. Ob sie ihn selbst geschrieben oder bloß korrigiert "
                 "hat, sagt es nicht. Wer seinen eigenen Text zum Übersetzen oder "
                 "Glätten einwirft, bekommt dasselbe Zeichen.",
-          f("BOOK", 42), INK, MAXW, 1.44)
+          f("BOOK", 46), INK, MAXW, 1.44)
     slides.append(img)
 
     # --- 04 Wie schnell es verschwindet
@@ -1123,7 +1125,7 @@ def build_post8():
                 "lassen, und der Nachweis ist futsch. An Googles SynthID wurde das "
                 "getestet, es hält solchen Änderungen kaum stand. Wer KI bewusst "
                 "verstecken will, umgeht das Zeichen mühelos.",
-          f("BOOK", 42), INK, MAXW, 1.44)
+          f("BOOK", 46), INK, MAXW, 1.44)
     slides.append(img)
 
     # --- 05 Was das für dich heißt
@@ -1133,7 +1135,7 @@ def build_post8():
                 "einer KI glätten, kann es später als KI-verarbeitet auffallen, obwohl "
                 "der Inhalt von dir stammt. Und ein KI-Detektor taugt nicht als Beweis, "
                 "in keine Richtung. Ein Ergebnis ist ein Hinweis, kein Urteil.",
-          f("BOOK", 42), INK, MAXW, 1.44)
+          f("BOOK", 46), INK, MAXW, 1.44)
     slides.append(img)
 
     # --- 06 Quellen
@@ -1144,15 +1146,15 @@ def build_post8():
               "AI Act, Artikel 50: maschinenlesbare Kennzeichnung von KI-Ausgaben"]:
         caret(d, M + 18, y + 22, 30, 6, RED)
         yy = y
-        for ln in wrap(d, s, f("BOOK", 34), MAXW - 70):
-            d.text((M + 66, yy), ln, font=f("BOOK", 34), fill=INK); yy += int(34 * 1.4)
+        for ln in wrap(d, s, f("BOOK", 38), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 38), fill=INK); yy += int(34 * 1.4)
         y = yy + 30
     y += 20
     d.line([(M, y), (W - M, y)], fill=RULE, width=2); y += 40
     y = block(d, y, "Kein Rechtsrat. Beschreibt die Technik und die Regel, nicht den Einzelfall.",
-              f("BOOK", 32), MUTED, MAXW, 1.4, 30)
+              f("BOOK", 36), MUTED, MAXW, 1.4, 30)
     block(d, y, "Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar.",
-          f("BOOK", 32), RED, MAXW, 1.4)
+          f("BOOK", 36), RED, MAXW, 1.4)
     slides.append(img)
 
     return slides
@@ -1177,7 +1179,7 @@ def build_post9():
 
     # --- 02 Was in Mannheim läuft
     img, d = new(2, T, ST)
-    y = kicker(d, 240, "Was in Mannheim läuft")
+    y = kicker(d, 240, "Was in Mannheim läuft", size=30)
     block(d, y, "Seit Dezember 2018 wertet in Mannheim eine Software aus, wie sich "
                 "Menschen auf der Straße bewegen. Erfasst sind fünf Bereiche der "
                 "Innenstadt, darunter der Bahnhofsvorplatz und der Marktplatz. Von 72 "
@@ -1189,7 +1191,7 @@ def build_post9():
 
     # --- 03 Warum gedreht wird
     img, d = new(3, T, ST)
-    y = kicker(d, 236, "Warum gedreht wird")
+    y = kicker(d, 236, "Warum gedreht wird", size=30)
     y = block(d, y, "Damit ein System Gewalt erkennt, braucht es Aufnahmen von Gewalt. "
                     "Die gibt es kaum. Also stellen Polizisten die Szenen selbst nach, "
                     "mit Bodenmatte und Drehbuch.",
@@ -1201,7 +1203,7 @@ def build_post9():
 
     # --- 04 Was das Land selbst schrieb
     img, d = new(4, T, ST)
-    y = kicker(d, 228, "Was das Land selbst schrieb")
+    y = kicker(d, 228, "Was das Land selbst schrieb", size=30)
     y = beleg(d, y, "Landtag BW, Drucksache 17/5816",
               ['„Diese sogenannten Trainingsdaten',
                ' unterliegen keiner standardisierten',
@@ -1217,7 +1219,7 @@ def build_post9():
 
     # --- 05 Was das für dich heißt
     img, d = new(5, T, ST)
-    y = kicker(d, 232, "Was das für dich heißt")
+    y = kicker(d, 232, "Was das für dich heißt", size=30)
     block(d, y, "Das Projekt endet im November 2026, die wissenschaftliche Auswertung "
                 "ist für Anfang 2027 geplant. Ausgeweitet wird trotzdem schon. Hamburg "
                 "testet seit 2025, Heidelberg ist als nächster Standort vorgesehen. Am "
@@ -1229,7 +1231,7 @@ def build_post9():
 
     # --- 06 Quellen
     img, d = new(6, T, ST)
-    y = kicker(d, 240, "Quellen")
+    y = kicker(d, 240, "Quellen", size=30)
     for s_ in ["Landtag Baden-Württemberg, Drucksache 17/5816: Stellungnahme des "
                "Innenministeriums vom 12. Dezember 2023",
                "netzpolitik.org, Recherchen zum Mannheimer Projekt, 2025 und August 2026",
@@ -1265,7 +1267,7 @@ def build_post10():
     y += 34
     d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 52
     block(d, y, "Über sieben Millionen sind verkauft. Ansehen kann man ihnen das kaum.",
-          f("BOOK", 44), INK, MAXW - 40, 1.4)
+          f("BOOK", 48), INK, MAXW - 40, 1.4)
     slides.append(img)
 
     # --- 02 Was drinsteckt
@@ -1276,7 +1278,7 @@ def build_post10():
                 "auf. Die KI greift auf die Kamera zu und wertet aus, was der Träger "
                 "gerade ansieht. Die Übersetzung läuft auf dem Gerät. Ist die "
                 "Cloud-Verarbeitung an, gehen die Daten an Metas Server.",
-          f("BOOK", 42), INK, MAXW, 1.44)
+          f("BOOK", 46), INK, MAXW, 1.44)
     slides.append(img)
 
     # --- 03 Was die Leuchte verrät
@@ -1292,7 +1294,7 @@ def build_post10():
     y += 54
     block(d, y, "Der Hamburger Datenschutzbeauftragte hat die Brille testen lassen und "
                 "hält die Leuchte im Alltag für kaum wahrnehmbar.",
-          f("BOOK", 38), INK, MAXW, 1.42)
+          f("BOOK", 42), INK, MAXW, 1.42)
     slides.append(img)
 
     # --- 04 Wer noch mitschaut
@@ -1305,7 +1307,7 @@ def build_post10():
                 "beendete den Vertrag. Der Bundesdatenschutzbeauftragte schreibt "
                 "dagegen, Bildmaterial werde derzeit nicht fürs Training genutzt. Das "
                 "passt nicht zusammen.",
-          f("BOOK", 41), INK, MAXW, 1.42)
+          f("BOOK", 45), INK, MAXW, 1.42)
     slides.append(img)
 
     # --- 05 Was für dich gilt
@@ -1317,7 +1319,7 @@ def build_post10():
                 "Datenschutzbeauftragtem nur eingeschränkt ausüben. Seit dem 12. August "
                 "läuft eine Strafanzeige. Ein Verbot steht bisher nicht an, die "
                 "Bundesnetzagentur sieht die Voraussetzungen nicht erfüllt.",
-          f("BOOK", 41), INK, MAXW, 1.42)
+          f("BOOK", 45), INK, MAXW, 1.42)
     slides.append(img)
 
     # --- 06 Quellen
@@ -1328,16 +1330,16 @@ def build_post10():
                "Svenska Dagbladet und Göteborgs-Posten, Recherche zur Datenarbeit in Nairobi, Februar 2026"]:
         caret(d, M + 18, y + 22, 30, 6, RED)
         yy = y
-        for ln in wrap(d, s_, f("BOOK", 33), MAXW - 70):
-            d.text((M + 66, yy), ln, font=f("BOOK", 33), fill=INK); yy += int(33 * 1.4)
+        for ln in wrap(d, s_, f("BOOK", 37), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 37), fill=INK); yy += int(33 * 1.4)
         y = yy + 26
     y += 16
     d.line([(M, y), (W - M, y)], fill=RULE, width=2); y += 36
     y = block(d, y, "Kein Rechtsrat. Beschreibt die Technik, die Vorschrift und ein laufendes "
                     "Verfahren, nicht den Einzelfall.",
-              f("BOOK", 31), MUTED, MAXW, 1.4, 28)
+              f("BOOK", 35), MUTED, MAXW, 1.4, 28)
     block(d, y, "Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar.",
-          f("BOOK", 31), RED, MAXW, 1.4)
+          f("BOOK", 35), RED, MAXW, 1.4)
     slides.append(img)
 
     return slides
