@@ -29,6 +29,8 @@ Wie wir entscheiden, was wir posten. Reihenfolge: **Idee → Recherche an Primä
 | Verhaltenserkennung Mannheim — wer belegt, dass es funktioniert? | Unbequeme Frage | Landtag BW 17/5816 (Stellungnahme IM 12.12.2023); § 44 PolG BW | verplant → Post 9 |
 | Meta KI-Brille — was steckt drin, was passiert mit den Daten? | Betrifft dich | BfDI-FAQ; HateAid-Strafanzeige 12.08.2026 (§ 8 TDDDG); Nairobi-Recherche 02/2026 | verplant → Post 10 |
 | „Löscht KI uns aus?" — was die Fachleute selbst schätzen | Unbequeme Frage | AI Impacts, „Thousands of AI Authors on the Future of AI" (2.778 Befragte, Median 5 %) | recherchiert |
+| Wer der KI vertraut, prüft weniger. Wer sich selbst vertraut, prüft mehr | Betrifft dich | Microsoft Research + Carnegie Mellon, CHI 2025: 319 Berufstätige, 936 Arbeitsbeispiele | recherchiert |
+| „AI washing" — steckt KI drin, wo KI draufsteht? | Hype-Check | SEC-Verfahren gegen Delphia, 18.03.2024, 225.000 $ Strafe (Aushilfen statt Algorithmus) | recherchiert |
 | KI-Chatbots als Gesprächspartner von Kindern | Betrifft dich | DAK/UKE-Längsschnittstudie 03/2026 (rund 8 % gegen Einsamkeit, bei depressiven Symptomen über 30 %) | recherchiert |
 | Werbung in ChatGPT — wovon hängt ab, was dir angezeigt wird? | Betrifft dich | OpenAI-Ankündigung; Rollout 11.08.2026 (UK, MX, BR, JP, KR) | roh |
 | BMG lizenziert an Suno, 12 Tage nach dem GEMA-Urteil | Unbequeme Frage | LG München I 42 O 763/25; BMG-Mitteilung 12.08.2026 | roh |
@@ -80,3 +82,24 @@ Belastbar ist nur die Zahl, die Szenarien sind ausdrücklich Annahmen.
 
 > Für einen eigenen Post über Szenario 3 aufziehen, weil das den Bogen zurück zum Konkreten schlägt.
 > Die abstrakte Fassung widerspricht dem Leitprinzip („Ethik nie abstrakt, immer am Einzelfall").
+
+## Recherchierte Einzelbefunde (Stand 14.08.2026)
+
+**Kritisches Denken unter KI-Nutzung** — Microsoft Research und Carnegie Mellon University, CHI 2025,
+„The Impact of Generative AI on Critical Thinking". Befragt wurden **319 Berufstätige** zu **936 konkreten
+Arbeitsbeispielen**. Zwei Befunde, die gegenläufig sind und deshalb den Post tragen:
+höheres **Vertrauen in die KI** ging mit **weniger** kritischem Denken einher, höheres Vertrauen in die
+**eigenen Fähigkeiten** mit **mehr**. Beschrieben wird außerdem die Verschiebung vom Lösen zum Zusammenfügen
+und vom Machen zum Beaufsichtigen.
+*Einschränkungen, die in den Post gehören:* Selbstauskunft statt gemessener Leistung, und befragt wurden
+Berufstätige, keine Schülerinnen oder Studierenden.
+→ Möglicher Aufhänger: der US-Professor, dessen Studierende seit 30 Jahren dieselbe Interview-Hausarbeit
+schreiben und inzwischen fragen, woran man erkennt, ob etwas interessant ist. Anekdote als Einstieg,
+die Messung als Beleg.
+
+**AI washing** — US-Börsenaufsicht SEC, Verfahren vom **18.03.2024** gegen den Anlageberater Delphia:
+warb mit maschinellem Lernen, ließ die Geschäfte aber von Aushilfen von Hand ausführen. **225.000 Dollar**
+Strafe. Seit 2026 gibt es dafür bei der SEC eine eigene Einheit (Cyber and Emerging Technologies Unit).
+Gegenstück als Aufhänger: Tucker Bryant aus San Francisco, dessen „KI-Chatbot" ChatTJB er selbst von Hand
+bediente, 6.000 Dollar Werbetafel, „AI" stand dort für „average individual".
+*Vor dem Bauen prüfen:* deutschsprachige Fälle suchen, damit der Post die Leserinnen und Leser hier betrifft.
