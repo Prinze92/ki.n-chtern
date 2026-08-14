@@ -65,6 +65,9 @@ Nicht „Ist KI moralisch?", sondern „Deine Bewerbung wurde aussortiert. Darf 
   bleiben in `posts/` und führen weiterhin alle Posts (auch die archivierten).
 - **Neues Thema?** Erst in `posts/posts.yaml` und `research/ideas.md` prüfen, ob es schon existiert.
 - **Korrekturen sichtbar machen:** Fehler nie still löschen. Als eigener Commit mit klarer Message.
+- **Branching:** direkt auf `master` committen und pushen. Keine Feature-Branches, keine Pull Requests,
+  außer es wird ausdrücklich einer verlangt. (Grund: sonst liegt die Arbeit auf einem Branch, den niemand
+  ansieht, und wirkt wie „nicht online".)
 - **Keine KI-Bilder** ohne Kennzeichnung (Art. 50 AI Act, gilt seit 02.08.2026).
 
 ## Arbeitsweise (aus dem Trading-Projekt übernommen, bewährt)
