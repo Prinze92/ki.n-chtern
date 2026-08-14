@@ -28,6 +28,7 @@ Wie wir entscheiden, was wir posten. Reihenfolge: **Idee → Recherche an Primä
 | KI-Wasserzeichen — was das unsichtbare Zeichen wirklich beweist | Betrifft dich | Anthropic/Google-Wasserzeichen; Art. 50; SynthID-Robustheit | verplant → Post 8 |
 | Verhaltenserkennung Mannheim — wer belegt, dass es funktioniert? | Unbequeme Frage | Landtag BW 17/5816 (Stellungnahme IM 12.12.2023); § 44 PolG BW | verplant → Post 9 |
 | Meta KI-Brille — was steckt drin, was passiert mit den Daten? | Betrifft dich | BfDI-FAQ; HateAid-Strafanzeige 12.08.2026 (§ 8 TDDDG); Nairobi-Recherche 02/2026 | verplant → Post 10 |
+| „Löscht KI uns aus?" — was die Fachleute selbst schätzen | Unbequeme Frage | AI Impacts, „Thousands of AI Authors on the Future of AI" (2.778 Befragte, Median 5 %) | recherchiert |
 | KI-Chatbots als Gesprächspartner von Kindern | Betrifft dich | DAK/UKE-Längsschnittstudie 03/2026 (rund 8 % gegen Einsamkeit, bei depressiven Symptomen über 30 %) | recherchiert |
 | Werbung in ChatGPT — wovon hängt ab, was dir angezeigt wird? | Betrifft dich | OpenAI-Ankündigung; Rollout 11.08.2026 (UK, MX, BR, JP, KR) | roh |
 | BMG lizenziert an Suno, 12 Tage nach dem GEMA-Urteil | Unbequeme Frage | LG München I 42 O 763/25; BMG-Mitteilung 12.08.2026 | roh |
@@ -63,3 +64,19 @@ nicht auf Bundesebene (ZDF, taz). Steuer-Aussage (Gewinnverlagerung USA) = netzp
 - „KI spart X Stunden" — woher kommt die Zahl wirklich? → verwandt mit **KI-Wasser-/Stromverbrauch** (Zahlen-Herkunft).
 
 > **Zeitfalle beachten:** Säule „Fall der Woche" nur EIN Thema pro Woche. Genauer, nicht schneller.
+
+## Kommentar-Fundus (aus Kommentar-Sessions, zu lang fürs Kommentarfeld)
+
+**Drei Szenarien zur Auslöschungsfrage** (14.08.2026, Anlass: FAZ-Podcast aus Lindau).
+Beantwortet die abstrakte Frage über die dokumentierte Einschätzung der Fachleute statt über Spekulation.
+Belastbar ist nur die Zahl, die Szenarien sind ausdrücklich Annahmen.
+
+1. **Kein Aussterben, aber Machtverschiebung.** Der Schaden kommt als Verlagerung von Entscheidungen zu
+   wenigen, die die Systeme besitzen, nicht als Katastrophe.
+2. **Kontrollverlust.** Systeme werden autonomer, die Kontrolle hinkt hinterher. Das ist die Sorge hinter
+   dem Median von 5 Prozent.
+3. **Der Hype selbst ist der Schaden.** Wer über Aussterben redet, redet nicht über Bewerbungssoftware,
+   Verhaltenserkennung und Datenarbeit in Nairobi. Aufmerksamkeit ist endlich.
+
+> Für einen eigenen Post über Szenario 3 aufziehen, weil das den Bogen zurück zum Konkreten schlägt.
+> Die abstrakte Fassung widerspricht dem Leitprinzip („Ethik nie abstrakt, immer am Einzelfall").

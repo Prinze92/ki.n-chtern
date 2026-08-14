@@ -91,6 +91,25 @@ Gilt für jeden Karussell-Post. Vorbild sind Post 7, 8 und 9.
 - Stand-Datum je Post über `new(idx, total, stand)` setzen, nicht die globale Konstante ändern.
 - Gepostete Posts liegen unter `archive/` und werden nicht neu gerendert.
 
+## Kommentar-Regeln (Form und Treffsicherheit)
+
+- **Die Frage des Ausgangsposts beantworten, nicht eine benachbarte.** Vor dem Schreiben in einem Satz
+  festhalten, was der Post tatsächlich fragt, und am Ende gegenprüfen, ob der Kommentar genau das
+  beantwortet. Ist die Frage abstrakt oder nicht belegbar, das ausdrücklich sagen und die belegbare
+  Nachbarfrage anbieten. **Nie stillschweigend das Thema wechseln** — das wirkt wie Ausweichen und ist es
+  auch. (Fehler vom 14.08.2026: FAZ fragte, ob KI die Menschheit auslöscht, geantwortet wurde über den
+  Wissenschaftsbetrieb.)
+- **Kurz halten: drei bis vier Zeilen, etwa 300 bis 400 Zeichen.** Instagram klappt Kommentare nach zwei
+  bis drei Zeilen ein. **Der erste Satz muss allein tragen**, weil er oft der einzige sichtbare ist.
+- **Ein Gedanke pro Kommentar.** Drei Punkte sind kein Kommentar, sondern ein Post.
+- **Keine Aufzählungen, keine Nummerierung, keine Fettungen.** Ein formatierter Kommentar sieht eingefügt
+  aus statt geschrieben. Bei einem Konto über KI ist „liest sich wie von einer Maschine" der teuerste
+  Eindruck.
+- **Nicht alles sagen.** Ein vollständiger Kommentar nimmt den Grund weg, aufs Profil zu tippen. Lieber
+  einen Punkt scharf setzen und eine offene Frage stehen lassen.
+- Was nicht in den Kommentar passt, wandert als Idee nach `research/ideas.md`, statt im Kommentarfeld
+  zu verbrennen.
+
 ## Recherche-Regeln
 
 - **Immer recherchieren, bei jeder Anfrage** — auch bei einem einzelnen Kommentar oder einer kurzen
