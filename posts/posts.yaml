@@ -188,3 +188,23 @@ posts:
       sends: null
       sends_per_reach: null
       saves: null
+
+  - id: 10
+    slug: meta-brille-ki
+    ordner: post-010-meta-brille-ki
+    titel: "Die Brille sieht, was du siehst"
+    saeule: betrifft_dich
+    status: gerendert          # 6 Blätter (14.08.2026); Ankerquelle BfDI-FAQ, dazu HateAid-Strafanzeige 12.08.2026
+    blaetter: 6
+    geplant_fuer: aktuell
+    gepostet_am: null
+    offen:
+      - "BfDI-FAQ traegt kein Stand-Datum; Aussage zum KI-Training vor 'geprueft' auf Aktualitaet pruefen"
+      - "Verkaufszahl 'ueber sieben Millionen' am EssilorLuxottica-Geschaeftsbericht gegenpruefen"
+      - "Schwedische Originalartikel und Originalauskunft der Bundesnetzagentur nicht selbst eingesehen"
+      - "Widerspruch KI-Training (BfDI vs. Nairobi-Recherche) bewusst offen im Post benannt"
+    kennzahlen:
+      reach: null
+      sends: null
+      sends_per_reach: null
+      saves: null

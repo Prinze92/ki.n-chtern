@@ -33,8 +33,9 @@ OUT_POST5 = REPO / "posts" / "post-005-killt-ki-die-jobs" / "slides"
 # build_post6/build_post7 bleiben unten als Reproduzierbarkeits-Referenz erhalten.
 OUT_POST8 = REPO / "posts" / "post-008-ki-wasserzeichen" / "slides"
 OUT_POST9 = REPO / "posts" / "post-009-verhaltenserkennung-mannheim" / "slides"
+OUT_POST10 = REPO / "posts" / "post-010-meta-brille-ki" / "slides"
 OUT_STORY = REPO / "brand" / "stories"
-for _d in (OUT_LOGO, OUT_STORY, OUT_POST2, OUT_POST3, OUT_POST5, OUT_POST8, OUT_POST9):
+for _d in (OUT_LOGO, OUT_STORY, OUT_POST2, OUT_POST3, OUT_POST5, OUT_POST8, OUT_POST9, OUT_POST10):
     _d.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------- palette
@@ -1209,6 +1210,95 @@ def build_post9():
     return slides
 
 
+def build_post10():
+    T = 6
+    ST = "STAND 14.08.2026"
+    slides = []
+
+    # --- 01 HOOK
+    img, d = new(1, T, ST)
+    y = 268
+    fo = f("COND", 88)
+    for line in ["DIE BRILLE SIEHT,", "WAS DU SIEHST. UND", "HÖRT ZWEI METER WEIT."]:
+        d.text((M, y), line, font=fo, fill=INK); y += 104
+    y += 34
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 52
+    block(d, y, "Über sieben Millionen sind verkauft. Ansehen kann man ihnen das kaum.",
+          f("BOOK", 44), INK, MAXW - 40, 1.4)
+    slides.append(img)
+
+    # --- 02 Was drinsteckt
+    img, d = new(2, T, ST)
+    y = kicker(d, 240, "Was drinsteckt")
+    block(d, y, "In der Brille sitzen eine Kamera und sechs Mikrofone. Die nehmen nach "
+                "Angaben des Bundesdatenschutzbeauftragten mindestens zwei Meter weit "
+                "auf. Die KI hat Zugriff auf die Kamera und wertet aus, was der Träger "
+                "gerade ansieht, etwa um ein Gebäude zu beschreiben. Die Übersetzung "
+                "läuft auf dem Gerät selbst. Ist die Cloud-Verarbeitung eingeschaltet, "
+                "gehen die Daten an Metas Server.",
+          f("BOOK", 41), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 03 Was die Leuchte verrät
+    img, d = new(3, T, ST)
+    y = kicker(d, 240, "Was die Leuchte verrät")
+    block(d, y, "Eine kleine Leuchtdiode am Rahmen zeigt an, dass aufgenommen wird. Für "
+                "reine Sprachaufnahmen gibt es diesen Hinweis nicht. Der Hamburger "
+                "Datenschutzbeauftragte hat die Brille testen lassen und hält die "
+                "Leuchte im Alltag für kaum wahrnehmbar. Bei Sonne oder Gegenlicht "
+                "sieht sie ohnehin niemand.",
+          f("BOOK", 42), INK, MAXW, 1.44)
+    slides.append(img)
+
+    # --- 04 Wer noch mitschaut
+    img, d = new(4, T, ST)
+    y = kicker(d, 232, "Wer noch mitschaut")
+    block(d, y, "Im Februar haben zwei schwedische Zeitungen und eine kenianische "
+                "Journalistin über dreißig Beschäftigte eines Dienstleisters in Nairobi "
+                "befragt. Sie beschrifteten Bilder und Videos aus den Brillen fürs "
+                "KI-Training und sahen dabei Nacktaufnahmen, Sex und Bankdaten. Meta "
+                "beendete den Vertrag. Ob Material aus der EU dabei war, ist offen. Der "
+                "Bundesdatenschutzbeauftragte schreibt, Bildmaterial werde derzeit "
+                "nicht fürs Training genutzt. Das passt nicht zusammen.",
+          f("BOOK", 39), INK, MAXW, 1.40)
+    slides.append(img)
+
+    # --- 05 Was für dich gilt
+    img, d = new(5, T, ST)
+    y = kicker(d, 232, "Was für dich gilt")
+    block(d, y, "Wer damit Fremde auf der Straße filmt, verarbeitet deren "
+                "personenbezogene Daten. Die Ausnahme für rein private Zwecke greift "
+                "draußen nicht. Wer aufgenommen wird, kann seine Rechte laut "
+                "Datenschutzbeauftragtem nur eingeschränkt ausüben. Seit dem 12. August "
+                "läuft eine Strafanzeige gegen Meta und mehrere Händler. Ein Verbot "
+                "steht bisher nicht an: Die Bundesnetzagentur sieht die Voraussetzungen "
+                "dafür nicht erfüllt.",
+          f("BOOK", 39), INK, MAXW, 1.40)
+    slides.append(img)
+
+    # --- 06 Quellen
+    img, d = new(6, T, ST)
+    y = kicker(d, 240, "Quellen")
+    for s_ in ["Bundesbeauftragter für den Datenschutz, FAQ zu den Ray-Ban Meta Smart Glasses",
+               "HateAid, Strafanzeige vom 12. August 2026, gestützt auf Paragraf 8 TDDDG",
+               "Svenska Dagbladet und Göteborgs-Posten, Recherche zur Datenarbeit in Nairobi, Februar 2026"]:
+        caret(d, M + 18, y + 22, 30, 6, RED)
+        yy = y
+        for ln in wrap(d, s_, f("BOOK", 33), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 33), fill=INK); yy += int(33 * 1.4)
+        y = yy + 26
+    y += 16
+    d.line([(M, y), (W - M, y)], fill=RULE, width=2); y += 36
+    y = block(d, y, "Kein Rechtsrat. Beschreibt die Technik, die Vorschrift und ein laufendes "
+                    "Verfahren, nicht den Einzelfall.",
+              f("BOOK", 31), MUTED, MAXW, 1.4, 28)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar.",
+          f("BOOK", 31), RED, MAXW, 1.4)
+    slides.append(img)
+
+    return slides
+
+
 # ================================================================ STORIES (1080x1920)
 def build_stories():
     """Story-Slides im Hochformat. Inhalt bleibt in der Sicherheitszone (oben ~260 px für
@@ -1297,11 +1387,13 @@ n3 = save_slides(build_post3(), OUT_POST3)
 n5 = save_slides(build_post5(), OUT_POST5)
 n8 = save_slides(build_post8(), OUT_POST8)
 n9 = save_slides(build_post9(), OUT_POST9)
+n10 = save_slides(build_post10(), OUT_POST10)
 print(f"Post 2: {n2} Blätter -> {OUT_POST2}")
 print(f"Post 3: {n3} Blätter -> {OUT_POST3}")
 print(f"Post 5: {n5} Blätter -> {OUT_POST5}")
 print(f"Post 8: {n8} Blätter -> {OUT_POST8}")
 print(f"Post 9: {n9} Blätter -> {OUT_POST9}")
+print(f"Post 10: {n10} Blätter -> {OUT_POST10}")
 print(f"Logo    -> {OUT_LOGO}")
 print("(Post 0/1/4/6/7 gepostet & archiviert -> archive/, nicht neu gerendert)")
 

@@ -1,0 +1,88 @@
+# Post 10 — „Die Brille sieht, was du siehst"
+
+- **Säule:** Betrifft dich direkt
+- **Tag:** aktuell (HateAid-Strafanzeige vom 12.08.2026, Bundesnetzagentur prüft)
+- **Status:** gerendert (6 Blätter, 14.08.2026)
+- **Blätter:** 6
+- **Warum jetzt / warum stark:** Über sieben Millionen verkaufte Geräte, und seit dem 12. August läuft eine
+  Strafanzeige gegen Meta und vier Händlerketten. Der Post erklärt, was technisch drinsteckt, statt nur
+  zu warnen, und korrigiert die verbreitete Schlagzeile „Verbot droht".
+- **Warum es den Zuschauer betrifft:** Zwei Rollen, beide relevant. Wer die Brille trägt, verarbeitet
+  fremde Daten. Wer daneben steht, wird aufgenommen, ohne es zu merken.
+- **Die Korrektur:** Überall steht, ein Verbot drohe. Die zuständige Bundesnetzagentur sagt, sie sehe die
+  Voraussetzungen bei den bisher geprüften Modellen nicht erfüllt. Beides gehört in den Post.
+- **Ton:** erklärend statt alarmierend. Kein „Perversbrille", kein Meta-Bashing. Die Fakten reichen.
+
+## Blätter
+
+| Blatt | Kicker | Inhalt |
+|-------|--------|--------|
+| 01 | Hook | **DIE BRILLE SIEHT, WAS DU SIEHST. UND HÖRT ZWEI METER WEIT.** Über sieben Millionen sind verkauft. Ansehen kann man ihnen das kaum. |
+| 02 | Was drinsteckt | Kamera und sechs Mikrofone, laut BfDI mindestens zwei Meter Reichweite. Die KI greift auf die Kamera zu und wertet aus, was der Träger ansieht. Live-Übersetzung läuft lokal, bei eingeschalteter Cloud-Verarbeitung gehen Daten an Metas Server. |
+| 03 | Was die Leuchte verrät | LED zeigt Foto und Video an. Für reine Sprachaufnahmen gibt es keinen Hinweis. Der Hamburger Datenschutzbeauftragte hält die Leuchte im Alltag für kaum wahrnehmbar. |
+| 04 | Wer noch mitschaut | Februar 2026, Nairobi: über dreißig Beschäftigte beschrifteten Material aus den Brillen fürs KI-Training und sahen Nacktaufnahmen, Sex und Bankdaten. Meta beendete den Vertrag, 1.108 Menschen verloren die Arbeit. Ob EU-Material dabei war, ist offen. |
+| 05 | Was für dich gilt | Wer Fremde filmt, verarbeitet deren Daten, die Privatausnahme greift draußen nicht. Aufgenommene können ihre Rechte laut BfDI kaum ausüben. Seit 12. August läuft eine Strafanzeige. Die Bundesnetzagentur sieht bislang keinen Verbotsgrund. |
+| 06 | Quellen | BfDI-FAQ · HateAid 12.08.2026 · Svenska Dagbladet und Göteborgs-Posten · Kein Rechtsrat. |
+
+## Caption (postfertig)
+
+> In den KI-Brillen von Meta stecken eine Kamera und sechs Mikrofone. Die Mikrofone nehmen nach Angaben des
+> Bundesdatenschutzbeauftragten mindestens zwei Meter weit auf. Die KI hat Zugriff auf die Kamera und
+> wertet aus, was der Träger gerade ansieht. Über sieben Millionen Geräte sind verkauft.
+>
+> Die kleine Leuchte am Rahmen zeigt Foto und Video an. Für reine Sprachaufnahmen gibt es diesen Hinweis
+> nicht. Der Hamburger Datenschutzbeauftragte hat die Brille testen lassen und hält die Leuchte im Alltag
+> für kaum wahrnehmbar.
+>
+> Im Februar haben zwei schwedische Zeitungen und eine kenianische Journalistin über dreißig Beschäftigte
+> eines Dienstleisters in Nairobi befragt. Sie beschrifteten Bilder und Videos aus den Brillen fürs
+> KI-Training und sahen dabei Nacktaufnahmen, Sex und Bankdaten. Meta hat den Vertrag beendet. Ob auch
+> Material aus der EU dabei war, ist offen. Der Bundesdatenschutzbeauftragte schreibt, Bildmaterial werde
+> derzeit nicht zum Training verwendet. Das passt nicht zusammen, und ich kann es nicht auflösen.
+>
+> Für dich heißt das zweierlei. Filmst du damit Fremde auf der Straße, verarbeitest du deren Daten, die
+> Ausnahme für private Zwecke greift dort nicht. Und wer aufgenommen wird, kann seine Rechte laut BfDI nur
+> eingeschränkt ausüben.
+>
+> Noch eine Einordnung, weil es überall anders steht: Ein Verbot droht bisher nicht. HateAid hat am
+> 12. August Strafanzeige gestellt, die Bundesnetzagentur sagt aber, sie sehe die Voraussetzungen für ein
+> Verbot bei den bisher geprüften Modellen nicht erfüllt.
+>
+> Quellen auf dem letzten Blatt. Kein Rechtsrat.
+> Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar.
+>
+> #SmartGlasses #MetaAI #RayBanMeta #Datenschutz #KünstlicheIntelligenz #DSGVO #Privatsphäre
+
+## Alt-Text (je Blatt)
+
+- **01:** Papierbeiges Aktenblatt, große Schlagzeile „Die Brille sieht, was du siehst, und hört zwei Meter weit", darunter der Hinweis auf über sieben Millionen verkaufte Geräte.
+- **02:** Kicker „Was drinsteckt": Kamera und sechs Mikrofone mit mindestens zwei Metern Reichweite, KI mit Kamerazugriff, Live-Übersetzung lokal, Cloud-Verarbeitung überträgt an Metas Server.
+- **03:** Kicker „Was die Leuchte verrät": LED signalisiert Foto und Video, für reine Sprachaufnahmen fehlt der Hinweis, Hamburger Datenschutzbeauftragter hält sie für kaum wahrnehmbar.
+- **04:** Kicker „Wer noch mitschaut": Recherche aus Nairobi vom Februar 2026, über dreißig Beschäftigte beschrifteten Brillenmaterial fürs KI-Training, Meta beendete den Vertrag, 1.108 Betroffene.
+- **05:** Kicker „Was für dich gilt": Träger verarbeiten fremde Daten, Privatausnahme greift draußen nicht, Aufgenommene können Rechte kaum ausüben, Strafanzeige seit 12. August, Bundesnetzagentur sieht keinen Verbotsgrund.
+- **06:** Kicker „Quellen": FAQ des Bundesdatenschutzbeauftragten, HateAid-Strafanzeige vom 12. August 2026, Recherche von Svenska Dagbladet und Göteborgs-Posten, Hinweis kein Rechtsrat.
+
+## Bewusst nicht auf den Blättern
+
+Belegt, aber aus Platzgründen nur hier und in `sources.md`. Vorrat für Kommentar-Antworten:
+
+- **„Super sensing" und Gesichtserkennung.** Für 2026 berichtet, Prototypen sollen dauerhaft aufzeichnen.
+  Bisher nur berichtete Pläne, keine ausgelieferte Funktion. Laut BfDI ist Gesichtserkennung durch Meta AI
+  nach Herstellerangaben ausgeschlossen. Nicht auf die Blätter, weil unbestätigt.
+- **US-Datenschutzrichtlinie.** Sprachaufnahmen bis zu einem Jahr gespeichert, Opt-out in den USA
+  gestrichen, EU-Nutzer können widersprechen. Nur Sekundärquellen, deshalb nicht auf den Blättern.
+- **Wer genau angezeigt wurde.** Meta Platforms Technologies Ireland, Ray-Ban, Oakley sowie Fielmann,
+  Apollo-Optik, Mister Spex und MediaMarkt. Rechtsgrundlage § 8 Abs. 1 und § 27 Abs. 1 Nr. 3 TDDDG.
+- **Der Verkaufszahlen-Kontext.** Rund 41 Millionen Menschen in Deutschland tragen eine Brille.
+
+## Vor dem Posten
+
+- [x] Ankerquelle ist amtlich: FAQ des Bundesbeauftragten für den Datenschutz zu genau diesen Brillen.
+- [x] Korrektur enthalten: Bundesnetzagentur sieht bislang keinen Verbotsgrund, entgegen vieler Schlagzeilen.
+- [x] Offener Widerspruch beim KI-Training wird im Post benannt, statt eine Seite zu wählen.
+- [x] Rechtsformulierungen beschreibend, keine Bewertung der Strafanzeige.
+- [x] Gerendert, `slides/` gefüllt (6 Blätter, 14.08.2026).
+- [ ] **Offen:** Die BfDI-FAQ trägt kein sichtbares Stand-Datum. Vor `geprueft` klären, ob die Aussage zum
+      KI-Training aktuell ist.
+- [ ] **Offen:** Verkaufszahl „über sieben Millionen" stammt aus einer journalistischen Zusammenfassung der
+      EssilorLuxottica-Angaben. Am Geschäftsbericht gegenprüfen.

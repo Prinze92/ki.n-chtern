@@ -32,6 +32,7 @@ Account: **@ki.nuechtern** · Profilname „KI nüchtern — ohne Hype" · Auswe
 | 7 | Was du besser nicht in eine KI eintippst | Betrifft dich | **gepostet (13.08.)** | 6 |
 | 8 | KI-Text hat jetzt ein Wasserzeichen | Betrifft dich | gerendert | 6 |
 | 9 | Polizisten spielen Schläge vor, damit die Kamera lernt | Unbequeme Frage | gerendert | 6 |
+| 10 | Die Brille sieht, was du siehst | Betrifft dich | gerendert | 6 |
 
 - **Intro (000):** **live am 11.08.2026** (Rhythmus-Folie weggelassen, Caption angepasst). Archiv = Repo-Stand, so übernommen. Anker für Highlight „Start".
 - **Post 4:** Art. 50 gilt seit 02.08.2026; am Artikeltext (EN + DE) gegengelesen. **Live** (Datum vorläufig 11.08., bestätigen). Nach ~7 Tagen Kennzahlen nachtragen.
@@ -40,6 +41,7 @@ Account: **@ki.nuechtern** · Profilname „KI nüchtern — ohne Hype" · Auswe
 - **Post 7:** „Was du besser nicht in eine KI eintippst" — Betrifft dich, aus Bitkom 2026 (58 % nutzen KI). Praktischer Datenschutz-Nutzwert. **Live am 13.08.** → `archive/`. Nach ~7 Tagen Kennzahlen nachtragen.
 - **Post 8:** „KI-Text hat jetzt ein Wasserzeichen" — Betrifft dich. Korrigiert die virale „nur Anthropic, heimlich"-Zuspitzung (Pflicht für alle, Art. 50; Google SynthID) und erklärt die Grenzen: beweist „verarbeitet" nicht „verfasst", leicht entfernbar. Neutral trotz eigener Firma. 6 dichte Blätter. Gerendert.
 - **Post 9:** „Polizisten spielen Schläge vor, damit die Kamera sie erkennt“ — Unbequeme Frage. Automatisierte Verhaltenserkennung in Mannheim (seit 12.2018). Kernbefund aus der **Primärquelle** (Landtag BW, Drucksache 17/5816, Stellungnahme Innenministerium vom 12.12.2023, im Volltext gelesen): Alarme werden erzeugt, aber nur zur Weiterentwicklung genutzt und nicht standardisiert protokolliert, deshalb keine Auswertung der Erkennungsleistung; Marktreife nicht erreicht; im Echtbetrieb erkennt das Videobeobachtungspersonal. Projektende 11.2026, Abschlussevaluierung erst Anfang 2027, Ausweitung läuft. Auf 6 Blätter verdichtet und gerendert (14.08.2026).
+- **Post 10:** „Die Brille sieht, was du siehst“ — Betrifft dich. Was in Metas KI-Brillen steckt (Kamera, sechs Mikrofone mit mind. zwei Metern Reichweite, KI mit Kamerazugriff) und was mit den Daten passiert. Ankerquelle ist die **FAQ des Bundesdatenschutzbeauftragten**. Enthält die Korrektur zur Schlagzeilenlage: Die Bundesnetzagentur sieht die Voraussetzungen für ein Verbot bislang NICHT erfüllt, obwohl überall „Verbot droht“ steht. Der Widerspruch zum KI-Training (BfDI vs. Nairobi-Recherche) wird offen benannt statt aufgelöst. Gerendert (14.08.2026).
 
 ## Offene Punkte je Post
 
