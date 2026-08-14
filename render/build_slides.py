@@ -27,15 +27,14 @@ OUT_LOGO = REPO / "brand" / "logo"
 OUT_POST2 = REPO / "posts" / "post-002-arbeitslosigkeit-hype-check" / "slides"
 OUT_POST3 = REPO / "posts" / "post-003-was-du-tun-kannst" / "slides"
 OUT_POST5 = REPO / "posts" / "post-005-killt-ki-die-jobs" / "slides"
-# Gepostet & archiviert: Post 0/1/4/6/7 liegen unter archive/ (veröffentlichter Stand). Sie werden
+# Gepostet & archiviert: Post 0/1/4/6/7/9 liegen unter archive/ (veröffentlichter Stand). Sie werden
 # NICHT mehr aktiv gerendert, damit die publizierten PNGs nicht versehentlich überschrieben werden
 # (z. B. bei einer Änderung an frame()/STAND). Die Funktionen build_intro/build_post1/build_post4/
-# build_post6/build_post7 bleiben unten als Reproduzierbarkeits-Referenz erhalten.
+# build_post6/build_post7/build_post9 bleiben unten als Reproduzierbarkeits-Referenz erhalten.
 OUT_POST8 = REPO / "posts" / "post-008-ki-wasserzeichen" / "slides"
-OUT_POST9 = REPO / "posts" / "post-009-verhaltenserkennung-mannheim" / "slides"
 OUT_POST10 = REPO / "posts" / "post-010-meta-brille-ki" / "slides"
 OUT_STORY = REPO / "brand" / "stories"
-for _d in (OUT_LOGO, OUT_STORY, OUT_POST2, OUT_POST3, OUT_POST5, OUT_POST8, OUT_POST9, OUT_POST10):
+for _d in (OUT_LOGO, OUT_STORY, OUT_POST2, OUT_POST3, OUT_POST5, OUT_POST8, OUT_POST10):
     _d.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------- palette
@@ -1426,21 +1425,19 @@ def save_slides(slides, out_dir):
     return len(slides)
 
 
-# Nur aktive Posts rendern. Post 0/1/4 sind gepostet und liegen eingefroren unter archive/.
+# Nur aktive Posts rendern. Post 0/1/4/6/7/9 sind gepostet und liegen eingefroren unter archive/.
 n2 = save_slides(build_post2(), OUT_POST2)
 n3 = save_slides(build_post3(), OUT_POST3)
 n5 = save_slides(build_post5(), OUT_POST5)
 n8 = save_slides(build_post8(), OUT_POST8)
-n9 = save_slides(build_post9(), OUT_POST9)
 n10 = save_slides(build_post10(), OUT_POST10)
 print(f"Post 2: {n2} Blätter -> {OUT_POST2}")
 print(f"Post 3: {n3} Blätter -> {OUT_POST3}")
 print(f"Post 5: {n5} Blätter -> {OUT_POST5}")
 print(f"Post 8: {n8} Blätter -> {OUT_POST8}")
-print(f"Post 9: {n9} Blätter -> {OUT_POST9}")
 print(f"Post 10: {n10} Blätter -> {OUT_POST10}")
 print(f"Logo    -> {OUT_LOGO}")
-print("(Post 0/1/4/6/7 gepostet & archiviert -> archive/, nicht neu gerendert)")
+print("(Post 0/1/4/6/7/9 gepostet & archiviert -> archive/, nicht neu gerendert)")
 
 _stories = build_stories()
 for _name, _im in _stories:
