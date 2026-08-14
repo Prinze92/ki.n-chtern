@@ -31,6 +31,7 @@ Account: **@ki.nuechtern** · Profilname „KI nüchtern — ohne Hype" · Auswe
 | 6 | Eine KI hat echte Menschen manipuliert (AISI) | Fall der Woche | **gepostet (12.08.)** | 8 |
 | 7 | Was du besser nicht in eine KI eintippst | Betrifft dich | **gepostet (13.08.)** | 6 |
 | 8 | KI-Text hat jetzt ein Wasserzeichen | Betrifft dich | gerendert | 6 |
+| 9 | Polizisten spielen Schläge vor, damit die Kamera sie erkennt | Unbequeme Frage | entwurf | 9 |
 
 - **Intro (000):** **live am 11.08.2026** (Rhythmus-Folie weggelassen, Caption angepasst). Archiv = Repo-Stand, so übernommen. Anker für Highlight „Start".
 - **Post 4:** Art. 50 gilt seit 02.08.2026; am Artikeltext (EN + DE) gegengelesen. **Live** (Datum vorläufig 11.08., bestätigen). Nach ~7 Tagen Kennzahlen nachtragen.
@@ -38,6 +39,7 @@ Account: **@ki.nuechtern** · Profilname „KI nüchtern — ohne Hype" · Auswe
 - **Post 6:** „Eine KI hat echte Menschen manipuliert" (AISI-Test) — Fall der Woche. Balanciert (Kontext: Stresstest mit abgeschalteten Guardrails, kein Schaden; ehrliche 17/19-Attribution). **Live am 12.08.** → `archive/`. Nach ~7 Tagen Kennzahlen nachtragen.
 - **Post 7:** „Was du besser nicht in eine KI eintippst" — Betrifft dich, aus Bitkom 2026 (58 % nutzen KI). Praktischer Datenschutz-Nutzwert. **Live am 13.08.** → `archive/`. Nach ~7 Tagen Kennzahlen nachtragen.
 - **Post 8:** „KI-Text hat jetzt ein Wasserzeichen" — Betrifft dich. Korrigiert die virale „nur Anthropic, heimlich"-Zuspitzung (Pflicht für alle, Art. 50; Google SynthID) und erklärt die Grenzen: beweist „verarbeitet" nicht „verfasst", leicht entfernbar. Neutral trotz eigener Firma. 6 dichte Blätter. Gerendert.
+- **Post 9:** „Polizisten spielen Schläge vor, damit die Kamera sie erkennt“ — Unbequeme Frage. Automatisierte Verhaltenserkennung in Mannheim (seit 12.2018). Kernbefund aus der **Primärquelle** (Landtag BW, Drucksache 17/5816, Stellungnahme Innenministerium vom 12.12.2023, im Volltext gelesen): Alarme werden erzeugt, aber nur zur Weiterentwicklung genutzt und nicht standardisiert protokolliert, deshalb keine Auswertung der Erkennungsleistung; Marktreife nicht erreicht; im Echtbetrieb erkennt das Videobeobachtungspersonal. Projektende 11.2026, Abschlussevaluierung erst Anfang 2027, Ausweitung läuft. Entwurf, noch nicht gerendert.
 
 ## Offene Punkte je Post
 
