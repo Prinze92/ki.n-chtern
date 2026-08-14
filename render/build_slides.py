@@ -1230,13 +1230,12 @@ def build_post10():
     # --- 02 Was drinsteckt
     img, d = new(2, T, ST)
     y = kicker(d, 240, "Was drinsteckt")
-    block(d, y, "In der Brille sitzen eine Kamera und sechs Mikrofone. Die nehmen nach "
+    block(d, y, "In der Brille sitzen eine Kamera und sechs Mikrofone. Sie nehmen nach "
                 "Angaben des Bundesdatenschutzbeauftragten mindestens zwei Meter weit "
-                "auf. Die KI hat Zugriff auf die Kamera und wertet aus, was der Träger "
-                "gerade ansieht, etwa um ein Gebäude zu beschreiben. Die Übersetzung "
-                "läuft auf dem Gerät selbst. Ist die Cloud-Verarbeitung eingeschaltet, "
-                "gehen die Daten an Metas Server.",
-          f("BOOK", 41), INK, MAXW, 1.42)
+                "auf. Die KI greift auf die Kamera zu und wertet aus, was der Träger "
+                "gerade ansieht. Die Übersetzung läuft auf dem Gerät. Ist die "
+                "Cloud-Verarbeitung an, gehen die Daten an Metas Server.",
+          f("BOOK", 42), INK, MAXW, 1.44)
     slides.append(img)
 
     # --- 03 Was die Leuchte verrät
@@ -1245,8 +1244,7 @@ def build_post10():
     block(d, y, "Eine kleine Leuchtdiode am Rahmen zeigt an, dass aufgenommen wird. Für "
                 "reine Sprachaufnahmen gibt es diesen Hinweis nicht. Der Hamburger "
                 "Datenschutzbeauftragte hat die Brille testen lassen und hält die "
-                "Leuchte im Alltag für kaum wahrnehmbar. Bei Sonne oder Gegenlicht "
-                "sieht sie ohnehin niemand.",
+                "Leuchte im Alltag für kaum wahrnehmbar.",
           f("BOOK", 42), INK, MAXW, 1.44)
     slides.append(img)
 
@@ -1257,23 +1255,22 @@ def build_post10():
                 "Journalistin über dreißig Beschäftigte eines Dienstleisters in Nairobi "
                 "befragt. Sie beschrifteten Bilder und Videos aus den Brillen fürs "
                 "KI-Training und sahen dabei Nacktaufnahmen, Sex und Bankdaten. Meta "
-                "beendete den Vertrag. Ob Material aus der EU dabei war, ist offen. Der "
-                "Bundesdatenschutzbeauftragte schreibt, Bildmaterial werde derzeit "
-                "nicht fürs Training genutzt. Das passt nicht zusammen.",
-          f("BOOK", 39), INK, MAXW, 1.40)
+                "beendete den Vertrag. Der Bundesdatenschutzbeauftragte schreibt "
+                "dagegen, Bildmaterial werde derzeit nicht fürs Training genutzt. Das "
+                "passt nicht zusammen.",
+          f("BOOK", 41), INK, MAXW, 1.42)
     slides.append(img)
 
     # --- 05 Was für dich gilt
     img, d = new(5, T, ST)
     y = kicker(d, 232, "Was für dich gilt")
     block(d, y, "Wer damit Fremde auf der Straße filmt, verarbeitet deren "
-                "personenbezogene Daten. Die Ausnahme für rein private Zwecke greift "
-                "draußen nicht. Wer aufgenommen wird, kann seine Rechte laut "
+                "personenbezogene Daten. Die Ausnahme für private Zwecke greift draußen "
+                "nicht. Wer aufgenommen wird, kann seine Rechte laut "
                 "Datenschutzbeauftragtem nur eingeschränkt ausüben. Seit dem 12. August "
-                "läuft eine Strafanzeige gegen Meta und mehrere Händler. Ein Verbot "
-                "steht bisher nicht an: Die Bundesnetzagentur sieht die Voraussetzungen "
-                "dafür nicht erfüllt.",
-          f("BOOK", 39), INK, MAXW, 1.40)
+                "läuft eine Strafanzeige. Ein Verbot steht bisher nicht an, die "
+                "Bundesnetzagentur sieht die Voraussetzungen nicht erfüllt.",
+          f("BOOK", 41), INK, MAXW, 1.42)
     slides.append(img)
 
     # --- 06 Quellen

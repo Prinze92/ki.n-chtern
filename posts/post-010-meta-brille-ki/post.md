@@ -3,7 +3,7 @@
 - **Säule:** Betrifft dich direkt
 - **Tag:** aktuell (HateAid-Strafanzeige vom 12.08.2026, Bundesnetzagentur prüft)
 - **Status:** gerendert (6 Blätter, 14.08.2026)
-- **Blätter:** 6
+- **Blätter:** 6 (Textdichte auf Post-9-Niveau, rund 50 Wörter je Inhaltsblatt)
 - **Warum jetzt / warum stark:** Über sieben Millionen verkaufte Geräte, und seit dem 12. August läuft eine
   Strafanzeige gegen Meta und vier Händlerketten. Der Post erklärt, was technisch drinsteckt, statt nur
   zu warnen, und korrigiert die verbreitete Schlagzeile „Verbot droht".
@@ -18,35 +18,32 @@
 | Blatt | Kicker | Inhalt |
 |-------|--------|--------|
 | 01 | Hook | **DIE BRILLE SIEHT, WAS DU SIEHST. UND HÖRT ZWEI METER WEIT.** Über sieben Millionen sind verkauft. Ansehen kann man ihnen das kaum. |
-| 02 | Was drinsteckt | Kamera und sechs Mikrofone, laut BfDI mindestens zwei Meter Reichweite. Die KI greift auf die Kamera zu und wertet aus, was der Träger ansieht. Live-Übersetzung läuft lokal, bei eingeschalteter Cloud-Verarbeitung gehen Daten an Metas Server. |
-| 03 | Was die Leuchte verrät | LED zeigt Foto und Video an. Für reine Sprachaufnahmen gibt es keinen Hinweis. Der Hamburger Datenschutzbeauftragte hält die Leuchte im Alltag für kaum wahrnehmbar. |
-| 04 | Wer noch mitschaut | Februar 2026, Nairobi: über dreißig Beschäftigte beschrifteten Material aus den Brillen fürs KI-Training und sahen Nacktaufnahmen, Sex und Bankdaten. Meta beendete den Vertrag, 1.108 Menschen verloren die Arbeit. Ob EU-Material dabei war, ist offen. |
-| 05 | Was für dich gilt | Wer Fremde filmt, verarbeitet deren Daten, die Privatausnahme greift draußen nicht. Aufgenommene können ihre Rechte laut BfDI kaum ausüben. Seit 12. August läuft eine Strafanzeige. Die Bundesnetzagentur sieht bislang keinen Verbotsgrund. |
+| 02 | Was drinsteckt | Kamera und sechs Mikrofone, laut BfDI mindestens zwei Meter Reichweite. Die KI greift auf die Kamera zu und wertet aus, was der Träger ansieht. Übersetzung läuft auf dem Gerät, bei aktiver Cloud-Verarbeitung gehen Daten an Metas Server. |
+| 03 | Was die Leuchte verrät | LED zeigt an, dass aufgenommen wird. Für reine Sprachaufnahmen gibt es keinen Hinweis. Der Hamburger Datenschutzbeauftragte hält die Leuchte im Alltag für kaum wahrnehmbar. |
+| 04 | Wer noch mitschaut | Februar 2026, Nairobi: über dreißig Beschäftigte beschrifteten Material aus den Brillen fürs KI-Training und sahen Nacktaufnahmen, Sex und Bankdaten. Meta beendete den Vertrag. Der BfDI schreibt dagegen, Bildmaterial werde derzeit nicht genutzt. Das passt nicht zusammen. |
+| 05 | Was für dich gilt | Wer Fremde filmt, verarbeitet deren Daten, die Privatausnahme greift draußen nicht. Aufgenommene können ihre Rechte laut BfDI kaum ausüben. Seit 12. August läuft eine Strafanzeige. Ein Verbot steht bisher nicht an, die Bundesnetzagentur sieht die Voraussetzungen nicht erfüllt. |
 | 06 | Quellen | BfDI-FAQ · HateAid 12.08.2026 · Svenska Dagbladet und Göteborgs-Posten · Kein Rechtsrat. |
 
 ## Caption (postfertig)
 
-> In den KI-Brillen von Meta stecken eine Kamera und sechs Mikrofone. Die Mikrofone nehmen nach Angaben des
-> Bundesdatenschutzbeauftragten mindestens zwei Meter weit auf. Die KI hat Zugriff auf die Kamera und
+> In den KI-Brillen von Meta stecken eine Kamera und sechs Mikrofone, die nach Angaben des
+> Bundesdatenschutzbeauftragten mindestens zwei Meter weit aufnehmen. Die KI greift auf die Kamera zu und
 > wertet aus, was der Träger gerade ansieht. Über sieben Millionen Geräte sind verkauft.
 >
-> Die kleine Leuchte am Rahmen zeigt Foto und Video an. Für reine Sprachaufnahmen gibt es diesen Hinweis
-> nicht. Der Hamburger Datenschutzbeauftragte hat die Brille testen lassen und hält die Leuchte im Alltag
-> für kaum wahrnehmbar.
+> Die Leuchte am Rahmen zeigt an, dass aufgenommen wird. Für reine Sprachaufnahmen gibt es diesen Hinweis
+> nicht, und im Alltag hält der Hamburger Datenschutzbeauftragte sie für kaum wahrnehmbar.
 >
 > Im Februar haben zwei schwedische Zeitungen und eine kenianische Journalistin über dreißig Beschäftigte
-> eines Dienstleisters in Nairobi befragt. Sie beschrifteten Bilder und Videos aus den Brillen fürs
-> KI-Training und sahen dabei Nacktaufnahmen, Sex und Bankdaten. Meta hat den Vertrag beendet. Ob auch
-> Material aus der EU dabei war, ist offen. Der Bundesdatenschutzbeauftragte schreibt, Bildmaterial werde
-> derzeit nicht zum Training verwendet. Das passt nicht zusammen, und ich kann es nicht auflösen.
+> eines Dienstleisters in Nairobi befragt. Sie beschrifteten Material aus den Brillen fürs KI-Training und
+> sahen dabei Nacktaufnahmen, Sex und Bankdaten. Meta hat den Vertrag beendet. Der
+> Bundesdatenschutzbeauftragte schreibt dagegen, Bildmaterial werde derzeit nicht zum Training verwendet.
+> Ob EU-Material betroffen war, ist offen. Ich kann den Widerspruch nicht auflösen und sage das lieber.
 >
-> Für dich heißt das zweierlei. Filmst du damit Fremde auf der Straße, verarbeitest du deren Daten, die
-> Ausnahme für private Zwecke greift dort nicht. Und wer aufgenommen wird, kann seine Rechte laut BfDI nur
-> eingeschränkt ausüben.
+> Filmst du damit Fremde auf der Straße, verarbeitest du deren Daten, die Ausnahme für private Zwecke
+> greift dort nicht. Wer aufgenommen wird, kann seine Rechte laut BfDI nur eingeschränkt ausüben.
 >
-> Noch eine Einordnung, weil es überall anders steht: Ein Verbot droht bisher nicht. HateAid hat am
-> 12. August Strafanzeige gestellt, die Bundesnetzagentur sagt aber, sie sehe die Voraussetzungen für ein
-> Verbot bei den bisher geprüften Modellen nicht erfüllt.
+> Und weil es überall anders steht: Ein Verbot droht bisher nicht. Die Bundesnetzagentur sieht die
+> Voraussetzungen bei den geprüften Modellen nicht erfüllt.
 >
 > Quellen auf dem letzten Blatt. Kein Rechtsrat.
 > Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar.
