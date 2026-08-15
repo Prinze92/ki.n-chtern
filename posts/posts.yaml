@@ -233,3 +233,24 @@ posts:
       sends: null
       sends_per_reach: null
       saves: null
+
+  - id: 12
+    slug: ki-erwartung-kippt
+    ordner: post-012-ki-erwartung-kippt
+    titel: "AppLovin wuchs um 53 Prozent und verlor die Hälfte"
+    saeule: hype_check
+    bauform: der_fall
+    status: gerendert          # 6 Blätter (15.08.2026); Ausgangsthese beim Recherchieren korrigiert
+    blaetter: 6
+    geplant_fuer: aktuell
+    gepostet_am: null
+    offen:
+      - "Transkript der AppLovin-Telefonkonferenz im Original lesen, Management-Aussage bisher nur aus Berichten darueber"
+      - "MSCI-Konzentration am Factsheet mit Stichtag gegenpruefen"
+      - "Kursreaktion je nach Quelle 17 bis 21 Prozent, im Post deshalb 'rund ein Fuenftel'"
+      - "Kein Beleg-Panel, weil kein geprueftes woertliches Zitat vorliegt (Begruendung in sources.md)"
+    kennzahlen:
+      reach: null
+      sends: null
+      sends_per_reach: null
+      saves: null

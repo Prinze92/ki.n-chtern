@@ -31,7 +31,8 @@ Wie wir entscheiden, was wir posten. Reihenfolge: **Idee → Recherche an Primä
 | „Löscht KI uns aus?" — was die Fachleute selbst schätzen | Unbequeme Frage | AI Impacts, „Thousands of AI Authors on the Future of AI" (2.778 Befragte, Median 5 %) | recherchiert |
 | Wer der KI vertraut, prüft weniger. Wer sich selbst vertraut, prüft mehr | Betrifft dich | Microsoft Research + Carnegie Mellon, CHI 2025: 319 Berufstätige, 936 Arbeitsbeispiele | recherchiert |
 | „AI washing" — steckt KI drin, wo KI draufsteht? | Hype-Check | SEC-Verfahren gegen Delphia, 18.03.2024, 225.000 $ Strafe (Aushilfen statt Algorithmus) | recherchiert |
-| Wenn das Modell aufhört, besser zu werden | Hype-Check | AppLovin Q2 2026: Umsatz +53 %, Erwartung um ~1 % verfehlt; Management nennt langsamere Modellverbesserung als Grund | recherchiert |
+| Wie lange hält eine GPU? Die Abschreibungsdebatte | Unbequeme Frage | Hyperscaler 5 bis 6 Jahre, Burry 2 bis 3, bis zu 176 Mrd. $ Differenz 2026–2028; Gegenposition Inferenz-Weiternutzung | recherchiert |
+| Wenn das Modell aufhört, besser zu werden | Hype-Check | AppLovin Q2 2026: Umsatz +53 %, Erwartung um ~1 % verfehlt; Management nennt langsamere Modellverbesserung als Grund | verplant → Post 12 |
 | Wer misst, wenn ein Modell als bestes gilt? | Hype-Check | Qwen3.8-Max: Benchmarks von Alibaba selbst, unabhängige Auswertungen fehlten Anfang 08/2026 | recherchiert |
 | Wer sagt es, und was hat er davon? | Unbequeme Frage | Drei CEO-Aussagen einer Woche: Musk (Zeitachse), Pichai (Investitionsrisiko), Huang (Anlageklasse) | roh |
 | KI-Chatbots als Gesprächspartner von Kindern | Betrifft dich | DAK/UKE-Längsschnittstudie 03/2026 (rund 8 % gegen Einsamkeit, bei depressiven Symptomen über 30 %) | recherchiert |

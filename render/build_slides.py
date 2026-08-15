@@ -32,8 +32,9 @@ OUT_POST5 = REPO / "posts" / "post-005-killt-ki-die-jobs" / "slides"
 # Hinweis: Post 0/1/4/6/7/9 wurden mit Kicker 30 veroeffentlicht, Post 2/8/10 mit Kicker 38.
 # Beide geben ihre Groesse deshalb ausdruecklich am kicker()-Aufruf an.
 OUT_POST11 = REPO / "posts" / "post-011-korrektur-58-prozent" / "slides"
+OUT_POST12 = REPO / "posts" / "post-012-ki-erwartung-kippt" / "slides"
 OUT_STORY = REPO / "brand" / "stories"
-for _d in (OUT_LOGO, OUT_STORY, OUT_POST5, OUT_POST11):
+for _d in (OUT_LOGO, OUT_STORY, OUT_POST5, OUT_POST11, OUT_POST12):
     _d.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------- palette
@@ -1301,6 +1302,88 @@ def build_post11():
     return slides
 
 
+def build_post12():
+    """Bauform: Der Fall, mit zweitem Beleg. Kein Beleg-Panel, weil kein geprueftes
+    woertliches Zitat vorliegt (siehe sources.md)."""
+    T = 6
+    ST = "STAND 15.08.2026"
+    slides = []
+
+    # --- 01 HOOK
+    img, d = new(1, T, ST)
+    y = 276
+    fo = f("COND", 84)
+    for line in ["APPLOVIN WUCHS UM", "53 PROZENT UND VERLOR", "DIE HÄLFTE."]:
+        d.text((M, y), line, font=fo, fill=INK); y += 100
+    y += 34
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 52
+    block(d, y, "Im KI-Geschäft kippt die Erwartung schneller als das Geschäft.",
+          f("BOOK", 46), INK, MAXW - 40, 1.4)
+    slides.append(img)
+
+    # --- 02 Was passiert ist
+    img, d = new(2, T, ST)
+    y = kicker(d, 236, "Ein Prozent unter der Erwartung")
+    block(d, y, "Der Werbekonzern AppLovin meldete am 6. August 1,92 Milliarden Dollar "
+                "Umsatz, ein Plus von 53 Prozent. Erwartet worden waren 1,94 Milliarden. "
+                "Die Aktie fiel daraufhin um rund ein Fünftel.",
+          f("BOOK", 46), INK, MAXW, 1.44)
+    slides.append(img)
+
+    # --- 03 Die Begründung
+    img, d = new(3, T, ST)
+    y = kicker(d, 236, "Das Modell wurde langsamer besser")
+    block(d, y, "Die Begründung kam vom Unternehmen selbst. Die eigene Werbe-KI habe "
+                "sich langsamer verbessert als erwartet, deshalb gaben die Kunden "
+                "weniger zusätzlich aus. Eingepreist war, dass das Modell jedes Quartal "
+                "besser trifft.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 04 Tesla
+    img, d = new(4, T, ST)
+    y = kicker(d, 236, "Auch Tesla warf etwas weg")
+    block(d, y, "Im August 2025 stoppte Tesla seinen eigenen KI-Rechner Dojo. Musk "
+                "nannte die zweite Ausbaustufe eine evolutionäre Sackgasse. Gebaut wird "
+                "trotzdem weiter, die nächste Chip-Generation kauft Tesla für 16,5 "
+                "Milliarden Dollar bei Samsung.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 05 Was das für dich heißt (mit Balken)
+    img, d = new(5, T, ST)
+    y = kicker(d, 232, "Das steckt in deinem Sparplan")
+    y = block(d, y, "Die zehn größten Werte im MSCI World machen inzwischen rund 28 "
+                    "Prozent des Index aus, Nvidia allein gut 5 Prozent.",
+              f("BOOK", 45), INK, MAXW, 1.42, 50)
+    balken(d, y, [("TOP 10, ANFANG 2015", 10, "rund 10 %"),
+                  ("TOP 10, MITTE 2026", 28, "rund 28 %")])
+    slides.append(img)
+
+    # --- 06 Quellen
+    img, d = new(6, T, ST)
+    y = kicker(d, 240, "Quellen")
+    for s_ in ["AppLovin, Quartalszahlen vom 6. August 2026, und Berichte zur "
+               "Telefonkonferenz",
+               "Tesla: Einstellung des Dojo-Projekts, August 2025; Liefervertrag mit Samsung",
+               "MSCI World, Konzentration der zehn größten Werte, Stand Mitte 2026"]:
+        caret(d, M + 18, y + 22, 30, 6, RED)
+        yy = y
+        for ln in wrap(d, s_, f("BOOK", 36), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 36), fill=INK); yy += int(36 * 1.4)
+        y = yy + 24
+    y += 14
+    d.line([(M, y), (W - M, y)], fill=RULE, width=2); y += 34
+    y = block(d, y, "Keine Anlageberatung. Der Post beschreibt einen Mechanismus und "
+                    "nennt keine Kauf- oder Verkaufsempfehlung.",
+              f("BOOK", 34), MUTED, MAXW, 1.4, 26)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar.",
+          f("BOOK", 34), RED, MAXW, 1.4)
+    slides.append(img)
+
+    return slides
+
+
 # ================================================================ STORIES (1080x1920)
 def build_stories():
     """Story-Slides im Hochformat. Inhalt bleibt in der Sicherheitszone (oben ~260 px für
@@ -1386,8 +1469,10 @@ def save_slides(slides, out_dir):
 # Nur aktive Posts rendern. Post 0/1/2/4/6/7/8/9/10 sind gepostet und liegen unter archive/.
 n5 = save_slides(build_post5(), OUT_POST5)
 n11 = save_slides(build_post11(), OUT_POST11)
+n12 = save_slides(build_post12(), OUT_POST12)
 print(f"Post 5: {n5} Blätter -> {OUT_POST5}")
 print(f"Post 11: {n11} Blätter -> {OUT_POST11}")
+print(f"Post 12: {n12} Blätter -> {OUT_POST12}")
 print(f"Logo    -> {OUT_LOGO}")
 print("(Post 0/1/2/4/6/7/8/9/10 gepostet & archiviert -> archive/, nicht neu gerendert)")
 
