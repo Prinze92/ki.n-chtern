@@ -72,13 +72,13 @@ posts:
     ordner: post-003-was-du-tun-kannst
     titel: "Was du tun kannst, wenn eine Software dich aussortiert"
     saeule: betrifft_dich
-    status: geprueft           # DSGVO Art. 15/22 + AGG am Gesetzestext bestaetigt (11.08.2026); beschreibend
+    status: verworfen          # 14.08.2026 verworfen: inhaltlich zu schwach. Ordner geloescht, Recherche in research/ideas.md gesichert
     blaetter: 8
     geplant_fuer: offen
     gepostet_am: null
     offen:
-      - "Optional: externes arbeitsrechtliches Gegenlesen (Art. 22 auf Absagen umstritten)"
-      - "Caption + Alt-Text final vor dem Posten"
+      - "Verworfen am 14.08.2026. Blaetter und Texte sind ueber die Git-Historie wiederherstellbar (letzter Stand: commit vor 14.08.2026)"
+      - "Geprueftes Rechtsmaterial (DSGVO Art. 15/22, AGG, EuGH C-634/21) liegt in research/ideas.md"
     kennzahlen:
       reach: null
       sends: null

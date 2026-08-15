@@ -15,7 +15,7 @@ Wie wir entscheiden, was wir posten. Reihenfolge: **Idee → Recherche an Primä
 |------|-------|--------------------------|--------|
 | KI in Bewerbungsverfahren, Frist verschoben | Betrifft dich | Verordnung (EU) 2026/1744 | verplant → Post 1 |
 | „3 Mio. Arbeitslose = KI?" — Hype-Check | Hype-Check | Bundesagentur, Monatsbericht 07/2026 | verplant → Post 2 |
-| Rechte bei automatischer Vorsortierung | Betrifft dich | DSGVO Art. 15/22, AGG | verplant → Post 3 |
+| Rechte bei automatischer Vorsortierung | Betrifft dich | DSGVO Art. 15/22, AGG, EuGH C-634/21 | recherchiert (Post 3 verworfen 14.08.2026) |
 | Kennzeichnungspflicht KI-Inhalte (Art. 50) — was gilt ab wann | Betrifft dich | AI Act Art. 50 | verplant → Post 4 |
 | Betriebsrat & KI am Arbeitsplatz (Mitbestimmung) | Unbequeme Frage | BetrVG | roh |
 | „KI-Lebenslauf-Optimierer" — Hype gegen Nutzen | Hype-Check | — (Primärbeleg fehlt noch) | roh |
@@ -103,3 +103,25 @@ Strafe. Seit 2026 gibt es dafür bei der SEC eine eigene Einheit (Cyber and Emer
 Gegenstück als Aufhänger: Tucker Bryant aus San Francisco, dessen „KI-Chatbot" ChatTJB er selbst von Hand
 bediente, 6.000 Dollar Werbetafel, „AI" stand dort für „average individual".
 *Vor dem Bauen prüfen:* deutschsprachige Fälle suchen, damit der Post die Leserinnen und Leser hier betrifft.
+
+## Gerettet aus dem verworfenen Post 3 (14.08.2026)
+
+Der Post wurde als zu schwach verworfen, die Rechtsrecherche war aber am Gesetzestext geprüft und bleibt
+verwendbar. Stand der Prüfung: 11.08.2026.
+
+- **DSGVO Art. 15** gibt ein Auskunftsrecht über die verarbeiteten Daten. Belastbar.
+- **DSGVO Art. 22** untersagt Entscheidungen mit erheblicher Wirkung, die ausschließlich automatisiert
+  ergehen. Abs. 2 nennt die Ausnahmen (Vertrag, Rechtsvorschrift, Einwilligung), **Abs. 3 gibt bei
+  erlaubten automatisierten Entscheidungen ausdrücklich das Recht auf menschliches Eingreifen,
+  Stellungnahme und Anfechtung.** Belastbar.
+- **AGG:** Das Diskriminierungsverbot kennt keine Software-Ausnahme. Belastbar.
+- **Offene Rechtsfrage, die in jeden künftigen Post gehört:** Ob eine konkrete Recruiting-Absage im Sinne
+  von Art. 22 „erheblich beeinträchtigt", ist einzelfallabhängig und umstritten. Der EuGH hat mit dem
+  SCHUFA-Urteil (**C-634/21, 2023**) Art. 22 auf bestimmtes Scoring ausgeweitet. Am Wortlaut bleiben,
+  keine Zusicherung für den Einzelfall.
+- **Nicht verwendbar ohne neue Recherche:** die Aussage, Parser läsen mehrspaltige Lebensläufe oft falsch.
+  War schon damals als ungeprüft markiert.
+
+> Warum der Post nicht trug: Der Hook „Absage nach 4 Minuten?" nannte das Thema nicht (siehe Hook-Regel in
+> `CLAUDE.md`), und die Dramaturgie war eine reine Aufzählung von drei Rechten. Ein neuer Anlauf bräuchte
+> einen konkreten Fall statt einer Rechtsübersicht.

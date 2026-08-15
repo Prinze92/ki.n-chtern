@@ -15,7 +15,7 @@ Account: **@ki.nuechtern** · Profilname „KI nüchtern — ohne Hype" · Auswe
 |---|-------|-------|-----|--------|---------|----------|-------------|
 | 1 | Deine Bewerbung sortiert eine Software aus | Betrifft dich | — | **gepostet (11.08.)**¹ | 9 | — | — |
 | 2 | Nein, die KI hat die drei Millionen nicht verursacht | Hype-Check | — | **geprüft**² | 8 | — | — |
-| 3 | Was du tun kannst, wenn eine Software dich aussortiert | Betrifft dich | — | **geprüft**³ | 8 | — | — |
+| 3 | Was du tun kannst, wenn eine Software dich aussortiert | Betrifft dich | **verworfen (14.08.)** | — |
 
 ¹ **Live am 11.08.2026.** 9 PNGs unter `slides/`, byte-identisch reproduzierbar; Fakten vorab gegen Primärquelle geprüft (VO (EU) 2026/1744; Details in `post-001-…/sources.md`). Archiv = Repo-Stand (so übernommen). Nach ~7 Tagen Kennzahlen nachtragen.
 ² 8 Blätter gerendert; **Zahlen an Primärquelle geprüft (11.08.2026)** — BA (Presseinfo Nr. 30) bestätigt, Destatis **korrigiert** (223.000 / 45,54 Mio.), unbelegte Kurzarbeit-Aussage entfernt. Caption/Alt-Text vor dem Posten finalisieren.
@@ -49,7 +49,7 @@ Account: **@ki.nuechtern** · Profilname „KI nüchtern — ohne Hype" · Auswe
 
 - **Post 1:** Blatt 05 → Zitat-Faksimile behalten (OJ-/ELI-Fundstelle ergänzen) **oder** echter EUR-Lex-Screenshot · externes rechtliches Gegenlesen (Fokus Art. 22 DSGVO auf Absagen).
 - **Post 2 (live 14.08.):** geprüft (BA bestätigt, Destatis korrigiert 223.000 / 45,54 Mio.) · Caption/Alt-Text vor dem Posten · Indeed-Zahl bleibt draußen.
-- **Post 3:** geprüft (DSGVO Art. 15/22 + AGG) · Caption/Alt-Text vor dem Posten · externes Gegenlesen (Art. 22) optional.
+- **Post 3:** **verworfen am 14.08.2026**, inhaltlich zu schwach. Ordner gelöscht, Build-Funktion entfernt. Das geprüfte Rechtsmaterial (DSGVO Art. 15/22, AGG, EuGH C-634/21) ist in `research/ideas.md` gesichert. Über die Git-Historie vollständig wiederherstellbar.
 
 ---
 
