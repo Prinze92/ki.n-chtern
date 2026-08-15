@@ -125,6 +125,14 @@ und in `post.md` unter „Bauform" notieren.** Optik bleibt gleich, Dramaturgie 
 
 ## Kommentar-Regeln (Form und Treffsicherheit)
 
+- **Erst prüfen, dann über Relevanz entscheiden.** Ob ein fremder Beitrag Substanz für uns hat, entscheidet
+  sich nach der Recherche, nicht nach Format oder Absender. Auch bei Beiträgen, die nach Werbung, Börse oder
+  Belanglosigkeit aussehen, wird die zentrale Behauptung geprüft. Erst danach fällt die Entscheidung, ob und
+  wie kommentiert wird. Bedenken gegen den Kontext (etwa eine Kaufempfehlung) sind ein Grund, den Kommentar
+  **anders zu schreiben**, nie ein Grund, nicht nachzusehen.
+  (Fehler vom 15.08.2026: Ein Post über einen Kursverlust wurde als „nicht unser Thema" abgetan. Eine
+  Suchanfrage später stand die Begründung des Unternehmens da: Die eigenen KI-Modelle hätten sich langsamer
+  verbessert als erwartet. Genau unser Thema.)
 - **Die Frage des Ausgangsposts beantworten, nicht eine benachbarte.** Vor dem Schreiben in einem Satz
   festhalten, was der Post tatsächlich fragt, und am Ende gegenprüfen, ob der Kommentar genau das
   beantwortet. Ist die Frage abstrakt oder nicht belegbar, das ausdrücklich sagen und die belegbare

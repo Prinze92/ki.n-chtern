@@ -31,6 +31,9 @@ Wie wir entscheiden, was wir posten. Reihenfolge: **Idee → Recherche an Primä
 | „Löscht KI uns aus?" — was die Fachleute selbst schätzen | Unbequeme Frage | AI Impacts, „Thousands of AI Authors on the Future of AI" (2.778 Befragte, Median 5 %) | recherchiert |
 | Wer der KI vertraut, prüft weniger. Wer sich selbst vertraut, prüft mehr | Betrifft dich | Microsoft Research + Carnegie Mellon, CHI 2025: 319 Berufstätige, 936 Arbeitsbeispiele | recherchiert |
 | „AI washing" — steckt KI drin, wo KI draufsteht? | Hype-Check | SEC-Verfahren gegen Delphia, 18.03.2024, 225.000 $ Strafe (Aushilfen statt Algorithmus) | recherchiert |
+| Wenn das Modell aufhört, besser zu werden | Hype-Check | AppLovin Q2 2026: Umsatz +53 %, Erwartung um ~1 % verfehlt; Management nennt langsamere Modellverbesserung als Grund | recherchiert |
+| Wer misst, wenn ein Modell als bestes gilt? | Hype-Check | Qwen3.8-Max: Benchmarks von Alibaba selbst, unabhängige Auswertungen fehlten Anfang 08/2026 | recherchiert |
+| Wer sagt es, und was hat er davon? | Unbequeme Frage | Drei CEO-Aussagen einer Woche: Musk (Zeitachse), Pichai (Investitionsrisiko), Huang (Anlageklasse) | roh |
 | KI-Chatbots als Gesprächspartner von Kindern | Betrifft dich | DAK/UKE-Längsschnittstudie 03/2026 (rund 8 % gegen Einsamkeit, bei depressiven Symptomen über 30 %) | recherchiert |
 | Werbung in ChatGPT — wovon hängt ab, was dir angezeigt wird? | Betrifft dich | OpenAI-Ankündigung; Rollout 11.08.2026 (UK, MX, BR, JP, KR) | roh |
 | BMG lizenziert an Suno, 12 Tage nach dem GEMA-Urteil | Unbequeme Frage | LG München I 42 O 763/25; BMG-Mitteilung 12.08.2026 | roh |
@@ -125,3 +128,28 @@ verwendbar. Stand der Prüfung: 11.08.2026.
 > Warum der Post nicht trug: Der Hook „Absage nach 4 Minuten?" nannte das Thema nicht (siehe Hook-Regel in
 > `CLAUDE.md`), und die Dramaturgie war eine reine Aufzählung von drei Rechten. Ein neuer Anlauf bräuchte
 > einen konkreten Fall statt einer Rechtsübersicht.
+
+## Recherchierte Einzelbefunde (Stand 15.08.2026)
+
+**Wenn das Modell aufhört, besser zu werden.** AppLovin legte am 06.08.2026 Zahlen vor: Umsatz **plus 53
+Prozent** auf 1,92 Mrd. Dollar, damit rund **ein Prozent** unter der Erwartung von 1,94 Mrd. Der bereinigte
+Gewinn je Aktie lag mit 3,76 Dollar leicht über der Schätzung. Die Aktie fiel danach um etwa 17 bis 21
+Prozent (Angaben je nach Quelle) und hat 2026 mehr als die Hälfte verloren.
+**Der Kern:** Das Management begründete das mit **langsamer als erwarteten Verbesserungen der eigenen
+KI-Modelle**, weshalb der übliche Zuwachs bei den Werbeausgaben der Kunden ausblieb. AppLovin ist seit dem
+Verkauf des App-Geschäfts 2025 ein reines Werbeunternehmen, dessen Wachstum daran hängt, dass die
+Zielgruppen-Software jedes Quartal besser trifft.
+*Warum das ein Post ist:* Hier lässt sich an einem Einzelfall zeigen, was passiert, wenn die
+Verbesserungskurve eines Modells abflacht. Das betrifft den Zuschauer über Fonds und Altersvorsorge und
+erklärt eine Mechanik, die sonst nirgends erklärt wird.
+*Vor dem Bauen prüfen:* Transkript der Telefonkonferenz im Original lesen, die Management-Aussage stammt
+bisher aus übereinstimmenden Berichten darüber. Kursbewegung nur mit Spanne nennen.
+*Achtung:* Kein Wort über Kauf, Verkauf oder Kursziele. Der Post erklärt einen Mechanismus.
+
+**Wer misst, wenn ein Modell als bestes gilt?** Die Benchmark-Werte zu Alibabas Qwen3.8-Max stammten
+Anfang August 2026 **von Alibaba selbst**. Unabhängige Auswertungen lagen nicht vor, weder von Artificial
+Analysis noch von offenen Ranglisten. Der einzige gefundene unabhängige Vergleich (Trilogy AI, StackPerf)
+sah die Vorschauversion bei **80 gegen 83** für Kimi K3.
+*Wichtig für die Neutralität:* Das Problem betrifft **alle Anbieter**, auch Anthropic. Herstellereigene
+Benchmarks sind der Normalfall, nicht die Ausnahme. Ein Post, der nur auf den chinesischen Anbieter zielt,
+wäre unehrlich.
