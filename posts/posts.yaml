@@ -53,13 +53,14 @@ posts:
     ordner: post-002-arbeitslosigkeit-hype-check
     titel: "Nein, die KI hat die drei Millionen nicht verursacht"
     saeule: hype_check
-    status: geprueft           # BA-Zahlen an Primaerquelle bestaetigt; Destatis korrigiert (223.000 / 45,54 Mio.); Kurzarbeit-Aussage entfernt (11.08.2026)
+    status: gepostet           # live am 14.08.2026
     blaetter: 8
     geplant_fuer: offen
-    gepostet_am: null
+    gepostet_am: 2026-08-14
     offen:
       - "Caption + Alt-Text final vor dem Posten"
       - "Indeed-Hiring-Lab-Zahl bleibt bewusst draussen"
+      - "Nach ~7 Tagen Kennzahlen (reach/sends/saves) aus Insights nachtragen"
     kennzahlen:
       reach: null
       sends: null
@@ -158,12 +159,13 @@ posts:
     ordner: post-008-ki-wasserzeichen
     titel: "KI-Text hat jetzt ein Wasserzeichen"
     saeule: betrifft_dich
-    status: gerendert          # 6 Blätter (13.08.2026); Anthropic/Google-Wasserzeichen + Art. 50 + SynthID-Robustheit recherchiert; neutral (auch eigene Firma)
+    status: gepostet           # live am 14.08.2026; 6 Blätter
     blaetter: 6
     geplant_fuer: aktuell
-    gepostet_am: null
+    gepostet_am: 2026-08-14
     offen:
       - "Optional: Anthropic-Primaerankuendigung + SynthID-Robustheitsstudie direkt gegenlesen, dann geprueft"
+      - "Nach ~7 Tagen Kennzahlen (reach/sends/saves) aus Insights nachtragen"
     kennzahlen:
       reach: null
       sends: null
@@ -195,15 +197,16 @@ posts:
     ordner: post-010-meta-brille-ki
     titel: "Metas KI-Brille sieht, was du siehst"
     saeule: betrifft_dich
-    status: gerendert          # 6 Blätter (14.08.2026); Ankerquelle BfDI-FAQ, dazu HateAid-Strafanzeige 12.08.2026
+    status: gepostet           # live am 14.08.2026; 6 Blätter, Ankerquelle BfDI-FAQ
     blaetter: 6
     geplant_fuer: aktuell
-    gepostet_am: null
+    gepostet_am: 2026-08-14
     offen:
       - "BfDI-FAQ traegt kein Stand-Datum; Aussage zum KI-Training vor 'geprueft' auf Aktualitaet pruefen"
       - "Verkaufszahl 'ueber sieben Millionen' am EssilorLuxottica-Geschaeftsbericht gegenpruefen"
       - "Schwedische Originalartikel und Originalauskunft der Bundesnetzagentur nicht selbst eingesehen"
       - "Widerspruch KI-Training (BfDI vs. Nairobi-Recherche) bewusst offen im Post benannt"
+      - "Nach ~7 Tagen Kennzahlen (reach/sends/saves) aus Insights nachtragen"
     kennzahlen:
       reach: null
       sends: null

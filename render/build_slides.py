@@ -24,18 +24,17 @@ REPO = Path(__file__).resolve().parent.parent
 FONTS_DIR = REPO / "brand" / "fonts"
 OUT_LOGO = REPO / "brand" / "logo"
 # Aktive Posts (in Arbeit / postbereit) — werden gerendert:
-OUT_POST2 = REPO / "posts" / "post-002-arbeitslosigkeit-hype-check" / "slides"
 OUT_POST3 = REPO / "posts" / "post-003-was-du-tun-kannst" / "slides"
 OUT_POST5 = REPO / "posts" / "post-005-killt-ki-die-jobs" / "slides"
-# Gepostet & archiviert: Post 0/1/4/6/7/9 liegen unter archive/ (veröffentlichter Stand). Sie werden
+# Gepostet & archiviert: Post 0/1/2/4/6/7/8/9/10 liegen unter archive/ (veröffentlichter Stand). Sie werden
 # NICHT mehr aktiv gerendert, damit die publizierten PNGs nicht versehentlich überschrieben werden
 # (z. B. bei einer Änderung an frame()/STAND). Die Funktionen build_intro/build_post1/build_post4/
-# build_post6/build_post7/build_post9 bleiben unten als Reproduzierbarkeits-Referenz erhalten.
-OUT_POST8 = REPO / "posts" / "post-008-ki-wasserzeichen" / "slides"
-OUT_POST10 = REPO / "posts" / "post-010-meta-brille-ki" / "slides"
+# build_post2/6/7/8/9/10 bleiben unten als Reproduzierbarkeits-Referenz erhalten.
+# Hinweis: Post 0/1/4/6/7/9 wurden mit Kicker 30 veroeffentlicht, Post 2/8/10 mit Kicker 38.
+# Beide geben ihre Groesse deshalb ausdruecklich am kicker()-Aufruf an.
 OUT_POST11 = REPO / "posts" / "post-011-korrektur-58-prozent" / "slides"
 OUT_STORY = REPO / "brand" / "stories"
-for _d in (OUT_LOGO, OUT_STORY, OUT_POST2, OUT_POST3, OUT_POST5, OUT_POST8, OUT_POST10, OUT_POST11):
+for _d in (OUT_LOGO, OUT_STORY, OUT_POST3, OUT_POST5, OUT_POST11):
     _d.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------- palette
@@ -424,7 +423,7 @@ def build_post2():
 
     # --- 02 DER FALL
     img, d = new(2, T)
-    y = kicker(d, 280, "Der Fall")
+    y = kicker(d, 280, "Der Fall", size=38)
     y = block(d, y, "Juli 2026: über drei Millionen Arbeitslose, "
                     "Quote 6,4 %.", f("BOOK", 54), INK, MAXW, 1.42, 40)
     block(d, y, "71.000 mehr als im Vormonat.",
@@ -440,7 +439,7 @@ def build_post2():
 
     # --- 04 WAS DIE ZAHLEN ZEIGEN  (Korrektur-Motiv)
     img, d = new(4, T)
-    y = kicker(d, 250, "Was die Zahlen zeigen")
+    y = kicker(d, 250, "Was die Zahlen zeigen", size=38)
     fo = f("COND", 84)
     d.text((M, y), "+71.000 im Monat", font=fo, fill=MUTED)
     tw = d.textlength("+71.000 im Monat", font=fo)
@@ -455,7 +454,7 @@ def build_post2():
 
     # --- 05 DER EIGENTLICHE BEFUND
     img, d = new(5, T)
-    y = kicker(d, 230, "Der eigentliche Befund")
+    y = kicker(d, 230, "Der eigentliche Befund", size=38)
     fo = f("COND", 96)
     d.text((M, y), "223.000", font=fo, fill=INK)
     y += 112
@@ -469,7 +468,7 @@ def build_post2():
 
     # --- 06 UND TROTZDEM
     img, d = new(6, T)
-    y = kicker(d, 250, "Und trotzdem")
+    y = kicker(d, 250, "Und trotzdem", size=38)
     fo = f("COND", 96)
     d.text((M, y), "653.000", font=fo, fill=INK)
     y += 112
@@ -492,7 +491,7 @@ def build_post2():
 
     # --- 08 QUELLEN
     img, d = new(8, T)
-    y = kicker(d, 230, "Quellen")
+    y = kicker(d, 230, "Quellen", size=38)
     for s in ["Bundesagentur für Arbeit — Der Arbeitsmarkt im Juli 2026 (Bericht vom 31.07.2026)",
               "Statistisches Bundesamt — Erwerbstätigkeit, Juni 2026",
               "Roh- und saisonbereinigte Werte je aus den amtlichen Berichten"]:
@@ -1099,7 +1098,7 @@ def build_post8():
 
     # --- 02 Was da passiert
     img, d = new(2, T)
-    y = kicker(d, 250, "Was da passiert")
+    y = kicker(d, 250, "Was da passiert", size=38)
     block(d, y, "Seit dem 2. August verlangt der AI Act, dass Anbieter KI-Ausgaben "
                 "maschinenlesbar kennzeichnen. Anthropic setzt das für Claude-Text um, "
                 "Google für Gemini mit SynthID. Das Zeichen steckt als statistisches "
@@ -1110,7 +1109,7 @@ def build_post8():
 
     # --- 03 Was ein Treffer wirklich zeigt
     img, d = new(3, T)
-    y = kicker(d, 240, "Was ein Treffer wirklich zeigt")
+    y = kicker(d, 240, "Was ein Treffer wirklich zeigt", size=38)
     block(d, y, "Ein gefundenes Wasserzeichen zeigt nur, dass die KI den Text "
                 "verarbeitet hat. Ob sie ihn selbst geschrieben oder bloß korrigiert "
                 "hat, sagt es nicht. Wer seinen eigenen Text zum Übersetzen oder "
@@ -1120,7 +1119,7 @@ def build_post8():
 
     # --- 04 Wie schnell es verschwindet
     img, d = new(4, T)
-    y = kicker(d, 240, "Wie schnell es verschwindet")
+    y = kicker(d, 240, "Wie schnell es verschwindet", size=38)
     block(d, y, "Weg ist es auch leicht. Etwas umformulieren, durch eine andere "
                 "Sprache und zurück übersetzen oder ein Humanizer-Tool drüberlaufen "
                 "lassen, und der Nachweis ist futsch. An Googles SynthID wurde das "
@@ -1131,7 +1130,7 @@ def build_post8():
 
     # --- 05 Was das für dich heißt
     img, d = new(5, T)
-    y = kicker(d, 250, "Was das für dich heißt")
+    y = kicker(d, 250, "Was das für dich heißt", size=38)
     block(d, y, "Für dich heißt das zweierlei. Lässt du dein Bewerbungsschreiben von "
                 "einer KI glätten, kann es später als KI-verarbeitet auffallen, obwohl "
                 "der Inhalt von dir stammt. Und ein KI-Detektor taugt nicht als Beweis, "
@@ -1141,7 +1140,7 @@ def build_post8():
 
     # --- 06 Quellen
     img, d = new(6, T)
-    y = kicker(d, 240, "Quellen")
+    y = kicker(d, 240, "Quellen", size=38)
     for s in ["Berichte zur Wasserzeichen-Kennzeichnung bei Claude, August 2026",
               "Google SynthID und Studien zur Entfernbarkeit statistischer Wasserzeichen",
               "AI Act, Artikel 50: maschinenlesbare Kennzeichnung von KI-Ausgaben"]:
@@ -1273,7 +1272,7 @@ def build_post10():
 
     # --- 02 Was drinsteckt
     img, d = new(2, T, ST)
-    y = kicker(d, 240, "Was drinsteckt")
+    y = kicker(d, 240, "Was drinsteckt", size=38)
     block(d, y, "In der Brille sitzen eine Kamera und sechs Mikrofone. Sie nehmen nach "
                 "Angaben des Bundesdatenschutzbeauftragten mindestens zwei Meter weit "
                 "auf. Die KI greift auf die Kamera zu und wertet aus, was der Träger "
@@ -1284,7 +1283,7 @@ def build_post10():
 
     # --- 03 Was die Leuchte verrät
     img, d = new(3, T, ST)
-    y = kicker(d, 228, "Was die Leuchte verrät")
+    y = kicker(d, 228, "Was die Leuchte verrät", size=38)
     y = beleg(d, y, "Bundesbeauftragter für den Datenschutz",
               ['„Auf der Vorderseite der Brille ist',
                ' eine LED angebracht, welche bei Foto-',
@@ -1300,7 +1299,7 @@ def build_post10():
 
     # --- 04 Wer noch mitschaut
     img, d = new(4, T, ST)
-    y = kicker(d, 232, "Wer noch mitschaut")
+    y = kicker(d, 232, "Wer noch mitschaut", size=38)
     block(d, y, "Im Februar haben zwei schwedische Zeitungen und eine kenianische "
                 "Journalistin über dreißig Beschäftigte eines Dienstleisters in Nairobi "
                 "befragt. Sie beschrifteten Bilder und Videos aus den Brillen fürs "
@@ -1313,7 +1312,7 @@ def build_post10():
 
     # --- 05 Was für dich gilt
     img, d = new(5, T, ST)
-    y = kicker(d, 232, "Was für dich gilt")
+    y = kicker(d, 232, "Was für dich gilt", size=38)
     block(d, y, "Wer damit Fremde auf der Straße filmt, verarbeitet deren "
                 "personenbezogene Daten. Die Ausnahme für private Zwecke greift draußen "
                 "nicht. Wer aufgenommen wird, kann seine Rechte laut "
@@ -1325,7 +1324,7 @@ def build_post10():
 
     # --- 06 Quellen
     img, d = new(6, T, ST)
-    y = kicker(d, 240, "Quellen")
+    y = kicker(d, 240, "Quellen", size=38)
     for s_ in ["Bundesbeauftragter für den Datenschutz, FAQ zu den Ray-Ban Meta Smart Glasses",
                "HateAid, Strafanzeige vom 12. August 2026, gestützt auf Paragraf 8 TDDDG",
                "Svenska Dagbladet und Göteborgs-Posten, Recherche zur Datenarbeit in Nairobi, Februar 2026"]:
@@ -1513,21 +1512,15 @@ def save_slides(slides, out_dir):
     return len(slides)
 
 
-# Nur aktive Posts rendern. Post 0/1/4/6/7/9 sind gepostet und liegen eingefroren unter archive/.
-n2 = save_slides(build_post2(), OUT_POST2)
+# Nur aktive Posts rendern. Post 0/1/2/4/6/7/8/9/10 sind gepostet und liegen unter archive/.
 n3 = save_slides(build_post3(), OUT_POST3)
 n5 = save_slides(build_post5(), OUT_POST5)
-n8 = save_slides(build_post8(), OUT_POST8)
-n10 = save_slides(build_post10(), OUT_POST10)
 n11 = save_slides(build_post11(), OUT_POST11)
-print(f"Post 2: {n2} Blätter -> {OUT_POST2}")
 print(f"Post 3: {n3} Blätter -> {OUT_POST3}")
 print(f"Post 5: {n5} Blätter -> {OUT_POST5}")
-print(f"Post 8: {n8} Blätter -> {OUT_POST8}")
-print(f"Post 10: {n10} Blätter -> {OUT_POST10}")
 print(f"Post 11: {n11} Blätter -> {OUT_POST11}")
 print(f"Logo    -> {OUT_LOGO}")
-print("(Post 0/1/4/6/7/9 gepostet & archiviert -> archive/, nicht neu gerendert)")
+print("(Post 0/1/2/4/6/7/8/9/10 gepostet & archiviert -> archive/, nicht neu gerendert)")
 
 _stories = build_stories()
 for _name, _im in _stories:
