@@ -27,7 +27,7 @@ Account: **@ki.nuechtern** · Profilname „KI nüchtern — ohne Hype" · Auswe
 |---|-------|-------|--------|---------|
 | 000 | KI. Nüchtern. (Intro / Start) | Meta | **gepostet (11.08.)** | 6 |
 | 4 | Seit dem 2. August muss KI sich zu erkennen geben | Betrifft dich | **gepostet** | 7 |
-| 5 | Killt KI die Jobs? | Hype-Check | gerendert | 8 |
+| 5 | Killt KI die Jobs? | Hype-Check | gerendert (neu 15.08.) | 6 |
 | 6 | Eine KI hat echte Menschen manipuliert (AISI) | Fall der Woche | **gepostet (12.08.)** | 8 |
 | 7 | Was du besser nicht in eine KI eintippst | Betrifft dich | **gepostet (13.08.)** | 6 |
 | 8 | KI-Text hat jetzt ein Wasserzeichen | Betrifft dich | **gepostet (14.08.)** | 6 |
@@ -37,7 +37,7 @@ Account: **@ki.nuechtern** · Profilname „KI nüchtern — ohne Hype" · Auswe
 
 - **Intro (000):** **live am 11.08.2026** (Rhythmus-Folie weggelassen, Caption angepasst). Archiv = Repo-Stand, so übernommen. Anker für Highlight „Start".
 - **Post 4:** Art. 50 gilt seit 02.08.2026; am Artikeltext (EN + DE) gegengelesen. **Live** (Datum vorläufig 11.08., bestätigen). Nach ~7 Tagen Kennzahlen nachtragen.
-- **Post 5:** „Killt KI die Jobs?" — Hype-Check auf der aktuellen Arbeitsmarkt-Welle. IAB/BIBB/GWS-Szenario (1,6 Mio. umverteilt, netto ~Null, BIP +0,8 Pp/Jahr), als Projektion gekennzeichnet. Gerendert; optional am IAB-Volltext final gegenlesen.
+- **Post 5:** „Killt KI die Jobs?" — Hype-Check, **am 15.08.2026 komplett neu gebaut**: von 8 auf 6 Blätter, Bauform „Der Widerspruch", Beleg-Panel mit wörtlichem IAB-Zitat, Balkenreihe 1,6 Mio. gegen netto nahe null. Kernzahlen jetzt an der IAB-Pressemitteilung vom 19.11.2025 geprüft, Branchenwerte (110.000 IT, 120.000 Unternehmensdienste) ergänzt, ungeprüfte DIW-Aussage entfernt.
 - **Post 6:** „Eine KI hat echte Menschen manipuliert" (AISI-Test) — Fall der Woche. Balanciert (Kontext: Stresstest mit abgeschalteten Guardrails, kein Schaden; ehrliche 17/19-Attribution). **Live am 12.08.** → `archive/`. Nach ~7 Tagen Kennzahlen nachtragen.
 - **Post 7:** „Was du besser nicht in eine KI eintippst" — Betrifft dich, aus Bitkom 2026 (58 % nutzen KI). Praktischer Datenschutz-Nutzwert. **Live am 13.08.** → `archive/`. Nach ~7 Tagen Kennzahlen nachtragen.
 - **Post 8 (live 14.08.):** „KI-Text hat jetzt ein Wasserzeichen" — Betrifft dich. Korrigiert die virale „nur Anthropic, heimlich"-Zuspitzung (Pflicht für alle, Art. 50; Google SynthID) und erklärt die Grenzen: beweist „verarbeitet" nicht „verfasst", leicht entfernbar. Neutral trotz eigener Firma. 6 dichte Blätter. Gerendert.

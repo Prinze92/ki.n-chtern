@@ -108,12 +108,14 @@ posts:
     ordner: post-005-killt-ki-die-jobs
     titel: "Killt KI die Jobs?"
     saeule: hype_check
-    status: gerendert          # 8 Blätter (12.08.2026); IAB/BIBB/GWS-Szenario recherchiert; als Projektion gekennzeichnet
-    blaetter: 8
+    bauform: widerspruch
+    status: gerendert          # 15.08.2026 neu gebaut: 6 Blaetter, Bauform "Der Widerspruch", Zahlen an IAB-Primaerquelle geprueft
+    blaetter: 6
     geplant_fuer: aktuell
     gepostet_am: null
     offen:
-      - "Optional: Zahlen am IAB-Forschungsbericht-Volltext gegenlesen, dann geprueft"
+      - "IAB-Forschungsbericht-PDF nicht auslesbar (Subset-Schrift); alle Zahlen aus der IAB-Pressemitteilung vom 19.11.2025 zu genau diesem Bericht"
+      - "DIW-Aussage zur Mittelschicht aus dem Post entfernt, weil nur aus zweiter Hand"
     kennzahlen:
       reach: null
       sends: null

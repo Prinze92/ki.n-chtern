@@ -687,107 +687,87 @@ def build_post4():
 
 # ================================================================ POST 5 (Killt KI die Jobs? — Hype-Check)
 def build_post5():
-    T = 8
+    """Bauform: Der Widerspruch. Schlagzeilenlage gegen Modellbefund."""
+    T = 6
+    ST = "STAND 15.08.2026"
     slides = []
 
     # --- 01 HOOK
-    img, d = new(1, T)
+    img, d = new(1, T, ST)
     y = 300
     fo = f("COND", 104)
     for line in ["KILLT KI", "DIE JOBS?"]:
-        d.text((M, y), line, font=fo, fill=INK)
-        y += 118
+        d.text((M, y), line, font=fo, fill=INK); y += 118
     y += 40
-    d.line([(M, y), (M + 140, y)], fill=RED, width=6)
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 54
+    block(d, y, "1,6 Millionen Stellen bewegen sich. Netto bleibt fast nichts davon übrig.",
+          f("BOOK", 46), INK, MAXW - 40, 1.4)
+    slides.append(img)
+
+    # --- 02 Zwei Lager, kein Beleg
+    img, d = new(2, T, ST)
+    y = kicker(d, 240, "Zwei Lager, kein Beleg")
+    block(d, y, "Die einen sagen, KI vernichte Millionen Arbeitsplätze. Die anderen "
+                "winken ab. Für beide Behauptungen liegt selten eine Zahl daneben.",
+          f("BOOK", 48), INK, MAXW, 1.44)
+    slides.append(img)
+
+    # --- 03 Was das IAB schreibt (Beleg-Panel)
+    img, d = new(3, T, ST)
+    y = kicker(d, 228, "Was das IAB schreibt")
+    y = beleg(d, y, "IAB, BIBB und GWS",
+              ['„KI führt primär zu einem Umbruch',
+               ' am Arbeitsmarkt. Gefragt sind künftig',
+               ' andere Tätigkeiten und Kompetenzen,',
+               ' nicht weniger Arbeit.“'],
+              sub="Enzo Weber, IAB, 19.11.2025")
     y += 54
-    block(d, y, "Die kurze Antwort: nicht so, wie die Schlagzeilen es sagen.",
-          f("BOOK", 48), INK, MAXW - 40, 1.4)
+    block(d, y, "Die Modellrechnung läuft über fünfzehn Jahre.",
+          f("BOOK", 44), INK, MAXW, 1.42)
     slides.append(img)
 
-    # --- 02 DIE ANGST
-    img, d = new(2, T)
-    y = kicker(d, 280, "Die Angst")
-    block(d, y, "Techbosse, Talkshows, Schlagzeilen: „KI macht Arbeit überflüssig.“ "
-                "Die Mittelschicht bangt, junge Leute fragen sich, wofür sie noch lernen.",
-          f("BOOK", 52), INK, MAXW, 1.42)
+    # --- 04 Was sich bewegt
+    img, d = new(4, T, ST)
+    y = kicker(d, 236, "Was sich bewegt")
+    y = block(d, y, "Rund 1,6 Millionen Stellen entstehen oder fallen weg. Die "
+                    "Gesamtbeschäftigung bleibt dabei fast unverändert.",
+              f("BOOK", 46), INK, MAXW, 1.44, 56)
+    balken(d, y, [("BEWEGTE STELLEN", 1600000, "1,6 Mio."),
+                  ("NETTO ÜBRIG", 20000, "nahe null")])
     slides.append(img)
 
-    # --- 03 WAS DIE FORSCHUNG SAGT
-    img, d = new(3, T)
-    y = kicker(d, 250, "Was die Forschung sagt")
-    fo = f("COND", 96)
-    d.text((M, y), "1,6 Mio.", font=fo, fill=INK)
-    y += 124
-    d.text((M, y), "STELLEN IM UMBRUCH — AUF- UND ABGEBAUT", font=f("MONOB", 26), fill=MUTED)
-    y += 82
-    block(d, y, "Aber netto bleibt es über 15 Jahre nahezu eine Nullsumme. "
-                "Nicht weniger Arbeit — andere Arbeit.",
-          f("BOOK", 46), INK, MAXW, 1.42)
+    # --- 05 Netto null tröstet niemanden
+    img, d = new(5, T, ST)
+    y = kicker(d, 232, "Netto null tröstet niemanden")
+    block(d, y, "Es ist eine Projektion, kein Versprechen. Wer mittendrin umlernen "
+                "muss, hat von einer ausgeglichenen Gesamtbilanz nichts. Im IT-Bereich "
+                "entstehen rund 110.000 Stellen, in den Unternehmensdiensten fallen "
+                "etwa 120.000 weg.",
+          f("BOOK", 45), INK, MAXW, 1.42)
     slides.append(img)
 
-    # --- 04 DER EIGENTLICHE BEFUND
-    img, d = new(4, T)
-    y = kicker(d, 250, "Der eigentliche Befund")
-    y = block(d, y, "Umbau, nicht Untergang.", f("COND", 64), INK, MAXW, 1.3, 40)
-    block(d, y, "Dieselbe Analyse erwartet sogar mehr Wirtschaftsleistung — das BIP "
-                "läge über 15 Jahre im Schnitt 0,8 Prozentpunkte höher pro Jahr. "
-                "Gefragt sind andere Tätigkeiten, nicht weniger davon.",
-          f("BOOK", 48), INK, MAXW, 1.42)
-    slides.append(img)
-
-    # --- 05 DER HAKEN
-    img, d = new(5, T)
-    y = kicker(d, 250, "Der Haken")
-    y = block(d, y, "Das ist eine Projektion, kein Versprechen.",
-              f("COND", 56), RED, MAXW, 1.3, 40)
-    block(d, y, "Und „netto null“ tröstet niemanden, der mittendrin umlernen muss. "
-                "Die Übergänge sind hart — und die Mittelschicht ist besonders "
-                "exponiert (DIW).", f("BOOK", 48), INK, MAXW, 1.42)
-    slides.append(img)
-
-    # --- 06 WAS DAS FÜR DICH HEISST
-    img, d = new(6, T)
-    y = kicker(d, 250, "Was das für dich heißt")
-    y = block(d, y, "Weder Panik noch Verharmlosung.", f("COND", 58), INK, MAXW, 1.3, 40)
-    block(d, y, "Die Frage ist nicht, ob Jobs verschwinden, sondern ob du bei der "
-                "Verschiebung mitkommst. Tätigkeiten neu lernen schlägt Abwarten.",
-          f("BOOK", 50), INK, MAXW, 1.42)
-    slides.append(img)
-
-    # --- 07 OFFENE FRAGE
-    img, d = new(7, T)
-    y = kicker(d, 300, "Die offene Frage", MUTED)
-    y = block(d, y, "Wenn netto kaum Jobs verloren gehen, aber Millionen sich verschieben —",
-              f("COND", 52), INK, MAXW, 1.3, 40)
-    y = block(d, y, "wer trägt die Übergänge?", f("COND", 52), RED, MAXW, 1.3, 60)
-    block(d, y, "Schreib es in die Kommentare.", f("BOOK", 44), MUTED, MAXW, 1.4)
-    slides.append(img)
-
-    # --- 08 QUELLEN
-    img, d = new(8, T)
-    y = kicker(d, 230, "Quellen")
-    for s in ["IAB / BIBB / GWS — Szenario-Analyse zu KI und Arbeitsmarkt, Forschungsbericht 2025",
-              "DIW Berlin — zur Betroffenheit der Mittelschicht durch KI",
-              "Szenario über 15 Jahre: Projektion, keine Gewissheit"]:
+    # --- 06 Quellen
+    img, d = new(6, T, ST)
+    y = kicker(d, 240, "Quellen")
+    for s_ in ["IAB, BIBB und GWS: Künstliche Intelligenz, potenzielle Effekte für den "
+               "deutschen Arbeitsmarkt. Forschungsbericht 23/2025",
+               "Pressemitteilung des IAB vom 19. November 2025"]:
         caret(d, M + 18, y + 22, 30, 6, RED)
         yy = y
-        for ln in wrap(d, s, f("BOOK", 38), MAXW - 70):
-            d.text((M + 66, yy), ln, font=f("BOOK", 38), fill=INK)
-            yy += int(34 * 1.4)
-        y = yy + 30
-    y += 20
-    d.line([(M, y), (W - M, y)], fill=RULE, width=2)
-    y += 40
-    y = block(d, y, "Zahlen aus einer Modellrechnung, gerundet wiedergegeben.",
-              f("BOOK", 36), MUTED, MAXW, 1.4, 30)
-    block(d, y, "Fehler gefunden? Schreib es in die Kommentare — ich korrigiere sichtbar.",
-          f("BOOK", 36), RED, MAXW, 1.4)
+        for ln in wrap(d, s_, f("BOOK", 37), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 37), fill=INK); yy += int(37 * 1.4)
+        y = yy + 26
+    y += 16
+    d.line([(M, y), (W - M, y)], fill=RULE, width=2); y += 36
+    y = block(d, y, "Eine Szenariorechnung über fünfzehn Jahre, keine Vorhersage.",
+              f("BOOK", 35), MUTED, MAXW, 1.4, 28)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar.",
+          f("BOOK", 35), RED, MAXW, 1.4)
     slides.append(img)
 
     return slides
 
 
-# ================================================================ POST 6 (KI manipuliert Menschen — AISI, Fall der Woche)
 def build_post6():
     T = 8
     slides = []
