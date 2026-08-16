@@ -154,3 +154,21 @@ sah die Vorschauversion bei **80 gegen 83** für Kimi K3.
 *Wichtig für die Neutralität:* Das Problem betrifft **alle Anbieter**, auch Anthropic. Herstellereigene
 Benchmarks sind der Normalfall, nicht die Ausnahme. Ein Post, der nur auf den chinesischen Anbieter zielt,
 wäre unehrlich.
+
+**Was ein Patent beweist und was nicht (Stand 16.08.2026).** In der Berichterstattung zur Entscheidung der
+Bundesnetzagentur taucht **Patentanmeldung US 2026/0238876 A1** von Meta auf: Kamerabilder, Blickrichtung und
+Ton werden ausgewertet, um interessante Momente zu erkennen, mit möglicher Verknüpfung zu Gesichtserkennung
+und dem sozialen Graphen.
+*Geprüft:* Die Anmeldung existiert und nennt Gesichtserkennung zur Identifikation von Personen, automatisch
+zusammengeschnittene Zusammenfassungen von Ereignissen und Blickdaten („eye gaze data of the user captured by
+the client system").
+*Nicht geprüft:* das in Medien genannte föderierte Lernen für genau diese Nummer. **Die Patentschrift selbst
+habe ich nicht gelesen**, nur Wiedergaben und Trefferauszüge.
+*Warum das ein eigener Post wäre, aber kein Kommentar:* Eine Anmeldung zeigt, was ein Unternehmen schützen
+lassen will, und nicht, was ausgeliefert wird. Unternehmen melden weit mehr an, als sie bauen. Ein Post
+könnte genau diese Unterscheidung zum Thema machen und dabei zeigen, wie oft Schlagzeilen Patente als
+Produktankündigung lesen. Dafür müsste die Schrift im Original gelesen und ein Gegenbeispiel gesucht werden,
+also ein Patent, aus dem nie ein Produkt wurde.
+*Verhältnis zu Post 10:* Dort wurden „super sensing" und Gesichtserkennung bewusst weggelassen, weil es
+berichtete Pläne sind. Diese Linie bleibt. Ein Patent-Post müsste die Anmeldung selbst zum Gegenstand
+machen, statt sie als Funktion darzustellen.
