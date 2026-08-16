@@ -89,6 +89,18 @@ und in `post.md` unter „Bauform" notieren.** Optik bleibt gleich, Dramaturgie 
   „Sechs Mikrofone, zwei Meter" ist eine Information. Nicht schematisch durchzählen.
 - Ganze Sätze, Alltagssprache.
 - Zahlen ausschreiben und einordnen, statt sie nur zu nennen.
+- **Satzlängen und Satzbau bewusst wechseln.** Kurze Sätze zwischen lange stellen, auch mal ein Fragment.
+  Gleichförmiger Rhythmus (Satz für Satz etwa gleich lang) ist das Merkmal, das am längsten hält, weil es
+  ein Umschreiben überlebt. Zeichensetzung dagegen lässt sich in einem Durchgang wegputzen und trennt
+  entsprechend wenig.
+- **Keine vagen Autoritäten.** „Experten sagen", „Studien zeigen", „es gilt als sicher". Wer die Quelle
+  nicht nennen kann, hat sie nicht. Das ist Markenversprechen eins, nur auf Satzebene.
+- **Keine Zusammenfassungsformeln am Ende.** „Zusammenfassend lässt sich sagen", „unterm Strich",
+  „eines ist klar". Wenn der Absatz die Aussage nicht getragen hat, rettet der Schlusssatz sie nicht.
+- **Diese Aufzählung ist ein Stand, kein Abhakzettel.** Sobald ein Merkmal öffentlich als KI-Tell
+  gehandelt wird, wird es wegtrainiert und von Menschen zusätzlich gemieden, dann trennt es nichts mehr.
+  Wer alle Marker vermeidet, hat noch nichts gesagt. Der Befund vom 14.08.2026 ist die Warnung dazu:
+  sechs Posts waren formal regelkonform und füllten trotzdem dasselbe Formular aus.
 
 **Bildhaftes (stützt den Beleg, schmückt nie)**
 - **Ein Beleg-Panel je Post.** Die wichtigste Fundstelle wird als Objekt gesetzt statt als Fließtext:
@@ -144,7 +156,8 @@ und in `post.md` unter „Bauform" notieren.** Optik bleibt gleich, Dramaturgie 
 - **Ein Gedanke pro Kommentar.** Drei Punkte sind kein Kommentar, sondern ein Post.
 - **Keine Aufzählungen, keine Nummerierung, keine Fettungen.** Ein formatierter Kommentar sieht eingefügt
   aus statt geschrieben. Bei einem Konto über KI ist „liest sich wie von einer Maschine" der teuerste
-  Eindruck.
+  Eindruck. **Die Sprachregeln aus den Post-Regeln gelten hier genauso**, im Kommentarfeld sogar schärfer:
+  drei bis vier Zeilen gleicher Länge fallen stärker auf als in einem Absatz.
 - **Nicht alles sagen.** Ein vollständiger Kommentar nimmt den Grund weg, aufs Profil zu tippen. Lieber
   einen Punkt scharf setzen und eine offene Frage stehen lassen.
 - Was nicht in den Kommentar passt, wandert als Idee nach `research/ideas.md`, statt im Kommentarfeld
