@@ -280,3 +280,26 @@ posts:
       sends: null
       sends_per_reach: null
       saves: null
+
+  - id: 14
+    slug: liebe-und-ki
+    ordner: post-014-liebe-und-ki
+    titel: "In 37 Prozent der Abschiede versucht die KI, dich zu halten"
+    saeule: betrifft_dich
+    bauform: kassensturz          # NEUE Bauform, noch nicht in CLAUDE.md aufgenommen
+    status: gerendert          # 6 Blätter (16.08.2026); Harvard-Abstract im PDF selbst gelesen
+    blaetter: 6
+    geplant_fuer: aktuell
+    gepostet_am: null
+    offen:
+      - "Harvard-Papier ist ein Arbeitspapier ohne abgeschlossene Begutachtung; auf Veroeffentlichung pruefen"
+      - "OpenAI/MIT-Studie nur aus den Zusammenfassungen beider Haeuser, nicht im Volltext gelesen"
+      - "SB 243 aus Kanzleianalysen, nicht am Gesetzestext gegengelesen"
+      - "Eigener Entwurfsfehler vor dem Rendern korrigiert: 'vierzehnmal laenger im Chat' war falsch, gemessen wird Weiternutzung"
+      - "Sensibles Thema: Telefonseelsorge steht auf dem Quellenblatt"
+      - "Bauform 'Der Kassensturz' ist neu. Wenn sie taugt, in CLAUDE.md aufnehmen"
+    kennzahlen:
+      reach: null
+      sends: null
+      sends_per_reach: null
+      saves: null

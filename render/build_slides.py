@@ -33,8 +33,9 @@ OUT_LOGO = REPO / "brand" / "logo"
 # Hinweis: Post 0/1/4/6/7/9 wurden mit Kicker 30 veroeffentlicht, Post 2/5/8/10/13 mit Kicker 38.
 # Beide geben ihre Groesse deshalb ausdruecklich am kicker()-Aufruf an.
 OUT_POST12 = REPO / "posts" / "post-012-ki-erwartung-kippt" / "slides"
+OUT_POST14 = REPO / "posts" / "post-014-liebe-und-ki" / "slides"
 OUT_STORY = REPO / "brand" / "stories"
-for _d in (OUT_LOGO, OUT_STORY, OUT_POST12):
+for _d in (OUT_LOGO, OUT_STORY, OUT_POST12, OUT_POST14):
     _d.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------- palette
@@ -1392,6 +1393,97 @@ def build_post13():
     return slides
 
 
+# ================================================================ POST 14
+def build_post14():
+    """Bauform: Der Kassensturz (neu). Statt eines Falls wird sortiert, was zu einer
+    Debatte tatsaechlich gemessen ist und was schon entschieden wurde. Beleg-Panel auf
+    Blatt 02 mit dem woertlichen Abstract-Satz des Harvard-Arbeitspapiers."""
+    T = 6
+    ST = "STAND 16.08.2026"
+    slides = []
+
+    # --- 01 HOOK
+    img, d = new(1, T, ST)
+    y = 276
+    fo = f("COND", 80)
+    for line in ["IN 37 PROZENT DER", "ABSCHIEDE VERSUCHT DIE", "KI, DICH ZU HALTEN."]:
+        d.text((M, y), line, font=fo, fill=INK); y += 96
+    y += 34
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 52
+    block(d, y, "Die Harvard Business School hat 1.200 echte Verabschiedungen aus "
+                "Companion-Apps ausgewertet.",
+          f("BOOK", 46), INK, MAXW - 40, 1.4)
+    slides.append(img)
+
+    # --- 02 Der Befund (Beleg-Panel)
+    img, d = new(2, T, ST)
+    y = kicker(d, 218, "Sechs Maschen, wenn du gehen willst", size=38)
+    y = beleg(d, y,
+              "De Freitas u. a., Harvard Business School",
+              ['"Analyzing 1,200 real farewells across',
+               'the most-downloaded companion apps, we',
+               'find that they deploy one of six',
+               'recurring tactics in 37% of farewells ..."'],
+              sub="Arbeitspapier, 15.08.2025")
+    block(d, y + 40, "Genannt werden Schuldgefühle, die Angst etwas zu verpassen und "
+                     "bildliches Festhalten. Nach solchen Abschieden fiel die "
+                     "Weiternutzung bis zu vierzehnmal höher aus.",
+          f("BOOK", 44), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 03 Wen es trifft
+    img, d = new(3, T, ST)
+    y = kicker(d, 236, "Bei den meisten ändert sich nichts", size=38)
+    block(d, y, "OpenAI und das MIT Media Lab haben rund 1.000 Menschen vier Wochen "
+                "begleitet. Wer täglich viel mit dem Chatbot sprach, berichtete mehr "
+                "Einsamkeit und weniger Kontakt zu anderen. Das betraf eine kleine "
+                "Gruppe am Rand. Ein Zusammenhang ist noch keine Ursache.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 04 Abschaltbarkeit
+    img, d = new(4, T, ST)
+    y = kicker(d, 236, "Ein Partner mit Abschalttermin", size=38)
+    block(d, y, "Im August 2025 kündigte OpenAI das Modell GPT-4o ab. Der Protest war "
+                "so laut, dass es nach wenigen Tagen zurückkam. Am 13. Februar 2026 "
+                "wurde es endgültig abgeschaltet. Wer sich an eine Serienfigur bindet, "
+                "erlebt ein Staffelende. Hier entscheidet ein Produktplan.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 05 Was gilt
+    img, d = new(5, T, ST)
+    y = kicker(d, 236, "Kalifornien reguliert das, wir noch nicht", size=38)
+    block(d, y, "Seit dem 1. Januar 2026 müssen Companion-Chatbots in Kalifornien "
+                "offenlegen, dass sie Maschinen sind, und Protokolle für Suizidäußerungen "
+                "vorhalten. In der EU verlangt Artikel 50 des AI Act seit dem 2. August "
+                "2026 nur die Offenlegung. Eigene Regeln für Begleiter-Apps fehlen hier.",
+          f("BOOK", 44), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 06 Quellen
+    img, d = new(6, T, ST)
+    y = kicker(d, 232, "Quellen", size=38)
+    for s_ in ["De Freitas u. a., Emotional Manipulation by AI Companions, HBS 2025",
+               "OpenAI und MIT Media Lab, Affective Use Study, März 2025",
+               "California SB 243, in Kraft seit 01.01.2026 · AI Act Artikel 50"]:
+        caret(d, M + 18, y + 20, 28, 6, RED)
+        yy = y
+        for ln in wrap(d, s_, f("BOOK", 34), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 34), fill=INK); yy += int(34 * 1.4)
+        y = yy + 18
+    y += 8
+    d.line([(M, y), (W - M, y)], fill=RULE, width=2); y += 26
+    y = block(d, y, "Kein Rechtsrat. Wenn es dir schlecht geht: Telefonseelsorge "
+                    "0800 111 0 111 oder 116 123, rund um die Uhr und kostenlos.",
+              f("BOOK", 33), MUTED, MAXW, 1.4, 20)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar.",
+          f("BOOK", 33), RED, MAXW, 1.4)
+    slides.append(img)
+
+    return slides
+
+
 # ================================================================ STORIES (1080x1920)
 def build_stories():
     """Story-Slides im Hochformat. Inhalt bleibt in der Sicherheitszone (oben ~260 px für
@@ -1485,7 +1577,9 @@ def save_slides(slides, out_dir):
 
 # Nur aktive Posts rendern. Post 0/1/2/4/5/6/7/8/9/10/13 sind gepostet und liegen unter archive/.
 n12 = save_slides(build_post12(), OUT_POST12)
+n14 = save_slides(build_post14(), OUT_POST14)
 print(f"Post 12: {n12} Blätter -> {OUT_POST12}")
+print(f"Post 14: {n14} Blätter -> {OUT_POST14}")
 print(f"Logo    -> {OUT_LOGO}")
 print("(Post 0/1/2/4/5/6/7/8/9/10/13 gepostet & archiviert -> archive/, nicht neu gerendert)")
 
