@@ -25,17 +25,16 @@ FONTS_DIR = REPO / "brand" / "fonts"
 OUT_LOGO = REPO / "brand" / "logo"
 # Aktive Posts (in Arbeit / postbereit) — werden gerendert:
 OUT_POST5 = REPO / "posts" / "post-005-killt-ki-die-jobs" / "slides"
-# Gepostet & archiviert: Post 0/1/2/4/6/7/8/9/10 liegen unter archive/ (veröffentlichter Stand). Sie werden
+# Gepostet & archiviert: Post 0/1/2/4/6/7/8/9/10/13 liegen unter archive/ (veröffentlichter Stand). Sie werden
 # NICHT mehr aktiv gerendert, damit die publizierten PNGs nicht versehentlich überschrieben werden
 # (z. B. bei einer Änderung an frame()/STAND). Die Funktionen build_intro/build_post1/build_post4/
-# build_post2/6/7/8/9/10 bleiben unten als Reproduzierbarkeits-Referenz erhalten.
-# Hinweis: Post 0/1/4/6/7/9 wurden mit Kicker 30 veroeffentlicht, Post 2/8/10 mit Kicker 38.
+# build_post2/6/7/8/9/10/13 bleiben unten als Reproduzierbarkeits-Referenz erhalten.
+# Hinweis: Post 0/1/4/6/7/9 wurden mit Kicker 30 veroeffentlicht, Post 2/8/10/13 mit Kicker 38.
 # Beide geben ihre Groesse deshalb ausdruecklich am kicker()-Aufruf an.
 OUT_POST11 = REPO / "posts" / "post-011-korrektur-58-prozent" / "slides"
 OUT_POST12 = REPO / "posts" / "post-012-ki-erwartung-kippt" / "slides"
-OUT_POST13 = REPO / "posts" / "post-013-rechenzentrum-luebbenau" / "slides"
 OUT_STORY = REPO / "brand" / "stories"
-for _d in (OUT_LOGO, OUT_STORY, OUT_POST5, OUT_POST11, OUT_POST12, OUT_POST13):
+for _d in (OUT_LOGO, OUT_STORY, OUT_POST5, OUT_POST11, OUT_POST12):
     _d.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------- palette
@@ -1387,7 +1386,9 @@ def build_post12():
 
 # ================================================================ POST 13
 def build_post13():
-    """Bauform: Die Rekonstruktion. Die Blaetter 02 bis 05 folgen der Zeitachse des
+    """GEPOSTET am 16.08.2026, liegt unter archive/. Nicht mehr aktiv gerendert.
+
+    Bauform: Die Rekonstruktion. Die Blaetter 02 bis 05 folgen der Zeitachse des
     Gelaendes (1996, 2025, 2027, danach). Blatt 04 traegt die Balkenreihe mit dem
     Groessenvergleich. Kein Beleg-Panel, weil kein am Original geprueftes woertliches
     Zitat vorliegt (Begruendung in sources.md)."""
@@ -1410,7 +1411,7 @@ def build_post13():
 
     # --- 02 1996
     img, d = new(2, T, ST)
-    y = kicker(d, 236, "1996 ging hier das Kraftwerk aus")
+    y = kicker(d, 236, "1996 ging hier das Kraftwerk aus", size=38)
     block(d, y, "Von 1959 bis 1996 stand in Lübbenau ein Braunkohlekraftwerk mit rund "
                 "1.300 Megawatt installierter Leistung. Nach der Stilllegung wurden die "
                 "Bauten gesprengt. Liegen geblieben ist der Anschluss ans Strom- und "
@@ -1420,7 +1421,7 @@ def build_post13():
 
     # --- 03 2025
     img, d = new(3, T, ST)
-    y = kicker(d, 236, "2025 stand der Bundesdigitalminister im Sand")
+    y = kicker(d, 236, "2025 stand der Bundesdigitalminister im Sand", size=38)
     block(d, y, "Am 17. November 2025 war Spatenstich. Bauherr ist Schwarz Digits, die "
                 "IT-Sparte der Schwarz-Gruppe, der auch Lidl und Kaufland gehören. Elf "
                 "Milliarden Euro über die nächsten fünf bis fünfzehn Jahre, davon 2,5 "
@@ -1431,7 +1432,7 @@ def build_post13():
 
     # --- 04 2027 + Balken
     img, d = new(4, T, ST)
-    y = kicker(d, 228, "2027 sollen die ersten Module laufen")
+    y = kicker(d, 228, "2027 sollen die ersten Module laufen", size=38)
     y = block(d, y, "Drei von sechs Modulen, ausgelegt auf rund 200 Megawatt. Im Land ist "
                     "das viel. Weiter weg sieht es anders aus.",
               f("BOOK", 45), INK, MAXW, 1.42, 44)
@@ -1443,7 +1444,7 @@ def build_post13():
 
     # --- 05 danach
     img, d = new(5, T, ST)
-    y = kicker(d, 236, "Die Abwärme bleibt hier, die Chips nicht")
+    y = kicker(d, 236, "Die Abwärme bleibt hier, die Chips nicht", size=38)
     block(d, y, "Ab 2028 soll die Abwärme ins Fernwärmenetz von Lübbenau gehen. Im "
                 "Rechenzentrum selbst entstehen nur wenige hundert Arbeitsplätze. Und die "
                 "bis zu 100.000 KI-Prozessoren kommen weiter von außerhalb. Infineon baut "
@@ -1454,7 +1455,7 @@ def build_post13():
 
     # --- 06 Quellen
     img, d = new(6, T, ST)
-    y = kicker(d, 240, "Quellen")
+    y = kicker(d, 240, "Quellen", size=38)
     for s_ in ["Schwarz Digits, Spatenstich Lübbenau am 17.11.2025, und Berichte dazu",
                "Bitkom und Borderstep Institut, Rechenzentren in Deutschland, 10.11.2025",
                "Meta, Rechenzentrum Richland Parish in Louisiana, Ausbauziel 5 Gigawatt",
@@ -1558,17 +1559,15 @@ def save_slides(slides, out_dir):
     return len(slides)
 
 
-# Nur aktive Posts rendern. Post 0/1/2/4/6/7/8/9/10 sind gepostet und liegen unter archive/.
+# Nur aktive Posts rendern. Post 0/1/2/4/6/7/8/9/10/13 sind gepostet und liegen unter archive/.
 n5 = save_slides(build_post5(), OUT_POST5)
 n11 = save_slides(build_post11(), OUT_POST11)
 n12 = save_slides(build_post12(), OUT_POST12)
-n13 = save_slides(build_post13(), OUT_POST13)
 print(f"Post 5: {n5} Blätter -> {OUT_POST5}")
 print(f"Post 11: {n11} Blätter -> {OUT_POST11}")
 print(f"Post 12: {n12} Blätter -> {OUT_POST12}")
-print(f"Post 13: {n13} Blätter -> {OUT_POST13}")
 print(f"Logo    -> {OUT_LOGO}")
-print("(Post 0/1/2/4/6/7/8/9/10 gepostet & archiviert -> archive/, nicht neu gerendert)")
+print("(Post 0/1/2/4/6/7/8/9/10/13 gepostet & archiviert -> archive/, nicht neu gerendert)")
 
 _stories = build_stories()
 for _name, _im in _stories:

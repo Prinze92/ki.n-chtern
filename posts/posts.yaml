@@ -261,12 +261,13 @@ posts:
     titel: "Lidls Eigentümer baut ein KI-Rechenzentrum für 11 Milliarden Euro"
     saeule: fall_der_woche
     bauform: rekonstruktion
-    status: gerendert          # 6 Blätter (16.08.2026); Bitkom-Zahlen an der Primaermitteilung geprueft
+    status: gepostet           # live am 16.08.2026; 6 Blätter, Bitkom-Zahlen an der Primaermitteilung geprueft
     blaetter: 6
     geplant_fuer: aktuell
-    gepostet_am: null
+    gepostet_am: 2026-08-16
     offen:
       - "Kein Beleg-Panel: deutscher Wortlaut der Schwarz-Digits-Zitate nicht gesichert (Begruendung in sources.md)"
+      - "Nach ~7 Tagen Kennzahlen (reach/sends/saves) aus Insights nachtragen"
       - "1.300 MW des alten Kraftwerks nur aus Enzyklopaedie-Eintrag; an zweiter Quelle gegenlesen"
       - "Bitkom nennt 2.980/530 MW mal als Anschluss-, mal als IT-Anschlussleistung; klaeren"
       - "Die vier Balkenwerte sind nicht identisch definiert; Hinweis steht auf Blatt 06"
