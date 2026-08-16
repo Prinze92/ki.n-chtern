@@ -109,12 +109,15 @@ posts:
     titel: "Killt KI die Jobs?"
     saeule: hype_check
     bauform: widerspruch
-    status: gerendert          # 15.08.2026 neu gebaut: 6 Blaetter, Bauform "Der Widerspruch", Zahlen an IAB-Primaerquelle geprueft
+    status: gepostet           # 15.08.2026 neu gebaut (6 Blaetter, Bauform "Der Widerspruch"), danach live
     blaetter: 6
     geplant_fuer: aktuell
     gepostet_am: null
     offen:
+      - "OFFEN: gepostet_am unbekannt. Der Post war schon vor dem Neubau vom 15.08.2026 im Raster sichtbar (103 Aufrufe). Datum bestaetigen"
+      - "OFFEN: welcher Stand ist live? Der alte 8-Blatt-Stand oder der neue 6-Blatt-Stand. archive/ enthaelt den neuen"
       - "IAB-Forschungsbericht-PDF nicht auslesbar (Subset-Schrift); alle Zahlen aus der IAB-Pressemitteilung vom 19.11.2025 zu genau diesem Bericht"
+      - "Nach ~7 Tagen Kennzahlen (reach/sends/saves) aus Insights nachtragen"
       - "DIW-Aussage zur Mittelschicht aus dem Post entfernt, weil nur aus zweiter Hand"
     kennzahlen:
       reach: null
@@ -221,13 +224,13 @@ posts:
     titel: "58 Prozent nutzen KI, sagten wir. Richtiger wären 34 gewesen."
     saeule: meta
     bauform: korrektur
-    status: gerendert          # 6 Blätter (14.08.2026); Fehler am Bitkom-Studienbericht belegt
+    status: verworfen          # 16.08.2026 verworfen. Ordner und build_post11() geloescht, ueber die Git-Historie wiederherstellbar (Stand: commit e808442)
     blaetter: 6
-    geplant_fuer: aktuell
+    geplant_fuer: offen
     gepostet_am: null
     offen:
-      - "Korrigiert Post 7 (Aufmacher 58 % statt 34 %); Fehler am Primaerdokument geprueft"
-      - "NACH dem Posten: Korrekturhinweis in archive/post-007-.../post.md und sources.md ergaenzen, nicht still aendern"
+      - "Der belegte Fehler bleibt bestehen: Post 7 fuehrte mit 58 % statt 34 %. Der Korrekturhinweis steht jetzt in archive/post-007-.../post.md und sources.md"
+      - "Falls die Korrektur doch oeffentlich werden soll: Material liegt in der Git-Historie, kein Neuaufbau noetig"
     kennzahlen:
       reach: null
       sends: null

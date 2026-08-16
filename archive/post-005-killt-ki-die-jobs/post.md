@@ -81,3 +81,18 @@ acht statt sechs Blätter, acht Gedankenstriche, eine „nicht X, sondern Y"-Kon
 - [ ] **Offen:** Der Forschungsbericht selbst ließ sich nicht auslesen, das PDF nutzt eine Subset-Schrift mit
       eigener Zeichentabelle. Alle Zahlen stammen aus der Pressemitteilung des IAB zu genau diesem Bericht.
       Wer den Volltext öffnen kann, sollte die 1,6 Millionen dort gegenlesen.
+
+## Beim Archivieren aufgefallen (16.08.2026)
+
+Im `slides/`-Ordner lagen noch **blatt_07.png und blatt_08.png** aus dem alten 8-Blatt-Stand. Der Neubau
+vom 15.08.2026 hat die Blätter 01 bis 06 überschrieben, die überzähligen zwei aber liegen gelassen. Der
+Ordner zeigte damit eine Mischung aus zwei Ständen. Die beiden Dateien sind jetzt gelöscht.
+
+**Folge für den Renderer:** `build_slides.py` schreibt Blätter, ohne den Zielordner vorher zu leeren. Wird
+ein Post gekürzt, bleiben die alten Blätter stehen. Das ist bisher nur hier aufgefallen, kann aber jeden
+gekürzten Post treffen.
+
+**Offen und wichtig:** Welcher Stand ist auf Instagram live? Der alte mit acht Blättern oder der neue mit
+sechs? Der alte Stand liegt nur noch in der Git-Historie (Blätter 01 bis 06 vor dem Neubau vom 15.08.2026,
+Blätter 07 und 08 zuletzt in commit 9fe47fe). Solange das nicht geklärt ist, bildet dieser Archivordner
+den neuen Stand ab und nicht zwingend den veröffentlichten.

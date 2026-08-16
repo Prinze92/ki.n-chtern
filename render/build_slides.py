@@ -24,17 +24,17 @@ REPO = Path(__file__).resolve().parent.parent
 FONTS_DIR = REPO / "brand" / "fonts"
 OUT_LOGO = REPO / "brand" / "logo"
 # Aktive Posts (in Arbeit / postbereit) — werden gerendert:
-OUT_POST5 = REPO / "posts" / "post-005-killt-ki-die-jobs" / "slides"
-# Gepostet & archiviert: Post 0/1/2/4/6/7/8/9/10/13 liegen unter archive/ (veröffentlichter Stand). Sie werden
+# Gepostet & archiviert: Post 0/1/2/4/5/6/7/8/9/10/13 liegen unter archive/ (veröffentlichter Stand). Sie werden
 # NICHT mehr aktiv gerendert, damit die publizierten PNGs nicht versehentlich überschrieben werden
 # (z. B. bei einer Änderung an frame()/STAND). Die Funktionen build_intro/build_post1/build_post4/
-# build_post2/6/7/8/9/10/13 bleiben unten als Reproduzierbarkeits-Referenz erhalten.
-# Hinweis: Post 0/1/4/6/7/9 wurden mit Kicker 30 veroeffentlicht, Post 2/8/10/13 mit Kicker 38.
+# build_post2/5/6/7/8/9/10/13 bleiben unten als Reproduzierbarkeits-Referenz erhalten.
+# Post 11 (Korrektur) wurde am 16.08.2026 verworfen; Ordner und build_post11() geloescht,
+# wiederherstellbar ueber die Git-Historie (wie seinerzeit Post 3).
+# Hinweis: Post 0/1/4/6/7/9 wurden mit Kicker 30 veroeffentlicht, Post 2/5/8/10/13 mit Kicker 38.
 # Beide geben ihre Groesse deshalb ausdruecklich am kicker()-Aufruf an.
-OUT_POST11 = REPO / "posts" / "post-011-korrektur-58-prozent" / "slides"
 OUT_POST12 = REPO / "posts" / "post-012-ki-erwartung-kippt" / "slides"
 OUT_STORY = REPO / "brand" / "stories"
-for _d in (OUT_LOGO, OUT_STORY, OUT_POST5, OUT_POST11, OUT_POST12):
+for _d in (OUT_LOGO, OUT_STORY, OUT_POST12):
     _d.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------- palette
@@ -707,7 +707,7 @@ def build_post5():
 
     # --- 02 Zwei Lager, kein Beleg
     img, d = new(2, T, ST)
-    y = kicker(d, 240, "Zwei Lager, kein Beleg")
+    y = kicker(d, 240, "Zwei Lager, kein Beleg", size=38)
     block(d, y, "Die einen sagen, KI vernichte Millionen Arbeitsplätze. Die anderen "
                 "winken ab. Für beide Behauptungen liegt selten eine Zahl daneben.",
           f("BOOK", 48), INK, MAXW, 1.44)
@@ -715,7 +715,7 @@ def build_post5():
 
     # --- 03 Was das IAB schreibt (Beleg-Panel)
     img, d = new(3, T, ST)
-    y = kicker(d, 228, "Was das IAB schreibt")
+    y = kicker(d, 228, "Was das IAB schreibt", size=38)
     y = beleg(d, y, "IAB, BIBB und GWS",
               ['„KI führt primär zu einem Umbruch',
                ' am Arbeitsmarkt. Gefragt sind künftig',
@@ -729,7 +729,7 @@ def build_post5():
 
     # --- 04 Was sich bewegt
     img, d = new(4, T, ST)
-    y = kicker(d, 236, "Was sich bewegt")
+    y = kicker(d, 236, "Was sich bewegt", size=38)
     y = block(d, y, "Rund 1,6 Millionen Stellen entstehen oder fallen weg. Die "
                     "Gesamtbeschäftigung bleibt dabei fast unverändert.",
               f("BOOK", 46), INK, MAXW, 1.44, 56)
@@ -739,7 +739,7 @@ def build_post5():
 
     # --- 05 Netto null tröstet niemanden
     img, d = new(5, T, ST)
-    y = kicker(d, 232, "Netto null tröstet niemanden")
+    y = kicker(d, 232, "Netto null tröstet niemanden", size=38)
     block(d, y, "Es ist eine Projektion, kein Versprechen. Wer mittendrin umlernen "
                 "muss, hat von einer ausgeglichenen Gesamtbilanz nichts. Im IT-Bereich "
                 "entstehen rund 110.000 Stellen, in den Unternehmensdiensten fallen "
@@ -749,7 +749,7 @@ def build_post5():
 
     # --- 06 Quellen
     img, d = new(6, T, ST)
-    y = kicker(d, 240, "Quellen")
+    y = kicker(d, 240, "Quellen", size=38)
     for s_ in ["IAB, BIBB und GWS: Künstliche Intelligenz, potenzielle Effekte für den "
                "deutschen Arbeitsmarkt. Forschungsbericht 23/2025",
                "Pressemitteilung des IAB vom 19. November 2025"]:
@@ -1217,91 +1217,6 @@ def build_post10():
     return slides
 
 
-def build_post11():
-    """Bauform: Die Korrektur. Beleg-Panel zitiert ausnahmsweise den eigenen Post."""
-    T = 6
-    ST = "STAND 14.08.2026"
-    slides = []
-
-    # --- 01 HOOK
-    img, d = new(1, T, ST)
-    y = 268
-    fo = f("COND", 88)
-    for line in ["58 PROZENT NUTZEN KI,", "SAGTEN WIR. RICHTIGER", "WÄREN 34 GEWESEN."]:
-        d.text((M, y), line, font=fo, fill=INK); y += 104
-    y += 34
-    d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 52
-    block(d, y, "Eine Korrektur in eigener Sache.", f("BOOK", 48), INK, MAXW - 40, 1.4)
-    slides.append(img)
-
-    # --- 02 Was wir geschrieben haben
-    img, d = new(2, T, ST)
-    y = kicker(d, 228, "Was wir geschrieben haben")
-    y = beleg(d, y, "ki.nüchtern, Blatt 01",
-              ['„58 Prozent nutzen schon KI.“'],
-              sub="Post vom 13.08.2026")
-    y += 54
-    block(d, y, "Die Zahl ist richtig abgeschrieben, sie steht so im Studienbericht "
-                "von Bitkom. Richtig war die Zahl. Die Auswahl war es nicht.",
-          f("BOOK", 44), INK, MAXW, 1.42)
-    slides.append(img)
-
-    # --- 03 Was in der Studie steht
-    img, d = new(3, T, ST)
-    y = kicker(d, 232, "Was in der Studie steht")
-    y = block(d, y, "Bitkom hat 1.005 Menschen ab 16 Jahren befragt. Die Studie nennt "
-                    "drei Zahlen. Wir haben eine davon genommen.",
-              f("BOOK", 44), INK, MAXW, 1.42, 56)
-    balken(d, y, [("NUTZEN ÜBERHAUPT", 58, "58 %"),
-                  ("MINDESTENS WÖCHENTLICH", 34, "34 %"),
-                  ("TÄGLICH", 15, "15 %")])
-    slides.append(img)
-
-    # --- 04 Warum das ein Unterschied ist
-    img, d = new(4, T, ST)
-    y = kicker(d, 232, "Warum das ein Unterschied ist")
-    block(d, y, "24 der 58 Prozentpunkte nutzen KI seltener als einmal pro Woche. "
-                "Einmal ausprobiert und jede Woche benutzt ist nicht dasselbe. Bitkom "
-                "überschreibt das Kapitel selbst mit „Ein Drittel nutzt mindestens "
-                "einmal pro Woche KI“. Wir haben die größere Zahl genommen, obwohl die "
-                "kleinere danebenstand.",
-          f("BOOK", 44), INK, MAXW, 1.42)
-    slides.append(img)
-
-    # --- 05 Was wir daraus machen
-    img, d = new(5, T, ST)
-    y = kicker(d, 232, "Was wir daraus machen")
-    y = block(d, y, "Bietet eine Studie mehrere Zahlen an, nennen wir ab jetzt die "
-                    "engste. Klingt eine größere besser, ist genau das ein Warnzeichen.",
-              f("BOOK", 46), INK, MAXW, 1.42, 54)
-    block(d, y, "Unangenehm ist dabei weniger die Zahl als die Notiz: In unseren eigenen "
-                "Unterlagen stand, den Studienbericht vor dem Posten gegenzulesen. "
-                "Gelesen haben wir ihn heute.",
-          f("BOOK", 40), MUTED, MAXW, 1.42)
-    slides.append(img)
-
-    # --- 06 Quellen
-    img, d = new(6, T, ST)
-    y = kicker(d, 240, "Quellen")
-    for s_ in ["Bitkom, Studienbericht „Künstliche Intelligenz in Deutschland“ 2026, "
-               "1.005 Befragte ab 16 Jahren",
-               "Unser Post „Was du besser nicht in eine KI eintippst“ vom 13. August 2026"]:
-        caret(d, M + 18, y + 22, 30, 6, RED)
-        yy = y
-        for ln in wrap(d, s_, f("BOOK", 37), MAXW - 70):
-            d.text((M + 66, yy), ln, font=f("BOOK", 37), fill=INK); yy += int(37 * 1.4)
-        y = yy + 26
-    y += 16
-    d.line([(M, y), (W - M, y)], fill=RULE, width=2); y += 36
-    y = block(d, y, "Die übrigen Aussagen aus dem Post bleiben gültig. Korrigiert wird "
-                    "der Aufmacher.", f("BOOK", 35), MUTED, MAXW, 1.4, 28)
-    block(d, y, "Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar. "
-                "Wie hier.", f("BOOK", 35), RED, MAXW, 1.4)
-    slides.append(img)
-
-    return slides
-
-
 def build_post12():
     """Bauform: Der Fall, mit zweitem Beleg. Kein Beleg-Panel, weil kein geprueftes
     woertliches Zitat vorliegt (siehe sources.md)."""
@@ -1554,20 +1469,25 @@ def build_stories():
 
 # ---------------------------------------------------------------- ausgabe
 def save_slides(slides, out_dir):
+    """Schreibt die Blaetter und raeumt ueberzaehlige aus frueheren Laeufen weg.
+    Ohne das Aufraeumen bleiben beim Kuerzen eines Posts die alten Blaetter liegen und
+    der Ordner zeigt eine Mischung aus zwei Staenden (aufgefallen bei Post 5 am 16.08.2026:
+    blatt_07/08 stammten noch vom 8-Blatt-Stand)."""
     for i, im in enumerate(slides, 1):
         im.save(out_dir / f"blatt_{i:02d}.png", "PNG")
+    for alt_blatt in sorted(out_dir.glob("blatt_*.png")):
+        nummer = int(alt_blatt.stem.split("_")[1])
+        if nummer > len(slides):
+            alt_blatt.unlink()
+            print(f"  entfernt (ueberzaehlig): {alt_blatt.name}")
     return len(slides)
 
 
-# Nur aktive Posts rendern. Post 0/1/2/4/6/7/8/9/10/13 sind gepostet und liegen unter archive/.
-n5 = save_slides(build_post5(), OUT_POST5)
-n11 = save_slides(build_post11(), OUT_POST11)
+# Nur aktive Posts rendern. Post 0/1/2/4/5/6/7/8/9/10/13 sind gepostet und liegen unter archive/.
 n12 = save_slides(build_post12(), OUT_POST12)
-print(f"Post 5: {n5} Blätter -> {OUT_POST5}")
-print(f"Post 11: {n11} Blätter -> {OUT_POST11}")
 print(f"Post 12: {n12} Blätter -> {OUT_POST12}")
 print(f"Logo    -> {OUT_LOGO}")
-print("(Post 0/1/2/4/6/7/8/9/10/13 gepostet & archiviert -> archive/, nicht neu gerendert)")
+print("(Post 0/1/2/4/5/6/7/8/9/10/13 gepostet & archiviert -> archive/, nicht neu gerendert)")
 
 _stories = build_stories()
 for _name, _im in _stories:

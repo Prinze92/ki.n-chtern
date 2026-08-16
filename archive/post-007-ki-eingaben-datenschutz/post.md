@@ -46,3 +46,22 @@
 
 - [x] Fakten recherchiert (13.08.2026): Bitkom-Studie zur KI-Nutzung 2026; DSGVO-Verantwortlichkeit.
 - [ ] Optional: Bitkom-Studienbericht direkt verlinken/gegenlesen; Training-Opt-out ist anbieterabhängig (allgemein gehalten).
+
+## Korrekturhinweis (16.08.2026)
+
+**Der Aufmacher „58 Prozent nutzen schon KI" ist die weiteste von drei Zahlen desselben Berichts.**
+Am Bitkom-Studienbericht gegengelesen ergibt sich: 58 Prozent nutzen KI überhaupt, **34 Prozent
+mindestens einmal pro Woche**, 15 Prozent täglich. 24 der 58 Prozentpunkte greifen seltener als einmal
+pro Woche darauf zu. Bitkom selbst überschreibt das Kapitel mit „Ein Drittel nutzt mindestens einmal pro
+Woche KI".
+
+Richtiger für einen Aufmacher wären die 34 Prozent gewesen. Verschärfend kommt hinzu, dass in
+`sources.md` dieses Posts bereits als offener Punkt stand, den Studienbericht vor der Veröffentlichung
+gegenzulesen. Der Post ging trotzdem live.
+
+Eine öffentliche Korrektur war als Post 11 gebaut und am 16.08.2026 verworfen. **Der Fehler bleibt damit
+öffentlich unkorrigiert.** Dieser Hinweis ist der interne Vermerk dazu, damit nichts still verschwindet.
+Die übrigen Zahlen des Posts sind von der Korrektur nicht betroffen.
+
+**Regel daraus:** Bietet eine Studie mehrere Zahlen an, nennen wir die engste. Klingt eine größere besser,
+ist genau das ein Warnzeichen.
