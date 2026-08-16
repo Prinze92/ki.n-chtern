@@ -254,3 +254,25 @@ posts:
       sends: null
       sends_per_reach: null
       saves: null
+
+  - id: 13
+    slug: rechenzentrum-luebbenau
+    ordner: post-013-rechenzentrum-luebbenau
+    titel: "Lidls Eigentümer baut ein KI-Rechenzentrum für 11 Milliarden Euro"
+    saeule: fall_der_woche
+    bauform: rekonstruktion
+    status: gerendert          # 6 Blätter (16.08.2026); Bitkom-Zahlen an der Primaermitteilung geprueft
+    blaetter: 6
+    geplant_fuer: aktuell
+    gepostet_am: null
+    offen:
+      - "Kein Beleg-Panel: deutscher Wortlaut der Schwarz-Digits-Zitate nicht gesichert (Begruendung in sources.md)"
+      - "1.300 MW des alten Kraftwerks nur aus Enzyklopaedie-Eintrag; an zweiter Quelle gegenlesen"
+      - "Bitkom nennt 2.980/530 MW mal als Anschluss-, mal als IT-Anschlussleistung; klaeren"
+      - "Die vier Balkenwerte sind nicht identisch definiert; Hinweis steht auf Blatt 06"
+      - "Investorenangabe '75.000 Haushalte' unplausibel, bewusst nicht im Post"
+    kennzahlen:
+      reach: null
+      sends: null
+      sends_per_reach: null
+      saves: null

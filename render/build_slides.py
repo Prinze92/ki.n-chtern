@@ -33,8 +33,9 @@ OUT_POST5 = REPO / "posts" / "post-005-killt-ki-die-jobs" / "slides"
 # Beide geben ihre Groesse deshalb ausdruecklich am kicker()-Aufruf an.
 OUT_POST11 = REPO / "posts" / "post-011-korrektur-58-prozent" / "slides"
 OUT_POST12 = REPO / "posts" / "post-012-ki-erwartung-kippt" / "slides"
+OUT_POST13 = REPO / "posts" / "post-013-rechenzentrum-luebbenau" / "slides"
 OUT_STORY = REPO / "brand" / "stories"
-for _d in (OUT_LOGO, OUT_STORY, OUT_POST5, OUT_POST11, OUT_POST12):
+for _d in (OUT_LOGO, OUT_STORY, OUT_POST5, OUT_POST11, OUT_POST12, OUT_POST13):
     _d.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------- palette
@@ -1384,6 +1385,97 @@ def build_post12():
     return slides
 
 
+# ================================================================ POST 13
+def build_post13():
+    """Bauform: Die Rekonstruktion. Die Blaetter 02 bis 05 folgen der Zeitachse des
+    Gelaendes (1996, 2025, 2027, danach). Blatt 04 traegt die Balkenreihe mit dem
+    Groessenvergleich. Kein Beleg-Panel, weil kein am Original geprueftes woertliches
+    Zitat vorliegt (Begruendung in sources.md)."""
+    T = 6
+    ST = "STAND 16.08.2026"
+    slides = []
+
+    # --- 01 HOOK
+    img, d = new(1, T, ST)
+    y = 276
+    fo = f("COND", 80)
+    for line in ["LIDLS EIGENTÜMER BAUT", "EIN KI-RECHENZENTRUM", "FÜR 11 MILLIARDEN EURO."]:
+        d.text((M, y), line, font=fo, fill=INK); y += 96
+    y += 34
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 52
+    block(d, y, "Es entsteht in Lübbenau in Brandenburg, auf dem Gelände eines "
+                "abgerissenen Braunkohlekraftwerks. Fördergeld fließt keines.",
+          f("BOOK", 46), INK, MAXW - 40, 1.4)
+    slides.append(img)
+
+    # --- 02 1996
+    img, d = new(2, T, ST)
+    y = kicker(d, 236, "1996 ging hier das Kraftwerk aus")
+    block(d, y, "Von 1959 bis 1996 stand in Lübbenau ein Braunkohlekraftwerk mit rund "
+                "1.300 Megawatt installierter Leistung. Nach der Stilllegung wurden die "
+                "Bauten gesprengt. Liegen geblieben ist der Anschluss ans Strom- und "
+                "Übertragungsnetz, und genau der macht die 13 Hektar heute wertvoll.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 03 2025
+    img, d = new(3, T, ST)
+    y = kicker(d, 236, "2025 stand der Bundesdigitalminister im Sand")
+    block(d, y, "Am 17. November 2025 war Spatenstich. Bauherr ist Schwarz Digits, die "
+                "IT-Sparte der Schwarz-Gruppe, der auch Lidl und Kaufland gehören. Elf "
+                "Milliarden Euro über die nächsten fünf bis fünfzehn Jahre, davon 2,5 "
+                "Milliarden für den Bau. Staatliche Förderung nimmt das Unternehmen "
+                "nach eigenen Angaben nicht.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 04 2027 + Balken
+    img, d = new(4, T, ST)
+    y = kicker(d, 228, "2027 sollen die ersten Module laufen")
+    y = block(d, y, "Drei von sechs Modulen, ausgelegt auf rund 200 Megawatt. Im Land ist "
+                    "das viel. Weiter weg sieht es anders aus.",
+              f("BOOK", 45), INK, MAXW, 1.42, 44)
+    balken(d, y, [("LÜBBENAU, GEPLANT", 200, "rund 200 MW"),
+                  ("KI-RECHENZENTREN IN DEUTSCHLAND", 530, "530 MW"),
+                  ("ALLE RECHENZENTREN IN DEUTSCHLAND", 2980, "2.980 MW"),
+                  ("META, EIN STANDORT IN LOUISIANA", 5000, "5.000 MW, Ziel")])
+    slides.append(img)
+
+    # --- 05 danach
+    img, d = new(5, T, ST)
+    y = kicker(d, 236, "Die Abwärme bleibt hier, die Chips nicht")
+    block(d, y, "Ab 2028 soll die Abwärme ins Fernwärmenetz von Lübbenau gehen. Im "
+                "Rechenzentrum selbst entstehen nur wenige hundert Arbeitsplätze. Und die "
+                "bis zu 100.000 KI-Prozessoren kommen weiter von außerhalb. Infineon baut "
+                "in Dresden Leistungshalbleiter für die Stromversorgung von KI-Servern. "
+                "Die Rechenchips selbst entstehen anderswo.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 06 Quellen
+    img, d = new(6, T, ST)
+    y = kicker(d, 240, "Quellen")
+    for s_ in ["Schwarz Digits, Spatenstich Lübbenau am 17.11.2025, und Berichte dazu",
+               "Bitkom und Borderstep Institut, Rechenzentren in Deutschland, 10.11.2025",
+               "Meta, Rechenzentrum Richland Parish in Louisiana, Ausbauziel 5 Gigawatt",
+               "Kraftwerk Lübbenau 1959 bis 1996: Enzyklopädie-Eintrag, Einzelquelle"]:
+        caret(d, M + 18, y + 20, 28, 6, RED)
+        yy = y
+        for ln in wrap(d, s_, f("BOOK", 34), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 34), fill=INK); yy += int(34 * 1.4)
+        y = yy + 18
+    y += 10
+    d.line([(M, y), (W - M, y)], fill=RULE, width=2); y += 28
+    y = block(d, y, "Die vier Werte im Balken sind nicht identisch definiert. Sie zeigen "
+                    "Größenordnungen und taugen nicht als exakte Gegenüberstellung.",
+              f("BOOK", 33), MUTED, MAXW, 1.4, 22)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar.",
+          f("BOOK", 33), RED, MAXW, 1.4)
+    slides.append(img)
+
+    return slides
+
+
 # ================================================================ STORIES (1080x1920)
 def build_stories():
     """Story-Slides im Hochformat. Inhalt bleibt in der Sicherheitszone (oben ~260 px für
@@ -1470,9 +1562,11 @@ def save_slides(slides, out_dir):
 n5 = save_slides(build_post5(), OUT_POST5)
 n11 = save_slides(build_post11(), OUT_POST11)
 n12 = save_slides(build_post12(), OUT_POST12)
+n13 = save_slides(build_post13(), OUT_POST13)
 print(f"Post 5: {n5} Blätter -> {OUT_POST5}")
 print(f"Post 11: {n11} Blätter -> {OUT_POST11}")
 print(f"Post 12: {n12} Blätter -> {OUT_POST12}")
+print(f"Post 13: {n13} Blätter -> {OUT_POST13}")
 print(f"Logo    -> {OUT_LOGO}")
 print("(Post 0/1/2/4/6/7/8/9/10 gepostet & archiviert -> archive/, nicht neu gerendert)")
 
