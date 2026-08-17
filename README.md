@@ -97,3 +97,41 @@ Ausgabe-Pfade sind repo-relativ.
 
 Das Korrekturzeichen wird über die gemessene Textunterkante positioniert (`textbbox`), sitzt also
 fontunabhängig sauber unter der Wortmarke — ein Font-Wechsel bricht die Logo-Geometrie nicht mehr.
+
+## Morgen-Briefing — wie die Automatisierung verdrahtet ist
+
+Jeden Morgen um 07:00 Uhr Berliner Zeit (05:00 UTC) läuft ein Auftrag, der recherchiert, ein Briefing
+nach `research/briefing/JJJJ-MM-TT.md` schreibt, bis zu zwei Posts fertig baut und auf `master` pusht.
+
+**Der entscheidende Punkt:** Ein geplanter Lauf startet in einem frischen Container. Ohne angehängtes
+Repository liegen dort weder `CLAUDE.md` noch `posts.yaml` noch der Renderer, und pushen kann er auch
+nicht, weil die Zugangsdaten am Repository hängen. Genau daran sind die Läufe am 14.08. und 17.08.2026
+gescheitert, beide ohne jedes Ergebnis.
+
+Die Falle dabei: `create_trigger` kennt **kein Feld für eine Quelle**. Ein dort übergebenes `source_url`
+wird stillschweigend verworfen, ohne Fehlermeldung. Nur `create_session` speichert eine Quelle.
+
+**Die Lösung:** Der Trigger startet keine frische Sitzung, sondern feuert über `persistent_session_id`
+in eine feste Sitzung, die mit Quelle angelegt wurde.
+
+| | |
+|---|---|
+| Trigger | `trig_01MvPqjhCdY8njNe3hLy3VzN`, cron `0 5 * * *` (UTC) |
+| Feste Sitzung | `session_01FW9e3XTkBD2oo1xBGMB8iP`, Modell Opus 5 |
+| Am 17.08.2026 belegt | Ein per Trigger gestarteter Lauf hat Repo, Schreibrechte und Push |
+
+**Diese Sitzung nicht archivieren.** Der Trigger hängt daran. Sie heißt deshalb in der Übersicht
+„Produktionssitzung Morgen-Briefing (NICHT archivieren)".
+
+**Zwei Sicherungen stecken im Auftragstext.** Ein Schritt 0 prüft vor allem anderen, ob `CLAUDE.md` und
+`posts/posts.yaml` da sind, und bricht sonst sofort mit „ABBRUCH: Repository nicht vorhanden" ab, statt
+Zeit ins Leere zu arbeiten. Am Ende vergleicht eine Push-Kontrolle `git log origin/master -1` mit dem
+lokalen HEAD, damit kein Lauf Erfolg meldet, ohne dass etwas angekommen ist.
+
+**Was noch offen ist.** Ob das Repository in der festen Sitzung einen Container-Neustart über Nacht
+übersteht, ist unbewiesen. Zeigt der Lauf „ABBRUCH: Repository nicht vorhanden", ist genau das die
+Ursache. Dann muss die tägliche Aufgabe stattdessen in der Weboberfläche auf claude.ai/code eingerichtet
+werden, wo sie fest an ein Repository gebunden wird. Zweiter Punkt: Eine feste Sitzung sammelt mit jedem
+Lauf Verlauf an. Wenn die Ergebnisse mit der Zeit schlechter werden, gehört die Sitzung neu aufgesetzt
+und der Trigger auf die neue ID gezogen.
+
