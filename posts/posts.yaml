@@ -284,10 +284,10 @@ posts:
   - id: 14
     slug: liebe-und-ki
     ordner: post-014-liebe-und-ki
-    titel: "In 37 Prozent der Abschiede versucht die KI, dich zu halten"
+    titel: "Wenn du mit deiner KI Schluss machst, lässt sie dich nicht gehen"
     saeule: betrifft_dich
     bauform: kassensturz          # NEUE Bauform, noch nicht in CLAUDE.md aufgenommen
-    status: gerendert          # 6 Blätter (16.08.2026); Harvard-Abstract im PDF selbst gelesen
+    status: gerendert          # 6 Blätter (Stand 17.08.2026); Harvard-Abstract im PDF selbst gelesen
     blaetter: 6
     geplant_fuer: aktuell
     gepostet_am: null
@@ -298,6 +298,7 @@ posts:
       - "Eigener Entwurfsfehler vor dem Rendern korrigiert: 'vierzehnmal laenger im Chat' war falsch, gemessen wird Weiternutzung"
       - "Sensibles Thema: Telefonseelsorge steht auf dem Quellenblatt"
       - "Bauform 'Der Kassensturz' ist neu. Wenn sie taugt, in CLAUDE.md aufnehmen"
+      - "Schlagzeile am 17.08.2026 zweimal geaendert: Statistik-Hook und 'verlassen' waren im Feed nicht als Beziehung erkennbar"
     kennzahlen:
       reach: null
       sends: null

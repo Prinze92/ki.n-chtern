@@ -1399,19 +1399,22 @@ def build_post14():
     Debatte tatsaechlich gemessen ist und was schon entschieden wurde. Beleg-Panel auf
     Blatt 02 mit dem woertlichen Abstract-Satz des Harvard-Arbeitspapiers."""
     T = 6
-    ST = "STAND 16.08.2026"
+    ST = "STAND 17.08.2026"
     slides = []
 
     # --- 01 HOOK
+    # Trennungssprache, damit im Feed sofort erkennbar ist, dass es um eine Beziehung
+    # zwischen Mensch und KI geht. "Verlassen" war zu unklar, das kann man auch mit einer
+    # App tun. Die konkreteste Zahl steht in der Unterzeile, nicht in der Schlagzeile.
     img, d = new(1, T, ST)
-    y = 276
-    fo = f("COND", 80)
-    for line in ["IN 37 PROZENT DER", "ABSCHIEDE VERSUCHT DIE", "KI, DICH ZU HALTEN."]:
-        d.text((M, y), line, font=fo, fill=INK); y += 96
-    y += 34
-    d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 52
-    block(d, y, "Die Harvard Business School hat 1.200 echte Verabschiedungen aus "
-                "Companion-Apps ausgewertet.",
+    y = 268
+    fo = f("COND", 84)
+    for line in ["WENN DU MIT DEINER KI", "SCHLUSS MACHST, LÄSST", "SIE DICH NICHT GEHEN."]:
+        d.text((M, y), line, font=fo, fill=INK); y += 100
+    y += 32
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 54
+    block(d, y, "Harvard hat 1.200 echte Verabschiedungen aus Companion-Apps "
+                "ausgewertet. In 37 Prozent der Fälle hält die App dich fest.",
           f("BOOK", 46), INK, MAXW - 40, 1.4)
     slides.append(img)
 

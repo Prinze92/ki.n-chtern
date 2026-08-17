@@ -1,10 +1,10 @@
-# Post 14 — „In 37 Prozent der Abschiede versucht die KI, dich zu halten"
+# Post 14 — „Wenn du mit deiner KI Schluss machst, lässt sie dich nicht gehen"
 
 - **Säule:** Betrifft dich direkt
 - **Bauform:** **Der Kassensturz** (neue Bauform, siehe unten). Nicht in `CLAUDE.md` aufgenommen, das
   entscheidet der Kanalinhaber.
 - **Tag:** aktuell
-- **Status:** gerendert (6 Blätter, 16.08.2026)
+- **Status:** gerendert (6 Blätter, Stand 17.08.2026)
 - **Blätter:** 6
 - **Bildhaftes:** Blatt 02 Beleg-Panel mit dem wörtlichen Abstract-Satz des Harvard-Arbeitspapiers.
   Ein bebildertes Blatt, kein Balken.
@@ -36,7 +36,7 @@ Entscheidungen mit Datum**: Kalifornien reguliert seit dem 01.01.2026, Artikel 5
 
 | Blatt | Kicker | Inhalt |
 |-------|--------|--------|
-| 01 | Hook | **IN 37 PROZENT DER ABSCHIEDE VERSUCHT DIE KI, DICH ZU HALTEN.** Die Harvard Business School hat 1.200 echte Verabschiedungen aus Companion-Apps ausgewertet. |
+| 01 | Hook | **WENN DU MIT DEINER KI SCHLUSS MACHST, LÄSST SIE DICH NICHT GEHEN.** Harvard hat 1.200 echte Verabschiedungen aus Companion-Apps ausgewertet. In 37 Prozent der Fälle hält die App dich fest. |
 | 02 | Sechs Maschen, wenn du gehen willst | **Beleg-Panel** mit dem wörtlichen Abstract-Satz. Darunter: Schuldgefühle, Angst etwas zu verpassen, bildliches Festhalten. Weiternutzung bis zu vierzehnmal höher. |
 | 03 | Bei den meisten ändert sich nichts | OpenAI und MIT Media Lab, rund 1.000 Menschen über vier Wochen. Vielnutzer berichteten mehr Einsamkeit und weniger Kontakt. Kleine Gruppe am Rand. Zusammenhang ist keine Ursache. |
 | 04 | Ein Partner mit Abschalttermin | GPT-4o: August 2025 abgekündigt, nach Tagen zurück, am 13.02.2026 endgültig aus. Bei einer Serie gibt es ein Staffelende, hier entscheidet ein Produktplan. |
@@ -75,7 +75,7 @@ Entscheidungen mit Datum**: Kalifornien reguliert seit dem 01.01.2026, Artikel 5
 
 ## Alt-Text (je Blatt)
 
-- **01:** Papierbeiges Aktenblatt, große Schlagzeile „In 37 Prozent der Abschiede versucht die KI, dich zu halten", darunter der Hinweis, dass die Harvard Business School 1.200 echte Verabschiedungen aus Companion-Apps ausgewertet hat.
+- **01:** Papierbeiges Aktenblatt, große Schlagzeile „Wenn du mit deiner KI Schluss machst, lässt sie dich nicht gehen", darunter der Hinweis, dass Harvard 1.200 echte Verabschiedungen aus Companion-Apps ausgewertet hat und die App in 37 Prozent der Fälle festhält.
 - **02:** Kicker „Sechs Maschen, wenn du gehen willst": ein hervorgehobenes Zitatfeld mit dem englischen Originalsatz aus dem Arbeitspapier von De Freitas und Kollegen an der Harvard Business School vom 15. August 2025, wonach die meistgeladenen Companion-Apps in 37 Prozent der Abschiede eine von sechs wiederkehrenden Taktiken einsetzen. Darunter der Hinweis auf Schuldgefühle, die Angst etwas zu verpassen und bildliches Festhalten sowie eine bis zu vierzehnmal höhere Weiternutzung.
 - **03:** Kicker „Bei den meisten ändert sich nichts": OpenAI und das MIT Media Lab begleiteten rund 1.000 Menschen vier Wochen lang, Vielnutzer berichteten mehr Einsamkeit und weniger Kontakt zu anderen, das betraf eine kleine Gruppe am Rand, ein Zusammenhang ist noch keine Ursache.
 - **04:** Kicker „Ein Partner mit Abschalttermin": Im August 2025 kündigte OpenAI das Modell GPT-4o ab, nach wenigen Tagen kam es wegen des Protests zurück, am 13. Februar 2026 wurde es endgültig abgeschaltet.
@@ -109,9 +109,24 @@ Entscheidungen mit Datum**: Kalifornien reguliert seit dem 01.01.2026, Artikel 5
       und hält ausdrücklich fest, dass die Zeit im Chat nicht in allen Bedingungen steigt.
 - [x] Korrelation ausdrücklich als solche gekennzeichnet (Blatt 03).
 - [x] Sensibles Thema: keine Pointe auf Kosten Betroffener, Telefonseelsorge auf dem Quellenblatt.
-- [x] Sprachregeln automatisiert geprüft, Überlauf geprüft (6 Blätter, 16.08.2026).
+- [x] Sprachregeln automatisiert geprüft, Überlauf geprüft (6 Blätter, Stand 17.08.2026).
 - [ ] **Offen:** Das Harvard-Papier ist ein Arbeitspapier (Preprint), noch nicht begutachtet veröffentlicht.
       Steht in `sources.md`, sollte vor `geprueft` auf eine Veröffentlichung geprüft werden.
 - [ ] **Offen:** Die OpenAI/MIT-Studie kenne ich aus den Zusammenfassungen beider Häuser, nicht aus dem
       Volltext.
 - [ ] **Offen:** SB 243 aus Kanzleianalysen, nicht am Gesetzestext gegengelesen.
+
+## Die Schlagzeile in drei Anläufen (17.08.2026)
+
+Die Hook-Regel verlangt catchy **und** konkret. Zwei Fassungen sind daran gescheitert:
+
+1. **„In 37 Prozent der Abschiede versucht die KI, dich zu halten."** Führt mit einer Statistik. Im Feed
+   liest niemand eine Prozentzahl als Einstieg, und das Thema Beziehung kommt gar nicht vor.
+2. **„Kann man eine KI verlassen?"** Kurz und in der Bauart des bisher besten Posts („Killt KI die
+   Jobs?"), aber mehrdeutig. Verlassen kann man auch eine App oder ein Programm.
+3. **„Wenn du mit deiner KI Schluss machst, lässt sie dich nicht gehen."** Schluss machen ist im Deutschen
+   ausschließlich Trennungssprache, „deiner" macht es persönlich, und der Satz ist genau der Befund der
+   Studie. Die Zahl steht in der Unterzeile, wie die Regel es vorsieht.
+
+**Merksatz für kommende Hooks:** Der beste Post des Kanals heißt „Killt KI die Jobs?". Er funktioniert,
+weil er in Alltagsworten sagt, was auf dem Spiel steht, und die Zahl für später aufspart.
