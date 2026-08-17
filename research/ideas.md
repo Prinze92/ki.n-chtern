@@ -172,3 +172,29 @@ also ein Patent, aus dem nie ein Produkt wurde.
 *Verhältnis zu Post 10:* Dort wurden „super sensing" und Gesichtserkennung bewusst weggelassen, weil es
 berichtete Pläne sind. Diese Linie bleibt. Ein Patent-Post müsste die Anmeldung selbst zum Gegenstand
 machen, statt sie als Funktion darzustellen.
+
+**Wer misst eigentlich, was KI dich kostet? (Stand 17.08.2026, aus einem Kommentar zu t3n)**
+Adaptavist hat 2.500 Wissensarbeitende in Großbritannien, USA, Kanada, Deutschland und Spanien befragt,
+davon 500 in Deutschland. Für Deutschland: fast drei Viertel sehnen sich in die Zeit vor generativer KI
+zurück, 41 Prozent würden sie abschaffen, 39 Prozent stecken mehr Zeit in die Korrektur als sie einsparen,
+42 Prozent sagen, schwache Ergebnisse verlangsamen ihre Projekte, und 67 Prozent wollen trotzdem, dass ihr
+Arbeitgeber KI ausweitet.
+*Geprüft:* Alle Prozentwerte am t3n-Artikel gegengelesen, die Zahlen der Bildunterschrift stimmen damit
+überein. Artikel zuerst am 28.07.2026 erschienen, am 16.08.2026 erneut ausgespielt.
+*Nicht geprüft:* Der Erhebungszeitraum. Eine Sekundärquelle nennt März 2026, im t3n-Artikel steht kein
+Datum, und die Pressemitteilung von Adaptavist habe ich nicht öffnen können. **Solange das offen ist, darf
+das Alter der Umfrage in keinem Post behauptet werden.**
+*Der eigentliche Post steckt im Gegensatz:* Sämtliche Zahlen sind Selbsteinschätzungen. Die einzige
+gefundene echte Messung ist der randomisierte Versuch von METR vom 10.07.2025: 16 erfahrene
+Open-Source-Entwickler, 246 Aufgaben, Werkzeuge aus Februar bis Juni 2025. Ergebnis 19 Prozent langsamer
+mit KI, während dieselben Leute sich hinterher 20 Prozent schneller einschätzten.
+*Warum das trägt:* Es erklärt den Widerspruch der Umfrage, ohne jemandem Dummheit zu unterstellen. Wer den
+Verlust nicht spürt, kann ihn auch nicht melden. Und es betrifft den Zuschauer direkt, weil in seiner Firma
+mit hoher Wahrscheinlichkeit Nutzung gezählt wird und nicht Wirkung.
+*Vor dem Bauen prüfen:* METR selbst bezeichnet das Ergebnis inzwischen als historisch, es gilt nicht
+automatisch für heutige Werkzeuge. Das muss auf das Blatt, sonst überziehen wir. Außerdem eine Gegenstimme
+suchen, also eine Messung mit positivem Effekt, sonst ist es Rosinenpickerei. Adaptavist verkauft
+KI-Einführungsprojekte, deren Fazit „Umsetzungskrise, keine KI-Ablehnung" liegt im eigenen Interesse.
+*Warum es nicht in den Kommentar passte:* Der Interessenkonflikt von Adaptavist und die Grenzen der
+METR-Studie brauchen mehr Platz als vier Zeilen. Im Kommentar steht nur der Mechanismus.
+
