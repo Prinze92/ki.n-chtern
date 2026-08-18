@@ -275,6 +275,7 @@ posts:
       - "Bitkom nennt 2.980/530 MW mal als Anschluss-, mal als IT-Anschlussleistung; klaeren"
       - "Die vier Balkenwerte sind nicht identisch definiert; Hinweis steht auf Blatt 06"
       - "Investorenangabe '75.000 Haushalte' unplausibel, bewusst nicht im Post"
+      - "NICHT MEHR ZU HEILEN (Befund 18.08.2026): Auf Blatt 03 und 05 laeuft der Kicker rechts aus dem Blatt, auf Blatt 03 bis 3 px an den Rand (x=1077 von 1080). Ursache war die fehlende Breitenpruefung in kicker(). Der Post ist am 16.08.2026 so veroeffentlicht worden, die Bilder stehen. Ursache am 18.08.2026 abgestellt, Post 14 war ebenso betroffen und wurde vor dem Posten korrigiert"
     kennzahlen:
       reach: null
       sends: null
@@ -299,7 +300,7 @@ posts:
       - "Sensibles Thema: Telefonseelsorge steht auf dem Quellenblatt"
       - "Bauform 'Der Kassensturz' ist neu. Wenn sie taugt, in CLAUDE.md aufnehmen"
       - "Schlagzeile am 17.08.2026 zweimal geaendert: Statistik-Hook und 'verlassen' waren im Feed nicht als Beziehung erkennbar"
-      - "OFFEN (Befund 18.08.2026): Der Kicker auf Blatt 05 ist mit 935 px breiter als die Satzbreite von 880 px und laeuft rechts aus dem Blatt. kicker() bricht nicht um. Nicht angefasst, weil fremder Post"
+      - "ERLEDIGT (18.08.2026): Kicker auf Blatt 05 lief mit 935 px ueber die Satzbreite von 880 px hinaus. Gekuerzt auf 'Kalifornien reguliert, wir noch nicht' (843 px), Blatt neu gerendert, endet jetzt wie alle anderen bei x=980. kicker() prueft die Breite seitdem selbst"
     kennzahlen:
       reach: null
       sends: null

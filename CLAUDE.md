@@ -134,6 +134,11 @@ und in `post.md` unter „Bauform" notieren.** Optik bleibt gleich, Dramaturgie 
   am Kicker, damit ihr veröffentlichter Stand reproduzierbar bleibt.
 - **Nach jeder Größenänderung auf Überlauf prüfen.** Inhalt darf nicht unter y=1185 reichen (Fußlinie bei
   1200). Schnelltest: gerenderte PNGs auf Nicht-Hintergrundpixel zwischen y=1120 und y=1185 abtasten.
+- **Auch nach rechts prüfen, nicht nur nach unten.** Die Satzbreite ist 880 Pixel (Rand 100 links und
+  rechts auf 1080). Ein sauberes Blatt endet bei x=980. `kicker()` bricht nicht um und brach früher still
+  über den Rand, das ist in Post 13 auf zwei Blättern so veröffentlicht worden. Seit 18.08.2026 bricht
+  der Renderer bei einem zu langen Kicker mit Fehlermeldung ab. **Dann den Kicker kürzen, nie die Schrift
+  verkleinern** und nie die Prüfung entfernen. Bei Größe 38 passen rund 37 Zeichen.
 
 ## Kommentar-Regeln (Form und Treffsicherheit)
 

@@ -220,8 +220,20 @@ def frame(d, idx, total, stand=None):
 
 def kicker(d, y, text, color=RED, size=38):
     """Kicker-Zeile. size=38 ist der Standard fuer neue Posts (Lesbarkeit auf dem Handy).
-    Archivierte Posts uebergeben size=30, damit ihr veroeffentlichter Stand reproduzierbar bleibt."""
+    Archivierte Posts uebergeben size=30, damit ihr veroeffentlichter Stand reproduzierbar bleibt.
+
+    Bricht NICHT um. Zu langer Text lief frueher still rechts aus dem Blatt, das ist in
+    Post 13 (Blatt 03 und 05) so veroeffentlicht worden und fiel erst am 18.08.2026 auf.
+    Deshalb bricht der Lauf hier jetzt ab, statt ein kaputtes Blatt zu schreiben.
+    Kicker kuerzen, nicht die Schrift verkleinern (siehe CLAUDE.md)."""
     fo = f("MONOB", size)
+    breite = fo.getbbox(text.upper())[2]
+    if breite > W - 2 * M:
+        raise ValueError(
+            f"Kicker zu lang: {breite} px bei erlaubten {W - 2 * M} px (size={size}).\n"
+            f"  Text: {text!r}\n"
+            f"  Kuerzen. kicker() bricht nicht um, der Text liefe sonst aus dem Blatt."
+        )
     d.text((M, y), text.upper(), font=fo, fill=color)
     y += round(size * 1.5333)
     d.line([(M, y), (M + size * 3, y)], fill=color, width=round(size * 0.1667))
@@ -1458,7 +1470,7 @@ def build_post14():
 
     # --- 05 Was gilt
     img, d = new(5, T, ST)
-    y = kicker(d, 236, "Kalifornien reguliert das, wir noch nicht", size=38)
+    y = kicker(d, 236, "Kalifornien reguliert, wir noch nicht", size=38)
     block(d, y, "Seit dem 1. Januar 2026 müssen Companion-Chatbots in Kalifornien "
                 "offenlegen, dass sie Maschinen sind, und Protokolle für Suizidäußerungen "
                 "vorhalten. In der EU verlangt Artikel 50 des AI Act seit dem 2. August "

@@ -128,10 +128,13 @@ in eine feste Sitzung, die mit Quelle angelegt wurde.
 Zeit ins Leere zu arbeiten. Am Ende vergleicht eine Push-Kontrolle `git log origin/master -1` mit dem
 lokalen HEAD, damit kein Lauf Erfolg meldet, ohne dass etwas angekommen ist.
 
-**Was noch offen ist.** Ob das Repository in der festen Sitzung einen Container-Neustart über Nacht
-übersteht, ist unbewiesen. Zeigt der Lauf „ABBRUCH: Repository nicht vorhanden", ist genau das die
-Ursache. Dann muss die tägliche Aufgabe stattdessen in der Weboberfläche auf claude.ai/code eingerichtet
-werden, wo sie fest an ein Repository gebunden wird. Zweiter Punkt: Eine feste Sitzung sammelt mit jedem
-Lauf Verlauf an. Wenn die Ergebnisse mit der Zeit schlechter werden, gehört die Sitzung neu aufgesetzt
-und der Trigger auf die neue ID gezogen.
+**Container-Neustart über Nacht: geklärt am 18.08.2026.** Der erste echte Morgenlauf hat um 05:01 UTC
+gefeuert und um 05:27 UTC gepusht, mit Briefing und zwei fertigen Posts. Das Repository war da. Die
+feste Sitzung übersteht die Nacht also.
+
+**Was weiter offen ist.** Eine feste Sitzung sammelt mit jedem Lauf Verlauf an. Wenn die Ergebnisse mit
+der Zeit schlechter werden, gehört die Sitzung neu aufgesetzt und der Trigger auf die neue ID gezogen.
+Der Auftragstext liegt dafür unter `research/morgen-briefing-auftrag.md`. Falls der Weg über die feste
+Sitzung doch einmal ausfällt, lässt sich dieselbe Aufgabe in der Weboberfläche auf claude.ai/code
+einrichten, wo sie fest an ein Repository gebunden wird.
 
