@@ -299,6 +299,55 @@ posts:
       - "Sensibles Thema: Telefonseelsorge steht auf dem Quellenblatt"
       - "Bauform 'Der Kassensturz' ist neu. Wenn sie taugt, in CLAUDE.md aufnehmen"
       - "Schlagzeile am 17.08.2026 zweimal geaendert: Statistik-Hook und 'verlassen' waren im Feed nicht als Beziehung erkennbar"
+      - "OFFEN (Befund 18.08.2026): Der Kicker auf Blatt 05 ist mit 935 px breiter als die Satzbreite von 880 px und laeuft rechts aus dem Blatt. kicker() bricht nicht um. Nicht angefasst, weil fremder Post"
+    kennzahlen:
+      reach: null
+      sends: null
+      sends_per_reach: null
+      saves: null
+
+  - id: 15
+    slug: handykamera-polizeigesetz-sh
+    ordner: post-015-handykamera-polizeigesetz-sh
+    titel: "Schleswig-Holstein will dein Auto filmen und dein Handy suchen"
+    saeule: betrifft_dich
+    bauform: rekonstruktion
+    status: gerendert          # 6 Blaetter (Stand 18.08.2026); beide Landtagsdokumente im Volltext gelesen
+    blaetter: 6
+    geplant_fuer: aktuell
+    gepostet_am: null
+    offen:
+      - "Vor dem Posten pruefen, ob der Innen- und Rechtsausschuss inzwischen beschlossen hat. Der Entwurfsstand veraltet mit der Abstimmung"
+      - "Dass der Antrag am 18.08.2026 noch im Ausschuss liegt, stuetzt sich auf netzpolitik.org vom 17.08.2026 (Einzelquelle)"
+      - "58 angeforderte Stellungnahmen = Einzelquelle netzpolitik, bewusst nicht im Post"
+      - "Stellungnahmen der Anzuhoerenden (u. a. ULD) nicht gefunden; das waere die Gegenstimme"
+      - "AG Trier 2 OWi 8113 Js 1906/23 und BVerfG 1 BvR 142/15 nur ueber die Zitate in der Begruendung bekannt, nicht im Volltext gelesen"
+      - "Welches Produkt eingesetzt werden soll, steht in keinem der beiden Dokumente"
+      - "Nach ~7 Tagen Kennzahlen (reach/sends/saves) aus Insights nachtragen"
+    kennzahlen:
+      reach: null
+      sends: null
+      sends_per_reach: null
+      saves: null
+
+  - id: 16
+    slug: sozialgerichte-ki-schriftsaetze
+    ordner: post-016-sozialgerichte-ki-schriftsaetze
+    titel: "Chatbots schreiben jetzt die Eilanträge gegen das Jobcenter"
+    saeule: hype_check
+    bauform: der_fall
+    status: gerendert          # 6 Blaetter (Stand 18.08.2026); LSG-NRW-Jahresbericht 2025 im Volltext gelesen
+    blaetter: 6
+    geplant_fuer: aktuell
+    gepostet_am: null
+    offen:
+      - "Der Kausalzusammenhang ist eine Einschaetzung des Gerichts ('wesentlich auch'), keine Messung. Wichtigste Einschraenkung des Posts"
+      - "Niemand zaehlt KI-Schriftsaetze. Jede Prozentangabe zum KI-Anteil ist unbelegt, egal von wem"
+      - "Quartalszahlen 2026 (rund 1.400 auf 3.600) nur als dpa-Meldung vom 17.08.2026, nur in der Caption"
+      - "Gegenstimme fehlt: keine Stellungnahme von Sozialverbaenden oder Erwerbslosenberatung gefunden"
+      - "'4.500 Seiten Antragsbegruendung' beim BSG nicht in der gelesenen Pressemitteilung, deshalb draussen"
+      - "Zeitreihe 2006-2025 nur aus dem Text eines Balkendiagramms, Zuordnung nicht sicher, nicht verwendet"
+      - "Nach ~7 Tagen Kennzahlen (reach/sends/saves) aus Insights nachtragen"
     kennzahlen:
       reach: null
       sends: null

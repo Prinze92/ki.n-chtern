@@ -38,6 +38,13 @@ Wie wir entscheiden, was wir posten. Reihenfolge: **Idee → Recherche an Primä
 | KI-Chatbots als Gesprächspartner von Kindern | Betrifft dich | DAK/UKE-Längsschnittstudie 03/2026 (rund 8 % gegen Einsamkeit, bei depressiven Symptomen über 30 %) | recherchiert |
 | Werbung in ChatGPT — wovon hängt ab, was dir angezeigt wird? | Betrifft dich | OpenAI-Ankündigung; Rollout 11.08.2026 (UK, MX, BR, JP, KR) | roh |
 | BMG lizenziert an Suno, 12 Tage nach dem GEMA-Urteil | Unbequeme Frage | LG München I 42 O 763/25; BMG-Mitteilung 12.08.2026 | roh |
+| Handykamera im Polizeigesetz Schleswig-Holstein (§ 184d) | Betrifft dich | Landtag SH, Drucksache 20/4284 + Umdruck 20/6786 (beide im Volltext gelesen) | verplant → Post 15 |
+| Der Rest desselben Gesetzes: Echtzeit-Gesichtserkennung, automatisierte Datenanalyse, Präventivgewahrsam | Unbequeme Frage | Landtag SH, Drucksache 20/4284, §§ 184b/184c, 195b | recherchiert |
+| Google haftet für falsche KI-Antworten in der Suche | Betrifft dich | LG München I, 26 O 869/26, Urteil vom 28.05.2026 (Presse/Kanzleien, Urteilstext nicht gelesen) | recherchiert |
+| KI-Videoanalyse am Kottbusser Tor | Unbequeme Frage | Berliner Senat, ASOG-Änderung Ende 2025; Start 08/2026 (Presse, Primärquelle offen) | roh |
+| Werbung in ChatGPT in Deutschland: seit wann eigentlich? | Hype-Check | Quellenlage widersprüchlich, siehe Einzelbefund unten | roh |
+| KI-Schriftsätze überlasten die Sozialgerichte | Hype-Check | LSG NRW, Jahresbericht 2025 (im Volltext gelesen); BSG-PM 4/2026 | verplant → Post 16 |
+| Wer vertritt eigentlich noch im Sozialrecht? | Unbequeme Frage | LSG NRW Jahresbericht 2025 nennt fehlende rechtskundige Vertretung als Erklärung; Gegenstimme der Sozialverbände fehlt noch | roh |
 
 > Die fünf Ideen oberhalb (Palantir … AI Overview) stammen aus der **Kommentar-Session (Aug 2026)** —
 > externe Aufhänger bei @bundesagenturfuerarbeit, @netzpolitikorg, @zdfheute, @spiegelmagazin, @evolving.ai.
@@ -198,3 +205,42 @@ KI-Einführungsprojekte, deren Fazit „Umsetzungskrise, keine KI-Ablehnung" lie
 *Warum es nicht in den Kommentar passte:* Der Interessenkonflikt von Adaptavist und die Grenzen der
 METR-Studie brauchen mehr Platz als vier Zeilen. Im Kommentar steht nur der Mechanismus.
 
+
+## Recherchierte Einzelbefunde (Stand 18.08.2026)
+
+**Was „stichprobenweise" im Polizeigesetz Schleswig-Holstein bedeutet.** Ist zu Post 15 geworden, steht
+hier als Merkposten für den Rest des Gesetzes. Der Gesetzentwurf der Landesregierung (Drucksache
+20/4284 vom 24.03.2026) regelt drei Dinge, die jeweils einen eigenen Post tragen würden: automatisierte
+Datenanalyse (Zusammenführung getrennter Datenbestände, § 195b), biometrische Echtzeit-Fernidentifizierung
+in öffentlich zugänglichen Räumen (§ 184b, richterliche Genehmigung auf höchstens sieben Tage befristet)
+und Videoüberwachung, deren Bilder automatisch nach Bewegungsmustern durchsucht werden (§ 184 Absatz 5).
+*Geprüft:* alles im Volltext am PDF des Landtags.
+*Nicht geprüft:* der aktuelle Verfahrensstand über den 06.07.2026 hinaus, die Stellungnahmen der
+Anzuhörenden, und die in der Begründung zitierte Rechtsprechung.
+*Achtung bei einem Folgepost:* Post 9 (Mannheim) behandelt Verhaltenserkennung schon. Ein zweiter Post
+darüber müsste einen anderen Zugriff haben, sonst wiederholen wir uns.
+
+**Google haftet für falsche Aussagen in KI-Übersichten.** LG München I, Aktenzeichen 26 O 869/26, Urteil
+vom 28.05.2026, bekannt geworden Anfang Juni. Googles KI-Übersicht hatte über einen Münchner Verlag
+Betrugsvorwürfe zusammengestellt. Das Gericht behandelte die KI-Ausgabe als **eigene Äußerung Googles**
+und nicht als Wiedergabe fremder Suchergebnisse, untersagte die Verbreitung und setzte ein Ordnungsgeld
+von bis zu 250.000 Euro je Verstoß an.
+*Geprüft:* nur über Fachpresse und Kanzleiberichte (LTO, WBS, Plutte). **Den Urteilstext habe ich nicht
+gelesen**, und ob die Entscheidung rechtskräftig ist, konnte ich nicht klären. Es war ein Verfahren auf
+einstweilige Verfügung.
+*Warum das ein starker Post wäre:* Es ist der seltene Fall, in dem eine deutsche Entscheidung genau die
+Frage beantwortet, die Leserinnen und Leser stellen: Wenn eine KI etwas Falsches über mich behauptet, wen
+kann ich belangen? Das Leitprinzip ist hier vollständig erfüllt.
+*Vor dem Bauen:* Urteilstext oder wenigstens die Pressemitteilung des Gerichts beschaffen, Rechtskraft
+klären, und prüfen, ob die Entscheidung inzwischen in zweiter Instanz war.
+
+**Werbung in ChatGPT in Deutschland: die Quellen widersprechen sich.** Mehrere deutschsprachige Seiten
+melden, deutsche Nutzerinnen und Nutzer sähen seit dem **15.08.2026** Werbung in der Gratisversion und im
+Tarif ChatGPT Go. Andere Auswertungen sagen für denselben Zeitraum, in Europa sei bislang **nur
+Großbritannien** live und für Deutschland gebe es kein bestätigtes Startdatum, weil die
+Einwilligungsmechanik für personalisierte Werbung in der EU fehlt. t3n schreibt von „Ende August".
+*Geprüft:* nichts davon an der Primärquelle. Die Ankündigungsseite von OpenAI antwortete beim Abruf am
+18.08.2026 mit HTTP 403.
+*Deshalb:* **kein Post, solange das offen ist.** Das ist genau der Fall, für den Markenversprechen zwei
+gemacht ist. Wenn sich der Widerspruch auflösen lässt, ist es ein sehr guter „Betrifft dich"-Post, und
+wenn nicht, ist der Widerspruch selbst die Geschichte.

@@ -34,6 +34,8 @@ OUT_LOGO = REPO / "brand" / "logo"
 # Beide geben ihre Groesse deshalb ausdruecklich am kicker()-Aufruf an.
 OUT_POST12 = REPO / "posts" / "post-012-ki-erwartung-kippt" / "slides"
 OUT_POST14 = REPO / "posts" / "post-014-liebe-und-ki" / "slides"
+OUT_POST15 = REPO / "posts" / "post-015-handykamera-polizeigesetz-sh" / "slides"
+OUT_POST16 = REPO / "posts" / "post-016-sozialgerichte-ki-schriftsaetze" / "slides"
 OUT_STORY = REPO / "brand" / "stories"
 for _d in (OUT_LOGO, OUT_STORY, OUT_POST12, OUT_POST14):
     _d.mkdir(parents=True, exist_ok=True)
@@ -1487,6 +1489,202 @@ def build_post14():
     return slides
 
 
+# ================================================================ POST 15
+def build_post15():
+    """Bauform: Die Rekonstruktion. Ein Blatt je Schritt in der Reihenfolge, in der es
+    passiert ist. Der Befund steckt in der Reihenfolge: Die Autokameras standen im
+    Entwurf vom Maerz nicht drin, sie kamen im Juli ueber einen Aenderungsantrag dazu.
+    Beleg-Panel auf Blatt 04 mit dem woertlichen Satz aus der Gesetzesbegruendung."""
+    T = 6
+    ST = "STAND 18.08.2026"
+    slides = []
+
+    # --- 01 HOOK
+    # Schleswig-Holstein, Auto und Handy stehen in der Schlagzeile selbst, weil im Feed
+    # oft nur dieses Blatt zu sehen ist. Die Fundstelle steht in der Unterzeile.
+    img, d = new(1, T, ST)
+    y = 268
+    fo = f("COND", 84)
+    for line in ["SCHLESWIG-HOLSTEIN", "WILL DEIN AUTO FILMEN", "UND DEIN HANDY SUCHEN"]:
+        d.text((M, y), line, font=fo, fill=INK); y += 100
+    y += 32
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 54
+    block(d, y, "Ein Änderungsantrag vom 6. Juli 2026 fügt ins Polizeigesetz einen "
+                "Paragrafen 184d ein. Wer im Kontrollfenster vorbeifährt, wird "
+                "aufgenommen, und eine Software durchsucht das Bild.",
+          f("BOOK", 46), INK, MAXW - 40, 1.4)
+    slides.append(img)
+
+    # --- 02 Der Entwurf vom Maerz
+    img, d = new(2, T, ST)
+    y = kicker(d, 236, "Im März stand davon nichts drin", size=38)
+    block(d, y, "Am 24. März 2026 legte die Landesregierung ihren Entwurf vor, "
+                "Drucksache 20/4284. Er erlaubt der Polizei Videoüberwachung, deren "
+                "Bilder eine Software automatisch nach Bewegungsmustern durchsucht. "
+                "Er erlaubt außerdem Gesichtserkennung in Echtzeit an öffentlich "
+                "zugänglichen Orten, richterlich genehmigt für höchstens sieben Tage. "
+                "Von Kameras für Autofahrende steht darin kein Wort.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 03 Der Aenderungsantrag vom Juli
+    img, d = new(3, T, ST)
+    y = kicker(d, 236, "Im Juli kam ein Paragraf dazu", size=38)
+    block(d, y, "Gut drei Monate später, am 6. Juli 2026, reichten die Fraktionen von "
+                "CDU und Bündnis 90/Die Grünen im Innen- und Rechtsausschuss einen "
+                "Änderungsantrag ein, Umdruck 20/6786. Die Polizei darf danach "
+                "Fahrzeuge und die Menschen am Steuer aufnehmen, das Kennzeichen "
+                "erfassen und festhalten, wo und wann das Auto in welche Richtung "
+                "fuhr. Die Bilder werden automatisiert auf Muster durchsucht, die auf "
+                "ein Gerät in der Hand hindeuten.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 04 Was "stichprobenweise" heisst (Beleg-Panel)
+    img, d = new(4, T, ST)
+    y = kicker(d, 218, "Stichprobe meint Ort und Uhrzeit", size=38)
+    y = beleg(d, y,
+              "Umdruck 20/6786, Begründung zu § 184d",
+              ['"Nicht verlangt ist eine zusätzliche',
+               'Auswahl einzelner Fahrzeuge innerhalb',
+               'des festgelegten Kontrollfensters."'],
+              sub="Schleswig-Holsteinischer Landtag, 06.07.2026")
+    block(d, y + 40, "Gemeint sind Kontrollort und Kontrollzeitraum. Wer da vorbeifährt, "
+                     "wird aufgenommen. Dieselbe Begründung schreibt, die Maßnahme "
+                     "erstrecke sich auf eine unbestimmte Vielzahl von Personen, die von "
+                     "vornherein keinerlei Anlass gegeben haben.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 05 Verfahrensstand und die fehlende Zahl
+    img, d = new(5, T, ST)
+    y = kicker(d, 236, "Beschlossen ist davon noch nichts", size=38)
+    block(d, y, "Der Änderungsantrag liegt im Innen- und Rechtsausschuss des Landtags. "
+                "Trifft die Software daneben, sollen die Bilder sofort, spurenlos und "
+                "automatisiert gelöscht werden. Wie oft sie danebentrifft, steht "
+                "nirgends. Ich habe die achtundsechzig Seiten zweimal durchsucht, weil "
+                "ich mir sicher war, eine Zahl übersehen zu haben. Es gibt keine.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 06 Quellen
+    img, d = new(6, T, ST)
+    y = kicker(d, 232, "Quellen", size=38)
+    for s_ in ["Landtag Schleswig-Holstein, Drucksache 20/4284 vom 24.03.2026",
+               "Landtag Schleswig-Holstein, Umdruck 20/6786 vom 06.07.2026",
+               "§ 23 Absatz 1a StVO · Verordnung (EU) 2024/1689, Artikel 26"]:
+        caret(d, M + 18, y + 22, 28, 6, RED)
+        yy = y
+        for ln in wrap(d, s_, f("BOOK", 40), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 40), fill=INK); yy += int(40 * 1.4)
+        y = yy + 18
+    y += 8
+    d.line([(M, y), (W - M, y)], fill=RULE, width=2); y += 26
+    y = block(d, y, "Kein Rechtsrat. Beides ist ein Entwurf und nicht beschlossen.",
+              f("BOOK", 36), MUTED, MAXW, 1.4, 20)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar.",
+          f("BOOK", 36), RED, MAXW, 1.4)
+    slides.append(img)
+
+    return slides
+
+
+# ================================================================ POST 16
+def build_post16():
+    """Bauform: Der Fall. Bewusst nicht "Der Widerspruch": Berichterstattung und
+    Jahresbericht widersprechen sich nicht, der Bericht ist nur vorsichtiger. Die
+    Korrektur sitzt deshalb im Inneren des Posts auf Blatt 05. Zwei bebilderte Blaetter,
+    das erlaubte Maximum: Balkenreihe auf 02, Beleg-Panel auf 04."""
+    T = 6
+    ST = "STAND 18.08.2026"
+    slides = []
+
+    # --- 01 HOOK
+    img, d = new(1, T, ST)
+    y = 268
+    fo = f("COND", 84)
+    for line in ["CHATBOTS SCHREIBEN", "JETZT DIE EILANTRÄGE", "GEGEN DAS JOBCENTER"]:
+        d.text((M, y), line, font=fo, fill=INK); y += 100
+    y += 32
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 54
+    block(d, y, "Bei den acht Sozialgerichten in Nordrhein-Westfalen stiegen die "
+                "Eilverfahren 2025 um 55,79 Prozent auf 7.615. Das Gericht nennt "
+                "KI-Schriftsätze als einen Grund von mehreren.",
+          f("BOOK", 46), INK, MAXW - 40, 1.4)
+    slides.append(img)
+
+    # --- 02 Die Zahlen (Balken, lineare Skala)
+    img, d = new(2, T, ST)
+    y = kicker(d, 228, "Von 4.888 auf 7.615 in einem Jahr", size=38)
+    y = balken(d, y, [("Alle Eilverfahren 2024", 4888, "4.888"),
+                      ("Alle Eilverfahren 2025", 7615, "7.615"),
+                      ("davon Grundsicherung 2024", 3129, "3.129"),
+                      ("davon Grundsicherung 2025", 4989, "4.989")])
+    block(d, y + 16, "In der Arbeitslosenversicherung ging es von 160 auf 382 Anträge.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 03 Warum der Eilantrag
+    img, d = new(3, T, ST)
+    y = kicker(d, 236, "Warum überhaupt ein Eilantrag", size=38)
+    block(d, y, "Ein Eilantrag muss schnell entschieden werden. 2025 dauerte er im "
+                "Schnitt 1,3 Monate. Ein normales Klageverfahren dauerte 15,6 Monate. "
+                "Wer auf Geld wartet, für den sind das mehr als vierzehn Monate "
+                "Unterschied. Der Präsident des Landessozialgerichts sagt, die KI "
+                "empfehle meist genau dieses Verfahren.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 04 Was in den Schriftsaetzen steht (Beleg-Panel)
+    img, d = new(4, T, ST)
+    y = kicker(d, 210, "Rechtsprechung, die es so nicht gibt", size=38)
+    y = beleg(d, y,
+              "LSG Nordrhein-Westfalen, Jahresbericht 2025",
+              ['"Diese Schriftsätze sind häufig sehr lang',
+               'und gekennzeichnet von einer Vielzahl oft',
+               'nicht zielführender Anträge und Verweise',
+               'auf Rechtsprechung, die nur zum Teil und',
+               'oft mit anderem Inhalt existiert."'],
+              sub="Herausgeber ist der Präsident, 24.04.2026")
+    block(d, y + 36, "Die Präsidentin des Bundessozialgerichts beschrieb im Februar "
+                     "denselben Prüfaufwand für die ganze Sozialgerichtsbarkeit.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 05 Die Korrektur an der Schlagzeile
+    img, d = new(5, T, ST)
+    y = kicker(d, 236, "Was der Bericht als Ursache nennt", size=38)
+    block(d, y, "In den Schlagzeilen steht die KI-Schwemme. Der Bericht nennt zuerst "
+                "die Konjunktur, weil die Zuwächse vor allem Arbeitslosenversicherung "
+                "und Grundsicherung betreffen. KI-Schriftsätze befördern den "
+                "bundesweiten Trend wesentlich auch, heißt es dort. Wie viele "
+                "Schriftsätze mit KI entstanden, zählt keine Statistik. Ich hatte die "
+                "Meldung zuerst genauso gelesen wie die Schlagzeilen.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 06 Quellen
+    img, d = new(6, T, ST)
+    y = kicker(d, 232, "Quellen", size=38)
+    for s_ in ["LSG Nordrhein-Westfalen, Jahresbericht 2025, vom 24.04.2026",
+               "Bundessozialgericht, Pressemitteilung 4/2026 vom 11.02.2026",
+               "dpa und LTO vom 17.08.2026 zu den Zahlen des ersten Quartals"]:
+        caret(d, M + 18, y + 22, 28, 6, RED)
+        yy = y
+        for ln in wrap(d, s_, f("BOOK", 40), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 40), fill=INK); yy += int(40 * 1.4)
+        y = yy + 18
+    y += 8
+    d.line([(M, y), (W - M, y)], fill=RULE, width=2); y += 26
+    y = block(d, y, "Kein Rechtsrat. Die Quartalszahlen 2026 sind berichtet, nicht belegt.",
+              f("BOOK", 36), MUTED, MAXW, 1.4, 20)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar.",
+          f("BOOK", 36), RED, MAXW, 1.4)
+    slides.append(img)
+
+    return slides
+
+
 # ================================================================ STORIES (1080x1920)
 def build_stories():
     """Story-Slides im Hochformat. Inhalt bleibt in der Sicherheitszone (oben ~260 px für
@@ -1581,8 +1779,12 @@ def save_slides(slides, out_dir):
 # Nur aktive Posts rendern. Post 0/1/2/4/5/6/7/8/9/10/13 sind gepostet und liegen unter archive/.
 n12 = save_slides(build_post12(), OUT_POST12)
 n14 = save_slides(build_post14(), OUT_POST14)
+n15 = save_slides(build_post15(), OUT_POST15)
+n16 = save_slides(build_post16(), OUT_POST16)
 print(f"Post 12: {n12} Blätter -> {OUT_POST12}")
 print(f"Post 14: {n14} Blätter -> {OUT_POST14}")
+print(f"Post 15: {n15} Blätter -> {OUT_POST15}")
+print(f"Post 16: {n16} Blätter -> {OUT_POST16}")
 print(f"Logo    -> {OUT_LOGO}")
 print("(Post 0/1/2/4/5/6/7/8/9/10/13 gepostet & archiviert -> archive/, nicht neu gerendert)")
 
