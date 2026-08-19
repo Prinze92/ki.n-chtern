@@ -45,6 +45,8 @@ Wie wir entscheiden, was wir posten. Reihenfolge: **Idee → Recherche an Primä
 | Werbung in ChatGPT in Deutschland: seit wann eigentlich? | Hype-Check | Quellenlage widersprüchlich, siehe Einzelbefund unten | roh |
 | KI-Schriftsätze überlasten die Sozialgerichte | Hype-Check | LSG NRW, Jahresbericht 2025 (im Volltext gelesen); BSG-PM 4/2026 | verplant → Post 16 |
 | Wer vertritt eigentlich noch im Sozialrecht? | Unbequeme Frage | LSG NRW Jahresbericht 2025 nennt fehlende rechtskundige Vertretung als Erklärung; Gegenstimme der Sozialverbände fehlt noch | roh |
+| Lieferkettengesetz gilt für Datenarbeit, gezählt wird sie nicht | Unbequeme Frage | BT-Drucksache 21/7545 vom 10.08.2026 (Antwort auf Kleine Anfrage 21/7119), im Volltext gelesen | bereit |
+| KI schreibt persönliche Phishing-Mails für drei Cent | Betrifft dich | Czybik u. a., USENIX Security 2026, „A Large-Scale Study of Personalized Phishing using Large Language Models", im Volltext gelesen | bereit |
 
 > Die fünf Ideen oberhalb (Palantir … AI Overview) stammen aus der **Kommentar-Session (Aug 2026)** —
 > externe Aufhänger bei @bundesagenturfuerarbeit, @netzpolitikorg, @zdfheute, @spiegelmagazin, @evolving.ai.
@@ -244,3 +246,67 @@ Einwilligungsmechanik für personalisierte Werbung in der EU fehlt. t3n schreibt
 *Deshalb:* **kein Post, solange das offen ist.** Das ist genau der Fall, für den Markenversprechen zwei
 gemacht ist. Wenn sich der Widerspruch auflösen lässt, ist es ein sehr guter „Betrifft dich"-Post, und
 wenn nicht, ist der Widerspruch selbst die Geschichte.
+
+## Recherchierte Einzelbefunde (Stand 19.08.2026) — beide bereit zum Bauen
+
+Am 19.08.2026 griff die Staukontrolle (vier Posts auf „gerendert"), deshalb wurden diese beiden Themen
+vollständig recherchiert und hier abgelegt statt gebaut. Zahlen und Zitate sind am Original geprüft, ein
+Neubau braucht keine neue Recherche.
+
+**Das Lieferkettengesetz gilt für Datenarbeit. Gezählt wird sie nicht.**
+Primärquelle: Deutscher Bundestag, **Drucksache 21/7545 vom 10.08.2026**, Antwort der Bundesregierung auf
+die Kleine Anfrage 21/7119 der Abgeordneten Anne Zerr, Pascal Meiser, Janine Wissler und der Fraktion Die
+Linke, „Arbeitsbedingungen und psychischer Gesundheitsschutz von Datenarbeiterinnen und Datenarbeitern".
+PDF unter `https://dserver.bundestag.de/btd/21/075/2107545.pdf`, im Volltext gelesen.
+
+Zwei wörtlich geprüfte Stellen, die gegeneinander stehen und die Bauform **„Der Widerspruch"** tragen:
+
+1. „Allgemein liegen in der Datenindustrie die LkSG-Risiken primär im Bereich der Hardware-Lieferkette
+   (z. B. ausbeuterische Arbeitsbedingungen beim Abbau von Rohstoffen) und digitalen Dienstleistungen wie
+   Datenarbeit (z. B. niedrige Löhne, unbezahlte Arbeitszeit, psychische Belastungen)."
+2. „Von den Sozialversicherungsträgern werden nur solche Daten erfasst und übermittelt, die für die
+   Erfüllung und Planung der Aufgaben erforderlich sind. Dies trifft auf Daten über einzelne Tätigkeiten
+   (hier: Datenarbeit) nicht zu. Aus Gründen des Datenschutzes und der Wirtschaftlichkeit ist eine
+   Erhebung dieser Merkmale auch zukünftig nicht beabsichtigt."
+
+Ebenfalls geprüft: Unter den Begriff des Zulieferers fallen laut Antwort auch Subunternehmen, die in einer
+Dienstleistungskette tätig werden. Die Sorgfaltspflichten der CSDDD umfassen ebenfalls digitale
+Dienstleistungen vorgelagerter Geschäftspartner.
+*Aus der Vorbemerkung der Fragesteller, also nicht Aussage der Regierung:* die Weltbank-Schätzung von 150
+bis 430 Millionen Menschen in Online- und Datenarbeit (Datta u. a. 2023) und der Berliner TikTok-Fall 2025
+mit rund 150 entlassenen Beschäftigten der Abteilung „Trust and Safety". **Beim Bauen die Zuschreibung
+mitschreiben**, sonst steht eine Parteiangabe wie eine Regierungsangabe da.
+**TABU-Hinweis:** Dieselbe Vorbemerkung nennt deutsche Auftraggeber „etwa aus der Automobil- und
+Pharmabranche". Diese Aufzählung gehört nicht auf ein Blatt, siehe Tabu in `CLAUDE.md`. Der Befund trägt
+ohne sie.
+*Vor dem Bauen:* Gegenstimme suchen, etwa vom BAFA als Vollzugsbehörde oder von Unternehmensseite.
+
+**KI schreibt persönliche Phishing-Mails für drei Cent, und die Klickrate verdreifacht sich.**
+Primärquelle: Stefan Czybik, Anne Josiane Kouam, Peter Heubl, Jan Magnus Nold, Konrad Rieck: „A
+Large-Scale Study of Personalized Phishing using Large Language Models", **USENIX Security Symposium
+2026**. PDF unter `https://mlsec.tu-berlin.de/docs/2026-sec.pdf`, im Volltext gelesen.
+
+Geprüfte Zahlen, alle aus dem Papier:
+- **7.700 Teilnehmende**, Feldversuch an der **TU Braunschweig** (die Forschenden sitzen an der TU Berlin,
+  bei Inria und an der Ruhr-Universität Bochum; die Presse nennt es deshalb ungenau „TU-Berlin-Studie")
+- Klickrate **10,0 Prozent** bei KI-personalisierten Mails
+- **3,7 Prozent** bei allgemeinen KI-Mails, **4,1 Prozent** bei einer von Hand geschriebenen Standardmail,
+  im Mittel 3,9 Prozent für nicht personalisierte Mails
+- **24,2 Prozent** bei von Hand personalisierten Mails
+- Kosten **rund 0,03 Dollar** je personalisierter Mail
+- Zustellung für **89,5 Prozent** der Mails bestätigt
+- Alle Unterschiede signifikant, p < 10⁻⁵
+- Spamfilter und Sicherheitssystem der Universität markierten **1 von 3.949** Mails
+
+**Wichtige Einschränkung, die in keiner Meldung steht:** Im Studienaufbau steht, der Versandserver sei auf
+die Whitelist des Spamfilters gesetzt worden, damit die Mails zugestellt werden. Ob die Markierungsmessung
+daran vorbeiging, konnte ich nicht klären. **Das ist meine Lesart, nicht die des Papiers.** Solange das
+offen ist, darf „1 von 3.949" nicht als Beleg für Filterversagen auf ein Blatt.
+*Weitere Einordnung fürs Blatt, zwei getrennte Punkte, nicht vermischen:*
+- Die Teilnehmenden erhielten vor dem Versuch ein Briefing über das Phishing-Training. Das Papier schreibt
+  selbst, dass dies eine Verzerrung einführt, weil die Leute dadurch auf Phishing gefasst waren.
+- Das Papier nennt seine Klickraten außerdem eine Untergrenze, das begründet es aber mit etwas anderem:
+  Aus Datenschutzgründen liefen nur lokale, kleine Modelle. Ein Test mit ChatGPT bei Einwilligenden lieferte
+  bessere Profile.
+*Der Kern für einen Post:* Die Nachricht ist der Preis. Menschen bleiben mit 24,2 Prozent mehr als doppelt
+so gut wie die Maschine, aber sie brauchen Minuten statt Sekunden und kosten mehr als drei Cent.
