@@ -40,6 +40,7 @@ Account: **@ki.nuechtern** · Profilname „KI nüchtern — ohne Hype" · Auswe
 | 15 | Schleswig-Holstein will dein Auto filmen und dein Handy suchen | Betrifft dich | **gepostet (19.08.)** | 6 |
 | 16 | Chatbots schreiben jetzt die Eilanträge gegen das Jobcenter | Hype-Check | **gepostet (19.08.)** | 6 |
 | 17 | Eine KI schreibt dir eine Phishing-Mail für drei Cent | Betrifft dich | gerendert | 6 |
+| 18 | GPT schiebt dir das bezahlte Produkt dazwischen | Betrifft dich | gerendert | 6 |
 
 - **Intro (000):** **live am 11.08.2026** (Rhythmus-Folie weggelassen, Caption angepasst). Archiv = Repo-Stand, so übernommen. Anker für Highlight „Start".
 - **Post 4:** Art. 50 gilt seit 02.08.2026; am Artikeltext (EN + DE) gegengelesen. **Live** (Datum vorläufig 11.08., bestätigen). Nach ~7 Tagen Kennzahlen nachtragen.

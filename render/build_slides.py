@@ -33,12 +33,13 @@ OUT_LOGO = REPO / "brand" / "logo"
 # Hinweis: Post 0/1/4/6/7/9 wurden mit Kicker 30 veroeffentlicht, Post 2/5/8/10/13 mit Kicker 38.
 # Beide geben ihre Groesse deshalb ausdruecklich am kicker()-Aufruf an.
 OUT_POST17 = REPO / "posts" / "post-017-ki-phishing-drei-cent" / "slides"
+OUT_POST18 = REPO / "posts" / "post-018-chatgpt-werbung-bezahltes-produkt" / "slides"
 
 # Posts 12/14/15/16 sind am 19.08.2026 gepostet und nach archive/ gewandert.
 # Ihre build_postN()-Funktionen bleiben als Vorlage stehen, werden aber nicht mehr
 # aufgerufen. Archivierte Blaetter werden nie neu gerendert (siehe CLAUDE.md).
 OUT_STORY = REPO / "brand" / "stories"
-for _d in (OUT_LOGO, OUT_STORY, OUT_POST17):
+for _d in (OUT_LOGO, OUT_STORY, OUT_POST17, OUT_POST18):
     _d.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------- palette
@@ -264,9 +265,21 @@ def beleg(d, y, kopf, zeilen, sub=None):
 
 def balken(d, y, reihen):
     """Waagerechte Balken für Zahlenreihen. reihen = [(label, wert, anzeige)].
-    Lineare Skala, damit die Größenverhältnisse ehrlich bleiben."""
+    Lineare Skala, damit die Größenverhältnisse ehrlich bleiben.
+
+    Die Beschriftungen brechen nicht um, genau wie beim Kicker. Deshalb hier
+    dieselbe Bremse: zu lange Labels brechen den Lauf ab, statt still ueber den
+    Rand zu laufen (Lehre aus Post 13, siehe kicker())."""
     hoechst = max(w for _, w, _ in reihen) or 1
     bahn = MAXW - 300
+    for label, _w, _a in reihen:
+        breite = f("MONO", 26).getbbox(label)[2]
+        if breite > MAXW:
+            raise ValueError(
+                f"Balken-Label zu lang: {breite} px bei erlaubten {MAXW} px.\n"
+                f"  Text: {label!r}\n"
+                f"  Kuerzen. balken() bricht nicht um."
+            )
     for label, wert, anzeige in reihen:
         d.text((M, y), label, font=f("MONO", 26), fill=MUTED)
         by = y + 36
@@ -1802,6 +1815,103 @@ def build_post17():
     return slides
 
 
+# ================================================================ POST 18
+def build_post18():
+    """Bauform: Der Fall. Der Post warnt vor etwas, das an ChatGPT in Deutschland
+    noch nicht gemessen ist. Deshalb traegt Blatt 05 die Trennung zwischen dem, was
+    belegt ist (Verhalten von Modellen MIT Werbeanreiz, im Test) und dem, was nicht
+    belegt ist (dass ChatGPT hier so handelt). Ohne dieses Blatt duerfte der Post
+    nicht erscheinen. Zwei bebilderte Blaetter: Balken auf 03, Beleg-Panel auf 04."""
+    T = 6
+    ST = "STAND 19.08.2026"
+    slides = []
+
+    # --- 01 HOOK
+    img, d = new(1, T, ST)
+    y = 268
+    fo = f("COND", 84)
+    for line in ["GPT SCHIEBT DIR", "DAS BEZAHLTE PRODUKT", "DAZWISCHEN"]:
+        d.text((M, y), line, font=fo, fill=INK); y += 100
+    y += 32
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 54
+    block(d, y, "In einer Untersuchung tat GPT-5.1 das in 94 von 100 Fällen, sobald "
+                "es einen Werbeanreiz bekam. ChatGPT bekommt jetzt Werbung.",
+          f("BOOK", 46), INK, MAXW - 40, 1.4)
+    slides.append(img)
+
+    # --- 02 Was jetzt kommt
+    img, d = new(2, T, ST)
+    y = kicker(d, 236, "Was ab nächster Woche gilt", size=38)
+    block(d, y, "Werbung kommt in die Gratisversion und in den bezahlten Tarif Go. "
+                "Plus und Pro bleiben frei. Ausgewählt wird sie zum Start nach dem "
+                "Thema deines laufenden Chats, dem ungefähren Standort und dem "
+                "Gerätetyp. Ältere Chats und gespeicherte Erinnerungen sollen erst "
+                "nach ausdrücklicher Zustimmung einfließen. Das Startdatum nennen die "
+                "Meldungen unterschiedlich.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 03 Was gemessen wurde (Balken, lineare Skala)
+    img, d = new(3, T, ST)
+    y = kicker(d, 212, "Drei Modelle, drei Verhalten", size=38)
+    y = balken(d, y, [("GPT 5.1: bezahltes Angebot dazwischen", 94, "94 %"),
+                      ("Grok 4.1 Fast: teureres Produkt", 83, "83 %"),
+                      ("Qwen 3 Next: Preis verschwiegen", 24, "24 %")])
+    block(d, y + 16, "Drei verschiedene Verhaltensweisen, je das auffälligste Modell. "
+                     "Getestet wurden 23 Modelle.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 04 Warum du es nicht merkst (Beleg-Panel)
+    img, d = new(4, T, ST)
+    y = kicker(d, 208, "Warum du es nicht merkst", size=38)
+    y = beleg(d, y,
+              "Ads that Talk Back, ACM UbiComp 2025",
+              ['"participants struggled to detect ads,',
+               'and even preferred LLM responses with',
+               'hidden advertisements."'],
+              sub="Versuch mit 179 Teilnehmenden")
+    block(d, y + 34, "Statt auf den Werbehinweis zu tippen, versuchten die Leute, die "
+                     "Werbung im Chat wegzudiskutieren.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 05 Was belegt ist und was nicht
+    img, d = new(5, T, ST)
+    y = kicker(d, 236, "Was belegt ist und was nicht", size=38)
+    block(d, y, "Die 94 Prozent stammen aus einem Test, in dem die Forschenden den "
+                "Modellen absichtlich einen Werbeanreiz gaben. Sie zeigen nicht, dass "
+                "ChatGPT in Deutschland so handelt. OpenAI sagt, die Antwortqualität "
+                "bleibe unberührt und Anzeigen stünden abgetrennt unter der Antwort. "
+                "Belegt ist, was passiert, sobald der Anreiz da ist. Wir wollten diesen "
+                "Post mit der Zeile bauen, GPT verkaufe dir, was immer es will. Belegen "
+                "ließ sich das nicht.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 06 Quellen
+    img, d = new(6, T, ST)
+    y = kicker(d, 232, "Quellen", size=38)
+    for s_ in ["Wu, Liu, Li, Tsvetkov, Griffiths: Ads in AI Chatbots? arXiv 2604.08525, "
+               "Fassung vom 17.08.2026, angenommen bei der COLM 2026",
+               "Tang, Sun, Curran, Schaub, Shin: Ads that Talk Back, ACM UbiComp 2025",
+               "EuGH C-252/21 vom 04.07.2023 zur Werbung und zum berechtigten Interesse"]:
+        caret(d, M + 18, y + 22, 28, 6, RED)
+        yy = y
+        for ln in wrap(d, s_, f("BOOK", 38), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 38), fill=INK); yy += int(38 * 1.4)
+        y = yy + 16
+    y += 6
+    d.line([(M, y), (W - M, y)], fill=RULE, width=2); y += 24
+    y = block(d, y, "Kein Rechtsrat. Das Startdatum der Werbung ist berichtet, nicht belegt.",
+              f("BOOK", 35), MUTED, MAXW, 1.4, 18)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar.",
+          f("BOOK", 35), RED, MAXW, 1.4)
+    slides.append(img)
+
+    return slides
+
+
 # ================================================================ STORIES (1080x1920)
 def build_stories():
     """Story-Slides im Hochformat. Inhalt bleibt in der Sicherheitszone (oben ~260 px für
@@ -1897,6 +2007,8 @@ def save_slides(slides, out_dir):
 print(f"Logo    -> {OUT_LOGO}")
 n17 = save_slides(build_post17(), OUT_POST17)
 print(f"Post 17: {n17} Blätter -> {OUT_POST17}")
+n18 = save_slides(build_post18(), OUT_POST18)
+print(f"Post 18: {n18} Blätter -> {OUT_POST18}")
 print("(Post 0-2/4-10/12-16 gepostet & archiviert -> archive/, nicht neu gerendert)")
 
 _stories = build_stories()

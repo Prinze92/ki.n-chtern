@@ -349,7 +349,11 @@ OpenAI-Blogeintrag ist aus dieser Umgebung nicht erreichbar, openai.com antworte
 HTTP 403. Das im Post offenlegen, statt es zu verschweigen.
 
 **Werbung in ChatGPT startet in Deutschland.**
-Status: **berichtet, nicht belastbar.** Nicht bauen, solange der Widerspruch offen ist.
+**VERPLANT: am 19.08.2026 als Post 18 gebaut** (`posts/post-018-chatgpt-werbung-bezahltes-produkt/`).
+Der Produktteil bleibt berichtet und steht deshalb ohne Datum und ohne Preis auf Blatt 02. Getragen
+wird der Post stattdessen von zwei begutachteten Untersuchungen zum Verhalten von Chatbots mit
+Werbeanreiz (COLM 2026 und ACM UbiComp 2025). Die Notiz unten bleibt als Vorrat stehen.
+Status des Produktteils: **berichtet, nicht belastbar.**
 Die dpa-Meldung vom 19.08.2026 (Handelsblatt, WiWo und viele Regionalzeitungen, alle derselbe Text)
 nennt Montag, den 24.08.2026, und 31 europäische Märkte einschließlich Deutschland. Andere Fachdienste
 schreiben unverändert „Ende August" ohne Datum. Auch der Preis des Tarifs ChatGPT Go geht auseinander,
