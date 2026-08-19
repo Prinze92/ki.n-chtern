@@ -282,6 +282,9 @@ ohne sie.
 *Vor dem Bauen:* Gegenstimme suchen, etwa vom BAFA als Vollzugsbehörde oder von Unternehmensseite.
 
 **KI schreibt persönliche Phishing-Mails für drei Cent, und die Klickrate verdreifacht sich.**
+**VERPLANT: am 19.08.2026 als Post 17 gebaut** (`posts/post-017-ki-phishing-drei-cent/`), Bauform
+„Der Widerspruch". Die Whitelist-Frage aus dieser Notiz hat sich beim Nachlesen bestätigt und trägt
+jetzt Blatt 04. Die Einordnung unten bleibt als Vorrat für Antworten in den Kommentaren stehen.
 Primärquelle: Stefan Czybik, Anne Josiane Kouam, Peter Heubl, Jan Magnus Nold, Konrad Rieck: „A
 Large-Scale Study of Personalized Phishing using Large Language Models", **USENIX Security Symposium
 2026**. PDF unter `https://mlsec.tu-berlin.de/docs/2026-sec.pdf`, im Volltext gelesen.

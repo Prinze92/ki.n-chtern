@@ -32,11 +32,13 @@ OUT_LOGO = REPO / "brand" / "logo"
 # wiederherstellbar ueber die Git-Historie (wie seinerzeit Post 3).
 # Hinweis: Post 0/1/4/6/7/9 wurden mit Kicker 30 veroeffentlicht, Post 2/5/8/10/13 mit Kicker 38.
 # Beide geben ihre Groesse deshalb ausdruecklich am kicker()-Aufruf an.
+OUT_POST17 = REPO / "posts" / "post-017-ki-phishing-drei-cent" / "slides"
+
 # Posts 12/14/15/16 sind am 19.08.2026 gepostet und nach archive/ gewandert.
 # Ihre build_postN()-Funktionen bleiben als Vorlage stehen, werden aber nicht mehr
 # aufgerufen. Archivierte Blaetter werden nie neu gerendert (siehe CLAUDE.md).
 OUT_STORY = REPO / "brand" / "stories"
-for _d in (OUT_LOGO, OUT_STORY):
+for _d in (OUT_LOGO, OUT_STORY, OUT_POST17):
     _d.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------- palette
@@ -1696,6 +1698,110 @@ def build_post16():
     return slides
 
 
+# ================================================================ POST 17
+def build_post17():
+    """Bauform: Der Widerspruch. Die beiden Beleg-Panels auf Blatt 04 stammen aus
+    DERSELBEN Studie und stehen gegeneinander: Abschnitt 7.2 nennt die Filterquote als
+    Beleg dafuer, dass Erkennung schwer ist, waehrend der Studienaufbau sagt, der
+    Versandserver sei auf die Whitelist gesetzt worden, damit nichts markiert wird.
+    Beide Zitate im Wortlaut am PDF geprueft. Wir loesen den Widerspruch nicht auf,
+    das steht so auf Blatt 04 und auf dem Quellenblatt.
+    Zwei bebilderte Blaetter, das erlaubte Maximum: Balken auf 02, zwei Panels auf 04."""
+    T = 6
+    ST = "STAND 19.08.2026"
+    slides = []
+
+    # --- 01 HOOK
+    img, d = new(1, T, ST)
+    y = 268
+    fo = f("COND", 84)
+    for line in ["EINE KI SCHREIBT DIR", "EINE PHISHING-MAIL", "FÜR DREI CENT"]:
+        d.text((M, y), line, font=fo, fill=INK); y += 100
+    y += 32
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 54
+    block(d, y, "Bei einem Feldversuch mit 7.700 Beschäftigten der TU Braunschweig "
+                "klickten 10 von 100. Auf Massenmails ohne Zuschnitt fielen knapp "
+                "4 von 100 herein.",
+          f("BOOK", 46), INK, MAXW - 40, 1.4)
+    slides.append(img)
+
+    # --- 02 Die Zahlen (Balken, lineare Skala)
+    img, d = new(2, T, ST)
+    y = kicker(d, 228, "Zehn von hundert haben geklickt", size=38)
+    y = balken(d, y, [("Massenmail, von Hand geschrieben", 41, "4,1 %"),
+                      ("Massenmail, von der KI", 37, "3,7 %"),
+                      ("Von der KI auf dich zugeschnitten", 100, "10,0 %"),
+                      ("Von Hand auf dich zugeschnitten", 242, "24,2 %")])
+    block(d, y + 16, "Der Mensch bleibt der bessere Betrüger. Er braucht dafür Minuten.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 03 Der Preis
+    img, d = new(3, T, ST)
+    y = kicker(d, 236, "Der Preis ist die Nachricht", size=38)
+    block(d, y, "Von Hand zugeschnittene Mails wirken mehr als doppelt so gut wie die "
+                "der Maschine. Nur kostet jede davon Recherche und Zeit. Die KI kam auf "
+                "drei US-Cent pro Mail. Für alle 3.310 Personen, über die im Netz genug "
+                "zu finden war, brauchten die Forschenden 150 Dollar. Das ist der Punkt: "
+                "Nicht die bessere Mail ist neu, sondern der Preis.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 04 Der Widerspruch: zwei Panels aus derselben Studie
+    img, d = new(4, T, ST)
+    y = kicker(d, 196, "Zwei Sätze, eine Studie", size=38)
+    y = beleg(d, y,
+              "Abschnitt 7.2, Erkennung",
+              ['"flagged only 1 out of 3 949 emails',
+               'when exposed to our attacks."'])
+    y = block(d, y + 26, "Im Studienaufbau steht aber:",
+              f("BOOK", 40), MUTED, MAXW, 1.4, 14)
+    y = beleg(d, y,
+              "Abschnitt 5.3, Ablauf",
+              ['"the sending server is placed on the',
+               'spam filter\'s whitelist, ensuring that',
+               'no emails are flagged during delivery."'])
+    block(d, y + 44, "Ob die Zahl an der Whitelist vorbeigemessen wurde, sagt das "
+                     "Papier nicht.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 05 Was die Studie selbst einschraenkt
+    img, d = new(5, T, ST)
+    y = kicker(d, 236, "Was die Studie selbst einschränkt", size=38)
+    block(d, y, "Alle Teilnehmenden wurden vorher über das Phishing-Training informiert. "
+                "Das Papier schreibt selbst, dass die Leute dadurch auf Phishing gefasst "
+                "waren. Gerechnet wurde außerdem nur mit kleinen Modellen auf eigenen "
+                "Rechnern, deshalb nennen die Forschenden ihre Zahlen eine Untergrenze. "
+                "In unseren Notizen stand die Whitelist als offene Frage. Nachgelesen "
+                "haben wir sie erst heute.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 06 Quellen
+    img, d = new(6, T, ST)
+    y = kicker(d, 232, "Quellen", size=38)
+    for s_ in ["Czybik, Kouam, Heubl, Nold, Rieck: A Large-Scale Study of "
+               "Personalized Phishing using Large Language Models",
+               "USENIX Security Symposium 2026, PDF im Volltext gelesen",
+               "Versuch an der TU Braunschweig, Forschende an TU Berlin, Inria "
+               "und Ruhr-Universität Bochum"]:
+        caret(d, M + 18, y + 22, 28, 6, RED)
+        yy = y
+        for ln in wrap(d, s_, f("BOOK", 40), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 40), fill=INK); yy += int(40 * 1.4)
+        y = yy + 18
+    y += 8
+    d.line([(M, y), (W - M, y)], fill=RULE, width=2); y += 26
+    y = block(d, y, "Kein Rechtsrat. Den Widerspruch auf Blatt 04 konnten wir nicht auflösen.",
+              f("BOOK", 36), MUTED, MAXW, 1.4, 20)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar.",
+          f("BOOK", 36), RED, MAXW, 1.4)
+    slides.append(img)
+
+    return slides
+
+
 # ================================================================ STORIES (1080x1920)
 def build_stories():
     """Story-Slides im Hochformat. Inhalt bleibt in der Sicherheitszone (oben ~260 px für
@@ -1789,6 +1895,8 @@ def save_slides(slides, out_dir):
 
 # Nur aktive Posts rendern. Post 0/1/2/4/5/6/7/8/9/10/13 sind gepostet und liegen unter archive/.
 print(f"Logo    -> {OUT_LOGO}")
+n17 = save_slides(build_post17(), OUT_POST17)
+print(f"Post 17: {n17} Blätter -> {OUT_POST17}")
 print("(Post 0-2/4-10/12-16 gepostet & archiviert -> archive/, nicht neu gerendert)")
 
 _stories = build_stories()

@@ -354,3 +354,29 @@ posts:
       sends: null
       sends_per_reach: null
       saves: null
+
+  - id: 17
+    slug: ki-phishing-drei-cent
+    ordner: post-017-ki-phishing-drei-cent
+    titel: "Eine KI schreibt dir eine Phishing-Mail für drei Cent"
+    saeule: betrifft_dich
+    bauform: widerspruch
+    status: gerendert          # 6 Blaetter (Stand 19.08.2026); USENIX-Papier als PDF im Volltext gelesen, alle Zahlen und beide Zitate am Original geprueft
+    blaetter: 6
+    geplant_fuer: aktuell
+    gepostet_am: null
+    offen:
+      - "KERN DES POSTS: Der Widerspruch auf Blatt 04 ist nicht aufgeloest. Abschnitt 7.2 nennt '1 von 3.949 markiert' als Beleg fuer schwere Erkennung, Abschnitt 5.3 sagt, der Versandserver stand auf der Whitelist des Spamfilters. Das Papier klaert es nicht, wir auch nicht. Deshalb steht die Zahl als Zitat, nie als Befund"
+      - "Anfrage an die Erstautorenschaft offen: wie wurde die Markierung gemessen"
+      - "Keine Gegenstimme eingeholt, zu dieser Studie liegt uns keine fachliche Kritik vor"
+      - "Rundungsabweichung im Papier selbst: Generic (LLM) steht in Tabelle 2 mit 3,7 Prozent, im Anhang mit 3,8 Prozent, rechnerisch 3,746. Post nimmt die Haupttabelle"
+      - "Uebertragbarkeit offen: Versuch lief unter Hochschulbeschaeftigten, Aussage fuer andere Gruppen nicht belegt"
+      - "Presse schreibt verbreitet 'TU-Berlin-Studie'. Versuch lief an der TU Braunschweig. Auf Blatt 06 richtig gestellt"
+      - "Vorversuch mit ChatGPT (bessere Profile als lokale Modelle) bewusst draussen, waere ein eigener Post"
+      - "Caption und Alt-Text vor dem Absetzen gegenlesen"
+      - "Nach ~7 Tagen Kennzahlen (reach/sends/saves) aus Insights nachtragen"
+    kennzahlen:
+      reach: null
+      sends: null
+      sends_per_reach: null
+      saves: null
