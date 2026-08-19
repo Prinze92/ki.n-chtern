@@ -32,12 +32,11 @@ OUT_LOGO = REPO / "brand" / "logo"
 # wiederherstellbar ueber die Git-Historie (wie seinerzeit Post 3).
 # Hinweis: Post 0/1/4/6/7/9 wurden mit Kicker 30 veroeffentlicht, Post 2/5/8/10/13 mit Kicker 38.
 # Beide geben ihre Groesse deshalb ausdruecklich am kicker()-Aufruf an.
-OUT_POST12 = REPO / "posts" / "post-012-ki-erwartung-kippt" / "slides"
-OUT_POST14 = REPO / "posts" / "post-014-liebe-und-ki" / "slides"
-OUT_POST15 = REPO / "posts" / "post-015-handykamera-polizeigesetz-sh" / "slides"
-OUT_POST16 = REPO / "posts" / "post-016-sozialgerichte-ki-schriftsaetze" / "slides"
+# Posts 12/14/15/16 sind am 19.08.2026 gepostet und nach archive/ gewandert.
+# Ihre build_postN()-Funktionen bleiben als Vorlage stehen, werden aber nicht mehr
+# aufgerufen. Archivierte Blaetter werden nie neu gerendert (siehe CLAUDE.md).
 OUT_STORY = REPO / "brand" / "stories"
-for _d in (OUT_LOGO, OUT_STORY, OUT_POST12, OUT_POST14):
+for _d in (OUT_LOGO, OUT_STORY):
     _d.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------- palette
@@ -1789,16 +1788,8 @@ def save_slides(slides, out_dir):
 
 
 # Nur aktive Posts rendern. Post 0/1/2/4/5/6/7/8/9/10/13 sind gepostet und liegen unter archive/.
-n12 = save_slides(build_post12(), OUT_POST12)
-n14 = save_slides(build_post14(), OUT_POST14)
-n15 = save_slides(build_post15(), OUT_POST15)
-n16 = save_slides(build_post16(), OUT_POST16)
-print(f"Post 12: {n12} Blätter -> {OUT_POST12}")
-print(f"Post 14: {n14} Blätter -> {OUT_POST14}")
-print(f"Post 15: {n15} Blätter -> {OUT_POST15}")
-print(f"Post 16: {n16} Blätter -> {OUT_POST16}")
 print(f"Logo    -> {OUT_LOGO}")
-print("(Post 0/1/2/4/5/6/7/8/9/10/13 gepostet & archiviert -> archive/, nicht neu gerendert)")
+print("(Post 0-2/4-10/12-16 gepostet & archiviert -> archive/, nicht neu gerendert)")
 
 _stories = build_stories()
 for _name, _im in _stories:

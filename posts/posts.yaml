@@ -243,10 +243,10 @@ posts:
     titel: "AppLovin wuchs um 53 Prozent und verlor die Hälfte"
     saeule: hype_check
     bauform: der_fall
-    status: gerendert          # 6 Blätter (15.08.2026); Ausgangsthese beim Recherchieren korrigiert
+    status: gepostet           # 6 Blätter (15.08.2026); Ausgangsthese beim Recherchieren korrigiert; live am 19.08.2026
     blaetter: 6
     geplant_fuer: aktuell
-    gepostet_am: null
+    gepostet_am: 2026-08-19
     offen:
       - "Transkript der AppLovin-Telefonkonferenz im Original lesen, Management-Aussage bisher nur aus Berichten darueber"
       - "MSCI-Konzentration am Factsheet mit Stichtag gegenpruefen"
@@ -288,10 +288,10 @@ posts:
     titel: "Wenn du mit deiner KI Schluss machst, lässt sie dich nicht gehen"
     saeule: betrifft_dich
     bauform: kassensturz          # NEUE Bauform, noch nicht in CLAUDE.md aufgenommen
-    status: gerendert          # 6 Blätter (Stand 17.08.2026); Harvard-Abstract im PDF selbst gelesen
+    status: gepostet           # 6 Blätter (Stand 17.08.2026); Harvard-Abstract im PDF selbst gelesen; live am 19.08.2026
     blaetter: 6
     geplant_fuer: aktuell
-    gepostet_am: null
+    gepostet_am: 2026-08-19
     offen:
       - "Harvard-Papier ist ein Arbeitspapier ohne abgeschlossene Begutachtung; auf Veroeffentlichung pruefen"
       - "OpenAI/MIT-Studie nur aus den Zusammenfassungen beider Haeuser, nicht im Volltext gelesen"
@@ -313,10 +313,10 @@ posts:
     titel: "Schleswig-Holstein will dein Auto filmen und dein Handy suchen"
     saeule: betrifft_dich
     bauform: rekonstruktion
-    status: gerendert          # 6 Blaetter (Stand 18.08.2026); beide Landtagsdokumente im Volltext gelesen
+    status: gepostet           # 6 Blaetter (Stand 18.08.2026); beide Landtagsdokumente im Volltext gelesen; live am 19.08.2026
     blaetter: 6
     geplant_fuer: aktuell
-    gepostet_am: null
+    gepostet_am: 2026-08-19
     offen:
       - "Vor dem Posten pruefen, ob der Innen- und Rechtsausschuss inzwischen beschlossen hat. Der Entwurfsstand veraltet mit der Abstimmung"
       - "Dass der Antrag am 18.08.2026 noch im Ausschuss liegt, stuetzt sich auf netzpolitik.org vom 17.08.2026 (Einzelquelle)"
@@ -337,10 +337,10 @@ posts:
     titel: "Chatbots schreiben jetzt die Eilanträge gegen das Jobcenter"
     saeule: hype_check
     bauform: der_fall
-    status: gerendert          # 6 Blaetter (Stand 18.08.2026); LSG-NRW-Jahresbericht 2025 im Volltext gelesen
+    status: gepostet           # 6 Blaetter (Stand 18.08.2026); LSG-NRW-Jahresbericht 2025 im Volltext gelesen; live am 19.08.2026
     blaetter: 6
     geplant_fuer: aktuell
-    gepostet_am: null
+    gepostet_am: 2026-08-19
     offen:
       - "Der Kausalzusammenhang ist eine Einschaetzung des Gerichts ('wesentlich auch'), keine Messung. Wichtigste Einschraenkung des Posts"
       - "Niemand zaehlt KI-Schriftsaetze. Jede Prozentangabe zum KI-Anteil ist unbelegt, egal von wem"

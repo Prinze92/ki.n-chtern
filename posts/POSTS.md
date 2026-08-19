@@ -34,11 +34,11 @@ Account: **@ki.nuechtern** · Profilname „KI nüchtern — ohne Hype" · Auswe
 | 9 | Polizisten spielen Schläge vor, damit die Kamera lernt | Unbequeme Frage | **gepostet (14.08.)** | 6 |
 | 10 | Metas KI-Brille sieht, was du siehst | Betrifft dich | **gepostet (14.08.)** | 6 |
 | 11 | 58 Prozent nutzen KI, sagten wir. Richtiger wären 34 | Meta (Korrektur) | verworfen (16.08.) | 6 |
-| 12 | AppLovin wuchs um 53 Prozent und verlor die Hälfte | Hype-Check | gerendert | 6 |
+| 12 | AppLovin wuchs um 53 Prozent und verlor die Hälfte | Hype-Check | **gepostet (19.08.)** | 6 |
 | 13 | Lidls Eigentümer baut ein KI-Rechenzentrum für 11 Milliarden Euro | Fall der Woche | **gepostet (16.08.)** | 6 |
-| 14 | Wenn du mit deiner KI Schluss machst, lässt sie dich nicht gehen | Betrifft dich | gerendert | 6 |
-| 15 | Schleswig-Holstein will dein Auto filmen und dein Handy suchen | Betrifft dich | gerendert | 6 |
-| 16 | Chatbots schreiben jetzt die Eilanträge gegen das Jobcenter | Hype-Check | gerendert | 6 |
+| 14 | Wenn du mit deiner KI Schluss machst, lässt sie dich nicht gehen | Betrifft dich | **gepostet (19.08.)** | 6 |
+| 15 | Schleswig-Holstein will dein Auto filmen und dein Handy suchen | Betrifft dich | **gepostet (19.08.)** | 6 |
+| 16 | Chatbots schreiben jetzt die Eilanträge gegen das Jobcenter | Hype-Check | **gepostet (19.08.)** | 6 |
 
 - **Intro (000):** **live am 11.08.2026** (Rhythmus-Folie weggelassen, Caption angepasst). Archiv = Repo-Stand, so übernommen. Anker für Highlight „Start".
 - **Post 4:** Art. 50 gilt seit 02.08.2026; am Artikeltext (EN + DE) gegengelesen. **Live** (Datum vorläufig 11.08., bestätigen). Nach ~7 Tagen Kennzahlen nachtragen.
