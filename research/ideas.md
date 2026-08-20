@@ -464,3 +464,44 @@ Diese Aufzählung gehört nicht auf ein Blatt, siehe Tabu in `CLAUDE.md`. Der Be
   nicht am Gesetzestext geprüft. Vor einem Neuanlauf klären, ob sich am Zuliefererbegriff etwas ändert.
 - Blatt 05 des verworfenen Posts nannte einen Weg (Transparenzberichte), lieferte aber kein Ergebnis. Ein
   Neuanlauf sollte eine konkrete Zahl aus einem Bericht mitbringen.
+
+## Kommentar vom 20.08.2026 zu @lanzundprecht (ZDF), „Werden wir durch KI dümmer?"
+
+**Was der Post fragt:** „Müssen wir unser Bildungssystem revolutionieren, um nicht langfristig dümmer zu
+werden?" Die Caption behauptet, neueste Studien zeigten, dass die Denkleistung bei KI-Nutzung deutlich
+abnimmt. Blatt 4 nennt eine MIT-Studie, nach der Gehirne von Chatbot-Nutzern weniger aktiv seien.
+
+**Geprüft an der Primärquelle:** Kosmyna u. a., „Your Brain on ChatGPT: Accumulation of Cognitive Debt
+when Using an AI Assistant for Essay Writing Task", MIT Media Lab, Projektseite
+`https://www.media.mit.edu/projects/your-brain-on-chatgpt/overview/`.
+- **54 Teilnehmende** in den Sitzungen 1 bis 3, in Sitzung 4 nur noch **18**.
+- **Nicht begutachtet.** Die Projektseite bezeichnet das Preprint selbst als noch nicht begutachtet und
+  bittet, alle Schlüsse als vorläufig zu behandeln.
+- Die Projektseite bittet Medien **ausdrücklich**, diese Wörter nicht zu verwenden: „stupid", „dumb",
+  „brain rot", „harm", „damage", „brain damage", außerdem Formulierungen wie „LLMs make you stop
+  thinking".
+- Befund der Studie: Die Gruppe ohne Werkzeug zeigte die stärksten EEG-Netzwerke, die Suchmaschinengruppe
+  mittlere, die LLM-Gruppe die schwächste Konnektivität. Die LLM-Gruppe berichtete das geringste
+  Eigentumsgefühl am Text und konnte den eigenen Aufsatz am schlechtesten zitieren.
+
+**Der Kommentar (370 Zeichen):**
+
+> Ob wir das Bildungssystem umbauen müssen, ist eine Wertfrage. Belegbar ist etwas Engeres: Die
+> MIT-Studie dahinter hat 54 Leute beim Aufsatzschreiben untersucht, ist nicht begutachtet, und das Team
+> bittet auf seiner Projektseite ausdrücklich darum, Wörter wie dumm oder brain rot wegzulassen. Ihr
+> Befund war, dass die Chatbot-Gruppe den eigenen Text kaum zitieren konnte.
+
+**Ungeprüft geblieben, deshalb nicht im Kommentar:**
+- Die TÜV-Verband-KI-Studie 2025 vom 26.11.2025 (65 Prozent haben generative KI genutzt, 45 Prozent
+  täglich oder mehrmals pro Woche). Nur vom Blatt abgelesen, nicht an der Studie geprüft.
+- Michael Gerlich, Swiss Business School, zur Aussage „Je häufiger man KI nutzt, desto weniger
+  hinterfragt man die Ergebnisse". Nicht gelesen.
+- Initiative D21, Digital-Index 2024/25 (81, 57 und 51 Prozent). Nicht geprüft.
+
+**Was daraus ein eigener Post werden könnte:** Der Kommentar setzt einen Punkt und lässt die Frage offen.
+Der Post dazu läge im Zusammenspiel mit dem schon recherchierten Befund von Microsoft Research und
+Carnegie Mellon (CHI 2025, 319 Berufstätige, 936 Arbeitsbeispiele, siehe oben): Höheres Vertrauen in die
+KI ging mit weniger kritischem Denken einher, höheres Vertrauen in die **eigenen** Fähigkeiten mit mehr.
+Das ist die belegbare Antwort auf die Bildungsfrage und ist etwas anderes als „KI macht dumm". Vor dem
+Bauen: die CHI-Arbeit im Volltext lesen, die MIT-Studie ebenfalls, und den Widerspruch zwischen
+Selbstauskunft (CHI) und Messung (EEG) offen benennen.
