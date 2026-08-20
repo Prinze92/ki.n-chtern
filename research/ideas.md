@@ -45,7 +45,7 @@ Wie wir entscheiden, was wir posten. Reihenfolge: **Idee → Recherche an Primä
 | Werbung in ChatGPT in Deutschland: seit wann eigentlich? | Hype-Check | Quellenlage widersprüchlich, siehe Einzelbefund unten | roh |
 | KI-Schriftsätze überlasten die Sozialgerichte | Hype-Check | LSG NRW, Jahresbericht 2025 (im Volltext gelesen); BSG-PM 4/2026 | verplant → Post 16 |
 | Wer vertritt eigentlich noch im Sozialrecht? | Unbequeme Frage | LSG NRW Jahresbericht 2025 nennt fehlende rechtskundige Vertretung als Erklärung; Gegenstimme der Sozialverbände fehlt noch | roh |
-| Lieferkettengesetz gilt für Datenarbeit, gezählt wird sie nicht | Unbequeme Frage | BT-Drucksache 21/7545 vom 10.08.2026 (Antwort auf Kleine Anfrage 21/7119), im Volltext gelesen | bereit |
+| Lieferkettengesetz gilt für Datenarbeit, gezählt wird sie nicht | Unbequeme Frage | BT-Drucksache 21/7545 vom 10.08.2026 (Antwort auf Kleine Anfrage 21/7119), im Volltext gelesen | verplant → Post 19 |
 | KI schreibt persönliche Phishing-Mails für drei Cent | Betrifft dich | Czybik u. a., USENIX Security 2026, „A Large-Scale Study of Personalized Phishing using Large Language Models", im Volltext gelesen | bereit |
 
 > Die fünf Ideen oberhalb (Palantir … AI Overview) stammen aus der **Kommentar-Session (Aug 2026)** —
@@ -371,3 +371,33 @@ nachzulesen.
 Ankündigung und die Werberichtlinie sind damit nicht lesbar. Ein Post, der Starttermin und Preis nicht
 sicher nennen kann, verletzt Markenversprechen eins. **Ab dem 24.08.2026 lässt sich der Start in der App
 selbst nachsehen**, dann ist es ein Selbstexperiment mit eigenem Beleg statt einer Pressenacherzählung.
+
+## Recherchierte Einzelbefunde (Stand 20.08.2026)
+
+**KI im Betrieb, aber ohne Regel.** Am 20.08.2026 als Post 20 gebaut
+(`posts/post-020-ki-im-betrieb-ohne-regeln/`). Primärquelle ist der IAB-Kurzbericht Nr. 8 vom
+05.05.2026 von Martin Friedrich und Christian Kagerl, Institut für Arbeitsmarkt- und Berufsforschung der
+Bundesagentur für Arbeit, DOI 10.48720/IAB.KB.2608, Datengrundlage IAB-Betriebspanel 2025. Im Volltext
+gelesen.
+Was noch drinsteckt und **nicht** im Post ist, also Vorrat für Kommentare und Folgeposts:
+- Zwischen dem Vorhandensein eines Betriebsrats und der Nutzung generativer KI besteht **kein
+  statistisch signifikanter Zusammenhang**. Zusammen mit § 87 Absatz 1 Nummer 6 BetrVG wäre das ein
+  eigener Post. Der Paragraf ist dafür noch am Gesetzestext gegenzulesen.
+- Rund 6 Prozent der Betriebe setzen nicht generative KI-Verfahren ein.
+- Der Bericht weist 95-Prozent-Konfidenzbänder aus. Für ein Blatt zu voraussetzungsreich.
+- Die im Bericht zitierte Arbeit Arntz et al. 2025 (rund 31 Prozent der Beschäftigten hätten KI beruflich
+  genutzt) habe ich **nicht** gelesen. Die Zahl bleibt draußen, bis das passiert.
+
+**Berufseinsteiger und KI, die Stanford-Zahlen.** Brynjolfsson, Chandar, Chen: „Canaries in the Coal
+Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence", Stanford Digital
+Economy Lab. Ich habe die **Fassung vom 13.11.2025** im Volltext geladen und den Abstract gelesen:
+Beschäftigte zwischen 22 und 25 in KI-ausgesetzten Berufen mit **16 Prozent relativem
+Beschäftigungsrückgang**, kontrolliert für betriebliche Schocks, während die Beschäftigung Erfahrener
+stabil blieb. Datenbasis sind hochfrequente Verwaltungsdaten des US-Lohndienstleisters ADP.
+*Wichtig für jede Verwendung:* Es ist ein **relativer** Rückgang und keine Zahl abgebauter Stellen, und
+es geht ausdrücklich um den amerikanischen Arbeitsmarkt.
+*Nicht geprüft:* heise berichtete am 19.08.2026 über eine im August 2026 aktualisierte Fassung mit Daten
+bis Juni 2026 und einer weiter auseinandergehenden Schere. **Diese Fassung habe ich nicht gefunden.**
+*Vor dem Bauen:* die aktuelle Fassung beschaffen und eine deutsche Gegenrechnung suchen. Ohne
+deutschen Bezug fällt das Thema durch den Relevanzfilter, und die Posts 2 und 5 haben „KI und Jobs"
+bereits zweimal behandelt.

@@ -34,12 +34,14 @@ OUT_LOGO = REPO / "brand" / "logo"
 # Beide geben ihre Groesse deshalb ausdruecklich am kicker()-Aufruf an.
 OUT_POST17 = REPO / "posts" / "post-017-ki-phishing-drei-cent" / "slides"
 OUT_POST18 = REPO / "posts" / "post-018-chatgpt-werbung-bezahltes-produkt" / "slides"
+OUT_POST19 = REPO / "posts" / "post-019-datenarbeit-lieferkettengesetz" / "slides"
+OUT_POST20 = REPO / "posts" / "post-020-ki-im-betrieb-ohne-regeln" / "slides"
 
 # Posts 12/14/15/16 sind am 19.08.2026 gepostet und nach archive/ gewandert.
 # Ihre build_postN()-Funktionen bleiben als Vorlage stehen, werden aber nicht mehr
 # aufgerufen. Archivierte Blaetter werden nie neu gerendert (siehe CLAUDE.md).
 OUT_STORY = REPO / "brand" / "stories"
-for _d in (OUT_LOGO, OUT_STORY, OUT_POST17, OUT_POST18):
+for _d in (OUT_LOGO, OUT_STORY, OUT_POST17, OUT_POST18, OUT_POST19, OUT_POST20):
     _d.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------- palette
@@ -1912,6 +1914,199 @@ def build_post18():
     return slides
 
 
+# ================================================================ POST 19
+def build_post19():
+    """Bauform: Der Kassensturz. Sortiert wird, was rechtlich entschieden ist, was
+    gemessen ist und was ausdruecklich nicht erhoben wird. Ausdruecklich nicht
+    "Der Widerspruch": Eine Behoerde kann eine Rechtslage bejahen und trotzdem keine
+    Statistik fuehren, ohne sich zu widersprechen. Ein bebildertes Blatt, Beleg-Panel
+    auf Blatt 03 mit dem Satz, der in der Antwort zehnmal woertlich vorkommt.
+    Keine Balkenreihe, weil der Antwortteil keine einzige Mengenangabe zu Deutschland
+    enthaelt. Genau das ist der Post."""
+    T = 6
+    ST = "STAND 20.08.2026"
+    slides = []
+
+    # --- 01 HOOK
+    img, d = new(1, T, ST)
+    y = 268
+    fo = f("COND", 84)
+    for line in ["DIE MENSCHEN, DIE KI", "TRAINIEREN, SCHÜTZT", "DAS LIEFERKETTENGESETZ"]:
+        d.text((M, y), line, font=fo, fill=INK); y += 100
+    y += 32
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 54
+    block(d, y, "Das schreibt die Bundesregierung in Drucksache 21/7545 vom 10. August "
+                "2026. Im selben Papier steht, dass sie nicht weiß, wie viele es sind, "
+                "und dass sie es auch nicht erheben will.",
+          f("BOOK", 46), INK, MAXW - 40, 1.4)
+    slides.append(img)
+
+    # --- 02 Was gilt
+    img, d = new(2, T, ST)
+    y = kicker(d, 236, "Was das Gesetz verlangt", size=38)
+    block(d, y, "Nach dem Lieferkettensorgfaltspflichtengesetz zählen auch "
+                "Subunternehmen zu den Zulieferern, wenn sie Dienstleistungen für ein "
+                "verpflichtetes Unternehmen erbringen. Als Risiken in der Datenindustrie "
+                "nennt die Antwort niedrige Löhne, unbezahlte Arbeitszeit und psychische "
+                "Belastungen. Die europäische Richtlinie CSDDD erfasst digitale "
+                "Dienstleistungen vorgelagerter Geschäftspartner ebenfalls.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 03 Was gezaehlt wird (Beleg-Panel)
+    img, d = new(3, T, ST)
+    y = kicker(d, 226, "Zehnmal derselbe Satz", size=38)
+    y = beleg(d, y,
+              "Bundestag, Drucksache 21/7545",
+              ['"Darüber hinaus liegen der',
+               'Bundesregierung hierzu keine',
+               'Erkenntnisse vor."'],
+              sub="Antwort der Bundesregierung, 10.08.2026")
+    block(d, y + 40, "Zwölfmal steht in der Antwort, dass keine Erkenntnisse vorliegen, "
+                     "zehnmal in genau diesem Wortlaut. Eine Definition im Rechtssinne "
+                     "gibt es nicht, in der Sozialversicherungsstatistik taucht die "
+                     "Tätigkeit nicht auf, und erhoben werden soll sie auch künftig nicht.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 04 Gesundheit
+    img, d = new(4, T, ST)
+    y = kicker(d, 236, "Für Deutschland eine Fallstudie", size=38)
+    block(d, y, "Zu psychischen Folgen verweist die Antwort auf eine wachsende Zahl "
+                "internationaler Studien, vor allem Fallstudien und Querschnittsstudien. "
+                "Sie geben Hinweise auf ein erhöhtes Risiko für psychische Beanspruchung "
+                "bei Menschen, die Inhalte moderieren. Für Deutschland nennt die Antwort "
+                "eine Fallstudie aus dem Jahr 2020. Eine.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 05 Was der Leser selbst nachsehen kann
+    img, d = new(5, T, ST)
+    y = kicker(d, 236, "Was du selbst prüfen kannst", size=38)
+    block(d, y, "Eine Zahlenquelle nennt die Antwort doch. Sehr große Online-Plattformen "
+                "müssen nach Artikel 42 der DSA-Verordnung offenlegen, wie viele Menschen "
+                "sie für die Moderation von Inhalten einsetzen, aufgeschlüsselt nach "
+                "Amtssprache. Diese Berichte stehen öffentlich im Netz. Ich hatte erwartet, "
+                "dass wenigstens eine deutsche Behörde eine eigene Schätzung führt. "
+                "Gefunden habe ich keine.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 06 Quellen
+    img, d = new(6, T, ST)
+    y = kicker(d, 232, "Quellen", size=38)
+    for s_ in ["Bundestag, Drucksache 21/7545 vom 10.08.2026",
+               "Kleine Anfrage 21/7119 der Fraktion Die Linke",
+               "LkSG · CSDDD · KI-Verordnung Art. 10 · DSA Art. 42"]:
+        caret(d, M + 18, y + 22, 28, 6, RED)
+        yy = y
+        for ln in wrap(d, s_, f("BOOK", 40), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 40), fill=INK); yy += int(40 * 1.4)
+        y = yy + 18
+    y += 8
+    d.line([(M, y), (W - M, y)], fill=RULE, width=2); y += 26
+    y = block(d, y, "Kein Rechtsrat. Die Antwort ist im Volltext gelesen.",
+              f("BOOK", 36), MUTED, MAXW, 1.4, 20)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar.",
+          f("BOOK", 36), RED, MAXW, 1.4)
+    slides.append(img)
+
+    return slides
+
+
+# ================================================================ POST 20
+def build_post20():
+    """Bauform: Der Fall. Zwei bebilderte Blaetter, das erlaubte Maximum: Balkenreihe
+    auf Blatt 02 (lineare Skala), Beleg-Panel auf Blatt 05 mit dem Satz, in dem das IAB
+    seine eigenen Zahlen als Untergrenze bezeichnet."""
+    T = 6
+    ST = "STAND 20.08.2026"
+    slides = []
+
+    # --- 01 HOOK
+    img, d = new(1, T, ST)
+    y = 268
+    fo = f("COND", 84)
+    for line in ["MEHR ALS DIE HÄLFTE", "DER FIRMEN MIT KI HAT", "KEINE REGEL DAFÜR"]:
+        d.text((M, y), line, font=fo, fill=INK); y += 100
+    y += 32
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 54
+    block(d, y, "Das IAB der Bundesagentur für Arbeit befragt jährlich rund 15.000 "
+                "Betriebe. 21 Prozent der Betriebe, die generative KI nutzen, haben "
+                "interne Regeln dafür, weitere 22 Prozent planen sie.",
+          f("BOOK", 46), INK, MAXW - 40, 1.4)
+    slides.append(img)
+
+    # --- 02 Verbreitung (Balken, lineare Skala)
+    img, d = new(2, T, ST)
+    y = kicker(d, 228, "Von fünf auf vierundzwanzig Prozent", size=38)
+    y = balken(d, y, [("Betriebe mit generativer KI 2023", 5, "5 %"),
+                      ("Betriebe mit generativer KI 2025", 24, "24 %"),
+                      ("Betriebe ab 200 Beschäftigten 2025", 48, "48 %")])
+    block(d, y + 16, "Erhoben zwischen dem 1. Juli und dem 2. November 2025. In den "
+                     "Nutzerbetrieben arbeiten hochgerechnet knapp 40 Prozent aller "
+                     "sozialversicherungspflichtig Beschäftigten.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 03 Welche Systeme
+    img, d = new(3, T, ST)
+    y = kicker(d, 236, "Neunzig Prozent nutzen offene Systeme", size=38)
+    block(d, y, "90 Prozent der Betriebe, die generative KI einsetzen, greifen auf "
+                "allgemein zugängliche Lösungen zurück. 16 Prozent kaufen Modelle ein und "
+                "trainieren sie mit eigenen Daten weiter, 6 Prozent entwickeln eigene. "
+                "Was jemand eintippt, verlässt in den meisten Fällen also das Haus.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 04 Regeln
+    img, d = new(4, T, ST)
+    y = kicker(d, 236, "Regeln hat jeder fünfte Betrieb", size=38)
+    block(d, y, "21 Prozent der Nutzerbetriebe haben Leitlinien entwickelt, 22 Prozent "
+                "planen sie. Bei der Weiterbildung sieht es ähnlich aus, 27 Prozent bieten "
+                "etwas an und 21 Prozent planen es. Bleibt eine knappe Mehrheit ohne "
+                "beides. Wer dort etwas eintippt, entscheidet selbst, was hineingehört.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 05 Die Einschraenkung (Beleg-Panel)
+    img, d = new(5, T, ST)
+    y = kicker(d, 218, "Das IAB nennt es eine Untergrenze", size=38)
+    y = beleg(d, y,
+              "IAB-Kurzbericht 8/2026, Fußnote 2",
+              ['"Weil Beschäftigte auch ohne Wissen des',
+               'Betriebs KI nutzen können [...], markiert',
+               'unsere Erhebung auf Betriebsebene eher',
+               'eine Untergrenze zum Ausmaß der Nutzung',
+               'generativer KI im beruflichen Kontext."'],
+              sub="Bundesagentur für Arbeit, 05.05.2026")
+    block(d, y + 36, "Ich habe die 21 Prozent dreimal nachgeschlagen, weil ich sie für "
+                     "einen Tippfehler hielt.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 06 Quellen
+    img, d = new(6, T, ST)
+    y = kicker(d, 232, "Quellen", size=38)
+    for s_ in ["IAB-Kurzbericht Nr. 8 vom 05.05.2026, Friedrich und Kagerl",
+               "IAB-Betriebspanel 2025, rund 15.000 Betriebe",
+               "Institut der Bundesagentur für Arbeit, DOI 10.48720/IAB.KB.2608"]:
+        caret(d, M + 18, y + 22, 28, 6, RED)
+        yy = y
+        for ln in wrap(d, s_, f("BOOK", 40), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 40), fill=INK); yy += int(40 * 1.4)
+        y = yy + 18
+    y += 8
+    d.line([(M, y), (W - M, y)], fill=RULE, width=2); y += 26
+    y = block(d, y, "Kein Rechtsrat. Gezählt wurden Betriebe, nicht Beschäftigte.",
+              f("BOOK", 36), MUTED, MAXW, 1.4, 20)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar.",
+          f("BOOK", 36), RED, MAXW, 1.4)
+    slides.append(img)
+
+    return slides
+
+
 # ================================================================ STORIES (1080x1920)
 def build_stories():
     """Story-Slides im Hochformat. Inhalt bleibt in der Sicherheitszone (oben ~260 px für
@@ -2009,6 +2204,10 @@ n17 = save_slides(build_post17(), OUT_POST17)
 print(f"Post 17: {n17} Blätter -> {OUT_POST17}")
 n18 = save_slides(build_post18(), OUT_POST18)
 print(f"Post 18: {n18} Blätter -> {OUT_POST18}")
+n19 = save_slides(build_post19(), OUT_POST19)
+print(f"Post 19: {n19} Blätter -> {OUT_POST19}")
+n20 = save_slides(build_post20(), OUT_POST20)
+print(f"Post 20: {n20} Blätter -> {OUT_POST20}")
 print("(Post 0-2/4-10/12-16 gepostet & archiviert -> archive/, nicht neu gerendert)")
 
 _stories = build_stories()

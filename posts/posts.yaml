@@ -408,3 +408,55 @@ posts:
       sends: null
       sends_per_reach: null
       saves: null
+
+  - id: 19
+    slug: datenarbeit-lieferkettengesetz
+    ordner: post-019-datenarbeit-lieferkettengesetz
+    titel: "Die Menschen, die KI trainieren, schützt das Lieferkettengesetz"
+    saeule: unbequeme_frage
+    bauform: kassensturz          # zweiter Einsatz nach Post 14, steht weiterhin nicht in CLAUDE.md
+    status: gerendert          # 6 Blaetter (Stand 20.08.2026); BT-Drucksache 21/7545 im Volltext gelesen
+    blaetter: 6
+    geplant_fuer: aktuell
+    gepostet_am: null
+    offen:
+      - "KEINE GEGENSTIMME im Post. Weder BAFA als Vollzugsbehoerde noch Arbeitgeberseite gefunden. Groesste Schwaeche des Posts"
+      - "Die deutsche Fallstudie (Kreutzer/Koellner 2020) ist nicht gelesen. Der Post sagt nur, dass die Antwort genau eine nennt"
+      - "Kein Transparenzbericht nach Art. 42 DSA selbst geoeffnet. Blatt 05 nennt einen Weg, liefert kein Ergebnis"
+      - "Das LkSG wird gerade geaendert (erste Lesung 16.01.2026, Berichtspflichten sollen entfallen). Nur berichtet, nicht am Gesetzestext geprueft. VOR DEM POSTEN pruefen, ob sich am Zuliefererbegriff etwas geaendert hat"
+      - "Auszaehlung 'zehnmal' bezieht sich auf den extrahierten PDF-Text. Bei Extraktionsluecken eher zu niedrig als zu hoch"
+      - "TABU eingehalten: Die Vorbemerkung der Fragesteller nennt Auftraggeberbranchen, diese Aufzaehlung bleibt draussen"
+      - "Weltbank-Zahl (150 bis 430 Mio.) und der Berliner TikTok-Fall stehen in der Vorbemerkung der FRAGESTELLER, nicht in der Antwort. Bewusst nicht im Post"
+      - "Bauform 'Der Kassensturz' zum zweiten Mal benutzt und weiterhin nicht in CLAUDE.md. Entscheidung des Kanalinhabers noetig"
+      - "Nach ~7 Tagen Kennzahlen (reach/sends/saves) aus Insights nachtragen"
+    kennzahlen:
+      reach: null
+      sends: null
+      sends_per_reach: null
+      saves: null
+
+  - id: 20
+    slug: ki-im-betrieb-ohne-regeln
+    ordner: post-020-ki-im-betrieb-ohne-regeln
+    titel: "Mehr als die Hälfte der Firmen mit KI hat keine Regel dafür"
+    saeule: betrifft_dich
+    bauform: der_fall
+    status: gerendert          # 6 Blaetter (Stand 20.08.2026); IAB-Kurzbericht 8/2026 im Volltext gelesen
+    blaetter: 6
+    geplant_fuer: aktuell
+    gepostet_am: null
+    offen:
+      - "KEINE TAGESNACHRICHT: Kurzbericht vom 05.05.2026, Daten erhoben 01.07. bis 02.11.2025. Das Erhebungsdatum steht deshalb auf Blatt 02"
+      - "Gezaehlt werden Betriebe, nicht Beschaeftigte. Gegengewicht im Post: in den Nutzerbetrieben arbeiten knapp 40 Prozent aller sozialversicherungspflichtig Beschaeftigten"
+      - "Das IAB nennt seine Erhebung selbst eine Untergrenze, weil Beschaeftigte KI auch ohne Wissen des Betriebs nutzen. Steht als Beleg-Panel auf Blatt 05"
+      - "Die 56 Prozent aus Grafik A6 sind NICHT im Post. Fliesstext nennt 21 und 22 Prozent, der Rest waere 57. Auf dem Blatt steht 'mehr als die Haelfte'"
+      - "Arntz et al. 2025 (rund 31 Prozent der Beschaeftigten) nicht gelesen, Zahl deshalb draussen"
+      - "Keine Gegenstimme von Arbeitgeberseite oder Gewerkschaften gefunden"
+      - "Kein Abgleich mit der Bitkom-Erhebung, die Aehnliches mit anderer Methode misst"
+      - "VOR DEM POSTEN pruefen, ob die Welle 2026 des Betriebspanels erschienen ist"
+      - "Nach ~7 Tagen Kennzahlen (reach/sends/saves) aus Insights nachtragen"
+    kennzahlen:
+      reach: null
+      sends: null
+      sends_per_reach: null
+      saves: null
