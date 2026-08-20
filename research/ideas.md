@@ -45,7 +45,7 @@ Wie wir entscheiden, was wir posten. Reihenfolge: **Idee → Recherche an Primä
 | Werbung in ChatGPT in Deutschland: seit wann eigentlich? | Hype-Check | Quellenlage widersprüchlich, siehe Einzelbefund unten | roh |
 | KI-Schriftsätze überlasten die Sozialgerichte | Hype-Check | LSG NRW, Jahresbericht 2025 (im Volltext gelesen); BSG-PM 4/2026 | verplant → Post 16 |
 | Wer vertritt eigentlich noch im Sozialrecht? | Unbequeme Frage | LSG NRW Jahresbericht 2025 nennt fehlende rechtskundige Vertretung als Erklärung; Gegenstimme der Sozialverbände fehlt noch | roh |
-| Lieferkettengesetz gilt für Datenarbeit, gezählt wird sie nicht | Unbequeme Frage | BT-Drucksache 21/7545 vom 10.08.2026 (Antwort auf Kleine Anfrage 21/7119), im Volltext gelesen | verplant → Post 19 |
+| Lieferkettengesetz gilt für Datenarbeit, gezählt wird sie nicht | Unbequeme Frage | BT-Drucksache 21/7545 vom 10.08.2026 (Antwort auf Kleine Anfrage 21/7119), im Volltext gelesen | recherchiert (Post 19 verworfen 20.08.2026, Material unten gesichert) |
 | KI schreibt persönliche Phishing-Mails für drei Cent | Betrifft dich | Czybik u. a., USENIX Security 2026, „A Large-Scale Study of Personalized Phishing using Large Language Models", im Volltext gelesen | bereit |
 
 > Die fünf Ideen oberhalb (Palantir … AI Overview) stammen aus der **Kommentar-Session (Aug 2026)** —
@@ -401,3 +401,66 @@ bis Juni 2026 und einer weiter auseinandergehenden Schere. **Diese Fassung habe 
 *Vor dem Bauen:* die aktuelle Fassung beschaffen und eine deutsche Gegenrechnung suchen. Ohne
 deutschen Bezug fällt das Thema durch den Relevanzfilter, und die Posts 2 und 5 haben „KI und Jobs"
 bereits zweimal behandelt.
+
+## Gerettet aus dem verworfenen Post 19 (20.08.2026)
+
+Post 19 „Die Menschen, die KI trainieren, schützt das Lieferkettengesetz" wurde am 20.08.2026 vom
+Kanalinhaber verworfen. Der Ordner und `build_post19()` sind gelöscht, über die Git-Historie
+wiederherstellbar (Stand: commit 015d309). Die Recherche war an der Primärquelle geprüft und bleibt
+verwendbar, deshalb steht sie hier vollständig.
+
+**Primärquelle:** Deutscher Bundestag, **Drucksache 21/7545 vom 10.08.2026**, Antwort der
+Bundesregierung auf die Kleine Anfrage 21/7119 der Abgeordneten Anne Zerr, Pascal Meiser, Janine Wissler,
+weiterer Abgeordneter und der Fraktion Die Linke, „Arbeitsbedingungen und psychischer Gesundheitsschutz
+von Datenarbeiterinnen und Datenarbeitern". `https://dserver.bundestag.de/btd/21/075/2107545.pdf`,
+als PDF geladen und im Volltext ausgelesen. Aufhänger war die hib-Meldung vom 18.08.2026.
+
+**Wörtlich geprüfte Stellen** (String-Suche im extrahierten Text, nicht abgetippt):
+
+1. Zum Lieferkettengesetz, Antwort zu Frage 13: „Unter den Begriff des Zulieferers fallen auch
+   Subunternehmen, die im Fall einer Dienstleistungskette Dienstleistungen für das in den
+   Anwendungsbereich des LkSG fallende Unternehmen erbringen."
+2. Ebenfalls Frage 13: „Allgemein liegen in der Datenindustrie die LkSG-Risiken primär im Bereich der
+   Hardware-Lieferkette (z. B. ausbeuterische Arbeitsbedingungen beim Abbau von Rohstoffen) und digitalen
+   Dienstleistungen wie Datenarbeit (z. B. niedrige Löhne, unbezahlte Arbeitszeit, psychische
+   Belastungen)."
+3. Zur Definition, Antwort zu Frage 1: „Der Bundesregierung ist keine verbindliche allgemeine Definition
+   im Rechtssinne von Datenarbeit bekannt."
+4. Zur Statistik, Antwort zu Frage 3: „Von den Sozialversicherungsträgern werden nur solche Daten erfasst
+   und übermittelt, die für die Erfüllung und Planung der Aufgaben erforderlich sind. Dies trifft auf
+   Daten über einzelne Tätigkeiten (hier: Datenarbeit) nicht zu. Aus Gründen des Datenschutzes und der
+   Wirtschaftlichkeit ist eine Erhebung dieser Merkmale auch zukünftig nicht beabsichtigt."
+5. Der Satz „Darüber hinaus liegen der Bundesregierung hierzu keine Erkenntnisse vor." steht **zehnmal
+   wörtlich** in der Antwort, insgesamt zwölfmal „keine Erkenntnisse".
+6. Zur Gesundheit, Antwort zu Frage 17: „Eine wachsende Anzahl internationaler Studien, derzeit vor allem
+   Fallstudien, qualitative Studien und Querschnittsstudien gibt Hinweise auf ein erhöhtes Risiko für
+   psychische Beanspruchung und negative gesundheitliche Folgen bei Content-Moderatorinnen und
+   Content-Moderatoren." Für Deutschland nennt die Antwort **eine** Fallstudie: Kreutzer L, Köllner V
+   (2020), Posttraumatische Belastungsstörung in der digitalen Arbeitswelt, Rehabilitation (Stuttgart).
+   **Diese Fallstudie ist nicht gelesen.**
+7. Die KI-Verordnung nennt in Artikel 10 Absatz 2 Buchstabe c die Datenaufbereitungsvorgänge Annotation,
+   Kennzeichnung, Bereinigung, Aktualisierung, Anreicherung und Aggregierung.
+8. Als einzige Zahlenquelle verweist die Antwort auf die Transparenzberichte sehr großer Online-Plattformen
+   nach **Artikel 42 Absatz 2 Buchstabe a DSA**, die offenlegen müssen, wie viele Menschen für die
+   Moderation von Inhalten eingesetzt werden, aufgeschlüsselt nach Amtssprache. **Kein solcher Bericht ist
+   selbst geöffnet worden.**
+
+**Eigener Negativbefund:** Im gesamten Antwortteil steht keine einzige Mengenangabe zu Deutschland.
+Methode: Suche nach Zahlen in Verbindung mit „Prozent", „Millionen", „Menschen", „Beschäftigte". Kein
+Treffer.
+
+**Nicht verwendbar ohne Zuschreibung**, weil aus der **Vorbemerkung der Fragesteller** und damit von der
+Fraktion, nicht von der Regierung: die Weltbank-Schätzung von 150 bis 430 Millionen Menschen in Online-
+und Datenarbeit (Datta u. a. 2023), der Berliner TikTok-Fall 2025 mit rund 150 entlassenen Beschäftigten
+der Abteilung „Trust and Safety" und das Zitat „Ohne Datenarbeiter und -arbeiterinnen gibt es keine KI".
+
+**Tabu-Hinweis, gilt für jeden Neuanlauf:** Dieselbe Vorbemerkung nennt deutsche Auftraggeberbranchen.
+Diese Aufzählung gehört nicht auf ein Blatt, siehe Tabu in `CLAUDE.md`. Der Befund trägt ohne sie.
+
+**Offene Punkte, die ein Neuanlauf zuerst schließen müsste:**
+- **Es fehlt eine Gegenstimme.** Weder das BAFA als Vollzugsbehörde des LkSG noch die Arbeitgeberseite
+  kommen vor. Das war schon beim ersten Anlauf die größte Schwäche.
+- Das LkSG wird geändert, erste Lesung am 16.01.2026, Berichtspflichten sollen entfallen. Nur berichtet,
+  nicht am Gesetzestext geprüft. Vor einem Neuanlauf klären, ob sich am Zuliefererbegriff etwas ändert.
+- Blatt 05 des verworfenen Posts nannte einen Weg (Transparenzberichte), lieferte aber kein Ergebnis. Ein
+  Neuanlauf sollte eine konkrete Zahl aus einem Bericht mitbringen.

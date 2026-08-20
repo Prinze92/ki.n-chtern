@@ -361,10 +361,10 @@ posts:
     titel: "Eine KI schreibt dir eine Phishing-Mail für drei Cent"
     saeule: betrifft_dich
     bauform: widerspruch
-    status: gerendert          # 6 Blaetter (Stand 19.08.2026); USENIX-Papier als PDF im Volltext gelesen, alle Zahlen und beide Zitate am Original geprueft
+    status: gepostet           # live am 20.08.2026; Blaetter liegen eingefroren unter archive/
     blaetter: 6
     geplant_fuer: aktuell
-    gepostet_am: null
+    gepostet_am: 2026-08-20
     offen:
       - "KERN DES POSTS: Der Widerspruch auf Blatt 04 ist nicht aufgeloest. Abschnitt 7.2 nennt '1 von 3.949 markiert' als Beleg fuer schwere Erkennung, Abschnitt 5.3 sagt, der Versandserver stand auf der Whitelist des Spamfilters. Das Papier klaert es nicht, wir auch nicht. Deshalb steht die Zahl als Zitat, nie als Befund"
       - "Anfrage an die Erstautorenschaft offen: wie wurde die Markierung gemessen"
@@ -387,10 +387,10 @@ posts:
     titel: "GPT schiebt dir das bezahlte Produkt dazwischen"
     saeule: betrifft_dich
     bauform: der_fall
-    status: gerendert          # 6 Blaetter (Stand 19.08.2026); beide Studien-Abstracts im Original gelesen, EuGH-Wortlaut an EUR-Lex geprueft
+    status: gepostet           # live am 20.08.2026; Blaetter liegen eingefroren unter archive/
     blaetter: 6
     geplant_fuer: aktuell
-    gepostet_am: null
+    gepostet_am: 2026-08-20
     offen:
       - "WICHTIGSTE EINSCHRAENKUNG: Die 94 Prozent stammen aus einem Test mit absichtlich gesetztem Werbeanreiz und messen NICHT ChatGPT in Deutschland. Blatt 05 traegt diese Trennung. Ohne Blatt 05 darf der Post nicht erscheinen"
       - "Ausgangsidee war die Zeile 'GPT verkauft dir was immer es will'. Nicht belegbar, deshalb verworfen und auf Blatt 05 offengelegt"
@@ -414,21 +414,16 @@ posts:
     ordner: post-019-datenarbeit-lieferkettengesetz
     titel: "Die Menschen, die KI trainieren, schützt das Lieferkettengesetz"
     saeule: unbequeme_frage
-    bauform: kassensturz          # zweiter Einsatz nach Post 14, steht weiterhin nicht in CLAUDE.md
-    status: gerendert          # 6 Blaetter (Stand 20.08.2026); BT-Drucksache 21/7545 im Volltext gelesen
+    bauform: kassensturz
+    status: verworfen          # 20.08.2026 vom Kanalinhaber verworfen. Ordner und build_post19() geloescht, ueber die Git-Historie wiederherstellbar (Stand: commit 015d309)
     blaetter: 6
-    geplant_fuer: aktuell
+    geplant_fuer: offen
     gepostet_am: null
     offen:
-      - "KEINE GEGENSTIMME im Post. Weder BAFA als Vollzugsbehoerde noch Arbeitgeberseite gefunden. Groesste Schwaeche des Posts"
-      - "Die deutsche Fallstudie (Kreutzer/Koellner 2020) ist nicht gelesen. Der Post sagt nur, dass die Antwort genau eine nennt"
-      - "Kein Transparenzbericht nach Art. 42 DSA selbst geoeffnet. Blatt 05 nennt einen Weg, liefert kein Ergebnis"
-      - "Das LkSG wird gerade geaendert (erste Lesung 16.01.2026, Berichtspflichten sollen entfallen). Nur berichtet, nicht am Gesetzestext geprueft. VOR DEM POSTEN pruefen, ob sich am Zuliefererbegriff etwas geaendert hat"
-      - "Auszaehlung 'zehnmal' bezieht sich auf den extrahierten PDF-Text. Bei Extraktionsluecken eher zu niedrig als zu hoch"
-      - "TABU eingehalten: Die Vorbemerkung der Fragesteller nennt Auftraggeberbranchen, diese Aufzaehlung bleibt draussen"
-      - "Weltbank-Zahl (150 bis 430 Mio.) und der Berliner TikTok-Fall stehen in der Vorbemerkung der FRAGESTELLER, nicht in der Antwort. Bewusst nicht im Post"
-      - "Bauform 'Der Kassensturz' zum zweiten Mal benutzt und weiterhin nicht in CLAUDE.md. Entscheidung des Kanalinhabers noetig"
-      - "Nach ~7 Tagen Kennzahlen (reach/sends/saves) aus Insights nachtragen"
+      - "Verworfen am 20.08.2026, nicht veroeffentlicht. Blaetter, post.md und sources.md sind ueber die Git-Historie wiederherstellbar (Stand: commit 015d309)"
+      - "Die vollstaendige Recherche ist in research/ideas.md gesichert, Abschnitt 'Gerettet aus dem verworfenen Post 19': alle woertlich geprueften Stellen aus BT-Drucksache 21/7545, der Negativbefund und der Tabu-Hinweis"
+      - "Der Befund selbst bleibt gueltig: Die Bundesregierung bejaht die LkSG-Pflicht fuer Datenarbeit und schreibt im selben Papier zehnmal woertlich, dass ihr keine Erkenntnisse vorliegen"
+      - "Fuer einen Neuanlauf zuerst die fehlende Gegenstimme beschaffen (BAFA oder Arbeitgeberseite). Das war schon beim ersten Anlauf die groesste Schwaeche"
     kennzahlen:
       reach: null
       sends: null
@@ -441,10 +436,10 @@ posts:
     titel: "Mehr als die Hälfte der Firmen mit KI hat keine Regel dafür"
     saeule: betrifft_dich
     bauform: der_fall
-    status: gerendert          # 6 Blaetter (Stand 20.08.2026); IAB-Kurzbericht 8/2026 im Volltext gelesen
+    status: gepostet           # live am 20.08.2026; Blaetter liegen eingefroren unter archive/
     blaetter: 6
     geplant_fuer: aktuell
-    gepostet_am: null
+    gepostet_am: 2026-08-20
     offen:
       - "KEINE TAGESNACHRICHT: Kurzbericht vom 05.05.2026, Daten erhoben 01.07. bis 02.11.2025. Das Erhebungsdatum steht deshalb auf Blatt 02"
       - "Gezaehlt werden Betriebe, nicht Beschaeftigte. Gegengewicht im Post: in den Nutzerbetrieben arbeiten knapp 40 Prozent aller sozialversicherungspflichtig Beschaeftigten"

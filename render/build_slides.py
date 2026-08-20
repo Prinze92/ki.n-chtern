@@ -32,16 +32,18 @@ OUT_LOGO = REPO / "brand" / "logo"
 # wiederherstellbar ueber die Git-Historie (wie seinerzeit Post 3).
 # Hinweis: Post 0/1/4/6/7/9 wurden mit Kicker 30 veroeffentlicht, Post 2/5/8/10/13 mit Kicker 38.
 # Beide geben ihre Groesse deshalb ausdruecklich am kicker()-Aufruf an.
-OUT_POST17 = REPO / "posts" / "post-017-ki-phishing-drei-cent" / "slides"
-OUT_POST18 = REPO / "posts" / "post-018-chatgpt-werbung-bezahltes-produkt" / "slides"
-OUT_POST19 = REPO / "posts" / "post-019-datenarbeit-lieferkettengesetz" / "slides"
-OUT_POST20 = REPO / "posts" / "post-020-ki-im-betrieb-ohne-regeln" / "slides"
+# Post 17/18/20 sind am 20.08.2026 gepostet und nach archive/ gewandert.
+# Post 19 (Datenarbeit / Lieferkettengesetz) wurde am 20.08.2026 verworfen; Ordner und
+# build_post19() geloescht, wiederherstellbar ueber die Git-Historie (Stand: commit 015d309).
+# Die Recherche liegt gesichert in research/ideas.md (wie seinerzeit bei Post 3 und Post 11).
+# Die build_postN()-Funktionen der geposteten Posts bleiben als Reproduzierbarkeits-Referenz
+# stehen, werden aber nicht mehr aufgerufen. Archivierte Blaetter werden nie neu gerendert.
 
 # Posts 12/14/15/16 sind am 19.08.2026 gepostet und nach archive/ gewandert.
 # Ihre build_postN()-Funktionen bleiben als Vorlage stehen, werden aber nicht mehr
 # aufgerufen. Archivierte Blaetter werden nie neu gerendert (siehe CLAUDE.md).
 OUT_STORY = REPO / "brand" / "stories"
-for _d in (OUT_LOGO, OUT_STORY, OUT_POST17, OUT_POST18, OUT_POST19, OUT_POST20):
+for _d in (OUT_LOGO, OUT_STORY):
     _d.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------- palette
@@ -1914,106 +1916,6 @@ def build_post18():
     return slides
 
 
-# ================================================================ POST 19
-def build_post19():
-    """Bauform: Der Kassensturz. Sortiert wird, was rechtlich entschieden ist, was
-    gemessen ist und was ausdruecklich nicht erhoben wird. Ausdruecklich nicht
-    "Der Widerspruch": Eine Behoerde kann eine Rechtslage bejahen und trotzdem keine
-    Statistik fuehren, ohne sich zu widersprechen. Ein bebildertes Blatt, Beleg-Panel
-    auf Blatt 03 mit dem Satz, der in der Antwort zehnmal woertlich vorkommt.
-    Keine Balkenreihe, weil der Antwortteil keine einzige Mengenangabe zu Deutschland
-    enthaelt. Genau das ist der Post."""
-    T = 6
-    ST = "STAND 20.08.2026"
-    slides = []
-
-    # --- 01 HOOK
-    img, d = new(1, T, ST)
-    y = 268
-    fo = f("COND", 84)
-    for line in ["DIE MENSCHEN, DIE KI", "TRAINIEREN, SCHÜTZT", "DAS LIEFERKETTENGESETZ"]:
-        d.text((M, y), line, font=fo, fill=INK); y += 100
-    y += 32
-    d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 54
-    block(d, y, "Das schreibt die Bundesregierung in Drucksache 21/7545 vom 10. August "
-                "2026. Im selben Papier steht, dass sie nicht weiß, wie viele es sind, "
-                "und dass sie es auch nicht erheben will.",
-          f("BOOK", 46), INK, MAXW - 40, 1.4)
-    slides.append(img)
-
-    # --- 02 Was gilt
-    img, d = new(2, T, ST)
-    y = kicker(d, 236, "Was das Gesetz verlangt", size=38)
-    block(d, y, "Nach dem Lieferkettensorgfaltspflichtengesetz zählen auch "
-                "Subunternehmen zu den Zulieferern, wenn sie Dienstleistungen für ein "
-                "verpflichtetes Unternehmen erbringen. Als Risiken in der Datenindustrie "
-                "nennt die Antwort niedrige Löhne, unbezahlte Arbeitszeit und psychische "
-                "Belastungen. Die europäische Richtlinie CSDDD erfasst digitale "
-                "Dienstleistungen vorgelagerter Geschäftspartner ebenfalls.",
-          f("BOOK", 45), INK, MAXW, 1.42)
-    slides.append(img)
-
-    # --- 03 Was gezaehlt wird (Beleg-Panel)
-    img, d = new(3, T, ST)
-    y = kicker(d, 226, "Zehnmal derselbe Satz", size=38)
-    y = beleg(d, y,
-              "Bundestag, Drucksache 21/7545",
-              ['"Darüber hinaus liegen der',
-               'Bundesregierung hierzu keine',
-               'Erkenntnisse vor."'],
-              sub="Antwort der Bundesregierung, 10.08.2026")
-    block(d, y + 40, "Zwölfmal steht in der Antwort, dass keine Erkenntnisse vorliegen, "
-                     "zehnmal in genau diesem Wortlaut. Eine Definition im Rechtssinne "
-                     "gibt es nicht, in der Sozialversicherungsstatistik taucht die "
-                     "Tätigkeit nicht auf, und erhoben werden soll sie auch künftig nicht.",
-          f("BOOK", 45), INK, MAXW, 1.42)
-    slides.append(img)
-
-    # --- 04 Gesundheit
-    img, d = new(4, T, ST)
-    y = kicker(d, 236, "Für Deutschland eine Fallstudie", size=38)
-    block(d, y, "Zu psychischen Folgen verweist die Antwort auf eine wachsende Zahl "
-                "internationaler Studien, vor allem Fallstudien und Querschnittsstudien. "
-                "Sie geben Hinweise auf ein erhöhtes Risiko für psychische Beanspruchung "
-                "bei Menschen, die Inhalte moderieren. Für Deutschland nennt die Antwort "
-                "eine Fallstudie aus dem Jahr 2020. Eine.",
-          f("BOOK", 45), INK, MAXW, 1.42)
-    slides.append(img)
-
-    # --- 05 Was der Leser selbst nachsehen kann
-    img, d = new(5, T, ST)
-    y = kicker(d, 236, "Was du selbst prüfen kannst", size=38)
-    block(d, y, "Eine Zahlenquelle nennt die Antwort doch. Sehr große Online-Plattformen "
-                "müssen nach Artikel 42 der DSA-Verordnung offenlegen, wie viele Menschen "
-                "sie für die Moderation von Inhalten einsetzen, aufgeschlüsselt nach "
-                "Amtssprache. Diese Berichte stehen öffentlich im Netz. Ich hatte erwartet, "
-                "dass wenigstens eine deutsche Behörde eine eigene Schätzung führt. "
-                "Gefunden habe ich keine.",
-          f("BOOK", 45), INK, MAXW, 1.42)
-    slides.append(img)
-
-    # --- 06 Quellen
-    img, d = new(6, T, ST)
-    y = kicker(d, 232, "Quellen", size=38)
-    for s_ in ["Bundestag, Drucksache 21/7545 vom 10.08.2026",
-               "Kleine Anfrage 21/7119 der Fraktion Die Linke",
-               "LkSG · CSDDD · KI-Verordnung Art. 10 · DSA Art. 42"]:
-        caret(d, M + 18, y + 22, 28, 6, RED)
-        yy = y
-        for ln in wrap(d, s_, f("BOOK", 40), MAXW - 70):
-            d.text((M + 66, yy), ln, font=f("BOOK", 40), fill=INK); yy += int(40 * 1.4)
-        y = yy + 18
-    y += 8
-    d.line([(M, y), (W - M, y)], fill=RULE, width=2); y += 26
-    y = block(d, y, "Kein Rechtsrat. Die Antwort ist im Volltext gelesen.",
-              f("BOOK", 36), MUTED, MAXW, 1.4, 20)
-    block(d, y, "Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar.",
-          f("BOOK", 36), RED, MAXW, 1.4)
-    slides.append(img)
-
-    return slides
-
-
 # ================================================================ POST 20
 def build_post20():
     """Bauform: Der Fall. Zwei bebilderte Blaetter, das erlaubte Maximum: Balkenreihe
@@ -2198,17 +2100,12 @@ def save_slides(slides, out_dir):
     return len(slides)
 
 
-# Nur aktive Posts rendern. Post 0/1/2/4/5/6/7/8/9/10/13 sind gepostet und liegen unter archive/.
+# Nur aktive Posts rendern. Stand 20.08.2026 gibt es keinen: Post 0 bis 18 und 20 sind
+# gepostet und liegen unter archive/, Post 3, 11 und 19 wurden verworfen.
 print(f"Logo    -> {OUT_LOGO}")
-n17 = save_slides(build_post17(), OUT_POST17)
-print(f"Post 17: {n17} Blätter -> {OUT_POST17}")
-n18 = save_slides(build_post18(), OUT_POST18)
-print(f"Post 18: {n18} Blätter -> {OUT_POST18}")
-n19 = save_slides(build_post19(), OUT_POST19)
-print(f"Post 19: {n19} Blätter -> {OUT_POST19}")
-n20 = save_slides(build_post20(), OUT_POST20)
-print(f"Post 20: {n20} Blätter -> {OUT_POST20}")
-print("(Post 0-2/4-10/12-16 gepostet & archiviert -> archive/, nicht neu gerendert)")
+print("Kein aktiver Post zu rendern.")
+print("(Post 0-2/4-10/12-18/20 gepostet & archiviert -> archive/, nicht neu gerendert)")
+print("(Post 3/11/19 verworfen, siehe posts/posts.yaml und research/ideas.md)")
 
 _stories = build_stories()
 for _name, _im in _stories:
