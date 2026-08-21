@@ -46,7 +46,10 @@ Wie wir entscheiden, was wir posten. Reihenfolge: **Idee → Recherche an Primä
 | KI-Schriftsätze überlasten die Sozialgerichte | Hype-Check | LSG NRW, Jahresbericht 2025 (im Volltext gelesen); BSG-PM 4/2026 | verplant → Post 16 |
 | Wer vertritt eigentlich noch im Sozialrecht? | Unbequeme Frage | LSG NRW Jahresbericht 2025 nennt fehlende rechtskundige Vertretung als Erklärung; Gegenstimme der Sozialverbände fehlt noch | roh |
 | Lieferkettengesetz gilt für Datenarbeit, gezählt wird sie nicht | Unbequeme Frage | BT-Drucksache 21/7545 vom 10.08.2026 (Antwort auf Kleine Anfrage 21/7119), im Volltext gelesen | recherchiert (Post 19 verworfen 20.08.2026, Material unten gesichert) |
-| KI schreibt persönliche Phishing-Mails für drei Cent | Betrifft dich | Czybik u. a., USENIX Security 2026, „A Large-Scale Study of Personalized Phishing using Large Language Models", im Volltext gelesen | bereit |
+| KI schreibt persönliche Phishing-Mails für drei Cent | Betrifft dich | Czybik u. a., USENIX Security 2026, „A Large-Scale Study of Personalized Phishing using Large Language Models", im Volltext gelesen | verplant → Post 17 |
+| KI-Migrationsverwaltungsgesetz: BAMF darf mit Antragsdaten KI trainieren | Unbequeme Frage | Referentenentwurf BMI, Stand 25.06.2026, im Volltext gelesen | verplant → Post 21 |
+| Dienste, die die Aufnahme-LED von Kamerabrillen abschalten | Betrifft dich | Guardian-Recherche 20.08.2026 (nicht gelesen); Maßstab § 8 TDDDG am Gesetzestext geprüft | roh |
+| Meta bewarb eine Nudify-App, obwohl der Trilog ein Verbot vereinbart hat | Unbequeme Frage | Ars Technica 20.08.2026; Trilog-Einigung 07.05.2026 nur über netzpolitik, Verordnungstext ungelesen | roh |
 
 > Die fünf Ideen oberhalb (Palantir … AI Overview) stammen aus der **Kommentar-Session (Aug 2026)** —
 > externe Aufhänger bei @bundesagenturfuerarbeit, @netzpolitikorg, @zdfheute, @spiegelmagazin, @evolving.ai.
@@ -505,3 +508,37 @@ KI ging mit weniger kritischem Denken einher, höheres Vertrauen in die **eigene
 Das ist die belegbare Antwort auf die Bildungsfrage und ist etwas anderes als „KI macht dumm". Vor dem
 Bauen: die CHI-Arbeit im Volltext lesen, die MIT-Studie ebenfalls, und den Widerspruch zwischen
 Selbstauskunft (CHI) und Messung (EEG) offen benennen.
+
+## Recherchierte Einzelbefunde (Stand 21.08.2026)
+
+**KI-Migrationsverwaltungsgesetz.** Am 21.08.2026 als Post 21 gebaut
+(`posts/post-021-kimvg-asyl-ki/`). Primärquelle ist der Referentenentwurf des Bundesinnenministeriums,
+Bearbeitungsstand 25.06.2026, 23 Seiten, im Volltext gelesen. Bezogen über die Spiegelung der Deutschen
+Vereinigung für Datenschutz, weil `bmi.bund.de` mit HTTP 400 antwortete.
+Was **nicht** im Post steht und Vorrat für Kommentare und Folgeposts ist:
+- **Artikel 6 Absatz 3 der KI-Verordnung.** Der Entwurf begründet, das Verfahrensmonitoring sei „nicht
+  dazu bestimmt, eine zuvor abgeschlossene menschliche Bewertung ohne angemessene menschliche Überprüfung
+  zu ersetzen oder zu beeinflussen". Das ist der Weg aus der Hochrisiko-Einstufung. Eigener Post wert,
+  zusammen mit den Artikeln 10, 13 und 14, auf die die Begründung ebenfalls verweist.
+- **Der Abschnitt „Exekutiver Fußabdruck":** Eine Beteiligung von Interessenvertreterinnen und
+  Interessenvertretern sei „aufgrund einer fehlenden Außenwirkung dieser gesetzlichen Regelung nicht
+  erforderlich". **Nicht als „niemand wurde gefragt" verwenden.** Der Abschnitt betrifft die Offenlegung
+  von Lobbyeinfluss auf die Entwurfserstellung, und der Entwurf ging ausweislich seines Dateinamens an
+  Länder und Verbände.
+- **Der Satz zur Personalfrage:** „Eine Ausweitung der personellen Kapazitäten scheidet aufgrund der
+  Haushaltslage und des Fachkräftemangels aus." Steht im Abschnitt Alternativen.
+- **§ 7 Absatz 1 AsylG-E** erlaubt die Verarbeitung von Daten nach Artikel 9 Absatz 1 DSGVO, also
+  besonders geschützter Kategorien, „soweit dies im Einzelfall zur Aufgabenerfüllung erforderlich ist".
+- **Stellungnahmen vom 02.07.2026:** Pro Asyl (PDF vorhanden, Textextraktion durch fehlende Ligaturen
+  zerstört, wörtliche Zitate daraus nicht sicher) und Deutsche Vereinigung für Datenschutz (ungelesen).
+- **Offen und wichtig:** Die Kabinettsfassung vom 29.07.2026 ist nicht beschafft. Eine Stellungnahme der
+  Bundesdatenschutzbeauftragten wurde nicht gefunden.
+
+**Warnleuchte an Kamerabrillen.** Der Guardian berichtete laut netzpolitik-Ticker am 20.08.2026, dass
+Firmen die Aufnahme-LED entfernen oder deaktivieren. Die Recherche selbst habe ich nicht gelesen.
+*Geprüft ist nur der Maßstab:* § 8 TDDDG („Missbrauch von Telekommunikationsanlagen") verbietet Geräte,
+die als Alltagsgegenstand verkleidet und „in besonderer Weise geeignet und dazu bestimmt" sind, das Bild
+eines anderen unbemerkt aufzunehmen. Genau an der Erkennbarkeit hing die bisher berichtete Einschätzung
+der Bundesnetzagentur zur Kamerabrille.
+*Vor einem Post:* einen deutschen Fall belegen. Ohne den bleibt es ein Kommentar. Post 10 deckt die
+Brille bereits ab, ein Folgepost bräuchte den Rechtsmaßstab als eigenen Gegenstand.

@@ -455,3 +455,29 @@ posts:
       sends: null
       sends_per_reach: null
       saves: null
+
+  - id: 21
+    slug: kimvg-asyl-ki
+    ordner: post-021-kimvg-asyl-ki
+    titel: "Das BAMF soll seine KI mit Asylanträgen trainieren dürfen"
+    saeule: unbequeme_frage
+    bauform: rekonstruktion
+    status: gerendert          # 6 Blaetter (Stand 21.08.2026); Referentenentwurf KIMVG im Volltext gelesen
+    blaetter: 6
+    geplant_fuer: aktuell
+    gepostet_am: null
+    offen:
+      - "WICHTIGSTE EINSCHRAENKUNG: Gelesen ist der Referentenentwurf mit Bearbeitungsstand 25.06.2026. Das Kabinett hat am 29.07.2026 eine Fassung beschlossen, die NICHT gelesen werden konnte. bmi.bund.de antwortete am 21.08.2026 mit HTTP 400, eine Drucksachennummer war nicht auffindbar. Blatt 05 traegt diese Einschraenkung. Ohne Blatt 05 darf der Post nicht erscheinen"
+      - "VOR DEM POSTEN: Kabinettsfassung beschaffen und das Panel-Zitat gegenlesen. Wenn sich Paragraf 7a Absatz 1 geaendert hat, muss der Post neu gebaut werden"
+      - "Das PDF stammt von der Spiegelung der Deutschen Vereinigung fuer Datenschutz, nicht vom BMI-Server. Kopf und Struktur sind stimmig, der Abgleich mit dem Original steht aus"
+      - "Der Abschnitt 'Exekutiver Fussabdruck' (Beteiligung nicht erforderlich wegen fehlender Aussenwirkung) ist bewusst NICHT im Post. Er betrifft Lobbyoffenlegung, und der Entwurf ging an Laender und Verbaende. Als 'niemand wurde gefragt' gelesen waere es falsch"
+      - "Stellungnahmen von Pro Asyl und DVD (beide 02.07.2026) inhaltlich nicht verwendet: Die Pro-Asyl-PDF-Extraktion ist durch fehlende Ligaturen zerstoert, die DVD-Stellungnahme ist ungelesen"
+      - "Keine Stellungnahme der Bundesdatenschutzbeauftragten gefunden"
+      - "Keine unabhaengige Gegenstimme im Post. Blatt 04 gibt die Schutzvorschriften des Entwurfs wieder, also die Sicht des Entwurfs selbst"
+      - "Kabinettsbeschluss am 29.07.2026 und Beratung im Herbst sind berichtet, kein Primaerdokument gesehen"
+      - "Nach ~7 Tagen Kennzahlen (reach/sends/saves) aus Insights nachtragen"
+    kennzahlen:
+      reach: null
+      sends: null
+      sends_per_reach: null
+      saves: null

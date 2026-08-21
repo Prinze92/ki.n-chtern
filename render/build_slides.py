@@ -32,6 +32,8 @@ OUT_LOGO = REPO / "brand" / "logo"
 # wiederherstellbar ueber die Git-Historie (wie seinerzeit Post 3).
 # Hinweis: Post 0/1/4/6/7/9 wurden mit Kicker 30 veroeffentlicht, Post 2/5/8/10/13 mit Kicker 38.
 # Beide geben ihre Groesse deshalb ausdruecklich am kicker()-Aufruf an.
+OUT_POST21 = REPO / "posts" / "post-021-kimvg-asyl-ki" / "slides"
+
 # Post 17/18/20 sind am 20.08.2026 gepostet und nach archive/ gewandert.
 # Post 19 (Datenarbeit / Lieferkettengesetz) wurde am 20.08.2026 verworfen; Ordner und
 # build_post19() geloescht, wiederherstellbar ueber die Git-Historie (Stand: commit 015d309).
@@ -43,7 +45,7 @@ OUT_LOGO = REPO / "brand" / "logo"
 # Ihre build_postN()-Funktionen bleiben als Vorlage stehen, werden aber nicht mehr
 # aufgerufen. Archivierte Blaetter werden nie neu gerendert (siehe CLAUDE.md).
 OUT_STORY = REPO / "brand" / "stories"
-for _d in (OUT_LOGO, OUT_STORY):
+for _d in (OUT_LOGO, OUT_STORY, OUT_POST21):
     _d.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------- palette
@@ -2009,6 +2011,105 @@ def build_post20():
     return slides
 
 
+# ================================================================ POST 21
+def build_post21():
+    """Bauform: Die Rekonstruktion. Die Zeitachse ist der Befund: Referentenentwurf am
+    25.06., Stellungnahmen am 02.07., Kabinettsbeschluss am 29.07., Beratung im Herbst.
+    Blatt 05 haelt fest, an welcher Stelle dieser Kette die Recherche aussteigen musste,
+    weil die beschlossene Fassung nicht abrufbar war. Ein bebildertes Blatt, Beleg-Panel
+    auf Blatt 03 mit der Ausnahmeregel fuer biometrische Daten."""
+    T = 6
+    ST = "STAND 21.08.2026"
+    slides = []
+
+    # --- 01 HOOK
+    img, d = new(1, T, ST)
+    y = 268
+    fo = f("COND", 84)
+    for line in ["DAS BAMF SOLL SEINE", "KI MIT ASYLANTRÄGEN", "TRAINIEREN DÜRFEN"]:
+        d.text((M, y), line, font=fo, fill=INK); y += 100
+    y += 32
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 54
+    block(d, y, "So steht es im Referentenentwurf des Innenministeriums für das "
+                "KI-Migrationsverwaltungsgesetz, Bearbeitungsstand 25. Juni 2026. Das "
+                "Kabinett hat am 29. Juli eine Fassung beschlossen.",
+          f("BOOK", 46), INK, MAXW - 40, 1.4)
+    slides.append(img)
+
+    # --- 02 Was der Entwurf erlaubt
+    img, d = new(2, T, ST)
+    y = kicker(d, 236, "25. Juni, der Entwurf geht raus", size=38)
+    block(d, y, "Der Entwurf ändert das Asylgesetz an drei Stellen. Ein neuer Paragraf 7 "
+                "Absatz 2a erlaubt, die im Verfahren erhobenen Daten auch zum Entwickeln, "
+                "Trainieren, Validieren und Testen von KI-Systemen zu verarbeiten. "
+                "Paragraf 7a führt ein automatisiertes Verfahrensmonitoring ein, das "
+                "abgeschlossene Verfahren auswertet. Paragraf 7b erlaubt den "
+                "automatisierten Abgleich mit öffentlich zugänglichen Daten aus dem "
+                "Internet. Im Aufenthaltsgesetz stehen dieselben Regeln.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 03 Die Ausnahme fuer biometrische Daten (Beleg-Panel)
+    img, d = new(3, T, ST)
+    y = kicker(d, 210, "Wenn das Aussortieren zu aufwendig ist", size=38)
+    y = beleg(d, y,
+              "Referentenentwurf KIMVG, § 7a Absatz 1",
+              ['"Abweichend von Satz 3, ist eine',
+               'Weiterverarbeitung zulässig, soweit eine',
+               'vorherige Aussonderung mit angemessenem',
+               'technischem Aufwand nicht möglich ist."'],
+              sub="Bundesinnenministerium, Stand 25.06.2026")
+    block(d, y + 36, "Satz 3 nimmt biometrische Daten vom Verfahrensmonitoring aus. Satz 4 "
+                     "lässt sie wieder zu. Ob der Aufwand angemessen ist, beurteilt die "
+                     "Behörde, die die Daten verarbeiten möchte.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 04 Die Grenzen, die der Entwurf selbst zieht
+    img, d = new(4, T, ST)
+    y = kicker(d, 226, "Was der Entwurf ausdrücklich verbietet", size=38)
+    block(d, y, "Die Ergebnisse des Verfahrensmonitorings dürfen nicht zur Bewertung oder "
+                "Prognose des Verhaltens einzelner Personen dienen. Die Behörden müssen "
+                "sicherstellen, dass diskriminierende Algorithmen weder entstehen noch "
+                "benutzt werden. Jedes Ergebnis eines Internetabgleichs ist von Hand zu "
+                "bewerten. Die Begründung schreibt, die abschließende Entscheidung "
+                "verbleibe uneingeschränkt bei den Mitarbeitenden.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 05 Die Luecke, die der Post nicht schliessen kann
+    img, d = new(5, T, ST)
+    y = kicker(d, 236, "Was ich nicht lesen konnte", size=38)
+    block(d, y, "Am 29. Juli hat das Kabinett eine Fassung beschlossen. Die Seite des "
+                "Innenministeriums dazu hat mir beim Abruf einen Fehler geliefert, und eine "
+                "Drucksachennummer habe ich nicht gefunden. Alles auf den Blättern davor "
+                "stammt aus der Fassung vom 25. Juni. Was beschlossen wurde, kann davon "
+                "abweichen. Im Herbst beraten Bundestag und Bundesrat.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 06 Quellen
+    img, d = new(6, T, ST)
+    y = kicker(d, 232, "Quellen", size=38)
+    for s_ in ["Referentenentwurf KIMVG, Stand 25.06.2026, im Volltext gelesen",
+               "Asylgesetz §§ 7, 7a, 7b · Aufenthaltsgesetz §§ 90d, 90e",
+               "KI-Verordnung (EU) 2024/1689, Artikel 3 Nummer 1"]:
+        caret(d, M + 18, y + 22, 28, 6, RED)
+        yy = y
+        for ln in wrap(d, s_, f("BOOK", 40), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 40), fill=INK); yy += int(40 * 1.4)
+        y = yy + 18
+    y += 8
+    d.line([(M, y), (W - M, y)], fill=RULE, width=2); y += 26
+    y = block(d, y, "Kein Rechtsrat. Der Entwurf ist nicht in Kraft.",
+              f("BOOK", 36), MUTED, MAXW, 1.4, 20)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar.",
+          f("BOOK", 36), RED, MAXW, 1.4)
+    slides.append(img)
+
+    return slides
+
+
 # ================================================================ STORIES (1080x1920)
 def build_stories():
     """Story-Slides im Hochformat. Inhalt bleibt in der Sicherheitszone (oben ~260 px für
@@ -2103,7 +2204,8 @@ def save_slides(slides, out_dir):
 # Nur aktive Posts rendern. Stand 20.08.2026 gibt es keinen: Post 0 bis 18 und 20 sind
 # gepostet und liegen unter archive/, Post 3, 11 und 19 wurden verworfen.
 print(f"Logo    -> {OUT_LOGO}")
-print("Kein aktiver Post zu rendern.")
+n21 = save_slides(build_post21(), OUT_POST21)
+print(f"Post 21: {n21} Blätter -> {OUT_POST21}")
 print("(Post 0-2/4-10/12-18/20 gepostet & archiviert -> archive/, nicht neu gerendert)")
 print("(Post 3/11/19 verworfen, siehe posts/posts.yaml und research/ideas.md)")
 
