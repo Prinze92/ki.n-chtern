@@ -50,6 +50,9 @@ Wie wir entscheiden, was wir posten. Reihenfolge: **Idee → Recherche an Primä
 | KI-Migrationsverwaltungsgesetz: BAMF darf mit Antragsdaten KI trainieren | Unbequeme Frage | Referentenentwurf BMI, Stand 25.06.2026, im Volltext gelesen | verplant → Post 21 |
 | Dienste, die die Aufnahme-LED von Kamerabrillen abschalten | Betrifft dich | Guardian-Recherche 20.08.2026 (nicht gelesen); Maßstab § 8 TDDDG am Gesetzestext geprüft | roh |
 | Meta bewarb eine Nudify-App, obwohl der Trilog ein Verbot vereinbart hat | Unbequeme Frage | Ars Technica 20.08.2026; Trilog-Einigung 07.05.2026 nur über netzpolitik, Verordnungstext ungelesen | roh |
+| Carlsen und Marc-Uwe Kling verklagen OpenAI wegen des NEINhorns | Fall der Woche | Börsenblatt 19.08.2026; GEMA-Mitteilung 11.11.2025 im Rohtext geprüft | verplant → Post 22 |
+| Die Schutzregel, die endet, wo sie Arbeit macht | Unbequeme Frage | KIMVG § 7a Abs. 1 S. 4 (im Original gelesen) und PolG NRW § 23 Abs. 6 (nur über netzpolitik 20.04.2026) | recherchiert |
+| Wiener Polizei kaufte KI-Datenanalyse für 75.000 Euro | Unbequeme Frage | Der Standard über netzpolitik-Ticker 21.08.2026, nicht gelesen | roh |
 
 > Die fünf Ideen oberhalb (Palantir … AI Overview) stammen aus der **Kommentar-Session (Aug 2026)** —
 > externe Aufhänger bei @bundesagenturfuerarbeit, @netzpolitikorg, @zdfheute, @spiegelmagazin, @evolving.ai.
@@ -542,3 +545,34 @@ eines anderen unbemerkt aufzunehmen. Genau an der Erkennbarkeit hing die bisher 
 der Bundesnetzagentur zur Kamerabrille.
 *Vor einem Post:* einen deutschen Fall belegen. Ohne den bleibt es ein Kommentar. Post 10 deckt die
 Brille bereits ab, ein Folgepost bräuchte den Rechtsmaßstab als eigenen Gegenstand.
+
+## Recherchierte Einzelbefunde (Stand 22.08.2026)
+
+**Die Schutzregel, die endet, wo sie Arbeit macht.** Beim Bauen von Post 21 und 22 ist ein Muster
+aufgefallen, das über beide hinausgeht. Zwei deutsche Regelwerke lassen eine Schutzvorkehrung entfallen,
+sobald sie aufwendig wird:
+- **KI-Migrationsverwaltungsgesetz**, Referentenentwurf, Stand 25.06.2026, § 7a Absatz 1 Satz 4:
+  Biometrische Daten sind vom Verfahrensmonitoring ausgenommen, eine Weiterverarbeitung ist aber
+  zulässig, „soweit eine vorherige Aussonderung mit angemessenem technischem Aufwand nicht möglich ist".
+  **Im Original gelesen und per Suche bestätigt.**
+- **Polizeigesetz Nordrhein-Westfalen, § 23 Absatz 6:** Nach dem Bericht von netzpolitik.org vom
+  20.04.2026 über den 31. Tätigkeitsbericht der Landesdatenschutzbeauftragten Bettina Gayk erlaubt die
+  Vorschrift KI-Training mit „so gut wie keine[n] Einschränkungen oder Voraussetzungen", und die
+  Anonymisierung könne unterbleiben, wenn sie „voraussichtlich mit einem hohen Aufwand verbunden" sei.
+  **Nur berichtet. Weder der Tätigkeitsbericht noch das Gesetz sind gelesen.**
+*Vor dem Bauen:* § 23 Absatz 6 PolG NRW am Gesetzestext lesen und den Tätigkeitsbericht beschaffen. Erst
+wenn beides steht, trägt der Post. Dann wäre er stark, weil er eine Formulierung sichtbar macht, die in
+mehreren Gesetzen dieselbe Funktion hat.
+*Ebenfalls dort notiert:* Gayk hält die automatisierte Datenanalyse im Polizeigesetz NRW für
+verfassungsrechtlich zweifelhaft, und der Palantir-Vertrag läuft im Oktober 2026 aus. Passt zur
+vorhandenen Palantir-Idee weiter oben.
+
+**Zur Reihe der Münchner KI-Verfahren.** Für einen Folgepost oder einen Kommentar:
+- LG München I, 11.11.2025, 42 O 14139/24, GEMA gegen OpenAI (Songtexte). Berufung von OpenAI am
+  08.12.2025, OLG München, 6 U 3662/25 e. **Nicht rechtskräftig.**
+- LG München I, 42 O 763/25, GEMA gegen Suno (Musikgenerierung). Steht schon weiter oben als Idee.
+- LG München I, 26 O 869/26, Urteil vom 28.05.2026, Google und die KI-Übersichten. Steht schon oben.
+- Neu am 19.08.2026: Carlsen, Marc-Uwe Kling und Astrid Henn gegen OpenAI Ireland, sowie Penguin Random
+  House wegen „Der kleine Drache Kokosnuss". Kein Aktenzeichen gefunden.
+*Der Post daraus wäre:* Warum München zum Ort wird, an dem über KI und Urheberrecht entschieden wird.
+Vorher zu klären: ob es dieselbe Kammer ist, und ob mindestens eines der Urteile rechtskräftig wird.

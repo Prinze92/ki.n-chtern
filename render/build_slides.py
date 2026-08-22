@@ -33,6 +33,7 @@ OUT_LOGO = REPO / "brand" / "logo"
 # Hinweis: Post 0/1/4/6/7/9 wurden mit Kicker 30 veroeffentlicht, Post 2/5/8/10/13 mit Kicker 38.
 # Beide geben ihre Groesse deshalb ausdruecklich am kicker()-Aufruf an.
 OUT_POST21 = REPO / "posts" / "post-021-kimvg-asyl-ki" / "slides"
+OUT_POST22 = REPO / "posts" / "post-022-carlsen-openai-neinhorn" / "slides"
 
 # Post 17/18/20 sind am 20.08.2026 gepostet und nach archive/ gewandert.
 # Post 19 (Datenarbeit / Lieferkettengesetz) wurde am 20.08.2026 verworfen; Ordner und
@@ -45,7 +46,7 @@ OUT_POST21 = REPO / "posts" / "post-021-kimvg-asyl-ki" / "slides"
 # Ihre build_postN()-Funktionen bleiben als Vorlage stehen, werden aber nicht mehr
 # aufgerufen. Archivierte Blaetter werden nie neu gerendert (siehe CLAUDE.md).
 OUT_STORY = REPO / "brand" / "stories"
-for _d in (OUT_LOGO, OUT_STORY, OUT_POST21):
+for _d in (OUT_LOGO, OUT_STORY, OUT_POST21, OUT_POST22):
     _d.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------- palette
@@ -2110,6 +2111,102 @@ def build_post21():
     return slides
 
 
+# ================================================================ POST 22
+def build_post22():
+    """Bauform: Der Fall. Ein datierter Vorgang mit Beteiligten und Gericht. Der Mehrwert
+    liegt auf Blatt 03 und 04: dasselbe Gericht hat im November 2025 schon entschieden,
+    und dieses vielzitierte Urteil ist nicht rechtskraeftig. Ein bebildertes Blatt,
+    Beleg-Panel auf Blatt 03 mit dem im Rohtext geprueften Satz der GEMA-Mitteilung.
+    Der Kopf des Panels nennt die GEMA und nicht das Gericht, weil es die Darstellung
+    der obsiegenden Partei ist und nicht der Urteilstext."""
+    T = 6
+    ST = "STAND 22.08.2026"
+    slides = []
+
+    # --- 01 HOOK
+    img, d = new(1, T, ST)
+    y = 268
+    fo = f("COND", 84)
+    for line in ["EIN KINDERBUCHVERLAG", "VERKLAGT OPENAI WEGEN", "DES NEINHORNS"]:
+        d.text((M, y), line, font=fo, fill=INK); y += 100
+    y += 32
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 54
+    block(d, y, "Der Carlsen Verlag, der Autor Marc-Uwe Kling und die Illustratorin "
+                "Astrid Henn haben am 19. August 2026 vor dem Landgericht München I "
+                "Klage gegen OpenAI Ireland eingereicht.",
+          f("BOOK", 46), INK, MAXW - 40, 1.4)
+    slides.append(img)
+
+    # --- 02 Der Vorwurf
+    img, d = new(2, T, ST)
+    y = kicker(d, 236, "19. August, Klage in München", size=38)
+    block(d, y, "Der Vorwurf lautet, schon einfache Anfragen an ChatGPT erzeugten "
+                "Geschichten und Bilder, die dem NEINhorn in den wesentlichen "
+                "schöpferischen Zügen gleichen. Das ist bislang die Darstellung der "
+                "Klägerseite. Parallel klagt Penguin Random House in München wegen der "
+                "Reihe „Der kleine Drache Kokosnuss“ von Ingo Siegner.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 03 Der Praezedenzfall (Beleg-Panel)
+    img, d = new(3, T, ST)
+    y = kicker(d, 210, "Das Urteil, auf das sich alle berufen", size=38)
+    y = beleg(d, y,
+              "GEMA zum Urteil des LG München I",
+              ['"In den Systemen seien Kopien der',
+               'Originalwerke enthalten, die auf einfache',
+               'Prompts der Nutzerinnen und Nutzer',
+               'ausgegeben würden."'],
+              sub="Pressemitteilung, 11.11.2025")
+    block(d, y + 36, "Dasselbe Gericht entschied das am 11. November 2025 über neun "
+                     "deutsche Songtexte, Aktenzeichen 42 O 14139/24. Den Urteilstext "
+                     "selbst habe ich nicht gelesen.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 04 Die Einschraenkung
+    img, d = new(4, T, ST)
+    y = kicker(d, 236, "Rechtskräftig ist davon nichts", size=38)
+    block(d, y, "Das Urteil ist erstinstanzlich. Nach Angaben der Initiative Urheberrecht "
+                "hat OpenAI am 8. Dezember 2025 Berufung eingelegt, das Verfahren liegt "
+                "beim Oberlandesgericht München unter 6 U 3662/25 e. Wer die Entscheidung "
+                "als geltende Rechtslage zitiert, geht einen Schritt zu weit.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 05 Der Bezug ueber die Verlage hinaus
+    img, d = new(5, T, ST)
+    y = kicker(d, 236, "Wen es über die Verlage hinaus angeht", size=38)
+    block(d, y, "Gestritten wird über das, was hinten herauskommt. Für Liedtexte hat das "
+                "Gericht festgestellt, dass einfache Eingaben genügten. Was daraus für "
+                "einzelne Nutzerinnen und Nutzer folgt, ist damit nicht entschieden, und "
+                "ich bewerte das hier nicht. Nach dem Aktenzeichen der neuen Klage habe "
+                "ich eine halbe Stunde gesucht. Es gibt noch keins.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 06 Quellen
+    img, d = new(6, T, ST)
+    y = kicker(d, 232, "Quellen", size=38)
+    for s_ in ["Börsenblatt vom 19.08.2026 zur Klage von Carlsen",
+               "GEMA-Pressemitteilung vom 11.11.2025, im Wortlaut geprüft",
+               "LG München I 42 O 14139/24 · OLG München 6 U 3662/25 e"]:
+        caret(d, M + 18, y + 22, 28, 6, RED)
+        yy = y
+        for ln in wrap(d, s_, f("BOOK", 40), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 40), fill=INK); yy += int(40 * 1.4)
+        y = yy + 18
+    y += 8
+    d.line([(M, y), (W - M, y)], fill=RULE, width=2); y += 26
+    y = block(d, y, "Kein Rechtsrat. Der Urteilstext selbst ist nicht gelesen.",
+              f("BOOK", 36), MUTED, MAXW, 1.4, 20)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar.",
+          f("BOOK", 36), RED, MAXW, 1.4)
+    slides.append(img)
+
+    return slides
+
+
 # ================================================================ STORIES (1080x1920)
 def build_stories():
     """Story-Slides im Hochformat. Inhalt bleibt in der Sicherheitszone (oben ~260 px für
@@ -2206,6 +2303,8 @@ def save_slides(slides, out_dir):
 print(f"Logo    -> {OUT_LOGO}")
 n21 = save_slides(build_post21(), OUT_POST21)
 print(f"Post 21: {n21} Blätter -> {OUT_POST21}")
+n22 = save_slides(build_post22(), OUT_POST22)
+print(f"Post 22: {n22} Blätter -> {OUT_POST22}")
 print("(Post 0-2/4-10/12-18/20 gepostet & archiviert -> archive/, nicht neu gerendert)")
 print("(Post 3/11/19 verworfen, siehe posts/posts.yaml und research/ideas.md)")
 

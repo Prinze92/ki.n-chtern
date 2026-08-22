@@ -481,3 +481,29 @@ posts:
       sends: null
       sends_per_reach: null
       saves: null
+
+  - id: 22
+    slug: carlsen-openai-neinhorn
+    ordner: post-022-carlsen-openai-neinhorn
+    titel: "Ein Kinderbuchverlag verklagt OpenAI wegen des NEINhorns"
+    saeule: fall_der_woche
+    bauform: der_fall
+    status: gerendert          # 6 Blaetter (Stand 22.08.2026); GEMA-Mitteilung im Rohtext geprueft
+    blaetter: 6
+    geplant_fuer: aktuell
+    gepostet_am: null
+    offen:
+      - "KEIN GERICHTSTEXT AUS ERSTER HAND. Der Urteilstext 42 O 14139/24 ist nicht gelesen, eine Pressemitteilung des LG Muenchen I nicht gefunden (justiz.bayern.de lieferte HTTP 404), die Klageschrift ist nicht oeffentlich"
+      - "Das Panel-Zitat stammt aus der GEMA-Pressemitteilung, also von der obsiegenden Partei, nicht aus dem Urteil. Der Panel-Kopf nennt deshalb die GEMA und nicht das Gericht. Rohtext geladen, Wortlaut per Suche bestaetigt"
+      - "KEINE STELLUNGNAHME VON OPENAI. Groesste Schwaeche des Posts. Vor dem Posten pruefen, ob sich OpenAI geaeussert hat"
+      - "Berufung (08.12.2025, OLG Muenchen, 6 U 3662/25 e) ist berichtet ueber die Initiative Urheberrecht, die sich ihrerseits auf 'ai fray' stuetzt. Nicht beim Gericht bestaetigt, im Post zugeschrieben"
+      - "Kein Aktenzeichen zur Carlsen-Klage gefunden, das Verfahren ist gerade erst eingegangen. Steht so auf Blatt 05"
+      - "Ob dieselbe Kammer zustaendig ist, ist offen. Das Urteil vom 11.11.2025 stammt von der 42. Zivilkammer. Der Post sagt 'dasselbe Gericht'"
+      - "Die neun Songtexte sind in der gelesenen GEMA-Mitteilung nicht aufgelistet, bleiben deshalb draussen"
+      - "§ 44b UrhG nicht am Gesetzestext geprueft, der Post zitiert keinen Paragrafen"
+      - "Nach ~7 Tagen Kennzahlen (reach/sends/saves) aus Insights nachtragen"
+    kennzahlen:
+      reach: null
+      sends: null
+      sends_per_reach: null
+      saves: null
