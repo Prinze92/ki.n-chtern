@@ -576,3 +576,59 @@ vorhandenen Palantir-Idee weiter oben.
   House wegen „Der kleine Drache Kokosnuss". Kein Aktenzeichen gefunden.
 *Der Post daraus wäre:* Warum München zum Ort wird, an dem über KI und Urheberrecht entschieden wird.
 Vorher zu klären: ob es dieselbe Kammer ist, und ob mindestens eines der Urteile rechtskräftig wird.
+
+## Recherchierte Einzelbefunde (Stand 23.08.2026)
+
+**Das Muster von gestern hat eine dritte Variante.** Am 22.08. stand hier „die Schutzregel, die endet,
+wo sie Arbeit macht". Der heutige Fund ist verwandt und beim Bauen von Post 23 am Gesetz belegt worden:
+**eine Pflicht, die im Gesetz steht, aber im Bußgeldkatalog fehlt.**
+- **Energieeffizienzgesetz § 13 Absatz 1 Satz 1** verpflichtet Rechenzentrumsbetreiber, die Angaben aus
+  Anlage 3 bis zum 31. März zu veröffentlichen **und** an den Bund zu übermitteln.
+- **§ 19 Absatz 1 Nummer 6** nennt als Ordnungswidrigkeit nur, wer „entgegen § 13 Absatz 1 Satz 1 eine
+  Information nicht, nicht richtig, nicht vollständig oder nicht rechtzeitig **übermittelt**".
+- **Gegenprobe § 19 Absatz 1 Nummer 2:** Beim Umsetzungsplan nach § 9 nennt derselbe Katalog beides,
+  „erstellt oder … veröffentlicht". Die Auslassung bei § 13 ist also durchgehalten.
+- **§ 10 (Stichproben)** erfasst nur § 8 und § 9, nicht § 13.
+**Alles im Wortlaut an gesetze-im-internet.de gelesen.** Verwertet in Post 23, Blatt 04.
+
+**Aus BR-Drucksache 388/26 nicht verwertet** (Gesetzentwurf der Bundesregierung „zur Beschleunigung der
+Umsetzung der Energieeffizienzrichtlinie", 25.06.2026, 101 Seiten, im Volltext gelesen):
+- **Geplanter § 13 Absatz 3:** Die übermittelten Informationen sind vertraulich zu behandeln, eine
+  Weitergabe oder Veröffentlichung erfolgt ohne Zustimmung „nur in aggregierter und anonymisierter
+  Form". Die Begründung sagt dazu, so geschehe es „bereits auf der Website des Energieeffizienzregisters
+  für Rechenzentren des Bundes". **Das steht in Spannung zu netzpolitik.org vom 22.08.2026**, wonach das
+  Register nun Daten einzelner Anlagen zeigt. Nicht aufgelöst, weil das Register nicht erreichbar war.
+- **Geplanter § 18 (Stichproben)** nimmt erstmals „die Übermittlung und Veröffentlichung von
+  Informationen nach § 13 Absatz 1" in die BAFA-Kontrolle auf. Gegengewicht, steht auf Blatt 04.
+- **§ 10, § 15 und § 17 alter Fassung werden gestrichen**, § 11 und § 16 neu gefasst. Für einen Post
+  über Entbürokratisierung als Methode wäre das Material.
+- **Offen und lohnend:** Ob das BAFA je ein Bußgeld nach § 19 Absatz 1 Nummer 6 verhängt hat. Eine
+  Anfrage über FragDenStaat wäre der Weg. Mit dieser Zahl trüge der Befund einen eigenen Post.
+
+**Niedersachsen, Polizeigesetz und KI-Verordnung.** heise online meldet am 22.08.2026 (Stefan Krempl),
+der Landesbeauftragte für den Datenschutz Denis Lehmkemper rüge im Tätigkeitsbericht 2025 die geplante
+Ausweitung biometrischer Gesichtserkennung und automatisierter Datenanalyse.
+- **Geprüft:** Pressemitteilung 04/2026 des Landesbeauftragten vom 26.02.2026. Wörtlich dort: Der
+  beabsichtigte Einsatz von KI-Systemen bewege sich „auf der kritischen Grenze zwischen verbotenen
+  KI-Praktiken und Hochrisiko-KI-Systemen". Und: „Nicht alles, was technisch möglich ist, ist
+  legitimierbar."
+- **Nicht geprüft:** der Tätigkeitsbericht 2025 selbst (vorgelegt am 20.08.2026, PDF unter
+  `lfd.niedersachsen.de/download/231203`). heise nennt daraus § 33 NPOG (Prüfung des Kernbereichs
+  privater Lebensgestaltung).
+- **Der Post daraus:** zusammen mit dem noch offenen Befund zu § 23 Absatz 6 Polizeigesetz
+  Nordrhein-Westfalen. Zwei Landespolizeigesetze, dieselbe Bauart, beide von der jeweiligen
+  Landesdatenschutzaufsicht gerügt. Erst bauen, wenn beide Berichte im Original gelesen sind.
+
+**Kleinere Fundstücke vom 23.08.2026:**
+- Das **Kurzgutachten der Rechtsanwälte Günther** (Dr. Michéle John, Juliane Willert) für
+  AlgorithmWatch und Umweltinstitut München, April 2026, 17 Seiten: Energie- und Wasserverbrauchsdaten
+  von Rechenzentren sind „in der Regel keine schützenswerten Geschäftsgeheimnisse". Parteigutachten,
+  taugt als Quellenzeile, nicht als Beleg.
+- **netzpolitik.org verlinkt im Interview vom 22.08.2026 die EU-Richtlinie und das deutsche Gesetz
+  vertauscht.** Ohne Belang für die Aussagen, aber ein Grund, Fundstellen dort nicht zu übernehmen.
+- **Schwellenwert-Widerspruch, ungelöst:** § 20 Absatz 2 Nummer 2 EnEfG nennt für die Meldepflicht seit
+  01.07.2025 eine nicht redundante Nennanschlussleistung ab 200 Kilowatt. netzpolitik nennt 300 Kilowatt
+  IT-Anschlussleistung. Andere Bezugsgröße. Wer den Strang weiterführt, sollte das klären.
+- **LinkedIn:** über eine Million Beiträge in drei Wochen als KI-Slop gemeldet (heise, 22.08.2026).
+  Zahl vom Plattformbetreiber, Trefferquote unbekannt. Erst brauchbar, wenn jemand sagt, wie viele
+  Meldungen zutrafen.

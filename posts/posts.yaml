@@ -507,3 +507,31 @@ posts:
       sends: null
       sends_per_reach: null
       saves: null
+
+  - id: 23
+    slug: rechenzentrumsregister
+    ordner: post-023-rechenzentrumsregister
+    titel: "Im Rechenzentrumsregister des Bundes fehlt die Hälfte"
+    saeule: betrifft_dich
+    bauform: widerspruch
+    status: gerendert          # 6 Blaetter (Stand 23.08.2026); EnEfG und BR-Drs. 388/26 im Wortlaut geprueft
+    blaetter: 6
+    geplant_fuer: aktuell
+    gepostet_am: null
+    offen:
+      - "REGISTER NICHT SELBST GESEHEN. rechenzentrumsregister.bund.de war aus dieser Umgebung nicht erreichbar (Gateway 502 auf CONNECT, DNS schlug fehl). Die Zahl 482 ist eine Auskunft des BMWE gegenueber netzpolitik.org mit Stand 06.07.2026, also BERICHTET. Vor dem Posten selbst nachzaehlen; weicht die Zahl ab, muss Blatt 01 neu gebaut werden"
+      - "Die rund 1.000 meldepflichtigen Anlagen sind eine SCHAETZUNG ohne benannte Herkunft. Eine amtliche Gesamtzahl wurde nicht gefunden. Blatt 01 und Blatt 05 sagen das"
+      - "EIGENER BEFUND, am Gesetz geprueft: § 19 Absatz 1 Nummer 6 EnEfG macht nur das Nichtuebermitteln zur Ordnungswidrigkeit, das Nichtveroeffentlichen fehlt. Gegenprobe Nummer 2 (§ 9) nennt beides. Steht in keiner gelesenen Meldung, traegt Blatt 04"
+      - "GEGENGEWICHT auf Blatt 04: Der Entwurf verschaerft an einer Stelle, sein neuer § 18 stellt die Veroeffentlichung erstmals unter Stichprobenkontrolle des BAFA. Ohne diesen Satz waere der Post einseitig"
+      - "Beide Panel-Zitate per String-Suche im Original bestaetigt: § 13 Absatz 1 Satz 1 an gesetze-im-internet.de, der neue Satz in BR-Drucksache 388/26 (PDF, 101 Seiten, Volltext)"
+      - "Spannung ungeloest: Die Entwurfsbegruendung (Juni) beschreibt das Register als rein aggregiert, netzpolitik schreibt am 22.08. von Daten einzelner Anlagen. Deshalb steht keine Aussage ueber den Registerinhalt auf einem Blatt. Siehe sources.md"
+      - "Schwellenwert nicht aufgeloest: § 20 Absatz 2 Nummer 2 EnEfG nennt 200 kW nicht redundante Nennanschlussleistung, netzpolitik nennt 300 kW IT-Anschlussleistung. Andere Bezugsgroesse, deshalb auf keinem Blatt"
+      - "KEINE STELLUNGNAHME DER GEGENSEITE. Weder BMWE noch ein Betreiberverband kommt zu Wort. Die BMWE-Pressemitteilung zum Kabinettsbeschluss war nicht abrufbar (Radware-Sperrseite)"
+      - "OFFEN: ob das BAFA je ein Bussgeld nach § 19 Absatz 1 Nummer 6 verhaengt hat. Wuerde den Post deutlich staerker machen"
+      - "VOR DEM POSTEN pruefen, ob der Bundestag BR-Drs. 388/26 uebernommen hat und ob § 13 dort noch denselben Wortlaut traegt"
+      - "Nach ~7 Tagen Kennzahlen (reach/sends/saves) aus Insights nachtragen"
+    kennzahlen:
+      reach: null
+      sends: null
+      sends_per_reach: null
+      saves: null

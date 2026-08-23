@@ -34,6 +34,7 @@ OUT_LOGO = REPO / "brand" / "logo"
 # Beide geben ihre Groesse deshalb ausdruecklich am kicker()-Aufruf an.
 OUT_POST21 = REPO / "posts" / "post-021-kimvg-asyl-ki" / "slides"
 OUT_POST22 = REPO / "posts" / "post-022-carlsen-openai-neinhorn" / "slides"
+OUT_POST23 = REPO / "posts" / "post-023-rechenzentrumsregister" / "slides"
 
 # Post 17/18/20 sind am 20.08.2026 gepostet und nach archive/ gewandert.
 # Post 19 (Datenarbeit / Lieferkettengesetz) wurde am 20.08.2026 verworfen; Ordner und
@@ -46,7 +47,7 @@ OUT_POST22 = REPO / "posts" / "post-022-carlsen-openai-neinhorn" / "slides"
 # Ihre build_postN()-Funktionen bleiben als Vorlage stehen, werden aber nicht mehr
 # aufgerufen. Archivierte Blaetter werden nie neu gerendert (siehe CLAUDE.md).
 OUT_STORY = REPO / "brand" / "stories"
-for _d in (OUT_LOGO, OUT_STORY, OUT_POST21, OUT_POST22):
+for _d in (OUT_LOGO, OUT_STORY, OUT_POST21, OUT_POST22, OUT_POST23):
     _d.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------- palette
@@ -2207,6 +2208,119 @@ def build_post22():
     return slides
 
 
+# ================================================================ POST 23
+def build_post23():
+    """Bauform: Der Widerspruch. Zwei Beleg-Panels gegeneinander, dazwischen ein Satz.
+    Panel A auf Blatt 02 ist das geltende Recht (EnEfG § 13 Absatz 1 Satz 1: veroeffentlichen
+    UND uebermitteln). Panel B auf Blatt 03 ist der Regierungsentwurf vom 25.06.2026
+    (BR-Drucksache 388/26), der genau die Veroeffentlichung wieder ausnimmt.
+    Blatt 04 traegt den eigenen Befund: der Bussgeldkatalog in § 19 Absatz 1 Nummer 6
+    nennt nur das Uebermitteln, beim Umsetzungsplan nach § 9 nennt derselbe Katalog
+    beides. Beide Panel-Saetze sind an gesetze-im-internet.de bzw. im PDF der Drucksache
+    per String-Suche im Wortlaut bestaetigt. Zwei bebilderte Blaetter, keine Balkenreihe."""
+    T = 6
+    ST = "STAND 23.08.2026"
+    slides = []
+
+    # --- 01 HOOK
+    img, d = new(1, T, ST)
+    y = 268
+    fo = f("COND", 84)
+    for line in ["IM RECHENZENTRUMS-", "REGISTER DES BUNDES", "FEHLT DIE HÄLFTE"]:
+        d.text((M, y), line, font=fo, fill=INK); y += 100
+    y += 32
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 54
+    block(d, y, "Für das Berichtsjahr 2025 sind bis zum 6. Juli 482 Meldungen "
+                "eingegangen. Meldepflichtig sind nach einer Schätzung rund 1.000 "
+                "Rechenzentren.",
+          f("BOOK", 46), INK, MAXW - 40, 1.4)
+    slides.append(img)
+
+    # --- 02 Panel A: was das Gesetz verlangt
+    img, d = new(2, T, ST)
+    y = kicker(d, 190, "Melden und veröffentlichen", size=38)
+    y = beleg(d, y,
+              "Energieeffizienzgesetz, § 13 Absatz 1",
+              ['"Betreiber von Rechenzentren sind verpflichtet,',
+               'bis zum Ablauf des 31. März eines jeden Jahres',
+               'Informationen über ihr Rechenzentrum nach',
+               'Maßgabe der Anlage 3 für das vorangegangene',
+               'Kalenderjahr zu veröffentlichen und an den',
+               'Bund zu übermitteln."'],
+              sub="Fassung vom 13.11.2023, seither unverändert")
+    block(d, y + 36, "Anlage 3 zählt auf, was drinsteht. Postleitzahl, Stromverbrauch, "
+                     "Abwärme und eine Kennzahl für die Wassernutzung. Damit ließe sich "
+                     "nachsehen, was die Anlage im eigenen Ort verbraucht.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 03 Panel B: der Satz, der neu hineinsoll
+    img, d = new(3, T, ST)
+    y = kicker(d, 190, "Der Satz, der neu hineinsoll", size=38)
+    y = beleg(d, y,
+              "Bundesrat-Drucksache 388/26",
+              ['"Von der Pflicht zur Veröffentlichung',
+               'ausgenommen sind Informationen, die dem',
+               'Unionsrecht oder dem nationalen Recht zum',
+               'Schutz von Betriebs- und Geschäfts-',
+               'geheimnissen und der Vertraulichkeit',
+               'unterliegen."'],
+              sub="Gesetzentwurf der Bundesregierung, 25.06.2026")
+    block(d, y + 36, "Beschlossen hat das Kabinett den Entwurf am 24. Juni. Die Begründung "
+                     "hält selbst fest, dass die geltende Fassung diese Ausnahme nicht "
+                     "kennt und bisher sämtliche Informationen öffentlich sein mussten.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 04 Der eigene Befund: das fehlende Wort im Bussgeldkatalog
+    img, d = new(4, T, ST)
+    y = kicker(d, 236, "Im Bußgeldkatalog fehlt ein Wort", size=38)
+    block(d, y, "Wer die Zahlen nicht an den Bund übermittelt, begeht nach § 19 Absatz 1 "
+                "Nummer 6 eine Ordnungswidrigkeit. Bis zu fünfzigtausend Euro. Wer sie "
+                "nicht veröffentlicht, taucht in dieser Liste nicht auf. Beim "
+                "Umsetzungsplan nach § 9 hat der Gesetzgeber beides aufgezählt, das "
+                "Erstellen und das Veröffentlichen. Bei den Rechenzentren steht dort nur "
+                "das Übermitteln. Der Entwurf lässt das so und führt dafür erstmals "
+                "Stichproben ein, die auch die Veröffentlichung erfassen.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 05 Was ich nicht pruefen konnte
+    img, d = new(5, T, ST)
+    y = kicker(d, 236, "Was ich nicht nachzählen konnte", size=38)
+    block(d, y, "Das Register selbst habe ich nicht geöffnet, die Adresse war aus meiner "
+                "Umgebung nicht erreichbar. Die 482 stammen aus einer Auskunft des "
+                "Bundeswirtschaftsministeriums an netzpolitik.org mit Stand 6. Juli. Die "
+                "rund 1.000 meldepflichtigen Anlagen sind eine Schätzung, eine amtliche "
+                "Gesamtzahl habe ich nicht gefunden. Und das fehlende Wort im "
+                "Bußgeldkatalog habe ich erst gesucht, nachdem es ein Interview in einem "
+                "Halbsatz erwähnt hatte.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 06 Quellen
+    img, d = new(6, T, ST)
+    y = kicker(d, 232, "Quellen", size=38)
+    for s_ in ["Energieeffizienzgesetz, § 13, § 14, § 19 und Anlage 3",
+               "Bundesrat-Drucksache 388/26 vom 25.06.2026, Artikel 1 Nummer 11",
+               "netzpolitik.org vom 22.08.2026, Interview mit Julian Bothe",
+               "Kurzgutachten Rechtsanwälte Günther, April 2026"]:
+        caret(d, M + 18, y + 22, 28, 6, RED)
+        yy = y
+        for ln in wrap(d, s_, f("BOOK", 40), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 40), fill=INK); yy += int(40 * 1.4)
+        y = yy + 18
+    y += 8
+    d.line([(M, y), (W - M, y)], fill=RULE, width=2); y += 26
+    y = block(d, y, "Kein Rechtsrat. Das Register selbst ist nicht eingesehen.",
+              f("BOOK", 36), MUTED, MAXW, 1.4, 20)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar.",
+          f("BOOK", 36), RED, MAXW, 1.4)
+    slides.append(img)
+
+    return slides
+
+
 # ================================================================ STORIES (1080x1920)
 def build_stories():
     """Story-Slides im Hochformat. Inhalt bleibt in der Sicherheitszone (oben ~260 px für
@@ -2305,6 +2419,8 @@ n21 = save_slides(build_post21(), OUT_POST21)
 print(f"Post 21: {n21} Blätter -> {OUT_POST21}")
 n22 = save_slides(build_post22(), OUT_POST22)
 print(f"Post 22: {n22} Blätter -> {OUT_POST22}")
+n23 = save_slides(build_post23(), OUT_POST23)
+print(f"Post 23: {n23} Blätter -> {OUT_POST23}")
 print("(Post 0-2/4-10/12-18/20 gepostet & archiviert -> archive/, nicht neu gerendert)")
 print("(Post 3/11/19 verworfen, siehe posts/posts.yaml und research/ideas.md)")
 
