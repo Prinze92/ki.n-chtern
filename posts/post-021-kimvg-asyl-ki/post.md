@@ -34,36 +34,17 @@ Ohne Blatt 05 darf der Post nicht erscheinen.
 
 ## Caption (postfertig)
 
-> Wer in Deutschland Asyl beantragt, gibt dabei sehr viel über sich preis. Ein Gesetzentwurf des
+> Wer in Deutschland Asyl beantragt, gibt dabei sehr viel über sich preis. Ein Referentenentwurf des
 > Innenministeriums will erlauben, mit genau diesen Daten Künstliche Intelligenz zu trainieren.
 >
-> Der Referentenentwurf heißt KI-Migrationsverwaltungsgesetz, kurz KIMVG, und trägt den
-> Bearbeitungsstand 25. Juni 2026. Er ändert das Asylgesetz an drei Stellen. Ein neuer § 7 Absatz 2a
-> erlaubt den Behörden, die zum Zweck des Verfahrens erhobenen Daten auch zum Entwickeln, Trainieren,
-> Validieren und Testen automatisierter Anwendungen zu verarbeiten. Ein neuer § 7a führt ein
-> automatisiertes Verfahrensmonitoring ein, das abgeschlossene Verfahren und die bisherige
-> Entscheidungspraxis auswertet. Ein neuer § 7b erlaubt, öffentlich zugängliche Daten aus dem Internet
-> automatisiert mit Antragsangaben abzugleichen, wenn begründete Zweifel an deren Richtigkeit bestehen.
-> Im Aufenthaltsgesetz stehen dieselben Regeln als § 90d und § 90e.
+> Warum überhaupt, beantwortet der Entwurf selbst. Im Abschnitt Alternativen steht: „Eine Ausweitung
+> der personellen Kapazitäten scheidet aufgrund der Haushaltslage und des Fachkräftemangels aus." Auf
+> den Blättern steht dieser Satz nicht, er gehört aber dazu.
 >
-> Eine Stelle ist mir beim Lesen hängengeblieben. § 7a Absatz 1 Satz 3 nimmt biometrische Daten vom
-> Verfahrensmonitoring aus. Satz 4 erlaubt sie dann doch, wörtlich: „Abweichend von Satz 3, ist eine
-> Weiterverarbeitung zulässig, soweit eine vorherige Aussonderung mit angemessenem technischem Aufwand
-> nicht möglich ist." Ob der Aufwand angemessen ist, entscheidet die Behörde, die die Daten verarbeiten
-> möchte.
->
-> Der Entwurf zieht auch Grenzen, und die gehören dazu. Ergebnisse des Verfahrensmonitorings dürfen
-> nicht zur Bewertung oder Prognose des Verhaltens einzelner Personen verwendet werden. Die Behörden
-> müssen sicherstellen, dass diskriminierende Algorithmen weder entstehen noch benutzt werden. Jedes
-> Ergebnis eines Internetabgleichs muss von Hand bewertet werden. Die Begründung schreibt, die
-> rechtliche Würdigung und die abschließende Entscheidung verblieben uneingeschränkt bei den zuständigen
-> Mitarbeitenden.
->
-> Und jetzt die Einschränkung, die dieser Post nicht auflösen kann. Das Kabinett hat am 29. Juli 2026
-> eine Fassung beschlossen. Die Seite des Innenministeriums dazu hat mir beim Abruf einen Fehler
-> geliefert, und eine Drucksachennummer habe ich nicht gefunden. Alles hier stammt deshalb aus dem
-> Referentenentwurf vom 25. Juni. Was das Kabinett beschlossen hat, kann davon abweichen. Im Herbst
-> beraten Bundestag und Bundesrat.
+> Was der Post nicht auflösen kann: Das Kabinett hat am 29. Juli eine Fassung beschlossen. Die Seite
+> des Innenministeriums lieferte beim Abruf einen Fehler, eine Drucksachennummer habe ich nicht
+> gefunden. Alles hier stammt aus der Fassung vom 25. Juni und kann davon abweichen. Im Herbst beraten
+> Bundestag und Bundesrat.
 >
 > Quelle: Referentenentwurf des Bundesministeriums des Innern, KI-Migrationsverwaltungsgesetz,
 > Bearbeitungsstand 25.06.2026, im Volltext gelesen. Kein Rechtsrat. Fehler gefunden? Schreib es in die

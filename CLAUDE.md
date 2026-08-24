@@ -117,6 +117,14 @@ und in `post.md` unter „Bauform" notieren.** Optik bleibt gleich, Dramaturgie 
 **Immer dabei**
 - **Caption:** Kern zuerst, dann die Einschränkung, dann was es für den Leser heißt. Endet mit
   Quellenhinweis und Korrektur-Einladung. Fünf bis neun Hashtags.
+  **Höchstens 1.200 Zeichen ohne Hashtags, Ziel 900 bis 1.100.** Vorgabe des Kanalinhabers vom
+  24.08.2026: Die Captions waren zu lang. Post 16 bis 23 lagen zwischen 1.900 und 3.100 Zeichen,
+  ab sofort gilt die Hälfte davon als Obergrenze. Vier bis fünf Absätze, keine sechs.
+  **Die Caption wiederholt die Blätter nicht.** Was auf einem Blatt steht, steht dort schon.
+  In die Caption gehört der Kern in zwei Sätzen, das Wichtigste, was nicht auf ein Blatt gepasst
+  hat, die offene Lücke und der Quellenhinweis. Alles Übrige gehört nach `post.md` unter
+  „Bewusst nicht auf den Blättern" und ist damit Vorrat für Kommentarantworten, nicht Fließtext
+  unter dem Post. Zeichenzahl vor dem Ablegen nachmessen, nicht schätzen.
 - **Alt-Text je Blatt.**
 - **`sources.md`** mit Belegtabelle, Belastbarkeitsbewertung und offenen Lücken.
 

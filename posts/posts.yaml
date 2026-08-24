@@ -488,10 +488,10 @@ posts:
     titel: "Ein Kinderbuchverlag verklagt OpenAI wegen des NEINhorns"
     saeule: fall_der_woche
     bauform: der_fall
-    status: gerendert          # 6 Blaetter (Stand 22.08.2026); GEMA-Mitteilung im Rohtext geprueft
+    status: gepostet           # live am 24.08.2026; 6 Blaetter (Stand 22.08.2026), GEMA-Mitteilung im Rohtext geprueft
     blaetter: 6
     geplant_fuer: aktuell
-    gepostet_am: null
+    gepostet_am: 2026-08-24
     offen:
       - "KEIN GERICHTSTEXT AUS ERSTER HAND. Der Urteilstext 42 O 14139/24 ist nicht gelesen, eine Pressemitteilung des LG Muenchen I nicht gefunden (justiz.bayern.de lieferte HTTP 404), die Klageschrift ist nicht oeffentlich"
       - "Das Panel-Zitat stammt aus der GEMA-Pressemitteilung, also von der obsiegenden Partei, nicht aus dem Urteil. Der Panel-Kopf nennt deshalb die GEMA und nicht das Gericht. Rohtext geladen, Wortlaut per Suche bestaetigt"
@@ -510,26 +510,18 @@ posts:
 
   - id: 23
     slug: rechenzentrumsregister
-    ordner: post-023-rechenzentrumsregister
+    ordner: null               # VERWORFEN am 24.08.2026 auf Wunsch des Kanalinhabers; Ordner geloescht
     titel: "Im Rechenzentrumsregister des Bundes fehlt die Hälfte"
     saeule: betrifft_dich
     bauform: widerspruch
-    status: gerendert          # 6 Blaetter (Stand 23.08.2026); EnEfG und BR-Drs. 388/26 im Wortlaut geprueft
+    status: verworfen          # gebaut am 23.08.2026, am 24.08.2026 verworfen (wie Post 3, 11 und 19)
     blaetter: 6
-    geplant_fuer: aktuell
+    geplant_fuer: null
     gepostet_am: null
     offen:
-      - "REGISTER NICHT SELBST GESEHEN. rechenzentrumsregister.bund.de war aus dieser Umgebung nicht erreichbar (Gateway 502 auf CONNECT, DNS schlug fehl). Die Zahl 482 ist eine Auskunft des BMWE gegenueber netzpolitik.org mit Stand 06.07.2026, also BERICHTET. Vor dem Posten selbst nachzaehlen; weicht die Zahl ab, muss Blatt 01 neu gebaut werden"
-      - "Die rund 1.000 meldepflichtigen Anlagen sind eine SCHAETZUNG ohne benannte Herkunft. Eine amtliche Gesamtzahl wurde nicht gefunden. Blatt 01 und Blatt 05 sagen das"
-      - "EIGENER BEFUND, am Gesetz geprueft: § 19 Absatz 1 Nummer 6 EnEfG macht nur das Nichtuebermitteln zur Ordnungswidrigkeit, das Nichtveroeffentlichen fehlt. Gegenprobe Nummer 2 (§ 9) nennt beides. Steht in keiner gelesenen Meldung, traegt Blatt 04"
-      - "GEGENGEWICHT auf Blatt 04: Der Entwurf verschaerft an einer Stelle, sein neuer § 18 stellt die Veroeffentlichung erstmals unter Stichprobenkontrolle des BAFA. Ohne diesen Satz waere der Post einseitig"
-      - "Beide Panel-Zitate per String-Suche im Original bestaetigt: § 13 Absatz 1 Satz 1 an gesetze-im-internet.de, der neue Satz in BR-Drucksache 388/26 (PDF, 101 Seiten, Volltext)"
-      - "Spannung ungeloest: Die Entwurfsbegruendung (Juni) beschreibt das Register als rein aggregiert, netzpolitik schreibt am 22.08. von Daten einzelner Anlagen. Deshalb steht keine Aussage ueber den Registerinhalt auf einem Blatt. Siehe sources.md"
-      - "Schwellenwert nicht aufgeloest: § 20 Absatz 2 Nummer 2 EnEfG nennt 200 kW nicht redundante Nennanschlussleistung, netzpolitik nennt 300 kW IT-Anschlussleistung. Andere Bezugsgroesse, deshalb auf keinem Blatt"
-      - "KEINE STELLUNGNAHME DER GEGENSEITE. Weder BMWE noch ein Betreiberverband kommt zu Wort. Die BMWE-Pressemitteilung zum Kabinettsbeschluss war nicht abrufbar (Radware-Sperrseite)"
-      - "OFFEN: ob das BAFA je ein Bussgeld nach § 19 Absatz 1 Nummer 6 verhaengt hat. Wuerde den Post deutlich staerker machen"
-      - "VOR DEM POSTEN pruefen, ob der Bundestag BR-Drs. 388/26 uebernommen hat und ob § 13 dort noch denselben Wortlaut traegt"
-      - "Nach ~7 Tagen Kennzahlen (reach/sends/saves) aus Insights nachtragen"
+      - "Wiederherstellbar ueber die Git-Historie: Ordner posts/post-023-rechenzentrumsregister und build_post23() stehen in commit eac08db"
+      - "Die geprueften Befunde sind in research/ideas.md gesichert (Abschnitt 'Recherchierte Einzelbefunde (Stand 23.08.2026)'): EnEfG § 13 Absatz 1 Satz 1 gegen § 19 Absatz 1 Nummer 6, Gegenprobe Nummer 2, § 10, sowie der Wortlaut aus BR-Drucksache 388/26"
+      - "Der Befund zum Bussgeldkatalog bleibt gueltig und ist am Gesetzestext belegt. Er kann in einem anderen Post wiederverwendet werden"
     kennzahlen:
       reach: null
       sends: null

@@ -632,3 +632,38 @@ Ausweitung biometrischer Gesichtserkennung und automatisierter Datenanalyse.
 - **LinkedIn:** über eine Million Beiträge in drei Wochen als KI-Slop gemeldet (heise, 22.08.2026).
   Zahl vom Plattformbetreiber, Trefferquote unbekannt. Erst brauchbar, wenn jemand sagt, wie viele
   Meldungen zutrafen.
+
+## Gerettet aus dem verworfenen Post 23 (24.08.2026)
+
+Post 23 wurde am 24.08.2026 auf Wunsch des Kanalinhabers verworfen. Die Recherche bleibt gültig, sie ist
+vollständig am Primärdokument geprüft und steht ausführlich im Abschnitt „Recherchierte Einzelbefunde
+(Stand 23.08.2026)" weiter oben. Kurzfassung für die Wiederverwendung:
+
+- **Der Befund, der einen eigenen Post trägt:** Das Energieeffizienzgesetz verlangt in § 13 Absatz 1
+  Satz 1 von Rechenzentrumsbetreibern, die Angaben aus Anlage 3 bis zum 31. März zu **veröffentlichen
+  und** an den Bund zu übermitteln. § 19 Absatz 1 Nummer 6 macht aber nur das Nicht**übermitteln** zur
+  Ordnungswidrigkeit. Beim Umsetzungsplan nach § 9 nennt derselbe Katalog in Nummer 2 ausdrücklich
+  beides. § 10 (Stichproben) erfasst § 13 überhaupt nicht.
+- **Der Gegenpol:** Bundesrat-Drucksache 388/26 vom 25.06.2026 (Kabinett 24.06.) fügt hinter § 13
+  Absatz 1 Satz 1 ein: „Von der Pflicht zur Veröffentlichung ausgenommen sind Informationen, die dem
+  Unionsrecht oder dem nationalen Recht zum Schutz von Betriebs- und Geschäftsgeheimnissen und der
+  Vertraulichkeit unterliegen." Der neue § 18 desselben Entwurfs stellt die Veröffentlichung dafür
+  erstmals unter Stichprobenkontrolle des BAFA.
+- **Nicht belegt und beim nächsten Anlauf zu klären:** die Zahl 482 (Auskunft des
+  Bundeswirtschaftsministeriums an netzpolitik.org, Stand 06.07.2026) und die Schätzung von rund 1.000
+  meldepflichtigen Anlagen. `rechenzentrumsregister.bund.de` war aus dieser Umgebung nicht erreichbar.
+- **Die Blätter und `build_post23()` liegen in der Git-Historie**, Stand commit `eac08db`.
+
+## Regeländerung vom 24.08.2026: Captions kürzen
+
+Der Kanalinhaber hat entschieden, dass die Captions zu lang sind und ab sofort mindestens halbiert
+werden. In CLAUDE.md steht jetzt: höchstens 1.200 Zeichen ohne Hashtags, Ziel 900 bis 1.100, vier bis
+fünf Absätze, und die Caption wiederholt die Blätter nicht.
+
+Zum Vergleich der Ausgangslage, gemessen am 24.08.2026: Post 20 lag bei 1.933 Zeichen, Post 22 bei
+2.239, Post 16 bei 2.389, Post 21 bei 2.601, Post 23 bei 3.088. Die Caption von Post 21 ist am
+24.08.2026 auf 1.004 Zeichen gekürzt worden. Dabei ist ein Nebeneffekt aufgefallen, der die Regel
+stützt: Beim Kürzen fiel alles weg, was ohnehin schon auf einem Blatt stand, und übrig blieb Platz für
+etwas Neues. In die Caption von Post 21 ist deshalb ein Satz aus dem Abschnitt Alternativen des
+Referentenentwurfs gewandert, der auf keinem Blatt steht: „Eine Ausweitung der personellen Kapazitäten
+scheidet aufgrund der Haushaltslage und des Fachkräftemangels aus." Im Volltext per Suche bestätigt.
