@@ -33,6 +33,7 @@ OUT_LOGO = REPO / "brand" / "logo"
 # Hinweis: Post 0/1/4/6/7/9 wurden mit Kicker 30 veroeffentlicht, Post 2/5/8/10/13 mit Kicker 38.
 # Beide geben ihre Groesse deshalb ausdruecklich am kicker()-Aufruf an.
 OUT_POST21 = REPO / "posts" / "post-021-kimvg-asyl-ki" / "slides"
+OUT_POST24 = REPO / "posts" / "post-024-uber-automatische-sperrung" / "slides"
 
 # Post 22 (Carlsen gegen OpenAI) ist am 24.08.2026 gepostet und nach archive/ gewandert.
 # Post 23 (Rechenzentrumsregister) wurde am 24.08.2026 verworfen; Ordner und build_post23()
@@ -50,7 +51,7 @@ OUT_POST21 = REPO / "posts" / "post-021-kimvg-asyl-ki" / "slides"
 # Ihre build_postN()-Funktionen bleiben als Vorlage stehen, werden aber nicht mehr
 # aufgerufen. Archivierte Blaetter werden nie neu gerendert (siehe CLAUDE.md).
 OUT_STORY = REPO / "brand" / "stories"
-for _d in (OUT_LOGO, OUT_STORY, OUT_POST21):
+for _d in (OUT_LOGO, OUT_STORY, OUT_POST21, OUT_POST24):
     _d.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------- palette
@@ -2211,6 +2212,113 @@ def build_post22():
     return slides
 
 
+# ================================================================ POST 24
+def build_post24():
+    """Bauform: Der Fall. Ein datierter Vorgang mit Beteiligten, Behoerde und Zahl.
+    Zwei bebilderte Blaetter, das erlaubte Maximum. Beleg-Panel auf Blatt 03 mit dem
+    Zitat der stellvertretenden AP-Vorsitzenden im niederlaendischen Original (die
+    Uebersetzung steht darunter im Fliesstext, nicht im Panel, weil ins Panel nur
+    woertliche Zitate gehoeren). Balkenreihe auf Blatt 04 mit den vier Bussgeldern
+    der AP gegen Uber, lineare Skala: die 600.000 aus 2018 werden dabei zum Splitter,
+    und genau das ist die Aussage. Blatt 05 traegt den Bezug nach Deutschland und
+    zugleich das Gegenargument, das Uber im Einspruch fuehren wird (Artikel 22
+    Absatz 2 DSGVO laesst Ausnahmen zu)."""
+    T = 6
+    ST = "STAND 25.08.2026"
+    slides = []
+
+    # --- 01 HOOK
+    img, d = new(1, T, ST)
+    y = 268
+    fo = f("COND", 84)
+    for line in ["EINE SOFTWARE SPERRTE", "UBER-FAHRER AUS. IHR", "GELD WAR SOFORT WEG"]:
+        d.text((M, y), line, font=fo, fill=INK); y += 100
+    y += 32
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 54
+    block(d, y, "Die niederländische Datenschutzbehörde hat dafür am 21. August ein "
+                "Bußgeld von 824.990.000 Euro verhängt.",
+          f("BOOK", 46), INK, MAXW - 40, 1.4)
+    slides.append(img)
+
+    # --- 02 Was die Software entschied
+    img, d = new(2, T, ST)
+    y = kicker(d, 236, "Zwei Auslöser, keine Nachfrage", size=38)
+    block(d, y, "Uber verfolgte mit Software das Fahrverhalten und die Kundenbewertungen. "
+                "Meldete sie einen Betrugsverdacht oder waren die Bewertungen zu niedrig, "
+                "wurde das Konto deaktiviert, vorübergehend oder bei anhaltend schlechten "
+                "Bewertungen dauerhaft. Ein Mensch sah vorher nicht darauf. Das lief "
+                "zwischen 2018 und 2022. Inzwischen hat Uber es beendet.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 03 Beleg-Panel
+    img, d = new(3, T, ST)
+    y = kicker(d, 190, "Was die Behörde dazu sagt", size=38)
+    y = beleg(d, y,
+              "Autoriteit Persoonsgegevens",
+              ['"Een computer mag niet zelfstandig',
+               'besluiten nemen die grote gevolgen',
+               'voor jou hebben. Hier had eerst een',
+               'mens naar moeten kijken."'],
+              sub="Pressemitteilung vom 21.08.2026")
+    block(d, y + 36, "Das ist Monique Verdier, stellvertretende Vorsitzende der Behörde. "
+                     "Übersetzt: Ein Computer darf nicht selbstständig Entscheidungen "
+                     "treffen, die große Folgen für dich haben. Da hätte erst ein Mensch "
+                     "draufschauen müssen.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 04 Balken: die vier Bussgelder
+    img, d = new(4, T, ST)
+    y = kicker(d, 210, "Das vierte Bußgeld gegen Uber", size=38)
+    y = balken(d, y + 10, [
+        ("2018", 600000, "600.000 €"),
+        ("2023", 10000000, "10 Mio. €"),
+        ("2024", 290000000, "290 Mio. €"),
+        ("2026, dieser Fall", 824990000, "825 Mio. €"),
+    ])
+    block(d, y + 14, "Wofür die drei früheren verhängt wurden, steht in dieser Mitteilung "
+                     "nicht. Gegen die von 2023 und 2024 wehrt sich Uber, die Verfahren "
+                     "laufen.",
+          f("BOOK", 38), MUTED, MAXW, 1.4)
+    slides.append(img)
+
+    # --- 05 Der Bezug hierher, mit dem Gegenargument
+    img, d = new(5, T, ST)
+    y = kicker(d, 236, "Die Regel gilt hier genauso", size=38)
+    block(d, y, "Artikel 22 der Datenschutz-Grundverordnung gibt jedem das Recht, keiner "
+                "Entscheidung unterworfen zu werden, die allein automatisiert ergeht und "
+                "erheblich beeinträchtigt. Absatz 2 lässt Ausnahmen zu, etwa wenn die "
+                "Entscheidung für einen Vertrag erforderlich ist. Dann verlangt Absatz 3 "
+                "mindestens, dass man eine Person einschalten und die Entscheidung "
+                "anfechten kann. Uber hat angekündigt, Widerspruch einzulegen. "
+                "Entschieden ist nichts.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 06 Quellen
+    img, d = new(6, T, ST)
+    y = kicker(d, 232, "Quellen", size=38)
+    for s_ in ["Autoriteit Persoonsgegevens, Mitteilung vom 21.08.2026",
+               "Datenschutz-Grundverordnung, Artikel 22, Absätze 1 bis 3",
+               "Ausgelöst haben es 171 französische Fahrer über die Ligue des droits de l'Homme"]:
+        caret(d, M + 18, y + 22, 28, 6, RED)
+        yy = y
+        for ln in wrap(d, s_, f("BOOK", 40), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 40), fill=INK); yy += int(40 * 1.4)
+        y = yy + 18
+    y += 8
+    d.line([(M, y), (W - M, y)], fill=RULE, width=2); y += 26
+    y = block(d, y, "Kein Rechtsrat. Die Mitteilung habe ich auf Niederländisch und auf "
+                    "Englisch gelesen, damit das Zitat im Original stimmt.",
+              f("BOOK", 36), MUTED, MAXW, 1.4, 20)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar.",
+          f("BOOK", 36), RED, MAXW, 1.4)
+    slides.append(img)
+
+    return slides
+
+
 # ================================================================ STORIES (1080x1920)
 def build_stories():
     """Story-Slides im Hochformat. Inhalt bleibt in der Sicherheitszone (oben ~260 px für
@@ -2306,6 +2414,8 @@ def save_slides(slides, out_dir):
 print(f"Logo    -> {OUT_LOGO}")
 n21 = save_slides(build_post21(), OUT_POST21)
 print(f"Post 21: {n21} Blätter -> {OUT_POST21}")
+n24 = save_slides(build_post24(), OUT_POST24)
+print(f"Post 24: {n24} Blätter -> {OUT_POST24}")
 print("(Post 0-2/4-10/12-18/20/22 gepostet & archiviert -> archive/, nicht neu gerendert)")
 print("(Post 3/11/19/23 verworfen, siehe posts/posts.yaml und research/ideas.md)")
 

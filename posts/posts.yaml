@@ -527,3 +527,29 @@ posts:
       sends: null
       sends_per_reach: null
       saves: null
+
+  - id: 24
+    slug: uber-automatische-sperrung
+    ordner: post-024-uber-automatische-sperrung
+    titel: "Eine Software sperrte Uber-Fahrer aus. Ihr Geld war sofort weg"
+    saeule: betrifft_dich
+    bauform: der_fall
+    status: gerendert          # 6 Blaetter (Stand 25.08.2026); AP-Mitteilung in beiden Sprachfassungen geprueft
+    blaetter: 6
+    geplant_fuer: aktuell
+    gepostet_am: null
+    offen:
+      - "KEIN BUSSGELDBESCHEID AUS ERSTER HAND. Der gesamte Sachverhalt stammt aus der Pressemitteilung der Autoriteit Persoonsgegevens vom 21.08.2026, also von der Behoerde, die das Bussgeld verhaengt hat"
+      - "KEINE STELLUNGNAHME VON UBER. Groesste Schwaeche des Posts. Vor dem Posten pruefen, ob sich Uber geaeussert hat"
+      - "ABWEICHUNG ZWISCHEN DEN SPRACHFASSUNGEN DER BEHOERDE: NL schreibt 'aangekondigd bezwaar aan te tekenen' (angekuendigt), EN schreibt 'has filed an appeal' (eingelegt). Der Post folgt dem niederlaendischen Original. Vor dem Posten neu pruefen, ob der Widerspruch inzwischen laeuft"
+      - "Panel-Zitat steht im niederlaendischen ORIGINAL, die deutsche Uebersetzung bewusst ausserhalb des Panels und als Uebersetzung gekennzeichnet"
+      - "Balken auf Blatt 04 auf linearer Skala: 600.000 (2018) wird zum Splitter neben 825 Mio. (2026). Die Gruende der drei frueheren Bussgelder nennt die Mitteilung nicht, das steht so auf dem Blatt"
+      - "UNGEPRUEFT: ob es das zweithoechste DSGVO-Bussgeld ist. Fachpresse sagt ja, die Behoerde sagt nichts dazu. Deshalb weder auf einem Blatt noch in der Caption"
+      - "GEGENGEWICHT auf Blatt 05: Artikel 22 Absatz 2 DSGVO laesst Ausnahmen zu, Absatz 3 verlangt dann Eingreifen einer Person und Anfechtbarkeit. Ohne diesen Satz waere der Post einseitig"
+      - "Erste Caption unter der neuen Obergrenze vom 24.08.2026: 1.123 Zeichen ohne Hashtags"
+      - "Nach ~7 Tagen Kennzahlen (reach/sends/saves) aus Insights nachtragen"
+    kennzahlen:
+      reach: null
+      sends: null
+      sends_per_reach: null
+      saves: null

@@ -667,3 +667,63 @@ stützt: Beim Kürzen fiel alles weg, was ohnehin schon auf einem Blatt stand, u
 etwas Neues. In die Caption von Post 21 ist deshalb ein Satz aus dem Abschnitt Alternativen des
 Referentenentwurfs gewandert, der auf keinem Blatt steht: „Eine Ausweitung der personellen Kapazitäten
 scheidet aufgrund der Haushaltslage und des Fachkräftemangels aus." Im Volltext per Suche bestätigt.
+
+## Recherchierte Einzelbefunde (Stand 25.08.2026)
+
+**Artikel 22 DSGVO, die Grenze, die alle weglassen.** Beim Bauen von Post 24 am Verordnungstext
+gelesen (amtliche deutsche Fassung, EUR-Lex, CELEX 32016R0679):
+- **Absatz 1** gibt das Recht, keiner ausschließlich automatisierten Entscheidung unterworfen zu
+  werden, die rechtliche Wirkung entfaltet oder erheblich beeinträchtigt.
+- **Absatz 2** nimmt davon aus, wenn die Entscheidung für Abschluss oder Erfüllung eines Vertrags
+  erforderlich ist, wenn Unionsrecht oder mitgliedstaatliches Recht sie erlaubt, oder bei
+  ausdrücklicher Einwilligung.
+- **Absatz 3** verlangt in den Fällen a und c mindestens das Recht auf Eingreifen einer Person, auf
+  Darlegung des eigenen Standpunkts und auf Anfechtung der Entscheidung.
+*Warum das wichtig ist:* Fast alle Meldungen zitieren Artikel 22 als „Verbot". Das Verbot hat
+Ausnahmen, und der Streit läuft in der Praxis über Absatz 3. Diese Unterscheidung trägt Kommentare
+und kann in jedem Post zu automatisierten Entscheidungen wiederverwendet werden.
+
+**Uber und die niederländische Datenschutzbehörde.** Verwertet in Post 24, hier das, was nicht
+darauf passte:
+- Vier Bußgelder der AP gegen Uber: 2018 600.000 Euro, 2023 10 Millionen, 2024 290 Millionen,
+  21.08.2026 824.990.000 Euro. Gegen die von 2023 und 2024 wehrt sich Uber, die Verfahren laufen.
+  Die Gründe der drei früheren nennt die Mitteilung nicht.
+- Obergrenze für DSGVO-Bußgelder: vier Prozent des weltweiten Jahresumsatzes. Uber setzte 2025 rund
+  44,5 Milliarden Euro um.
+- Der Weg des Verfahrens: 171 französische Fahrer meldeten sich bei der Ligue des droits de l'Homme,
+  die für sie bei der französischen Aufsicht Beschwerde einlegte. Zuständig wurde über den
+  One-Stop-Shop die niederländische Behörde, weil Ubers Europazentrale dort sitzt. **Das wäre ein
+  eigener Post:** wie eine Beschwerde in Europa wandert, und wie lange das dauert.
+- **Methodenbefund:** Die AP veröffentlicht dieselbe Mitteilung auf Niederländisch und Englisch, und
+  an einer Stelle sagen die Fassungen nicht dasselbe. NL: „Uber heeft aangekondigd bezwaar aan te
+  tekenen tegen de boete." EN: „Uber has filed an appeal against the fine." Angekündigt ist nicht
+  eingelegt. **Lehre für die Arbeitsweise: Wenn eine Behörde mehrsprachig veröffentlicht, beide
+  Fassungen lesen und der Originalsprache folgen.**
+- Ungeprüft: ob es das zweithöchste DSGVO-Bußgeld ist (Fachpresse sagt ja, nach 1,2 Milliarden gegen
+  Meta). Die Behörde sagt dazu nichts.
+
+**AIS.chat an Schulen in Sachsen-Anhalt.** Pressemeldung des Ministeriums für Bildung vom
+24.08.2026. Betrieben vom FWU, dem Medieninstitut der 16 Länder, finanziert aus dem DigitalPakt
+Schule. Wörtlich zum Datenschutz: „Für die Nutzung ist kein Klarname der Schülerinnen und Schüler
+erforderlich. Die bei der Nutzung entstehenden Daten werden weder für Werbung noch für Profilbildung
+oder zum Training der eingesetzten KI-Modelle verwendet." Bildungsminister Jan Riedel: „Unsere Kinder
+sollen KI nicht nur benutzen können, sondern sie sollen auch verstehen, was sie kann und wo ihre
+Grenzen liegen."
+*Was fehlt für einen Post:* jede Zahl. Anzahl der Schulen, Kosten, Laufzeit, welches Modell
+darunterliegt und wo es betrieben wird. News4teachers berichtete im Mai 2026 von einem Fehlstart, aus
+„telli" wurde „AIS.chat" und die Schulen mussten umstellen (**ungeprüft, nur die Überschrift
+gesehen**).
+*Vor dem Bauen:* Datenschutz-Folgenabschätzung und Vertrag beim FWU oder beim Ministerium anfragen,
+notfalls über FragDenStaat. Dann ist es ein Post, der Eltern unmittelbar betrifft.
+
+**Kleinere Fundstücke vom 25.08.2026:**
+- **Welt-Roboter-Spiele in Peking** (ZDF, 24.08.2026): In den fünf Stunden, die das ZDF begleitete,
+  schaffte kein humanoider Roboter das Aufräumen eines Zimmers in der vorgegebenen Zeit. Guter
+  Hype-Check-Stoff, aber es ist eine Redaktionsbeobachtung. **Ohne offizielle Ergebnisliste keine
+  Zahl.** Wer den Strang aufnimmt, sollte die Ergebnisse der Veranstalter suchen.
+- **Verhaltensscanner:** Interview mit Philipp Knopp (TU Chemnitz) bei nd, verlinkt im
+  netzpolitik-Ticker vom 24.08.2026. Knopp forschte im Projekt LoKI zu den Hamburger Tests am
+  Hansaplatz. Gehört zum Polizeigesetz-Strang, **nicht** zu einem zweiten Mannheim-Post.
+- **Zerstören gescannter Bücher** (Golem über netzpolitik-Ticker, 24.08.2026): KI-Firmen zerschneiden
+  Bücher zum Scannen, Anna's Archive ruft zum Nachscannen auf. US-Vorgang, keine Primärquelle
+  geprüft. Als Randnotiz in einem Post über Trainingsdaten brauchbar.
