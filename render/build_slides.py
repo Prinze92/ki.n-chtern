@@ -34,6 +34,7 @@ OUT_LOGO = REPO / "brand" / "logo"
 # Beide geben ihre Groesse deshalb ausdruecklich am kicker()-Aufruf an.
 OUT_POST21 = REPO / "posts" / "post-021-kimvg-asyl-ki" / "slides"
 OUT_POST24 = REPO / "posts" / "post-024-uber-automatische-sperrung" / "slides"
+OUT_POST25 = REPO / "posts" / "post-025-ki-entlastungstage-banken" / "slides"
 
 # Post 22 (Carlsen gegen OpenAI) ist am 24.08.2026 gepostet und nach archive/ gewandert.
 # Post 23 (Rechenzentrumsregister) wurde am 24.08.2026 verworfen; Ordner und build_post23()
@@ -51,7 +52,7 @@ OUT_POST24 = REPO / "posts" / "post-024-uber-automatische-sperrung" / "slides"
 # Ihre build_postN()-Funktionen bleiben als Vorlage stehen, werden aber nicht mehr
 # aufgerufen. Archivierte Blaetter werden nie neu gerendert (siehe CLAUDE.md).
 OUT_STORY = REPO / "brand" / "stories"
-for _d in (OUT_LOGO, OUT_STORY, OUT_POST21, OUT_POST24):
+for _d in (OUT_LOGO, OUT_STORY, OUT_POST21, OUT_POST24, OUT_POST25):
     _d.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------- palette
@@ -2319,6 +2320,113 @@ def build_post24():
     return slides
 
 
+# ================================================================ POST 25
+def build_post25():
+    """Bauform: Der Widerspruch. Zwei Beleg-Panels gegeneinander, dazwischen ein Satz.
+    Panel A auf Blatt 02 ist die Commerzbank (Pressemitteilung 08.05.2026, Momentum 2030):
+    KI setze rund 10 Prozent der Kapazitaeten frei. Panel B auf Blatt 03 ist der
+    DBV-Verhandlungsfuehrer (Forderungen zur Tarifrunde, 24.08.2026): die einfachen
+    Vorgaenge verschwinden zuerst, beim Menschen bleibt der Rest.
+    Blatt 04 loest den Widerspruch NICHT auf, sondern sagt, was daran wirklich streitig
+    ist und was beide Seiten nicht messen. Beide sind Partei, das steht auf dem Blatt.
+    Beide Zitate per String-Suche im Original bestaetigt. Zwei bebilderte Blaetter,
+    keine Balkenreihe: die Zahlen der beiden Seiten messen nicht dasselbe, ein Balken
+    nebeneinander waere ein Vergleich, den es nicht gibt."""
+    T = 6
+    ST = "STAND 26.08.2026"
+    slides = []
+
+    # --- 01 HOOK
+    img, d = new(1, T, ST)
+    y = 268
+    fo = f("COND", 84)
+    for line in ["BEI DER COMMERZBANK", "SOLL KI ZEIT SCHAFFEN.", "WEM GEHÖRT DIESE ZEIT?"]:
+        d.text((M, y), line, font=fo, fill=INK); y += 100
+    y += 32
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 54
+    block(d, y, "Die Bank erwartet rund zehn Prozent freie Kapazität und baut 3.000 "
+                "Stellen ab. Die Bankgewerkschaft DBV fordert dafür freie Tage.",
+          f("BOOK", 46), INK, MAXW - 40, 1.4)
+    slides.append(img)
+
+    # --- 02 Panel A: die Bank
+    img, d = new(2, T, ST)
+    y = kicker(d, 190, "Was die Bank im Mai angekündigt hat", size=38)
+    y = beleg(d, y,
+              "Commerzbank, Momentum 2030",
+              ['"Gleichzeitig erwartet die Bank, dass KI',
+               'es ihr ermöglicht, rund 10 % ihrer',
+               'Kapazitäten freizusetzen und teilweise neu',
+               'einzusetzen, sodass Mitarbeitende im',
+               'Vertrieb mehr Zeit für eine hochwertige',
+               'Kundenberatung aufwenden können."'],
+              sub="Pressemitteilung vom 08.05.2026")
+    block(d, y + 36, "Im selben Papier steht der Abbau von rund 3.000 Stellen brutto und "
+                     "eine Investition von rund 600 Millionen Euro in KI bis 2030.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 03 Panel B: die Gewerkschaft
+    img, d = new(3, T, ST)
+    y = kicker(d, 190, "Was die Gewerkschaft dagegensetzt", size=38)
+    y = beleg(d, y,
+              "Wolfgang Ermann, DBV-Verhandlungsführer",
+              ['"Die einfachen Vorgänge verschwinden',
+               'zuerst. Beim Menschen landet am Ende',
+               'das, was die Maschine nicht kann oder',
+               'der Kunde allein nicht lösen konnte."'],
+              sub="Forderungen zur Tarifrunde, 24.08.2026")
+    block(d, y + 36, "Der Deutsche Bankangestellten-Verband fordert deshalb Entlastungstage, "
+                     "die im Betrieb vereinbart werden, und einen Anspruch auf Qualifizierung, "
+                     "bevor mit KI gearbeitet wird.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 04 Was daran wirklich streitig ist
+    img, d = new(4, T, ST)
+    y = kicker(d, 236, "Beides kann gleichzeitig stimmen", size=38)
+    block(d, y, "Freie Kapazität und dichtere Restarbeit schließen sich nicht aus. Die Bank "
+                "kündigt eine Erwartung an, keine Messung. Die Gewerkschaft beschreibt einen "
+                "Arbeitsmix, den sie ebenfalls nicht misst. Und beide sind Partei: Das eine "
+                "Papier begründet einen Stellenabbau, das andere eine Gehaltsforderung. Wer "
+                "wissen will, wo die freie Zeit landet, findet in keinem von beiden eine Zahl.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 05 Worueber verhandelt wird
+    img, d = new(5, T, ST)
+    y = kicker(d, 236, "Worüber ab Oktober verhandelt wird", size=38)
+    block(d, y, "Am 8. Oktober beginnt die Tarifrunde für das private Bankgewerbe. Der DBV "
+                "fordert 9,5 Prozent mehr Gehalt auf 24 Monate, 160 Euro mehr für "
+                "Nachwuchskräfte, Entlastungstage beim Einsatz von KI und Qualifizierung vor "
+                "der Einführung. Wie viele Tage es sein sollen, steht in der Forderung nicht. "
+                "Ver.di verhandelt in dieser Runde ebenfalls.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 06 Quellen
+    img, d = new(6, T, ST)
+    y = kicker(d, 232, "Quellen", size=38)
+    for s_ in ["Commerzbank, Pressemitteilung vom 08.05.2026, Momentum 2030",
+               "DBV, Forderungen zur Tarifrunde Privatbanken, 24.08.2026",
+               "Beide Seiten sind Partei. Unabhängig geprüft ist keine der Zahlen"]:
+        caret(d, M + 18, y + 22, 28, 6, RED)
+        yy = y
+        for ln in wrap(d, s_, f("BOOK", 40), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 40), fill=INK); yy += int(40 * 1.4)
+        y = yy + 18
+    y += 8
+    d.line([(M, y), (W - M, y)], fill=RULE, width=2); y += 26
+    y = block(d, y, "Kein Rechtsrat. Wie viele Menschen unter diesen Tarifvertrag fallen, "
+                    "habe ich nicht belegt bekommen und deshalb weggelassen.",
+              f("BOOK", 36), MUTED, MAXW, 1.4, 20)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar.",
+          f("BOOK", 36), RED, MAXW, 1.4)
+    slides.append(img)
+
+    return slides
+
+
 # ================================================================ STORIES (1080x1920)
 def build_stories():
     """Story-Slides im Hochformat. Inhalt bleibt in der Sicherheitszone (oben ~260 px für
@@ -2416,6 +2524,8 @@ n21 = save_slides(build_post21(), OUT_POST21)
 print(f"Post 21: {n21} Blätter -> {OUT_POST21}")
 n24 = save_slides(build_post24(), OUT_POST24)
 print(f"Post 24: {n24} Blätter -> {OUT_POST24}")
+n25 = save_slides(build_post25(), OUT_POST25)
+print(f"Post 25: {n25} Blätter -> {OUT_POST25}")
 print("(Post 0-2/4-10/12-18/20/22 gepostet & archiviert -> archive/, nicht neu gerendert)")
 print("(Post 3/11/19/23 verworfen, siehe posts/posts.yaml und research/ideas.md)")
 

@@ -553,3 +553,30 @@ posts:
       sends: null
       sends_per_reach: null
       saves: null
+
+  - id: 25
+    slug: ki-entlastungstage-banken
+    ordner: post-025-ki-entlastungstage-banken
+    titel: "Bei der Commerzbank soll KI Zeit schaffen. Wem gehört diese Zeit?"
+    saeule: hype_check
+    bauform: widerspruch
+    status: gerendert          # 6 Blaetter (Stand 26.08.2026); beide Panel-Zitate im Rohtext geprueft
+    blaetter: 6
+    geplant_fuer: aktuell
+    gepostet_am: null
+    offen:
+      - "KEINE REAKTION DER ARBEITGEBERSEITE auf die KI-Entlastungstage gefunden. Groesste Schwaeche. Vor dem Posten pruefen, ob AGV Banken oder Commerzbank geantwortet haben"
+      - "GROESSE DES TARIFGEBIETS UNBELEGT. In Sekundaerquellen kursieren rund 150.000 Beschaeftigte in gut 80 Instituten; die AGV-Banken-Seite liefert die Zahlen nur ueber einen Skript-Zaehler. Die Zahl steht deshalb NIRGENDS im Post, das Quellenblatt sagt das"
+      - "Die Forderung nennt KEINE Tageszahl fuer die Entlastungstage, sie verweist auf die betriebliche Ebene. Blatt 05 sagt das"
+      - "Beide Quellen sind PARTEI: das eine Papier begruendet einen Stellenabbau, das andere eine Gehaltsforderung. Steht auf Blatt 04 und auf dem Quellenblatt"
+      - "Bauform-Hinweis: Die beiden Panels widersprechen sich NICHT logisch. Freie Kapazitaet und dichtere Restarbeit koennen beide zutreffen. Blatt 04 sagt das ausdruecklich, statt einen Widerspruch zu behaupten"
+      - "VER.DI fehlt inhaltlich. Zweite Gewerkschaft in dieser Runde, nur genannt. Vor dem Posten pruefen, ob ver.di eigene KI-Forderungen erhoben hat"
+      - "Gewinnzahlen (Deutsche Bank 9,7 Mrd. Vorsteuergewinn 2025, Commerzbank Rekord) stehen nur auf der Gewerkschaftsseite, nicht an Geschaeftsberichten geprueft, deshalb nicht im Post"
+      - "Keine Balkenreihe, obwohl Zahlen da waeren: 10 Prozent Kapazitaet und Entlastungstage messen nicht dasselbe"
+      - "Caption 1.061 Zeichen ohne Hashtags, unter der Obergrenze vom 24.08.2026"
+      - "Nach ~7 Tagen Kennzahlen (reach/sends/saves) aus Insights nachtragen"
+    kennzahlen:
+      reach: null
+      sends: null
+      sends_per_reach: null
+      saves: null

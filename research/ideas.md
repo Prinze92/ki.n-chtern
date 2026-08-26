@@ -727,3 +727,58 @@ notfalls über FragDenStaat. Dann ist es ein Post, der Eltern unmittelbar betrif
 - **Zerstören gescannter Bücher** (Golem über netzpolitik-Ticker, 24.08.2026): KI-Firmen zerschneiden
   Bücher zum Scannen, Anna's Archive ruft zum Nachscannen auf. US-Vorgang, keine Primärquelle
   geprüft. Als Randnotiz in einem Post über Trainingsdaten brauchbar.
+
+## Recherchierte Einzelbefunde (Stand 26.08.2026)
+
+**Personalisierte Preise: die deutsche Vorschrift, die kaum jemand kennt.** Heute am Gesetzestext
+gelesen und per String-Suche bestätigt: **Einführungsgesetz zum BGB, Artikel 246a § 1 Absatz 1 Satz 1
+Nummer 6** verlangt bei Fernabsatzverträgen und außerhalb von Geschäftsräumen geschlossenen Verträgen
+„gegebenenfalls den Hinweis, dass der Preis auf der Grundlage einer automatisierten
+Entscheidungsfindung personalisiert wurde".
+*Warum das ein Post wäre:* Er betrifft jeden, der online kauft, und die Pflicht ist im Alltag
+praktisch unsichtbar. Anlass war der netzpolitik-Ticker vom 25.08.2026 über Delta, das mit
+personalisierten Preisen experimentiert (berichtet nach Yahoo Finance, die Gewinnhoffnung von bis zu
+50 Prozent ist eine Aussage des Unternehmenschefs).
+*Was noch fehlt:* ein deutscher Fall. Entweder ein Händler, der den Hinweis tatsächlich zeigt, oder
+eine Abmahnung, ein Verbandsverfahren oder eine Marktbeobachtung von Verbraucherzentralen. Ohne
+diesen Fall bliebe der Post eine Paragrafenerklärung. **Erst suchen, dann bauen.**
+
+**KI-Bilder zur Landtagswahl in Sachsen-Anhalt.** Projekt „Hallo KI, wen wähle ich in
+Sachsen-Anhalt?", getragen vom Institut für Demokratie und Künstliche Intelligenz (Tübingen), dem
+Landesverband der Volkshochschulen Sachsen-Anhalt, der **Landeszentrale für politische Bildung
+Sachsen-Anhalt** und der Evangelischen Erwachsenenbildung. Bilder zu den Programmen der sieben
+stärksten Parteien, Landtagswahl am 6. September 2026, Zentralveranstaltung am 27. August in
+Magdeburg. Nach dpa sind die Bilder als KI-generiert gekennzeichnet.
+*Bemerkenswertes Zitat des Projektleiters Frank Müller (dpa über heise, 25.08.2026):* „Wir verkürzen
+und wir verknappen, und das ist auch kritikwürdig."
+*Warum heute nicht gebaut:* Die interessante Frage ist, ob die Dateien zusätzlich **maschinenlesbar**
+markiert sind, wie es Artikel 50 Absatz 2 KI-Verordnung von Anbietern verlangt. Das lässt sich nur an
+den Bildern prüfen, und `landtagswahl.ai/lsa` liefert im Rohtext nur ein drei Kilobyte großes
+Skript-Gerüst. **Wer den Strang aufnimmt, braucht die Bilddateien**, dann ist es ein starker Post
+über den Unterschied zwischen sichtbarer und mitreisender Kennzeichnung.
+*Achtung:* Post 4 deckt Artikel 50 allgemein ab. Ein zweiter Post braucht diesen konkreten Fall,
+sonst wiederholt er sich. Und im Wahlkontext gilt strikte Neutralität zwischen den Parteien.
+
+**Tarifrunde privates Bankgewerbe 2026, was nicht in Post 25 passte:**
+- Verhandlungsbeginn 8. Oktober 2026. Neben dem DBV verhandelt **ver.di**, deren Forderungen sind
+  nicht recherchiert. Für einen Folgepost, wenn die Runde läuft.
+- Der DBV nennt als Kontext 9,7 Milliarden Euro Vorsteuergewinn der Deutschen Bank 2025 und ein
+  operatives Rekordergebnis der Commerzbank. **Nur Angabe der Gewerkschaft, nicht an den
+  Geschäftsberichten geprüft.**
+- Der DBV beziffert die Tarifgehälter langjährig Beschäftigter in den relevanten Gruppen auf rund
+  4.200 bis 5.900 Euro brutto. Ebenfalls ungeprüft.
+- Die Commerzbank erwartet aus ihren KI-Initiativen **ab 2030 einen Wertbeitrag von rund 500
+  Millionen Euro pro Jahr** (Pressemitteilung 08.05.2026). Eine dritte Zahl, die auf dem Blatt keinen
+  Platz hatte.
+- **Unbelegt geblieben:** Wie viele Menschen unter den Tarifvertrag fallen. In Sekundärquellen
+  kursieren rund 150.000 Beschäftigte in gut 80 Instituten, die Seite des Arbeitgeberverbands zeigt
+  die Zahlen nur über einen Skript-Zähler. Wer sie amtlich findet, verbessert Post 25.
+
+**Kleinere Fundstücke vom 26.08.2026:**
+- **Sainsbury's stoppt Gesichtserkennung** (The Guardian, 25.08.2026): Das System von Facewatch
+  erkannte einen Kunden fälschlich als bekannten Dieb. Britischer Vorgang, taugt als Vergleichsfall,
+  falls ein deutscher Einzelhändler biometrisch erkennt.
+- **TikTok zahlt in Brasilien rund 25 Millionen Euro** wegen Verarbeitung von Daten Minderjähriger
+  ohne Rechtsgrundlage (Reuters über netzpolitik-Ticker, 25.08.2026). Kein Bezug hierher, aber die
+  Reihe der Datenschutzbußgelder gegen Plattformen wächst und könnte irgendwann eine eigene
+  Balkenreihe tragen.
