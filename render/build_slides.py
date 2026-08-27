@@ -35,6 +35,7 @@ OUT_LOGO = REPO / "brand" / "logo"
 OUT_POST21 = REPO / "posts" / "post-021-kimvg-asyl-ki" / "slides"
 OUT_POST24 = REPO / "posts" / "post-024-uber-automatische-sperrung" / "slides"
 OUT_POST25 = REPO / "posts" / "post-025-ki-entlastungstage-banken" / "slides"
+OUT_POST26 = REPO / "posts" / "post-026-trainingsdaten-zusammenfassung" / "slides"
 
 # Post 22 (Carlsen gegen OpenAI) ist am 24.08.2026 gepostet und nach archive/ gewandert.
 # Post 23 (Rechenzentrumsregister) wurde am 24.08.2026 verworfen; Ordner und build_post23()
@@ -52,7 +53,7 @@ OUT_POST25 = REPO / "posts" / "post-025-ki-entlastungstage-banken" / "slides"
 # Ihre build_postN()-Funktionen bleiben als Vorlage stehen, werden aber nicht mehr
 # aufgerufen. Archivierte Blaetter werden nie neu gerendert (siehe CLAUDE.md).
 OUT_STORY = REPO / "brand" / "stories"
-for _d in (OUT_LOGO, OUT_STORY, OUT_POST21, OUT_POST24, OUT_POST25):
+for _d in (OUT_LOGO, OUT_STORY, OUT_POST21, OUT_POST24, OUT_POST25, OUT_POST26):
     _d.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------- palette
@@ -2427,6 +2428,113 @@ def build_post25():
     return slides
 
 
+# ================================================================ POST 26
+def build_post26():
+    """Bauform: Das Selbstexperiment. Erste Anwendung dieser Bauform auf dem Kanal.
+    Das Experiment ist wirklich durchgefuehrt: Pflicht im Verordnungstext gelesen,
+    die Vorlage der Kommission (C(2025) 5235 final, 14 Seiten, ueber die
+    Bundesnetzagentur) geladen, und dann die Sammelstelle fuer die veroeffentlichten
+    Zusammenfassungen gesucht. Ergebnis auf Blatt 05: Es gibt keine. Artikel 71
+    (EU-Datenbank) erfasst nur Hochrisiko-Systeme aus Anhang III, und die Seite des
+    Buero fuer Kuenstliche Intelligenz fuehrt kein Verzeichnis. Beides am Original
+    geprueft, nicht am Scheitern des eigenen Abrufs.
+    Ein Beleg-Panel auf Blatt 02 mit Artikel 53 Absatz 1 Buchstabe d im amtlichen
+    deutschen Wortlaut. Blatt 04 traegt das Gegengewicht: was die Vorlage
+    ausdruecklich NICHT verlangt. Keine Balkenreihe, es gibt keine Zahlenreihe."""
+    T = 6
+    ST = "STAND 27.08.2026"
+    slides = []
+
+    # --- 01 HOOK
+    img, d = new(1, T, ST)
+    y = 268
+    fo = f("COND", 84)
+    for line in ["KI-ANBIETER MÜSSEN", "OFFENLEGEN, WOMIT SIE", "TRAINIERT HABEN"]:
+        d.text((M, y), line, font=fo, fill=INK); y += 100
+    y += 32
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 54
+    block(d, y, "Artikel 53 der KI-Verordnung verlangt eine Zusammenfassung der "
+                "Trainingsinhalte. Die Vorlage der EU-Kommission fordert darin die "
+                "Domainnamen der obersten zehn Prozent des abgegriffenen Inhalts.",
+          f("BOOK", 46), INK, MAXW - 40, 1.4)
+    slides.append(img)
+
+    # --- 02 Beleg-Panel: die Pflicht
+    img, d = new(2, T, ST)
+    y = kicker(d, 190, "Was im Gesetz steht", size=38)
+    y = beleg(d, y,
+              "KI-Verordnung, Artikel 53 Absatz 1",
+              ['"erstellen und veröffentlichen eine',
+               'hinreichend detaillierte Zusammenfassung',
+               'der für das Training des KI-Modells mit',
+               'allgemeinem Verwendungszweck verwendeten',
+               'Inhalte nach einer vom Büro für Künstliche',
+               'Intelligenz bereitgestellten Vorlage."'],
+              sub="Buchstabe d, amtliche deutsche Fassung")
+    block(d, y + 36, "Das gilt seit dem 2. August 2025. Seit dem 2. August 2026 kann die "
+                     "Kommission dafür Geldbußen verhängen, bis zu drei Prozent des "
+                     "weltweiten Jahresumsatzes.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 03 Wofuer die Pflicht gedacht ist
+    img, d = new(3, T, ST)
+    y = kicker(d, 236, "Wofür die Pflicht gedacht ist", size=38)
+    block(d, y, "Der Erwägungsgrund 107 nennt den Zweck. Wer Rechte an Texten oder "
+                "Bildern hat, soll sie ausüben und durchsetzen können. Deshalb verlangt "
+                "die Vorlage der Kommission eine Liste der Domainnamen, die zu den "
+                "obersten zehn Prozent des abgegriffenen Inhalts gehören. Bei kleinen "
+                "und mittleren Unternehmen sind es die obersten fünf Prozent oder die "
+                "tausend größten.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 04 Das Gegengewicht: was die Vorlage nicht verlangt
+    img, d = new(4, T, ST)
+    y = kicker(d, 236, "Was die Vorlage nicht verlangt", size=38)
+    block(d, y, "Die genaue Mischung und Zusammensetzung der Datenquellen steht "
+                "ausdrücklich nicht drin. Für die Menge gibt es nur drei sehr grobe "
+                "Bereiche. Bei lizenzierten Daten reicht wenig, weil die Rechteinhaber "
+                "den Vertrag ohnehin kennen. Wer wissen will, wie viel vom eigenen Text "
+                "in einem Modell steckt, findet das dort also nicht.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 05 Das Selbstexperiment
+    img, d = new(5, T, ST)
+    y = kicker(d, 236, "Ich habe die Liste gesucht", size=38)
+    block(d, y, "Es gibt keine Sammelstelle. Die EU-Datenbank aus Artikel 71 nimmt nur "
+                "Hochrisiko-Systeme aus Anhang III auf, die Zusammenfassungen stehen "
+                "dort nicht. Auch die Seite des Büros für Künstliche Intelligenz führt "
+                "kein Verzeichnis. Jede Zusammenfassung liegt beim Anbieter selbst. Auf "
+                "mehrere dieser Seiten kam ich aus meiner Umgebung nicht drauf, mit einem "
+                "normalen Browser geht es vermutlich leichter.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 06 Quellen
+    img, d = new(6, T, ST)
+    y = kicker(d, 232, "Quellen", size=38)
+    for s_ in ["KI-Verordnung (EU) 2024/1689, Artikel 53, 71, 91, 101, 113",
+               "Erwägungsgrund 107 derselben Verordnung",
+               "Vorlage der Kommission C(2025) 5235 final vom 24.07.2025"]:
+        caret(d, M + 18, y + 22, 28, 6, RED)
+        yy = y
+        for ln in wrap(d, s_, f("BOOK", 40), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 40), fill=INK); yy += int(40 * 1.4)
+        y = yy + 18
+    y += 8
+    d.line([(M, y), (W - M, y)], fill=RULE, width=2); y += 26
+    y = block(d, y, "Kein Rechtsrat. Eine einzelne veröffentlichte Zusammenfassung habe "
+                    "ich nicht öffnen können, deshalb steht hier keine.",
+              f("BOOK", 36), MUTED, MAXW, 1.4, 20)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar.",
+          f("BOOK", 36), RED, MAXW, 1.4)
+    slides.append(img)
+
+    return slides
+
+
 # ================================================================ STORIES (1080x1920)
 def build_stories():
     """Story-Slides im Hochformat. Inhalt bleibt in der Sicherheitszone (oben ~260 px für
@@ -2526,6 +2634,8 @@ n24 = save_slides(build_post24(), OUT_POST24)
 print(f"Post 24: {n24} Blätter -> {OUT_POST24}")
 n25 = save_slides(build_post25(), OUT_POST25)
 print(f"Post 25: {n25} Blätter -> {OUT_POST25}")
+n26 = save_slides(build_post26(), OUT_POST26)
+print(f"Post 26: {n26} Blätter -> {OUT_POST26}")
 print("(Post 0-2/4-10/12-18/20/22 gepostet & archiviert -> archive/, nicht neu gerendert)")
 print("(Post 3/11/19/23 verworfen, siehe posts/posts.yaml und research/ideas.md)")
 

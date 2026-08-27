@@ -782,3 +782,67 @@ sonst wiederholt er sich. Und im Wahlkontext gilt strikte Neutralität zwischen 
   ohne Rechtsgrundlage (Reuters über netzpolitik-Ticker, 25.08.2026). Kein Bezug hierher, aber die
   Reihe der Datenschutzbußgelder gegen Plattformen wächst und könnte irgendwann eine eigene
   Balkenreihe tragen.
+
+## Recherchierte Einzelbefunde (Stand 27.08.2026)
+
+**Die Trainingsdaten-Zusammenfassung nach Artikel 53 KI-Verordnung.** Alles am Original geprüft,
+verwertet in Post 26. Hier das, was dort nicht draufpasste, und das, was beim nächsten Anlauf hilft:
+- **Artikel 53 Absatz 1 Buchstabe d:** Anbieter allgemeiner KI-Modelle „erstellen und veröffentlichen
+  eine hinreichend detaillierte Zusammenfassung der für das Training des KI-Modells mit allgemeinem
+  Verwendungszweck verwendeten Inhalte nach einer vom Büro für Künstliche Intelligenz bereitgestellten
+  Vorlage."
+- **Artikel 53 Absatz 2:** Die Ausnahme für quelloffene Modelle erfasst nur die Buchstaben a und b.
+  Die Zusammenfassung (d) und die Urheberrechtsstrategie (c) bleiben also auch für Open-Source-Anbieter
+  Pflicht. **Umkehrschluss aus dem Wortlaut, im Post nur in der Caption verwendet.**
+- **Artikel 113 Buchstabe b:** Kapitel V gilt ab dem 2. August 2025, „mit Ausnahme des Artikels 101".
+  Artikel 101 (Geldbußen für GPAI-Anbieter, bis 3 Prozent des weltweiten Jahresumsatzes oder
+  15 Millionen Euro) greift damit erst mit dem allgemeinen Geltungsbeginn am 2. August 2026.
+  **Das ist der schärfste Datumsbefund und steht in keiner gelesenen Meldung.**
+- **Artikel 91:** Die Kommission kann Dokumentation und Informationen anfordern. Im Ersuchen sind
+  Rechtsgrundlage, Zweck, benötigte Informationen, eine Frist und die möglichen Geldbußen zu nennen.
+- **Artikel 71:** Die EU-Datenbank erfasst Hochrisiko-Systeme nach Anhang III. **Die
+  Trainings-Zusammenfassungen kommen darin nicht vor.** Auch die Seite des Büros für Künstliche
+  Intelligenz führt kein Verzeichnis (am 27.08.2026 geprüft).
+- **Erwägungsgrund 107** nennt den Zweck: den „Inhabern von Urheberrechten die Ausübung und
+  Durchsetzung ihrer Rechte" erleichtern. Der Umfang soll „allgemein weitreichend und nicht technisch
+  detailliert" sein.
+- **Vorlage der Kommission C(2025) 5235 final vom 24.07.2025**, 14 Seiten, geladen über
+  `bundesnetzagentur.de` (Pfad: /DE/Fachthemen/Digitales/KI/_functions/EU-Template.pdf). **Auf
+  Englisch, eine amtliche deutsche Fassung wurde nicht gefunden.** Kernpunkte:
+  - Fußnote 16: Liste der Domainnamen in den obersten **zehn Prozent** des abgegriffenen Inhalts, bei
+    KMU die obersten **fünf Prozent oder die tausend größten**.
+  - Randnummer 22: „The Template does not require disclosure of the exact mix and composition of data
+    sources", nur grobe Bereiche der Datenmenge je Modalität.
+  - Randnummer 19: Bei lizenzierten Daten wird wenig verlangt, weil die Rechteinhaber Vertragspartei
+    sind.
+  - Randnummer 26: Das Büro für Künstliche Intelligenz kann prüfen, ob die Vorlage richtig ausgefüllt
+    wurde, und Abhilfemaßnahmen verlangen.
+- **OFFEN und für den nächsten Anlauf entscheidend:** eine tatsächlich gelesene Zusammenfassung eines
+  Anbieters. Aus dieser Umgebung antworteten mehrere Anbieterseiten mit HTTP 403 oder 404, und
+  geratene Adressen wurden nach zwei Fehlversuchen nicht weiterverfolgt. **Wer eine öffnen kann,
+  macht aus Post 26 einen Fall statt einer Beschreibung.**
+- **Ebenfalls offen:** die Übergangsfrist für Modelle, die vor dem 2. August 2025 in Verkehr kamen.
+  Die Vorlage nennt den 2. August 2027, die Fundstelle im Verordnungstext ist nicht isoliert.
+- **Ungeprüft:** In Fachbeiträgen kursiert, es seien rund 39 Zusammenfassungen veröffentlicht und
+  Google, Meta und Microsoft hätten die Vorlage ausgefüllt, während andere in Prosa geantwortet
+  hätten. Nicht nachgezählt und nicht am Original gesehen.
+
+**Der Anlass, der nicht zu belegen war.** netzpolitik verweist am 26.08.2026 auf einen
+Euractiv-Bericht, wonach die Kommission erstmals Auskünfte von führenden KI-Anbietern zu Sicherheit
+und Urheberrecht verlangt. **Der Artikel antwortete mit HTTP 403**, eine Pressemitteilung der
+Kommission dazu wurde nicht gefunden. Falls sie später erscheint, ist das der Aufhänger, der Post 26
+zu einem Fall macht.
+
+**Kleinere Fundstücke vom 27.08.2026:**
+- **Australien, ARIA-Verhaltenskodex:** In die Charts kommt nur noch wesentlich von Menschen gemachte
+  Musik (SZ über netzpolitik-Ticker, 26.08.2026). Australischer Branchenverband, **Kodex nicht
+  gelesen**. Interessant ist das Wort „wesentlich" und die Frage, wie man das prüft. Wenn eine
+  deutsche oder europäische Stelle Vergleichbares beschließt, ist das ein Post.
+- **Amazon schließt Mechanical Turk** nach 21 Jahren (heise, 26.08.2026). **Bewusst nicht verfolgt**,
+  weil das Thema in dasselbe Feld wie der verworfene Post 19 gehört. Der Kanalinhaber hat dort
+  entschieden. Die Namensherkunft (Bezos: „artificial artificial intelligence", nach dem Schachtürken
+  des 18. Jahrhunderts) liegt als Kommentarmaterial im Briefing vom 27.08.
+- **vzbv zu Lootboxen** (Pressemitteilung 26.08.2026): Verbraucheraufruf März bis Juli 2026, 81
+  Rückmeldungen, ausdrücklich nicht repräsentativ, Ausgaben von hundert bis mehrere tausend Euro,
+  vereinzelt mittlerer fünfstelliger Bereich. **Kein KI-Bezug**, geprüft und abgelegt. Für einen Post
+  über Dark Patterns und den Digital Fairness Act wäre es eine Quelle.

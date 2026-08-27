@@ -580,3 +580,29 @@ posts:
       sends: null
       sends_per_reach: null
       saves: null
+
+  - id: 26
+    slug: trainingsdaten-zusammenfassung
+    ordner: post-026-trainingsdaten-zusammenfassung
+    titel: "KI-Anbieter müssen offenlegen, womit sie trainiert haben"
+    saeule: betrifft_dich
+    bauform: selbstexperiment
+    status: gerendert          # 6 Blaetter (Stand 27.08.2026); ERSTE Anwendung der Bauform Selbstexperiment
+    blaetter: 6
+    geplant_fuer: aktuell
+    gepostet_am: null
+    offen:
+      - "KEINE EINZELNE ZUSAMMENFASSUNG GELESEN. Groesste Luecke. Mehrere Anbieterseiten antworteten aus dieser Umgebung mit HTTP 403 oder 404. Vor dem Posten wenigstens eine oeffnen und in Blatt 05 oder die Caption aufnehmen, sonst beschreibt der Post die Pflicht und nicht ihre Wirklichkeit"
+      - "BEFUND 'keine Sammelstelle' stuetzt sich NICHT auf den eigenen gescheiterten Abruf, sondern auf Artikel 71 (EU-Datenbank nur fuer Hochrisiko-Systeme nach Anhang III) und auf die Seite des Buero fuer Kuenstliche Intelligenz. Blatt 05 nennt die eigene Einschraenkung getrennt davon"
+      - "SCHAERFSTER DATUMSBEFUND: Artikel 113 Buchstabe b nimmt Artikel 101 ausdruecklich aus. Die Pflicht gilt seit 02.08.2025, Geldbussen fuer GPAI-Anbieter erst seit 02.08.2026. Beruht auf einem Halbsatz im Verordnungstext, vor dem Posten gegenlesen lassen"
+      - "ANLASS NICHT BELEGBAR: Der Euractiv-Bericht ueber die ersten Auskunftsersuchen war nicht abrufbar (HTTP 403). Er steht auf keinem Blatt, nur als benannter ungepruefter Anlass in der Caption"
+      - "Die Vorlage der Kommission (C(2025) 5235 final, 24.07.2025) ist auf ENGLISCH. Alle Angaben daraus stehen beschreibend im Post, nicht als Zitat"
+      - "GEGENGEWICHT auf Blatt 04: Die Vorlage verlangt ausdruecklich NICHT die genaue Mischung und Zusammensetzung der Datenquellen"
+      - "UEBERGANGSFRIST fuer Altmodelle nicht im Verordnungstext belegt, deshalb auf keinem Blatt"
+      - "Caption 1.070 Zeichen ohne Hashtags, unter der Obergrenze vom 24.08.2026"
+      - "Nach ~7 Tagen Kennzahlen (reach/sends/saves) aus Insights nachtragen"
+    kennzahlen:
+      reach: null
+      sends: null
+      sends_per_reach: null
+      saves: null
