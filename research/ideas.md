@@ -846,3 +846,85 @@ zu einem Fall macht.
   Rückmeldungen, ausdrücklich nicht repräsentativ, Ausgaben von hundert bis mehrere tausend Euro,
   vereinzelt mittlerer fünfstelliger Bereich. **Kein KI-Bezug**, geprüft und abgelegt. Für einen Post
   über Dark Patterns und den Digital Fairness Act wäre es eine Quelle.
+
+## Recherchierte Einzelbefunde (Stand 28.08.2026)
+
+**Kein Neubau an diesem Tag** (Rückstau bei vier). Die Zeit ging in die offenen Prüfpunkte der
+wartenden Posts. Zwei Befunde sind wichtig genug, um sie hier zu sichern.
+
+**DRINGEND, betrifft Post 25: Die Arbeitgeberseite hat geantwortet.** In `sources.md` von Post 25
+steht als größte Lücke, eine Reaktion des Arbeitgeberverbands sei nicht auffindbar. Das stimmt seit
+dem Abend des 26.08.2026 nicht mehr:
+- Personalwirtschaft, 26.08.2026, 16:29 Uhr, Autorin Paula Heidemann, „DBV fordert
+  KI-Entlastungstage: AGV Banken dagegen".
+- **Carsten Rogge-Strang**, Hauptgeschäftsführer des AGV Banken: „Die große Mehrheit der
+  Beschäftigten empfindet den Einsatz von KI als bereichernd und unterstützend." Und: „Wir sollten
+  die Kirche wirklich im Dorf lassen."
+- Grundlage ist eine **Kantar-Umfrage im Auftrag des AGV Banken unter 942 Beschäftigten** des
+  privaten Bankgewerbes. **52 Prozent** gaben an, Veränderungen durch technologische Fortschritte wie
+  KI belasteten die Beschäftigten „gar nicht".
+- **Belastbarkeit: berichtet.** Weder eine Mitteilung des AGV Banken noch die Umfrage selbst gesehen,
+  `agvbanken.de/pressemeldungen` antwortete mit HTTP 404.
+- **Warum das den Post besser macht:** Die Zahl des Verbands beantwortet eine andere Frage als die
+  Forderung der Gewerkschaft. Gefragt wurde nach Belastung insgesamt, behauptet wird eine
+  Verschiebung des Arbeitsmix. Damit liegen drei dokumentierte Positionen vor statt zwei.
+- **Zur Einordnung:** Der Satz in `sources.md` war beim Schreiben richtig, der Lauf vom 26.08. endete
+  gegen 06:30 UTC. Falsch wird er erst durch das Posten. **Post 25 wurde nicht angefasst**, das
+  verbieten die harten Grenzen. Die Entscheidung gehört dem Kanalinhaber.
+
+**Betrifft Post 21: die fehlende Gegenstimme ist da.** Die **Gesellschaft für Informatik** hat am
+**29.07.2026**, dem Tag des Kabinettsbeschlusses zum KIMVG, Stellung genommen. Zitiert wird Christine
+Hennig, Sprecherin des Fachbereichs Informatik und Gesellschaft. Kernpunkte:
+- Automation Bias: „Zugleich verlassen sich menschliche Entscheidungsträger*innen bei der Verwendung
+  eines automatisierten Systems übermäßig auf dessen Empfehlungen."
+- „Die Konstruktion statistischer Zusammenhänge anhand weniger personenbezogener Datenpunkte ist
+  ungenau und eignet sich nicht als belastbare Entscheidungsgrundlage."
+- Verzerrte Trainingssätze lieferten „insbesondere für vulnerable Gruppen wie Frauen, Kinder und
+  People of Color überproportional viele Fehlklassifikationen".
+- Die „breite Ausnahmeregelung zur Verarbeitung biometrischer Daten" sei „sehr invasiv". **Das trifft
+  genau die Stelle, die Post 21 im Beleg-Panel zeigt.**
+*Ebenfalls vorhanden und ungelesen:* Stellungnahme von Pro Asyl, Beitrag im Verfassungsblog
+(„Computer Says No: Migrationsverwaltung zwischen Rechtsstaatsprinzip und Verwaltungseffizienz").
+*Weiterhin nicht bekommen:* die Kabinettsfassung vom 29.07.2026.
+`bmi.bund.de/SharedDocs/gesetzgebungsverfahren/DE/MI6/kimvg.html` antwortete erneut mit **HTTP 400**.
+Eine Drucksache zum KIMVG existiert nach Suche vom 28.08.2026 noch nicht.
+
+**Zweites Großrechenzentrum der Schwarz-Gruppe, diesmal bei Rostock.** Gemeinsame Pressemitteilung
+der Schwarz Corporate Affairs GmbH & Co. KG vom 27.08.2026, 12:38 Uhr, über presseportal.de:
+- **5,6 Milliarden Euro**, Gewerbegebiet **Dummerstorf** bei Rostock, **240 Megawatt bis 2033**,
+  Ausbauperspektive **ein Gigawatt Anschlussleistung bis 2045**.
+- Betrieb ausschließlich mit erneuerbaren Energien, Anschluss ans 380-Kilovolt-Netz,
+  Absichtserklärung mit den Stadtwerken Rostock zur Abwärme, freie Luftkühlung. Zu Förderung und
+  Arbeitsplätzen steht nichts drin.
+- Chrzanowski: „Digitale Souveränität entsteht nicht durch Appelle oder Reden. Sie entsteht durch
+  Handeln, durch verlässliche Infrastruktur und durch praxistaugliche Anwendungen." Schwesig: „Ziel
+  der Landesregierung ist, dass wir unabhängiger von ausländischen Anbietern von Rechenzentren
+  werden."
+- **WICHTIG:** Das ist ein **zweiter Standort** und nicht das Projekt aus Post 13 (Lübbenau,
+  Brandenburg, elf Milliarden, rund 200 Megawatt). **Post 13 enthält keinen Fehler.**
+- *Vor dem Bauen:* die in Post 13 offene Definitionsfrage klären, ob die Bitkom-Werte (530 und 2.980
+  Megawatt) IT-Anschlussleistung oder Gesamtanschlussleistung meinen. Ohne das sind Balken über beide
+  Projekte nicht vergleichbar.
+
+**Datenschutzaufsicht soll gebündelt werden.** Bundestagsdrucksache **21/7732 vom 26.08.2026**,
+Gesetzentwurf des Bundesrates zur Änderung des BDSG. Die Datenschutzkonferenz soll gesetzlich
+institutionalisiert werden und verbindliche Mehrheitsbeschlüsse fassen können, dazu ein nationaler
+One-Stop-Shop. Zwölf Seiten, als PDF geladen und im Volltext durchsucht.
+**Das Dokument erwähnt künstliche Intelligenz mit keinem Wort** (null Treffer für „Künstlich", „KI-",
+„automatisiert", „Sprachmodell"). Deshalb kein eigener Post. **Aber:** Zusammen mit der Warnung des
+niedersächsischen Landesbeauftragten vor einer Zentralisierung der KI-Aufsicht bei der
+Bundesnetzagentur (Briefing vom 25.08.2026) ergibt das den Strang „Wer ist eigentlich zuständig, wenn
+eine KI dir schadet?". Der bräuchte einen konkreten Beschwerdefall.
+
+**Kleinere Fundstücke vom 28.08.2026:**
+- **Herkunft der EU-Annahme, die Rechenzentrumskapazität müsse verdreifacht werden:** Ein Blogger auf
+  `rtl.chrisadams.me.uk` hat die Zahl zurückverfolgt und landet bei einem Unternehmen, das mit
+  Rechenzentren Geld verdient. Beitrag ist **vom Juli 2026**, ungeprüft. **Die Kette selbst
+  nachlaufen, bevor daraus ein Post wird.**
+- **Spanien** will größere Rechenzentren verpflichten, 80 Prozent ihres Stromverbrauchs stündlich aus
+  erneuerbaren Energien zu decken (Renewables Now, 27.08.2026, Entwurf nicht gelesen). Als Vergleich
+  in einem deutschen Rechenzentrums-Post brauchbar.
+- **Chatverläufe vor Gericht:** Washington Post, 27.08.2026, ein Dutzend US-Beispiele, stark
+  gestiegene Polizeianfragen an Anbieter wie OpenAI. **Für einen deutschen Post fehlt der deutsche
+  Vorgang.** Zu prüfen wäre eine parlamentarische Anfrage zu Auskunftsersuchen deutscher Behörden an
+  KI-Anbieter. Post 7 deckt die Vorsorgeseite ab.
