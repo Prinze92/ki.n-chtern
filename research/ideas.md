@@ -928,3 +928,80 @@ eine KI dir schadet?". Der bräuchte einen konkreten Beschwerdefall.
   gestiegene Polizeianfragen an Anbieter wie OpenAI. **Für einen deutschen Post fehlt der deutsche
   Vorgang.** Zu prüfen wäre eine parlamentarische Anfrage zu Auskunftsersuchen deutscher Behörden an
   KI-Anbieter. Post 7 deckt die Vorsorgeseite ab.
+
+## Recherchierte Einzelbefunde (Stand 29.08.2026)
+
+**Zweiter Tag ohne Neubau** (Rückstau bei vier). Die Zeit ging wieder in die offenen Prüfpunkte, und
+diesmal sind zwei Blocker gefallen.
+
+**GESCHLOSSEN, betrifft Post 24: Uber hat sich geäußert.** In `sources.md` steht als größte Schwäche
+„Keine Stellungnahme von Uber". Mehrere Redaktionen geben übereinstimmend ein Sprecherzitat wieder:
+> „Wir lehnen diese Entscheidung und die unverhältnismäßig hohe Geldstrafe entschieden ab und werden
+> dagegen Berufung einlegen. Die AP hat Richtlinien aus der Vergangenheit geprüft, die bereits vor
+> Jahren außer Kraft gesetzt wurden."
+Dazu: Das Unternehmen nehme die Rechte seiner Fahrer ernst, seine Verfahren sähen menschliche
+Prüfungen und Einspruchsmöglichkeiten gegen Sperrungen vor.
+- **Belastbarkeit: berichtet.** Keine eigene Mitteilung von Uber gefunden.
+- **Nebenbefund, der eine Entscheidung in Post 24 bestätigt:** Der Sprecher sagt „werden dagegen
+  Berufung einlegen", also Futur. Das stützt die Wahl der niederländischen Fassung („aangekondigd
+  bezwaar aan te tekenen") gegen die englische („has filed") derselben Behörde. **Blatt 05
+  formuliert richtig.**
+
+**GESCHLOSSEN, betrifft Post 26: Eine veröffentlichte Trainings-Zusammenfassung ist gelesen.**
+Gefunden über den Weg, den die Vorlage selbst vorschreibt, nämlich am Modell und nicht auf einer
+Firmenwebsite.
+- **Fundstelle:** SmolLM3-3B von Hugging Face. Die Modellkarte auf `huggingface.co` bindet die
+  Zusammenfassung ein; der Inhalt steht im Quelltext der zugehörigen Anwendung
+  (`spaces/hfmlsoc/smollm3-eu-data-transparency`, Datei `app.py`), geladen und gelesen.
+- **Inhalt in Auszügen:** Anbieter Hugging Face, Modell SmolLM3-3B, über zehn Billionen Token, sechs
+  EU-Sprachen. Abschnitt 2 zusammengefasst: ausschließlich öffentlich verfügbare Datensätze
+  einschließlich synthetischer Daten, keine kommerzielle Lizenzierung, kein eigenes Crawling, keine
+  Nutzerdaten, keine privaten Daten. Zeitstände: frühester Datensatz zuletzt aktualisiert 04.03.2024
+  (Stack v2), spätester 19.02.2025 (FineWeb2-HQ).
+- **DER BEFUND, der einen eigenen Post tragen könnte:** Die auffälligste Anforderung der Vorlage ist
+  die Liste der Domainnamen aus den obersten zehn Prozent des abgegriffenen Inhalts. In dieser
+  Zusammenfassung ist Abschnitt 2.3 beantwortet mit „Wurden Crawler vom Anbieter oder in seinem
+  Auftrag eingesetzt? ☐ Nein". **Damit entfällt die Domainliste.** Gecrawlt wurde trotzdem, nur
+  früher und von anderen. Die Zusammenfassung sagt das selbst: Alle crawl-basierten Daten stammten
+  aus den CommonCrawl-Archiven, die robots.txt beachten. **Kein Vorwurf an Hugging Face**, die
+  Vorlage ist wahrheitsgemäß ausgefüllt und der Hinweis steht freiwillig darin. Es ist eine
+  Beobachtung darüber, was das Instrument liefert, wenn ein Anbieter auf fremden Datensätzen aufbaut.
+- **Zwei Präzisierungen für Post 26**, beide an der Vorlage geprüft:
+  1. Randnummer 32: Die Zusammenfassung ist „on the provider's official website in a clearly visible
+     and accessible manner" zu veröffentlichen **und** zusätzlich „together with the model across all
+     its public distribution channels (e.g. online platforms)". Blatt 05 sagt bisher nur, sie liege
+     beim Anbieter. **Ein zentrales Verzeichnis gibt es weiterhin nicht**, das bleibt richtig.
+  2. Randnummer 33: Für Modelle, die vor dem 2. August 2025 in Verkehr gebracht wurden, soll die
+     Zusammenfassung „no later than 2 August 2027" öffentlich sein. Damit ist die in `sources.md` als
+     unbelegt vermerkte Übergangsfrist belegt. Derselbe Absatz bestätigt den Datumsbefund des Posts:
+     „The supervision and enforcement by the AI Office for compliance with the rules for
+     general-purpose AI models will start as of 2 August 2026."
+
+**Karte der geplanten Rechenzentren in Deutschland.** Bündnis „Heiße Luft" unter `heisseluft.org`,
+getragen von AlgorithmWatch gGmbH, Stichting Leitmotiv, dem Heiße-Luft-Kollektiv und der Open
+Knowledge Foundation Deutschland (FragDenStaat). heise berichtet am 28.08.2026, 13:18 Uhr.
+- **Datenstand laut Seite: 27.08.2026.** Eine Gesamtzahl der erfassten Standorte nennt die gelesene
+  Methodikseite nicht. **Die fehlt für Blatt 01 und ist vor dem Bauen zu beschaffen.**
+- **Quellen des Projekts nach eigener Angabe:** Pressemitteilungen und Betreiberangaben,
+  Berichterstattung über Spatenstiche und Grundstückskäufe, amtliche Veröffentlichungen und
+  Börsenmitteilungen, Satellitenbilder, Sammlungen von Bürgerinitiativen, Abwärmeregister, PeeringDB.
+- **Selbst genannte Grenzen:** „Mehr Projekte werden öffentlich angekündigt, als tatsächlich gebaut
+  werden"; viele Werte sind Schätzungen; Unsicherheit bei der Lokalisierung; Abweichungen zu Bitkom
+  und JLL; der vorhandene Bestand ist nicht erfasst.
+- **Warum das die richtige Sorte Quelle ist:** Ein Projekt, das seine eigenen Lücken aufschreibt.
+- **Zusammen mit der Schwarz-Gruppen-Ankündigung vom 27.08. (Dummerstorf, 5,6 Mrd., 240 MW bis 2033,
+  1 GW Perspektive bis 2045) ist das der stärkste Kandidat für den nächsten Bautag.**
+- *Achtung:* Post 13 deckt den Einzelfall Lübbenau ab, ein neuer Post braucht den Bundesblick und
+  eine andere Bauform als die Rekonstruktion.
+
+**Kleinere Fundstücke vom 29.08.2026:**
+- **xAI verklagt zwei eigene Nutzer**, die mit Grok sexualisierte Deepfakes von Kindern erstellt
+  haben sollen, um sie für Kosten aus Klagen Betroffener in Regress zu nehmen (Politico über
+  netzpolitik-Ticker, 28.08.2026). US-Verfahren, Klageschrift ungelesen. **Die interessante Frage
+  wäre der Regress des Anbieters gegen Nutzer für Schäden aus dem eigenen Werkzeug.** Dafür fehlt ein
+  europäischer Anknüpfungspunkt.
+- **Über 100 Unternehmen warnen vor KI-gestützten Cyberangriffen** (heise, 28.08.2026). Ungeprüft.
+  Warnungen von KI-Laboren vor KI sind eine eigene Textsorte. Post 17 deckt das Feld mit einer
+  belegten Zahl ab.
+- **China verbietet romantische KI-Partner** (Der Standard über netzpolitik-Ticker, 28.08.2026).
+  Keine Primärquelle, und Post 14 deckt das Thema für Leserinnen und Leser hier ab.
