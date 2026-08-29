@@ -32,10 +32,10 @@ OUT_LOGO = REPO / "brand" / "logo"
 # wiederherstellbar ueber die Git-Historie (wie seinerzeit Post 3).
 # Hinweis: Post 0/1/4/6/7/9 wurden mit Kicker 30 veroeffentlicht, Post 2/5/8/10/13 mit Kicker 38.
 # Beide geben ihre Groesse deshalb ausdruecklich am kicker()-Aufruf an.
-OUT_POST21 = REPO / "posts" / "post-021-kimvg-asyl-ki" / "slides"
-OUT_POST24 = REPO / "posts" / "post-024-uber-automatische-sperrung" / "slides"
-OUT_POST25 = REPO / "posts" / "post-025-ki-entlastungstage-banken" / "slides"
-OUT_POST26 = REPO / "posts" / "post-026-trainingsdaten-zusammenfassung" / "slides"
+# Post 21/24/25/26 sind am 29.08.2026 gepostet und nach archive/ gewandert.
+# Ihre build_postN()-Funktionen bleiben als Reproduzierbarkeits-Referenz stehen,
+# werden aber nicht mehr aufgerufen. Archivierte Blaetter werden nie neu gerendert.
+# Stand 29.08.2026 ist damit KEIN Post aktiv, der Lauf rendert nur Logo und Stories.
 
 # Post 22 (Carlsen gegen OpenAI) ist am 24.08.2026 gepostet und nach archive/ gewandert.
 # Post 23 (Rechenzentrumsregister) wurde am 24.08.2026 verworfen; Ordner und build_post23()
@@ -53,7 +53,7 @@ OUT_POST26 = REPO / "posts" / "post-026-trainingsdaten-zusammenfassung" / "slide
 # Ihre build_postN()-Funktionen bleiben als Vorlage stehen, werden aber nicht mehr
 # aufgerufen. Archivierte Blaetter werden nie neu gerendert (siehe CLAUDE.md).
 OUT_STORY = REPO / "brand" / "stories"
-for _d in (OUT_LOGO, OUT_STORY, OUT_POST21, OUT_POST24, OUT_POST25, OUT_POST26):
+for _d in (OUT_LOGO, OUT_STORY):
     _d.mkdir(parents=True, exist_ok=True)
 
 # ---------------------------------------------------------------- palette
@@ -2626,18 +2626,11 @@ def save_slides(slides, out_dir):
     return len(slides)
 
 
-# Nur aktive Posts rendern. Stand 24.08.2026 ist das allein Post 21.
+# Nur aktive Posts rendern. Stand 29.08.2026 gibt es keinen aktiven Post.
 print(f"Logo    -> {OUT_LOGO}")
-n21 = save_slides(build_post21(), OUT_POST21)
-print(f"Post 21: {n21} Blätter -> {OUT_POST21}")
-n24 = save_slides(build_post24(), OUT_POST24)
-print(f"Post 24: {n24} Blätter -> {OUT_POST24}")
-n25 = save_slides(build_post25(), OUT_POST25)
-print(f"Post 25: {n25} Blätter -> {OUT_POST25}")
-n26 = save_slides(build_post26(), OUT_POST26)
-print(f"Post 26: {n26} Blätter -> {OUT_POST26}")
-print("(Post 0-2/4-10/12-18/20/22 gepostet & archiviert -> archive/, nicht neu gerendert)")
+print("(Post 0-2/4-10/12-18/20-22/24-26 gepostet & archiviert -> archive/, nicht neu gerendert)")
 print("(Post 3/11/19/23 verworfen, siehe posts/posts.yaml und research/ideas.md)")
+print("(Kein aktiver Post. Der naechste bekommt hier wieder eine Dispatcher-Zeile.)")
 
 _stories = build_stories()
 for _name, _im in _stories:

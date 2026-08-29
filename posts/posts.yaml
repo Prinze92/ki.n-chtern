@@ -462,10 +462,10 @@ posts:
     titel: "Das BAMF soll seine KI mit Asylanträgen trainieren dürfen"
     saeule: unbequeme_frage
     bauform: rekonstruktion
-    status: gerendert          # 6 Blaetter (Stand 21.08.2026); Referentenentwurf KIMVG im Volltext gelesen
+    status: gepostet           # live am 29.08.2026; 6 Blaetter (Stand 21.08.2026); Referentenentwurf KIMVG im Volltext gelesen
     blaetter: 6
     geplant_fuer: aktuell
-    gepostet_am: null
+    gepostet_am: 2026-08-29
     offen:
       - "WICHTIGSTE EINSCHRAENKUNG: Gelesen ist der Referentenentwurf mit Bearbeitungsstand 25.06.2026. Das Kabinett hat am 29.07.2026 eine Fassung beschlossen, die NICHT gelesen werden konnte. bmi.bund.de antwortete am 21.08.2026 mit HTTP 400, eine Drucksachennummer war nicht auffindbar. Blatt 05 traegt diese Einschraenkung. Ohne Blatt 05 darf der Post nicht erscheinen"
       - "VOR DEM POSTEN: Kabinettsfassung beschaffen und das Panel-Zitat gegenlesen. Wenn sich Paragraf 7a Absatz 1 geaendert hat, muss der Post neu gebaut werden"
@@ -534,13 +534,13 @@ posts:
     titel: "Eine Software sperrte Uber-Fahrer aus. Ihr Geld war sofort weg"
     saeule: betrifft_dich
     bauform: der_fall
-    status: gerendert          # 6 Blaetter (Stand 25.08.2026); AP-Mitteilung in beiden Sprachfassungen geprueft
+    status: gepostet           # live am 29.08.2026; 6 Blaetter (Stand 25.08.2026), AP-Mitteilung in beiden Sprachfassungen geprueft
     blaetter: 6
     geplant_fuer: aktuell
-    gepostet_am: null
+    gepostet_am: 2026-08-29
     offen:
       - "KEIN BUSSGELDBESCHEID AUS ERSTER HAND. Der gesamte Sachverhalt stammt aus der Pressemitteilung der Autoriteit Persoonsgegevens vom 21.08.2026, also von der Behoerde, die das Bussgeld verhaengt hat"
-      - "KEINE STELLUNGNAHME VON UBER. Groesste Schwaeche des Posts. Vor dem Posten pruefen, ob sich Uber geaeussert hat"
+      - "NACHTRAG 29.08.2026: Eine Stellungnahme von Uber lag beim Posten vor, ist aber NICHT im Post. Sprecherzitat, uebereinstimmend in mehreren Redaktionen: Entscheidung und Hoehe werden abgelehnt, die geprueften Richtlinien seien seit Jahren ausser Kraft, die Verfahren sahen menschliche Pruefungen und Einspruchsmoeglichkeiten vor. Belastbarkeit: berichtet. Der Sprecher sagt 'werden Berufung einlegen' (Futur) und bestaetigt damit die Wahl der niederlaendischen Fassung auf Blatt 05"
       - "ABWEICHUNG ZWISCHEN DEN SPRACHFASSUNGEN DER BEHOERDE: NL schreibt 'aangekondigd bezwaar aan te tekenen' (angekuendigt), EN schreibt 'has filed an appeal' (eingelegt). Der Post folgt dem niederlaendischen Original. Vor dem Posten neu pruefen, ob der Widerspruch inzwischen laeuft"
       - "Panel-Zitat steht im niederlaendischen ORIGINAL, die deutsche Uebersetzung bewusst ausserhalb des Panels und als Uebersetzung gekennzeichnet"
       - "Balken auf Blatt 04 auf linearer Skala: 600.000 (2018) wird zum Splitter neben 825 Mio. (2026). Die Gruende der drei frueheren Bussgelder nennt die Mitteilung nicht, das steht so auf dem Blatt"
@@ -560,12 +560,12 @@ posts:
     titel: "Bei der Commerzbank soll KI Zeit schaffen. Wem gehört diese Zeit?"
     saeule: hype_check
     bauform: widerspruch
-    status: gerendert          # 6 Blaetter (Stand 26.08.2026); beide Panel-Zitate im Rohtext geprueft
+    status: gepostet           # live am 29.08.2026; 6 Blaetter (Stand 26.08.2026), beide Panel-Zitate im Rohtext geprueft
     blaetter: 6
     geplant_fuer: aktuell
-    gepostet_am: null
+    gepostet_am: 2026-08-29
     offen:
-      - "KEINE REAKTION DER ARBEITGEBERSEITE auf die KI-Entlastungstage gefunden. Groesste Schwaeche. Vor dem Posten pruefen, ob AGV Banken oder Commerzbank geantwortet haben"
+      - "NACHTRAG 29.08.2026: Die Reaktion der Arbeitgeberseite lag beim Posten VOR, ist aber NICHT im Post. Personalwirtschaft, 26.08.2026 16:29 Uhr: Carsten Rogge-Strang, Hauptgeschaeftsfuehrer AGV Banken, lehnt die Forderung ab. Kantar-Umfrage im Auftrag des Verbands unter 942 Beschaeftigten, 52 Prozent sagen, technologische Veraenderungen belasteten sie gar nicht. sources.md sagt weiterhin, eine Reaktion sei nicht auffindbar. Das stimmte beim Schreiben am 26.08. morgens, nicht mehr beim Posten. Kandidat fuer eine sichtbare Korrektur im Kommentarfeld"
       - "GROESSE DES TARIFGEBIETS UNBELEGT. In Sekundaerquellen kursieren rund 150.000 Beschaeftigte in gut 80 Instituten; die AGV-Banken-Seite liefert die Zahlen nur ueber einen Skript-Zaehler. Die Zahl steht deshalb NIRGENDS im Post, das Quellenblatt sagt das"
       - "Die Forderung nennt KEINE Tageszahl fuer die Entlastungstage, sie verweist auf die betriebliche Ebene. Blatt 05 sagt das"
       - "Beide Quellen sind PARTEI: das eine Papier begruendet einen Stellenabbau, das andere eine Gehaltsforderung. Steht auf Blatt 04 und auf dem Quellenblatt"
@@ -587,12 +587,14 @@ posts:
     titel: "KI-Anbieter müssen offenlegen, womit sie trainiert haben"
     saeule: betrifft_dich
     bauform: selbstexperiment
-    status: gerendert          # 6 Blaetter (Stand 27.08.2026); ERSTE Anwendung der Bauform Selbstexperiment
+    status: gepostet           # live am 29.08.2026; 6 Blaetter (Stand 27.08.2026), ERSTE Anwendung der Bauform Selbstexperiment
     blaetter: 6
     geplant_fuer: aktuell
-    gepostet_am: null
+    gepostet_am: 2026-08-29
     offen:
-      - "KEINE EINZELNE ZUSAMMENFASSUNG GELESEN. Groesste Luecke. Mehrere Anbieterseiten antworteten aus dieser Umgebung mit HTTP 403 oder 404. Vor dem Posten wenigstens eine oeffnen und in Blatt 05 oder die Caption aufnehmen, sonst beschreibt der Post die Pflicht und nicht ihre Wirklichkeit"
+      - "NACHTRAG 29.08.2026: Am 29.08. wurde erstmals eine veroeffentlichte Zusammenfassung gelesen (SmolLM3-3B von Hugging Face, ueber die Modellkarte und die eingebundene Anwendung). Sie ist NICHT im Post. Befund: Abschnitt 2.3 mit 'keine eigenen Crawler' beantwortet, damit entfaellt die Domainliste, obwohl ueber CommonCrawl gecrawlt wurde. Details in research/ideas.md"
+      - "NACHTRAG 29.08.2026: Blatt 05 sagt, jede Zusammenfassung liege beim Anbieter. Unvollstaendig. Vorlage Randnummer 32 verlangt die Veroeffentlichung auf der Anbieterseite UND ueber alle Vertriebskanaele. Dass es kein zentrales Verzeichnis gibt, bleibt richtig"
+      - "NACHTRAG 29.08.2026: Die in sources.md als unbelegt vermerkte Uebergangsfrist steht in Randnummer 33 der Vorlage: fuer Modelle vor dem 02.08.2025 spaetestens 02.08.2027"
       - "BEFUND 'keine Sammelstelle' stuetzt sich NICHT auf den eigenen gescheiterten Abruf, sondern auf Artikel 71 (EU-Datenbank nur fuer Hochrisiko-Systeme nach Anhang III) und auf die Seite des Buero fuer Kuenstliche Intelligenz. Blatt 05 nennt die eigene Einschraenkung getrennt davon"
       - "SCHAERFSTER DATUMSBEFUND: Artikel 113 Buchstabe b nimmt Artikel 101 ausdruecklich aus. Die Pflicht gilt seit 02.08.2025, Geldbussen fuer GPAI-Anbieter erst seit 02.08.2026. Beruht auf einem Halbsatz im Verordnungstext, vor dem Posten gegenlesen lassen"
       - "ANLASS NICHT BELEGBAR: Der Euractiv-Bericht ueber die ersten Auskunftsersuchen war nicht abrufbar (HTTP 403). Er steht auf keinem Blatt, nur als benannter ungepruefter Anlass in der Caption"
