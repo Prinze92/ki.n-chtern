@@ -608,3 +608,32 @@ posts:
       sends: null
       sends_per_reach: null
       saves: null
+
+  - id: 27
+    slug: rechenzentren-karte
+    ordner: post-027-rechenzentren-karte
+    titel: "Die Liste der 105 neuen Rechenzentren kommt nicht vom Amt"
+    saeule: ki_und_infrastruktur
+    bauform: der_fall
+    status: gerendert          # 30.08.2026 neu gebaut, 6 Blaetter (Stand 30.08.2026)
+    blaetter: 6
+    geplant_fuer: aktuell
+    gepostet_am: null
+    offen:
+      - "VOR DEM POSTEN PRUEFEN, ob die Karte einen neueren Datenstand als den 27.08.2026 hat. Aendert sich die Zahl 105, aendert sich Blatt 01. Datei: okfde.github.io/datacenters-map/data/datacenters.geojson"
+      - "ALLE ZAHLEN SELBST AUSGEZAEHLT aus datacenters.geojson am 30.08.2026: 105 Standorte, 14.336 MW, 57 recherchiert / 36 geschaetzt / 12 ohne Angabe, 45 geplant / 44 im Bau / 10 pausiert / 2 abgebrochen / 4 ohne Angabe, 26 mit Protest. Die Seite selbst nennt keine Gesamtzahl"
+      - "PANEL-ZITAT § 13 Abs. 1 Satz 1 EnEfG am 30.08.2026 an gesetze-im-internet.de Zeichen fuer Zeichen geprueft, vollstaendiger Satz ohne Auslassung"
+      - "KERNBEFUND auf Blatt 04 am Normtext belegt: § 19 Abs. 1 Nr. 6 sanktioniert nur das Uebermitteln, nicht das Veroeffentlichen. Bei Nr. 2 (Umsetzungsplan) steht 'veroeffentlicht' ausdruecklich drin. Deckt sich mit AlgorithmWatch (netzpolitik.org, 22.08.2026), ist aber unabhaengig davon geprueft"
+      - "REGISTER NICHT GEPRUEFT: rechenzentrumsregister.bund.de war am 28.08. und am 30.08.2026 aus dieser Umgebung nicht erreichbar. Die netzpolitik-Zahl 482 Meldungen (BMWE-Auskunft, Stand 06.07.2026) ist einzelquelle und steht auf KEINEM Blatt"
+      - "KEIN VERGLEICH MIT DEM BESTAND. Die Definitionsfrage aus Post 13 (Bitkom 2.980 MW: IT- oder Netzanschlussleistung?) ist weiterhin offen. Die Karte misst nachweislich den Netzanschluss. Zweimal dieselbe Schwaeche waere keine"
+      - "ABWEICHUNG ZU heise: dort 'rund ein Drittel' fuer US-Konzerne (Auswertung NDR/SZ), im Datensatz 21,0 Prozent der Standorte und 24,6 Prozent der Leistung. Die Auswertung nicht gefunden, deshalb steht in der Caption nur die eigene Zaehlung"
+      - "DUMMERSTORF NICHT ALS BELEG: Karte fuehrt 1.200 MW und Freo Group, die Schwarz-Gruppen-PM vom 27.08.2026 nennt 240 MW bis 2033 und 1 GW bis 2045. Ob dasselbe Projekt gemeint ist, ungeklaert"
+      - "SELBSTIRONIE auf Blatt 06: In den eigenen Notizen stand zwei Tage lang, die Gesamtzahl sei nicht zu bekommen. Sie lag in einer offen verlinkten Datei"
+      - "RENDERER-AENDERUNG an diesem Tag: beleg() prueft jetzt die Breite von Kopf, sub und Zitatzeilen und bricht bei Ueberlauf ab, wie kicker() und balken() schon vorher. Aufgefallen an Blatt 03 (sub-Zeile 877 px bei 836 px Innenbreite)"
+      - "Caption 1.094 Zeichen ohne Hashtags, 5 Absaetze, unter der Obergrenze vom 24.08.2026"
+      - "Nach ~7 Tagen Kennzahlen (reach/sends/saves) aus Insights nachtragen"
+    kennzahlen:
+      reach: null
+      sends: null
+      sends_per_reach: null
+      saves: null

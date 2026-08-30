@@ -1005,3 +1005,70 @@ Knowledge Foundation Deutschland (FragDenStaat). heise berichtet am 28.08.2026, 
   belegten Zahl ab.
 - **China verbietet romantische KI-Partner** (Der Standard über netzpolitik-Ticker, 28.08.2026).
   Keine Primärquelle, und Post 14 deckt das Thema für Leserinnen und Leser hier ab.
+
+## Recherchierte Einzelbefunde (Stand 30.08.2026)
+
+**Rückstau bei null, deshalb wieder gebaut.** Post 27 ist entstanden, der Kandidat vom 29.08. ist
+damit abgearbeitet.
+
+**GESCHLOSSEN: Die Gesamtzahl der Karte war die ganze Zeit da.** Am 29.08. stand hier, eine
+Gesamtzahl der erfassten Standorte nenne die Seite nicht, und genau die fehle für Blatt 01. Die
+Karte auf `heisseluft.org` bindet über einen iframe `okfde.github.io/datacenters-map/` ein, und deren
+`assets/index.js` lädt die Daten aus zwei offenen Dateien:
+`data/datacenters.geojson` und `data/datacenters.csv`. Beide sind ohne Anmeldung abrufbar.
+**Auszählung vom 30.08.2026, Datenstand der Karte 27.08.2026:**
+- **105 Standorte.** Status: 45 geplant, 44 im Bau, 10 pausiert, 2 abgebrochen, 4 ohne Angabe.
+- **14.336 Megawatt Netzanschluss** in Summe. **57 recherchiert** (10.942 MW), **36 geschätzt**
+  (3.394 MW), **12 ohne jede Leistungsangabe**. Kein Standort hat beide Werte.
+- **26 Standorte mit dokumentiertem Protest.**
+- Eigentümersitz nach Leistung: Deutschland 40,4 Prozent, USA 24,6, ohne Angabe oder unbekannt 21,0,
+  Japan 5,6, Vereinigtes Königreich 4,6, Frankreich 1,8.
+- Größte: Schuby 1.400 MW, Dummerstorf 1.200, Freyenstein 700, Philippsburg 700, Nierstein 624.
+  Die fünf sind zusammen 32,3 Prozent der Summe.
+- **Wichtige Definitionsklärung:** Die CSV-Spalte heißt „Netzanschluss (kW) (Recherche)". Die Karte
+  misst also den **Netzanschluss**, nicht die IT-Anschlussleistung. Die Methodikseite führt beide
+  Größen getrennt.
+
+**Die in Post 13 offene Bitkom-Frage bleibt offen.** heise nennt am 28.08.2026 für Ende 2025 „rund
+3 Gigawatt" gesamte Anschlussleistung aller deutschen Rechenzentren, ohne zu sagen, ob IT- oder
+Netzanschluss gemeint ist. Damit ist ein Balken über Karte und Bestand weiterhin nicht sauber
+definiert. **Wer das auflösen will, muss in die Bitkom-Studie vom September 2025 selbst.** Solange das
+nicht passiert ist, gehört der Vergleich in keinen Post.
+
+**EIGENER BEFUND am Normtext, trägt Post 27 Blatt 04.** § 13 Abs. 1 Satz 1 EnEfG verlangt von
+Betreibern, die Angaben nach Anlage 3 „zu veröffentlichen **und** an den Bund zu übermitteln".
+§ 19 Abs. 1 Nr. 6 macht aber nur zur Ordnungswidrigkeit, wer eine Information „nicht rechtzeitig
+**übermittelt**". Das Wort „veröffentlicht" fehlt dort, obwohl derselbe Katalog es bei Nr. 2 zum
+Umsetzungsplan ausdrücklich nennt. Bußgeldrahmen nach § 19 Abs. 2: 50.000 Euro (Nr. 6 gehört zu den
+„übrigen Fällen"). Schwelle nach § 3 Nr. 24 Buchst. a: 300 Kilowatt nicht redundante elektrische
+Nennanschlussleistung. **Alles am 30.08.2026 an gesetze-im-internet.de geprüft.** Der Befund lag
+schon im verworfenen Post 23 und ist jetzt in Post 27 verwendet.
+
+**Nebenbefund im Gesetz, für einen Post zu fein:** § 3 Nr. 24 definiert Rechenzentren ab 300 Kilowatt,
+§ 20 Abs. 2 staffelt die erste Meldepflicht aber nach 500 und nach 200 Kilowatt. Die 200 liegen unter
+der Definitionsschwelle.
+
+**Weiterhin nicht erreichbar:** `rechenzentrumsregister.bund.de`, am 28.08. und am 30.08.2026, der
+Proxy lehnt die Verbindung ab. Die Zahl von 482 Meldungen für das Berichtsjahr 2025 (Stand
+06.07.2026) stammt aus einer Auskunft des Bundeswirtschaftsministeriums an netzpolitik.org vom
+10.08.2026, ist also **einzelquelle** und in keinem Post verwendet.
+
+**Offen geblieben, betrifft Post 27:** heise schreibt, US-Konzerne errichteten „rund ein Drittel der
+neuen Rechenzentren", gestützt auf eine Auswertung von NDR, SZ und den Kartenmachern. Im Datensatz
+komme ich auf 21,0 Prozent der Standorte und 24,6 Prozent der Leistung. Die Auswertung selbst ist
+nicht gefunden. **Möglicher Grund:** Die Karte trennt Betreiber und Eigentümer, Microsoft ist dort
+Betreiber, während der Gebäudeeigentümer ein anderer sein kann. Wer die NDR/SZ-Auswertung findet,
+kann das auflösen.
+
+**Kleinere Fundstücke vom 30.08.2026:**
+- **Siemens-Chef Roland Busch** warnt vor zu viel KI-Regulierung (heise, 29.08.2026, nach „Welt am
+  Sonntag"). Seine Zeitangabe „vielleicht zwei Jahre" bis zur Verabschiedung ist eher zu niedrig, was
+  sein Argument stärkt. Die eigentliche Wartezeit liegt danach: beschlossen am 13.06.2024, anwendbar
+  seit 02.08.2026, Art. 6 Abs. 1 erst ab 02.08.2027 (Art. 113). Als Kommentar verwendet.
+- **EU-Jugendschutzplan**, striktes Social-Media-Verbot vor dem Aus (heise, 28.08.2026). Entwurf
+  ungelesen. Berührt Altersverifikation per Gesichtsschätzung und wäre ein Post, sobald ein Dokument
+  vorliegt. Post 14 und der netzpolitik-Strang vom 26.08. („LinkedIn, Etsy, Roblox: Wer dein Gesicht
+  scannt") decken Nachbarfragen ab.
+- **Spanien** (Renewables Now, 27.08.2026) will große Rechenzentren zu 80 Prozent erneuerbarem Strom
+  je Stunde verpflichten. Als Vergleich zur deutschen EnEfG-Novelle brauchbar, sobald beide Entwürfe
+  gelesen sind. Bisher keiner von beiden.

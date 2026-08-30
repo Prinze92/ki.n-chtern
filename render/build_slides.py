@@ -35,7 +35,9 @@ OUT_LOGO = REPO / "brand" / "logo"
 # Post 21/24/25/26 sind am 29.08.2026 gepostet und nach archive/ gewandert.
 # Ihre build_postN()-Funktionen bleiben als Reproduzierbarkeits-Referenz stehen,
 # werden aber nicht mehr aufgerufen. Archivierte Blaetter werden nie neu gerendert.
-# Stand 29.08.2026 ist damit KEIN Post aktiv, der Lauf rendert nur Logo und Stories.
+# Post 27 (Karte der geplanten Rechenzentren) ist seit 30.08.2026 der einzige aktive Post.
+OUT_POST27 = REPO / "posts" / "post-027-rechenzentren-karte" / "slides"
+OUT_POST27.mkdir(parents=True, exist_ok=True)
 
 # Post 22 (Carlsen gegen OpenAI) ist am 24.08.2026 gepostet und nach archive/ gewandert.
 # Post 23 (Rechenzentrumsregister) wurde am 24.08.2026 verworfen; Ordner und build_post23()
@@ -259,8 +261,25 @@ def kicker(d, y, text, color=RED, size=38):
 def beleg(d, y, kopf, zeilen, sub=None):
     """Beleg-Panel: Quelle als sichtbares Objekt statt als Fließtext.
     Beiges Feld, roter Balken links, Monospace. Verallgemeinert das Muster
-    aus Post 1, Blatt 05. Gibt die Unterkante zurück."""
+    aus Post 1, Blatt 05. Gibt die Unterkante zurück.
+
+    Wie kicker() und balken() bricht auch dieses Panel nicht um: Kopf, sub und
+    Zitatzeilen liefen zu lang still ueber den rechten Rand hinaus. Aufgefallen am
+    30.08.2026 an Post 27, Blatt 03 (sub-Zeile, 877 px bei 836 px Innenbreite).
+    Deshalb hier dieselbe Bremse. Text kuerzen, nie die Schrift verkleinern."""
     pad = 44
+    innen = (W - M) - (M + pad)
+    for rolle, groesse, texte in (("MONOB", 30, [kopf.upper()]),
+                                  ("MONO", 26, [sub] if sub else []),
+                                  ("MONO", 28, zeilen)):
+        for t in texte:
+            breite = f(rolle, groesse).getbbox(t)[2]
+            if breite > innen:
+                raise ValueError(
+                    f"Beleg-Panel zu breit: {breite} px bei erlaubten {innen} px "
+                    f"({rolle} {groesse}).\n  Text: {t!r}\n"
+                    f"  Kuerzen. beleg() bricht nicht um."
+                )
     h = pad + 38 + (62 if sub else 0) + len(zeilen) * 46 + pad
     d.rectangle([M, y, W - M, y + h], fill=PANEL)
     d.line([(M, y), (M, y + h)], fill=RED, width=8)
@@ -2535,6 +2554,121 @@ def build_post26():
     return slides
 
 
+# ================================================================ POST 27
+def build_post27():
+    """Bauform: Der Fall. Der Fall ist die Karte selbst und die Luecke, die sie fuellt.
+    Bewusst NICHT die Rekonstruktion (Post 13 hat sie im selben Themenfeld) und nicht
+    zweimal hintereinander das Selbstexperiment (Post 26).
+
+    Zahlengrundlage ist der Rohdatensatz der Karte (datacenters.geojson, Datenstand
+    27.08.2026), am 30.08.2026 geladen und selbst ausgezaehlt. Die Seite selbst nennt
+    keine Gesamtzahl.
+
+    Ein Beleg-Panel auf Blatt 03 mit § 13 Absatz 1 Satz 1 EnEfG im vollen Wortlaut,
+    ohne Auslassung. Eine Balkenreihe auf Blatt 05 zur Belegqualitaet der
+    Leistungsangaben; der dritte Balken ist ein Splitter, weil dort keine Zahl steht.
+    Das ist die Aussage, nicht ein Darstellungsfehler.
+
+    Kein Groessenvergleich mit dem Bestand: Bitkom und heise nennen rund 3 Gigawatt,
+    aber ob das IT- oder Netzanschlussleistung ist, war schon in Post 13 offen und ist
+    es weiterhin. Zweimal dieselbe Schwaeche waere keine."""
+    T = 6
+    ST = "STAND 30.08.2026"
+    slides = []
+
+    # --- 01 HOOK
+    img, d = new(1, T, ST)
+    y = 268
+    fo = f("COND", 84)
+    for line in ["DIE LISTE DER 105", "NEUEN RECHENZENTREN", "KOMMT NICHT VOM AMT"]:
+        d.text((M, y), line, font=fo, fill=INK); y += 100
+    y += 32
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 54
+    block(d, y, "Das Bündnis Heiße Luft hat sie zusammengetragen. Am 27. August 2026 "
+                "standen 105 Standorte in der Karte, zusammen 14.336 Megawatt "
+                "Netzanschluss.",
+          f("BOOK", 46), INK, MAXW - 40, 1.4)
+    slides.append(img)
+
+    # --- 02 Was in der Rohdatei steht
+    img, d = new(2, T, ST)
+    y = kicker(d, 236, "Was in der Rohdatei steht", size=38)
+    block(d, y, "45 Standorte sind geplant, 44 im Bau, zehn pausiert, zwei schon "
+                "abgebrochen, bei vier steht nichts. Bei 26 ist Protest vor Ort "
+                "vermerkt. Der Bestand fehlt, "
+                "die Karte zeigt nur, was neu dazukommen soll. Eine Gesamtzahl nennt die "
+                "Seite nirgends, also habe ich die Datendatei geladen und durchgezählt. "
+                "Sie liegt offen im Netz, jeder kann das nachrechnen.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 03 Beleg-Panel: die Pflicht
+    img, d = new(3, T, ST)
+    y = kicker(d, 190, "Was das Gesetz verlangt", size=38)
+    y = beleg(d, y,
+              "Energieeffizienzgesetz, § 13 Absatz 1",
+              ['"Betreiber von Rechenzentren sind verpflichtet,',
+               'bis zum Ablauf des 31. März eines jeden Jahres',
+               'Informationen über ihr Rechenzentrum nach',
+               'Maßgabe der Anlage 3 für das vorangegangene',
+               'Kalenderjahr zu veröffentlichen und an den Bund',
+               'zu übermitteln."'],
+              sub="Wortlaut am 30.08.2026 geprüft")
+    block(d, y + 36, "Das sind Betriebsdaten bestehender Anlagen ab 300 Kilowatt. Für "
+                     "einen Standort, der erst geplant wird, greift die Vorschrift nicht.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 04 Die Luecke in der Bussgeldnorm
+    img, d = new(4, T, ST)
+    y = kicker(d, 236, "Ein Wort fehlt im Bußgeldteil", size=38)
+    block(d, y, "Paragraf 19 zählt auf, was ein Bußgeld auslöst. Für Rechenzentren "
+                "erfasst die Liste nur, wer eine Information nicht rechtzeitig "
+                "übermittelt. Das Veröffentlichen kommt darin nicht vor. Weiter oben in "
+                "derselben Liste, beim Umsetzungsplan der Unternehmen, steht das Wort "
+                "ausdrücklich drin. Bis zu 50.000 Euro kostet die Meldung, die ausbleibt.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 05 Woher die Leistungszahlen kommen
+    img, d = new(5, T, ST)
+    y = kicker(d, 196, "Woher die Leistungszahlen kommen", size=38)
+    y = balken(d, y, [
+        ("recherchiert, 57 Standorte", 10942, "10.942 MW"),
+        ("geschätzt, 36 Standorte", 3394, "3.394 MW"),
+        ("ohne Angabe, 12 Standorte", 0, "keine Zahl"),
+    ])
+    block(d, y + 20, "Knapp ein Viertel der Leistung ist gerechnet, nicht gefunden. Das "
+                     "steht so in den Daten. Mir ist keine amtliche Statistik bekannt, "
+                     "die ihre eigenen Lücken derart mitliefert.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 06 Quellen
+    img, d = new(6, T, ST)
+    y = kicker(d, 232, "Quellen", size=38)
+    for s_ in ["Datensatz der Karte heisseluft.org, Stand 27.08.2026",
+               "Energieeffizienzgesetz, §§ 3, 13, 19, 20",
+               "heise online und netzpolitik.org, beide 28.08.2026"]:
+        caret(d, M + 18, y + 22, 28, 6, RED)
+        yy = y
+        for ln in wrap(d, s_, f("BOOK", 40), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 40), fill=INK); yy += int(40 * 1.4)
+        y = yy + 18
+    y += 8
+    d.line([(M, y), (W - M, y)], fill=RULE, width=2); y += 26
+    y = block(d, y, "Kein Rechtsrat. Das staatliche Register war nicht erreichbar.",
+              f("BOOK", 36), MUTED, MAXW, 1.4, 20)
+    y = block(d, y, "Zwei Tage lang stand in meinen Notizen, die Gesamtzahl sei nicht zu "
+                    "bekommen. Sie lag in einer offen verlinkten Datei.",
+              f("BOOK", 36), MUTED, MAXW, 1.4, 20)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar.",
+          f("BOOK", 36), RED, MAXW, 1.4)
+    slides.append(img)
+
+    return slides
+
+
 # ================================================================ STORIES (1080x1920)
 def build_stories():
     """Story-Slides im Hochformat. Inhalt bleibt in der Sicherheitszone (oben ~260 px für
@@ -2626,11 +2760,11 @@ def save_slides(slides, out_dir):
     return len(slides)
 
 
-# Nur aktive Posts rendern. Stand 29.08.2026 gibt es keinen aktiven Post.
+# Nur aktive Posts rendern. Stand 30.08.2026 ist Post 27 der einzige aktive.
 print(f"Logo    -> {OUT_LOGO}")
 print("(Post 0-2/4-10/12-18/20-22/24-26 gepostet & archiviert -> archive/, nicht neu gerendert)")
 print("(Post 3/11/19/23 verworfen, siehe posts/posts.yaml und research/ideas.md)")
-print("(Kein aktiver Post. Der naechste bekommt hier wieder eine Dispatcher-Zeile.)")
+print(f"Post 27: {save_slides(build_post27(), OUT_POST27)} Blaetter -> {OUT_POST27}")
 
 _stories = build_stories()
 for _name, _im in _stories:
