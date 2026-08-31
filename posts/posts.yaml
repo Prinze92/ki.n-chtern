@@ -637,3 +637,32 @@ posts:
       sends: null
       sends_per_reach: null
       saves: null
+
+  - id: 28
+    slug: chatgpt-werbung-widerspruch
+    ordner: post-028-chatgpt-werbung-widerspruch
+    titel: "ChatGPT bekommt Werbung. Gefragt wirst du nicht."
+    saeule: betrifft_dich
+    bauform: rekonstruktion
+    status: gerendert          # 31.08.2026 neu gebaut, 6 Blaetter (Stand 31.08.2026)
+    blaetter: 6
+    geplant_fuer: aktuell
+    gepostet_am: null
+    offen:
+      - "GROESSTE SCHWAECHE: Die geaenderte Datenschutzrichtlinie von OpenAI ist NICHT gelesen. Fuenf Adressen (openai.com/policies/eu-privacy-policy, row-privacy-policy, privacy-policy, openai.com/index/advertising-in-chatgpt, help.openai.com) antworten mit HTTP 403, der Umweg ueber web.archive.org scheitert am Proxy. Alles, was OpenAI zugeschrieben wird, ist BERICHTET. Blatt 04 und Blatt 06 sagen das ausdruecklich"
+      - "VOR DEM POSTEN ERNEUT VERSUCHEN, die Richtlinie zu oeffnen. Gelingt es, gehoert ein woertliches Zitat der Rechtsgrundlage ins Panel und Artikel 21 in den Fliesstext. Der Post wuerde deutlich staerker"
+      - "VOR DEM POSTEN PRUEFEN, ob die Anzeigen im EWR laufen. Blatt 01 sagt 'ab Ende August'. Stand 31.08.2026 steht der Start nach meedia.de noch aus (Startlaender Deutschland, Frankreich, Irland, Singapur)"
+      - "BELASTBAR UND AM ORIGINAL GEPRUEFT ist nur die Rechtsfolge: Art. 21 Abs. 2, 3 und 4 DSGVO, Erwaegungsgrund 47 und Art. 6 Abs. 1 Buchst. f, am 31.08.2026 im Amtsblatt-Text (CELEX 32016R0679) gelesen. Das Panel traegt Absatz 3 im vollen Wortlaut, weil dieser Absatz keine Ausnahme kennt"
+      - "EIGENER BEFUND: Erwaegungsgrund 47 nennt Direktwerbung ausdruecklich als moeglichen Fall des berechtigten Interesses. Derselbe Begriff loest in Art. 21 Abs. 2 das Widerspruchsrecht aus. Keiner der drei gelesenen Berichte erwaehnt Artikel 21"
+      - "EINZELQUELLE auf Blatt 02: die Daten 09.02.2026 (US-Test) und 11.08.2026 (weitere Maerkte) stammen nur von borncity.com, das keine Fundstelle nennt. Sie tragen keine Aussage des Posts. Bei Zweifel ersatzlos streichen, der Satz traegt auch ohne sie"
+      - "KEIN BEHAUPTETER WIDERSPRUCH bei der Altersschaetzung. Dass OpenAI Minderjaehrigkeit u.a. ueber 'allgemeine Gespraechsthemen' schaetzt, waehrend fruehere Chats fuer die Anzeigenauswahl nicht genutzt werden sollen, sind verschiedene Zwecke. Steht nur in der Caption, nicht als Widerspruch auf einem Blatt"
+      - "KEINE GEGENSTIMME gefunden. Weder die irische Datenschutzkommission noch eine deutsche Aufsicht hat sich geaeussert, soweit auffindbar. Nebenstrang fuer spaeter: EDPB-Stellungnahme zu 'Consent or Pay', ungelesen"
+      - "OFFENE FRAGE, die der Post stehen laesst: ob die E-Mail an EWR-Nutzer den Hinweis nach Art. 21 Abs. 4 enthielt, ausdruecklich und von anderen Informationen getrennt. Die Mail liegt nicht vor"
+      - "ABGRENZUNG ZU POST 18: dort ging es um die Frage, ob Werbeanreize die Antworten veraendern (Untersuchung an 23 Modellen). Hier um Rechtsgrundlage und Widerspruchsrecht. Anderer Gegenstand"
+      - "Caption 1.023 Zeichen ohne Hashtags, 5 Absaetze, unter der Obergrenze vom 24.08.2026"
+      - "Nach ~7 Tagen Kennzahlen (reach/sends/saves) aus Insights nachtragen"
+    kennzahlen:
+      reach: null
+      sends: null
+      sends_per_reach: null
+      saves: null

@@ -1072,3 +1072,64 @@ kann das auflösen.
 - **Spanien** (Renewables Now, 27.08.2026) will große Rechenzentren zu 80 Prozent erneuerbarem Strom
   je Stunde verpflichten. Als Vergleich zur deutschen EnEfG-Novelle brauchbar, sobald beide Entwürfe
   gelesen sind. Bisher keiner von beiden.
+
+## Recherchierte Einzelbefunde (Stand 31.08.2026)
+
+**Rückstau bei eins, ein Post gebaut (Post 28).** Wochenende, netzpolitik.org hat seit dem 28.08.
+nichts Neues, der Ticker endet am 28.08. um 17:56 Uhr. Verwertbar war praktisch nur heise online.
+
+**openai.com ist aus dieser Umgebung endgültig als unerreichbar zu behandeln.** Am 31.08.2026 fünf
+Adressen probiert, alle **HTTP 403**: `openai.com/policies/eu-privacy-policy/`,
+`.../row-privacy-policy/`, `.../privacy-policy/`, `openai.com/index/advertising-in-chatgpt/` und
+`help.openai.com`. Auch der Umweg über `web.archive.org` funktioniert nicht, der Proxy bricht die
+Verbindung ab (`ws_closed_mid_exchange`). Die Availability-API des Archivs antwortet zwar, der
+nächstgelegene Schnappschuss stammt aber vom 31.07.2026 und liegt vor der Änderung.
+**Konsequenz für künftige Läufe:** Bei OpenAI-Themen von vornherein damit rechnen, dass die
+Primärquelle fehlt, und den Post so bauen, dass eine andere Primärquelle die Beweislast trägt.
+
+**EIGENER BEFUND am Verordnungstext, trägt Post 28.** Erwägungsgrund 47 der DSGVO, letzter Satz:
+„Die Verarbeitung personenbezogener Daten zum Zwecke der Direktwerbung kann als eine einem
+berechtigten Interesse dienende Verarbeitung betrachtet werden." Genau derselbe Begriff löst in
+Art. 21 Abs. 2 ein Widerspruchsrecht **ohne Begründung** aus, und Abs. 3 kennt dafür **keine
+Ausnahme**: „Widerspricht die betroffene Person der Verarbeitung für Zwecke der Direktwerbung, so
+werden die personenbezogenen Daten nicht mehr für diese Zwecke verarbeitet." Abs. 4 verlangt einen
+ausdrücklichen Hinweis „in einer verständlichen und von anderen Informationen getrennten Form".
+Abs. 5 erlaubt bei Diensten der Informationsgesellschaft die Ausübung „mittels automatisierter
+Verfahren". Alles am 31.08.2026 im Amtsblatt-Text gelesen (CELEX 32016R0679).
+**Keiner der drei gelesenen Berichte über die OpenAI-Richtlinie erwähnt Artikel 21.**
+
+**Was zu ChatGPT-Werbung berichtet wird** (heise 30.08., trendingtopics.eu, borncity, meedia 31.08.,
+alle ohne Zugriff auf das Original bei mir): Anzeigen ab Ende August im EWR in Free und Go, werbefrei
+Plus, Pro, Enterprise, Business, Education. Verantwortlich OpenAI Ireland Limited, Aufsicht die irische
+Datenschutzkommission. Zum Start kontextbezogen nach Chatthema, ungefährem Standort, Tageszeit und
+Gerätetyp; frühere Chats und Erinnerungen sollen nicht einfließen. Rechtsgrundlage generisch das
+berechtigte Interesse, personalisiert später die Einwilligung. Startländer laut meedia Deutschland,
+Frankreich, Irland und Singapur.
+
+**Nicht verwendeter Befund, für einen späteren Post brauchbar:** Von Werbung ausgenommen sind Konten,
+bei denen OpenAI von Minderjährigkeit ausgeht, ermittelt über eine Altersschätzung, die unter anderem
+**allgemeine Gesprächsthemen** einbezieht (trendingtopics.eu, einzelquelle). Das ist **kein**
+Widerspruch zur Zusage, frühere Chats nicht für die Anzeigenauswahl zu nutzen, es sind verschiedene
+Zwecke. Aber es ist eine Stelle, an der Gesprächsinhalte doch ausgewertet werden. **Wer daraus einen
+Post macht, braucht den Wortlaut der Richtlinie**, und der ist von hier aus nicht zu bekommen.
+
+**Nebenstrang, ungelesen:** Stellungnahme des Europäischen Datenschutzausschusses zu „Consent or
+Pay"-Modellen. Frage: Taugt ein werbefreier Bezahltarif als gleichwertige Alternative? Passt zu
+ChatGPT Free gegen Plus. Vor einer Verwendung im Original lesen.
+
+**Ein Beispiel dafür, wie aus Berichten Gewissheit wird:** meedia.de titelt am 31.08.2026
+„Datenschutzbedenken ausgeräumt". Im Text kommt keine Behörde und keine Prüfung vor. Als Beleg für
+die Regel „Keine vagen Autoritäten" gut brauchbar.
+
+**Kleinere Fundstücke vom 31.08.2026:**
+- **Meta-Vergleich in den USA**, rund 16,7 Milliarden US-Dollar, 29 Bundesstaaten. Familienministerin
+  Karin Prien sagt, damit sei „festgestellt worden", dass Plattformen Kinder süchtig machen (heise,
+  30.08.2026, nach NDR und dpa). **In der Gerichtsakte bestreitet Meta die Vorwürfe und jede Haftung
+  ausdrücklich** (übereinstimmend NBC News, Forbes, CNBC vom 26.08.2026; Akte selbst nicht gelesen).
+  Ein Vergleich stellt nichts fest. Als Kommentar verwendet. Für einen Post fehlt der KI-Bezug.
+- **Nvidia stoppt sein Programm**, kleineren Rechenzentrenbetreibern Kredite zu geben und am Umsatz
+  mitzuverdienen; eingeplant waren 36 Milliarden US-Dollar über in der Regel sechs Jahre (heise,
+  30.08.2026, nach WSJ). Anonyme Quellen, Gründe laut heise unbekannt. Berührt Post 27, taugt aber
+  nicht als Beleg.
+- **Sony Music und Warner verklagen Anthropic** (heise, 30.08.2026). US-Verfahren, Schriftsatz
+  ungelesen. Post 22 deckt das Feld mit einem deutschen Fall ab.

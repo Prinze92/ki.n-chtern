@@ -39,6 +39,10 @@ OUT_LOGO = REPO / "brand" / "logo"
 OUT_POST27 = REPO / "posts" / "post-027-rechenzentren-karte" / "slides"
 OUT_POST27.mkdir(parents=True, exist_ok=True)
 
+# Post 28 (ChatGPT-Werbung und das Widerspruchsrecht) seit 31.08.2026 aktiv.
+OUT_POST28 = REPO / "posts" / "post-028-chatgpt-werbung-widerspruch" / "slides"
+OUT_POST28.mkdir(parents=True, exist_ok=True)
+
 # Post 22 (Carlsen gegen OpenAI) ist am 24.08.2026 gepostet und nach archive/ gewandert.
 # Post 23 (Rechenzentrumsregister) wurde am 24.08.2026 verworfen; Ordner und build_post23()
 # geloescht, wiederherstellbar ueber die Git-Historie (Stand: commit eac08db).
@@ -2669,6 +2673,123 @@ def build_post27():
     return slides
 
 
+# ================================================================ POST 28
+def build_post28():
+    """Bauform: Die Rekonstruktion. Zuletzt in Post 21 verwendet und damit die am
+    laengsten nicht genutzte Form (24 Fall, 25 Widerspruch, 26 Selbstexperiment,
+    27 Fall). Ein Blatt je Schritt in der Reihenfolge, in der es passiert ist.
+
+    ACHTUNG ZUR BEWEISLAGE, steht auch auf Blatt 04 und im Quellenblatt:
+    openai.com antwortet aus dieser Umgebung mit HTTP 403, ebenso help.openai.com
+    und der Umweg ueber das Internet Archive. Die Datenschutzrichtlinie selbst ist
+    also NICHT gelesen. Alles, was OpenAI zugeschrieben wird, stammt aus drei
+    unabhaengigen Redaktionen (heise, Trending Topics, borncity) und ist auf den
+    Blaettern als Mitteilung gekennzeichnet, nicht als Beleg.
+
+    Belastbar und am Original geprueft ist die Rechtsfolge: Artikel 21 Absatz 2, 3
+    und 4 DSGVO sowie Erwaegungsgrund 47, am 31.08.2026 im Amtsblatt-Text gelesen
+    (Verordnung (EU) 2016/679, CELEX 32016R0679). Das Beleg-Panel auf Blatt 05
+    traegt Absatz 3 im vollen Wortlaut, weil dieser Absatz keine Ausnahme kennt.
+
+    Keine Balkenreihe, es gibt keine Zahlenreihe. Ein bebildertes Blatt."""
+    T = 6
+    ST = "STAND 31.08.2026"
+    slides = []
+
+    # --- 01 HOOK
+    img, d = new(1, T, ST)
+    y = 268
+    fo = f("COND", 84)
+    for line in ["CHATGPT BEKOMMT", "WERBUNG. GEFRAGT", "WIRST DU NICHT."]:
+        d.text((M, y), line, font=fo, fill=INK); y += 100
+    y += 32
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 54
+    block(d, y, "Anzeigen sollen ab Ende August in den Tarifen Free und Go erscheinen. "
+                "Für diese erste Stufe beruft sich OpenAI auf ein berechtigtes Interesse. "
+                "Um Einwilligung wird erst später gebeten.",
+          f("BOOK", 46), INK, MAXW - 40, 1.4)
+    slides.append(img)
+
+    # --- 02 Schritt 1
+    img, d = new(2, T, ST)
+    y = kicker(d, 236, "Erst die USA, dann Europa", size=38)
+    block(d, y, "In den Vereinigten Staaten testet OpenAI Anzeigen seit dem 9. Februar "
+                "2026. Am 11. August kamen weitere Märkte dazu, unter anderem Japan, "
+                "Südkorea, Mexiko, Brasilien und das Vereinigte Königreich. Für den "
+                "Europäischen Wirtschaftsraum heißt es nun, Anzeigen könnten ab Ende "
+                "dieses Monats erscheinen. Ein Datum nennt das Unternehmen nicht. "
+                "Werbefrei bleiben Plus, Pro, Enterprise, Business und Education.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 03 Schritt 2
+    img, d = new(3, T, ST)
+    y = kicker(d, 236, "Thema, Ort, Uhrzeit, Gerät", size=38)
+    block(d, y, "Vor dem Start hat OpenAI Nutzerinnen und Nutzer im Wirtschaftsraum per "
+                "E-Mail über eine geänderte Datenschutzrichtlinie informiert. "
+                "Verantwortlich ist die OpenAI Ireland Limited in Dublin, zuständig die "
+                "irische Datenschutzkommission. Zum Start sollen die Anzeigen nicht "
+                "personalisiert sein. Ausgewählt werden sie nach dem Thema der laufenden "
+                "Unterhaltung, dem ungefähren Standort, der Tageszeit und dem Gerätetyp.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 04 Schritt 3: der Unterschied, mit Offenlegung der Beweislage
+    img, d = new(4, T, ST)
+    y = kicker(d, 236, "Zwei Grundlagen, ein Unterschied", size=38)
+    block(d, y, "Für die spätere personalisierte Werbung will OpenAI um Einwilligung "
+                "bitten. Für die Anzeigen zum Start beruft es sich auf ein berechtigtes "
+                "Interesse. Eine Einwilligung kannst du verweigern, bevor etwas "
+                "passiert. Beim berechtigten Interesse "
+                "läuft die Verarbeitung, bis du widersprichst. Die Richtlinie selbst "
+                "konnte ich nicht öffnen, das steht so in drei Berichten über die "
+                "Mitteilung.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 05 Beleg-Panel: die Rechtsfolge
+    img, d = new(5, T, ST)
+    y = kicker(d, 190, "Was du dagegen tun kannst", size=38)
+    y = beleg(d, y,
+              "Datenschutz-Grundverordnung, Artikel 21",
+              ['"Widerspricht die betroffene Person der',
+               'Verarbeitung für Zwecke der Direktwerbung, so',
+               'werden die personenbezogenen Daten nicht mehr',
+               'für diese Zwecke verarbeitet."'],
+              sub="Absatz 3, amtliche deutsche Fassung")
+    block(d, y + 36, "Absatz 2 gibt dieses Recht bei Direktwerbung ohne jede Begründung, "
+                     "Absatz 4 verlangt einen ausdrücklichen und getrennten Hinweis "
+                     "darauf. Ob die Anzeigen in ChatGPT Direktwerbung in diesem Sinn "
+                     "sind, dazu kenne ich keine Entscheidung.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 06 Quellen
+    img, d = new(6, T, ST)
+    y = kicker(d, 232, "Quellen", size=38)
+    for s_ in ["DSGVO, Artikel 21 und Erwägungsgrund 47",
+               "heise online vom 30.08.2026",
+               "trendingtopics.eu vom 30.08.2026"]:
+        caret(d, M + 18, y + 22, 28, 6, RED)
+        yy = y
+        for ln in wrap(d, s_, f("BOOK", 40), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 40), fill=INK); yy += int(40 * 1.4)
+        y = yy + 18
+    y += 8
+    d.line([(M, y), (W - M, y)], fill=RULE, width=2); y += 26
+    y = block(d, y, "Kein Rechtsrat. Die Richtlinie selbst ist aus meiner Umgebung nicht "
+                    "abrufbar, alles über sie steht hier als Bericht.",
+              f("BOOK", 36), MUTED, MAXW, 1.4, 20)
+    y = block(d, y, "Vier Adressen probiert, viermal Fehler 403. Der fünfte Versuch half "
+                    "auch nicht.",
+              f("BOOK", 36), MUTED, MAXW, 1.4, 20)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar.",
+          f("BOOK", 36), RED, MAXW, 1.4)
+    slides.append(img)
+
+    return slides
+
+
 # ================================================================ STORIES (1080x1920)
 def build_stories():
     """Story-Slides im Hochformat. Inhalt bleibt in der Sicherheitszone (oben ~260 px für
@@ -2760,11 +2881,12 @@ def save_slides(slides, out_dir):
     return len(slides)
 
 
-# Nur aktive Posts rendern. Stand 30.08.2026 ist Post 27 der einzige aktive.
+# Nur aktive Posts rendern. Stand 31.08.2026 sind Post 27 und Post 28 aktiv.
 print(f"Logo    -> {OUT_LOGO}")
 print("(Post 0-2/4-10/12-18/20-22/24-26 gepostet & archiviert -> archive/, nicht neu gerendert)")
 print("(Post 3/11/19/23 verworfen, siehe posts/posts.yaml und research/ideas.md)")
 print(f"Post 27: {save_slides(build_post27(), OUT_POST27)} Blaetter -> {OUT_POST27}")
+print(f"Post 28: {save_slides(build_post28(), OUT_POST28)} Blaetter -> {OUT_POST28}")
 
 _stories = build_stories()
 for _name, _im in _stories:
