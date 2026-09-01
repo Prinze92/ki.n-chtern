@@ -644,14 +644,16 @@ posts:
     titel: "ChatGPT bekommt Werbung. Gefragt wirst du nicht."
     saeule: betrifft_dich
     bauform: rekonstruktion
-    status: gerendert          # 31.08.2026 neu gebaut, 6 Blaetter (Stand 31.08.2026)
+    status: gerendert          # 31.08.2026 gebaut, am 01.09.2026 aktualisiert (Werbestart erfolgt), 6 Blaetter (Stand 01.09.2026)
     blaetter: 6
     geplant_fuer: aktuell
     gepostet_am: null
     offen:
       - "GROESSTE SCHWAECHE: Die geaenderte Datenschutzrichtlinie von OpenAI ist NICHT gelesen. Fuenf Adressen (openai.com/policies/eu-privacy-policy, row-privacy-policy, privacy-policy, openai.com/index/advertising-in-chatgpt, help.openai.com) antworten mit HTTP 403, der Umweg ueber web.archive.org scheitert am Proxy. Alles, was OpenAI zugeschrieben wird, ist BERICHTET. Blatt 04 und Blatt 06 sagen das ausdruecklich"
       - "VOR DEM POSTEN ERNEUT VERSUCHEN, die Richtlinie zu oeffnen. Gelingt es, gehoert ein woertliches Zitat der Rechtsgrundlage ins Panel und Artikel 21 in den Fliesstext. Der Post wuerde deutlich staerker"
-      - "VOR DEM POSTEN PRUEFEN, ob die Anzeigen im EWR laufen. Blatt 01 sagt 'ab Ende August'. Stand 31.08.2026 steht der Start nach meedia.de noch aus (Startlaender Deutschland, Frankreich, Irland, Singapur)"
+      - "ERLEDIGT 01.09.2026: Die Anzeigen laufen seit dem 31.08.2026 in 31 europaeischen Maerkten (zdfheute.de 'ab heute'/'ab Montag', t3n bestaetigt). Blatt 01 und 02 standen im Futur und sind auf Praesens umgestellt, Stand-Datum jetzt 01.09.2026. KEINE Korrektur im Sinne der Bauform, der Post war nie veroeffentlicht"
+      - "NEBENBEFUND 01.09.2026: Die Altersschaetzung ist keine Einzelquelle mehr, das ZDF nennt ebenfalls Nutzer, 'die OpenAI fuer minderjaehrig haelt', als ausgenommen"
+      - "OFFENE ABWEICHUNG: meedia und t3n nennen vier Startlaender (Deutschland, Frankreich, Irland, Singapur), das ZDF am selben Tag 31 europaeische Maerkte. Die groessere Zahl steht im Post, weil das ZDF sie mit Laendern belegt, die in der Vierer-Liste fehlen. Nicht aufgeloest"
       - "BELASTBAR UND AM ORIGINAL GEPRUEFT ist nur die Rechtsfolge: Art. 21 Abs. 2, 3 und 4 DSGVO, Erwaegungsgrund 47 und Art. 6 Abs. 1 Buchst. f, am 31.08.2026 im Amtsblatt-Text (CELEX 32016R0679) gelesen. Das Panel traegt Absatz 3 im vollen Wortlaut, weil dieser Absatz keine Ausnahme kennt"
       - "EIGENER BEFUND: Erwaegungsgrund 47 nennt Direktwerbung ausdruecklich als moeglichen Fall des berechtigten Interesses. Derselbe Begriff loest in Art. 21 Abs. 2 das Widerspruchsrecht aus. Keiner der drei gelesenen Berichte erwaehnt Artikel 21"
       - "EINZELQUELLE auf Blatt 02: die Daten 09.02.2026 (US-Test) und 11.08.2026 (weitere Maerkte) stammen nur von borncity.com, das keine Fundstelle nennt. Sie tragen keine Aussage des Posts. Bei Zweifel ersatzlos streichen, der Satz traegt auch ohne sie"
@@ -660,6 +662,35 @@ posts:
       - "OFFENE FRAGE, die der Post stehen laesst: ob die E-Mail an EWR-Nutzer den Hinweis nach Art. 21 Abs. 4 enthielt, ausdruecklich und von anderen Informationen getrennt. Die Mail liegt nicht vor"
       - "ABGRENZUNG ZU POST 18: dort ging es um die Frage, ob Werbeanreize die Antworten veraendern (Untersuchung an 23 Modellen). Hier um Rechtsgrundlage und Widerspruchsrecht. Anderer Gegenstand"
       - "Caption 1.023 Zeichen ohne Hashtags, 5 Absaetze, unter der Obergrenze vom 24.08.2026"
+      - "Nach ~7 Tagen Kennzahlen (reach/sends/saves) aus Insights nachtragen"
+    kennzahlen:
+      reach: null
+      sends: null
+      sends_per_reach: null
+      saves: null
+
+  - id: 29
+    slug: chatgpt-dsa-suchmaschine
+    ordner: post-029-chatgpt-dsa-suchmaschine
+    titel: "Was bringt dir die neue EU-Aufsicht über ChatGPT?"
+    saeule: betrifft_dich
+    bauform: selbstexperiment
+    status: gerendert          # 01.09.2026 neu gebaut, 6 Blaetter (Stand 01.09.2026)
+    blaetter: 6
+    geplant_fuer: aktuell
+    gepostet_am: null
+    offen:
+      - "PRIMAERQUELLEN BEIDE GELESEN: Pressemitteilung der EU-Kommission IP/26/1772 (31.08.2026, 12:00 Uhr, aktualisiert 17:00) im Volltext ueber die Presscorner-API, und die amtliche Liste digital-strategy.ec.europa.eu. Panel-Zitat Art. 33 Abs. 6 UAbs. 2 DSA am Amtsblatt-Text (CELEX 32022R2065) abgeglichen"
+      - "HEIKELSTE STELLE ist Blatt 05. Der Satz, dass Beschwerdeverfahren, Streitbeilegung und vertrauenswuerdige Hinweisgeber (Art. 20 bis 22) in einem Abschnitt fuer Online-Plattformen stehen, ist WIEDERGABE DES NORMAUFBAUS, keine Bewertung. Getragen wird er von der Kommission selbst: 'subject to the general obligations applicable to online platforms and search engines under the DSA, respectively'. VOR DEM POSTEN GEGENLESEN LASSEN"
+      - "WO DIE BERICHTERSTATTUNG UEBERZIEHT: heise nennt am 31.08. Streitschlichtung und vertrauenswuerdige Hinweisgeber als Pflichten von ChatGPT. Diese Artikel stehen in Abschnitt 3 ('Zusaetzliche Bestimmungen fuer Anbieter von Online-Plattformen'). Der Post sagt das beschreibend und erhebt keinen Vorwurf"
+      - "WAS ALLE AUSLASSEN: die Frist. Die Pflichten greifen erst vier Monate nach der Mitteilung an den Anbieter, die Kommission nennt 'by January 2027'"
+      - "BENENNUNGSBESCHLUSS NICHT VEROEFFENTLICHT. In der Kommissionsliste steht bei allen drei Diensten 'decision not yet available'. Damit fehlt das genaue Datum der Mitteilung, an das die Vier-Monats-Frist anknuepft. VOR DEM POSTEN ERNEUT PRUEFEN"
+      - "BALKENREIHE ist sauber vergleichbar, anders als in Post 13 und 27: vier der fuenf Werte stammen aus derselben Spalte der Kommissionsliste. Die 45 Millionen sind die Rechtsgrenze aus Art. 33 Abs. 1, das sagt Blatt 03 ausdruecklich"
+      - "NUTZERZAHL IST SELBSTAUSKUNFT. Die Kommission schreibt 'These services declared that they reach at least 45 million average monthly users'. Sie hat nicht selbst gemessen. Blatt 02 sagt das"
+      - "BOGEN ZU POST 28, steht in der Caption: Art. 39 verlangt von sehr grossen Suchmaschinen ein oeffentliches Werbearchiv. Seit 31.08. zeigt ChatGPT in Europa Werbung"
+      - "DEUTSCHE FASSUNG DER PRESSEMITTEILUNG ist Maschinenuebersetzung (API-Feld eTranslatedlanguages). Gelesen und zitiert wurde die englische; woertlich zitiert wird nur der deutsche VERORDNUNGSTEXT"
+      - "KEINE STELLUNGNAHME VON OPENAI und keine Gegenstimme gefunden. openai.com weiterhin HTTP 403"
+      - "Caption 982 Zeichen ohne Hashtags, 5 Absaetze, unter der Obergrenze vom 24.08.2026"
       - "Nach ~7 Tagen Kennzahlen (reach/sends/saves) aus Insights nachtragen"
     kennzahlen:
       reach: null

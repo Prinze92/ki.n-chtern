@@ -2,7 +2,7 @@
 
 **Säule:** Betrifft dich
 **Bauform:** Die Rekonstruktion
-**Stand:** 31.08.2026
+**Stand:** 01.09.2026 (am 31.08.2026 gebaut, am 01.09. aktualisiert, siehe unten)
 **Blätter:** 6
 
 ## Warum diese Bauform
@@ -30,8 +30,8 @@ Erwägungsgrund 47, am 31.08.2026 im Amtsblatt-Text gelesen.
 
 | Nr. | Kicker | Inhalt |
 |-----|--------|--------|
-| 01 | (Hook) | „CHATGPT BEKOMMT / WERBUNG. GEFRAGT / WIRST DU NICHT." Unterzeile: ab Ende August in Free und Go, berechtigtes Interesse für die erste Stufe, Einwilligung erst später. |
-| 02 | Erst die USA, dann Europa | Zeitleiste: Test in den USA seit 09.02.2026, weitere Märkte am 11.08.2026, EWR „ab Ende dieses Monats" ohne Datum. Werbefrei bleiben Plus, Pro, Enterprise, Business, Education. |
+| 01 | (Hook) | „CHATGPT BEKOMMT / WERBUNG. GEFRAGT / WIRST DU NICHT." Unterzeile: seit dem 31. August in Free und Go, in 31 europäischen Märkten, berechtigtes Interesse für die erste Stufe, Einwilligung erst später. |
+| 02 | Erst die USA, dann Europa | Zeitleiste: Test in den USA seit 09.02.2026, weitere Märkte am 11.08.2026, Europa seit dem 31.08.2026 in 31 Märkten. Werbefrei bleiben Plus, Pro, Enterprise, Business, Education. |
 | 03 | Thema, Ort, Uhrzeit, Gerät | Die E-Mail an EWR-Nutzer, OpenAI Ireland als Verantwortliche, irische Aufsicht. Zum Start nicht personalisiert, Auswahl nach Chatthema, ungefährem Standort, Tageszeit, Gerätetyp. |
 | 04 | Zwei Grundlagen, ein Unterschied | Einwilligung für später, berechtigtes Interesse für jetzt. Was das praktisch heißt. **Und der Satz, dass ich die Richtlinie nicht öffnen konnte.** |
 | 05 | Was du dagegen tun kannst | **Beleg-Panel:** Art. 21 Abs. 3 DSGVO im vollen Wortlaut. Danach Abs. 2 und Abs. 4 beschreibend, plus die offene Auslegungsfrage. |
@@ -64,13 +64,14 @@ Ein bebildertes Blatt. Eine Balkenreihe gibt es nicht, weil es keine Zahlenreihe
 ## Alt-Text je Blatt
 
 - **01:** Aktenblatt in Beige. Große schwarze Schlagzeile über drei Zeilen: „ChatGPT bekommt Werbung.
-  Gefragt wirst du nicht." Darunter ein roter Strich und der Satz, dass Anzeigen ab Ende August in
-  den Tarifen Free und Go erscheinen sollen, dass sich OpenAI für diese erste Stufe auf ein
-  berechtigtes Interesse beruft und um Einwilligung erst später gebeten wird.
+  Gefragt wirst du nicht." Darunter ein roter Strich und der Satz, dass die Anzeigen seit dem
+  31. August in den Tarifen Free und Go erscheinen, in 31 europäischen Märkten, dass sich OpenAI für
+  diese erste Stufe auf ein berechtigtes Interesse beruft und um Einwilligung erst später gebeten
+  wird.
 - **02:** Roter Kicker „Erst die USA, dann Europa". Absatz über den Testbeginn in den Vereinigten
-  Staaten am 9. Februar 2026, die Ausweitung auf weitere Märkte am 11. August und die Ankündigung für
-  den Europäischen Wirtschaftsraum ohne konkretes Datum. Werbefrei bleiben Plus, Pro, Enterprise,
-  Business und Education.
+  Staaten am 9. Februar 2026, die Ausweitung auf weitere Märkte am 11. August und den Start in 31
+  europäischen Märkten am 31. August. Werbefrei bleiben Plus, Pro, Enterprise, Business und
+  Education.
 - **03:** Roter Kicker „Thema, Ort, Uhrzeit, Gerät". Absatz über die E-Mail an Nutzerinnen und Nutzer
   im Wirtschaftsraum, über OpenAI Ireland Limited in Dublin als Verantwortliche und die irische
   Datenschutzkommission als Aufsicht, und darüber, wonach die Anzeigen zum Start ausgewählt werden.
@@ -140,5 +141,11 @@ Vorrat für Kommentarantworten.
 - [ ] **Vor dem Posten erneut versuchen, die Richtlinie zu öffnen.** Gelingt das, gehört ein wörtliches
       Zitat der Rechtsgrundlage ins Panel und Artikel 21 in den Fließtext. Der Post würde dadurch
       deutlich stärker.
-- [ ] **Vor dem Posten prüfen, ob die Anzeigen im EWR inzwischen laufen.** Blatt 01 sagt „ab Ende
-      August", das ist heute. Ist der Start erfolgt oder verschoben, muss die Zeile angepasst werden.
+- [x] **Erledigt am 01.09.2026: Die Anzeigen laufen.** zdfheute.de titelte am 31.08.2026 „ChatGPT ab
+      heute mit Werbung, auch in Deutschland" und schrieb, Nutzer der Free- und Go-Tarife bekämen „ab
+      Montag" Werbung angezeigt; genannt sind **31 europäische Märkte**, darunter Deutschland,
+      Österreich und die Schweiz. t3n bestätigt den Start. **Blatt 01 und Blatt 02 standen im Futur
+      und sind auf Präsens umgestellt**, das Stand-Datum ist der 01.09.2026. Der Post war zu diesem
+      Zeitpunkt nicht veröffentlicht, es ist also eine Aktualisierung und keine Korrektur.
+- [x] **Nebenbefund derselben Prüfung:** Die Altersschätzung ist nicht mehr Einzelquelle. Das ZDF
+      schreibt, keine Werbung sähen auch „Nutzer, die OpenAI für minderjährig hält".

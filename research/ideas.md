@@ -1133,3 +1133,81 @@ die Regel „Keine vagen Autoritäten" gut brauchbar.
   nicht als Beleg.
 - **Sony Music und Warner verklagen Anthropic** (heise, 30.08.2026). US-Verfahren, Schriftsatz
   ungelesen. Post 22 deckt das Feld mit einem deutschen Fall ab.
+
+## Recherchierte Einzelbefunde (Stand 01.09.2026)
+
+**Rückstau bei zwei, ein Post gebaut (Post 29), dazu Post 28 aktualisiert.** Erster Werktag nach dem
+Wochenende, deutlich mehr Material als am 30. und 31.08.
+
+**PFLICHTAUFGABE ZUERST: Post 28 stand im Futur und war seit dem 31.08. falsch.** Die eigene
+Checkliste verlangte die Prüfung vor dem Posten. **Die ChatGPT-Werbung läuft seit dem 31.08.2026 in
+31 europäischen Märkten**, darunter Deutschland, Österreich, die Schweiz, Frankreich, Spanien,
+Italien, Polen, Benelux und Skandinavien (zdfheute.de, „ab heute" und „ab Montag"; t3n bestätigt).
+Blatt 01 und 02 sind auf Präsens umgestellt. **Lehre für künftige Läufe:** Ein Post, der ein
+angekündigtes Ereignis im Futur beschreibt, veraltet innerhalb von Tagen. Solche Sätze gehören auf
+die Checkliste, und die Checkliste muss am Tag nach dem Bauen wirklich abgearbeitet werden.
+*Nebenbefund:* Die Altersschätzung ist keine Einzelquelle mehr, das ZDF nennt ebenfalls Nutzer, „die
+OpenAI für minderjährig hält", als ausgenommen.
+*Offene Abweichung:* meedia und t3n nennen vier Startländer, das ZDF am selben Tag 31 Märkte. Nicht
+aufgelöst.
+
+**EU-KOMMISSION BENENNT CHATGPT ALS SEHR GROSSE ONLINE-SUCHMASCHINE**, 31.08.2026, zusammen mit
+Reddit und Roblox als sehr großen Plattformen. Erste KI-Anwendung unter dem verschärften Teil des DSA.
+Primärquellen beide gelesen: Pressemitteilung **IP/26/1772** (Volltext über die Presscorner-API, die
+HTML-Seite selbst liefert nur eine leere Hülle) und die amtliche Liste unter
+`digital-strategy.ec.europa.eu/en/policies/list-designated-vlops-and-vloses`.
+- **Zahlen aus derselben Spalte der Liste:** ChatGPT 159,1 Mio., Instagram 259, Pinterest 124,
+  Bing 119, Reddit 57,2, Roblox 46,6, XNXX 45. Schwelle 45 Mio. nach Art. 33 Abs. 1. Insgesamt 28
+  benannte Dienste.
+- **Die Zahlen sind Selbstauskunft:** „These services declared that they reach at least 45 million
+  average monthly users in the EU."
+- Aufsicht: Kommission mit **Coimisiún na Meán** (Irland) für ChatGPT und Reddit, **ACM**
+  (Niederlande) für Roblox.
+- **Begründung der Einstufung:** „ChatGPT is a hybrid service that qualifies as an online search
+  engine under the DSA."
+- **Der Beschluss selbst ist nicht veröffentlicht** („decision not yet available").
+
+**EIGENER BEFUND am Verordnungstext, trägt Post 29 Blatt 05.** Die oft genannten Nutzerrechte
+**internes Beschwerdemanagement (Art. 20), außergerichtliche Streitbeilegung (Art. 21) und
+vertrauenswürdige Hinweisgeber (Art. 22)** stehen in **Abschnitt 3**, Überschrift „Zusätzliche
+Bestimmungen für Anbieter von Online-Plattformen". Art. 3 Buchst. i definiert die Online-Plattform als
+Hostingdienst, der Informationen „öffentlich verbreitet"; Buchst. j die Online-Suchmaschine als
+**Vermittlungsdienst**. **Die Kommission selbst ordnet zu:** „Roblox, Reddit and ChatGPT are already
+subject to the general obligations applicable to online platforms and search engines under the DSA,
+**respectively**." heise online hat am 31.08. Streitschlichtung und vertrauenswürdige Hinweisgeber als
+Pflichten von ChatGPT genannt. **Der Post erhebt keinen Vorwurf, er gibt den Normaufbau wieder.**
+
+**ZWEITER BEFUND, den keine gelesene Meldung nennt: die Frist.** Art. 33 Abs. 6 UAbs. 2: Die Pflichten
+des Abschnitts greifen erst „nach Ablauf von vier Monaten nach der … Mitteilung an den Anbieter". Die
+Kommission nennt „by January 2027".
+
+**Was ab Januar 2027 für sehr große Suchmaschinen gilt** (alle Artikel im Wortlaut gelesen, jeder
+nennt ausdrücklich auch Suchmaschinen): Risikobewertung mindestens jährlich (Art. 34), Risikominderung
+(35), Krisenreaktionsmechanismus (36), unabhängige Prüfung auf eigene Kosten (37), mindestens eine
+Empfehlungssystem-Option ohne Profiling (38), **öffentliches Werbearchiv über eine Schnittstelle für
+die Laufzeit jeder Anzeige und ein Jahr danach (39)**, Datenzugang für Kommission, Koordinator und
+Forschende (40), Compliance-Abteilung (41), Transparenzberichte mindestens alle sechs Monate (42),
+Aufsichtsgebühr (43).
+**Artikel 39 ist der Bogen zu Post 28:** Genau in der Woche, in der ChatGPT in Europa Werbung
+einführt, wird es zur sehr großen Suchmaschine. Ab Januar 2027 wäre nachvollziehbar, wer dort wofür
+wirbt.
+
+**Kandidat für die nächsten Tage: deutsches KI-Sicherheitsinstitut (AISI Deutschland).** BSI und
+Bundesnetzagentur als virtueller Nukleus, Sitz Berlin; BSI für IT-Sicherheit, Bundesnetzagentur für
+physische Sicherheit und Produkttauglichkeit; Vorbild ist das britische AI Safety Institute;
+Dobrindt: „KI muss kontrollierbar bleiben" (heise, 01.09.2026, 05:15 Uhr).
+**Die Primärquelle fehlt.** Die BSI-Presseseite liefert ihre Meldungsliste per JavaScript nach, im
+HTML steht nichts; zwei geratene Direkt-URLs antworteten mit HTTP 404, danach abgebrochen, weil
+geratene URLs im Repo verboten sind. **Erneut suchen**, sobald die Mitteilung verlinkt ist. Ohne
+Auftrag, Budget und Personalstärke trägt das Thema keinen Post.
+
+**Kleinere Fundstücke vom 01.09.2026:**
+- **Debian erlaubt KI-Beiträge ohne Kennzeichnungspflicht** (heise, 31.08.2026). Beschlusstext
+  ungelesen. **Als Gegenstück zu Post 4 vorgemerkt:** Dort geht es um die Kennzeichnungspflicht nach
+  Art. 50 KI-Verordnung, hier verzichtet ein Projekt freiwillig darauf. Vor einem Post die
+  Abstimmungsunterlagen lesen.
+- **Sächsischer Innenminister fordert Ausweitung der Chatkontrolle** (netzpolitik, 31.08.2026).
+  Positionsäußerung ohne Dokument.
+- **Klage gegen Amazon wegen Werbepreisen** (heise, 01.09.2026), **Brasilien gegen Discord**
+  (31.08.2026), **CXMT gegen Pentagon** (01.09.2026). Alle drei Auslandsverfahren, Schriftsätze
+  ungelesen.

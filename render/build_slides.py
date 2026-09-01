@@ -43,6 +43,10 @@ OUT_POST27.mkdir(parents=True, exist_ok=True)
 OUT_POST28 = REPO / "posts" / "post-028-chatgpt-werbung-widerspruch" / "slides"
 OUT_POST28.mkdir(parents=True, exist_ok=True)
 
+# Post 29 (DSA-Benennung von ChatGPT) seit 01.09.2026 aktiv.
+OUT_POST29 = REPO / "posts" / "post-029-chatgpt-dsa-suchmaschine" / "slides"
+OUT_POST29.mkdir(parents=True, exist_ok=True)
+
 # Post 22 (Carlsen gegen OpenAI) ist am 24.08.2026 gepostet und nach archive/ gewandert.
 # Post 23 (Rechenzentrumsregister) wurde am 24.08.2026 verworfen; Ordner und build_post23()
 # geloescht, wiederherstellbar ueber die Git-Historie (Stand: commit eac08db).
@@ -2691,9 +2695,16 @@ def build_post28():
     (Verordnung (EU) 2016/679, CELEX 32016R0679). Das Beleg-Panel auf Blatt 05
     traegt Absatz 3 im vollen Wortlaut, weil dieser Absatz keine Ausnahme kennt.
 
-    Keine Balkenreihe, es gibt keine Zahlenreihe. Ein bebildertes Blatt."""
+    Keine Balkenreihe, es gibt keine Zahlenreihe. Ein bebildertes Blatt.
+
+    NACHGEZOGEN AM 01.09.2026: Am 31.08. gebaut stand hier noch Futur ("sollen ab
+    Ende August erscheinen"). Der Start ist am 31.08.2026 erfolgt, in 31
+    europaeischen Maerkten. Belegt bei zdfheute.de ("ab heute", "ab Montag") und
+    t3n. Blatt 01 und Blatt 02 stehen jetzt im Praesens, das Stand-Datum ist auf
+    den 01.09.2026 gesetzt. Der Post war noch nicht veroeffentlicht, das ist also
+    eine Aktualisierung vor dem Posten und keine Korrektur eines Fehlers."""
     T = 6
-    ST = "STAND 31.08.2026"
+    ST = "STAND 01.09.2026"
     slides = []
 
     # --- 01 HOOK
@@ -2704,9 +2715,9 @@ def build_post28():
         d.text((M, y), line, font=fo, fill=INK); y += 100
     y += 32
     d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 54
-    block(d, y, "Anzeigen sollen ab Ende August in den Tarifen Free und Go erscheinen. "
-                "Für diese erste Stufe beruft sich OpenAI auf ein berechtigtes Interesse. "
-                "Um Einwilligung wird erst später gebeten.",
+    block(d, y, "Seit dem 31. August erscheinen sie in den Tarifen Free und Go, in 31 "
+                "europäischen Märkten. Für diese erste Stufe beruft sich OpenAI auf ein "
+                "berechtigtes Interesse. Um Einwilligung wird erst später gebeten.",
           f("BOOK", 46), INK, MAXW - 40, 1.4)
     slides.append(img)
 
@@ -2715,10 +2726,10 @@ def build_post28():
     y = kicker(d, 236, "Erst die USA, dann Europa", size=38)
     block(d, y, "In den Vereinigten Staaten testet OpenAI Anzeigen seit dem 9. Februar "
                 "2026. Am 11. August kamen weitere Märkte dazu, unter anderem Japan, "
-                "Südkorea, Mexiko, Brasilien und das Vereinigte Königreich. Für den "
-                "Europäischen Wirtschaftsraum heißt es nun, Anzeigen könnten ab Ende "
-                "dieses Monats erscheinen. Ein Datum nennt das Unternehmen nicht. "
-                "Werbefrei bleiben Plus, Pro, Enterprise, Business und Education.",
+                "Südkorea, Mexiko, Brasilien und das Vereinigte Königreich. Seit dem "
+                "31. August läuft es in 31 europäischen Märkten, Deutschland, Österreich "
+                "und die Schweiz eingeschlossen. Werbefrei bleiben Plus, Pro, Enterprise, "
+                "Business und Education.",
           f("BOOK", 45), INK, MAXW, 1.42)
     slides.append(img)
 
@@ -2782,6 +2793,128 @@ def build_post28():
               f("BOOK", 36), MUTED, MAXW, 1.4, 20)
     y = block(d, y, "Vier Adressen probiert, viermal Fehler 403. Der fünfte Versuch half "
                     "auch nicht.",
+              f("BOOK", 36), MUTED, MAXW, 1.4, 20)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar.",
+          f("BOOK", 36), RED, MAXW, 1.4)
+    slides.append(img)
+
+    return slides
+
+
+# ================================================================ POST 29
+def build_post29():
+    """Bauform: Das Selbstexperiment. Nicht die Meldung nacherzaehlt, sondern die
+    Frage "was aendert sich fuer mich" in der Verordnung nachgeschlagen. Zuletzt
+    in Post 26 verwendet; Der Fall war 27, Die Rekonstruktion 28.
+
+    Zahlen aus der amtlichen Liste der Kommission
+    (digital-strategy.ec.europa.eu/en/policies/list-designated-vlops-and-vloses),
+    alle aus derselben Spalte "Average monthly active users in millions" und damit
+    gleich definiert. Deshalb ist die Balkenreihe auf Blatt 03 sauber vergleichbar,
+    anders als der Groessenvergleich, der in Post 13 und Post 27 nicht ging.
+
+    Beleg-Panel auf Blatt 04: Artikel 33 Absatz 6 Unterabsatz 2 DSA im amtlichen
+    deutschen Wortlaut. Der Satz korrigiert die Erwartung, mit der Benennung gelte
+    sofort etwas.
+
+    Blatt 05 ist der eigentliche Fund und zugleich die heikelste Stelle. Die
+    Formulierung bleibt streng beschreibend: Beschwerdemanagement (Art. 20),
+    Streitbeilegung (Art. 21) und vertrauenswuerdige Hinweisgeber (Art. 22) stehen
+    in Abschnitt 3, der laut Ueberschrift fuer Anbieter von Online-Plattformen
+    gilt. Die Kommission selbst schreibt, die drei Dienste unterlaegen den
+    allgemeinen Pflichten fuer Plattformen bzw. Suchmaschinen "respectively".
+    Keine Bewertung, kein Vorwurf an eine Redaktion."""
+    T = 6
+    ST = "STAND 01.09.2026"
+    slides = []
+
+    # --- 01 HOOK
+    img, d = new(1, T, ST)
+    y = 268
+    fo = f("COND", 84)
+    for line in ["WAS BRINGT DIR DIE", "NEUE EU-AUFSICHT", "ÜBER CHATGPT?"]:
+        d.text((M, y), line, font=fo, fill=INK); y += 100
+    y += 32
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 54
+    block(d, y, "Die EU-Kommission hat ChatGPT am 31. August als sehr große Suchmaschine "
+                "benannt, mit 159,1 Millionen Nutzern im Monat. Die neuen Pflichten "
+                "greifen erst im Januar 2027.",
+          f("BOOK", 46), INK, MAXW - 40, 1.4)
+    slides.append(img)
+
+    # --- 02 Was passiert ist
+    img, d = new(2, T, ST)
+    y = kicker(d, 236, "Benannt am 31. August", size=38)
+    block(d, y, "Zusammen mit ChatGPT hat die Kommission Reddit und Roblox eingestuft, "
+                "die beiden allerdings als sehr große Plattformen. Die Schwelle liegt bei "
+                "45 Millionen aktiven Nutzern im Monat in der Union. Gemeldet haben die "
+                "Dienste diese Zahlen selbst. Aufsicht führt die Kommission zusammen mit "
+                "der irischen Medienbehörde Coimisiún na Meán. Damit sind europaweit 28 "
+                "Dienste benannt.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 03 Balkenreihe: Nutzerzahlen
+    img, d = new(3, T, ST)
+    y = kicker(d, 196, "Größer als Bing", size=38)
+    y = balken(d, y, [
+        ("Schwelle des Gesetzes", 45, "45 Mio."),
+        ("Roblox", 46.6, "46,6 Mio."),
+        ("Reddit", 57.2, "57,2 Mio."),
+        ("Bing", 119, "119 Mio."),
+        ("ChatGPT", 159.1, "159,1 Mio."),
+    ])
+    block(d, y + 16, "Die vier oberen Werte stehen in derselben Spalte der "
+                     "Kommissionsliste. Die 45 Millionen sind die Schwelle aus Artikel 33.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 04 Beleg-Panel: die Frist
+    img, d = new(4, T, ST)
+    y = kicker(d, 190, "Vier Monate passiert nichts", size=38)
+    y = beleg(d, y,
+              "Gesetz über digitale Dienste, Artikel 33",
+              ['"Nach Ablauf von vier Monaten nach der in',
+               'Unterabsatz 1 genannten Mitteilung an den',
+               'Anbieter finden die Pflichten dieses Abschnitts',
+               'auf die betroffenen sehr großen',
+               'Online-Plattformen und sehr großen',
+               'Online-Suchmaschinen Anwendung."'],
+              sub="Absatz 6, amtliche deutsche Fassung")
+    block(d, y + 30, "Die Kommission nennt dafür den Januar 2027.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 05 Der eigentliche Fund
+    img, d = new(5, T, ST)
+    y = kicker(d, 236, "Suchmaschine ist nicht Plattform", size=38)
+    block(d, y, "Ich habe nachgesehen, was ab Januar für dich drin ist. Eine jährliche "
+                "Risikobewertung, eine unabhängige Prüfung, ein öffentliches Werbearchiv "
+                "und Datenzugang für Forschende. Beschwerdeverfahren, Streitbeilegung und "
+                "vertrauenswürdige Hinweisgeber stehen dagegen in einem Abschnitt, der "
+                "laut Überschrift für Anbieter von Online-Plattformen gilt. ChatGPT ist "
+                "als Suchmaschine benannt.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 06 Quellen
+    img, d = new(6, T, ST)
+    y = kicker(d, 232, "Quellen", size=38)
+    for s_ in ["EU-Kommission, Pressemitteilung IP/26/1772",
+               "Liste der benannten Dienste, 31.08.2026",
+               "Verordnung (EU) 2022/2065, Artikel 3 und 20 bis 42"]:
+        caret(d, M + 18, y + 22, 28, 6, RED)
+        yy = y
+        for ln in wrap(d, s_, f("BOOK", 40), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 40), fill=INK); yy += int(40 * 1.4)
+        y = yy + 18
+    y += 8
+    d.line([(M, y), (W - M, y)], fill=RULE, width=2); y += 26
+    y = block(d, y, "Kein Rechtsrat. Der Benennungsbeschluss selbst ist noch nicht "
+                    "veröffentlicht.",
+              f("BOOK", 36), MUTED, MAXW, 1.4, 20)
+    y = block(d, y, "Erst die Meldungen gelesen, dann die Verordnung. Umgekehrt wäre "
+                    "es schneller gegangen.",
               f("BOOK", 36), MUTED, MAXW, 1.4, 20)
     block(d, y, "Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar.",
           f("BOOK", 36), RED, MAXW, 1.4)
@@ -2881,12 +3014,13 @@ def save_slides(slides, out_dir):
     return len(slides)
 
 
-# Nur aktive Posts rendern. Stand 31.08.2026 sind Post 27 und Post 28 aktiv.
+# Nur aktive Posts rendern. Stand 01.09.2026 sind Post 27, 28 und 29 aktiv.
 print(f"Logo    -> {OUT_LOGO}")
 print("(Post 0-2/4-10/12-18/20-22/24-26 gepostet & archiviert -> archive/, nicht neu gerendert)")
 print("(Post 3/11/19/23 verworfen, siehe posts/posts.yaml und research/ideas.md)")
 print(f"Post 27: {save_slides(build_post27(), OUT_POST27)} Blaetter -> {OUT_POST27}")
 print(f"Post 28: {save_slides(build_post28(), OUT_POST28)} Blaetter -> {OUT_POST28}")
+print(f"Post 29: {save_slides(build_post29(), OUT_POST29)} Blaetter -> {OUT_POST29}")
 
 _stories = build_stories()
 for _name, _im in _stories:

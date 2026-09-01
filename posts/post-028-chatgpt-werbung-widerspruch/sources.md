@@ -1,6 +1,6 @@
 # Quellen — Post 28
 
-**Stand:** 31.08.2026. Alle Abrufe an diesem Tag, sofern nicht anders vermerkt.
+**Stand:** 01.09.2026. Recherche vom 31.08.2026, am 01.09.2026 um den erfolgten Werbestart ergänzt.
 
 ## Die wichtigste Aussage zuerst: Die Primärquelle fehlt
 
@@ -29,13 +29,14 @@ Blatt 04 sagt das im Fließtext, Blatt 06 im Quellenblatt, die Caption noch einm
 | **Art. 21 Abs. 4**: Hinweis „spätestens zum Zeitpunkt der ersten Kommunikation", „in einer verständlichen und von anderen Informationen getrennten Form" | P1 | belastbar |
 | **Erwägungsgrund 47**: „Die Verarbeitung personenbezogener Daten zum Zwecke der Direktwerbung kann als eine einem berechtigten Interesse dienende Verarbeitung betrachtet werden." | P1 | belastbar |
 | **Art. 6 Abs. 1 Buchst. f** als Grundlage „berechtigtes Interesse" | P1 | belastbar |
-| Werbung ab Ende August im EWR, Tarife **Free und Go**, werbefrei **Plus, Pro, Enterprise, Business, Education** | **P2** heise online, 30.08.2026, 14:42 Uhr · **P3** trendingtopics.eu, zitiert die Mail: „Anzeigen können ab Ende dieses Monats in den Plänen Free und Go erscheinen." · **P4** borncity.com | berichtet, drei unabhängige Quellen |
+| Werbung im EWR **seit dem 31.08.2026**, Tarife **Free und Go**, werbefrei **Plus, Pro, Enterprise, Business, Education** | **P2** heise online, 30.08.2026, 14:42 Uhr · **P3** trendingtopics.eu, zitiert die Mail: „Anzeigen können ab Ende dieses Monats in den Plänen Free und Go erscheinen." · **P4** borncity.com | berichtet, drei unabhängige Quellen |
 | Auswahlkriterien: **Chatthema, ungefährer Standort, Tageszeit, Gerätetyp** | P2, P3, P4 | berichtet, drei unabhängige Quellen |
 | **Berechtigtes Interesse** für generische Werbung, **Einwilligung** für personalisierte | P2 („stützt OpenAI die Verarbeitung … auf das Instrument des berechtigten Interesses gemäß der DSGVO"), P3 („Als Rechtsgrundlage für diese generische Werbung nennt OpenAI in der Richtlinie das berechtigte Interesse nach DSGVO") | **berichtet, mehrfach unabhängig · nicht am Original geprüft** |
 | **OpenAI Ireland Limited**, Dublin, als Verantwortliche für EWR und Schweiz; irische Datenschutzkommission zuständig | P2, P3, P4 | berichtet, drei unabhängige Quellen |
 | Test in den USA seit **09.02.2026**, Ausweitung auf weitere Märkte am **11.08.2026** | P4 | **einzelquelle** · siehe unten |
 | Frühere Chats und gespeicherte Erinnerungen zum Start **nicht** für die Anzeigenauswahl | P2, P3 | berichtet |
-| Altersschätzung u. a. über „allgemeine Gesprächsthemen" (nur Caption) | P3 | **einzelquelle** |
+| Altersschätzung u. a. über „allgemeine Gesprächsthemen" (nur Caption) | P3; dass Minderjährige ausgenommen sind, auch **P5** zdfheute.de, 31.08.2026 | berichtet; das Kriterium „Gesprächsthemen" nennt nur P3 |
+| Start **31.08.2026** in **31 europäischen Märkten** | **P5** zdfheute.de, 31.08.2026 („ab heute", „ab Montag") · **P6** t3n | berichtet, zwei unabhängige Quellen |
 
 ## Die schwächste Stelle im Post
 
@@ -63,8 +64,13 @@ seit dem Frühjahr" trägt Blatt 02 genauso.
 1. **Die Richtlinie selbst** (siehe oben). Der wichtigste offene Punkt. Gelingt der Abruf vor dem
    Posten, gehört ein wörtliches Zitat ins Panel.
 2. **Die E-Mail an EWR-Nutzer** liegt nur in der Wiedergabe durch Trending Topics vor.
-3. **Kein Startdatum.** OpenAI nennt nur „Ende dieses Monats". Ob die Anzeigen im EWR bereits laufen,
-   ist am 31.08.2026 nicht festzustellen.
+3. **GESCHLOSSEN am 01.09.2026: Die Anzeigen laufen seit dem 31.08.2026.** zdfheute.de titelte am
+   31.08. „ChatGPT ab heute mit Werbung, auch in Deutschland" und nennt **31 europäische Märkte**,
+   darunter Deutschland, Österreich und die Schweiz; t3n bestätigt das. Blatt 01 und Blatt 02 standen
+   im Futur und sind auf Präsens umgestellt, das Stand-Datum ist der 01.09.2026. **Belastbarkeit:
+   berichtet, zwei unabhängige Redaktionen.** Eine Mitteilung von OpenAI selbst ist weiterhin nicht
+   abrufbar. Nebenbefund: Das ZDF nennt ebenfalls Nutzer, „die OpenAI für minderjährig hält", als
+   ausgenommen. Damit ist die Altersschätzung keine Einzelquelle mehr.
 4. **Keine Reaktion der irischen Datenschutzkommission** oder einer deutschen Aufsichtsbehörde
    gefunden. Gesucht am 31.08.2026, ohne Treffer. Was die Suche stattdessen zutage fördert, ist ein
    **Nebenstrang**: die Stellungnahme des Europäischen Datenschutzausschusses zu „Consent or
@@ -76,9 +82,12 @@ seit dem Frühjahr" trägt Blatt 02 genauso.
    Gegenseite aus und beschränkt sich auf den Normtext.
 6. **Ein Beispiel dafür, wie schnell aus Berichten Gewissheit wird:** meedia.de titelt am 31.08.2026
    „Datenschutzbedenken ausgeräumt". Im Text der Meldung kommt keine Behörde und keine Prüfung vor.
-   Das ist ein Redaktionsurteil, keine Feststellung. Der Beitrag nennt als Startländer Deutschland,
-   Frankreich, Irland und Singapur, ebenfalls für Ende August, und bestätigt damit, dass der Start am
-   31.08.2026 noch aussteht.
+   Das ist ein Redaktionsurteil, keine Feststellung.
+7. **Zwei Zahlen zu den Startländern gehen auseinander.** meedia nennt am 31.08. „Deutschland,
+   Frankreich, Irland und Singapur", t3n dieselben vier, das ZDF am selben Tag **31 europäische
+   Märkte**. Die größere Zahl steht auf dem Blatt, weil das ZDF sie mit Ländern belegt, die in der
+   Vierer-Liste fehlen (Österreich, Schweiz, Spanien, Italien, Polen, Benelux, Skandinavien).
+   **Aufgelöst ist die Abweichung nicht.** Wer nachfragt, bekommt diesen Absatz.
 
 ## Rechtshinweis
 
