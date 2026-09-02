@@ -697,3 +697,34 @@ posts:
       sends: null
       sends_per_reach: null
       saves: null
+
+  - id: 30
+    slug: ki-mitschrift-arzt
+    ordner: post-030-ki-mitschrift-arzt
+    titel: "Beim Arzt schreibt eine KI mit. Fehler finden die Patienten."
+    saeule: betrifft_dich
+    bauform: der_fall
+    status: gerendert          # 02.09.2026 neu gebaut, 6 Blaetter (Stand 02.09.2026)
+    blaetter: 6
+    geplant_fuer: aktuell
+    gepostet_am: null
+    offen:
+      - "PRIMAERSTUDIE IM VOLLTEXT GELESEN: Blease u.a., BMJ Health Care Inform 2026;33(1):e101847, DOI 10.1136/bmjhci-2025-101847, ueber Europe PMC (PMC13331185), CC BY 4.0. Die Zeitschriftenseite informatics.bmj.com antwortet mit HTTP 403 (Cloudflare). Das steht auf Blatt 06"
+      - "PANEL-ZITAT ist der Schlusssatz der Studie im ENGLISCHEN Original, Uebersetzung bewusst ausserhalb des Panels (Verfahren aus Post 24). Das Original endet mit Gedankenstrich und Zusatz 'a finding with immediate clinical and regulatory implications'; das Zitat ist davor abgeschnitten und nicht sinnentstellt"
+      - "BEIM BAUEN KORRIGIERT, BEVOR ES AUF EIN BLATT KAM: Erster Entwurf Blatt 05 sagte 'die Charite erprobt seit Mai 2025'. Die Testphase war auf sechs Monate angelegt und laengst vorbei. Microsoft hat Dragon Copilot am 07.10.2025 fuer Deutschland allgemein verfuegbar gemacht, nach Preview mit fuenf Kliniken (Charite, UK Mannheim, Klinikum Stuttgart, Klinikum Region Hannover, BG Bergmannstrost Halle). Charite begann laut Microsoft am 31.03.2025. DERSELBE FEHLERTYP WIE POST 28, hier vor dem Rendern abgefangen"
+      - "WAS DIE BERICHTERSTATTUNG AUSLAESST: die Einwilligung. heise nennt sie gar nicht. 37 Prozent der Nutzer holten keine routinemaessige Einwilligung ein, waehrend bei 89 Prozent der fragenden Aerzte hoechstens 10 Prozent der Patienten ablehnten"
+      - "ALLES SELBSTAUSKUNFT, keine gemessenen Fehlerquoten, n=141 Nutzer von 1.003 Befragten. Die Autoren nennen ihre Stichprobe selbst eine Gelegenheitsstichprobe. Blatt 01 und die Caption sagen das"
+      - "EQUITY-BEFUND nur in der Caption: Fehler haeufiger bei Mehrpersonengespraechen (38 %), komplexen Krankengeschichten (35 %) und nicht-englischen Gespraechen (31 %)"
+      - "SPANNUNG IN DEN ERGEBNISSEN, nicht als Widerspruch behauptet: 55 Prozent halten die maschinelle Notiz fuer besser, 32 Prozent berichten haeufige Fehler. Die Autoren schreiben selbst 'At first sight these findings appear inconsistent'. Deshalb NICHT die Bauform Widerspruch, obwohl sie nach Rotation faellig gewesen waere"
+      - "BAUFORM-SCHULD: Der Fall war zuletzt Post 27. BEIM NAECHSTEN POST ist Der Widerspruch oder Die Rekonstruktion dran"
+      - "HEALTHWATCH-UNTERLAGEN NICHT GELESEN. Die beiden Faelle auf Blatt 02 stehen so im Guardian vom 31.08.2026, der sich auf die Patientenvertretung stuetzt"
+      - "KEINE DEUTSCHEN ZAHLEN. Keine Erhebung unter deutschen Aerzten gefunden. Die Auswertung der fuenf Preview-Kliniken liegt nur als Zitat in der Herstellermitteilung vor. VOR DEM POSTEN ERNEUT PRUEFEN"
+      - "MARKETINGZAHL WEGGELASSEN: Microsoft nennt eine eigene Umfrage (40 Prozent der Patienten hätten eine bildschirmfixierte Konsultation erlebt). Ohne Methodenangabe, nicht verwendet"
+      - "DOCTOLIB NICHT GEPRUEFT. heise nennt den Anbieter und eine Widerspruchsloesung beim Training mit Gesundheitsdaten. Anbieterseite nicht gelesen, deshalb nirgends im Post"
+      - "Caption 893 Zeichen ohne Hashtags, 5 Absaetze, unter der Obergrenze vom 24.08.2026"
+      - "Nach ~7 Tagen Kennzahlen (reach/sends/saves) aus Insights nachtragen"
+    kennzahlen:
+      reach: null
+      sends: null
+      sends_per_reach: null
+      saves: null

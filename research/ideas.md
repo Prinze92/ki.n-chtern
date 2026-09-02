@@ -1211,3 +1211,72 @@ Auftrag, Budget und Personalstärke trägt das Thema keinen Post.
 - **Klage gegen Amazon wegen Werbepreisen** (heise, 01.09.2026), **Brasilien gegen Discord**
   (31.08.2026), **CXMT gegen Pentagon** (01.09.2026). Alle drei Auslandsverfahren, Schriftsätze
   ungelesen.
+
+## Recherchierte Einzelbefunde (Stand 02.09.2026)
+
+**Rückstau bei drei, deshalb genau ein Post gebaut (Post 30). Nach diesem Lauf steht er bei vier,
+morgen ist damit kein Neubau erlaubt, solange nichts gepostet wird.** Zusätzlich war es Zeit, das
+Thema zu wechseln: Post 28 und 29 drehen sich beide um ChatGPT.
+
+**KI-SCHREIBASSISTENTEN BEIM ARZT, neues Feld für den Kanal.** Primärstudie im Volltext gelesen:
+Blease u.a., „Ambient AI in primary care: an exploratory mixed methods survey of UK general
+practitioners", BMJ Health Care Inform 2026;33(1):e101847, DOI 10.1136/bmjhci-2025-101847.
+**Zugangsweg zum Merken:** `informatics.bmj.com` antwortet aus dieser Umgebung mit **HTTP 403**
+(Cloudflare-Abfrage). Der Volltext liegt frei bei **Europe PMC** (PMC13331185, CC BY 4.0), erreichbar
+über `https://www.ebi.ac.uk/europepmc/webservices/rest/PMC.../fullTextXML`. Gefunden über die
+EPMC-Suche nach DOI. **Dieser Weg funktioniert für offene medizinische Literatur allgemein und sollte
+künftig der erste Versuch sein, nicht der zweite.**
+
+- **Erhebung August 2025, 1.003 britische Hausärzte** über Doctors.net.uk.
+- 14 % (141) nutzen ambiente KI-Schreibassistenten, 39 % (396) planen es, 46 % (466) nicht.
+- Unter Nutzern: 86 % Heidi Health. 80 % (112) weniger Dokumentationszeit, 70 % (99) weniger
+  kognitive Last, 55 % (78) halten die maschinelle Notiz für besser als die eigene.
+- **32 % (45) berichten Fehler „often/always", 14 % (20) mit „significant-to-critical implications".**
+- Fehler häufiger bei Mehrpersonengesprächen (38 %), komplexen Krankengeschichten (35 %) und
+  nicht-englischen Gesprächen (31 %). Die Autoren sehen darin mögliche Verschärfung von Ungleichheit.
+- **63 % (89) holen routinemäßig eine Einwilligung; bei 89 % von ihnen lehnten ≤10 % der Patienten ab.**
+- **Schlusssatz der Studie, Panel in Post 30:** „Notably, 37% of current users in this sample did not
+  routinely seek patient consent."
+- Vorbehalt der Autoren im Wortlaut: „The convenience, non-random sample and self, online
+  administration limited generalisability."
+
+**DEUTSCHLANDBEZUG, am Original geprüft und dabei eine Falle entdeckt.** Microsoft Deutschland,
+Mitteilung vom **07.10.2025** (Datum aus dem Metafeld `datePublished`): Dragon Copilot ist seit da
+allgemein für Kliniken und Praxen verfügbar. Vorher Preview mit **fünf Kliniken**: Charité,
+Universitätsklinikum Mannheim, Klinikum Stuttgart, Klinikum Region Hannover, BG Klinikum
+Bergmannstrost Halle. Die Charité begann laut Microsoft am **31.03.2025**, ihre eigene Mitteilung
+datiert auf den **05.05.2025** und nennt kein Startdatum.
+
+**LEHRE, zum zweiten Mal in zwei Tagen:** Der erste Entwurf von Blatt 05 sagte „die Charité erprobt
+seit Mai 2025". Die Testphase war auf sechs Monate angelegt und damit seit Herbst 2025 vorbei.
+**Sätze über einen laufenden Zustand veralten schneller als Sätze über ein Ereignis.** Post 28 hat
+das am 01.09. eingeholt, Post 30 wäre es beinahe. **Regel für künftige Läufe: Jeder Satz im Präsens
+über ein fremdes Projekt bekommt vor dem Rendern eine Suche nach dem Ausgang, nicht erst auf die
+Checkliste.**
+
+**Nicht gebaut, aber stark: AlgorithmWatch über Googles KI-Übersichten zu den Landtagswahlen.**
+netzpolitik.org, 01.09.2026. Fast 4.500 Suchanfragen im Juli zu Sachsen-Anhalt, Mecklenburg-Vorpommern
+und Berlin, gestellt über die **Forscherschnittstelle nach dem Digital Services Act**.
+- Fragen nach Umfragen lösen durchgängig keine KI-Übersicht aus, Fragen zu Parteien und Kandidaten in
+  40 bis 50 Prozent der Fälle. Bei Sachsen-Anhalt deutlich seltener als bei Berlin und
+  Mecklenburg-Vorpommern.
+- Fast die Hälfte der Übersichten stützt sich auf weniger als zehn Quellen, überdurchschnittlich oft
+  auf YouTube (Google-Konzern).
+- Politische Positionen würden „häufig nicht neutral, sondern mit positiven Formulierungen
+  wiedergegeben"; AlgorithmWatch führt das auf Sycophancy zurück.
+- Google äußerte sich nur allgemein.
+- **Belastbarkeit: berichtet.** Die Untersuchung selbst ist nicht gelesen. **Vor einem Post im
+  Original beschaffen**, die Wahlen sind im September, das Fenster ist kurz.
+- **Der Bogen zu Post 29:** Der Zugang lief über genau die Schnittstelle, die ChatGPT ab Januar 2027
+  ebenfalls bereitstellen muss (Art. 40 DSA). Als Kommentar verwendet.
+
+**Kleinere Fundstücke vom 02.09.2026:**
+- **Hamburg plant ein Verbot von Smart Glasses in Bädern und Bahnen** (heise, 01.09.2026). Entwurf
+  ungelesen. **Guter Kandidat, sobald ein Text vorliegt**, weil es ein konkreter deutscher Fall wäre.
+  Post 10 deckt bisher nur die Brille selbst ab.
+- **Studie: Wer KI besser versteht, sorgt sich mehr um den Arbeitsplatz** (heise, 01.09.2026). Studie
+  ungelesen. Feld durch Post 2 und Post 5 besetzt.
+- **Apple-Klage gegen OpenAI**, **Pentagon startet eigene Chatbots**, **Amazon-Werbepreise**. Alle
+  drei US-Vorgänge ohne Alltagsbezug hier.
+- **Das deutsche KI-Sicherheitsinstitut** (offener Punkt vom 01.09.) wurde heute nicht erneut gesucht,
+  weil der Rückstau ohnehin nur einen Post zuließ. **Bleibt vorgemerkt.**

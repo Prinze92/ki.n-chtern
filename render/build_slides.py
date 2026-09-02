@@ -47,6 +47,10 @@ OUT_POST28.mkdir(parents=True, exist_ok=True)
 OUT_POST29 = REPO / "posts" / "post-029-chatgpt-dsa-suchmaschine" / "slides"
 OUT_POST29.mkdir(parents=True, exist_ok=True)
 
+# Post 30 (KI-Mitschrift beim Arzt) seit 02.09.2026 aktiv.
+OUT_POST30 = REPO / "posts" / "post-030-ki-mitschrift-arzt" / "slides"
+OUT_POST30.mkdir(parents=True, exist_ok=True)
+
 # Post 22 (Carlsen gegen OpenAI) ist am 24.08.2026 gepostet und nach archive/ gewandert.
 # Post 23 (Rechenzentrumsregister) wurde am 24.08.2026 verworfen; Ordner und build_post23()
 # geloescht, wiederherstellbar ueber die Git-Historie (Stand: commit eac08db).
@@ -2923,6 +2927,129 @@ def build_post29():
     return slides
 
 
+# ================================================================ POST 30
+def build_post30():
+    """Bauform: Der Fall. Zuletzt Post 27, dazwischen Rekonstruktion (28) und
+    Selbstexperiment (29). Der Widerspruch waere nach Rotation faellig gewesen,
+    passt aber nicht: Die Spannung zwischen "55 Prozent halten die KI-Notiz fuer
+    besser" und "32 Prozent berichten haeufige Fehler" steckt in EINER Quelle, und
+    die Autoren loesen sie selbst auf. Ein Widerspruch waere konstruiert.
+    NAECHSTER POST: Widerspruch oder Rekonstruktion, damit die Rotation stimmt.
+
+    Primaerquelle ist die Studie selbst, ueber Europe PMC im Volltext gelesen
+    (PMC13331185, DOI 10.1136/bmjhci-2025-101847, CC BY 4.0). Die Zeitschriftenseite
+    informatics.bmj.com antwortet aus dieser Umgebung mit HTTP 403.
+
+    Beleg-Panel auf Blatt 04 mit dem Schlusssatz der Studie im ENGLISCHEN Original,
+    die Uebersetzung steht bewusst ausserhalb des Panels (Verfahren aus Post 24).
+    Balkenreihe auf Blatt 03 mit den drei Adoptionsgruppen, alle drei aus derselben
+    Frage derselben Erhebung.
+
+    Blatt 05 traegt das Gegengewicht: Nach Microsofts Darstellung hoert die
+    Software nur mit Einverstaendnis mit, und die Notiz muss aerztlich freigegeben
+    werden. Ohne dieses Blatt waere der Post einseitig.
+
+    ACHTUNG, BEIM BAUEN AUFGEFALLEN: Der erste Entwurf sagte "die Charite erprobt
+    seit Mai 2025". Die Testphase war auf sechs Monate angelegt und laengst vorbei.
+    Microsoft hat Dragon Copilot am 07.10.2025 fuer Deutschland allgemein verfuegbar
+    gemacht, nach einer Preview mit fuenf Kliniken. Derselbe Fehlertyp wie in
+    Post 28 (Futur, das veraltet), hier vor dem Rendern korrigiert."""
+    T = 6
+    ST = "STAND 02.09.2026"
+    slides = []
+
+    # --- 01 HOOK
+    img, d = new(1, T, ST)
+    y = 268
+    fo = f("COND", 84)
+    for line in ["BEIM ARZT SCHREIBT", "EINE KI MIT. FEHLER", "FINDEN DIE PATIENTEN."]:
+        d.text((M, y), line, font=fo, fill=INK); y += 100
+    y += 32
+    d.line([(M, y), (M + 140, y)], fill=RED, width=6); y += 54
+    block(d, y, "Von 1.003 befragten britischen Hausärzten nutzen 141 solche Systeme. "
+                "Ein Drittel von ihnen berichtet häufige Fehler.",
+          f("BOOK", 46), INK, MAXW - 40, 1.4)
+    slides.append(img)
+
+    # --- 02 Der Fall
+    img, d = new(2, T, ST)
+    y = kicker(d, 236, "Eine Diagnose, die nicht stimmte", size=38)
+    block(d, y, "Im Befund einer Patientin stand nach dem Gespräch das Wort "
+                "Demyelinisierung, eine schwere Nervenschädigung. Im MRT-Bericht hatte "
+                "gestanden, dass genau die nicht vorliegt. Aufgefallen ist das der Frau "
+                "selbst, nicht der Klinik. In einem zweiten Fall verwechselte die "
+                "Software ein Medikament mit einem ähnlich klingenden. Auch hier fand es "
+                "die Patientin.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 03 Balkenreihe: Verbreitung
+    img, d = new(3, T, ST)
+    y = kicker(d, 196, "Wie weit das schon ist", size=38)
+    y = balken(d, y, [
+        ("nutzen es schon", 14, "14 %"),
+        ("wollen es bald nutzen", 39, "39 %"),
+        ("haben es nicht vor", 46, "46 %"),
+    ])
+    block(d, y + 20, "Befragt wurden im August 2025 genau 1.003 Hausärzte in "
+                     "Großbritannien. Unter den Nutzern setzen 86 Prozent dasselbe "
+                     "Produkt ein.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 04 Beleg-Panel: die Einwilligung
+    img, d = new(4, T, ST)
+    y = kicker(d, 190, "Gefragt wird nicht immer", size=38)
+    y = beleg(d, y,
+              "BMJ Health & Care Informatics, 2026",
+              ['"Notably, 37% of current users in this sample did',
+               'not routinely seek patient consent"'],
+              sub="Blease u.a., Schlussfolgerung der Studie")
+    block(d, y + 30, "Übersetzt: 37 Prozent der Nutzer holten nicht routinemäßig eine "
+                     "Einwilligung ein. Wer gefragt wurde, sagte meist zu. Bei 89 Prozent "
+                     "der fragenden Ärzte lehnten höchstens zehn von hundert Patienten ab.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 05 Deutschland und das Gegengewicht
+    img, d = new(5, T, ST)
+    y = kicker(d, 236, "Auch in Deutschland", size=38)
+    block(d, y, "Microsofts Dragon Copilot ist hier seit Oktober 2025 allgemein für "
+                "Kliniken und Praxen zu haben. Fünf Häuser hatten ihn vorher erprobt, "
+                "darunter die Charité ab dem 31. März 2025. Laut Microsoft hört die "
+                "Software über ein Raummikrofon oder das Diensthandy mit, wenn die "
+                "Patienten einverstanden sind. Prüfen und freigeben muss die Notiz "
+                "danach die Ärztin. Die britischen Zahlen sind Selbstauskunft und lassen "
+                "sich nicht auf deutsche Praxen übertragen.",
+          f("BOOK", 45), INK, MAXW, 1.42)
+    slides.append(img)
+
+    # --- 06 Quellen
+    img, d = new(6, T, ST)
+    y = kicker(d, 232, "Quellen", size=38)
+    for s_ in ["Blease u.a., BMJ Health Care Inform 2026",
+               "The Guardian vom 31.08.2026",
+               "Microsoft Deutschland, 07.10.2025"]:
+        caret(d, M + 18, y + 22, 28, 6, RED)
+        yy = y
+        for ln in wrap(d, s_, f("BOOK", 40), MAXW - 70):
+            d.text((M + 66, yy), ln, font=f("BOOK", 40), fill=INK); yy += int(40 * 1.4)
+        y = yy + 18
+    y += 8
+    d.line([(M, y), (W - M, y)], fill=RULE, width=2); y += 26
+    y = block(d, y, "Kein Rechtsrat, keine medizinische Auskunft. Die Stichprobe ist eine "
+                    "Gelegenheitsstichprobe, das schreiben die Autoren selbst.",
+              f("BOOK", 36), MUTED, MAXW, 1.4, 20)
+    y = block(d, y, "Die Seite der Zeitschrift ließ mich nicht rein, gelesen habe ich über "
+                    "ein Archiv.",
+              f("BOOK", 36), MUTED, MAXW, 1.4, 20)
+    block(d, y, "Fehler gefunden? Schreib es in die Kommentare, ich korrigiere sichtbar.",
+          f("BOOK", 36), RED, MAXW, 1.4)
+    slides.append(img)
+
+    return slides
+
+
 # ================================================================ STORIES (1080x1920)
 def build_stories():
     """Story-Slides im Hochformat. Inhalt bleibt in der Sicherheitszone (oben ~260 px für
@@ -3014,13 +3141,14 @@ def save_slides(slides, out_dir):
     return len(slides)
 
 
-# Nur aktive Posts rendern. Stand 01.09.2026 sind Post 27, 28 und 29 aktiv.
+# Nur aktive Posts rendern. Stand 02.09.2026 sind Post 27 bis 30 aktiv.
 print(f"Logo    -> {OUT_LOGO}")
 print("(Post 0-2/4-10/12-18/20-22/24-26 gepostet & archiviert -> archive/, nicht neu gerendert)")
 print("(Post 3/11/19/23 verworfen, siehe posts/posts.yaml und research/ideas.md)")
 print(f"Post 27: {save_slides(build_post27(), OUT_POST27)} Blaetter -> {OUT_POST27}")
 print(f"Post 28: {save_slides(build_post28(), OUT_POST28)} Blaetter -> {OUT_POST28}")
 print(f"Post 29: {save_slides(build_post29(), OUT_POST29)} Blaetter -> {OUT_POST29}")
+print(f"Post 30: {save_slides(build_post30(), OUT_POST30)} Blaetter -> {OUT_POST30}")
 
 _stories = build_stories()
 for _name, _im in _stories:
