@@ -44,6 +44,27 @@ Eigentümer verwendet; die Karte trennt beides ausdrücklich und weist Microsoft
 aus, während der Gebäudeeigentümer ein anderer sein kann. Die Auswertung selbst habe ich nicht
 gefunden. **Deshalb steht in der Caption nur meine eigene Zählung, ausdrücklich als solche.**
 
+## Nachtrag vom 03.09.2026
+
+**Der Datenstand ist geprüft und unverändert.** Die Rohdatei am 03.09.2026 erneut geladen und
+ausgezählt: 105 Standorte, 14.336 MW, 45 geplant, 44 im Bau, 10 pausiert, 2 abgebrochen, 4 ohne
+Angabe, 26 mit Protest, 57 recherchiert, 36 geschätzt, 12 ohne Angabe. Der Datenstand der Seite ist
+weiterhin der 27.08.2026. **Der Punkt auf der Checkliste ist damit erledigt, der Post kann so
+gepostet werden.**
+
+**Ein Gegengewicht, das der Post nicht hat.** Der Bitkom hat am 02.09.2026 eine repräsentative Umfrage
+unter 1.006 Personen ab 16 Jahren veröffentlicht (referiert bei heise online, 02.09.2026, 15:45 Uhr;
+die Verbandsveröffentlichung selbst ist nicht gelesen). Danach stehen **66 Prozent** einem
+Rechenzentrum in der eigenen Gemeinde grundsätzlich positiv gegenüber, 40 Prozent sehr positiv, ein
+Viertel eher oder sehr negativ. **88 Prozent** finden zugleich, solche Anlagen verbrauchten zu viel
+Energie. 82 Prozent zählen sie zur Basisinfrastruktur, 73 Prozent wollen mehr davon, 72 Prozent wollen
+ihre Daten in Deutschland verarbeitet wissen. Am selben Tag hat das Kabinett eine Gewerbesteuerreform
+für Rechenzentren beschlossen.
+**Belastbarkeit: berichtet**, und der Bitkom ist Partei.
+**Der Post wird deswegen nicht geändert.** Die 26 dokumentierten Protestfälle und eine Mehrheit für
+den Bau schließen sich nicht aus; die Umfrage fragt nach der Idee, der Protest richtet sich gegen ein
+bestimmtes Grundstück. **Wer im Kommentarfeld mit der Bitkom-Zahl kommt, bekommt genau diesen Absatz.**
+
 ## Offene Lücken
 
 1. **Das Nationale Rechenzentrumsregister ist nicht geprüft.** `rechenzentrumsregister.bund.de` war am

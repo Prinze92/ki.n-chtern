@@ -1280,3 +1280,68 @@ und Berlin, gestellt über die **Forscherschnittstelle nach dem Digital Services
   drei US-Vorgänge ohne Alltagsbezug hier.
 - **Das deutsche KI-Sicherheitsinstitut** (offener Punkt vom 01.09.) wurde heute nicht erneut gesucht,
   weil der Rückstau ohnehin nur einen Post zuließ. **Bleibt vorgemerkt.**
+
+## Recherchierte Einzelbefunde (Stand 03.09.2026)
+
+**Rückstau bei vier, kein Neubau.** Die Zeit ging in die Prüfung der vier wartenden Posts. Das ist an
+solchen Tagen die nützlichste Arbeit, und diesmal sind zwei Posts dabei besser geworden.
+
+**GESCHLOSSEN, betrifft Post 27: Der Datenstand der Rechenzentrums-Karte ist unverändert.** Rohdatei
+am 03.09.2026 erneut geladen und ausgezählt: 105 Standorte, 14.336 MW, 45 geplant, 44 im Bau, 10
+pausiert, 2 abgebrochen, 4 ohne Angabe, 26 mit Protest, 57 recherchiert, 36 geschätzt, 12 ohne
+Angabe. Datenstand der Seite weiterhin 27.08.2026. Der Post kann so gepostet werden.
+
+**NEU, betrifft Post 27: das Gegengewicht, das dem Post fehlte.** Bitkom-Umfrage vom 02.09.2026 unter
+1.006 Personen ab 16 Jahren, referiert bei heise online:
+- **66 Prozent** stehen einem Rechenzentrum in der eigenen Gemeinde grundsätzlich positiv gegenüber,
+  40 Prozent sehr positiv, ein Viertel eher oder sehr negativ.
+- **88 Prozent** finden zugleich, Rechenzentren verbrauchten zu viel Energie.
+- 82 Prozent zählen sie zur Basisinfrastruktur, 73 Prozent wollen mehr davon, 72 Prozent wollen ihre
+  Daten in Deutschland verarbeitet wissen.
+- **Am selben Tag hat das Kabinett eine Gewerbesteuerreform für Rechenzentren beschlossen.**
+**Belastbarkeit: berichtet**, Verbandsveröffentlichung nicht gelesen, der Bitkom ist Partei.
+**Warum das kein Widerspruch zu Post 27 ist:** Die Umfrage fragt nach der Idee, der Protest richtet
+sich gegen ein bestimmtes Grundstück. Beides kann zutreffen. Steht so in `sources.md`.
+*Vergleichszahlen für später:* In Irland verbrauchten Rechenzentren 2025 nach der dort zitierten
+Quelle bereits 23 Prozent des gemessenen Stroms; im Großraum Dublin galt bis Dezember 2025 ein
+faktisches Moratorium für neue Netzanschlüsse. Beides bei heise referiert und **nicht am Original
+geprüft**.
+
+**NEU, betrifft Post 30 und ist ein eigener Post-Kandidat: die Patientenperspektive fehlt
+systematisch.** Systematische Übersichtsarbeit in **Nature Health**, „Patient factors in medical
+artificial intelligence: a systematic review", `nature.com/articles/s44360-026-00190-2`.
+**Abstract im Original gelesen**, Volltext hinter Bezahlschranke:
+- **330** ausgewertete Arbeiten.
+- Patientenzufriedenheit wird in **70,6 %** erhoben, wahrgenommener Nutzen in **69,4 %**.
+- **Vertrauen nur in 16,7 %, Sicherheit aus Patientensicht nur in 10,9 %.**
+- **89,4 %** der Erhebungen fallen in die Validierungsphase, nur **3,9 %** in Design und Entwicklung.
+**Der interessanteste Wert ist der letzte, und ihn nennt die Berichterstattung nicht.** Wer erst in
+der Validierung fragt, kann das Produkt nur noch bewerten, nicht mehr mitgestalten.
+**Vor einem eigenen Post:** Post 30 muss vorher gepostet sein, sonst überschneiden sich beide. Und
+der neue Post müsste eine andere Frage stellen, nämlich wer bei der Entwicklung gefragt wird.
+
+**NEU, betrifft Post 30: Heidi kommt nach Deutschland.** Das Produkt, das laut der britischen Studie
+**86 Prozent** der dortigen Nutzer einsetzen, baut seine Präsenz in Europa aus. Der Global Chief
+Medical Officer des australischen Unternehmens war zuvor in derselben Rolle bei Microsoft, die
+Plattform unterstützt nach Firmenangaben über 110 Sprachen (heise-Interview).
+**Achtung:** Die im selben Beitrag zitierte Civey-Umfrage entstand **im Auftrag von Heidi**. Rund ein
+Drittel der Befragten gebe an, mehr als 40 Prozent der Arbeitszeit für Dokumentation aufzuwenden.
+**Auftragsforschung, nicht verwenden.**
+
+**UNVERÄNDERT OFFEN:**
+- **Post 28:** `openai.com` und `help.openai.com` antworten erneut mit HTTP 403. Vierter Lauf in Folge.
+- **Post 29:** Der Benennungsbeschluss steht weiterhin als „decision not yet available" in der
+  Kommissionsliste, neunmal auf der Seite. Nutzerzahl unverändert 159,1 Millionen.
+
+**Kandidaten für den nächsten Bautag, nach Stärke sortiert:**
+1. **KI-Korrekturhilfe in der Schule** (netzpolitik, 02.09.2026, „Lerne schreiben wie ein Chatbot").
+   Beitrag ungelesen. **Neues Feld, Eltern und Schüler unmittelbar betroffen. Priorität.**
+2. **Patientenperspektive in der Medizin-KI** (siehe oben), sobald Post 30 gepostet ist.
+3. **Laion und das Urheberrecht an Trainingsbildern** (heise, 03.09.2026). **Deutsches Verfahren**,
+   damit anders als die US-Klagen. Zu prüfen, ob eine Entscheidung im Volltext vorliegt.
+4. **Smart Glasses:** Norwegen plant strengere Regeln (heise, 03.09.), Hamburg ein Verbot in Bädern
+   und Bahnen (01.09.). Wird stark, sobald ein deutscher Text vorliegt.
+5. **AlgorithmWatch zu Googles KI-Übersichten**, weiterhin nur über netzpolitik. **Die Untersuchung
+   im Original beschaffen**, die Wahlen sind im September.
+6. **Deutsches KI-Sicherheitsinstitut**, seit dem 01.09. offen. BSI-Mitteilung weiterhin nicht
+   auffindbar.
