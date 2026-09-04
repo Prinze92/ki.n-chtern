@@ -65,6 +65,30 @@ für Rechenzentren beschlossen.
 den Bau schließen sich nicht aus; die Umfrage fragt nach der Idee, der Protest richtet sich gegen ein
 bestimmtes Grundstück. **Wer im Kommentarfeld mit der Bitkom-Zahl kommt, bekommt genau diesen Absatz.**
 
+## Nachtrag vom 04.09.2026: Die zitierte Schwelle steht vor einer Änderung
+
+Der Post sagt auf Blatt 03, die Meldepflicht betreffe „bestehende Anlagen ab 300 Kilowatt", gestützt
+auf § 3 Nr. 24 Buchst. a EnEfG. **Das ist am 04.09.2026 erneut an `gesetze-im-internet.de` geprüft und
+weiterhin richtig.** § 2 EnEfG regelt unverändert nur den Anwendungsbereich.
+
+**Aber die Definition soll sich ändern, und zwar bald.** Der Regierungsentwurf für das
+Einkommensteuerreformgesetz 2027 (vorgelegt am 02.09.2026, 35 Seiten, im Volltext gelesen) führt einen
+neuen gewerbesteuerlichen Zerlegungsmaßstab für Rechenzentren ein und knüpft dabei an
+**§ 2 Nummer 18 EnEfG** an. Zu dieser Vorschrift schreibt die Begründung selbst, sie „wird durch das
+Gesetz zur Beschleunigung der Umsetzung der Energieeffizienzrichtlinie neu in das
+Energieeffizienzgesetz aufgenommen und soll noch vor Abschluss des Gesetzgebungsverfahrens" folgen.
+Die dort vorgesehene Definition setzt bei **500 Kilowatt elektrischer Leistung der installierten
+Informationstechnik** an.
+
+**Das sind zwei verschiedene Größen und zwei verschiedene Schwellen:** 300 Kilowatt nicht redundante
+elektrische Nennanschlussleistung des Rechenzentrums (geltend) gegen 500 Kilowatt IT-Leistung
+(geplant). Es ist dieselbe Definitionsfalle, die schon Post 13 und diesen Post beim Größenvergleich
+beschäftigt hat.
+
+**Der Post wird nicht geändert**, weil er die geltende Fassung zitiert und das auf dem Blatt auch so
+steht. **Aber der Punkt gehört auf die Checkliste:** Tritt die EnEfG-Novelle vor dem Posten in Kraft,
+muss Blatt 03 angepasst werden.
+
 ## Offene Lücken
 
 1. **Das Nationale Rechenzentrumsregister ist nicht geprüft.** `rechenzentrumsregister.bund.de` war am

@@ -1345,3 +1345,73 @@ Drittel der Befragten gebe an, mehr als 40 Prozent der Arbeitszeit für Dokument
    im Original beschaffen**, die Wahlen sind im September.
 6. **Deutsches KI-Sicherheitsinstitut**, seit dem 01.09. offen. BSI-Mitteilung weiterhin nicht
    auffindbar.
+
+## Recherchierte Einzelbefunde (Stand 04.09.2026)
+
+**Rückstau bei vier, zweiter Tag ohne Neubau.** Die Zeit ging in die Vorrecherche des stärksten
+Kandidaten der Woche, und der ist damit baubereit.
+
+**HINWEIS ZUM STAU, gehört in die Akte:** Post 27 ist seit dem 30.08. fertig, Post 28 seit dem 31.08.,
+Post 29 seit dem 01.09., Post 30 seit dem 02.09. **Post 28 und 29 verlieren mit jedem Tag an Wert**,
+weil sie an Vorgängen vom 31.08. hängen. Post 28 musste am 01.09. schon einmal vom Futur ins Präsens
+umgeschrieben werden. Die Staukontrolle selbst ist richtig und hat diese Woche zweimal verhindert,
+dass Menge vor Sorgfalt geht. Der Engpass liegt nicht in der Produktion.
+
+**BAUBEREIT: Die Gewerbesteuer wird umgebaut, damit vor Ort weniger Widerstand entsteht.**
+Regierungsentwurf für das **Einkommensteuerreformgesetz 2027**, vorgelegt am 02.09.2026, 35 Seiten,
+als PDF über das Bundesfinanzministerium geladen und im Volltext gelesen
+(`bundesfinanzministerium.de`, Ordner `2026-08-18-EStReformG-2027`, Datei `2-Regierungsentwurf.pdf`).
+
+- **Normtext im Wortlaut, künftiger § 29 Abs. 1 Nr. 4 GewStG:** „bei Betrieben, die ausschließlich
+  Rechenzentren nach § 2 Nummer 18 des Energieeffizienzgesetzes betreiben, zu einem Zehntel das in
+  Nummer 1 bezeichnete Verhältnis und zu neun Zehnteln das Verhältnis, in dem die Summe der nicht
+  redundanten elektrischen Nennanschlussleistung in allen Betriebsstätten (§ 28) zur nicht redundanten
+  elektrischen Nennanschlussleistung in den einzelnen Betriebsstätten steht."
+- **Das Ziel steht offen in der Begründung:** Der Maßstab „stärkt damit die Akzeptanz für die
+  Ansiedlung und den Ausbau dieser für die digitale Infrastruktur Deutschlands unverzichtbaren
+  Einrichtungen." Davor: „Diese standortbezogenen Belastungen können die Bereitschaft der betroffenen
+  Kommunen, Flächen für Rechenzentren auszuweisen und entsprechende Vorhaben zu begleiten,
+  beeinträchtigen."
+- **Der Entwurf listet selbst auf, wogegen protestiert wird:** „Eingriffe in das Orts- und
+  Landschaftsbild, ein erhöhter Flächenbedarf sowie … zusätzliche Lärmimmissionen und ein erheblicher
+  Bedarf an Energie und Wasser."
+- Maßgeblich ist die **vertraglich vereinbarte maximale Anschlussleistung (Bestellleistung)**,
+  „unabhängig davon, ob diese zum jeweiligen Zeitpunkt bereits vollständig in Anspruch genommen wird".
+- Anzuwenden **erstmals für den Erhebungszeitraum 2027**. Vorbild sind die bestehenden Maßstäbe für
+  Windkraft-, Solar- und Energiespeicheranlagen (§ 29 Abs. 1 Nr. 2 und 3 GewStG).
+- **Exekutiver Fußabdruck:** „Interessenvertreterinnen und Interessenvertreter sowie beauftragte
+  Dritte haben nicht wesentlich zum Inhalt des Gesetzentwurfs beigetragen."
+
+**EIGENER BEFUND 1, in keiner gelesenen Meldung: Der Entwurf knüpft an eine Definition an, die es noch
+nicht gibt.** Er verweist auf **§ 2 Nummer 18 EnEfG** und sagt selbst, diese werde „durch das Gesetz
+zur Beschleunigung der Umsetzung der Energieeffizienzrichtlinie neu in das Energieeffizienzgesetz
+aufgenommen". **Am 04.09.2026 geprüft:** § 2 EnEfG regelt weiterhin nur den Anwendungsbereich, die
+Definition steht unverändert in § 3 Nr. 24 mit **300 Kilowatt nicht redundanter elektrischer
+Nennanschlussleistung**. Die geplante Fassung setzt bei **500 Kilowatt Leistung der installierten
+Informationstechnik** an. **Zwei verschiedene Größen, zwei verschiedene Schwellen.** Betrifft auch
+Post 27, Blatt 03, siehe dessen `sources.md`.
+
+**EIGENER BEFUND 2, mit Vorbehalt: Die Umschichtung ist im Entwurf nicht beziffert.** heise titelt
+„Milliarden-Umschichtung". In der Tabelle „Haushaltsausgaben ohne Erfüllungsaufwand" taucht die
+Regelung mit keiner Zahl auf, beim Erfüllungsaufwand steht „kein zusätzlicher jährlicher
+Erfüllungsaufwand". **Die Tabelle ist aus dem PDF extrahiert und dabei schwer lesbar. Vor einem Post
+die Seiten 15 bis 31 gezielt durchgehen**, bevor behauptet wird, der Entwurf beziffere nichts. Das ist
+sonst genau der Fehlertyp, den der Kanal sich nicht leisten kann.
+
+**Reihenfolge beachten:** Post 27 liegt im selben Themenfeld und ist noch nicht gepostet. Der neue
+Post sollte danach kommen. Dann passt er gut, weil er die Frage weiterdreht: Post 27 zeigt, dass
+niemand die Standorte zählt, der neue zeigt, was der Staat gegen den Protest an den Standorten tut.
+
+**Kleinere Fundstücke vom 04.09.2026:**
+- **TikTok-Sichtbarkeit vor drei Landtagswahlen** (netzpolitik, 03.09.2026, nach dem Potsdam Social
+  Media Monitor der Universität Potsdam). Über 2.700 politische Accounts, Zeitraum 01.06. bis
+  30.08.2026. Auf ein Konto entfallen 64,5 Prozent der Aufrufe in Sachsen-Anhalt.
+  **Kein Post**, weil die Forschenden ausdrücklich schreiben, ihre Zahlen sagten nichts über den
+  Empfehlungsalgorithmus. Genau das wäre der KI-Bezug. Als Kommentar verwendet.
+- **Bund gibt Plan für eine BSI-Grundgesetzänderung auf** (heise, 03.09.2026). Ungelesen, gehört zum
+  offenen AISI-Strang seit dem 01.09.
+- **Volkswagen streicht 50.000 Stellen** (heise, 04.09.2026). **Kein KI-Bezug belegt**, deshalb kein
+  Post. Post 2 und Post 5 decken die Jobfrage mit Zahlen der Bundesagentur und des IAB ab.
+- **GPT-6 Astra** (heise, 03.09.2026). Modellversion, nach dem Relevanzfilter nicht post-würdig.
+- **AlgorithmWatch zu Googles KI-Übersichten:** weiterhin nicht im Original beschafft. Die Wahlen sind
+  am 6. und 20. September. **Wenn das noch werden soll, dann jetzt.**
