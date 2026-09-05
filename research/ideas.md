@@ -1415,3 +1415,65 @@ niemand die Standorte zählt, der neue zeigt, was der Staat gegen den Protest an
 - **GPT-6 Astra** (heise, 03.09.2026). Modellversion, nach dem Relevanzfilter nicht post-würdig.
 - **AlgorithmWatch zu Googles KI-Übersichten:** weiterhin nicht im Original beschafft. Die Wahlen sind
   am 6. und 20. September. **Wenn das noch werden soll, dann jetzt.**
+
+## Recherchierte Einzelbefunde (Stand 05.09.2026)
+
+**Rückstau bei vier, dritter Tag ohne Neubau.** Die Zeit ging in eine Aufgabe, die seit dem 01.09.
+viermal vermerkt und nie erledigt war.
+
+**EINGELÖST: Die AlgorithmWatch-Studie liegt im Original vor.** „Meinungsbildung mit KI: Welche
+Informationen zeigen Googles KI-Übersichten zu Wahlen? Eine Kurzuntersuchung anlässlich der
+Landtagswahlen in Sachsen-Anhalt, Mecklenburg-Vorpommern und Berlin im Jahr 2026", AlgorithmWatch,
+September 2026, 26 Seiten. PDF unter
+`algorithmwatch.org/de/wp-content/uploads/2026/09/AW_2026_Studie-Google-KI-Landtagswahlen.pdf`.
+**Belastbarkeit: belastbar.**
+
+- **Methodik im Wortlaut:** „Wir haben über einen Antrag nach Artikel 40 Absatz 12 des Digital
+  Services Acts (DSA) Zugang zu Googles ‚Search Researcher Result'-Softwareschnittstelle bekommen.
+  Über diese haben wir 4.480 Suchanfragen zu den Landtagswahlen … gestellt." Erhebung **Ende Juli
+  2026**. Berücksichtigt wurden AfD, CDU, Grüne, Linke und SPD sowie deren Spitzenkandidaten; FDP, BSW
+  und Kleinstparteien blieben außen vor.
+- **647 eindeutige Links**, insgesamt **4.614-mal** genannt, auf **140 eindeutige Domains** verteilt.
+- Eine KI-Übersicht enthielt durchschnittlich **3,7 verschiedene, eindeutige Links**.
+- **Fast die Hälfte aller Links stammt von nur zehn Domains.** Meistzitiert ist **YouTube**, das Google
+  selbst gehört; die Studie nennt das einen Hinweis auf Bevorzugung, „was das Unternehmen auf Nachfrage
+  bestreitet". In den Top zehn außerdem Wikipedia, öffentlich-rechtliche Medien, Zeit Online, Facebook,
+  die Landtagsseiten von Sachsen-Anhalt und Mecklenburg-Vorpommern sowie die SPD Berlin.
+- Fragen nach Umfragen lösen **durchgängig keine** Übersicht aus, Fragen zu Parteien und Kandidaten in
+  **40 bis 50 Prozent** der Fälle. Zu Sachsen-Anhalt deutlich weniger als zu Berlin und
+  Mecklenburg-Vorpommern.
+- **Acht KI-Übersichten enthielten gar keine Links.** Es waren genau die, in denen die KI eine
+  Wahlempfehlung verweigerte.
+- Politische Positionen würden „häufig nicht neutral beschrieben, sondern mit positiven Formulierungen
+  wiedergegeben, die in manchen Fällen an die Selbstbeschreibungen der Kandidat*innen und Parteien
+  erinnern".
+- Parteiseiten stehen in den Übersichten „ohne Einordnung neben neutralen Informationsangeboten".
+
+**PRÄZISIERUNG GEGENÜBER DER BERICHTERSTATTUNG, und der Grund, warum das Original zu lesen war:**
+netzpolitik.org schreibt am 01.09.2026, „fast die Hälfte der angezeigten Links führte zu weniger als
+zehn Quellen". Die Studie sagt etwas anderes: Fast die Hälfte **aller Links stammt von nur zehn
+Domains** von insgesamt 140. Das eine klingt nach dünnen Übersichten, das andere ist ein
+Konzentrationsmaß. **Wer nur die Zusammenfassung liest, bekommt die falsche Zahl.**
+
+**Zum Zeitfenster:** Sachsen-Anhalt wählt am 06.09., dieser Teil verfällt. **Mecklenburg-Vorpommern
+und Berlin wählen am 20.09.**, und die Studie deckt beide ab. Das Fenster ist also bis dahin offen.
+
+**Was ein Post ehrlich sagen müsste:** Die Studie misst, was angezeigt wird, und nicht warum. Sie
+sagt selbst nichts über den Empfehlungsalgorithmus. Und acht Verweigerungen bei 4.480 Anfragen sind
+eine sehr kleine Zahl, die keinen Trend trägt.
+
+**Kleinere Fundstücke vom 05.09.2026:**
+- **EuGH, Rechtssache C-598/24, Urteil vom 03.09.2026:** Auch kurze Social-Media-Beiträge können
+  urheberrechtlich geschützt sein, wenn sie eine eigene geistige Schöpfung darstellen. Eine Lehrerin
+  in Rumänien hatte einen 22-zeiligen Facebook-Text veröffentlicht, eine Online-Zeitung übernahm ihn
+  vollständig. Nationale Gesetze dürfen die Übernahme auf kurze Auszüge beschränken; ein pauschales
+  Verbot kommerzieller Nutzung für Medien verstößt gegen EU-Recht. **Das Urteil ist NICHT im Original
+  gelesen.** Der naheliegende KI-Bezug (geschützte Beiträge sind auch Trainingsdaten) steht in keiner
+  Quelle und wäre meine eigene These. **Vor einem Post das Urteil im Volltext lesen.**
+- **Alterskontrollen:** Das Familienministerium arbeitet nach eigener Auskunft an einer nationalen
+  Regelung, die über das australische Modell hinausginge (netzpolitik, 04.09.2026). Prien spricht von
+  einem „gesetzlichen Erlaubnisvorbehalt" und vom „Zugang" zu Plattformen, was auch Angebote ohne
+  Account und Anbieter in der Breite träfe. **Kein Entwurfstext öffentlich**, deshalb kein Post. Der
+  KI-Bezug ist die Umsetzungsseite: Altersgrenzen werden in der Praxis geschätzt, siehe den
+  Nebenbefund zu Post 28.
+- **Datenschützer zu Gehirn-Computer-Schnittstellen** (heise, 04.09.2026). Ungelesen, vorgemerkt.
