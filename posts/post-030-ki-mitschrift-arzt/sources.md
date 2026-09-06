@@ -93,6 +93,23 @@ Heidi**, ist also Auftragsforschung und wird nicht verwendet.
 Produktname auf keinem Blatt steht. Für Nachfragen im Kommentarfeld ist der Zusammenhang aber wichtig:
 Das in Großbritannien dominierende Produkt kommt hierher.
 
+## Nachtrag vom 06.09.2026: Lücke 5 (Doctolib) angegangen, weiterhin offen
+
+heise online nennt am 05.09.2026 in einer Meinungsspalte den Plan von Doctolib, „Inhalte von
+aufgezeichneten Arztgesprächen für das KI-Training zu nutzen", und beruft sich dabei auf Die Zeit
+(Heft 32/2026). Der Strang ist älter: Nach WDR-Recherchen gelten seit dem **22.02.2025** neue
+Datenschutzhinweise, in Frankreich läuft seit dem **01.08.2026** ein Training mit Daten aus dem
+Bestand.
+
+**Belastbarkeit: berichtet**, und zwar durchweg über Dritte. **Die Datenschutzhinweise von Doctolib
+selbst sind weiterhin nicht gelesen.** `doctolib.de` antwortet aus dieser Umgebung mit **HTTP 403**;
+zwei geratene Adressen für die Datenschutzseite gaben 404, danach wurde abgebrochen, weil Raten in
+diesem Repo als Fehlerquelle vermerkt ist.
+
+**Der Post wird nicht geändert.** Doctolib steht auf keinem Blatt, und genau deshalb ist hier nichts
+zu korrigieren. Sobald das Originaldokument vorliegt, ist das ein eigener Post und nicht ein
+Nachtrag zu diesem.
+
 ## Rechtshinweis
 
 Der Post gibt Studienergebnisse und Unternehmensangaben wieder. Er bewertet keinen Einzelfall, ist

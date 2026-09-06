@@ -1477,3 +1477,72 @@ eine sehr kleine Zahl, die keinen Trend trägt.
   KI-Bezug ist die Umsetzungsseite: Altersgrenzen werden in der Praxis geschätzt, siehe den
   Nebenbefund zu Post 28.
 - **Datenschützer zu Gehirn-Computer-Schnittstellen** (heise, 04.09.2026). Ungelesen, vorgemerkt.
+
+---
+
+## Recherchierte Einzelbefunde vom 06.09.2026
+
+**Rückstau bei vier, vierter Tag ohne Neubau.** Die Nachrichtenlage war dünn (Wahltag in
+Sachsen-Anhalt, sonst IFA). Die Zeit ging in einen Punkt, der seit dem 01.09. in jedem Briefing als
+Vormerkung stand.
+
+**EINGELÖST: Das deutsche KI-Sicherheitsinstitut ist gefunden, es heißt AISI Deutschland.** Gesucht
+wurde bisher beim BSI, gegründet hat es das Digitalministerium. Deshalb kam die Suche seit dem 01.09.
+nicht an.
+
+- **Primärquelle 1:** BMDS, Pressemitteilung **50/2026** vom **31.08.2026**, „AISI Deutschland
+  gegründet", `bmds.bund.de/aktuelles/pressemitteilungen/detail/aisi-deutschland-gegruendet`.
+- **Primärquelle 2:** Bundesregierung, „AISI Deutschland: KI-Sicherheitsinstitut eröffnet",
+  `bundesregierung.de/breg-de/aktuelles/eroeffnung-ki-sicherheitsinstitut-2449410`.
+- **Belastbarkeit: belastbar** für Gründung und Zuschnitt, aber beides sind Regierungsmitteilungen
+  und damit Selbstdarstellung.
+- Etabliert von **BMDS und BMI** in **Berlin**, Grundlage ist ein Beschluss des **Nationalen
+  Sicherheitsrats vom Juni 2026**. In der ersten Phase tragen es zwei bestehende Behörden: **BSI**
+  für die Cybersecurity-Dimension, **Bundesnetzagentur** für die Safety-Dimension. Eine zweite
+  Ausbaustufe ist angekündigt.
+- Die Bundesregierung schreibt ausdrücklich, das Institut sei **„keine Regulierungsbehörde"**,
+  sondern ein Kompetenzzentrum („Think- & Do-Tank").
+- **Nicht genannt:** Personal, Haushaltsmittel, Rechtsform, Befugnisse.
+
+**EIGENER BEFUND, und der trägt einen Post:** Das Institut soll leistungsfähige KI-Modelle technisch
+bewerten. Die Befugnis, sich dafür Zugang zu einem Modell zu verschaffen, liegt nach der
+KI-Verordnung nicht in Berlin. **Verordnung (EU) 2024/1689, Artikel 92** (Amtsblatt-Text, am
+06.09.2026 gelesen):
+
+- Absatz 1: Bewertungen von KI-Modellen mit allgemeinem Verwendungszweck führt **„das Büro für
+  Künstliche Intelligenz"** durch, nach Konsultation des KI-Gremiums.
+- Absatz 3: **„die Kommission"** kann „über API oder weitere geeignete technische Mittel und
+  Instrumente, einschließlich Quellcode, Zugang zu dem betreffenden KI-Modell mit allgemeinem
+  Verwendungszweck anfordern".
+- **Artikel 74 Absatz 12 und 13** gibt nationalen Marktüberwachungsbehörden einen eigenen Zugang,
+  aber nur für **Hochrisiko-KI-Systeme**, und zum **Quellcode** nur auf begründete Anfrage und erst,
+  wenn die Prüfung anhand der Anbieterunterlagen „ausgeschöpft" ist oder sich „als unzureichend
+  erwiesen" hat.
+
+**Was vor einem Post noch fehlt:** ob BSI und Bundesnetzagentur überhaupt die deutschen
+Marktüberwachungsbehörden nach der KI-Verordnung sind. Das regelt ein nationales
+Durchführungsgesetz, dessen Stand am 06.09.2026 **nicht** geprüft wurde. **Ohne diesen Punkt kein
+Post**, sonst steht die Pointe auf einer Annahme. **Bauform: Der Widerspruch**, weil zwei belastbare
+Quellen nebeneinanderstehen (Aufgabenbeschreibung der Bundesregierung gegen Artikel 92).
+
+**Kleinere Fundstücke vom 06.09.2026:**
+- **Doctolib und KI-Training mit Arztgesprächen.** heise nennt am 05.09.2026 in einer Meinungsspalte
+  den Plan, „Inhalte von aufgezeichneten Arztgesprächen für das KI-Training zu nutzen", gestützt auf
+  Die Zeit 32/2026. Älterer Strang: neue Datenschutzhinweise seit **22.02.2025** nach WDR-Recherchen,
+  in Frankreich Training aus dem Bestand seit **01.08.2026**. **Belastbarkeit: berichtet**, durchweg
+  über Dritte. **Die Doctolib-Datenschutzhinweise selbst sind nicht gelesen:** `doctolib.de`
+  antwortet mit HTTP 403, zwei geratene Adressen gaben 404, danach abgebrochen (Repo-Lehre vom
+  01.09.: nicht raten). **Schließt Lücke 5 aus Post 30, sobald das Originaldokument vorliegt.**
+- **Meta und die manipulierten Smart Glasses** (heise, 05.09.2026). Meta schaltet die Kamera ab, wenn
+  die Kontrollleuchte manipuliert oder verdeckt wird, hat tausende Anzeigen für Umbaudienste entfernt
+  und droht Anbietern rechtlich. „Weniger als 0,1 Prozent aller verkauften Brillen" seien betroffen.
+  **Alles Unternehmensangaben** (Threads-Beiträge und ein Semafor-Interview des Wearables-Chefs Alex
+  Himel), unabhängig geprüft ist nichts. Kein Post, Post 10 deckt das Feld ab.
+- **§ 201 Abs. 1 Nr. 1 StGB im Wortlaut geprüft** (`gesetze-im-internet.de`, 06.09.2026): bestraft
+  wird, wer unbefugt „das nichtöffentlich gesprochene Wort eines anderen auf einen Tonträger
+  aufnimmt". Nützlich für alles, was mit Brillen, Mitschriften und Aufzeichnungen zu tun hat.
+- **Stellenabbau in der Tech-Branche** (heise, 05.09.2026): 12.947 angekündigte Streichungen in der
+  Bay Area bis zum 05.09., über 180.000 weltweit im Jahr 2026 (TrueUp), über 92.000 bei Layoffs.fyi
+  als „direkt mit KI begründet" erfasst, Oracle rund 21.000 in zwölf Monaten. **US-Zahlen, und die
+  Begründung stammt von den Unternehmen selbst.** Post 2 und Post 5 decken die Frage mit IAB-Zahlen
+  für Deutschland ab. Kein eigener Post.
