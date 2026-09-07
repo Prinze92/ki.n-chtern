@@ -1546,3 +1546,96 @@ Quellen nebeneinanderstehen (Aufgabenbeschreibung der Bundesregierung gegen Arti
   als „direkt mit KI begründet" erfasst, Oracle rund 21.000 in zwölf Monaten. **US-Zahlen, und die
   Begründung stammt von den Unternehmen selbst.** Post 2 und Post 5 decken die Frage mit IAB-Zahlen
   für Deutschland ab. Kein eigener Post.
+
+---
+
+## Recherchierte Einzelbefunde vom 07.09.2026
+
+**Rückstau bei vier, fünfter Tag ohne Neubau.** Der gestern offen gelassene Punkt ist beantwortet,
+und die Antwort ist ergiebiger als die Frage.
+
+### BAUBEREIT UND STÄRKSTER KANDIDAT: Die Beschwerdestelle für KI
+
+**Primärquelle:** Gesetz zur Marktüberwachung und Innovationsförderung von künstlicher Intelligenz
+(**KI-MIG**), `gesetze-im-internet.de/ki-mig/`, am 07.09.2026 im Wortlaut gelesen. Bundestag
+**11.06.2026**, BGBl. **2026 I Nr. 233** vom 28.07.2026, **in Kraft seit 29.07.2026**.
+**Belastbarkeit: belastbar** (Primärnorm).
+
+- **§ 2 Absatz 1 im Wortlaut:** „Die Bundesnetzagentur ist die für die Einhaltung der Verordnung (EU)
+  2024/1689 zuständige Marktüberwachungsbehörde, soweit in diesem Gesetz nichts anderes bestimmt
+  ist." BaFin für Finanzdienstleistungen (Absatz 3), Fachbehörden für Anhang-I-Produkte (Absatz 2).
+- **§ 8 Absatz 1 im Wortlaut:** „Beschwerden wegen eines Verstoßes gegen die Verordnung (EU)
+  2024/1689 können unbeschadet der Vorgaben des Artikels 85 der Verordnung (EU) 2024/1689 bei der
+  Bundesnetzagentur als zentraler Beschwerdestelle eingereicht werden."
+- **§ 8 Absatz 3:** Beschwerdemanagementsystem, „leicht zugänglich, barrierefrei und
+  benutzerfreundlich".
+- **§ 8 Absatz 2** regelt vor allem die Weiterleitung an die zuständige Behörde.
+- Weitere Struktur: § 4 KI-Marktüberwachungskammer, § 5 Koordinierungs- und Kompetenzzentrum,
+  § 6 Zentrale Anlaufstelle, § 13 KI-Reallabore, § 20 Register.
+
+**Die Stelle ist offen** (`bundesnetzagentur.de/1111502`, Behördenseite, belastbar für die Existenz):
+Beschwerden seit dem **29.07.2026**, Onlineformular nach eigener Angabe **ab 02.08.**, und zwar
+„ausschließlich über das bereitgestellte Onlineformular …, nicht per E-Mail". Keine Frist- oder
+Formerfordernisse. Themen: verbotene Praktiken, Hochrisiko-Anforderungen, Transparenzpflichten.
+
+**Der Alltagsbezug, am Verordnungstext belegt** (Amtsblatt-Text, 07.09.2026 gelesen):
+- **Artikel 113:** Die Verordnung gilt im Grundsatz seit dem **2. August 2026**; nur Artikel 6
+  Absatz 1 und die zugehörigen Pflichten erst ab dem 2. August 2027.
+- **Anhang III Nummer 4 Buchstabe a im Wortlaut:** Hochrisiko sind KI-Systeme, „die
+  bestimmungsgemäß für die Einstellung oder Auswahl natürlicher Personen verwendet werden sollen,
+  insbesondere um gezielte Stellenanzeigen zu schalten, Bewerbungen zu sichten oder zu filtern und
+  Bewerber zu bewerten".
+- **Artikel 85 im Wortlaut:** „jede natürliche oder juristische Person, die Grund zu der Annahme hat,
+  dass gegen die Bestimmungen dieser Verordnung verstoßen wurde", kann Beschwerde einreichen. Solche
+  Beschwerden werden „für die Zwecke der Durchführung von Marktüberwachungstätigkeiten
+  berücksichtigt".
+- **Artikel 86 Absatz 1 im Wortlaut:** Betroffene einer Entscheidung auf Grundlage eines
+  Anhang-III-Systems haben das Recht, „vom Betreiber eine klare und aussagekräftige Erläuterung zur
+  Rolle des KI-Systems im Entscheidungsprozess und zu den wichtigsten Elementen der getroffenen
+  Entscheidung zu erhalten".
+
+**DIE EHRLICHE POINTE, die ein Post tragen muss:** Die Beschwerde nach Artikel 85 gibt keinen
+Anspruch auf eine Entscheidung im eigenen Fall, sie speist nur die Marktüberwachung. Das individuell
+stärkere Recht ist Artikel 86, und der richtet sich an den Betreiber, nicht an die Behörde.
+**Bauform: Die Rekonstruktion** (zuletzt Post 28), nach Rotation fällig.
+**Offen vor dem Bauen:** ob die Bundesnetzagentur Zahlen zu eingegangenen Beschwerden nennt.
+
+### Versteckte Befehle in Lebensläufen (Primärquelle im Volltext gelesen)
+
+Zhang, Jia, Tan, Jiang, Gong, Chen, Song, „Measuring Real-World Prompt Injection Attacks in
+LLM-based Resume Screening", eingereicht 27.05.2026, USENIX Security Symposium 2026,
+`arxiv.org/abs/2605.28999`. **Belastbarkeit: belastbar.**
+
+- Rund **200.000 echte Lebensläufe** des Anbieters hireEZ über mehrere Jahre.
+- **Etwa ein Prozent** enthält versteckte Einschleusungen, Anteil über ein bis zwei Jahre merklich
+  gestiegen, mit einem Ausschlag 2024.
+- **Über 90 Prozent sind „data injections":** versteckte Stichwortlisten oder erfundene Erfahrung in
+  der Hintergrundfarbe, die auf Schlagwortabgleich zielen. **Instruction injections** stecken etwa in
+  Ein-Punkt-Schrift am Seitenende.
+- Abstract wörtlich: „approximately 1% of resumes contain hidden prompt injections … and more than
+  90% of injected prompts do not use explicit instructions".
+
+**WO DIE BERICHTERSTATTUNG UNGENAU WIRD:** t3n nennt am 06.09.2026 „33 Prozent der Unternehmen" für
+die Analyse von Bewerbungsunterlagen und 31 Prozent für die Vorauswahl, gestützt auf die
+Randstad-ifo-Personalleiterbefragung. **Die Bezugsgröße ist ungeprüft.** In der heute gelesenen
+Randstad-Mitteilung stehen diese Zahlen nicht; dort stehen 70 Prozent (Verfassen) und 55 Prozent
+(Platzieren von Stellenanzeigen), erkennbar bezogen auf Unternehmen, die im Recruiting überhaupt KI
+einsetzen. Ebenfalls dort: 64 Prozent bewerten den bisherigen KI-Nutzen als gering oder eher gering.
+**Ohne geklärte Bezugsgröße kommt keine dieser Zahlen auf ein Blatt.**
+
+### Weitere Fundstücke vom 07.09.2026
+
+- **KI-Nachhilfe, zwei Jahre randomisiert:** Oreopoulos und Low, „One Click Away: AI Tutoring with
+  Khanmigo in a Two-Year School Experiment", Annenberg Institute at Brown University, August 2026,
+  `edworkingpapers.com/ai26-1551`. 18 Mittelschulen in Tennessee, cluster-randomisiert. 1,3 nationale
+  Perzentilränge je Halbjahr, 0,06 bis 0,08 Standardabweichungen über ein Schuljahr, 0,14 bei voller
+  Teilnahme. 96 Prozent probierten das Werkzeug einmal, der mittlere Schüler nutzte es an einem
+  Drittel seiner Übungstage und bei Fehlern nur in 17 Prozent der Fälle. **Belastbarkeit: belastbar**
+  für das Abstract, Arbeitspapier ohne Begutachtung. **Für den Kanal fehlt der deutsche Anschluss**,
+  der vermutlich in der seit dem 02.09. ungelesenen netzpolitik-Recherche zur KI-Korrekturhilfe
+  liegt.
+- **AISI-Befund vom 06.09. steht fester.** Die Bundesnetzagentur ist die zentrale
+  Marktüberwachungsbehörde und trägt zugleich die Safety-Dimension von AISI Deutschland. Auch als
+  benannte Marktüberwachungsbehörde reicht ihr Zugangsanspruch nach Artikel 74 nur auf
+  Hochrisiko-Systeme; für Modelle mit allgemeinem Verwendungszweck bleibt es nach Artikel 92 bei der
+  Kommission.
