@@ -1639,3 +1639,96 @@ einsetzen. Ebenfalls dort: 64 Prozent bewerten den bisherigen KI-Nutzen als geri
   benannte Marktüberwachungsbehörde reicht ihr Zugangsanspruch nach Artikel 74 nur auf
   Hochrisiko-Systeme; für Modelle mit allgemeinem Verwendungszweck bleibt es nach Artikel 92 bei der
   Kommission.
+
+---
+
+## Recherchierte Einzelbefunde vom 08.09.2026
+
+**Rückstau bei vier, sechster Tag ohne Neubau.** Die Recherche lief heute in Berliner
+Parlamentsdokumente. Zwei Senatsantworten liegen im Volltext vor.
+
+### BAUBEREIT BIS AUF EINEN PUNKT: Der KI-Chatbot in Berliner Schulen
+
+**Primärquelle:** Abgeordnetenhaus von Berlin, **Drucksache 19/25435**, Schriftliche Anfrage Louis
+Krüger (Grüne) vom 05.03.2026, **Antwort der Senatsverwaltung für Bildung, Jugend und Familie vom
+23.03.2026**, zwölf Seiten,
+`pardok.parlament-berlin.de/starweb/adis/citat/VT/19/SchrAnfr/S19-25435.pdf`.
+**Belastbarkeit: belastbar.**
+
+- Berlin stellt Lehrkräften den **KI-Chatbot telli** bereit, finanziert aus dem Digitalpakt Schule,
+  betrieben vom **Medieninstitut der Länder (FWU)** im Auftrag der Senatsverwaltung.
+- **Betreiberin nach der KI-Verordnung ist die Senatsverwaltung**, nicht die Schule.
+- Grundlage soll ein **neuer § 64e Schulgesetz** aus der dritten Schulgesetz-Novelle werden.
+- Zugriff der Schüler über QR-Code oder Link, keine Zuordnung zur Person, Chats nur im Browser und
+  beim Schließen des Tabs gelöscht, sonst 30 Tage. Lehrkräfte über VIDIS mit dienstspezifischem
+  Pseudonym.
+- Modelle „selbst gehostet bzw. bei MS Irland betrieben". **Kein Ausschluss von Modellen aus den
+  USA.** Biometrische Daten ausgeschlossen.
+- Vor der ersten Nutzung: Consent-Banner und Wissenstest für Lehrkräfte, dazu die Bestätigung, die
+  eigene Klasse geschult zu haben.
+
+**ZWEI SÄTZE IM WORTLAUT, die einen Post tragen:**
+- Zu 3.6: „Intervenierbarkeit als Konzept zur Umsetzung informationeller Selbstbestimmung wird nicht
+  durch eine ‚Opt-Out'-Möglichkeit für Nutzer angeboten, da es hier um Daten im schulischen Kontext
+  geht."
+- Zu 5.2: „Die Evaluation der pädagogischen Wirkung ist nicht Bestandteil des Gesetzes."
+- Dazu die Antwort zu 1.7 auf die Frage nach einem Widerspruchsrecht: „Über die Nutzung eines
+  KI-Systems entscheidet die Schule, es gibt keine verpflichtende Nutzung."
+
+Vorgeschrieben ist nach § 64e SchulG-E eine **datenschutzrechtliche** Evaluation ein Jahr nach
+Inkrafttreten und danach alle drei Jahre, mit Gelegenheit zur Stellungnahme für die BBDI.
+
+**ZUSAMMEN MIT DEM BEFUND VOM 07.09.** (Brown University, 18 Mittelschulen, zwei Jahre,
+cluster-randomisiert, 0,06 bis 0,08 Standardabweichungen über ein Schuljahr) ergibt das den
+Kandidaten: Der beste verfügbare Wirksamkeitsbeleg ist klein, und die deutsche Regelung verlangt gar
+keinen. **Bauform: Der Widerspruch** (zuletzt Post 25, fällig).
+
+**ZWEI OFFENE PUNKTE:**
+1. **Der Stand des Gesetzentwurfs ist ungeklärt.** Senatsbeschluss laut Pressemitteilung der
+   Senatskanzlei am **13.01.2026**, eine Meldung nennt für den **31.03.2026** einen weiteren
+   Senatsbeschluss. Ob das Abgeordnetenhaus § 64e beschlossen hat, ist **nicht geprüft**. Berlin
+   wählt am 20.09.2026, ein nicht beschlossener Entwurf verfällt. **Ohne diesen Punkt kein Post.**
+2. **Merkwürdigkeit im Dokument, die kein Beleg sein darf.** Antwort zu 3.4: „Die eingegebenen Daten
+   verändern das LLM nicht und können somit zu Dritten gelangen." Widerspricht dem Absatz davor („es
+   gelangen keine eingegebenen personenbezogenen Daten nach außen") und ist mit hoher
+   Wahrscheinlichkeit ein fehlendes „nicht". **Gehört auf kein Blatt.**
+
+### Verhaltensscanner am Roten Rathaus, und der saubere Weg zur Quelle
+
+netzpolitik.org, 07.09.2026, berichtet aus dem **Leistungsverzeichnis** eines Berliner Projekts zur
+Erprobung KI-gestützter Videotechnik: liegengebliebene Gegenstände über 30 Zentimeter und länger als
+30 Sekunden, Beschädigungen an Zäunen und Toren, unzulässig abgestellte Objekte (verpflichtend);
+gewünscht zusätzlich Betreten gesperrter Bereiche, Klettern, Tailgating, Geräusche über 85 dB(A)
+länger als zehn Sekunden, Werfen von Gegenständen, Sprühen, Lichtprojektionen sowie „langes
+Verharren/Umhergehen ohne Anlass, langanhaltendes Fotografieren" und wiederholtes Erscheinen.
+
+**Das Dokument ist durch den IT-Angriff auf die Berliner Verwaltung öffentlich geworden. Wir haben es
+nicht. Belastbarkeit: berichtet.**
+
+**Der saubere Weg:** Das Vorhaben ist regulär europaweit ausgeschrieben worden. **„PolBln 056_26 EU
+KI-gestützter Videoschutz an Schutzobjekten", Polizei Berlin, Bekanntmachung 162458-2026, Amtsblatt
+S 47/2026 vom 09.03.2026**, geschätzter Wert 2.058.823,53 Euro netto, Laufzeit 21.09.2026 bis
+31.10.2027, Orte Altes Stadthaus, Berliner Rathaus, Abgeordnetenhaus, Verhandlungsverfahren mit
+Teilnahmewettbewerb. **Belastbarkeit: berichtet**, denn `ted.europa.eu` liefert aus dieser Umgebung
+nur HTTP 202 mit leerem Rumpf; die Angaben stammen von einem Ausschreibungsportal.
+**VOR EINEM POST die Bekanntmachung im Original beschaffen.** Dann trägt der Post sich aus einem
+öffentlichen Dokument und braucht das Leak nicht. Das ist auch die ehrlichere Bauweise.
+
+### Negativer Befund, festgehalten für das Kommentarfeld
+
+**Das Landesamt für Einwanderung setzt keine KI zur Bearbeitung von Anträgen ein.** Drucksache
+**19/26592** (Jian Omar, Grüne, 06.07.2026, Antwort 14.07.2026): „Im LEA erfolgt kein Einsatz von
+Systemen der künstlichen Intelligenz zur Bearbeitung von Anträgen." Automatisiert wird über den
+IKT-Basisdienst Digitaler Antrag. Drucksache **19/26706** (Schubert, Linke, und Omar, Grüne,
+Antwort 27.07.2026) ergänzt: Den Beschäftigten steht **BärGPT** zur Verfügung, „eine automatisierte
+Entscheidungsfindung im Sinne von Art. 22 DSGVO findet nicht statt".
+**Belastbarkeit: belastbar.** Wer im Kommentarfeld behauptet, in Berlin entscheide eine KI über
+Aufenthaltstitel, bekommt diese beiden Drucksachen.
+
+### Selbstkorrektur zur Einordnung vom 05.09.2026
+
+t3n gibt die Konzentration am 07.09.2026 korrekt wieder: „fast 50 Prozent aller angezeigten Links
+kamen von nur zehn verschiedenen Domains". **Die Präzisierung gegenüber netzpolitik.org bleibt
+richtig, sie ist aber nicht mehr exklusiv.** Neu aus demselben Interview und in keinem bisher
+gelesenen Bericht: KI-Übersichten erschienen bei **39,1 Prozent** der wahlbezogenen Anfragen gegen
+**65,3 Prozent** bei nicht politischen.
