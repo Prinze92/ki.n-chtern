@@ -1732,3 +1732,79 @@ kamen von nur zehn verschiedenen Domains". **Die Präzisierung gegenüber netzpo
 richtig, sie ist aber nicht mehr exklusiv.** Neu aus demselben Interview und in keinem bisher
 gelesenen Bericht: KI-Übersichten erschienen bei **39,1 Prozent** der wahlbezogenen Anfragen gegen
 **65,3 Prozent** bei nicht politischen.
+
+---
+
+## Recherchierte Einzelbefunde vom 09.09.2026
+
+**Rückstau bei vier, siebter Tag ohne Neubau.** Der harte offene Punkt von gestern ist am
+Parlamentsdokument geklärt.
+
+### GEKLÄRT UND BAUBEREIT: § 64e Schulgesetz Berlin gilt seit dem 1. August 2026
+
+**Primärquellen, im Volltext gelesen:**
+- **Beschlussprotokoll der 89. Plenarsitzung des Abgeordnetenhauses von Berlin vom 02.07.2026**,
+  `parlament-berlin.de/ados/19/IIIPlen/protokoll/plen19-089-bp.pdf`, Tagesordnungspunkt 20.
+- **Drucksache 19/3105**, Vorlage zur Beschlussfassung, „Drittes Gesetz zur Änderung des
+  Schulgesetzes und weiterer Rechtsvorschriften", 01.04.2026, 151 Seiten.
+- **Drucksache 19/3105-2**, Änderungsantrag CDU und SPD vom 01.07.2026, 7 Seiten.
+**Belastbarkeit: belastbar.**
+
+- Zweite Lesung **angenommen mit Änderung gemäß Drucksache 19/3105-2**. Der Änderungsantrag der
+  Grünen (19/3105-1) wurde abgelehnt. Beschlussempfehlung des Bildungsausschusses vom 11.06.2026
+  (Drs. 19/3344).
+- **Artikel 4: „Dieses Gesetz tritt am 1. August 2026 in Kraft."** Der CDU/SPD-Antrag verschiebt nur
+  zwei sonderpädagogische Nummern auf den 01.08.2028 und **lässt § 64e unberührt** (dort null Treffer
+  auf „64e"), er verschiebt ihn von Nummer 14 auf Nummer 15.
+
+**NORMTEXT IM WORTLAUT (Auszüge, für ein Beleg-Panel geeignet):**
+- Absatz 1: „Die Schulaufsichtsbehörde stellt den Schulen ein System Künstlicher Intelligenz
+  (KI-System) für in der Rechtsverordnung nach § 66 Nummer 19 definierte Zwecke zur Nutzung bereit
+  und kann dieses für eigene, mit ihren Aufgaben zusammenhängende Zwecke verwenden."
+- Absatz 2 Satz 2: „Satz 1 gilt auch für Daten nach Artikel 9 der Verordnung (EU) 2016/679 …"
+- Absatz 3 nennt sechs Voraussetzungen: Erforderlichkeit, das KI-Modell darf nicht verändert werden,
+  Zugriff nur auf behörden- oder schulinterne Datenquellen, Betrieb als geschlossenes System, Ausgabe
+  nur im festen Zusammenhang mit der gesetzlichen Aufgabe, risikomindernde Maßnahmen.
+- Absatz 4: Aufklärung der Nutzenden über Zweck, Art, Funktionsweise und Verarbeitung, dazu
+  regelmäßige Schulung.
+- Absatz 5: „Die Voraussetzungen des Absatzes 3 sind ein Jahr nach Inkrafttreten der Vorschrift und
+  danach alle drei Jahre zu evaluieren." Gelegenheit zur Stellungnahme für die BBDI.
+- **§ 66 Nummer 19 (neu):** Rechtsverordnungsermächtigung für „den Einsatz von KI-Systemen nach
+  § 64e".
+
+**DREI BEFUNDE, DIE IN KEINER GELESENEN BERICHTERSTATTUNG STEHEN:**
+1. **Absatz 2 Satz 2 erlaubt ausdrücklich Artikel-9-Daten** (Gesundheit, religiöse Überzeugung,
+   ethnische Herkunft, Sexualleben). Der Senat schreibt zum konkret bereitgestellten Chatbot telli
+   dagegen: „Es werden keine personenbezogenen Daten verarbeitet." **Kein Widerspruch, sondern der
+   Abstand zwischen Erlaubnis und Praxis.** Das Gesetz erlaubt deutlich mehr als das heutige System.
+2. **Evaluiert werden die Voraussetzungen des Absatzes 3**, also Datenschutz und Stand der Technik.
+   Die pädagogische Wirkung steht nicht im Gesetz, und der Senat sagt das selbst. **Erste Evaluation
+   fällig am 01.08.2027.**
+3. **Das Nähere regelt eine Rechtsverordnung.** Welche Zwecke erlaubt sind, steht nicht im Gesetz.
+   **Ob die Verordnung erlassen ist, ist NICHT geprüft. Offener Punkt vor dem Bauen.**
+
+**Nebenbefund aus derselben Novelle:** Der neue **§ 9a** verpflichtet alle Berliner Schulen zu
+einmal jährlichen standardisierten Tests in Deutsch und Mathematik in den Jahrgangsstufen 1 bis 10.
+Die Leistungsdaten werden „spätestens nach sieben Jahren Aufbewahrungsfrist gelöscht". Zugang haben
+Schulleitung und die unterrichtenden Lehrkräfte, die Schulaufsicht nur pseudonymisiert und
+aggregiert. Kein KI-Bezug im Normtext.
+
+### PISA 2025, noch nicht im Original geprüft
+
+heise online, 08.09.2026: PISA 2025, erhoben 2025, veröffentlicht September 2026, über 760.000
+Fünfzehnjährige aus 91 Ländern. **46 Prozent** nutzen nach OECD-Angaben wöchentlich KI-Chatbots, **in
+Deutschland 50 Prozent**. Lesekompetenz in den OECD-Ländern zwischen 2015 und 2025 um 28 Punkte
+gefallen, Deutschland beim Lesen 465 Punkte gegen 480 im Jahr 2022, Mathematik 464 gegen 475,
+Naturwissenschaften 486 gegen 492. Der Anteil der flüchtig Lesenden hat sich zwischen 2018 und 2025
+global nahezu verdoppelt. Neue Prüfkategorie „Lernen in der digitalen Welt", Ergebnisse erst im
+Herbst 2027.
+**Belastbarkeit: berichtet. Der OECD-Bericht ist NICHT gelesen. Vor jeder Verwendung im Original
+prüfen.**
+
+### Kleinere Fundstücke vom 09.09.2026
+
+- **Google ändert die Suche im EWR** (heise, 09.09.2026): Hotels, Flüge, Bahnverbindungen und
+  Produkte, als Reaktion auf DMA-Bußgelder von zusammen 890 Millionen Euro, davon 460 Millionen für
+  die Bevorzugung eigener Dienste. Googles Nick Fox nennt es die größte Verschlechterung in
+  29 Jahren und beziffert einen früheren Buchungsrückgang mit 30 Prozent. **Beides
+  Unternehmensangaben.** Bemerkenswert ist, was nicht in der Änderung vorkommt: die KI-Übersicht.
