@@ -1808,3 +1808,81 @@ prüfen.**
   die Bevorzugung eigener Dienste. Googles Nick Fox nennt es die größte Verschlechterung in
   29 Jahren und beziffert einen früheren Buchungsrückgang mit 30 Prozent. **Beides
   Unternehmensangaben.** Bemerkenswert ist, was nicht in der Änderung vorkommt: die KI-Übersicht.
+
+---
+
+## Recherchierte Einzelbefunde vom 10.09.2026
+
+**Rückstau bei vier, achter Tag ohne Neubau.** Eingelöst ist eine Aufgabe, die seit dem 03.09.
+viermal vermerkt war: die netzpolitik-Recherche zur KI-Korrekturhilfe, dazu die Studie dahinter im
+Volltext und die Antwort der Autoren auf ihre Kritiker.
+
+### BAUBEREIT UND STÄRKSTER KANDIDAT: Zehnmal dieselbe Arbeit, zehn verschiedene Bewertungen
+
+**Primärquelle 1, im Volltext gelesen:** Mühlhoff, Rainer und Quägwer, Sean (2026), „Automatisierte
+Korrektur mit KI? Wir testen zwei verbreitete Tools", SEMINAR 32(2), S. 62 bis 76, wbv Publikation,
+**DOI 10.3278/SEM2602W007**, Open Access, 16 Seiten.
+**Primärquelle 2, ebenfalls gelesen:** Rainer Mühlhoff, „Rebuttal zu unseren Studien über
+KI-Korrektur- und Feedbacktools für den Schulunterricht", Stand 01.09.2026, 12 Seiten,
+`rainermuehlhoff.de/media/publications/rebuttal-bewertungs-und-feedback-tools.pdf`.
+**Belastbarkeit: belastbar.** Aufgabenstellung, Textkorpus und Werkzeugausgaben sind in
+Materialanhängen offengelegt.
+
+**Aufbau:** zehn simulierte Schülertexte, jeder **zehnmal unabhängig** eingegeben, Kriterien
+unverändert. Getestet: **FelloFish** (Schreibbegleiter) und **Edaira** (Benotungsassistenz, vormals
+NotenCopilot). Erhebung Juni bis November 2025 (Reihe A) und März 2026 (Reihe B).
+
+**Zahlen aus dem Original:**
+- FelloFish: Gesamtbewertung desselben Textes schwankt je nach Text um **4 bis 24 Prozentpunkte**,
+  Durchschnitt über die von Menschen geschriebenen Texte **12 Prozentpunkte**. Größte Schwankung bei
+  Text 6, einem sehr guten Text.
+- Edaira: maximale Schwankung **bis zu 35 Prozentpunkten**, Durchschnitt **19 Prozentpunkte**.
+  Sprachbewertung bei Text 3 zwischen **0 und 8 von 12 Punkten**, bei Text 4 zwischen 0 und 10.
+- **Der stabilste Text war bei FelloFish der mit ChatGPT erzeugte Text 9** (4 Prozentpunkte).
+  Konstant blieb sonst nur Text 8, eine klare Themenverfehlung, immer 0 Prozent.
+- Aus dem Rebuttal: früheres Fobizz-Werkzeug **70,5 Prozentpunkte** Spannweite; Edaira gab einem
+  **Manipulationstext ohne Argumentation 92,7 Prozent**; das Fobizz-Werkzeug übersah in allen fünf
+  Durchläufen eine einfache Falschbehauptung.
+- **Wortlaut für ein Panel:** „Gerade typische, solide oder leicht fehlerhafte Arbeiten, also jene,
+  die den Großteil realer Abgaben ausmachen, werden inkonsistent bewertet."
+- **Fazit der Autoren:** die Werkzeuge seien „derzeit nicht für eine eigenständige
+  Leistungsbewertung geeignet".
+
+**GEGENSTIMME, namentlich benannt:** Podcastfolge „Bewertungs- und Feedbacktools auf dem Prüfstand"
+(Kompass KI, S2E1, 28.08.2026) mit **Hendrik Haverkamp, Gründer von FelloFish**, und Benedikt
+Wisniewski. Einwand: Feedback und Benotung seien vermischt worden. Antwort der Autoren: Beide
+Produkte geben quantifizierte Werte aus, deren Wiederholbarkeit getestet werden durfte und musste.
+
+**SELBSTBEGRENZUNG DER AUTOREN, gehört in den Post:** „Ein gezielter Schwachstellentest beantwortet
+keine Fragen zur didaktischen oder psychologischen Wirksamkeit von KI im Unterricht." Zehn
+konstruierte Texte begrenzen Aussagen über die **Häufigkeit** solcher Fehlfunktionen, nicht über ihre
+**Existenz**.
+
+**WO DIE BERICHTERSTATTUNG ÜBER DIE QUELLE HINAUSGEHT:** netzpolitik.org schreibt am 02.09.2026, ein
+auf Chinesisch eingereichter deutscher Aufsatz sei von FelloFish fast genauso bewertet worden wie das
+Original. **Dieser Test steht weder in der Studie noch im Rebuttal** (beide durchsucht). Möglicherweise
+im Materialanhang, der nicht geöffnet wurde. **Bis das geklärt ist, kommt der chinesische Aufsatz auf
+kein Blatt.** Ebenso überträgt netzpolitik Prozentpunkte in Schulnoten; die Studie rechnet in
+Prozentpunkten.
+
+**Abgrenzung:** § 64e Schulgesetz Berlin (Befund vom 09.09.) regelt, was die Schulaufsicht
+bereitstellt. FelloFish und Edaira kauft die einzelne Schule. **Zwei verschiedene Posts.**
+**Bauform: Der Widerspruch**, fällig. Das Selbstexperiment scheidet aus, weil wir es nicht selbst
+getan haben.
+
+### Kleinere Fundstücke vom 10.09.2026
+
+- **§ 169 Absatz 1 Satz 2 GVG im Wortlaut geprüft** (`gesetze-im-internet.de`): „Ton- und
+  Fernseh-Rundfunkaufnahmen sowie Ton- und Filmaufnahmen zum Zwecke der öffentlichen Vorführung oder
+  Veröffentlichung ihres Inhalts sind unzulässig." Das Verbot hängt am Zweck der Veröffentlichung.
+  Private Mitschnitte im Gerichtssaal fallen eher unter § 201 StGB, der allein das gesprochene Wort
+  schützt. Nützlich für den Brillen-Strang.
+- **Microsoft führt eine Alters-API in Windows 11 ein** (heise, 09.09.2026): `GetUserAgeRangeAsync`
+  liefert Altersstufen (unter 10, 10 bis 12, 13 bis 15, 16 bis 17, 18 plus), ohne dass die App ein
+  Geburtsdatum abfragt. Bisher in Insider-Kanälen, Microsoft Age Verification bislang in Singapur,
+  Brasilien und Australien. **Woher die Altersstufe stammt, steht nicht in der Meldung.** Passt zum
+  Strang Altersschätzung aus Post 28 und dem Kommentar vom 05.09.
+- **Psychiater fordern absoluten Schutz von Therapiegesprächen** (heise, 09.09.2026). **Nah an Post
+  30**, deshalb heute bewusst weder Post noch Kommentar. Vorgemerkt für die Zeit nach Post 30.
+- **Palantir-Alternative Argonos, Verfassungsschutz bleibt Antworten schuldig** (heise, 09.09.2026).
+  Eigener Strang, potenziell stark. **Vorgemerkt.**
