@@ -1886,3 +1886,76 @@ getan haben.
   30**, deshalb heute bewusst weder Post noch Kommentar. Vorgemerkt für die Zeit nach Post 30.
 - **Palantir-Alternative Argonos, Verfassungsschutz bleibt Antworten schuldig** (heise, 09.09.2026).
   Eigener Strang, potenziell stark. **Vorgemerkt.**
+
+---
+
+## Recherchierte Einzelbefunde vom 11.09.2026
+
+**Rückstau bei vier, neunter Tag ohne Neubau.** Letzter veröffentlichter Post: 29.08.2026, also vor
+dreizehn Tagen. Vier fertige Posts im Lager, sechs baubereite Kandidaten.
+
+### BAUBEREIT: Der Hamburger Prüfbericht zur Meta-Brille
+
+**Primärquelle, im Volltext gelesen:** HmbBfDI, „Abschlussbericht zur technischen und
+datenschutzrechtlichen Untersuchung der Ray-Ban Meta AI Glasses", **10.09.2026, 55 Seiten**,
+`datenschutz-hamburg.de/fileadmin/user_upload/HmbBfDI/Datenschutz/Informationen/260910_HmbBfDI_Abschlussbericht_Ray_Ban_Meta_AI_Glasses_DE.pdf`
+(englische Fassung unter gleichem Pfad mit `_EN`). **Belastbarkeit: belastbar.**
+
+**Methode der Behörde:** Struktur der Meta-AI-App nachvollzogen, Datenübermittlungen mitgeschnitten,
+**die Brille zerlegt**. Untersucht wurde „Ray-Ban Meta Wayfarer (Gen 1)". Die Übermittlungen blieben
+weitgehend verschlüsselt, der Speicherchip der Brille hatte keine auslesbaren Anschlüsse, der
+Applikationsspeicher der App war zugänglich.
+
+**Technische Befunde:** 12-Megapixel-Weitwinkelkamera, **fünf Mikrofone** (zwei je Bügel, eines am
+Nasenrücken), zwei Lautsprecher, 32 GB Flash, Gyroskop, Touchpanel, WLAN und Bluetooth. Bei jeder
+Videoaufnahme werden die Mikrofone aktiviert, Ton wird „in hoher Klarheit in einer Entfernung bis zu
+zwei Meter aus verschiedenen Richtungen und Höhen" miterhoben. Die Behörde weist darauf hin, dass die
+menschliche Stimme ein personenbezogenes und unter Umständen ein biometrisches Datum nach Art. 4
+Nr. 14 DSGVO ist.
+
+**DER FUND, wörtlich und panel-tauglich:** „Überraschend war das Auffinden von Tabellen, die der
+Bezeichnung nach auf Gesichtserkennung hinweisen. Die betreffenden Tabellen enthielten keine
+Einträge. Es ist daher davon auszugehen, dass jedenfalls bislang keine Gesichtserkennung stattfindet.
+Grundlegende Strukturen, um eine solche Funktion perspektivisch hinzuzufügen, sind jedoch in der
+Software angelegt."
+
+**Rechtliche Ergebnisse, wörtlich:**
+- Aufnahmen von Personen, „die nicht zum engen Freundes- und Familienkreis gehören", werden
+  „datenschutzrechtlich bis auf seltene Konstellationen des berechtigten Interesses nicht zulässig
+  sein", weil die informierte Einwilligung „bereits mangels Transparenz nicht eingeholt werden kann".
+- Zur Leuchte: „abhängig von Entfernung, Blickwinkel und Lichtverhältnissen nur eingeschränkt
+  wahrnehmbar"; „das bloße Aufleuchten der LED alleine genügt nicht". Gefordert werden zusätzliche
+  Maßnahmen der Nutzenden, etwa Piktogramme oder mündliche Ansprache.
+- **Drei Nutzungsszenarien.** Beim Einfließen von Aufnahmen in Metas KI-Modelle können Nutzende sich
+  **nicht auf die Haushaltsausnahme berufen** und werden „hinsichtlich der Trainingsdaten zu
+  gemeinsamen Verantwortlichen mit Meta". Im Rahmen berechtigter Interessen überwiegen die Rechte
+  Dritter „regelmäßig gegenüber dem Trainingsinteresse von Meta".
+
+**ABGRENZUNG ZU POST 10, GEPRÜFT, KEIN KORREKTUR-ANLASS:** Post 10 nennt sechs Mikrofone für die
+zweite Generation seit April 2026 und vermerkt in `sources.md` ausdrücklich „vorher fünf", als
+**einzelquelle** markiert. Der Hamburger Bericht untersucht die **erste** Generation und findet fünf.
+**Damit ist Post 10 nicht falsch.** Die Sechs für Gen 2 bleibt eine Einzelquelle und sollte bei
+Gelegenheit an einer zweiten Quelle geprüft werden.
+
+**Bauform: Die Rekonstruktion** (der Bericht geht selbst in Schritten vor). Der Widerspruch ist
+zweimal als fällig vermerkt und sollte an den Schulkandidaten gehen.
+**Offen vor dem Bauen:** eine Stellungnahme von Meta zu diesem Bericht, heute nicht gesucht.
+
+### Kleinere Fundstücke vom 11.09.2026
+
+- **Art. 53 Abs. 1 Buchst. d KI-VO im Wortlaut geprüft:** Anbieter von KI-Modellen mit allgemeinem
+  Verwendungszweck „erstellen und veröffentlichen eine hinreichend detaillierte Zusammenfassung der
+  für das Training des KI-Modells mit allgemeinem Verwendungszweck verwendeten Inhalte nach einer vom
+  Büro für Künstliche Intelligenz bereitgestellten Vorlage". Kapitel V gilt nach Art. 113 Buchst. b
+  seit dem **02.08.2025**. Nützlich für jeden Streit über Trainingsdaten.
+- **Streit um KI-Beweise** (heise, 10.09.2026): Andreas Thom, Geometrieprofessor an der TU Dresden,
+  wirft OpenAI vor, Inhalte aus seinen ChatGPT-Gesprächen könnten in das Training des Modells Astra
+  eingeflossen sein. OpenAI-Forscher antworteten pauschal: „Was Ihre Gespräche mit ChatGPT betrifft:
+  Das ist nicht passiert." Thom nennt die Antwort „ungerechtfertigt pauschal und in wesentlicher
+  Hinsicht irreführend". **Belastbarkeit: berichtet.**
+- **Digitaler Omnibus** (netzpolitik, 10.09.2026): Das Bündnis „Kill the Cookie Banner" (EDRi, BEUC,
+  noyb) unterstützt Artikel 88b zu automatisierten Einwilligungssignalen. **Kein KI-Bezug in diesem
+  Beitrag**, geprüft bevor entschieden wurde. Der Omnibus bleibt als Strang vorgemerkt, weil er an
+  anderer Stelle die KI-Verordnung berührt.
+- **EU-US-Rahmenvertrag für Biometrie-Austausch** (heise, 10.09.2026). **Ungeprüft, vorgemerkt mit
+  Priorität.**
