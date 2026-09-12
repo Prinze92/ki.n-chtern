@@ -1959,3 +1959,68 @@ zweimal als fällig vermerkt und sollte an den Schulkandidaten gehen.
   anderer Stelle die KI-Verordnung berührt.
 - **EU-US-Rahmenvertrag für Biometrie-Austausch** (heise, 10.09.2026). **Ungeprüft, vorgemerkt mit
   Priorität.**
+
+---
+
+## Recherchierte Einzelbefunde vom 12.09.2026
+
+**Rückstau bei vier, zehnter Tag ohne Neubau.**
+
+### NEUER KANDIDAT: Die KI im Schwimmbad
+
+**Der Fall (Belastbarkeit: berichtet, heise online 11.09.2026, 16:45 Uhr):** Im Bremer Westbad
+(Stadtteil Walle, im Sommer 2026 nach drei Jahren Bauzeit wieder eröffnet) sind **19 Kameras** auf
+die Schwimmflächen gerichtet. Software der israelischen Firma **Lynxight** soll Ertrinkungsgefahr
+erkennen und das Personal warnen. Die Inbetriebnahme wurde verschoben, weil die
+**Datenschutz-Folgenabschätzung** fehlte. Timo Utermark, Landesbeauftragter für Datenschutz Bremen:
+„Den Aufschub der Inbetriebnahme begrüße ich sehr." Dieselbe Technik läuft nach Angabe im Bericht in
+**rund 200 deutschen Bädern**; in Hamburg läuft ein System im Billebad „in laufender Abstimmung" mit
+der dortigen Aufsicht.
+**Keine Pressemitteilung der Bremer Behörde**: Die Mitteilungsseite führt als jüngste
+Veröffentlichung den 16.03.2026. Das Zitat liegt nur über die Redaktion vor.
+
+**BELASTBAR, im Amtsblatt-Text gelesen:** **Art. 35 Abs. 3 Buchst. c DSGVO** verlangt eine
+Datenschutz-Folgenabschätzung insbesondere bei „systematische[r] umfangreiche[r] Überwachung
+öffentlich zugänglicher Bereiche". Nach Absatz 1 ist sie **vorab** durchzuführen.
+
+**BELASTBAR, zweite Aufsichtsbehörde:** LDI Nordrhein-Westfalen, „Video- und KI-Überwachung im
+Schwimmbad: Nicht alles ist erlaubt", **20.06.2025**, `ldi.nrw.de/Freibad_Video_KI`. Bettina Gayk
+wörtlich: KI-Systeme zur Notfallwarnung dürften „nicht dazu führen, dass bestehende
+Aufsichtsmaßnahmen ersetzt werden"; und: **„Im Notfall Leben retten, können nur Menschen und nicht
+Kameras."** Ebenfalls dort: „Gerade bei Freizeiteinrichtungen, deren Zweck es ist, dass sich die
+Bürger*innen dort frei entfalten können, gelten hohe Anforderungen."
+
+**Was ein Post ehrlich sagen müsste:** Die Folgenabschätzung ist eine Prüfpflicht, kein Verbot. Ob
+das System zulässig ist, entscheidet sie nicht.
+**Offen:** die Zahl 200 an der Quelle prüfen (Anbieterangabe), Stellungnahme der Bremer Bäder GmbH.
+**Bauform:** Der Widerspruch oder Die Rekonstruktion, beide fällig.
+
+### GEPRÜFT: Die Rechtsverordnung zu § 64e Schulgesetz fehlt offenbar
+
+§ 64e Abs. 1 SchulG Berlin stellt das KI-System „für in der Rechtsverordnung nach § 66 Nummer 19
+definierte Zwecke" bereit. **Am 12.09.2026 geprüft:** Die amtliche Übersicht der Rechtsvorschriften
+der Senatsverwaltung für Bildung (`berlin.de/sen/bildung/schule/rechtsvorschriften/`) führt **keine
+Verordnung zum Einsatz von KI-Systemen**. Aufgeführt sind unter anderem die Digitale Lehr- und
+Lernmittelverordnung (DigLLV) und die Schuldatenverordnung (SchuldatenV).
+
+**Das Gesetz gilt seit dem 01.08.2026, die Vorschrift über die erlaubten Zwecke ist auf der amtlichen
+Liste nicht zu finden.** **INDIZ, KEIN BEWEIS.** Eine Übersichtsseite kann unvollständig oder
+veraltet sein. **Vor einem Post im Gesetz- und Verordnungsblatt für Berlin gegenprüfen. Ohne diese
+Gegenprüfung bleibt der Satz draußen.**
+Dasselbe Muster wie in Post 27 (§ 19 EnEfG erfasst das Veröffentlichen nicht) und beim
+Gewerbesteuer-Kandidaten (Anknüpfung an eine Definition, die es noch nicht gibt).
+
+### Kleinere Fundstücke vom 12.09.2026
+
+- **Prien zu Social Media und Kindern** (heise, 11.09.2026): Änderungen an SGB VIII und
+  Jugendschutzgesetz, Kabinettsbefassung „Mitte Oktober" angekündigt. **Sie nennt keine
+  Altersgrenze und lehnt biometrische und KI-gestützte Altersfeststellung ausdrücklich ab**, sagt
+  aber: „Und trotzdem brauchen wir eine Altersgrenze." Zur Finanzierung: „Wieso soll Meta eigentlich
+  nur in den Vereinigten Staaten dafür zahlen, dass der Medienschutz besser wird?"
+  **Belastbarkeit: berichtet.** Passt zum Strang Altersschätzung (Post 28, Windows-API vom 09.09.).
+- **ePA und Datenausleitung ab Oktober** (heise, 11.09.2026). **Vorgemerkt mit Priorität**, der
+  KI-Bezug über die Forschungsdatennutzung ist zu klären.
+- **OLG Köln: „Bezahlen mit Daten" ist kein Preis** (heise, 11.09.2026). Deutsches Urteil ohne
+  KI-Kern, vorgemerkt für den Strang um Post 28.
+- **netzpolitik.org war am 12.09.2026 aus dieser Umgebung nicht abrufbar** (`ws_closed_mid_exchange`).
+  Diese Quelle fehlt im Durchgang dieses Tages.
