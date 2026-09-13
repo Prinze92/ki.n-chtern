@@ -2024,3 +2024,59 @@ Gewerbesteuer-Kandidaten (Anknüpfung an eine Definition, die es noch nicht gibt
   KI-Kern, vorgemerkt für den Strang um Post 28.
 - **netzpolitik.org war am 12.09.2026 aus dieser Umgebung nicht abrufbar** (`ws_closed_mid_exchange`).
   Diese Quelle fehlt im Durchgang dieses Tages.
+
+---
+
+## Recherchierte Einzelbefunde vom 13.09.2026
+
+**Rückstau bei vier, elfter Tag ohne Neubau.**
+
+### NEUER KANDIDAT MIT TERMIN: Apple und die Siri-Aufnahmen
+
+**Was berichtet wird** (heise online, 12.09.2026, 10:10 Uhr, gestützt auf die Datenschutzunterlagen
+der iOS-27-Beta): Mit **iOS 27, Erscheinungstermin 14.09.2026**, will Apple Audioaufnahmen und
+Transkripte gesprochener und getippter Siri-Anfragen samt Antworten zur Verbesserung der Modelle
+nutzen. Beim Aktivieren von Siri AI erscheint ein Dialog; die einzige Alternative ist die
+Schaltfläche **„Nicht jetzt"**, später abschaltbar unter Analyse und Verbesserungen. Apple sagt, die
+Daten würden nicht mit dem Apple-Konto verknüpft; Prüfpersonal könne Material ansehen, Audio höre
+nur eigenes Personal. Die frühere Zusage lautete laut Beitrag „Your private personal data and
+interactions will never be used to train our Foundation Models", ergänzt nun um „unless you
+explicitly decide to help improve them".
+**Belastbarkeit: berichtet.**
+
+**EIGENE PRÜFUNG, ERGEBNIS NEGATIV:** Die öffentliche Seite „Apple Intelligence & Privacy"
+(`apple.com/legal/privacy/data/en/intelligence-engine/`) trägt den Stand **12.12.2025** und enthält
+die zitierten Sätze **nicht**; sie spricht nur von Device Analytics. **Die Änderung ist aus dieser
+Umgebung nicht am Original belegbar.** **VOR EINEM POST: Apple-Rechtsseiten ab dem 14.09.2026 erneut
+aufrufen**, dann müsste der neue Wortlaut öffentlich stehen. **Ohne beide Wortlaute im Original kein
+Widerspruchs-Post**, sonst wird eine Kehrtwende behauptet, die nicht belegt ist.
+
+**Abgrenzung:** Post 28 behandelt Werbung in ChatGPT und Art. 21 DSGVO (Widerspruch). Hier geht es um
+Einwilligung nach Art. 4 Nr. 11 und Art. 7 DSGVO. Anderer Gegenstand.
+
+### HALB ERLEDIGT: Rechtsverordnung zu § 64e Schulgesetz Berlin
+
+Das Gesetz- und Verordnungsblatt für Berlin hat im Jahrgang 2026 bisher **32 Ausgaben**. Für den
+Zeitraum nach Inkrafttreten am 01.08.2026 sind **Heft 27 vom 05.08.2026 und Heft 28 vom 15.08.2026 im
+Volltext gelesen**. Beide enthalten schulrechtliche Verordnungen (Vorbereitungsdienstverordnung,
+Zweite Verordnung zur Änderung der Sekundarstufe I-Verordnung, Verordnung zur Regelung der
+Datenverarbeitung in Einrichtungen), **aber keine Verordnung zum Einsatz von KI-Systemen**.
+
+**Die Hefte 26 und 29 bis 32 waren nicht abrufbar**, der Server antwortet nach den ersten Abrufen mit
+**HTTP 429**, auch bei Wiederholung im Abstand von 15 Sekunden. **Der Punkt bleibt offen**, ist aber
+kleiner geworden: Übersichtsseite ohne Eintrag plus zwei geprüfte Amtsblätter ohne Fund.
+**Vor einem Post die restlichen fünf Hefte nachholen.**
+
+### Kleinere Fundstücke vom 13.09.2026
+
+- **Art. 4 Nr. 11 DSGVO im Wortlaut geprüft:** Einwilligung ist „jede freiwillig für den bestimmten
+  Fall, in informierter Weise und unmissverständlich abgegebene Willensbekundung in Form einer
+  Erklärung oder einer sonstigen eindeutigen bestätigenden Handlung". Maßstab für jeden Dialog, der
+  um Zustimmung zum Training bittet.
+- **EU-Kommission zu den Modell-Ausbrüchen** (heise, 12.09.2026): Sprecher auf der Pressekonferenz in
+  Brüssel, der AI Act werde „vollständig durchgesetzt", es sei „höchste Zeit, dass diese Anbieter
+  Ordnung in ihre Angelegenheiten bringen". Informationsanfragen (RFI) gingen bereits an mehrere
+  Unternehmen. **Belastbarkeit: berichtet.** Die Befugnis dahinter ist Art. 92 KI-VO, am 06.09. im
+  Wortlaut geprüft.
+- **OpenAI verschiebt den Börsengang mit Verweis auf „Sicherheitsbedenken"** (heise, 12.09.2026).
+  Finanznachricht, aber die Begründung passt in den Strang der ausgebrochenen Modelle. **Vorgemerkt.**
