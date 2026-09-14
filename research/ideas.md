@@ -2080,3 +2080,69 @@ kleiner geworden: Übersichtsseite ohne Eintrag plus zwei geprüfte Amtsblätter
   Wortlaut geprüft.
 - **OpenAI verschiebt den Börsengang mit Verweis auf „Sicherheitsbedenken"** (heise, 12.09.2026).
   Finanznachricht, aber die Begründung passt in den Strang der ausgebrochenen Modelle. **Vorgemerkt.**
+
+---
+
+## Recherchierte Einzelbefunde vom 14.09.2026
+
+**Rückstau bei vier, zwölfter Tag ohne Neubau.** Zwei selbst gesetzte Prüftermine abgearbeitet.
+
+### TERMIN EINGEHALTEN, ERGEBNIS NEGATIV: Apples Rechtsseite ist unverändert
+
+Am 14.09.2026 erneut aufgerufen: `apple.com/legal/privacy/data/en/intelligence-engine/` trägt
+unverändert den Stand **12.12.2025**, enthält weder „train" noch „foundation models", nichts zu
+Audioaufnahmen oder Transkripten von Siri-Anfragen und nichts zu einer ausdrücklichen Entscheidung
+der Nutzenden. Dort steht nur, Apple könne „privacy-preserving techniques" nutzen, um aggregierte
+Trends zu erheben.
+**Der Apple-Kandidat bleibt BERICHTET.** Ohne Wortlaut im Original kein Post. Erneut prüfen, sobald
+die Seite ein neues Datum trägt.
+
+### ZU ZWEI DRITTELN GEPRÜFT: Rechtsverordnung zu § 64e Schulgesetz Berlin
+
+Vier von sechs Ausgaben des Gesetz- und Verordnungsblatts nach dem Inkrafttreten am 01.08.2026 sind
+im Volltext gelesen, jeweils durchsucht nach „Künstlich", „KI-System" und „64e":
+- **Heft 26 (29.07.2026, 12 S.):** Wohnraumsicherungsgesetz, Landschaftsschutz. Kein Treffer.
+- **Heft 27 (05.08.2026, 48 S.):** Vorbereitungsdienstverordnung, Ausgleichsmaßnahmenverordnung,
+  Datenverarbeitung in Einrichtungen. Kein Treffer.
+- **Heft 28 (15.08.2026, 8 S.):** Kapazitätsverordnung, Sekundarstufe I-Verordnung. Kein Treffer.
+- **Heft 29 (21.08.2026, 176 S.):** Straßenreinigungsverzeichnisse. Kein Treffer.
+**Hefte 30 bis 32 (29.08., 04.09., 08.09.) antworten weiterhin mit HTTP 429.**
+**Beweislage:** Übersichtsseite ohne Eintrag, vier Amtsblätter ohne Fund, drei Wochen ungeprüft.
+**Für einen Post reicht das noch nicht.**
+
+### NACHGESCHÄRFT AM BERICHT: Meta-Brille
+
+Aus dem Hamburger Abschlussbericht (im Volltext vorliegend): Zentrale Datenbank der Meta-AI-App ist
+die SQLite-Datenbank **„StellaDatabase"** unter `/databases`. Die auffälligen Tabellen heißen
+**„face", „face_group", „face_low_confidence_pair", „face_to_face_group"**. Der Bericht formuliert
+vorsichtig: „Die nahe liegende Vermutung, dass die Tabellen im Rahmen einer Gesichtserkennung genutzt
+werden, konnten durch die Tests nicht bestätigt werden."
+
+**PRÄZISIERUNG GEGENÜBER DER BERICHTERSTATTUNG:** heise schreibt am 13.09.2026, Sicherheitsforscher
+hätten kurzzeitig Gesichtserkennungsfunktionen freischalten können und Meta habe danach ein
+„verdecktes Update" ausgeliefert. **Beides steht nicht im Hamburger Bericht** (nach
+„Sicherheitsforsch" und „Update" durchsucht). Zusatzwissen der Redaktion. **Auf ein Blatt kommt nur,
+was im Bericht steht.**
+**Nützlicher Zusatz aus demselben heise-Beitrag:** Die Haushaltsausnahme entfällt bei Videoaufnahmen
+unbeteiligter Dritter im öffentlichen Raum, bei Veröffentlichung in sozialen Netzwerken und bei
+aktiviertem KI-Training mit Metadaten Dritter; über **Art. 26 DSGVO** wird der Träger gemeinsam
+Verantwortlicher mit Meta.
+
+### Kleinere Fundstücke vom 14.09.2026
+
+- **Branchenruf nach einer Pause** (heise, 13.09.2026): Dario Amodei schlägt eine „koordinierte
+  Pause" von „ein bis zwei Jahren" vor und kündigt dauerhaft „unabhängige Beobachter" im Unternehmen
+  an, die schon in der Trainingsphase prüfen sollen. Er warnt, KI-Agenten könnten „innerhalb von
+  sechs bis zwölf Monaten" Internetinfrastruktur angreifen. Altman nennt es eine „gute Idee", Musk
+  schreibt „Dario hat recht". Altman zum verschobenen Börsengang: „Man wäre schlecht beraten, genau
+  jetzt an die Börse zu gehen."
+  **Belastbarkeit: berichtet. Ein gemeinsamer Text oder offener Brief existiert nicht**, es sind
+  Einzeläußerungen. Nach dem Relevanzfilter kein Post: kein konkreter, persönlicher Bezug für Leser
+  hier.
+- **Kalifornien** (heise, 13.09.2026): SB 1119 („Adam's Law") verlangt Altersverifikation für
+  KI-Chatbots; AB 1709 verbietet personalisierte Feeds für unter 16-Jährige; AB 2 sieht Geldstrafen
+  bis eine Million Dollar je betroffenem Kind vor; AB 2071 bringt Medienkompetenz in die Lehrpläne.
+  **Ab 2027 läuft die Altersprüfung über das Gerät:** Geburtsdatum beim Kauf, an die Anbieter geht
+  nur die Altersgruppe. **Dieselbe Bauweise wie Microsofts Windows-API vom 09.09.**
+  **Belastbarkeit: berichtet.** US-Recht, kein eigener Post, aber der Vergleich ist für den deutschen
+  Strang (Prien) wertvoll.
