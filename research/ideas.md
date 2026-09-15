@@ -2146,3 +2146,73 @@ Verantwortlicher mit Meta.
   nur die Altersgruppe. **Dieselbe Bauweise wie Microsofts Windows-API vom 09.09.**
   **Belastbarkeit: berichtet.** US-Recht, kein eigener Post, aber der Vergleich ist für den deutschen
   Strang (Prien) wertvoll.
+
+---
+
+## Recherchierte Einzelbefunde vom 15.09.2026
+
+**Rückstau bei vier, dreizehnter Tag ohne Neubau.**
+
+### NEUER KANDIDAT: Bitkom-Zahlen zu KI und Beschäftigung
+
+**Primärquelle, im Original gelesen:** Bitkom, Presseinformation vom **14.09.2026**, „Erstmals nutzt
+Mehrheit Unternehmen KI",
+`bitkom.org/Presse/Presseinformation/Erstmals-nutzt-Mehrheit-Unternehmen-KI`.
+**Methodik:** telefonische Befragung von **603 Unternehmen ab 20 Beschäftigten**, KW 28 bis 33 des
+Jahres 2026, nach eigener Angabe repräsentativ für die Gesamtwirtschaft.
+**Belastbarkeit: belastbar für die Erhebung. DER BITKOM IST PARTEI**, er vertritt die Branche, die
+die Technik verkauft. Gehört in jeden Post mit diesen Zahlen.
+
+- **Verbreitung:** 57 Prozent im Einsatz, 38 Prozent geplant oder in Diskussion, 4 Prozent „kein
+  Thema". Vorjahr 36 Prozent Einsatz, davor 20. „Kein Thema" fiel von 41 über 17 auf 4 Prozent.
+- **Ausschöpfung:** **0 Prozent vollständig**, 3 Prozent eher stark, 28 Prozent wenig,
+  **59 Prozent überhaupt nicht**.
+- **BESCHÄFTIGUNG, die Zahl gegen die Erwartung:** Über alle Befragten erwarten 45 Prozent einen
+  leichten und 12 Prozent einen deutlichen Rückgang in zwei Jahren. **Unter den KI-Anwendern nur
+  9 Prozent deutlichen Rückgang und 18 Prozent einen Anstieg.** Die Furcht ist dort größer, wo die
+  Technik noch nicht im Haus ist.
+- **Hemmnisse Nicht-Anwender:** technisches Know-how 85, rechtliche Unsicherheit 66, Kosten 63,
+  Personal 51, Daten 40, Anwendungsfälle 30 Prozent.
+- **Hemmnisse Anwender:** Datenschutzanforderungen 66, rechtliche Verunsicherung 56, Kosten 54,
+  Datensicherheit 45, Mitarbeiterakzeptanz 42 Prozent.
+- **Zitate Ralf Wintergerst (Bitkom-Präsident):** „Künstliche Intelligenz ist keine Sache einzelner
+  Vorreiter, sie ist in der Breite der Wirtschaft angekommen." Und zum AI Act: „Der AI Act sollte
+  Vertrauen schaffen, erzeugt aber weitverbreitete Unsicherheit." **Verbandsposition, als solche
+  kennzeichnen.**
+
+**Bauform: Der Widerspruch**, zwei Zahlen derselben Erhebung stehen gegeneinander.
+**Abgrenzung zu Post 2 und Post 5:** Die arbeiten mit Zahlen der Bundesagentur und des IAB und
+beschreiben den Arbeitsmarkt. Hier sind es **Erwartungen von Unternehmen**. Muss auf ein Blatt,
+sonst wird aus einer Umfrage eine Messung.
+**Offen:** ob der Bitkom die vollständige Studiendokumentation veröffentlicht, die
+Presseinformation verlinkt keine.
+
+### FAST DURCH: Berliner Amtsblatt und die fehlende KI-Verordnung
+
+Sechs von sieben Ausgaben im Zeitraum 29.07. bis 04.09.2026 sind im Volltext gelesen und nach
+„Künstlich", „KI-System" und „64e" durchsucht, ohne Treffer:
+- Hefte 26, 27, 28, 29 (geprüft 13. und 14.09.)
+- **Heft 30 (29.08.2026, 24 S.):** Berliner Börsenverordnung, Parkgebühren-Ordnung,
+  Friedhofsgebührenordnung. Kein Treffer.
+- **Heft 31 (04.09.2026, 8 S.):** Landschaftsschutz Marienfelder Feldmark, 36. VO-PrVG,
+  Bebauungsplan 9-74 VE. Kein Treffer.
+- **Heft 32 (08.09.2026):** weiterhin HTTP 429.
+
+**Beweislage:** Übersichtsseite ohne Eintrag, sechs Amtsblätter ohne Fund, ein Heft offen. **Der
+Satz, dass die Rechtsverordnung nach § 66 Nummer 19 sechs Wochen nach Inkrafttreten des § 64e noch
+nicht erlassen ist, ist damit fast tragfähig. Bis Heft 32 geprüft ist, bleibt er von den Blättern.**
+
+### Kleinere Fundstücke vom 15.09.2026
+
+- **§ 25 Abs. 1 TDDDG im Wortlaut geprüft** (`gesetze-im-internet.de/ttdsg/__25.html`, der Slug
+  lautet weiterhin `ttdsg`): „Die Speicherung von Informationen in der Endeinrichtung des Endnutzers
+  oder der Zugriff auf Informationen, die bereits in der Endeinrichtung gespeichert sind, sind nur
+  zulässig, wenn der Endnutzer auf der Grundlage von klaren und umfassenden Informationen
+  eingewilligt hat." Ausnahmen in Absatz 2 für Übertragung und unbedingt erforderliche Dienste.
+  Nützlich für alles mit Endgeräten, Fernsehern und Brillen.
+- **LG und die automatische Inhaltserkennung** (heise, 15.09.2026): Vorwürfe der YouTube-Gruppe
+  Gamers Nexus, ACR verarbeite Umgebungston, Spracherkennung laufe bis zu 18 Sekunden nach, der
+  Widerspruch koste „2700 Klicks, 50.000 Wörter und eine Lesezeit von drei bis vier Stunden". LG
+  entgegnet: „The TV does not continuously listen to, record, or store conversations."
+  **Belastbarkeit: berichtet**, die Untersuchung ist nicht gelesen. **Wird ein Kandidat, sobald eine
+  Aufsichtsbehörde den Fall aufgreift**, wie in Hamburg bei der Meta-Brille.
