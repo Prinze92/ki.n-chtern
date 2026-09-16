@@ -2216,3 +2216,57 @@ nicht erlassen ist, ist damit fast tragfähig. Bis Heft 32 geprüft ist, bleibt 
   entgegnet: „The TV does not continuously listen to, record, or store conversations."
   **Belastbarkeit: berichtet**, die Untersuchung ist nicht gelesen. **Wird ein Kandidat, sobald eine
   Aufsichtsbehörde den Fall aufgreift**, wie in Hamburg bei der Meta-Brille.
+
+---
+
+## Recherchierte Einzelbefunde vom 16.09.2026
+
+**Rückstau bei vier, vierzehnter Tag ohne Neubau.**
+
+### ERLEDIGT: Die Rechtsverordnung zu § 64e Schulgesetz war bis zum 08.09.2026 nicht verkündet
+
+**Heft 32 des Gesetz- und Verordnungsblatts für Berlin vom 08.09.2026** ist heute abrufbar gewesen
+und im Volltext gelesen (28 Seiten, einziger Inhalt eine Veröffentlichung zum Bestand des
+Sondervermögens Immobilien). Kein Treffer.
+
+**Die Prüfung ist damit vollständig.** Alle sieben Ausgaben vom 29.07. bis 08.09.2026, jeweils im
+Volltext gelesen und nach „Künstlich", „KI-System" und „64e" durchsucht:
+Heft 26 (29.07., 12 S.), Heft 27 (05.08., 48 S.), Heft 28 (15.08., 8 S.), Heft 29 (21.08., 176 S.),
+Heft 30 (29.08., 24 S.), Heft 31 (04.09., 8 S.), Heft 32 (08.09., 28 S.). **Kein Treffer in keinem.**
+Dazu die amtliche Übersicht der Rechtsvorschriften der Senatsverwaltung für Bildung, ebenfalls ohne
+Eintrag.
+
+**BEFUND, TRAGFÄHIG:** § 64e SchulG gilt seit dem 01.08.2026 und stellt den Schulen ein KI-System
+„für in der Rechtsverordnung nach § 66 Nummer 19 definierte Zwecke" bereit. **Diese Rechtsverordnung
+war bis zum 08.09.2026 nicht verkündet.** Welche Zwecke erlaubt sind, stand fünfeinhalb Wochen nach
+Inkrafttreten nirgends.
+
+**VERBLEIBENDE EINSCHRÄNKUNG, gehört aufs Quellenblatt:** Die Übersicht der Ausgaben wurde am
+13.09.2026 geladen und endete bei Heft 32. Ob nach dem 08.09. weitere Hefte erschienen sind, ist
+nicht geprüft; der Index antwortet am 16.09. mit HTTP 429. **Der Satz im Post muss lauten: bis zum
+08.09.2026 nicht verkündet.** Nicht: es gibt sie nicht.
+
+**Der Schulkandidat ist damit vollständig belegt**, mit drei Primärquellen im Volltext: Senatsantwort
+19/25435, Gesetzesvorlage 19/3105 mit dem Normtext, und sieben Amtsblätter.
+
+### Kleinere Fundstücke vom 16.09.2026
+
+- **Art. 56 KI-VO im Wortlaut geprüft:** Das Büro für Künstliche Intelligenz „fördert und erleichtert
+  die Ausarbeitung von Praxisleitfäden"; diese sollen mindestens die Pflichten aus Art. 53 und 55
+  abdecken, darunter „die Ermittlung von Art und Wesen der systemischen Risiken auf Unionsebene" und
+  „die Maßnahmen, Verfahren und Modalitäten für die Bewertung und das Management der systemischen
+  Risiken". Nützlich für jede Debatte über Selbstregulierung.
+- **Deutschsprachige Forschung zur KI-Pause** (heise, 15.09.2026): Philipp Hennig (Universität
+  Tübingen): „Jede deutsche Großküche hat schärfere Kontrollsysteme." Kristian Kersting (TU
+  Darmstadt): „Wenn eine Handvoll großer Firmen selbst festlegt, was ‚gefährlich' ist … ist das keine
+  echte Regulierung mehr." Silja Vöneky (Universität Freiburg): „es ist wichtig, dass sich die
+  KI-Entwicklung im Hochrisikobereich verlangsamt." **Belastbarkeit: berichtet.**
+- **Bitkom-Umfrage unter Lehrkräften** (heise, 15.09.2026): Bitkom Research, **501 Lehrkräfte** der
+  Sekundarstufen I und II, **Kalenderwochen 22 bis 26** (Ende Mai bis Ende Juni 2026), CATI,
+  Fehlertoleranz rund vier Prozentpunkte. 24 Prozent halten ihre Schule bei Social Media für gut
+  aufgestellt, 59 Prozent berichten von Konflikten im Unterrichtsalltag, 29 Prozent befürworten ein
+  Verbot privater Nutzung, 35 Prozent eine stärkere Integration in den Unterricht, 5 Prozent der
+  Schulen haben Angebote für Eltern. Aus einer früheren August-Umfrage referiert: 89 Prozent der
+  Lehrkräfte befürworten Kompetenzbildung statt Verboten bei KI. **Belastbarkeit: berichtet, und der
+  Bitkom ist Partei.** **Wichtig für den Schulkandidaten: Erhoben wurde vor dem Schuljahr, in dem
+  § 64e gilt.**
