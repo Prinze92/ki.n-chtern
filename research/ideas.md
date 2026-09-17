@@ -2270,3 +2270,70 @@ nicht geprüft; der Index antwortet am 16.09. mit HTTP 429. **Der Satz im Post m
   Lehrkräfte befürworten Kompetenzbildung statt Verboten bei KI. **Belastbarkeit: berichtet, und der
   Bitkom ist Partei.** **Wichtig für den Schulkandidaten: Erhoben wurde vor dem Schuljahr, in dem
   § 64e gilt.**
+
+---
+
+## Recherchierte Einzelbefunde vom 17.09.2026
+
+**Rückstau bei vier, fünfzehnter Tag ohne Neubau.**
+
+### SCHÄRFER GEWORDEN: Berliner Verhaltensscanner und KI-Training mit Echtdaten
+
+netzpolitik.org, 15.09.2026, aus der Antwort auf eine Schriftliche Anfrage der Linken im
+Abgeordnetenhaus, **Aktenzeichen 19/26879**. Danach sollen **nicht anonymisierte Daten an
+Privatfirmen** gehen, genannt wird die **Staige GmbH**, verbunden mit der **Adesso SE**, zum
+**Training und Testen** der Verhaltenserkennung. Grundlage soll das **ASOG** sein, das die
+Weiterverarbeitung „zum Training und Testen von KI-Systemen zur Qualitätssicherung, Weiterentwicklung
+oder Anpassung des Systems" erlaube. Der Senat schreibt, es werde anonymisiert, **„es sei denn, eine
+Anonymisierung steht den Zwecken der Testung oder des Trainings entgegen"**. Kritik von Niklas
+Schrader (Die Linke).
+
+**Belastbarkeit: berichtet. Die Drucksache ist am 17.09.2026 NICHT abrufbar**:
+`pardok.parlament-berlin.de/starweb/adis/citat/VT/19/SchrAnfr/S19-26879.pdf` antwortet mit HTTP 404,
+die Nachbarnummern 26878 und 26880 mit HTTP 200. Die Antwort ist also noch nicht im Archiv.
+**VOR EINEM POST erneut abrufen.** Dann kommt der Post ohne das geleakte Leistungsverzeichnis vom
+07.09. aus, und das ist die ehrlichere Bauweise.
+
+**Der Ausnahmesatz ist die Geschichte:** Eine Regel, die Anonymisierung vorschreibt, außer wenn sie
+dem Zweck entgegensteht, ist für den Fall geschrieben, in dem sie nicht gilt.
+
+### NEUER KANDIDAT: Alterskontrollen, Berlin lehnt ab, Brüssel schreibt vor
+
+**EU Kids Act**, geleakter Entwurf **COM-2026-681-3**, veröffentlicht von netzpolitik.org am 15. und
+16.09.2026, **Vorstellung durch die Kommission für den 17.09.2026 angekündigt**.
+Inhalt nach dem Bericht: Mindestalter **15 Jahre** für eingeschränkte eigene Konten, **18 Jahre** für
+den vollen Funktionsumfang, elterliche Zustimmung ab 13. Pflicht zur Alterskontrolle für soziale
+Netzwerke, Videoplattformen, Onlinespiele, **Chatbots** und App-Stores, wahlweise **„age
+verification"** (Ausweis) oder **„age estimation"** (Schätzung). Eltern sollen drei Nachweise
+erbringen und Kontakte vorab kontrollieren können. Verbot suchtfördernder Funktionen, Alterslabels.
+**Belastbarkeit: berichtet**, es ist ein Leak. Das amtliche Dokument war zum Zeitpunkt des Laufs nicht
+abrufbar; die Presscorner-Abfrage ohne Referenznummer antwortet mit HTTP 400.
+
+**Gegenstimmen benannt:** Elina Eickstädt (CCC): „Das Ende von freier und anonymer Internetnutzung
+bedeuten." Svea Windwehr (D64): Grundrechte würden „massiv beeinträchtigt". Simeon de Brouwer (EDRi):
+„Wenn Design für 13-Jährige schädlich ist, wird es nicht auf magische Weise mit dem 15. oder
+18. Geburtstag sicher."
+
+**DER WIDERSPRUCH, der den Post trägt:** Am 11.09.2026 hat die zuständige Bundesministerin
+biometrische und KI-gestützte Altersfeststellung ausdrücklich abgelehnt und zugleich eine
+Altersgrenze gefordert. Der Kommissionsentwurf nennt genau diese beiden Wege als die zulässigen.
+**Beide Seiten werden belegbar, sobald das amtliche Dokument vorliegt.**
+
+### Kleinere Fundstücke vom 17.09.2026
+
+- **BGH, VI. Zivilsenat, Az. VI ZR 144/23** (heise, 16.09.2026): Die DSGVO entfalte keine
+  Sperrwirkung, Betroffene könnten unerlaubte Datenübermittlungen über Unterlassungsansprüche aus
+  §§ 823, 1004 BGB unterbinden; Zurückverweisung an das OLG Frankfurt. **Kein KI-Kern.**
+  **ACHTUNG:** In der Wiedergabe steht ein Urteilsdatum aus dem Jahr 2023 bei einer Veröffentlichung
+  2026. Das kann so nicht stimmen. **Vor jeder Verwendung am Original prüfen.**
+- **Sprachmodelle verteilen Organspenden anders als Menschen** (heise, 16.09.2026). **Ungeprüft,
+  vorgemerkt mit Priorität**, das Thema liegt nah am Leitprinzip.
+- **Project Luna:** Metas nächste KI-Brille soll ohne Kamera kommen (heise, 16.09.2026). Interessant
+  neben dem Hamburger Prüfbericht. **Vorgemerkt.**
+
+### Werkzeugnotiz, damit der nächste Lauf nicht darüber stolpert
+
+Nach einem Neuaufbau des Containers war **pypdf kaputt** (`ModuleNotFoundError: No module named
+'_cffi_backend'`, danach eine PanicException aus der Rust-Bindung von `cryptography`). Repariert mit
+`pip install --force-reinstall cffi`. Die Neuinstallation von `cryptography` schlägt fehl, weil das
+Debian-Paket keine RECORD-Datei hat; das ist egal, `cffi` allein genügt.
