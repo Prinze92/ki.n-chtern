@@ -2337,3 +2337,13 @@ Nach einem Neuaufbau des Containers war **pypdf kaputt** (`ModuleNotFoundError: 
 '_cffi_backend'`, danach eine PanicException aus der Rust-Bindung von `cryptography`). Repariert mit
 `pip install --force-reinstall cffi`. Die Neuinstallation von `cryptography` schlägt fehl, weil das
 Debian-Paket keine RECORD-Datei hat; das ist egal, `cffi` allein genügt.
+
+**Nachtrag zur Werkzeugnotiz vom 17.09.2026: Der Push scheiterte zuerst.** Nach dem Neuaufbau des
+Containers lag das Arbeitsverzeichnis in einem **losgelösten HEAD**. Der lokale Zweig `master` zeigte
+noch auf den Stand vom 12.09., die Tagescommits liefen daneben. `git push origin master` schob damit
+den alten Zweig und wurde als non-fast-forward abgelehnt, mit der irreführenden Meldung, der
+Zweig sei hinter seinem Gegenstück. **Gefunden über `git branch -vv` und `git ls-remote origin
+master`.** Repariert mit `git branch -f master <HEAD>` und `git checkout master`, nachdem über
+`git merge-base --is-ancestor` geprüft war, dass nichts verlorengeht. **Die Push-Kontrolle hat den
+Fehler gefangen.** Ohne sie wäre der Lauf als erfolgreich gemeldet worden, obwohl nichts angekommen
+wäre. Beim nächsten Lauf nach einem Container-Neuaufbau zuerst `git branch --show-current` prüfen.
