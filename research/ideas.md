@@ -2347,3 +2347,81 @@ master`.** Repariert mit `git branch -f master <HEAD>` und `git checkout master`
 `git merge-base --is-ancestor` geprüft war, dass nichts verlorengeht. **Die Push-Kontrolle hat den
 Fehler gefangen.** Ohne sie wäre der Lauf als erfolgreich gemeldet worden, obwohl nichts angekommen
 wäre. Beim nächsten Lauf nach einem Container-Neuaufbau zuerst `git branch --show-current` prüfen.
+
+---
+
+## Recherchierte Einzelbefunde vom 18.09.2026
+
+**Rückstau bei vier, sechzehnter Tag ohne Neubau.** Zweig `master` vor dem Lauf geprüft.
+
+### BELASTBAR UND STÄRKSTER KANDIDAT: Der EU Kids Act nimmt KI-Begleiter ausdrücklich mit
+
+**Primärquellen, im Original gelesen:** Europäische Kommission, Pressemitteilung vom **17.09.2026**,
+„EU KIDS Act to restrict social media platforms' access to children in the EU"
+(`digital-strategy.ec.europa.eu/en/news/eu-kids-act-restrict-social-media-platforms-access-children-eu`),
+und die amtliche FAQ „The KIDS Act explained"
+(`digital-strategy.ec.europa.eu/en/faqs/kids-act-explained`).
+**Belastbarkeit: belastbar** für die Darstellung der Kommission. **Es ist ein Vorschlag**, Rat und
+Parlament müssen noch beraten.
+
+**Altersstufen im Wortlaut:** „It prohibits social media accounts under 13 and provides for
+parent-supervised accounts at 13 and 14, as well as for independent accounts from 15." Für 13- und
+14-Jährige: elterliche Werkzeuge dauerhaft an, Tageslimit höchstens eine Stunde, Freigabe der
+Kontakte. Unter 13 bleibt eine enge Möglichkeit über das Elternkonto auf Kindervideoplattformen.
+
+**DER ABSCHNITT FÜR DAS BELEG-PANEL, wörtlich:**
+> „Are AI chatbots and ‚AI companions' covered? Yes. AI companions and chatbots accessible to minors
+> may not use designs that simulate human relationships in ways likely to create emotional
+> dependency. By default, they may not carry a child's earlier conversations into later ones. They
+> must be tested for risks to children before launch and monitored for harm afterwards. Under-13s can
+> use them only through parental control tools."
+
+Ergänzend aus derselben FAQ: In eine Plattform oder ein Spiel eingebaute Chatbots dürfen sich nicht
+selbsttätig einschalten, dürfen Kindern nicht aufgedrängt werden und müssen leicht abschaltbar sein.
+
+**Weitere belegte Punkte:**
+- **Beweislastumkehr:** „service providers will have to show that their services are age-appropriate
+  and safe by design." Für Anbieter mit **45 Millionen oder mehr monatlich aktiven Nutzern** in der EU
+  gilt eine Vorabpflicht. **Dieselbe Schwelle wie Art. 33 DSA**, die in Post 29 auf einem Blatt steht.
+- **Selbsterklärtes Alter reicht ausdrücklich nicht.** Zertifizierte Verfahren unabhängig von den
+  Plattformen, kostenlose EU-App, später die europäische Brieftasche, „zero knowledge proof"-Technik,
+  die niemanden identifizieren, orten, verfolgen oder profilieren kann. Jeder Mitgliedstaat muss
+  mindestens einen kostenlosen Weg anbieten, auch für Menschen ohne digitalen Ausweis.
+- **Bestandskonten:** binnen sechs Monaten nach Geltungsbeginn prüfen, Konten von Unter-15-Jährigen
+  und solche ohne feststellbares Alter abschalten.
+- **Empfehlungssysteme für Minderjährige** müssen auf Sicherheit und Qualität optimiert werden, nicht
+  auf Verweildauer; Personalisierung über Tracking ist standardmäßig aus, externe Daten sind
+  ausgeschlossen, es muss eine Option ganz ohne Profiling geben.
+- **Verbotene Gestaltung:** endloses Autoplay, unendliches Scrollen ohne echte Pausen,
+  zurückholende Benachrichtigungen, Belohnungen für Posten oder Streamen, Streak-Mechaniken.
+
+**ABWEICHUNG ZWISCHEN LEAK UND VORSCHLAG, festgehalten:** netzpolitik.org berichtete am 15. und
+16.09. aus dem geleakten Entwurf von **15 Jahren für eingeschränkte Konten und 18 Jahren für den
+vollen Funktionsumfang**. **In der amtlichen FAQ steht die Achtzehn nicht**, dort endet die Treppe
+bei 15. **Der Verordnungsentwurf selbst ist NICHT gelesen**, nur Pressemitteilung und FAQ.
+**VOR EINEM POST den Vorschlagstext im Original prüfen**, bevor eine der beiden Zahlen auf ein Blatt
+kommt.
+
+**Bauform:** Die Rekonstruktion (die Altersstufen sind eine Treppe) oder Der Widerspruch mit der
+deutschen Ebene (Prien lehnt Schätzung und Biometrie ab, Brüssel baut die Prüfung ins Gesetz).
+**Gegenstimmen liegen vor** (CCC, D64, EDRi, siehe 17.09.).
+
+### Post 28 bleibt richtig, der Vorgang geht weiter
+
+OpenAI hat am **17.09.2026** angekündigt, das Werbegeschäft in ChatGPT auszubauen: **„gesponserte
+Agenten"**, bei denen Nutzer nach einem Klick auf eine Anzeige mit einem Chatbot des werbenden
+Unternehmens sprechen, Anzeigenerstellung per Prompt, Kampagnenplanung über HubSpot und Shopify.
+**Test zunächst in den USA mit ausgewählten Werbekunden.** Quelle: heise online, gestützt auf einen
+Blogeintrag von OpenAI. **Belastbarkeit: berichtet.**
+**Post 28 wird dadurch nicht falsch**, er behandelt den Werbestart in Europa und Art. 21 DSGVO. Die
+Ankündigung macht ihn eher dringlicher. **Nichts geändert.**
+
+**openai.com bleibt gesperrt:** drei Adressen am 18.09.2026 erneut geprüft, alle **HTTP 403**,
+sechster Lauf in Folge.
+
+### Weiter offen
+
+- **Drucksache 19/26879** (Berliner Verhaltensscanner) auch am 18.09.2026 **HTTP 404**, weiterhin
+  nicht im Archiv.
+- **Meta haftet für Werbung und Profile unter fremdem Namen** (heise, 17.09.2026). Gerichtsentscheidung,
+  **ungeprüft**, Aktenzeichen nicht erfasst. **Vorgemerkt mit Priorität.**
