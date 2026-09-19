@@ -2425,3 +2425,102 @@ sechster Lauf in Folge.
   nicht im Archiv.
 - **Meta haftet für Werbung und Profile unter fremdem Namen** (heise, 17.09.2026). Gerichtsentscheidung,
   **ungeprüft**, Aktenzeichen nicht erfasst. **Vorgemerkt mit Priorität.**
+
+---
+
+## Recherchierte Einzelbefunde vom 19.09.2026
+
+**Rückstau bei vier, siebzehnter Tag ohne Neubau.** Zwei offene Punkte geschlossen, einer davon
+korrigiert die eigene Darstellung vom 18.09.
+
+### KORREKTUR AN DER EIGENEN DARSTELLUNG VOM 18.09.2026
+
+Am 18.09. stand als Beleg-Panel-Vorschlag ein Absatz aus der **FAQ** der Kommission (KI-Begleiter
+dürften keine „emotional dependency" erzeugen, frühere Gespräche standardmäßig nicht in spätere
+mitnehmen). **Heute ist der Verordnungsvorschlag selbst gelesen:** **COM(2026) 681**, 99 Seiten, PDF
+über `ec.europa.eu/newsroom/repository/document/2026-38/`. **Die Wendungen „emotional dependency",
+„earlier conversations" und „previous conversations" kommen darin NULL Mal vor.** Sie stammen
+ausschließlich aus der erklärenden FAQ. **Ein Panel mit diesem Wortlaut wäre ein Zitat der
+Pressearbeit, nicht des Gesetzentwurfs.**
+
+**WAS IM ENTWURF STEHT, panel-tauglich:**
+> „‚AI companion' means an AI system, including a general-purpose AI system, that provides sustained,
+> personalised interaction or companionship which simulates or facilitates a social, emotional or
+> interpersonal relationship with a user"
+
+Zweite Definition zur Abgrenzung: „‚general conversational chatbot' means a general-purpose AI system
+with general conversational functionalities for direct interaction with users that is capable of
+providing assistance across multiple domains and tasks; this definition excludes AI systems whose
+conversational functionality is limited to a specialised service, task or pre-defined set of
+functions".
+
+**ALTERSFRAGE ENTSCHIEDEN:** Der Entwurf begrenzt eigenständige Kontoeröffnung „by children below the
+age of 15 years", Konten mit eingeschränkten Funktionen „from 13 years". **Die Achtzehn steht nur in
+der Begriffsbestimmung:** „A ‚minor' or ‚child' should be understood as any natural person under the
+age of 18." **Die Leak-Lesart, der volle Funktionsumfang käme erst mit 18, trägt der Vorschlagstext
+nicht.**
+
+**Zahl fürs Blatt:** „AI companion" kommt **77-mal** vor, „AI chatbot" keinmal.
+
+### GESCHLOSSEN UND PRÄZISIERT: Drucksache 19/26879 (Kottbusser Tor)
+
+**Primärquelle, im Volltext gelesen:** Abgeordnetenhaus von Berlin, **Drucksache 19/26879**, 8 Seiten,
+Schriftliche Anfrage Niklas Schrader (LINKE) vom 14.08.2026, **Antwort der Senatsverwaltung für
+Inneres und Sport vom 08.09.2026**. **Belastbarkeit: belastbar.**
+
+**RICHTIGSTELLUNG IN EIGENER SACHE:** Es geht **nicht** um das Projekt am Roten Rathaus (Briefing
+08.09.), sondern um **KI-Videoschutz an kriminalitätsbelasteten Orten (KI-VS kbO)**, Beginn am
+**Kottbusser Tor**, später Warschauer Straße. Zwei verschiedene Vorhaben.
+
+- **Das System ist noch nicht in Betrieb:** „Der KI-VS ist noch nicht in Betrieb, so dass hierzu zum
+  aktuellen Zeitpunkt keine Angaben gemacht werden können" (auf die Frage nach Falsch-Positiv- und
+  Falsch-Negativ-Raten).
+- **Initiales Training ausschließlich mit synthetischen Daten**, durchgeführt von der **Staige GmbH**.
+  Ausdrücklich keine „unkontrolliert gesammelten Internetdaten, Web-Scraping oder
+  Drittanbieter-Datensätze unklarer Herkunft". **Die Rechte an diesen Trainingsdaten liegen beim
+  Unternehmen.**
+- **Der Ausnahmesatz, wörtlich:** Verwendet würden „zuvor wirksam bzw. irreversibel anonymisierte
+  Datenbestände", „es sei denn, eine Anonymisierung steht den Zwecken der Testung oder des Trainings
+  entgegen".
+- **Nachtraining ist Vertragsbestandteil**, erfolgt „ausschließlich auf Servern im Rechenzentrum der
+  Polizei Berlin", Datenhoheit bleibt bei der Polizei. Weiternutzung trainierter Modelle durch
+  Auftragsverarbeitende bedarf ausdrücklicher Zustimmung.
+- **Die Verwaltungsvorschrift zum Umgang mit Trainings- und Testdaten ist NOCH NICHT ERLASSEN**
+  („noch durch die Senatsinnenverwaltung zu erlassenden Verwaltungsvorschrift").
+- Fristen: Bildaufnahmen spätestens nach einem Monat (§ 24e Abs. 3 i. V. m. § 24a Abs. 3 ASOG Bln),
+  Trainings- und Testdaten spätestens nach zwei Jahren (§ 42d Abs. 2 ASOG Bln).
+
+**WO DIE BERICHTERSTATTUNG ÜBER DIE QUELLE HINAUSGEHT:** netzpolitik.org schrieb am 15.09., nicht
+anonymisierte Daten sollten **an Privatfirmen gehen**. Die Antwort ist genauer: Das Unternehmen
+trainiert nach, aber auf Polizeiservern, mit Datenhoheit bei der Polizei, und die Regel ist
+Anonymisierung **mit** Ausnahme. **Der Befund wird präziser, nicht kleiner.**
+
+### NEUER KANDIDAT AUS EINEM MUSTER: System läuft, Regel fehlt
+
+Zwei unabhängige Fälle, beide am Primärdokument belegt:
+1. **§ 64e Schulgesetz Berlin** gilt seit 01.08.2026; die Rechtsverordnung nach § 66 Nr. 19, die die
+   erlaubten Zwecke festlegen soll, war bis 08.09.2026 nicht verkündet (sieben Amtsblätter geprüft).
+2. **KI-VS kbO**: Die Verwaltungsvorschrift zum Umgang mit Trainings- und Testdaten ist noch nicht
+   erlassen, obwohl sie in der Senatsantwort als maßgeblicher Rahmen genannt wird.
+**Offen vor dem Bauen:** ob die Verwaltungsvorschrift inzwischen erlassen ist.
+
+### Kleinere Fundstücke vom 19.09.2026
+
+- **Art. 55 Abs. 1 Buchst. c KI-VO im Wortlaut geprüft:** Anbieter von Modellen mit systemischem
+  Risiko müssen „einschlägige Informationen über schwerwiegende Vorfälle und mögliche
+  Abhilfemaßnahmen erfassen und dokumentieren und das Büro für Künstliche Intelligenz und
+  gegebenenfalls die zuständigen nationalen Behörden unverzüglich darüber unterrichten."
+- **BGH ruft den EuGH an** (heise, 18.09.2026): Vorlagen **I ZR 256/25** (Messenger-Nachrichten an den
+  Arbeitgeber weitergeleitet, 7.500 Euro Schadensersatz gefordert) und **I ZR 289/25** (Kamera in
+  gemeinsam genutzter Küche), Beschlüsse vom 18.09.2026, zur **Haushaltsausnahme** nach Art. 2 DSGVO.
+  **Direkt einschlägig für den Meta-Brillen-Kandidaten**, wo die Hamburger Aufsicht bereits
+  entschieden hat, dass sich Trägerinnen und Träger beim KI-Training nicht auf die Ausnahme berufen
+  können. **Belastbarkeit: berichtet**, die Beschlüsse sind nicht im Original gelesen.
+
+### Werkzeugnotiz
+
+Der Container wurde erneut neu aufgebaut (OS v37). **Der Scratchpad war leer**, alle zwischengespeicherten
+Texte weg, darunter der Amtsblatt-Text der KI-Verordnung. Neu geladen über
+`eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=OJ:L_202401689` (1,3 MB HTML, 648.458 Zeichen Text).
+**pypdf war diesmal in Ordnung.** Bei jedem Neuaufbau zuerst `python3 -c "import pypdf"` und
+`git branch --show-current` prüfen.
