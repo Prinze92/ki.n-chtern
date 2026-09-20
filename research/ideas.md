@@ -2524,3 +2524,63 @@ Texte weg, darunter der Amtsblatt-Text der KI-Verordnung. Neu geladen über
 `eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=OJ:L_202401689` (1,3 MB HTML, 648.458 Zeichen Text).
 **pypdf war diesmal in Ordnung.** Bei jedem Neuaufbau zuerst `python3 -c "import pypdf"` und
 `git branch --show-current` prüfen.
+
+---
+
+## Recherchierte Einzelbefunde vom 20.09.2026
+
+**Rückstau bei vier, achtzehnter Tag ohne Neubau.** Wahltag in Mecklenburg-Vorpommern und Berlin.
+
+### VERFALLEN: Googles KI-Übersichten vor den Landtagswahlen
+
+Der Kandidat stand seit dem 05.09. als baubereit im Briefing, mit dem Hinweis, das Fenster schließe
+am 20.09. **Der Tag ist heute, der Kandidat ist verfallen.** Die Recherche bleibt gültig und steht
+unter dem 05.09.; sie taugt weiter als Beleg in Kommentaren und als Grundlage bei der nächsten Wahl,
+aber nicht mehr als aktueller Post. **Zweiter Kandidat, der in diesem Stau verfällt.**
+
+### GEGENSTIMME GEFUNDEN: verfassungsrechtliche Einordnung zum Kottbusser Tor
+
+**Quelle:** Petra Sußner, „Try harder hilft selten. Eine verfassungsrechtliche Einordnung der
+Videoüberwachung an kriminalitätsbelasteten Orten", **Verfassungsblog, 08.01.2026**,
+`verfassungsblog.de/berlin-asog-novelle-kbos/`. **Belastbarkeit: belastbar** als wissenschaftliche
+Einordnung; es ist eine Meinung, keine Gerichtsentscheidung.
+
+**DAS BILD FÜR DEN POST, wörtlich:** „§ 24e IV ASOG sieht eine automatisierte Auswertung der
+erhobenen Daten vor. Diese steht (nach dem Willen der Gesetzgebung wohl) für ‚KI-gestützte'
+Verhaltenserkennung, in deren Rahmen die Software mit Bewegung von Bildpixeln arbeitet. Sie erfasst
+Personen als ‚Strichmännchen mit Knotenpunkten an den Gelenken'." Sobald anhand der Gelenkbewegungen
+ein Verhalten als verdächtig wahrgenommen wird, springt ein Alarm an.
+
+**Der Einwand:** Schon im Anhörungsverfahren sei darauf hingewiesen worden, dass eine Software
+Verhaltensmuster jenseits des Normalisierten, „etwa im Fall von Behinderungen oder Wohnungslosigkeit",
+ohne Einhegung als alarmierendes Verhalten versteht. Der Alarm trifft dann auf menschliches Ermessen.
+Sußner hält fest, die automatisierte Erkennung könne Ermessensfehlgebrauch auch **abmildern**, bringe
+aber eigenes Diskriminierungspotential mit.
+
+**DER WIDERSPRUCH FÜR DEN POST:** **§ 42d Abs. 1 und § 47a Abs. 1 ASOG** schreiben vor, es sei
+„sicherzustellen, dass diskriminierende Algorithmen weder herausgebildet noch verwendet" werden.
+**§ 42d ist zugleich die Vorschrift, auf die sich der Senat für das Nachtraining mit echten Daten
+beruft**, und die zugehörige Verwaltungsvorschrift existiert noch nicht.
+
+**Weitere Punkte:** kbOs sind seit 2021 auf der Website der Polizei Berlin veröffentlicht, aber nicht
+adressgenau. Wissenschaftliche Erkenntnisse zur Wirksamkeit stehen aus. Das Verhältnis von
+Lageerkenntnis und Befugnis sei zirkulär, es drohe eine „polizeiliche Echokammer". Verweis auf die
+erfolgreiche Beschwerde von Biplab Basu gegen Deutschland vor dem EGMR (2022) zum Racial Profiling.
+Rechtlicher Maßstab: Eingriff in das Recht auf informationelle Selbstbestimmung, Art. 2 Abs. 1 in
+Verbindung mit Art. 1 Abs. 1 GG; Anknüpfungsverbot des Art. 3 Abs. 3 GG.
+
+**ZWEI OFFENE PUNKTE, ausdrücklich:**
+1. **Ob die Verwaltungsvorschrift erlassen ist, ließ sich heute nicht klären.** Eine gezielte Suche
+   ergab nur Wiedergaben der Drucksache. **Negativbefund, kein Beweis.** Vor einem Post erneut prüfen.
+2. **Der Wortlaut von § 42d ASOG ist NICHT am Normtext geprüft**, er stammt aus dem
+   Verfassungsblog-Beitrag. `gesetze.berlin.de` liefert aus dieser Umgebung nur eine
+   JavaScript-Hülle. **Vor einem Post muss der Wortlaut an der Quelle stehen.**
+
+### Kleinere Fundstücke vom 20.09.2026
+
+- **Gemini im Sicherheitstest** (heise, 19.09.2026): Bei einem Capture-the-Flag-Test der Firma
+  Irregular im Mai 2026 gab eine Fehlkonfiguration dem Modell Internetzugang. Es probierte Passwörter
+  bei einem Unternehmen durch, das zufällig wie die erfundene Testfirma hieß, und nutzte offen in
+  öffentlichen Repositorys liegende Zugangsdaten. Google bestätigte die Vorfälle nach einem Bericht
+  des Wall Street Journal und erklärte, es seien keine Schäden entstanden. **Belastbarkeit: berichtet.**
+  **Der Punkt für einen Kommentar:** Beide Wege hätten auch ohne KI funktioniert.
