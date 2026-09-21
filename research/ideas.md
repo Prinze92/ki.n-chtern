@@ -2584,3 +2584,118 @@ Verbindung mit Art. 1 Abs. 1 GG; Anknüpfungsverbot des Art. 3 Abs. 3 GG.
   öffentlichen Repositorys liegende Zugangsdaten. Google bestätigte die Vorfälle nach einem Bericht
   des Wall Street Journal und erklärte, es seien keine Schäden entstanden. **Belastbarkeit: berichtet.**
   **Der Punkt für einen Kommentar:** Beide Wege hätten auch ohne KI funktioniert.
+
+---
+
+## Recherchierte Einzelbefunde vom 21.09.2026
+
+**Rückstau bei vier, neunzehnter Tag ohne Neubau.**
+
+### ERLEDIGT: § 24e, § 42d und § 47a ASOG Bln im amtlichen Wortlaut
+
+**Quelle:** Gesetz- und Verordnungsblatt für Berlin, 81. Jahrgang, **Nr. 36 vom 23.12.2025**,
+S. 589 bis 668, PDF über `berlin.de/sen/justiz/service/gesetze-und-verordnungen/` (Pfad ohne
+Jahreszahl: `.../gesetze-und-verordnungen/ausgabe-nr-36-vom-23122025-s-589-668.pdf`). 80 Seiten, im
+Volltext gelesen. **Belastbarkeit: belastbar**, Verkündungstext.
+
+**Der Umweg ist die eigentliche Werkzeugnotiz.** `gesetze.berlin.de` liefert aus dieser Umgebung nur
+eine JavaScript-Hülle. Das Amtsblatt dagegen liegt als PDF bei der Senatsverwaltung für Justiz, die
+Jahresübersicht unter `/2025/` listet alle Hefte mit Seitenzahlen im Dateinamen. **Für Berliner
+Landesrecht künftig zuerst dort suchen.**
+
+**Gesetz zur Reform des Berliner Polizei- und Ordnungsrechts**, beschlossen am 11.12.2025,
+verkündet am 23.12.2025. Artikel 10: „Dieses Gesetz tritt vorbehaltlich des Satzes 2 am Tage nach der
+Verkündung im Gesetz- und Verordnungsblatt für Berlin in Kraft." **In Kraft seit dem 24.12.2025.**
+
+**§ 24e Absatz 4 Satz 1 und 2, wörtlich:** „Die Polizei kann die nach Absatz 1 angefertigten
+Bildaufnahmen und -aufzeichnungen auch automatisiert auswerten. Die automatisierte Auswertung darf
+nur auf das Erkennen solcher Verhaltensmuster ausgerichtet sein, die auf die Begehung einer Straftat
+oder den Eintritt eines Unglücksfalls im Sinne von § 323c Absatz 1 des Strafgesetzbuches hindeuten."
+Satz 3 schließt automatisiertes Auslösen behördlicher Maßnahmen, automatisierte biometrische
+Fernidentifizierung und das Training von Programmen zur biometrischen Fernidentifizierung mit diesen
+Aufnahmen aus. Satz 4: „Erst nach Sichtung der betreffenden Bildaufnahmen und -aufzeichnungen oder
+der Inaugenscheinnahme der Lage vor Ort dürfen weitere Maßnahmen ergriffen werden, die sich gegen
+bestimmte Personen richten."
+
+**§ 42d Absatz 1 Satz 2, wörtlich:** „Bei der Weiterverarbeitung ist sicherzustellen, dass
+diskriminierende Algorithmen weder herausgebildet noch verwendet werden." **Derselbe Satz steht in
+§ 47a Absatz 1** für die automatisierte Datenanalyse („Es ist durch geeignete Maßnahmen
+sicherzustellen, dass bei der automatisierten Datenanalyse diskriminierende Algorithmen weder
+herausgebildet noch verwendet werden."). **Die Angabe aus dem Verfassungsblog ist damit bestätigt,
+beide Fundstellen sind geprüft.**
+
+**§ 42d Absatz 2 Sätze 1 bis 3, wörtlich, und das ist der neue Befund:** „Personenbezogene Daten sind
+für die Verwendung zu Test- oder Trainingszwecken zu anonymisieren. Kann der Zweck des Tests oder
+Trainings mit anonymisierten Daten nicht erreicht werden oder ist die Anonymisierung nur mit
+unverhältnismäßigem Aufwand möglich, sind sie zu pseudonymisieren. Kann der Zweck des Tests oder
+Trainings auch mit pseudonymisierten Daten nicht erreicht werden oder ist auch die Pseudonymisierung
+nur mit unverhältnismäßigem Aufwand möglich, dürfen personenbezogene Daten verwendet werden."
+**Die Verwendung echter Daten ist die dritte Stufe der Regel, nicht eine Ausnahme von ihr.** Weiter:
+Löschung spätestens nach zwei Jahren, Löschung ist zu protokollieren, Wiederherstellung der
+ursprünglichen Daten und De-Anonymisierung sind unzulässig.
+
+**§ 42d Absatz 3, wörtlich in Auszügen:** Auftragsverarbeitende und eingesetzte Dritte müssen ihren
+Sitz in einem Mitgliedstaat der EU oder einem Schengen-assoziierten Staat haben. Sie „dürfen die
+trainierten Modelle für eigene Zwecke weiternutzen, wenn Polizei oder Feuerwehr dem zugestimmt haben
+und sichergestellt werden kann, dass aus den trainierten Modellen keine Trainingsdaten abgeleitet
+werden können."
+
+**§ 42d Absatz 4:** Verwaltungsvorschriften bestimmen das Nähere, ausdrücklich unter anderem zu
+Nummer 6 „den Mindeststandards zur technischen Durchführung der Anonymisierung und Pseudonymisierung
+von Daten" und Nummer 7 „der Beschreibung eines etwaigen unverhältnismäßigen Aufwands im Sinne von
+Absatz 2 Satz 2 und 3". Die oder der Berliner Beauftragte für Datenschutz ist vorher anzuhören.
+„Die Verwaltungsvorschriften sind zu veröffentlichen."
+
+**BEFUND, TRAGFÄHIG, aus zwei Primärquellen:** Das Gesetz gilt seit dem 24.12.2025. Der Begriff
+„unverhältnismäßiger Aufwand" entscheidet darüber, ob echte personenbezogene Daten ins Training
+gehen, und soll nach dem Gesetz selbst erst in einer Verwaltungsvorschrift beschrieben werden. Der
+Senat schreibt in Drucksache 19/26879 vom **08.09.2026** von der „noch durch die Senatsinnenverwaltung
+zu erlassenden Verwaltungsvorschrift". **Achteinhalb Monate nach Inkrafttreten fehlt sie.**
+
+**VERBLEIBENDE EINSCHRÄNKUNG, gehört aufs Quellenblatt:** Ob die Verwaltungsvorschrift nach dem
+08.09.2026 erlassen wurde, ist nicht geprüft. Der Satz auf einem Blatt muss deshalb „Stand
+08.09.2026" tragen.
+
+### OVG NRW zum Smart Pet Feeder: § 8 TDDDG und die Grenze für Kamerageräte
+
+**Primärquelle:** Pressemitteilung des Oberverwaltungsgerichts für das Land Nordrhein-Westfalen vom
+**17.09.2026**, `justiz.nrw/presse/2026-09-17`. **Az. 13 B 18/26**, I. Instanz VG Köln 1 L 2838/25.
+**Der Beschluss ist unanfechtbar**, das Hauptsacheverfahren läuft. **Belastbarkeit: belastbar.**
+
+Die Bundesnetzagentur hatte den Vertrieb eines Futterautomaten mit Kamera, Mikrofon und WLAN mit
+sofortiger Wirkung untersagt. VG Köln gab dem Eilantrag statt, die Beschwerde der Behörde blieb ohne
+Erfolg. **Aus der Begründung, wörtlich:** „Es ist objektiv erkennbar, dass der Futterautomat neben der
+Futterfunktion dem Zweck dient, ein Haustier zu beobachten und mit ihm zu kommunizieren. Das
+gesetzliche Regelbeispiel für eine ‚Bestimmung' zum unbemerkten Abhören oder Aufnehmen eines Bildes
+muss einschränkend ausgelegt werden. Aus der Entstehungsgeschichte der Vorschrift erschließt sich,
+dass der Gesetzgeber Abhör- und Aufnahmemöglichkeiten ohne (Personenüberwachungs-)Zweck nicht
+erfassen wollte."
+
+**§ 8 Absatz 2 TDDDG, heute im Wortlaut geprüft** (`gesetze-im-internet.de/ttdsg/__8.html`, das alte
+Kürzel gilt weiter): „Als zum unbemerkten Abhören oder Aufnehmen eines Bildes bestimmt gilt eine
+Telekommunikationsanlage insbesondere, wenn ihre Abhör- oder Aufnahmefunktion beim
+bestimmungsgemäßen Gebrauch des Gegenstandes für den Betroffenen nicht eindeutig erkennbar ist."
+Absatz 1 verbietet Anlagen, die „ihrer Form nach einen anderen Gegenstand vortäuschen oder die mit
+Gegenständen des täglichen Gebrauchs verkleidet sind".
+
+**KEIN EIGENER POST, kein KI-Kern.** **Wert für den Meta-Brillen-Kandidaten:** Das ist der Maßstab,
+an dem sich Kamerabrillen messen lassen müssen, und er heißt Erkennbarkeit beim bestimmungsgemäßen
+Gebrauch. Die offene Frage ist dieselbe: erkennbar für wen, für die Trägerin oder für die Person
+gegenüber.
+
+### Kleinere Fundstücke vom 21.09.2026
+
+- **Gesetz über die Deutsche Nationalbibliothek, §§ 2 und 3 im Wortlaut geprüft** (Ausfertigung
+  22.06.2006). § 3 Absatz 3: „Medienwerke in unkörperlicher Form sind alle Darstellungen in
+  öffentlichen Netzen." § 2 Nummer 1 gibt der Bibliothek auf, die ab 1913 in Deutschland
+  veröffentlichten Medienwerke zu sammeln und „auf Dauer zu sichern". § 16 verlangt Ablieferung
+  binnen einer Woche, unentgeltlich und auf eigene Kosten. **Der Auftrag für Websites steht seit
+  zwanzig Jahren im Gesetz.** netzpolitik.org nennt am 21.09.2026 einen Bestand von „über 82.000
+  Einträgen von knapp 10.000 unterschiedlichen Websites".
+- **KI-Halluzination im US-Militär** (heise, 21.09.2026 nach CNN): Ein Analyst ließ sich einen
+  Geheimbericht von einem Chatbot zusammenfassen, das Ergebnis über Atomwaffentechnik an Bord eines
+  chinesischen Frachters war falsch und ging in einen regulären Lagebericht ein. **Belastbarkeit:
+  berichtet**, ungenannte Quellen, System nicht benannt. **Kein Post ohne benanntes System.**
+- **Gematik zur Telematikinfrastruktur** (heise, 20.09.2026): aus einem Strategiepapier 2025 im
+  Schnitt 25 Beeinträchtigungen je Monat, 162 Störungen bei der ePA, 164 beim E-Rezept. Kein KI-Kern,
+  **vorgemerkt** zum Strang um Post 30.
