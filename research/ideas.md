@@ -2699,3 +2699,93 @@ gegenüber.
 - **Gematik zur Telematikinfrastruktur** (heise, 20.09.2026): aus einem Strategiepapier 2025 im
   Schnitt 25 Beeinträchtigungen je Monat, 162 Störungen bei der ePA, 164 beim E-Rezept. Kein KI-Kern,
   **vorgemerkt** zum Strang um Post 30.
+
+---
+
+## Recherchierte Einzelbefunde vom 22.09.2026
+
+**Rückstau bei vier, zwanzigster Tag ohne Neubau.**
+
+### NEUER KANDIDAT, STÄRKSTER SEIT WOCHEN: Bund und Berlin regeln KI-Training verschieden
+
+**Primärquelle:** Deutscher Bundestag, **Drucksache 21/6132 vom 26.05.2026**, Gesetzentwurf der
+Bundesregierung „Entwurf eines Gesetzes zur Stärkung digitaler Ermittlungsbefugnisse in der
+Polizeiarbeit", 40 Seiten, `dserver.bundestag.de/btd/21/061/2106132.pdf`, im Volltext gelesen.
+**Belastbarkeit: belastbar als Entwurfstext. Beschlossen ist nichts.**
+
+**Kontext:** Öffentliche Anhörung im Innenausschuss am **21.09.2026, 14 Uhr, 41. Sitzung**,
+Tagesordnung vom 14.09.2026 im Original gelesen (`bundestag.de/resource/blob/1211670/to041oeA.pdf`).
+Drei Entwürfe zusammen: **21/6131** (internationaler Terrorismus, BKAG), **21/6132**
+(Polizeiarbeit, BPolG und BKAG), **21/6806** (Strafprozessordnung). Dazu Antrag 21/6913 der Grünen.
+
+**§ 46 Absatz 3 BPolG in der Entwurfsfassung, wörtlich:** „Die Bundespolizei kann bei ihr vorhandene
+personenbezogene Daten zur Entwicklung, Überprüfung, Änderung oder zum Trainieren von IT-Produkten
+einschließlich selbstlernender Systeme weiterverarbeiten, sofern dies zur Erfüllung einer ihr
+obliegenden Aufgabe erforderlich ist, insbesondere weil 1. unveränderte Daten benötigt werden oder
+2. eine Anonymisierung oder Pseudonymisierung der Daten nicht oder nur mit unverhältnismäßigem
+Aufwand möglich ist." **§ 22 Absatz 3 BKAG-E ist wortgleich** für das Bundeskriminalamt.
+**Begründung, wörtlich:** „Die Aufzählung der Gründe für die Erforderlichkeit der Datenverarbeitung
+ist nicht abschließend."
+
+**DER BEFUND:** **Berlin** schreibt in § 42d Absatz 2 ASOG eine Treppe vor, anonymisieren, sonst
+pseudonymisieren, erst dann personenbezogen. **Der Bundesentwurf kennt diese Treppe nicht** und nennt
+den Bedarf an unveränderten Daten als ersten von zwei offen formulierten Gründen. **Zwei Ebenen,
+dieselbe Frage, zwei verschiedene Antworten.** Beide Seiten am Primärtext gelesen.
+
+**Der Sicherungssatz ist dagegen identisch.** § 22 Absatz 3 BKAG-E: „Das Bundeskriminalamt hat bei
+der Weiterverarbeitung nach Satz 1 sicherzustellen, dass diskriminierende Algorithmen weder
+herausgebildet noch verwendet werden." Wortgleich mit § 42d Absatz 1 Satz 2 und § 47a Absatz 1 ASOG.
+
+**§ 58a BPolG-E, automatisierter biometrischer Abgleich mit öffentlich zugänglichen Daten aus dem
+Internet:** erlaubt bei Gefahr für Bestand oder Sicherheit des Bundes oder eines Landes, für Leib,
+Leben, Freiheit oder Sachen von bedeutendem Wert, sowie bei zu erwartenden Straftaten im Zusammenhang
+mit lebensgefährdenden Schleusungen oder gegen die Sicherheit des Luft-, See- oder Bahnverkehrs.
+**„Ein Abgleich mit öffentlich zugänglichen Echtzeitdaten ist unzulässig."** Die Begründung nennt als
+Beispiel „das Lichtbild einer gesuchten Person" und erlaubt „die Zusammenarbeit mit Dritten, auch
+außerhalb der Europäischen Union". Für die Bundespolizei kommt § 58b (automatisierte Datenanalyse)
+dazu, für das BKA § 63b.
+
+**UNSTIMMIGKEIT IM AMTLICHEN TEXT, festgehalten, nicht korrigiert:** Der Kostenteil nennt einen
+einmaligen Umstellungsaufwand „im Jahr 2027 in Höhe von 20.700.000 Mio. Euro und im Jahr 2028 von
+20.000.000 Mio. Euro" und im Folgesatz laufende Kosten „in Höhe von 20.700.000 Euro im Jahr 2027 der
+bis zum Jahr 2030 auf 27.000.000 Euro ansteigt". Dieselbe Zahl einmal mit und einmal ohne „Mio.".
+**Die Zahl kommt auf kein Blatt, solange die Einheit nicht geklärt ist.** Der Fehler steht in der
+Drucksache, das ist kein eigener. Beim BKA zusätzlich 56 Stellen und 7.620.000 Euro jährlich.
+
+**OFFEN VOR EINEM POST:** Die Stellungnahmen der Sachverständigen sind **nicht gelesen**.
+netzpolitik.org nennt am 21.09.2026 Pia Sombetzki (AlgorithmWatch), Louisa Specht-Riemenschneider
+(BfDI), Markus Löffelmann und Kai Kempgens (DAV) kritisch, Martina Link (BKA) und Alexander Poitz
+(GdP) befürwortend. **Belastbarkeit: berichtet.** Ausschussdrucksachen 21(4)179 und weitere.
+
+### Ratsdokument zum Digitalomnibus: identifiziert, aber nicht zitierfähig
+
+**Dokument:** Rat der Europäischen Union, **12535/26**, Brüssel, **3. September 2026**, **LIMITE**,
+Interinstitutionelles Dossier **2025/0360 (COD)**, „Presidency revised compromise text" zum Digital
+Omnibus, vorgelegt für die AGS-Sitzung am 11.09.2026, 158 Seiten. Veröffentlicht von noyb am
+21.09.2026 (`noyb.eu/sites/default/files/2026-09/Draft%20Compromise.pdf`), heute geöffnet.
+Der Kommissionsartikel **88c** trägt darin die Nummer **88 bis**, Überschrift „Processing in the
+context of the development and operation of AI".
+
+**WARNUNG, WICHTIG:** Das Dokument ist ein Änderungstext, Einfügungen fett, Streichungen
+durchgestrichen. Beim Umwandeln in Text gehen beide Auszeichnungen verloren, eingefügte und
+gestrichene Wörter stehen verschachtelt ineinander. **Aus Artikel 88 bis lässt sich kein sauberer
+Satz zitieren. Ein Beleg-Panel daraus wäre erfunden.** Festgehalten sind Aktenzeichen, Datum, Status
+und Überschrift. **Vor einem Post eine Fassung ohne Änderungsmarkierung beschaffen.**
+
+Max Schrems spricht nach dem noyb-Beitrag vom 21.09.2026 von „digital expropriation of Europeans".
+**Belastbarkeit der Einordnung: berichtet**, es ist die Position einer Partei.
+
+### Kleinere Fundstücke vom 22.09.2026
+
+- **Irische Data Protection Commission, Pressemitteilung vom 21.09.2026, im Original gelesen:**
+  Bußgelder von insgesamt **403 Millionen Euro** gegen Google Ireland Limited wegen der Verarbeitung
+  von Standortdaten in „Web & App Activity", „Location History" und „Location Accuracy".
+  Untersuchung aus eigener Initiative, **eröffnet im Februar 2020** nach Beschwerden mehrerer
+  Verbraucherorganisationen einschließlich BEUC. **Prüfzeitraum 25.05.2018 bis 04.02.2020.**
+  Anordnung, die Verarbeitung binnen sechs Monaten in Konformität zu bringen. Verstöße gegen
+  Rechtmäßigkeit und Fairness, Rechenschaftspflicht, Transparenz und Speicherdauer. **Die
+  vollständige Entscheidung ist noch nicht veröffentlicht.** **Belastbarkeit: belastbar.**
+- **Europol-Verordnung:** heise berichtet am 21.09.2026 über einen Kommissionsentwurf vom Juni 2026,
+  der anlasslose Datenrecherche und den Einsatz experimenteller KI erleichtern soll. **Ungeprüft**,
+  die Nummer des Rechtsakts steht nicht im Beitrag. **Vorgemerkt mit Priorität**, der Strang passt
+  zu Kandidat 1.
