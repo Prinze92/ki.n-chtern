@@ -2789,3 +2789,94 @@ Max Schrems spricht nach dem noyb-Beitrag vom 21.09.2026 von „digital expropri
   der anlasslose Datenrecherche und den Einsatz experimenteller KI erleichtern soll. **Ungeprüft**,
   die Nummer des Rechtsakts steht nicht im Beitrag. **Vorgemerkt mit Priorität**, der Strang passt
   zu Kandidat 1.
+
+---
+
+## Recherchierte Einzelbefunde vom 23.09.2026
+
+**Rückstau bei vier, einundzwanzigster Tag ohne Neubau.**
+
+### KANDIDAT WIRD DRINGEND: Das Pilotprojekt am Kottbusser Tor startet im vierten Quartal
+
+**Quelle:** netzpolitik.org, Interview mit der Berliner Beauftragten für Datenschutz und
+Informationsfreiheit **Meike Kamp**, **22.09.2026, 08:49 Uhr**. Termine und Zahlen stammen nach
+Angabe des Beitrags aus einer Antwort der Senatsverwaltung für Inneres auf eine Anfrage der Grünen.
+**Belastbarkeit: berichtet** für Termine und Zahlen (Senatsantwort nicht gelesen), **belastbar** für
+Kamps eigene Aussagen im veröffentlichten Interview.
+
+**Neue Fakten:**
+- Pilotprojekt Kottbusser Tor, **zunächst vier Wochen**, Start **„voraussichtlich im 4. Quartal
+  2026"**. **Die Kameras sind bereits installiert.**
+- **Warschauer Brücke:** Inbetriebnahme **bis Ende 2026**. **Alexanderplatz und Görlitzer Park:**
+  2027.
+- **Rotes Rathaus, Senatsverwaltung für Inneres, Jüdisches Museum:** Start **„voraussichtlich im
+  2. Quartal 2027"**. **Zweites, eigenes Vorhaben** (Objektschutz), bestätigt die Richtigstellung vom
+  19.09.2026.
+- **Gesamtinvestivkosten Bereich Kottbusser Tor: 1.888.000 Euro**, jährliche Betriebskosten
+  **349.000 Euro**.
+- **Adesso SE** hat den Zuschlag, Software von der **Staige GmbH**, an der Adesso beteiligt ist.
+
+**DER SATZ FÜR DEN POST, wörtlich von der Aufsicht:** „Dazu kann ich zum jetzigen Zeitpunkt nichts
+sagen. Meine Behörde war bei der Auswahl der Software und beim Training nicht eingebunden. Diesen
+Fragen werden wir im Rahmen unserer Prüfung nachgehen."
+
+**Das greift in den Befund vom 21.09.:** § 42d Absatz 4 ASOG schreibt vor, dass die oder der Berliner
+Beauftragte für Datenschutz vor Erlass der Verwaltungsvorschrift anzuhören ist. Diese Vorschrift war
+am 08.09.2026 nach Auskunft des Senats noch nicht erlassen. **System installiert, Vorschrift fehlt,
+Aufsicht beim Training nicht dabei.**
+
+**§ 17a Absatz 1 ASOG, heute am Normtext geprüft** (GVBl Nr. 36 vom 23.12.2025), wörtlich: „Die für
+Inneres zuständige Senatsverwaltung wird ermächtigt, durch Rechtsverordnung bestimmte Straßen, Wege,
+Plätze oder sonstige Bereiche als kriminalitätsbelastete Orte einzustufen. Dies ist nur für solche
+Orte zulässig, die öffentlich zugänglich sind und von denen Tatsachen die Annahme rechtfertigen, dass
+dort Personen Straftaten von erheblicher Bedeutung verabreden, vorbereiten oder verüben."
+**An diesem Satz hängt die ganze Kette.** Absatz 2 erlaubt der Polizeipräsidentin zusätzlich eine
+Einstufung per Allgemeinverfügung für höchstens einen Monat im Kalenderjahr, in Eilfällen bekannt
+gegeben durch Zugänglichmachung auf der Internetseite der Polizei Berlin. **Kamp hat sich während
+der Novelle dafür ausgesprochen, dass das Parlament entscheidet.**
+
+**NEUE GEGENSTIMME, ungeprüft:** Linke und Grüne sind gegen das Polizeigesetz vor den
+**Verfassungsgerichtshof des Landes Berlin** gezogen. Aktenzeichen steht nicht im Beitrag.
+**Vor einem Post nachsehen.**
+
+**OFFEN VOR EINEM POST:** Die Antwort der Senatsverwaltung auf die Grünen-Anfrage ist nicht gelesen.
+Zahlen und Termine gehören erst auf ein Blatt, wenn sie aus der Drucksache stammen.
+**Das Fenster ist eng**, der Start liegt im vierten Quartal 2026.
+
+### NEUER KANDIDAT: Software ist ein Produkt, und die Frist endet am 09.12.2026
+
+**Primärquelle, heute im Amtsblatt gelesen:** **Richtlinie (EU) 2024/2853** des Europäischen
+Parlaments und des Rates **vom 23. Oktober 2024** über die Haftung für fehlerhafte Produkte und zur
+Aufhebung der Richtlinie 85/374/EWG, Amtsblatt Reihe L vom **18.11.2024**,
+`eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=OJ:L_202402853`. **Belastbarkeit: belastbar.**
+
+**Artikel 4 Nummer 1, wörtlich:** „‚Produkt' bezeichnet jede bewegliche Sache, auch wenn diese in
+eine andere bewegliche oder unbewegliche Sache integriert oder damit verbunden ist; unter ‚Produkt'
+sind auch Elektrizität, digitale Konstruktionsunterlagen, Rohstoffe und Software zu verstehen".
+
+**Artikel 22 Absatz 1:** Umsetzung durch die Mitgliedstaaten **bis zum 9. Dezember 2026**.
+**Artikel 21:** Die Richtlinie 85/374/EWG wird mit Wirkung vom 9. Dezember 2026 aufgehoben, gilt aber
+weiter für Produkte, die vorher in Verkehr gebracht wurden. **Erwägungsgrund 63:** Die neue
+Richtlinie gilt nicht für Produkte, die vor dem 9. Dezember 2026 in Verkehr gebracht oder in Betrieb
+genommen wurden.
+
+**Der Anlass:** heise berichtet am 22.09.2026 nach Politico, vier Abgeordnete bereiteten einen neuen
+Vorstoß zur KI-Haftung vor, nachdem die KI-Haftungsrichtlinie von 2022 im Oktober 2025 zurückgezogen
+wurde. **Belastbarkeit: berichtet.** **Der belastbare Teil ist der andere:** Eine Haftungsregel, die
+Software erfasst, existiert bereits und muss in elf Wochen umgesetzt sein.
+**OFFEN:** ob und wie Deutschland umgesetzt hat. **Das ist die Recherche, die den Kandidaten trägt.**
+
+### Kleinere Fundstücke vom 23.09.2026
+
+- **Bitkom nach IDC, 22.09.2026:** KI-Ausgaben in Deutschland 2026 **28,7 Milliarden Euro**, plus
+  50 Prozent gegenüber dem Vorjahr, davon **11,5 Milliarden** für generative KI. Prognose 2027:
+  **40,3 Milliarden**. Software 16 Milliarden (plus 65 Prozent), Services 6,8 (plus 30), Hardware
+  5,8 (plus 32). **Belastbarkeit: einzelquelle**, Verband und kommerzieller Marktforscher sind
+  beteiligte Seiten, die Abgrenzung ist nicht öffentlich. Pressemitteilung nicht gelesen.
+  **Ohne Methodik keine Balken.**
+- **Schwimmbad-Strang:** heise nennt am 22.09.2026 für 2025 „fast 400" Ertrunkene in Deutschland,
+  davon **14 in Schwimmbädern**; der Beitrag steht hinter der Bezahlschranke. Die DLRG-Bilanz 2025
+  nennt nach Suchtreffer **mindestens 393** Todesfälle, **die DLRG-Seiten liefern aus dieser Umgebung
+  jedoch nur Navigation**, der Inhalt wird per JavaScript nachgeladen. **Die Teilzahl für
+  Schwimmbäder ist nicht am Original geprüft.** Die Lynxight-Angabe „rund 200 Bäder" bleibt offen
+  wie seit dem 12.09.2026.
