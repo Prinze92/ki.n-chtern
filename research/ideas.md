@@ -2880,3 +2880,98 @@ Software erfasst, existiert bereits und muss in elf Wochen umgesetzt sein.
   jedoch nur Navigation**, der Inhalt wird per JavaScript nachgeladen. **Die Teilzahl für
   Schwimmbäder ist nicht am Original geprüft.** Die Lynxight-Angabe „rund 200 Bäder" bleibt offen
   wie seit dem 12.09.2026.
+
+---
+
+## Recherchierte Einzelbefunde vom 24.09.2026
+
+**Rückstau bei vier, zweiundzwanzigster Tag ohne Neubau.**
+
+### NEUER KANDIDAT: Vollautomatische Bescheide, Österreich neu, Deutschland seit Jahren
+
+**Primärquellen, heute im Original gelesen** (alle über `parlament.gv.at`):
+**539 der Beilagen zu den Stenographischen Protokollen des Nationalrates, XXVIII. GP**,
+Regierungsvorlage „Bundesgesetz, mit dem das Allgemeine Verwaltungsverfahrensgesetz 1991 und das
+Verwaltungsstrafgesetz 1991 geändert werden", Gesetzestext (`fnameorig_1765294.html`) und
+Erläuterungen (`fnameorig_1765296.html`), dazu der Bericht des Verfassungsausschusses,
+**611 der Beilagen** (`fnameorig_1778392.html`). **Belastbarkeit: belastbar** für den Inhalt.
+
+**Status:** Der Nationalrat hat den Entwurf nach Berichten am **23.09.2026** beschlossen.
+**Berichtet, nicht geprüft.** Die Inkrafttretensbestimmung nennt noch „BGBl. I Nr. xxx/2026", die
+Kundmachung liegt also nicht vor. **Vor einem Post das österreichische Bundesgesetzblatt abrufen.**
+
+**§ 18a AVG in der Fassung der Vorlage:**
+- **Abs. 1:** Die sachlich in Betracht kommende oberste Behörde kann durch Verordnung die Sachen
+  bestimmen, in denen vollständig automatisierte schriftliche Erledigungen zulässig sind. Besteht
+  keine solche Verordnung, kann die Behörde selbst eine erlassen. Erledigungen nach dem IV. Teil
+  (Verwaltungsstrafverfahren) sind ausgenommen.
+- **Abs. 2, PANEL-TAUGLICH, wörtlich:** „Die Sache muss im Hinblick auf den maßgeblichen Sachverhalt,
+  die zu lösenden Rechtsfragen und den Stand der Technik für eine vollständig automatisierte
+  schriftliche Erledigung geeignet sein." Beruht die Erledigung auf besonderen Datenkategorien nach
+  Art. 9 Abs. 1 DSGVO, muss die Verarbeitung nach Art. 9 Abs. 2 lit. a oder g zulässig sein.
+- **Abs. 3, wörtlich:** „Vollständig automatisierte schriftliche Erledigungen gemäß Abs. 1 bedürfen
+  keiner Genehmigung (§ 18 Abs. 3)." Amtssignatur nach § 19 E-GovG, Bezeichnung der Behörde, Datum
+  und der Hinweis, dass es sich um eine vollständig automatisierte Erledigung handelt.
+- **Abs. 4:** zulässig nur, wenn der Behörde „ein bestimmender Einfluss auf den Vorgang" zukommt.
+  Jedenfalls erforderlich: 1. hinreichende technische Nachvollziehbarkeit des Systems, 2. eine vor
+  dem Einsatz durchgeführte und dokumentierte Testphase, 3. die Möglichkeit, in den Vorgang
+  einzugreifen, 4. laufende Kontrollen.
+- **Abs. 5:** Bekanntmachung der betroffenen Sachen und der Informationen nach Art. 13 Abs. 2 lit. f
+  DSGVO im Internet; zulässig nur in Verfahren, die nach der Bekanntmachung eingeleitet werden.
+
+**Rechtsbehelf, neuer § 57b AVG, wörtlich:** „Der angefochtene Bescheid tritt durch die Vorstellung
+außer Kraft." Frist zwei Wochen, auf den neuen Bescheid ist § 18a nicht anzuwenden.
+**§ 68 Abs. 2a:** Aufhebung oder Abänderung von Amts wegen binnen zwei Monaten.
+**Neuer § 57a:** No-Stop-Verfahren, Bescheid ohne vorausgegangenes Ermittlungsverfahren, wenn das
+Verfahren von Amts wegen eingeleitet werden kann, nur eine Partei beteiligt ist und die Behörde
+automationsunterstützt von sämtlichen Umständen Kenntnis erlangen kann.
+**VStG:** § 18a AVG ist auf Anonym- und Organstrafverfügungen sinngemäß anzuwenden.
+
+**WO DIE WIEDERGABE ÜBER DIE QUELLE HINAUSGEHT:** Die Meldung erreichte mich mit der Aussage, die
+eingesetzte KI dürfe nicht selbstlernend sein. **Im Gesetzestext steht das nicht.** Die Erläuterungen
+sagen das Gegenteil: Die hinreichende technische Nachvollziehbarkeit solle „also auch bei Systemen,
+die mit Formen von maschinell-lernender KI operieren, erfüllt werden können (weil ihr Einsatz
+ansonsten schon im Hinblick auf das erwähnte ‚Black Box'-Phänomen in der Regel praktisch unmöglich
+wäre)". **Eingeschränkt wird etwas anderes:** Die Verwendung der im erledigten Fall verarbeiteten
+Echtdaten zur Weiterentwicklung der KI „würde jedenfalls eine gesonderte (materien- oder
+organisations-)gesetzliche Grundlage erfordern, weil es sich dabei um einen anderen
+Verarbeitungszweck handelt".
+**EINSCHRÄNKUNG IN EIGENER SACHE:** Der heise-Beitrag ist **nicht im Wortlaut gelesen**, nur in einer
+Zusammenfassung. **Vor einer öffentlichen Gegenrede den Originalsatz prüfen.**
+
+**DIE DEUTSCHE SEITE, heute im Wortlaut geprüft, § 35a VwVfG vollständig:** „Ein Verwaltungsakt kann
+vollständig durch automatische Einrichtungen erlassen werden, sofern dies durch Rechtsvorschrift
+zugelassen ist und weder ein Ermessen noch ein Beurteilungsspielraum besteht."
+**Der Unterschied trägt den Post:** Deutschland knüpft inhaltlich an (kein Ermessen, kein
+Beurteilungsspielraum), Österreich an die Eignung der Sache, und in die Eignung geht der Stand der
+Technik ein. **Eine Schwelle, die sich mit der Technik verschiebt.**
+
+**Art. 22 Abs. 1 DSGVO, heute im Amtsblatt-Text gelesen:** „Die betroffene Person hat das Recht,
+nicht einer ausschließlich auf einer automatisierten Verarbeitung — einschließlich Profiling —
+beruhenden Entscheidung unterworfen zu werden, die ihr gegenüber rechtliche Wirkung entfaltet oder
+sie in ähnlicher Weise erheblich beeinträchtigt." Abs. 2 lit. b lässt mitgliedstaatliche Ausnahmen
+zu, wenn die Rechtsvorschriften „angemessene Maßnahmen zur Wahrung der Rechte und Freiheiten"
+enthalten.
+
+**GEGENSTIMMEN, berichtet:** Michael Schilchegger (FPÖ) nennt es „hoch gefährlich", Süleyman Zorba
+(Grüne) hält die Bestimmungen für zu schwammig und ungenau. Debattenprotokolle nicht gelesen.
+
+**OFFEN VOR EINEM POST:**
+1. **Seit wann § 35a VwVfG gilt, ist ungeprüft.** Das Datum steht nicht auf der Einzelnorm-Seite von
+   `gesetze-im-internet.de`. **Nicht schätzen, nachsehen.**
+2. In welchen deutschen Rechtsvorschriften der vollautomatische Erlass tatsächlich zugelassen ist.
+3. Die Kundmachung des österreichischen Gesetzes im Bundesgesetzblatt.
+
+### Kleinere Fundstücke vom 24.09.2026
+
+- **Kamerabrillen, Frankreich:** Die Staatsanwaltschaft Paris ermittelt nach einem heise-Bericht vom
+  23.09.2026, weil Frauen in der Öffentlichkeit heimlich mit vernetzten Brillen gefilmt wurden, oft
+  in provozierten Situationen. **Ungeprüft.** Macht den Meta-Brillen-Kandidaten dringender, zusammen
+  mit § 8 TDDDG und dem OVG-Beschluss vom 17.09.2026.
+- **Meta Connect 2026 (heise, 24.09.):** neue Brillengeneration, darunter ein Modell ohne Kamera,
+  dazu „Meta VR Glasses" für das Frühjahr 2027. Ein Start-up namens Vonder wirbt mit einer Brille
+  ohne Kamera, ohne Display und ohne Speichern von Audioaufnahmen. **Alles ungeprüft**, vorgemerkt
+  für den Brillen-Strang.
+- **Bundestags-KI (heise, 23.09.):** eigener Chatbot für Abgeordnete und Verwaltung soll
+  „Schatten-KI" ablösen. **Ungeprüft, vorgemerkt mit Priorität**, das gehört zum
+  Verwaltungs-Strang.
