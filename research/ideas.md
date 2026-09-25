@@ -2975,3 +2975,96 @@ enthalten.
 - **Bundestags-KI (heise, 23.09.):** eigener Chatbot für Abgeordnete und Verwaltung soll
   „Schatten-KI" ablösen. **Ungeprüft, vorgemerkt mit Priorität**, das gehört zum
   Verwaltungs-Strang.
+
+---
+
+## Recherchierte Einzelbefunde vom 25.09.2026
+
+**Rückstau bei vier, dreiundzwanzigster Tag ohne Neubau.**
+
+### ABGESCHLOSSEN: Der Brillen-Kandidat hat den Satz, der ihn trägt
+
+**Primärquelle, heute im Original gelesen:** Pressemitteilung der Konferenz der unabhängigen
+Datenschutzaufsichtsbehörden des Bundes und der Länder **vom 24.09.2026** zur **3. Zwischenkonferenz
+am 23.09.2026**, PDF unter `datenschutzkonferenz-online.de/media/pm/DSK_PM_3_Zwischenkonferenz_2026.pdf`.
+**Belastbarkeit: belastbar.**
+
+**WÖRTLICH, panel-tauglich:**
+- „Verantwortlich für Aufnahmen sind die Träger_innen der Brillen."
+- „Die Nutzenden der Brille müssen die Betroffenen dafür bereits im Vorfeld informieren, wozu auch
+  ihre Kontaktdaten und die Zwecke der Datenverarbeitung gehören. Eine ‚Hinweis-LED' genügt hierfür
+  nicht."
+- „Für ein etwaiges KI-Training mit den Daten Dritter fehlt in der Regel eine Rechtsgrundlage. Nicht
+  zulässig wäre auch eine KI-gestützte Gesichtserkennung im öffentlichen Raum."
+
+**Weiter belegt:** Die DSK hat den Prüfbericht des Hamburgischen Beauftragten „zustimmend zur
+Kenntnis genommen". Bei Geräten, „die kaum von gewöhnlichen Brillen zu unterscheiden sind", sei das
+Risiko unbemerkter Aufnahmen „deutlich erhöht", eine leuchtende LED „für Betroffene häufig nur schwer
+erkennbar". Die DSK nennt ausdrücklich den Nutzen (blinde Menschen, Arbeiten mit freien Händen),
+appelliert an Inhaber des Hausrechts und an die Hersteller (Datenschutz durch Technikgestaltung) und
+hält fest, die Nutzung sei „ein gesellschaftspolitisches Thema, mit dem sich auch der deutsche oder
+europäische Gesetzgeber befassen sollte".
+
+**DAMIT IST DER STRANG VOLLSTÄNDIG, drei Primärquellen:**
+1. Abschlussbericht des Hamburgischen Beauftragten vom 10.09.2026 (am 11.09. im Volltext gelesen).
+2. § 8 TDDDG im Wortlaut und OVG NRW vom 17.09.2026, 13 B 18/26 (am 21.09. gelesen): das
+   Vertriebsverbot ist eng auszulegen.
+3. DSK-Pressemitteilung vom 24.09.2026: die Verantwortung liegt bei der tragenden Person.
+**Der Bogen: Das Gerät darf verkauft werden, haften soll, wer es aufsetzt.**
+**Bauform: Die Rekonstruktion.**
+
+**Aktueller Anlass, beides ungeprüft:** Meta hat am 24.09.2026 auf der Connect eine neue
+Brillengeneration vorgestellt, darunter ein Modell ohne Kamera. Die Staatsanwaltschaft Paris
+ermittelt nach einem Bericht vom 23.09.2026 wegen heimlicher Aufnahmen von Frauen.
+
+### GEGENSTIMME GEFUNDEN: DSK-Entschließung zu den Sicherheitsgesetzen
+
+Aus derselben Pressemitteilung: Die DSK hat die Entschließung **„Freiheit schützen – Sicherheitsgesetze
+angemessen gestalten"** gefasst. Sie nennt darin den Gesetzentwurf zur Reform des
+Nachrichtendienstrechts, „die Sicherheitspakete des Bundes für Polizei und Zollverwaltung sowie
+ähnliche Vorhaben der Länder" und schreibt, die Ausweitungen der Eingriffsbefugnisse hätten „große
+Streubreite" und könnten „unterschiedslos jede und jeden treffen, völlig unabhängig davon, ob die
+Person mit ihrem Verhalten einen Anlass dafür gegeben hat". Sie fordert Bund und Länder auf, „die
+Pläne nochmals zu überdenken sowie bestehende Gesetze zu überprüfen".
+**Das ist die Gegenstimme zum Kandidaten vom 22.09.2026** (BT-Drucksachen 21/6131, 21/6132, 21/6806).
+**EINSCHRÄNKUNG:** Die Entschließung selbst ist **nicht gelesen**, nur die Darstellung in der
+Pressemitteilung. **Vor einem Post das Dokument abrufen.**
+
+### ERLEDIGT: In welchen Gesetzen der vollautomatische Erlass zugelassen ist
+
+Offener Punkt vom 24.09.2026, heute geschlossen, und die Antwort dreht den Kandidaten um.
+
+**§ 31a SGB X, heute im Wortlaut geprüft, vollständig:** „Ein Verwaltungsakt kann vollständig durch
+automatische Einrichtungen erlassen werden, sofern kein Anlass besteht, den Einzelfall durch
+Amtsträger zu bearbeiten. Setzt die Behörde automatische Einrichtungen zum Erlass von
+Verwaltungsakten ein, muss sie für den Einzelfall bedeutsame tatsächliche Angaben des Beteiligten
+berücksichtigen, die im automatischen Verfahren nicht ermittelt würden."
+
+**§ 155 Absatz 4 Satz 1 AO, heute im Wortlaut geprüft:** Die Finanzbehörden können Steuerfestsetzungen
+sowie Anrechnungen „auf der Grundlage der ihnen vorliegenden Informationen und der Angaben des
+Steuerpflichtigen ausschließlich automationsgestützt vornehmen, berichtigen, zurücknehmen,
+widerrufen, aufheben oder ändern, soweit kein Anlass dazu besteht, den Einzelfall durch Amtsträger
+zu bearbeiten."
+
+**BEFUND, und er ist stärker als der Vergleich mit Österreich:** § 35a VwVfG verlangt, dass „weder
+ein Ermessen noch ein Beurteilungsspielraum besteht". **Diese strenge Bedingung steht im allgemeinen
+Verfahrensrecht.** In den beiden Gesetzen, nach denen über den Steuerbescheid und über
+Sozialleistungen entschieden wird, steht sie nicht; dort lautet die Bedingung „kein Anlass".
+**Zwei Beleg-Panels: § 35a VwVfG gegen § 31a SGB X.**
+
+**UNGEPRÜFT GEBLIEBEN:** Seit wann § 35a VwVfG gilt. Nach Darstellung mehrerer Aggregatoren
+(buzer.de, Fachbeiträge) wurde er durch Artikel 20 des Gesetzes zur Modernisierung des
+Besteuerungsverfahrens vom 18.07.2016 eingefügt und trat am 01.01.2017 in Kraft, zusammen mit
+§ 31a SGB X und § 155 Abs. 4 AO. **Am Bundesgesetzblatt nicht geprüft. Auf ein Blatt kommt das
+Datum erst dann.** `gesetze-im-internet.de` führt auf der Einzelnorm-Seite keine Fundstelle.
+
+### Kleinere Fundstücke vom 25.09.2026
+
+- **Fitnessstudios:** Die DSK hat am 23.09.2026 eine Orientierungshilfe zur Videoüberwachung in
+  Fitnessstudios verabschiedet und leitet dazu ein öffentliches Konsultationsverfahren ein. Anlass
+  sind unter anderem (teilweise) personallose Studios. **Vorgemerkt**, das Dokument ist nicht
+  gelesen und ein KI-Kern ist nicht erkennbar.
+- **Chatbots und intime Themen** (heise, 24.09.2026): Nach einer Umfrage nutzen viele Menschen
+  Chatbots für psychische Gesundheit, Finanzen und Partnerschaft, trotz Datenschutzbedenken.
+  **Ungeprüft**, Auftraggeber und Methode unbekannt. **Vorgemerkt mit Priorität**, das liegt am
+  Leitprinzip.
