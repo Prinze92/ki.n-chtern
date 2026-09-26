@@ -3068,3 +3068,105 @@ Datum erst dann.** `gesetze-im-internet.de` führt auf der Einzelnorm-Seite kein
   Chatbots für psychische Gesundheit, Finanzen und Partnerschaft, trotz Datenschutzbedenken.
   **Ungeprüft**, Auftraggeber und Methode unbekannt. **Vorgemerkt mit Priorität**, das liegt am
   Leitprinzip.
+
+---
+
+## Recherchierte Einzelbefunde vom 26.09.2026
+
+**Rückstau bei vier, vierundzwanzigster Tag ohne Neubau.**
+
+### VIERTER STRANG FÜR DEN BRILLEN-KANDIDATEN: BigBrotherAward Technik 2026
+
+**Primärquelle, heute im Original gelesen:** Laudatio zum **BigBrotherAward 2026, Kategorie
+Technik**, verliehen am **25.09.2026** in der Hechelei Bielefeld an **Apollo Optik und Fielmann**,
+Laudatorin **Elisabeth Niekrenz**, Rechtsanwältin bei Spirit Legal in Leipzig,
+`bigbrotherawards.de/2026/apollo-optik-fielmann`. **Belastbarkeit: belastbar** als benannte, mit
+Fußnoten belegte Stellungnahme. **Es ist eine Preisverleihung, keine Behördenentscheidung.**
+
+**Kernbegründung, wörtlich:** „Apollo Optik und Fielmann werden für den Vertrieb der
+Ray-Ban-/Meta-Brille ausgezeichnet. Diese Spionage-Brille ermöglicht heimliche Bild- und
+Tonaufnahmen im Alltag und normalisiert die Totalüberwachung aller Lebensbereiche."
+Schlusssatz: „Fielmann und Apollo Optik normalisieren heimliches Filmen und Abhören und verdienen
+Geld an der Stalkerware."
+
+**METAS EIGENE PRODUKTBESCHREIBUNG, in der Laudatio zitiert und panel-tauglich:** „AI Glasses sehen
+zwar aus wie eine normale Brille, doch sie sind dafür konzipiert, deine Abenteuer mühelos
+festzuhalten. […] Wenn du AI Glasses für Reisefotos verwendest, ist das einfach und intuitiv. Die
+Kamera und die Mikrofone erfassen automatisch, was um dich herum geschieht."
+**ACHTUNG: Das Zitat steht in der Laudatio, nicht bei Meta selbst geprüft. Vor einem Panel an der
+Quelle nachlesen.**
+
+**Weitere Angaben aus der Laudatio, alle NICHT eigenständig geprüft:**
+- Eine wissenschaftliche Untersuchung aus Australien habe Videos analysiert, in denen Frauen heimlich
+  gefilmt wurden; Täter verhielten sich mit Smart Glasses übergriffiger als mit der Handykamera.
+- Schwedische Zeitungen hätten berichtet, Beschäftigte eines Meta-Dienstleisters in Kenia hätten
+  Aufnahmen aus KI-Brillen gesehen, darunter Toilettengänge und nackte Menschen.
+- WIRED habe in der Meta-AI-App eine Gesichtserkennungsfunktion mit dem internen Namen „NameTag"
+  gefunden; Meta habe die Komponenten einen Tag später entfernt und sie als experimentell bezeichnet.
+- Die BBC habe im Januar über eine Frau berichtet, die angesprochen und heimlich gefilmt wurde; das
+  Video ging viral.
+
+**DER KANDIDAT HAT JETZT VIER STRÄNGE, und die Reihenfolge ist die Dramaturgie:**
+1. **10.09.2026** Abschlussbericht des Hamburgischen Beauftragten (am 11.09. im Volltext gelesen).
+2. **17.09.2026** OVG NRW, 13 B 18/26: § 8 TDDDG eng auszulegen. **Der Fall betraf einen
+   Futterautomaten, keine Brille. Das gehört so auf das Blatt.**
+3. **23./24.09.2026** DSK: verantwortlich sind die Träger_innen, eine Hinweis-LED genügt nicht.
+4. **25.09.2026** BigBrotherAward an die beiden Ketten, die das Gerät hier verkaufen.
+**Bauform: Die Rekonstruktion.**
+
+### ERLEDIGT: DSK-Entschließung „Freiheit schützen" im Volltext
+
+Offener Punkt vom 25.09.2026, heute geschlossen. **Entschließung der Konferenz der unabhängigen
+Datenschutzaufsichtsbehörden des Bundes und der Länder vom 23. September 2026, „Freiheit schützen –
+Sicherheitsgesetze angemessen gestalten"**, PDF unter `datenschutzkonferenz-online.de/media/en/`.
+**Belastbarkeit: belastbar.**
+
+**PANEL-TAUGLICH, wörtlich:** „Selbst wenn eine Gesichtserkennungssoftware eine Fehlerquote von nur
+wenigen Promille hat, führt dies bei Millionen abgeglichenen Daten zu einer hohen Anzahl potentiell
+falsch verdächtigter bzw. erfasster Personen."
+
+**Weiter wörtlich:** „Dort, wo schon jetzt Systeme zur Gesichtserkennung eingesetzt werden, zeigt
+die Praxis die reelle Gefahr, dass Treffer schnell als richtig gewertet werden und daraus belastende
+Maßnahmen gegen die Betroffenen folgen. Damit verschwimmen die Grenzen zur grundsätzlich verbotenen
+automatisierten Entscheidungsfindung."
+
+**Inhaltlich:** Aus Nachrichtendiensten würden „Geheimdienste mit exekutiven Befugnissen", was als
+Konsequenz des Trennungsgebots bislang nur der Polizei zustand, „ein Novum in der Geschichte der
+Bundesrepublik Deutschland". Die Sicherheitspakete ermöglichten „die biometrische Gesichts- oder
+Stimmerkennung durch den Abgleich von Daten der Polizei bzw. der Zollverwaltung mit dem gesamten
+Internet". Verfassungsschutzbehörden und BND sollten auf Videoüberwachungsanlagen anderer
+öffentlicher Stellen oder Privater zugreifen dürfen. Zum Unabhängigen Kontrollrat: Aus einer
+angestrebten Stärkung der Kontrolle werde „praktisch eine Schwächung".
+
+**NEUE SPUR, hoher Wert:** Die Entschließung belegt den Satz zu falsch gewerteten Treffern mit
+**LG Tübingen, Beschluss vom 02.03.2026, Az. 9 Qs 34/26, ZD 2026, 590**. **Nicht gelesen, nicht
+geprüft. Vor einem Post beschaffen**, ein deutscher Gerichtsbeschluss zu falschen
+Gesichtserkennungstreffern wäre für diesen Kanal sehr wertvoll.
+
+### ABGRENZUNG, DAMIT SPÄTER NICHTS VERRUTSCHT
+
+heise meldet am **25.09.2026**, der Bundestag habe das **Bundespolizeigesetz** mit **322 Stimmen**
+gebilligt, nachdem eine Abstimmung im Juli an der fehlenden Kanzlermehrheit gescheitert war.
+Genannte Befugnisse: Telekommunikationsüberwachung, eigenständige Beantragung von Abschiebehaft,
+anlasslose Kontrollen in Waffen- und Messerverbotszonen auf Bahnhöfen. **Die Drucksachennummer steht
+nicht im Beitrag und ist nicht geprüft.**
+
+**DAS IST NICHT DAS PAKET AUS DER ANHÖRUNG VOM 21.09.2026.** Über 21/6131, 21/6132 und 21/6806 hat
+der Innenausschuss an jenem Montag erst angehört; eine Wiederholung einer Juli-Abstimmung kann sich
+nicht darauf beziehen. **Die Trainingsbefugnis aus § 46 Absatz 3 BPolG-E und § 22 Absatz 3 BKAG-E
+ist nicht beschlossen.** Auf kein Blatt darf etwas anderes.
+
+### Kleinere Fundstücke vom 26.09.2026
+
+- **BigBrotherAward Behörden und Verwaltung 2026** an Bundesinnenminister Alexander Dobrindt „für
+  die Schaffung einer Nummer für alles, was der Staat über uns weiß". Grundlage sind
+  Registermodernisierungsgesetz und Identifikationsnummerngesetz, die Steuer-ID wird zur
+  Personenkennziffer, aktuell für **über 50 Register** vorgesehen. Verweis auf das
+  Bundesverfassungsgericht und den „gläsernen Bürger". **Kein KI-Kern, vorgemerkt.**
+- **Weitere Preise 2026:** Evangelische Nordkirche (Microsoft-Zwang in Gemeinden), Digitaler Omnibus
+  (Kategorie Europa), Deutsche Telekom (präventiv, Fusionspläne mit T-Mobile US), Social-Media-Verbot
+  für junge Menschen (Kategorie Jung und überwacht). Der Omnibus-Preis gehört zum Kandidaten um
+  Artikel 88 bis.
+- **KI-Rechenzentren und Abwärme** (heise, 25.09.2026): Erste Studien sollen belegen, dass die
+  Abwärme die Temperatur in angrenzenden Wohngebieten messbar erhöht. **Ungeprüft**, Studien nicht
+  gelesen. **Vorgemerkt mit Priorität**, das gehört zu Post 27.
