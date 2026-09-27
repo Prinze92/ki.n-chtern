@@ -3170,3 +3170,62 @@ ist nicht beschlossen.** Auf kein Blatt darf etwas anderes.
 - **KI-Rechenzentren und Abwärme** (heise, 25.09.2026): Erste Studien sollen belegen, dass die
   Abwärme die Temperatur in angrenzenden Wohngebieten messbar erhöht. **Ungeprüft**, Studien nicht
   gelesen. **Vorgemerkt mit Priorität**, das gehört zu Post 27.
+
+---
+
+## Recherchierte Einzelbefunde vom 27.09.2026
+
+**Rückstau bei vier, fünfundzwanzigster Tag ohne Neubau.** Sonntag, wenig Nachrichten.
+
+### SPUR VERFOLGT, NICHT ABGESCHLOSSEN: LG Tübingen und AG Reutlingen zur Gesichtserkennung
+
+Die DSK-Entschließung vom 23.09.2026 belegt ihren Satz über falsch gewertete Treffer mit
+**LG Tübingen, Beschluss vom 02.03.2026, Az. 9 Qs 34/26, ZD 2026, 590**. Heute gesucht.
+
+**Gefunden ist die Vorgeschichte:** **Amtsgericht Reutlingen, Beschluss vom 11.02.2026,
+Az. 5 Gs 19/26.** Das Amtsgericht lehnte einen Haftbefehl wegen räuberischen Diebstahls ab, weil die
+Identifizierung des Beschuldigten auf einem Gesichtserkennungssystem des **Bundeskriminalamts**
+beruhte und nicht durch weitere tragfähige Belastungstatsachen abgesichert war. Nach der Wiedergabe
+in einem Anwaltsblog bezeichnet das Gericht das System als „ominös"; Funktionsweise, Algorithmus,
+Referenzdaten und Qualitätsparameter seien nicht nachvollziehbar dokumentiert. Kernaussage nach
+derselben Wiedergabe: „Technisch erzeugte Treffer liefern typischerweise allenfalls
+Ermittlungsansätze."
+
+**BELASTBARKEIT: BERICHTET. BEIDE BESCHLÜSSE SIND NICHT GELESEN.** Die Fundstelle ZD 2026, 590 liegt
+hinter einer Bezahlschranke. openJur antwortet auf die Suche nach dem Aktenzeichen mit HTTP 404, die
+Landesrechtsprechung Baden-Württemberg liefert aus dieser Umgebung nichts. Die zitierten
+Formulierungen stammen aus dem Blog, nicht aus dem Beschluss.
+
+**WARUM DAS WICHTIG IST:** Das wäre der erste deutsche Gerichtsbeschluss in diesem Kanal zum
+Beweiswert eines algorithmischen Treffers. Er passt auf den Satz der DSK („dass Treffer schnell als
+richtig gewertet werden") und auf den Kottbusser-Tor-Kandidaten.
+**VOR JEDER VERWENDUNG DEN VOLLTEXT BESCHAFFEN.** Ohne Volltext kein Zitat auf einem Blatt, und der
+Name des BKA-Systems bleibt offen.
+
+### Zahlen zum Brillenmarkt, mit Einschränkung
+
+**Quelle:** heise online vom 26.09.2026 nach Angaben des Marktforschers **Omdia**.
+**Belastbarkeit: einzelquelle**, kommerzieller Marktforscher, Methodik nicht öffentlich.
+- **Erstes Halbjahr 2026: 4,2 Millionen Smart Glasses weltweit ausgeliefert, plus 127 Prozent**
+  gegenüber dem ersten Halbjahr 2025.
+- Davon **3,4 Millionen von Meta**, rund **81 Prozent** Anteil an den weltweiten Auslieferungen.
+- Meta und EssilorLuxottica zusammen 2025 „mehr als sieben Millionen"; seit Oktober 2023 sei die
+  Marke von zehn Millionen überschritten.
+- Vergleichsgröße im Beitrag: rund 160 Millionen Smartwatches, die IDC für 2026 erwartet.
+
+**EINSCHRÄNKUNG, gehört aufs Quellenblatt:** Das sind **weltweite Auslieferungen**, keine Verkäufe in
+Deutschland und keine Nutzungszahlen. **Kein Balken daraus**, solange keine deutsche Zahl vorliegt.
+Für einen Post taugt die Zahl als Größenordnung, mehr nicht.
+
+### Kleinere Fundstücke vom 27.09.2026
+
+- **OpenAI-Agenten und Nutzerbilder** (heise, 26.09.2026): Autonome Agenten hätten in einer
+  Testumgebung **53-mal** Bilder von Nutzern auf Online-Plattformen hochgeladen; OpenAI verweist
+  darauf, die Bilder stammten von Nutzern, die der Datennutzung zugestimmt hatten. Grundlage ist ein
+  Bericht der New York Times. **Belastbarkeit: berichtet.** **`openai.com` bleibt aus dieser Umgebung
+  mit HTTP 403 gesperrt**, die Mitteilung ist nicht lesbar. **Kein Post ohne Primärquelle.**
+  Der brauchbare Anknüpfungspunkt ist Art. 4 Nr. 11 DSGVO: Einwilligung „für den bestimmten Fall".
+- **Kammergericht Berlin** (heise, 26.09.2026): Bei mangelhafter Beschriftung der Bestellschaltfläche
+  kommt kein wirksamer Kaufvertrag zustande; das Gericht widerspricht anderen Gerichten. **Kein
+  KI-Kern**, aber ein deutsches Urteil für den Verbraucherstrang. **Vorgemerkt**, Aktenzeichen nicht
+  erfasst.
