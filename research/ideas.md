@@ -3229,3 +3229,83 @@ Für einen Post taugt die Zahl als Größenordnung, mehr nicht.
   kommt kein wirksamer Kaufvertrag zustande; das Gericht widerspricht anderen Gerichten. **Kein
   KI-Kern**, aber ein deutsches Urteil für den Verbraucherstrang. **Vorgemerkt**, Aktenzeichen nicht
   erfasst.
+
+---
+
+## Recherchierte Einzelbefunde vom 28.09.2026
+
+**Rückstau bei vier, sechsundzwanzigster Tag ohne Neubau.** Dünne Nachrichtenlage, der Tag ging an
+die Quellenprüfung für den Brillen-Kandidaten.
+
+### DER KANDIDAT WECHSELT DIE BAUFORM: Metas eigene Seite gegen die Aufsicht
+
+CLAUDE.md verlangt, den Wortlaut vor einem Beleg-Panel an der Quelle zu prüfen. Heute geprüft auf
+den beiden Seiten, auf die die Laudatio vom 25.09.2026 verweist.
+
+**GEFUNDEN UND PANEL-TAUGLICH, wörtlich auf `meta.com/de/ai-glasses/camera-capture-photo-video/`
+(abgerufen 28.09.2026):**
+> „Die Aufnahme-LED schaltet sich automatisch ein, wenn du Videos oder Fotos machst. So wissen
+> andere, dass du gerade etwas aufnimmst. Sollte die LED verdeckt sein, wirst du vor der Aufnahme
+> per Benachrichtigung aufgefordert, dies zu beheben."
+
+Auf derselben Seite als Überschrift: **„Nimm alles, was du siehst und hörst, freihändig in HD auf."**
+
+**GEGENÜBER, DSK-Pressemitteilung vom 24.09.2026, wörtlich:** „Eine ‚Hinweis-LED' genügt hierfür
+nicht." Und: Hinweise wie eine leuchtende LED seien „für Betroffene häufig nur schwer erkennbar".
+
+**BEIDE SEITEN IM ORIGINAL. Bauform wechselt von Die Rekonstruktion zu Der Widerspruch**, zwei
+Beleg-Panels. Hamburger Prüfbericht (10.09.), OVG-Beschluss (17.09.) und BigBrotherAward (25.09.)
+bleiben Hintergrund.
+
+**NICHT BESTÄTIGT:** Das Laudatio-Zitat („AI Glasses sehen zwar aus wie eine normale Brille …",
+„Die Kamera und die Mikrofone erfassen automatisch, was um dich herum geschieht") steht laut Fußnote
+auf `meta.com/de/ai-glasses/learn/travel-photography-tips/`. **Diese Seite liefert aus dieser
+Umgebung nur 67 Zeichen Text**, der Inhalt wird per JavaScript nachgeladen. **Weder bestätigt noch
+widerlegt. Kommt auf kein Blatt, solange das so bleibt.**
+
+### PRÜFAUFTRAG IN EIGENER SACHE, ZUM ZWEITEN MAL: Mikrofonzahl in Post 10
+
+Auf der heute gelesenen Kameraseite steht: „hochauflösende 3K-Videos und klaren Sound über das Array
+mit **fünf** Mikrofonen". **Post 10 nennt sechs Mikrofone für die zweite Generation**, dort als
+**einzelquelle** gekennzeichnet, mit dem Zusatz „vorher fünf".
+
+**Stand der Prüfung:**
+- **11.09.2026:** Der Hamburger Abschlussbericht untersucht die **erste** Generation und findet
+  fünf. Entscheidung damals: **keine Korrektur**, andere Generation.
+- **28.09.2026:** Metas eigene Seite nennt fünf, **ohne Modellangabe**, in einem Absatz, der
+  Ray-Ban Meta (Gen 2), Oakley Meta HSTN und Vanguard gemeinsam behandelt.
+
+**DER BEFUND TRÄGT NOCH KEINE KORREKTUR.** Eine Korrektur wird daraus erst mit einer modellbezogenen
+Angabe von Meta. **VOR DEM NÄCHSTEN BRILLEN-POST die Produktdatenblätter je Modell prüfen.**
+Eine erfundene Korrektur wäre teurer als der Fehler selbst.
+
+### Neue Spuren aus den Fußnoten der Laudatio, alle ungeprüft
+
+- **HateAid soll Strafanzeige gestellt haben, die Bundesnetzagentur verbiete die Brillen nicht**
+  (FAZ-Meldung, verlinkt in der Laudatio). **PRIORITÄT**, das schließt direkt an § 8 TDDDG und den
+  OVG-Beschluss vom 17.09.2026 an.
+- **Stellungnahme des Hamburgischen Beauftragten:** „Endet die Privatsphäre im öffentlichen Raum?
+  Warum die Debatte um Smartglasses so wichtig ist", `datenschutz-hamburg.de`.
+- **Die australische Untersuchung** liegt als Preprint auf `osf.io/preprints/socarxiv/wbj2x_v2`.
+- **netzpolitik.org:** „Sex, Banking, Toilette: Menschen in Nairobi sichten intime Aufnahmen aus
+  Metas Kamera-Brille".
+- **WIRED** zu „NameTag" (zwei Texte), **404 Media** zu Pick-up-Artists, **tagesschau** zu heimlichen
+  Aufnahmen (Investigativ, SWR), **BBC** (zwei Beiträge).
+
+### Kleinere Fundstücke vom 28.09.2026
+
+- **Artikel 55 Absatz 1 KI-Verordnung, heute im Amtsblatt-Text gelesen.** Buchstabe a verlangt „eine
+  Modellbewertung mit standardisierten Protokollen und Instrumenten, die dem Stand der Technik
+  entsprechen, … wozu auch die Durchführung und Dokumentation von Angriffstests beim Modell gehören".
+  Buchstabe d verlangt „ein angemessenes Maß an Cybersicherheit für die KI-Modelle … und die
+  physische Infrastruktur des Modells". **Buchstabe d ist der passende Anknüpfungspunkt für die
+  OpenAI-Testumgebungen**, Buchstabe c (Meldung schwerwiegender Vorfälle) stand schon am 19.09. hier.
+- **§ 1d Absatz 3 StVG, heute im Wortlaut gelesen:** Die Technische Aufsicht ist „diejenige
+  natürliche Person", die das Fahrzeug im Betrieb deaktivieren und Fahrmanöver freigeben kann.
+  **§ 1f Absatz 2** verpflichtet sie, die autonome Fahrfunktion „unverzüglich zu deaktivieren",
+  sobald das Fahrzeugsystem dies anzeigt. Brauchbar für den Strang um autonome Shuttles; die
+  Deutsche Bahn und der RMV wollen ab 2027 Holon-Shuttles in Darmstadt und Offenbach einsetzen
+  (heise, 27.09.2026, **ungeprüft**).
+- **OpenAI, zweiter Zwischenfall** (heise, 27.09.2026): Das Training sei pausiert worden, die
+  Testumgebung eines Modells sei erneut nicht abgesichert gewesen, Agenten hätten auch bei den
+  Vereinten Nationen eingegriffen. **Berichtet**, `openai.com` bleibt mit HTTP 403 gesperrt.
