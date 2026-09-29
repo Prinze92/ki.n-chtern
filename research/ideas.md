@@ -3309,3 +3309,77 @@ Eine erfundene Korrektur wäre teurer als der Fehler selbst.
 - **OpenAI, zweiter Zwischenfall** (heise, 27.09.2026): Das Training sei pausiert worden, die
   Testumgebung eines Modells sei erneut nicht abgesichert gewesen, Agenten hätten auch bei den
   Vereinten Nationen eingegriffen. **Berichtet**, `openai.com` bleibt mit HTTP 403 gesperrt.
+
+---
+
+## Recherchierte Einzelbefunde vom 29.09.2026
+
+**Rückstau bei vier, siebenundzwanzigster Tag ohne Neubau.**
+
+### ZWEITE BEHÖRDE IM BRILLEN-KANDIDATEN: Die Bundesnetzagentur und dieselbe LED
+
+Offener Punkt mit Priorität vom 28.09.2026, heute bearbeitet.
+
+**Was sich feststellen ließ:** Die **Bundesnetzagentur** sieht in den Kamerabrillen von Meta **kein
+nach § 8 TDDDG verbotenes Gerät**. Begründung: Die eingebaute LED warne die Umgebung vor laufenden
+Aufnahmen; Smart Glasses blieben zulässig, solange die Aufnahmefunktion klar erkennbar sei und
+unbeteiligte Dritte wahrnehmen könnten, dass aufgenommen wird. **Meta habe eingeräumt, dass die LED
+bei der Nutzung von KI-Funktionen aus bleibt.** Eine abschließende Bewertung der KI-Funktionen sei
+nicht möglich, das Modell **Ray-Ban Meta Wayfarer Gen 2** sei noch nicht im Detail geprüft. Die
+Behörde beobachte den Markt weiter, Ermittlungs- und Verwaltungsverfahren könnten folgen.
+
+**BELASTBARKEIT: BERICHTET, mit zwei Einschränkungen.**
+1. Grundlage ist eine **Stellungnahme der Behörde gegenüber der Frankfurter Allgemeinen Zeitung**,
+   kein veröffentlichtes Dokument.
+2. **Die Daten widersprechen sich:** eine Wiedergabe nennt den 15.08.2026, eine andere den
+   26.08.2026. **Nicht auflösbar ohne das Behördendokument.**
+**Die Seite `bundesnetzagentur.de/.../HinweiseProduktkategorien/Par8_TDDDG.html` liefert aus dieser
+Umgebung nur 3.081 Zeichen Navigation**, der Inhalt wird per JavaScript nachgeladen. Dieselbe
+Einschränkung wie bei Metas Reiseseite am 28.09. **OHNE DAS DOKUMENT KEIN ZITAT DER BUNDESNETZAGENTUR
+AUF EINEM BLATT.**
+
+**DIE KETTE, wenn sie sich bestätigt:**
+- **Meta, Produktseite (28.09. im Original gelesen):** „Die Aufnahme-LED schaltet sich automatisch
+  ein … So wissen andere, dass du gerade etwas aufnimmst."
+- **Bundesnetzagentur (August 2026, berichtet):** kein Verbot, gestützt auf diese LED.
+- **Datenschutzkonferenz (24.09.2026, im Original gelesen):** „Eine ‚Hinweis-LED' genügt hierfür
+  nicht."
+- **Und die LED bleibt bei KI-Funktionen aus.**
+
+**UNTERSCHEIDUNG, DIE AUF DAS BLATT GEHÖRT, sonst wird der Post falsch:** Die beiden Behörden
+beantworten verschiedene Fragen. Die Bundesnetzagentur prüft, ob das Gerät eine verbotene
+Telekommunikationsanlage nach § 8 TDDDG ist, also die Verkehrsfähigkeit. Die Datenschutzkonferenz
+prüft, ob die tragende Person mit der LED ihre Informationspflicht nach der DSGVO erfüllt.
+**Kein logischer Widerspruch. Dasselbe Lämpchen trägt einmal die Erlaubnis und einmal nicht die
+Pflicht.** Das ist der Post.
+
+**Weitere Spur, ungeprüft:** CORRECTIV-Recherche, nach der am **18.09.2026** Bundespolitikerinnen
+Verbote von Smart Glasses gefordert haben sollen. **Vorgemerkt.**
+
+### Geprüfte Normen und Dokumente vom 29.09.2026
+
+- **Artikel 50 Absatz 4 KI-Verordnung, im Amtsblatt-Text gelesen, wörtlich:** „Betreiber eines
+  KI-Systems, das Bild-, Ton- oder Videoinhalte erzeugt oder manipuliert, die ein Deepfake sind,
+  müssen offenlegen, dass die Inhalte künstlich erzeugt oder manipuliert wurden." Ausnahme für die
+  gesetzlich zugelassene Strafverfolgung; abgeschwächte Pflicht bei offensichtlich künstlerischen,
+  kreativen, satirischen oder fiktionalen Werken. **Der Punkt für einen Kommentar:** Die Pflicht
+  trifft den Betreiber, also bei einem Betrug den Täter.
+- **Entschließung der Datenschutzkonferenz zur Chatkontrolle, im Original gelesen.**
+  **ACHTUNG BEIM DATUM:** Die Entschließung trägt den **17. April 2026**, die Pressemitteilung dazu
+  den 05.05.2026; der Dateiname führt in die Irre. Wörtlich: „Für einen Eingriff muss ein konkreter
+  Anlass bestehen, der gerade von der überwachten Person gesetzt wurde." Die DSK verweist auf ihre
+  frühere Entschließung vom 17.10.2023 und hält die Eignung der Maßnahme für zweifelhaft, weil sich
+  die Erkennung durch geringfügige Bildmanipulationen umgehen lasse.
+
+### Kleinere Fundstücke vom 29.09.2026
+
+- **Millionenbetrug bei einer italienischen Bank** (heise, 29.09.2026): WhatsApp-Nachrichten eines
+  vermeintlichen Konzernchefs, dann ein Anruf eines angeblichen Anwalts, am Ende überwies ein
+  Bankier **95 Millionen Euro**. **Berichtet**, keine Primärquelle geprüft. **Vorgemerkt**, das liegt
+  nah am Leitprinzip.
+- **Chatkontrolle** (heise, 28.09.2026): Geleakte EU-Dokumente sollen vor dem Trilog den Plan
+  zeigen, anlasslose Massenscans privater Nachrichten über Verwaltungsentscheidungen zu erlauben.
+  **Berichtet**, Dokumente nicht gesehen. **Vorgemerkt mit Priorität.**
+- **EU-Strategiewechsel bei KI** (heise, 28.09.2026): Die Kommission wolle den Einsatz in Industrie
+  und öffentlichem Sektor fördern statt Frontier-Modelle. **Ungeprüft, vorgemerkt mit Priorität**,
+  berührt Post 27 und 29.
