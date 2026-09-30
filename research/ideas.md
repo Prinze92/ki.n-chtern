@@ -3383,3 +3383,84 @@ Verbote von Smart Glasses gefordert haben sollen. **Vorgemerkt.**
 - **EU-Strategiewechsel bei KI** (heise, 28.09.2026): Die Kommission wolle den Einsatz in Industrie
   und öffentlichem Sektor fördern statt Frontier-Modelle. **Ungeprüft, vorgemerkt mit Priorität**,
   berührt Post 27 und 29.
+
+---
+
+## Recherchierte Einzelbefunde vom 30.09.2026
+
+**Rückstau bei vier, achtundzwanzigster Tag ohne Neubau.**
+
+### NEUER KANDIDAT, STÄRKSTER SEIT WOCHEN: ePA-Daten trainieren KI, wenn niemand widerspricht
+
+Der Punkt „ePA-Datenausleitung" stand seit Wochen auf der Vorgemerkt-Liste. Heute hat er ein Datum
+und eine Rechtsgrundlage im Wortlaut. **Von der Vorgemerkt-Liste gestrichen, jetzt Kandidat.**
+
+**ANLASS, berichtet:** heise online vom **29.09.2026**. Ab **Ende Oktober** flössen erste
+pseudonymisierte Daten aus der elektronischen Patientenakte an das **Forschungsdatenzentrum
+Gesundheit beim Bundesinstitut für Arzneimittel und Medizinprodukte**, zunächst aus der
+**elektronischen Medikationsliste**. Der Verbraucherzentrale Bundesverband kritisiere, **drei
+Viertel** der Verbraucher hätten von der Ausleitung nichts gewusst. **Datum, Zuschnitt und Zahl sind
+NICHT am Original geprüft.**
+
+**RECHTSLAGE, heute im Wortlaut gelesen, belastbar:**
+
+**§ 363 Absatz 1 SGB V:** „Die Daten der elektronischen Patientenakte werden für die in § 303e
+Absatz 2 aufgeführten Zwecke zugänglich gemacht, soweit Versicherte nicht der Datenübermittlung nach
+Absatz 5 widersprochen haben." **Widerspruchslösung. Wer nichts tut, ist dabei.**
+Absatz 2: automatisierte Übermittlung, ausschließlich zuverlässig automatisiert pseudonymisierte
+Daten, Dokumentation in der ePA.
+
+**§ 303e Absatz 2 Nummer 9 SGB V, DAS PANEL, wörtlich:** „Entwicklung, Weiterentwicklung und
+Überwachung der Sicherheit von Arzneimitteln, Medizinprodukten, Untersuchungs- und
+Behandlungsmethoden, Hilfs- und Heilmitteln, digitalen Gesundheits- und Pflegeanwendungen sowie
+Systemen der Künstlichen Intelligenz im Gesundheitswesen einschließlich des Trainings, der
+Validierung und des Testens dieser Systeme der Künstlichen Intelligenz".
+**KI-Training mit Patientenaktendaten ist eine eigene Nummer in der Zweckliste.**
+
+**§ 363 Absatz 5:** Widerspruch „jederzeit" gegenüber den nach § 341 Absatz 4 Verantwortlichen, zu
+erklären „über die Benutzeroberfläche eines geeigneten Endgeräts oder gegenüber der Ombudsstelle
+gemäß § 342a"; er kann auf bestimmte Zwecke nach § 303e Absatz 2 beschränkt werden und wird mit
+Datum und Uhrzeit dokumentiert.
+
+**§ 363 Absatz 6, DAS ZWEITE PANEL, wörtlich:** „Die bis zur Erklärung des Widerspruchs nach
+Absatz 5 übermittelten und für konkrete Forschungsvorhaben bereits verwendeten Daten dürfen
+weiterhin für diese Forschungsvorhaben verarbeitet werden. Die Rechte der betroffenen Person nach
+den Artikeln 17, 18 und 21 der Verordnung (EU) 2016/679 sind insoweit für diese Forschungsvorhaben
+ausgeschlossen." **Löschung, Einschränkung und Widerspruch nach DSGVO sind für laufende Vorhaben
+ausgeschlossen.**
+
+**§ 363 Absatz 7:** Das Bundesministerium für Gesundheit wird ermächtigt, durch Rechtsverordnung das
+Nähere zu regeln, unter anderem zu „den technischen und organisatorischen Einzelheiten der
+Datenfreigabe, der Datenübermittlung, der Pseudonymisierung und des Widerspruchs".
+
+**SÄULE:** Betrifft dich. **BAUFORM:** Inhaltlich passt Der Widerspruch (Absatz 5 gegen Absatz 6),
+aber die Rotation spricht dagegen, er war zuletzt mehrfach dran. **Die Rekonstruktion** entlang
+Gesetz, Frist, Widerspruch, Grenze ist die Alternative. **Entscheidung beim Bau, in `post.md`
+festhalten.**
+
+**OFFEN VOR DEM BAU:**
+1. Startdatum und Zuschnitt an einer amtlichen Quelle (Gematik, BfArM, BMG).
+2. **Ob die Rechtsverordnung nach § 363 Absatz 7 erlassen ist. Ungeprüft.** Wäre es die dritte
+   Lücke dieser Art nach dem Schulkandidaten und dem Kottbusser Tor.
+3. Die Drei-Viertel-Zahl des vzbv samt Erhebungsmethode.
+4. **Eine Gegenstimme aus der Forschung, die den Nutzen benennt. Muss auf ein Blatt**, sonst wird
+   der Post einseitig.
+
+**ABGRENZUNG:** Überschneidet sich mit dem Kandidaten vom 22.09. (Polizei und Training mit
+vorhandenen Daten). Beide handeln vom Training mit Daten, die der Staat oder eine staatliche Stelle
+schon hat. **Nicht hintereinander posten.**
+
+### Kleinere Fundstücke vom 30.09.2026
+
+- **Artikel 5 Absatz 1 Buchstabe f KI-Verordnung, heute im Wortlaut gelesen:** verboten ist „die
+  Verwendung von KI-Systemen zur Ableitung von Emotionen einer natürlichen Person am Arbeitsplatz
+  und in Bildungseinrichtungen, es sei denn, die Verwendung des KI-Systems soll aus medizinischen
+  Gründen oder Sicherheitsgründen eingeführt oder auf den Markt gebracht werden". **Das Verbot ist
+  enger, als es oft wiedergegeben wird**, es gilt nur für diese beiden Orte. Buchstabe e verbietet
+  daneben das ungezielte Auslesen von Gesichtsbildern aus dem Internet oder aus
+  Überwachungsaufnahmen zum Aufbau von Gesichtserkennungsdatenbanken.
+- **Florida hat eine einstweilige Verfügung gegen OpenAI beantragt** (heise, 29.09.2026), ChatGPT
+  solle nicht menschlich wirken. **Ungeprüft**, US-Verfahren. **Vorgemerkt**, berührt den Kandidaten
+  zum EU Kids Act und den KI-Begleitern.
+- **US-Bundesberufungsgericht erlaubt anlasslose Handy-Durchsuchungen bei der Einreise** (heise,
+  30.09.2026). **Ungeprüft**, kein KI-Kern. **Vorgemerkt.**
