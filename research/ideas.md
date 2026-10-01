@@ -3464,3 +3464,83 @@ schon hat. **Nicht hintereinander posten.**
   zum EU Kids Act und den KI-Begleitern.
 - **US-Bundesberufungsgericht erlaubt anlasslose Handy-Durchsuchungen bei der Einreise** (heise,
   30.09.2026). **Ungeprüft**, kein KI-Kern. **Vorgemerkt.**
+
+---
+
+## Recherchierte Einzelbefunde vom 01.10.2026
+
+**Rückstau bei vier, neunundzwanzigster Tag ohne Neubau.**
+
+### KANDIDAT 1 WIRD DEUTLICH BESSER: drei offene Punkte bearbeitet
+
+**ERLEDIGT, amtliche Bestätigung des Monats.** Bundesgesundheitsministerium, Fragen-und-Antworten-
+Seite zum Forschungsdatenzentrum Gesundheit, heute im Original gelesen, wörtlich: „Im FDZ Gesundheit
+werden verschlüsselte (anonymisierte und pseudonymisierte) Abrechnungsdaten der gesetzlichen
+Krankenkassen und **voraussichtlich ab Oktober 2026** für die Forschung freigegebene Daten aus der
+elektronischen Patientenakte (ePA) vorgehalten und auf Antrag über sichere Verarbeitungsumgebungen
+zugänglich gemacht." **Der Monat ist damit amtlich.** Das kursierende genaue Datum (30. Oktober) und
+die Beschränkung auf die elektronische Medikationsliste bleiben **berichtet**.
+**Nebenbefund, begrenzt belastbar:** Auf der heute gelesenen Fassung dieser Seite kommt das Wort
+„Widerspruch" nicht vor.
+
+**NEGATIVBEFUND, WICHTIG, verhindert einen falschen Post.** Gestern stand hier als offener Punkt, ob
+die Rechtsverordnung nach § 363 Absatz 7 SGB V erlassen ist, mit dem Hinweis, es wäre nach dem
+Schulkandidaten und dem Kottbusser Tor die dritte Lücke desselben Musters. **Die Vermutung ist
+falsch.** Es gibt die **Forschungsdatenzentrum Gesundheit-Verordnung (FDZGesV)**, abrufbar unter
+`gesetze-im-internet.de/fdzgesv/`. Teil 3 regelt das Datenfreigabeverfahren aus der elektronischen
+Patientenakte: § 7 Übermittlung, § 8 Widerspruch, § 9 Pseudonymisierung und Verschlüsselung,
+§ 10 Übermittlung an FDZ und Vertrauensstelle, § 13 Informationspflichten und Datencockpit.
+**KEIN DRITTER FALL DES MUSTERS.** Das ist hier festgehalten, damit derselbe falsche Gedanke nicht
+noch einmal entsteht.
+
+**DER FUND, DER DEN POST TRÄGT. § 8 Absatz 2 FDZGesV:** Versicherte können entweder „einer
+Übermittlung von Daten aus der elektronischen Patientenakte insgesamt widersprechen
+(Gesamtwiderspruch)" oder „einer Weiterverarbeitung von Daten aus der elektronischen Patientenakte
+nur für einen oder mehrere der in § 303e Absatz 2 des Fünften Buches Sozialgesetzbuch genannten
+Zwecke widersprechen (Teilwiderspruch)."
+**Das heißt: Man kann gezielt der Nummer 9 widersprechen, also dem Training, der Validierung und dem
+Testen von KI-Systemen, ohne der Forschung insgesamt zu widersprechen.** **Das ist die konkrete
+Handlung für den Leser**, und sie stand in keiner der gesehenen Meldungen.
+
+**FAIRNESS-SATZ, gehört aufs Blatt. § 8 Absatz 2 Satz 2 FDZGesV, wörtlich:** „Wenn bei Erklärungen
+von Versicherten nicht zweifelsfrei ermittelbar ist, ob ein Teilwiderspruch oder ein
+Gesamtwiderspruch erklärt wurde, gilt die Erklärung als Gesamtwiderspruch." **Die Auslegungsregel
+geht zugunsten der Versicherten.** Ohne diesen Satz wird der Post einseitig.
+
+**§ 13 FDZGesV, Datencockpit:** Über die Benutzeroberfläche eines geeigneten Endgeräts sind die
+Übermittlungen „übersichtlich nachvollziehbar" zu machen; dort kann der Widerspruch erklärt werden;
+dort stehen die übermittelten Daten samt Zeitpunkt, die Zwecke nach § 303e Absatz 2 und erklärte
+Widersprüche samt Zeitpunkt und Beschränkung.
+**§ 7 Absatz 1 FDZGesV** nennt vier Voraussetzungen der Übermittlung, darunter die zuverlässige
+automatisierte Pseudonymisierbarkeit und das Fehlen eines Gesamtwiderspruchs. **§ 7 Absatz 2:** Die
+Daten „werden erstmals sechs Wochen nach Ablauf der in § 342 Absatz 2 Nummer 4 des Fünften Buches
+Sozialgesetzbuch genannten Frist übermittelt."
+
+**NOCH OFFEN:** das genaue Startdatum an amtlicher Stelle, die Drei-Viertel-Zahl des vzbv samt
+Methode, eine Gegenstimme aus der Forschung.
+
+### Geprüfte Normen vom 01.10.2026
+
+- **§ 90 Absatz 1 Nummer 3 Betriebsverfassungsgesetz, im Wortlaut gelesen:** Der Arbeitgeber hat den
+  Betriebsrat über die Planung „von Arbeitsverfahren und Arbeitsabläufen **einschließlich des
+  Einsatzes von Künstlicher Intelligenz**" rechtzeitig und unter Vorlage der erforderlichen
+  Unterlagen zu unterrichten. **KI steht ausdrücklich im Gesetz.** Absatz 2 verlangt rechtzeitige
+  Beratung, damit Vorschläge und Bedenken noch berücksichtigt werden können.
+  **§ 87 Absatz 1 Nummer 6 BetrVG** daneben: Mitbestimmung bei „Einführung und Anwendung von
+  technischen Einrichtungen, die dazu bestimmt sind, das Verhalten oder die Leistung der
+  Arbeitnehmer zu überwachen". **Beides für den Arbeitsstrang aufgehoben.**
+- **§ 630f Absatz 1 BGB, im Wortlaut gelesen:** Der Behandelnde führt die Behandlungsakte „in
+  unmittelbarem zeitlichen Zusammenhang mit der Behandlung"; Berichtigungen und Änderungen sind „nur
+  zulässig, wenn neben dem ursprünglichen Inhalt erkennbar bleibt, wann sie vorgenommen worden
+  sind", auch elektronisch. Absatz 3: zehn Jahre Aufbewahrung. **Für den Strang um Post 30.**
+
+### Kleinere Fundstücke vom 01.10.2026
+
+- **KI-Agenten am Arbeitsplatz** (heise, 01.10.2026): Nach dem **Work Relationship Index 2026**,
+  erhoben im Auftrag von **Hewlett-Packard**, nutzen **49 Prozent** der deutschen Beschäftigten
+  KI-Agenten, 45 Prozent über alle Büroarbeitsplätze, 64 Prozent bei IT-Entscheidern, 63 Prozent im
+  Management. **43 Prozent** der Agenten-Nutzenden fürchten Verdrängung, gegenüber **27 Prozent**
+  bei klassischer generativer KI; **60 Prozent** berichten von „Jobhugging". Stichprobe 19.506
+  Büroangestellte in 15 Ländern, Erhebung 20.04. bis 20.05.2026.
+  **Belastbarkeit: einzelquelle.** Auftraggeber ist ein Hardwarehersteller, die Definition des
+  „KI-Agenten" stammt aus der Studie. **Ohne Fragebogen keine Balken.**
