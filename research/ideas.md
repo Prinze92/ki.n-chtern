@@ -3544,3 +3544,80 @@ Methode, eine Gegenstimme aus der Forschung.
   Büroangestellte in 15 Ländern, Erhebung 20.04. bis 20.05.2026.
   **Belastbarkeit: einzelquelle.** Auftraggeber ist ein Hardwarehersteller, die Definition des
   „KI-Agenten" stammt aus der Studie. **Ohne Fragebogen keine Balken.**
+
+---
+
+## Recherchierte Einzelbefunde vom 02.10.2026
+
+**Rückstau bei vier, dreißigster Tag ohne Neubau.**
+
+### KORREKTUR IN EIGENER SACHE: das Startdatum der ePA-Ausleitung
+
+**In den Briefings vom 30.09. und 01.10.2026 stand, ab Ende Oktober flössen Daten aus der
+elektronischen Patientenakte an das Forschungsdatenzentrum. Das war zu kurz gegriffen.**
+Grundlage waren eine Meldung vom 29.09.2026 und die Monatsangabe des Bundesgesundheitsministeriums.
+Am 01.10.2026 schreibt dieselbe Redaktion, die Weitergabe beginne „voraussichtlich 2027".
+
+**Heute am Gesetz geprüft, und die Auflösung ist präziser als beide Meldungen.**
+
+**§ 342 Absatz 2 Nummer 4 SGB V, wörtlich:** „zusätzlich, sobald die hierfür erforderlichen
+Voraussetzungen vorliegen, spätestens jedoch bis zum **30. Oktober 2026**, die in der elektronischen
+Patientenakte gespeicherten Daten nach § 363 zu Forschungszwecken bereitgestellt werden können".
+**Das ist die Frist für die technische Bereitstellbarkeit, nicht der Tag der ersten Ausleitung.**
+
+**§ 7 Absatz 2 FDZGesV, wörtlich:** „Die Daten nach Absatz 1 werden erstmals sechs Wochen nach
+Ablauf der in § 342 Absatz 2 Nummer 4 des Fünften Buches Sozialgesetzbuch genannten Frist
+übermittelt."
+
+**Sechs Wochen nach dem 30.10.2026 ist der 11.12.2026.** Die Rechnung ist eigene Arbeit, die beiden
+Fundstellen nicht.
+
+**WAS DARAUS FOLGT, und es ist der beste Teil des Kandidaten:** Der kursierende 30. Oktober ist der
+Stichtag für die Technik. Wer widersprechen will, hat nach dem Verordnungstext sechs Wochen länger
+Zeit. **Das steht in keiner der gesehenen Meldungen.** Die Angabe „voraussichtlich 2027" lässt sich
+mit dem Verordnungstext nicht zusammenbringen, solange die Frist eingehalten wird; **ob sie
+eingehalten wird, ist offen.**
+
+### ePA-Zahlen, berichtet, mit Quelle und Stichtag
+
+Aus der Meldung vom 01.10.2026, gestützt auf das **TI-Dashboard der Gematik** und **TI-Monitoring**,
+Stichtag Oktober 2026:
+- **73 Millionen** angelegte ePA bei gesetzlichen Krankenkassen, bei rund **74,5 Millionen**
+  Versicherten; **386.000** bei privaten Versicherern.
+- **über 5 Millionen** Versicherte mit GesundheitsID; nach einer Studie der Ernst-Abbe-Hochschule
+  Jena interessiert sich nur **ein Viertel** der Bürger für die Nutzung.
+- rund **3,3 Millionen** hochgeladene und **1,15 Millionen** heruntergeladene Dokumente je Woche.
+- September 2026: bei VSDM 2.0 mindestens **1.102 Prüfintervalle** nicht verfügbar, zusammen über
+  **90 Stunden**; D-Trust-Ausfälle am 7., 8. und 10.09.; Störung im zentralen Netz am 18.09. für
+  rund zwei Stunden.
+
+**Belastbarkeit: berichtet.** Das TI-Dashboard ist eine amtsnahe Primärquelle, **aber nicht
+gelesen**. **Vor einem Post dort direkt nachsehen.** **Balken-Kandidat:** 73 von 74,5 Millionen
+gegen ein Viertel Interesse.
+
+### Kalifornien: Veto gegen das Gesetz zu heimlichen Aufnahmen
+
+Gouverneur **Gavin Newsom** hat den Gesetzentwurf **SB 1130** von Senatorin **Eloise Gómez Reyes**
+abgelehnt, der heimliche Aufnahmen durch tragbare Geräte wie Smart Glasses unter Strafe gestellt
+hätte, mit Geld- und Haftstrafen für Täter und Bußgeldern für Hersteller. Begründung nach der
+Meldung: zu weit gefasst und unpräzise, kalifornisches Recht schütze die Privatsphäre bereits dort,
+wo ein Anspruch darauf bestehe. **Belastbarkeit: berichtet**, der Vetobrief ist nicht gelesen.
+**Für den Brillen-Kandidaten:** dasselbe Muster wie hier, geschützt ist der Raum mit
+Privatsphäreanspruch, der öffentliche Raum nicht.
+
+**§ 201a Absatz 1 Nummer 1 StGB, heute im Wortlaut gelesen:** Strafbar ist, wer „von einer anderen
+Person, die sich in einer Wohnung oder einem gegen Einblick besonders geschützten Raum befindet,
+unbefugt eine Bildaufnahme herstellt oder überträgt und dadurch den höchstpersönlichen Lebensbereich
+der abgebildeten Person verletzt". Absatz 2: strafbar auch, wer unbefugt eine Bildaufnahme, „die
+geeignet ist, dem Ansehen der abgebildeten Person erheblich zu schaden", einer dritten Person
+zugänglich macht. **Die Wohnung ist geschützt, die Straße nicht.**
+
+### Kleinere Fundstücke vom 02.10.2026
+
+- **Welche Daten senden Autos weiter** (heise, 01.10.2026): Forscher hätten **21 Pkw und ihre Apps**
+  untersucht, Tesla gelte als besonders datenhungrig. **Ungeprüft**, Untersuchung nicht gelesen,
+  erhebende Stelle nicht erfasst. **Vorgemerkt mit Priorität**, betrifft Leser unmittelbar.
+- **Google zahlt rund 100 Publisher für Inhalte in KI-Übersichten** (heise, 01.10.2026).
+  **Ungeprüft.** Berührt den am 20.09. verfallenen AlgorithmWatch-Kandidaten. **Vorgemerkt.**
+- **Moritz Hennemann wird Bundesbeauftragter für den Datenschutz** (heise, 01.10.2026). Für diesen
+  Kanal als künftige Quelle relevant. **Vorgemerkt.**
