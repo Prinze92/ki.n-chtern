@@ -3621,3 +3621,71 @@ zugänglich macht. **Die Wohnung ist geschützt, die Straße nicht.**
   **Ungeprüft.** Berührt den am 20.09. verfallenen AlgorithmWatch-Kandidaten. **Vorgemerkt.**
 - **Moritz Hennemann wird Bundesbeauftragter für den Datenschutz** (heise, 01.10.2026). Für diesen
   Kanal als künftige Quelle relevant. **Vorgemerkt.**
+
+---
+
+## Recherchierte Einzelbefunde vom 03.10.2026
+
+**Rückstau bei vier, einunddreißigster Tag ohne Neubau.** Feiertag, dünne Nachrichtenlage.
+
+### NORMTEXT FÜR DEN RECHENZENTREN-STRANG (Post 27)
+
+**§ 11 Energieeffizienzgesetz, heute im Wortlaut gelesen. Belastbarkeit: belastbar.**
+- **Absatz 1, Bestandsrechenzentren** (Betriebsaufnahme vor dem 01.07.2026): Energieverbrauchs-
+  effektivität kleiner oder gleich **1,5 ab dem 01.07.2027** und **1,3 ab dem 01.07.2030**, jeweils
+  im Jahresdurchschnitt dauerhaft.
+- **Absatz 2, Neubauten** (Betriebsaufnahme ab dem 01.07.2026): Energieverbrauchseffektivität
+  **kleiner oder gleich 1,2** und ein Anteil wiederverwendeter Energie von mindestens **10 Prozent**;
+  ab 01.07.2027 geplant **15 Prozent**, ab 01.07.2028 **20 Prozent**. „Die Anforderungen nach Satz 1
+  sind spätestens zwei Jahre nach Inbetriebnahme im Jahresdurchschnitt dauerhaft zu erreichen."
+  Der Stromeinsatz von Anlagen, die ausschließlich der Aufwertung der Abwärme dienen, bleibt bei der
+  Berechnung unberücksichtigt.
+
+**ANALYSE DAZU, BERICHTET, NICHT GELESEN.** Nach einer Meldung vom 02.10.2026 haben
+**Fraunhofer ISI**, das **Umweltinstitut München** und **AlgorithmWatch** untersucht, was eine
+Lockerung auf 1,3 bedeuten würde, die der Branchenverband Bitkom fordere und die über eine Novelle
+des Energieeffizienzgesetzes im Parlament anstehe. Genannte Zahlen: rund **5 TWh** zusätzlicher
+Jahresbedarf bis 2045, kumuliert etwa **42 TWh** von 2026 bis 2045; im Szenario mit rechnerischem
+**Design-PUE** statt gemessenem Betriebswert **9 TWh** jährlich; bei 5 Cent je Kilowattstunde
+ergäben kumuliert rund **75 TWh** einen Mehraufwand von etwa **3,75 Milliarden Euro**.
+**VORSICHT:** 42 und 75 TWh gehören zu verschiedenen Szenarien, die Wiedergabe lässt offen, welches
+welches ist. **Ohne die Studie kommt keine dieser Zahlen auf ein Blatt, ein Balken daraus wäre
+geraten.**
+
+### WERKZEUGNOTIZ: vier Quellen, die aus dieser Umgebung nur Navigation liefern
+
+Dasselbe Muster zum vierten Mal. HTTP 200, aber der Inhalt wird per JavaScript nachgeladen:
+1. **TI-Dashboard der Gematik** (`gematik.de/telematikinfrastruktur/ti-dashboard`), geprüft
+   03.10.2026, 3.954 Zeichen Navigation. **Damit bleiben die ePA-Zahlen vom 02.10. berichtet.**
+2. **Bundesnetzagentur**, `.../Datenschutz/MissbrauchSendeanlagen/HinweiseProduktkategorien/
+   Par8_TDDDG.html`, geprüft 29.09.2026, 3.081 Zeichen.
+3. **Meta**, `meta.com/de/ai-glasses/learn/travel-photography-tips/`, geprüft 28.09.2026,
+   67 Zeichen. (Die Seite `.../camera-capture-photo-video/` lieferte dagegen 7.832 Zeichen und ist
+   lesbar.)
+4. **DLRG**, Statistikseiten, geprüft 23.09.2026.
+
+**REGEL FÜR KÜNFTIGE LÄUFE:** Bei diesen Stellen zuerst nach PDF, Pressemitteilung oder Amtsblatt
+suchen. Eine Zahl aus einem Dashboard, das sich nicht lesen lässt, bleibt eine fremde Angabe.
+
+### Geprüfte Normen vom 03.10.2026
+
+- **§ 1 Absatz 1 Informationsfreiheitsgesetz, wörtlich:** „Jeder hat nach Maßgabe dieses Gesetzes
+  gegenüber den Behörden des Bundes einen Anspruch auf Zugang zu amtlichen Informationen." Satz 2
+  erstreckt das Gesetz auf sonstige Bundesorgane, soweit sie öffentlich-rechtliche
+  Verwaltungsaufgaben wahrnehmen; Satz 3 stellt Private gleich, deren sich eine Behörde zur
+  Erfüllung öffentlich-rechtlicher Aufgaben bedient. **Anlass:** heise berichtet am 02.10.2026 über
+  Pläne der Bundesregierung, die nach Darstellung von Datenschützern weniger Rechte, höhere Gebühren
+  und mehr Schwärzungen brächten. **Ungeprüft**, der Entwurf ist nicht gelesen.
+  **Vorgemerkt mit Priorität**, das Gesetz ist Arbeitsgrundlage dieses Kanals.
+
+### Kleinere Fundstücke vom 03.10.2026
+
+- **Altersverifikation im Fediverse** (heise, 02.10.2026): Der KIDS Act stelle Mastodon und das
+  Fediverse vor technische und organisatorische Probleme. **Ungeprüft**, gehört zum
+  Kids-Act-Kandidaten. **Vorgemerkt.**
+- **Fobizz-Auswertung** (heise, 02.10.2026): Lehrkräfte entwickelten KI-Assistenten mehrheitlich als
+  Lernbegleiter für Schüler; ob die Systeme im Unterricht ankommen, bleibe offen. **Ungeprüft**,
+  Datengrundlage unbekannt. **Vorgemerkt** für den Schulstrang.
+- **Kammergericht Berlin** (heise, 02.10.2026): Wer Kundenmails automatisch abweist, verstößt gegen
+  das Digitale-Dienste-Gesetz. Kein KI-Kern, aber derselbe Verbraucherstrang wie der
+  Bestellen-Button-Fall vom 26.09.2026. **Aktenzeichen nicht erfasst. Vorgemerkt.**
