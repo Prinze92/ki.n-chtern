@@ -3689,3 +3689,89 @@ suchen. Eine Zahl aus einem Dashboard, das sich nicht lesen lässt, bleibt eine 
 - **Kammergericht Berlin** (heise, 02.10.2026): Wer Kundenmails automatisch abweist, verstößt gegen
   das Digitale-Dienste-Gesetz. Kein KI-Kern, aber derselbe Verbraucherstrang wie der
   Bestellen-Button-Fall vom 26.09.2026. **Aktenzeichen nicht erfasst. Vorgemerkt.**
+
+---
+
+## Recherchierte Einzelbefunde vom 04.10.2026
+
+**Rückstau bei vier, zweiunddreißigster Tag ohne Neubau.** Der wichtigste Befund des Tages betrifft
+die eigene Arbeitsgrundlage und gehört deshalb an den Anfang.
+
+### BEFUND IN EIGENER SACHE: die hier benutzte KI-Verordnung ist die Fassung von 2024
+
+**Anlass:** netzpolitik.org schreibt am 03.10.2026, das EU-weite Verbot sogenannter Nudifier-Apps
+sei Teil der KI-Verordnung und trete am **2. Dezember 2026** in Kraft.
+
+**Gegenprüfung an der Textkopie im Scratchpad (`aiact.txt`):** Das Wort kommt null Mal vor, und
+Artikel 113 nennt als Geltungstermine nur den 02.02.2025, den 02.08.2025, den 02.08.2026 und den
+02.08.2027. **Der erste Gedanke, die Angabe sei falsch, war falsch.** Eine Suche ergibt
+übereinstimmend, dass das Verbot im Jahr 2026 durch einen Änderungsrechtsakt eingefügt wurde und ab
+dem 02.12.2026 gilt. **Belastbarkeit der Suche: berichtet**, der Änderungsrechtsakt ist nicht
+gelesen.
+
+**Der eigentliche Fehler liegt hier:** Die Datei stammt aus dem Amtsblatt `OJ:L_202401689` und ist
+die **Ursprungsfassung**. Sie enthält keine Änderung aus dem Jahr 2026. Jedes Zitat daraus gibt den
+Stand von 2024 wieder.
+
+**Betroffene Kommentar-Vorschläge**, keiner davon veröffentlicht:
+- **19.09.2026** — Artikel 55 Absatz 1 Buchstabe c
+- **28.09.2026** — Artikel 55 Absatz 1 Buchstabe d
+- **29.09.2026** — Artikel 50 Absatz 4
+- **30.09.2026** — Artikel 5 Absatz 1 Buchstabe f
+
+Keiner ist dadurch widerlegt, die Ursprungsfassung bleibt die Grundlage. **Aber keiner darf als
+geltender Wortlaut ausgegeben werden, solange keine konsolidierte Fassung vorliegt.**
+
+**AUFGABE MIT PRIORITÄT:** die Amtsblattnummer des Änderungsrechtsakts beschaffen und die
+KI-Verordnung in konsolidierter Fassung lesen. Bis dahin: **kein Panel und kein Kommentar mit einem
+Artikel der KI-Verordnung im Wortlaut.**
+
+### WERKZEUGNOTIZ: EUR-Lex antwortet am 04.10.2026 mit HTTP 202 und leerem Körper
+
+Geprüft wurden vier Adressen, alle mit demselben Ergebnis, **HTTP 202 bei null Byte**:
+1. konsolidierte KI-Verordnung über die CELEX-Form, Variante 1
+2. konsolidierte KI-Verordnung über die CELEX-Form, Variante 2
+3. Richtlinie (EU) 2024/1385 über die Amtsblatt-Form
+4. Produkthaftungsrichtlinie (EU) 2024/2853, **dieselbe Adresse hat am 23.09.2026 funktioniert**
+
+**Das ist kein Adressproblem, sondern ein Zustand des Dienstes.** Die Kopien von DSGVO,
+KI-Verordnung und Produkthaftungsrichtlinie im Scratchpad bleiben lesbar, sind aber Stände und
+keine aktuellen Fassungen. **Vor jedem Panel aus einem EU-Rechtsakt erneut versuchen und das
+Abrufdatum notieren.**
+
+### NEUER KANDIDAT: sexualisierte Deepfakes von Abgeordneten
+
+**Quelle:** netzpolitik.org vom 03.10.2026 über eine Untersuchung der Berliner Denkfabrik **Agora
+Digitale Transformation**, gefördert von der Stiftung Mercator. **Belastbarkeit: berichtet, die
+Studie ist nicht gelesen.**
+
+**Methode und Zahlen, wie der Beitrag sie beschreibt:**
+- **5.872 Abgeordnetennamen** aus den nationalen Parlamenten aller 27 EU-Staaten wurden auf
+  bekannten Deepfake-Seiten gesucht.
+- **38 direkte Funde** gefälschter sexualisierter Bilder oder Videos.
+- **147 Betroffene aus 22 EU-Ländern**, wenn Spuren bereits entfernter Inhalte und einschlägige
+  Werkzeuge mitgezählt werden.
+- **138 Frauen, neun Männer.**
+- **119 Abgeordnete** des Europäischen Parlaments fordern in einem offenen Brief schärfere
+  Maßnahmen.
+
+**Die Unterscheidung zwischen 38 und 147 gehört auf jedes Blatt**, das diese Zahl verwendet. Sie
+macht die Untersuchung nicht kleiner, sie macht sie nachvollziehbar.
+
+**Säule:** Betrifft dich, weil das Werkzeug jedem offensteht. **Bauform: Die Rekonstruktion.**
+**Offen:** die Studie im Original, dazu Datum und Fundstelle des Verbots, das nach dem Befund oben
+nicht aus der Textkopie von 2024 belegt werden kann.
+
+### Kleinere Fundstücke vom 04.10.2026
+
+- **Psychisch-Kranken-Gesetz in Nordrhein-Westfalen** (netzpolitik, 02.10.2026): Daten aus der
+  Unterbringung sollen für die Abschiebung nutzbar werden. Scharfer Datenbezug, **kein KI-Kern
+  erkennbar**, Gesetzentwurf nicht gelesen. **Vorgemerkt.**
+- **Chatkontrolle** (netzpolitik, 01.10.2026): Mitgliedstaaten und Parlament bleiben uneins. Der
+  Strang läuft seit dem 29.09.2026. **Vorgemerkt.**
+- **Verantwortungslose KI-Panik** (netzpolitik, 30.09.2026): Kommentar ohne Primärquelle.
+  **Vorgemerkt** als Gegenstimme für die Risikodebatte.
+- **Apple härtet Full Disk Access gegen KI-Agenten** (heise, 03.10.2026): Apps brauchen künftig eine
+  ausdrückliche Erlaubnis für den vollen Festplattenzugriff. **Ungeprüft**, aber brauchbarer Anlass
+  für den Arbeitsplatzstrang, § 87 Absatz 1 Nummer 6 BetrVG steht seit dem 01.10.2026 im Wortlaut
+  hier.
