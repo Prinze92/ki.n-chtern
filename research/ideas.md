@@ -3775,3 +3775,145 @@ nicht aus der Textkopie von 2024 belegt werden kann.
   ausdrückliche Erlaubnis für den vollen Festplattenzugriff. **Ungeprüft**, aber brauchbarer Anlass
   für den Arbeitsplatzstrang, § 87 Absatz 1 Nummer 6 BetrVG steht seit dem 01.10.2026 im Wortlaut
   hier.
+
+---
+
+## Recherchierte Einzelbefunde vom 05.10.2026
+
+**Rückstau bei vier, dreiunddreißigster Tag ohne Neubau.** Beide offenen Punkte von gestern sind
+geschlossen, und dabei ist ein Fehler im eigenen Repo aufgefallen.
+
+### DER ÄNDERUNGSRECHTSAKT ZUR KI-VERORDNUNG, BESCHAFFT
+
+**Verordnung (EU) 2026/1744 des Europäischen Parlaments und des Rates vom 8. Juli 2026**, Amtsblatt
+vom **24.07.2026**, Titel „Digital-Omnibus-Verordnung zur KI". Ändert die Verordnungen (EU)
+2024/1689, (EU) 2018/1139 und (EU) 2023/1230. In Kraft seit dem 27.07.2026.
+**Konsolidierte Fassung der KI-Verordnung, Stand 27.07.2026, heute im Volltext gelesen**
+(CELEX `02024R1689-20260727`). **Belastbarkeit: belastbar.**
+
+**EUR-Lex antwortet heute wieder normal.** Die gestern notierte Störung (HTTP 202 bei null Byte) war
+vorübergehend. Beide Adressformen, CELEX und Amtsblatt, liefern HTTP 200.
+
+**Die vier am 04.10. beanstandeten Kommentar-Vorschläge sind gegengeprüft und halten.** Artikel 55
+Absatz 1 Buchstaben c und d, Artikel 50 Absatz 4 und Artikel 5 Absatz 1 Buchstabe f stehen in der
+konsolidierten Fassung unverändert und ohne Änderungsmarkierung. Sie dürfen wieder als geltender
+Wortlaut verwendet werden.
+
+### FEHLER IN EIGENER SACHE: das Datum der Hochrisiko-Pflichten
+
+**Im Nachtrag vom 07.09.2026 steht, Anhang III Nummer 4 Buchstabe a gelte „seit dem 02.08.2026 im
+Grundsatz". Das ist falsch.**
+
+**Artikel 113 Buchstabe c, konsolidierte Fassung, wörtlich:** „Kapitel III Abschnitte 1, 2 und 3,
+mit Ausnahme von Artikel 6 Absatz 5, gelten ab dem: i) 2. Dezember 2027 in Bezug auf KI-Systeme, die
+gemäß Artikel 6 Absatz 2 und Anhang III als hochriskant eingestuft sind, und ii) 2. August 2028 in
+Bezug auf KI-Systeme, die gemäß Artikel 6 Absatz 1 und Anhang I als hochriskant eingestuft sind".
+
+**Anhang III Nummer 4 Buchstabe a ist unverändert** und erfasst KI-Systeme, die bestimmungsgemäß für
+Einstellung oder Auswahl verwendet werden sollen, „insbesondere um gezielte Stellenanzeigen zu
+schalten, Bewerbungen zu sichten oder zu filtern und Bewerber zu bewerten".
+
+**Verschärfend:** Post 1 ist am 11.08.2026 veröffentlicht worden und hatte es richtig. Blatt 04
+streicht den 02.08.2026 durch und setzt den 02.12.2027 daneben, Blatt 05 nennt die Verordnung (EU)
+2026/1744, und die Checkliste in `post.md` führt die Fundstelle „ABl. L, 24.07.2026" samt ELI
+`reg/2026/1744`. **Der Rechtsakt, der am 04.10. als unbekannt vermerkt wurde, stand seit dem
+11.08.2026 mit Nummer und Datum im eigenen Repo.**
+
+**KEIN KORREKTUR-POST.** Die falsche Angabe war nie veröffentlicht, der veröffentlichte Post war
+richtig.
+
+**ARBEITSREGEL AB HEUTE:** Vor der Suche im Netz das eigene Archiv durchsuchen. Posts unter
+`archive/` sind Belegmaterial, auch wenn sie nicht mehr angefasst werden.
+
+**FOLGE FÜR DEN KI-MIG-KANDIDATEN (07.09.2026), und sie macht ihn besser:** Die Bundesnetzagentur
+ist seit dem 29.07.2026 Marktüberwachungsbehörde und zentrale Beschwerdestelle, das Beschwerderecht
+aus Artikel 85 gilt seit dem 02.08.2026. Die Pflichten, gegen deren Verletzung sich beschweren
+ließe, greifen für Bewerbungssoftware erst am 02.12.2027. **Eine Adresse, die es gibt, und ein
+Anspruch, der noch nicht entstanden ist.**
+
+### DAS NUDIFIER-VERBOT IM WORTLAUT
+
+**Geltungsbeginn, Artikel 113 Buchstabe a:** Kapitel I und II gelten ab dem 2. Februar 2025, „mit
+Ausnahme von Artikel 5 Absatz 1 Unterabsatz 1 Buchstaben ba und bb und Artikel 5 Absätze 1a und 1b,
+die ab dem 2. Dezember 2026 gelten".
+
+**Artikel 5 Absatz 1 Unterabsatz 1 Buchstabe ba, wörtlich:** verboten ist „das Inverkehrbringen, die
+Inbetriebnahme oder die Verwendung eines KI-Systems, das realistische Bild-, Video-, Ton- oder
+ähnliche Inhalte erzeugt oder manipuliert, in denen intime Körperteile einer bestimmbaren
+natürlichen Person dargestellt werden oder eine an eindeutig sexuellen Handlungen beteiligte
+bestimmbare Person dargestellt wird, ohne dass die betreffende Person eine aus freien Stücken
+erfolgende, spezifische, aufgeklärte, eindeutige und ausdrückliche Zustimmung zu dieser Erzeugung
+oder Manipulation erteilt hat".
+
+**Buchstabe bb** erfasst Material oder Darbietungen im Sinne von Artikel 2 Buchstaben c und e der
+Richtlinie 2011/93/EU, „es sei denn, nach nationalem Recht gilt das ‚unrechtmäßige' Verhalten als
+gerechtfertigt".
+
+**DIE EINSCHRÄNKUNG, DIE IN KEINER GELESENEN MELDUNG STAND. Artikel 5 Absatz 1a Buchstabe a:** Das
+Inverkehrbringen oder die Inbetriebnahme eines solchen Systems ist nur verboten, wenn die Erzeugung
+die Zweckbestimmung ist oder wenn sie aufgrund von Gestaltung, Training, Architektur, Fähigkeiten
+oder nutzerseitigen Funktionen „ein nach vernünftigem Ermessen absehbares und reproduzierbares
+Ergebnis ist, ohne dass erhebliche technische Änderungen erforderlich sind, und das System nicht
+über zumutbare und angemessene technische Sicherheitsmaßnahmen und andere Schutzvorkehrungen
+verfügt, um diese Erzeugung oder Manipulation ... zuverlässig zu verhindern".
+**Buchstabe b:** Die Verwendung ist nur verboten, wenn der Betreiber das System zu genau diesem
+Zweck einsetzt.
+**Absatz 1b:** Eine Manipulation, die „die Sichtbarkeit der dargestellten intimen Körperteile weder
+erhöht noch die Art der dargestellten eindeutig sexuellen Handlungen verändert", gilt nicht als
+manipulativ.
+
+**Was das heißt:** Ein allgemeiner Bildgenerator mit wirksamen Schutzvorkehrungen fällt nicht unter
+das Verbot. **Wer nur „Nudifier-Apps ab Dezember verboten" schreibt, lässt die Bedingung weg, an der
+sich entscheidet, wen es trifft.**
+
+### DIE DEEPFAKE-STUDIE IM ORIGINAL
+
+**Agora Digitale Transformation, Policy Brief „Who Gets Deepfaked? Measuring the exposure of
+European parliamentarians in deepfake pornography", Benjamin Shultz, September 2026, sieben Seiten.
+Heute im Volltext gelesen. Belastbarkeit: belastbar.**
+PDF: `agoradigital.de/wp-content/uploads/2026/09/ADT_Policy-Brief_Who-Gets-Deepfaked.pdf`
+
+**Methode:** 16. bis 20. Juli, Abfrage der Namen von **5.872** amtierenden Abgeordneten nationaler
+Parlamente aller 27 EU-Staaten gegen **160 Domains**, die bekanntermaßen Deepfake-Pornografie,
+„celebrity leaks" und heimliche Aufnahmen von Frauen des öffentlichen Lebens hosten. Das sind
+**94,4 Prozent** Abdeckung bei rund **6.218** Sitzen in Unter- und Einkammerparlamenten.
+
+**Kernergebnis, Formulierung der Studie:** **138 Abgeordnete** aus 22 Ländern wurden „depicted in or
+be associated with deepfake pornography" gefunden, gegenüber **neun Männern**, umgerechnet **eine
+von vierzehn Frauen gegenüber einem von fünfhundert Männern**. Nach Bereinigung um Alter,
+Migrationshintergrund, institutionelle Stellung, politische Richtung und nationale Rechtslage ein
+**33-faches** Risiko für Frauen.
+
+**DIE ZAHL 147 KOMMT IN DER STUDIE NICHT VOR.** Sie ist die Summe aus 138 und neun.
+
+**Kodiertabelle aus dem Anhang, Abgeordnete je Kategorie:**
+
+| Code | Bedeutung | Abgeordnete |
+|---|---|---|
+| C | Darstellung existiert und ist abrufbar | 38 |
+| G | Gateway-Seite, KI-Werkzeuge direkt neben Rohmaterial | 21 |
+| G- | Gateway-Seite ohne Rohmaterial | 36 |
+| S | namensbezogener Treffer, indexiert und auffindbar | 54 |
+| S- | indexiert, nicht auffindbar, Inhalt entfernt, gelöscht oder nie vorhanden | 135 |
+| R | Domain entfernt, Treffer bleibt indexiert | 47 |
+
+**Eigene Rechnung, als solche gekennzeichnet:** Die Spalte summiert sich auf 331 und ist damit
+größer als 147. Eine Person kann also in mehreren Kategorien stehen.
+
+**Zwei weitere Befunde:** Länder mit eigenen Deepfake-Gesetzen zeigen in den Daten keine geringere
+Betroffenheit, die Studie nennt das eine Durchsetzungslücke statt eines Politikversagens. Und nach
+der Beschlagnahme einer einschlägigen Domain waren **47 Treffer** von dort mehr als einen Monat
+später über Google noch auffindbar.
+
+**Offen für den Bau:** Das Beleg-Panel müsste ein englisches Zitat mit Übersetzung tragen, der Brief
+ist auf Englisch. Entscheidung beim Bau in `post.md` festhalten.
+
+### Kleinere Fundstücke vom 05.10.2026
+
+- **Dünner Tag.** netzpolitik.org hat am 04. und 05.10.2026 nichts veröffentlicht. heise hat drei
+  Beiträge: der „KI-Zar" der USA (04.10., 17:56 Uhr), ein Missing-Link-Essay zu KI-Assistenten
+  (04.10., 07:31 Uhr) und Nvidias DGX Spark (04.10., 18:02 Uhr), dazu am 05.10. um 06:52 Uhr eine
+  Meldung zur Umbenennung von SpaceXAI. **Die ersten beiden sind aus dieser Umgebung nicht
+  abrufbar**, die anderen beiden sind Produktnachrichten. **Nur ein Kommentar heute.**
+- **Falscher KI-Geheimdienstbericht vor einem US-Einsatz** (Frühjahr 2026, bei der Suche nach dem
+  KI-Zar aufgetaucht). **Ungeprüft**, kein deutscher Bezug. **Vorgemerkt.**
