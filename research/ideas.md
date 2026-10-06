@@ -3917,3 +3917,100 @@ ist auf Englisch. Entscheidung beim Bau in `post.md` festhalten.
   abrufbar**, die anderen beiden sind Produktnachrichten. **Nur ein Kommentar heute.**
 - **Falscher KI-Geheimdienstbericht vor einem US-Einsatz** (Frühjahr 2026, bei der Suche nach dem
   KI-Zar aufgetaucht). **Ungeprüft**, kein deutscher Bezug. **Vorgemerkt.**
+
+---
+
+## Recherchierte Einzelbefunde vom 06.10.2026
+
+**Rückstau bei vier, vierunddreißigster Tag ohne Neubau.** Zwei neue Kandidaten, beide mit Material
+im Original.
+
+### KENNZEICHNUNG VON KI-TEXT: DIE FRIST IST DER AUFHÄNGER
+
+**Anlass:** heise online, 06.10.2026, 06:16 Uhr, „OpenAI versieht KI-Text mit Wasserzeichen, aber
+nur in der EU". OpenAI führe ein Verfahren namens **Textgrain** ein, das KI-erzeugten Text
+maschinell erkennbar macht, ohne ihn sichtbar zu verändern; „in den kommenden Wochen" in ChatGPT und
+Codex, **nur in der EU**, außerhalb nicht Standard, aber für zahlende API-Kunden wählbar.
+
+**Produktzahlen, Belastbarkeit berichtet, Ankündigung von OpenAI nicht gelesen** (openai.com
+antwortet erneut mit HTTP 403):
+- Bei einem Prozent Fehlalarmquote und 200 Token: **78,5 Prozent** Erkennung bei psychologischen,
+  **36,5 Prozent** bei mathematischen Texten.
+- Austausch jedes zehnten Wortes: Erkennung von **92 auf 66 Prozent**. Jedes vierte Wort:
+  **17 Prozent**.
+
+**RECHTSLAGE, BELASTBAR, aus der konsolidierten Fassung vom 27.07.2026.**
+
+**Artikel 50 Absatz 2, wörtlich:** „Anbieter von KI-Systemen, einschließlich KI-Systemen mit
+allgemeinem Verwendungszweck, die synthetische Audio-, Bild-, Video- oder Textinhalte erzeugen,
+stellen sicher, dass die Ausgaben des KI-Systems in einem maschinenlesbaren Format gekennzeichnet
+und als künstlich erzeugt oder manipuliert erkennbar sind."
+
+**Artikel 111 Absatz 4, eingefügt durch die Verordnung (EU) 2026/1744, wörtlich:** „Anbieter von
+KI-Systemen, einschließlich KI-Systemen mit allgemeinem Verwendungszweck, die synthetische Audio-,
+Bild-, Video- oder Textinhalte erzeugen, die vor dem 2. August 2026 in Verkehr gebracht wurden,
+treffen die erforderlichen Maßnahmen, um Artikel 50 Absatz 2 bis zum 2. Dezember 2026
+nachzukommen."
+
+**DER PUNKT:** ChatGPT war vor dem 02.08.2026 auf dem Markt. Die Frist endet am **02.12.2026**, vom
+06.10.2026 aus **57 Tage** (nachgerechnet). **„In den kommenden Wochen" ist ein Kalender, keine
+Produktentscheidung.** Das stand in der gelesenen Meldung nicht.
+
+**ZU POST 8 (veröffentlicht 14.08.2026), geprüft:** Der Post sagt, die Kennzeichnung sei Pflicht für
+alle, beweise „verarbeitet" statt „verfasst" und sei leicht zu entfernen. **Beides hält.** Die
+17 Prozent nach Austausch jedes vierten Wortes sind die Zahl, die dem Post damals gefehlt hat.
+**Kein Korrekturfall.**
+
+**Offen:** die Ankündigung von OpenAI im Original, und ob Textgrain auch in der API-Standardausgabe
+für EU-Kunden greift.
+
+### CHATBOT-TRACKING: EINE EINGABE, 20 DIENSTE
+
+**Quelle:** Muhammad Jazlan, Ethan Wang, Yash Vekaria, Zubair Shafiq (University of California,
+Davis), „Tracking Conversations: Measuring Content and Identity Exposure on AI Chatbots",
+**arXiv 2604.27438**, v1 vom 30.04.2026, v2 vom 13.05.2026, zehn Seiten. **Heute im Volltext
+gelesen. Belastbarkeit: belastbar.**
+
+**Methode:** Je Chatbot eine Sitzung mit derselben Eingabe, wörtlich **„pregnancy test near me"**,
+einer Gesundheitsfrage mit eingebauter Ortsangabe. Mitgeschnitten wurde der Netzwerkverkehr im
+normalen und, soweit unterstützt, im privaten Modus. Gesucht wurde nach zwei Kategorien: Inhalt
+(Eingaben, daraus abgeleitete Titel, Chat-URLs, Chat-Kennungen) und Identität (Namen, E-Mail,
+Kontokennungen, Erstanbieter-Cookies, IP- und User-Agent-Felder).
+
+**Ergebnis, Abstract im Wortlaut:** „We find that 17 of 20 chatbots share information with at least
+one third party. Three chatbots share plaintext conversation text, including both prompt and
+response snippets, with Microsoft Clarity through session replay. Fifteen chatbots share
+conversation URLs or chat identifiers with third-party advertising, analytics, or social endpoints."
+Dazu: in einigen Fällen gehashte E-Mail-Adressen.
+
+**DREI EINSCHRÄNKUNGEN, DIE AUF EIN BLATT GEHÖREN:**
+1. Eine Eingabe, eine Sitzung je Dienst. Keine Langzeitmessung.
+2. Erhebung im Frühjahr 2026, kann überholt sein.
+3. **Die Arbeit stammt aus den Vereinigten Staaten.** Ein europäischer Messpunkt oder ein Bezug zur
+   DSGVO steht nicht darin. **Wer daraus einen deutschen Post baut, muss das sagen.**
+
+**Überschneidung:** Post 28 (Werbung in ChatGPT). Die beiden dürfen nicht hintereinander laufen.
+**Offen:** eine Gegenstimme, am besten eine Stellungnahme eines der 20 Anbieter.
+**Zweite Untersuchung zum selben Thema, nicht gelesen:** LeakyLM des IMDEA Networks Institute, mit
+abweichender Zählung (mehr als 13 Tracker). **Vorgemerkt als Gegenprobe.**
+
+### Geprüft am 06.10.2026
+
+- **Lizenz der Wikipedia**, auf `de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen` gelesen: Die
+  Texte stehen unter der **Creative-Commons-Lizenz Namensnennung, Weitergabe unter gleichen
+  Bedingungen 4.0**, zusätzlich aus Kompatibilitätsgründen unter der GNU-Lizenz für freie
+  Dokumentation; kommerzielle Nutzung ist zulässig. **Anlass:** heise meldet am 06.10.2026 um
+  06:46 Uhr, die Wikimedia Foundation habe Spuren unautorisierter Bot-Aktivität gefunden,
+  Bearbeitungen in Testbereichen, manipulierte Konfigurationsseiten und übermäßige Downloads.
+  **Der Vorfall selbst ist berichtet**, der Blogbeitrag der Stiftung ist nicht gelesen.
+
+### Kleinere Fundstücke vom 06.10.2026
+
+- **Haftung für KI-Agenten** (heise+, 05.10.2026, 13:30 Uhr, Bezahlschranke, nicht gelesen). Das
+  europäische Gegenstück ist die Produkthaftungsrichtlinie (EU) 2024/2853 mit Umsetzungsfrist
+  **09.12.2026**. **Vorgemerkt mit Priorität**, der Termin rückt näher.
+- **Agenten-Schwarm auf Wiki-Plattformen**, darunter ein deutsches Programmier-Wiki mit angeblich
+  15.000 bis 18.000 unautorisierten Bearbeitungen, Offenlegung am 09.09.2026. **Ungeprüft, nur über
+  Aggregatoren gesehen. Vorgemerkt.**
+- **arXiv und KI-generierte Einreichungen** (heise, 05.10.2026, 14:28 Uhr). Die bei der Suche
+  gefundenen Zahlen passen zeitlich nicht zusammen. **Ungeprüft, erst die Primärquelle.**
