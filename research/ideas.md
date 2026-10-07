@@ -4014,3 +4014,114 @@ abweichender Zählung (mehr als 13 Tracker). **Vorgemerkt als Gegenprobe.**
   Aggregatoren gesehen. Vorgemerkt.**
 - **arXiv und KI-generierte Einreichungen** (heise, 05.10.2026, 14:28 Uhr). Die bei der Suche
   gefundenen Zahlen passen zeitlich nicht zusammen. **Ungeprüft, erst die Primärquelle.**
+
+---
+
+## Recherchierte Einzelbefunde vom 07.10.2026
+
+**Rückstau bei vier, fünfunddreißigster Tag ohne Neubau.** Dichter Tag, zwei bestehende Stränge
+haben Material bekommen.
+
+### KI AUF DEM AMT: NORMTEXT UND EINE ZAHLENREIHE, DIE AUFGEHT
+
+**§ 35a Verwaltungsverfahrensgesetz, heute im Wortlaut gelesen. Belastbarkeit: belastbar.**
+
+> „Ein Verwaltungsakt kann vollständig durch automatische Einrichtungen erlassen werden, sofern dies
+> durch Rechtsvorschrift zugelassen ist und weder ein Ermessen noch ein Beurteilungsspielraum
+> besteht."
+
+**Damit ist der Wortlaut gesichert.** Das Inkrafttreten bleibt ungeprüft und steht weiter auf der
+Liste.
+
+**UMFRAGE 2026, Belastbarkeit berichtet.** heise online, 06.10.2026, 12:39 Uhr, „Umfrage: KI auf dem
+Amt? Ja, bitte!", Umfrage des Digitalverbands **Bitkom** unter **1.004 Personen ab 18 Jahren**.
+Die Presseinformation von 2026 ist aus dieser Umgebung nicht auffindbar.
+- **70 Prozent** dafür, dass bei der Bearbeitung des eigenen Antrags KI eingesetzt wird (Vorjahr 63).
+- **26 Prozent** lehnen ab (Vorjahr 31).
+- **35 Prozent** Mensch prüft und entscheidet, KI kontrolliert das Ergebnis.
+- **23 Prozent** KI prüft, Mensch entscheidet.
+- **12 Prozent** KI prüft eigenständig und entscheidet.
+- **91 Prozent** wünschen mehr Tempo bei der Digitalisierung.
+
+**UMFRAGE 2025, Belastbarkeit belastbar.** Bitkom-Presseinformation vom **30.09.2025**, heute im
+Original gelesen: **1.005 Personen** ab 18 Jahren, telefonisch, **Kalenderwoche 27 bis 32** des
+Jahres 2025. **7 Prozent** KI prüft und entscheidet, **17 Prozent** KI prüft und ein Mensch
+entscheidet, **39 Prozent** Mensch prüft und entscheidet und KI kontrolliert, **31 Prozent**
+Ablehnung. Dazu: 65 Prozent Verwaltung als Vorreiter, 44 Prozent viele Tätigkeiten durch KI
+ersetzbar, 43 Prozent lieber KI-Assistent als Wartezeit, 20 Prozent nutzen KI im Behördenkontakt
+bereits.
+
+**EIGENE GEGENPROBE, als solche gekennzeichnet:** 35 plus 23 plus 12 ergibt die 70 des Jahres 2026,
+39 plus 17 plus 7 ergibt die 63 des Jahres 2025. **Beide Reihen gehen auf.** Der Anteil für die
+vollautomatische Entscheidung ist von 7 auf 12 Prozent gestiegen.
+
+**DER PUNKT FÜR DEN POST:** Die Schlagzeile steht über einer Zahl, die drei verschiedene Wünsche
+zusammenfasst. Der rechtlich in § 35a VwVfG geregelte Fall ist der kleinste der drei.
+**Der Bitkom ist Partei**, das gehört auf jedes Blatt mit diesen Zahlen.
+**Offen:** die Presseinformation 2026, der Erhebungszeitraum 2026, und welche Rechtsvorschriften den
+vollautomatischen Erlass bisher zulassen.
+
+### CHATBOT-TRACKING: DREI UNTERSUCHUNGEN, NICHT EINE
+
+**Verwechslungsgefahr, festgehalten damit sie nicht jedes Mal neu auffällt.** Nach dem Stand vom
+07.10.2026 liegen drei Arbeiten zum selben Thema mit verschiedenem Zuschnitt vor:
+
+1. **University of California, Davis** (Muhammad Jazlan, Ethan Wang, Yash Vekaria, Zubair Shafiq),
+   „Tracking Conversations: Measuring Content and Identity Exposure on AI Chatbots",
+   **arXiv 2604.27438**, v2 vom 13.05.2026. **20 Dienste**, eine Eingabe je Dienst.
+   **Am 06.10.2026 im Original gelesen, belastbar.**
+2. **IMDEA Networks**, Projekt **LeakyLM** (Aniketh Girish, Guilherme Oliveira, Guillermo
+   Suarez-Tangil, Jorge García Herrero, Miguel Sanchez, Narseo Vallina-Rodriguez, Tautvydas
+   Jackevičius), „AI Assistants Are Leaking Your Conversations", **04.05.2026**. **4 Dienste**
+   (ChatGPT, Claude, Grok, Perplexity), **13 und mehr Tracker**. **Projektseite gelesen, Papier
+   nicht gelesen.**
+3. **Das Preprint, auf das heise sich am 06.10.2026 stützt**, ebenfalls IMDEA, Titel in der Meldung
+   nicht genannt. **9 Dienste** (ChatGPT, Claude, Gemini, Grok, DeepSeek, Perplexity, Le Chat,
+   Meta AI, MS Copilot), **44 Tracking- oder Werbe-Drittanbieter**, fünf von neun geben Permalinks
+   zu Chatverläufen an Tracker, **80,8 Prozent** der Tracker laufen nach Ablehnung nicht notwendiger
+   Cookies weiter, **33,3 Prozent** teilen Zusammenfassungen mit Werbepartnern, bei 40 Prozent ist
+   ein Opt-out über die Cookie-Ablehnung möglich. **Nicht gelesen.**
+
+**REGEL FÜR DEN BAU:** Keine Zahl aus diesem Feld ohne Angabe, aus welcher der drei Arbeiten sie
+stammt. Die Zahlen sind nicht austauschbar.
+**Offen:** ob Nummer 3 eine erweiterte Fassung von Nummer 2 ist. Die Projektseite nennt vier
+Dienste, die Meldung neun.
+**Gewinn für den Kandidaten:** Zwei Gruppen an verschiedenen Instituten kommen unabhängig zum
+gleichen Befund, damit ist es keine Einzelquelle mehr.
+
+### NORWEGEN UND DIE KI-BRILLEN: DREI ANGABEN, DIE NICHT ZUSAMMENPASSEN
+
+**Anlass:** heise meldet am 06.10.2026 um 09:38 Uhr „KI-Brillen: Norwegen will zeitweiliges Verbot
+an ausgewählten Orten einführen". **Der Artikel ist aus dieser Umgebung nicht erreichbar**, die
+Adresse stand nicht auf der Übersichtsseite.
+
+**Was sonst vorliegt:**
+- **netzpolitik.org, 26.08.2026, 18:00 Uhr** (Sebastian Meineck): Die norwegische Regierung wolle
+  Überwachungsbrillen strenger regulieren und **zunächst eine Expertengruppe einsetzen**, mögliche
+  Maßnahme ein Verbot biometrischer Gesichtserkennung in der Öffentlichkeit. **Keine Frist.** Der
+  Beitrag verweist auf eine Tickermeldung mit RTE als Quelle, nicht auf ein Regierungsdokument.
+- **Aggregatoren** nennen zusätzlich ein Verbot mit Wirkung zum **27.08.2026** und ein Verbot von
+  Smart Glasses an **Osloer Schulen**.
+
+**Drei Angaben, ein Gegenstand, kein gemeinsames Datum. Vor jeder Verwendung an einer norwegischen
+Primärquelle prüfen.** Bis dahin kommt davon nichts auf ein Blatt.
+
+### Geprüft und verworfen am 07.10.2026
+
+- **„Kirchen, Moscheen, Synagogen: Datenhändler gefährden Gläubige in Deutschland"** (netzpolitik,
+  06.10.2026, 05:55 Uhr, Ingo Dachwitz und Sebastian Meineck). **Erst geprüft, dann entschieden,
+  wie es die Regel verlangt.** Über eine Million Standortdaten an Glaubensorten in kostenlosen
+  Vorschaudatensätzen, insgesamt fünf Milliarden Handy-Standortdaten aus Deutschland, Recherche seit
+  2024 gemeinsam mit dem Bayerischen Rundfunk, Teil der Serie Databroker Files. **Kein KI-Kern**, es
+  geht um Werbetechnik und Standortdatenhandel. **Als Hintergrund vorgemerkt**, nicht als Kandidat.
+
+### Kleinere Fundstücke vom 07.10.2026
+
+- **Data Broker und die neue Aufsicht** (heise, 06.10.2026, 13:44 Uhr): Der neue
+  Bundesdatenschutzbeauftragte kündigt härtere Aufsicht über Datenhändler an. **Ungeprüft**, der
+  Amtsbeginn ist hier nicht geprüft. **Vorgemerkt**, passt zum Databroker-Strang.
+- **KI verschreibt Akne-Medikamente in den USA** (heise, 06.10.2026, 18:27 Uhr). **Ungeprüft**,
+  berührt Post 30. **Vorgemerkt.**
+- **Sammelklage gegen McDonald's wegen KI-gestützter Preise** (heise, 06.10.2026, 16:28 Uhr).
+  US-Kartellrecht, **ungeprüft**. **Vorgemerkt**, personalisierte Preise sind hier noch nicht
+  vergeben und betreffen Leser unmittelbar.
