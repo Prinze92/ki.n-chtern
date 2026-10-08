@@ -4125,3 +4125,147 @@ Primärquelle prüfen.** Bis dahin kommt davon nichts auf ein Blatt.
 - **Sammelklage gegen McDonald's wegen KI-gestützter Preise** (heise, 06.10.2026, 16:28 Uhr).
   US-Kartellrecht, **ungeprüft**. **Vorgemerkt**, personalisierte Preise sind hier noch nicht
   vergeben und betreffen Leser unmittelbar.
+
+---
+
+## Recherchierte Einzelbefunde vom 08.10.2026
+
+**Rückstau bei vier, sechsunddreißigster Tag ohne Neubau.** Der beste Tag dieser Staureihe.
+
+### GESETZ GEGEN DIGITALE GEWALT: DER DEEPFAKE-KANDIDAT BEKOMMT EINEN STRAFTATBESTAND
+
+**Anlass:** heise online, 07.10.2026, 17:38 Uhr. Das Bundeskabinett hat am **07.10.2026** den
+Regierungsentwurf eines **Gesetzes zur Stärkung des zivilrechtlichen und strafrechtlichen Schutzes
+vor digitaler Gewalt** beschlossen. Er geht an Bundesrat und Bundestag.
+
+**QUELLENLAGE, wichtig:** Der **Regierungsentwurf ist nicht veröffentlicht**. Auf
+`bmjv.de/SharedDocs/Gesetzgebungsverfahren/DE/2026_Gesetz_gegen_digitale_Gewalt.html` liegen der
+**Referentenentwurf vom 17.04.2026** (75 Seiten, Bearbeitungsstand 16.04.2026 14:37 Uhr, heute im
+Volltext gelesen, **belastbar**), eine Synopse vom 17.04.2026 und eine Übersicht der
+Verbändestellungnahmen vom 03.06.2026. **Was das Kabinett beschlossen hat, ist berichtet**, und
+heise schreibt, die Regierung habe den Aprilentwurf „an zentralen Punkten weiterentwickelt".
+
+**§ 184k StGB in der Fassung des Referentenentwurfs, Artikel 2, wörtlich:**
+
+> „§ 184k Verletzung der Intimsphäre durch Bildaufnahmen
+> (1) Mit Freiheitsstrafe bis zu zwei Jahren oder mit Geldstrafe wird bestraft, wer unbefugt eine
+> Bildaufnahme herstellt oder einer dritten Person zugänglich macht, die
+> 1. eine sexuelle Handlung einer anderen Person abbildet,
+> 2. die unbekleideten Genitalien, das unbekleidete Gesäß oder die unbekleidete weibliche Brust
+> einer anderen Person abbildet,
+> 3. in sexuell bestimmter Weise die bekleideten Genitalien, das bekleidete Gesäß oder die
+> bekleidete weibliche Brust einer anderen Person abbildet, oder
+> 4. mittels eines Computerprogramms so verändert, umgestaltet oder mit weiteren Inhalten verbunden
+> wurde, dass der Anschein erweckt wird, dass sexuelle Handlungen oder die unbekleideten Genitalien,
+> das unbekleidete Gesäß oder die unbekleidete weibliche Brust einer anderen Person abgebildet
+> seien."
+
+**Nummer 4 ist die Deepfake-Nummer.** Sie knüpft nicht an eine echte Aufnahme an, sondern an den
+erweckten Anschein.
+
+**Weitere neue Vorschriften im Aprilentwurf:**
+- **§ 201b StGB** „Verletzung von Persönlichkeitsrechten durch täuschende Inhalte" (eingefügt nach
+  § 201a), für ansehensschädigende Deepfakes ohne sexuellen Inhalt.
+- **§ 202e StGB** „Unbefugte Überwachung mittels Informations- oder Kommunikationstechnik"
+  (eingefügt nach § 202d), zur Umsetzung von Artikel 6 der Richtlinie (EU) 2024/1385.
+- Änderungen an § 184b Absatz 1 Satz 1 Nummer 3 und § 184c Absatz 1 Nummer 3: Strafbar wird das
+  Herstellen eines Inhalts, „der ein tatsächliches oder wirklichkeitsnahes Geschehen wiedergibt".
+
+**ABWEICHUNG, FESTGEHALTEN:** heise nennt zusätzlich einen **§ 201c** zum Identitätsmissbrauch über
+falsche Profile. **In der Aprilfassung kommt die Zeichenfolge „201c" null Mal vor.** Entweder ist er
+im Kabinettsbeschluss neu, oder die Nummerierung in der Meldung weicht ab. **Vor einem Post klären.**
+
+**DIE FRIST, belastbar.** Der Entwurf nennt in einer Fußnote zu Artikel 2 die **Richtlinie (EU)
+2024/1385 des Europäischen Parlaments und des Rates vom 14. Mai 2024 zur Bekämpfung von Gewalt gegen
+Frauen und häuslicher Gewalt** (ABl. L, 2024/1385, 24.5.2024). **Artikel 49 Absatz 1 dieser
+Richtlinie, heute im Amtsblatt im Wortlaut gelesen:** „Die Mitgliedstaaten setzen die Rechts- und
+Verwaltungsvorschriften in Kraft, die erforderlich sind, um dieser Richtlinie bis zum **14. Juni
+2027** nachzukommen."
+**Artikel 6 der Richtlinie** verpflichtet zur Strafbarkeit wiederholter oder ständiger Überwachung
+mittels Informations- und Kommunikationstechnologien ohne Einwilligung.
+
+**DREI EBENEN, DREI DATEN. Das ist das Gerüst des Posts:**
+
+| Ebene | Gegenstand | Ab wann | Belastbarkeit |
+|---|---|---|---|
+| KI-Verordnung Artikel 5 Absatz 1 Buchstabe ba | das Werkzeug | 02.12.2026 | belastbar |
+| § 184k Absatz 1 Nummer 4 StGB im Entwurf | die Tat | offen, im Verfahren | Aprilfassung belastbar |
+| Richtlinie 2024/1385 Artikel 49 Absatz 1 | die Pflicht, so etwas zu haben | 14.06.2027 | belastbar |
+
+**Die Reihenfolge ist die Pointe:** Verboten wird zuerst das Programm, der Straftatbestand für die
+Tat ist noch ein Entwurf.
+
+**GEGENSTIMMEN, nur über Suchergebnisse gesehen, Stellungnahmen nicht gelesen:**
+- **Gesellschaft für Freiheitsrechte:** fordert Nachbesserungen, wirksamer Schutz gehe auch ohne
+  Klarnamenpflicht und ohne neue Speicherpflichten.
+- **Bundesrechtsanwaltskammer:** begrüßt das Ziel, warnt vor zu weitgehenden Eingriffen, unklar
+  gefassten Strafnormen und Belastungen für Justiz und Meinungsfreiheit.
+- **Deutsches Institut für Menschenrechte:** hält die Voraussetzungen für Auskunftsansprüche und
+  Accountsperren für zu eng.
+**Alle drei gehören auf ein Blatt, sonst wird der Post einseitig. Vorher lesen.**
+
+**ZIVILRECHTLICHE SEITE, berichtet:** beschleunigtes gerichtliches Auskunftsverfahren über die
+Identität anonymer Täter gegenüber Plattformen, Messengern und Zugangsanbietern; gerichtliche
+Entfernungsanordnung auch bei unbekanntem Täter; zeitweilige gerichtlich angeordnete Accountsperre
+bei schwerwiegenden Persönlichkeitsrechtsverletzungen mit Wiederholungsgefahr.
+
+**Offen:** der Regierungsentwurf im Wortlaut, der § 201c, und die von heise genannte Bitkom-Zahl
+(etwa ein Viertel der Menschen in Deutschland habe digitale Gewalt erlebt, 43 Prozent der 16- bis
+29-Jährigen).
+
+### DEUTSCHLAND-APP: DER BESCHEID-KANDIDAT BEKOMMT EINEN KONKRETEN FALL
+
+**Quelle:** heise online, 07.10.2026, 18:11 Uhr, „KI für die Verwaltung: So steht es um die
+Deutschland-App". Grundlage ist eine schriftliche Antwort der Bundesregierung. **Belastbarkeit:
+berichtet**, die Antwort ist hier nicht gelesen.
+
+- **T-Systems** hat den Auftrag für Konzeption und Umsetzung eines KI-basierten
+  Verwaltungsprototyps, als **Einzelabruf aus Rahmenverträgen des Kaufhauses des Bundes ohne neue
+  Ausschreibung**. Über Subunternehmer entscheidet T-Systems selbst.
+- **Begleitkosten der Initialphase, netto, Obergrenzen:** ITZBund rund **553.000 Euro**, KPMG
+  **319.700 Euro**, Capgemini **285.696 Euro**, zusammen rund **1,16 Millionen Euro**.
+- **Erprobung** in Dortmund, Dresden, Erfurt, Hamburg, Nürnberg und Wiesbaden, zunächst Familie,
+  Wohnen, Soziales und Unternehmensgründung.
+- **Stufen:** Proof of Concept, erste funktionsfähige Version, Test mit mehreren hundert Nutzern,
+  optional bis zu zwölf Monate Probewirkbetrieb, beginnend mit drei Monaten „HyperCare".
+  **Kein Starttermin genannt.**
+- Anmeldung über die eID des Personalausweises. BSI und Bundesdatenschutzbeauftragter begleiten.
+- Ziel laut Bundesregierung, wörtlich in der Meldung: „Bürgern einen zentralen, dialogbasierten und
+  mobilen Zugang zu staatlichen Dienstleistungen".
+
+**DER PUNKT:** Der Beitrag lässt ausdrücklich offen, ob die KI Anträge bearbeitet oder über sie
+entscheidet. **Genau dort setzt § 35a VwVfG an**, der seit dem 07.10.2026 hier im Wortlaut vorliegt.
+**Offen:** die schriftliche Antwort der Bundesregierung im Original, und ob eine Rechtsvorschrift den
+vollautomatischen Erlass für die vier Leistungsbereiche zulässt.
+
+### SYNTHID-DETEKTOR, Ergänzung zum Wasserzeichen-Kandidaten
+
+**Quelle:** heise online, 07.10.2026, 20:29 Uhr. **Belastbarkeit: berichtet, und die Kernaussage
+stammt von Google selbst**, heise nennt keine eigene Prüfung.
+- Der **SynthID-Detector** ist nach Googles Angabe nun „für alle" zugänglich, bisher für
+  registrierte Medienvertreter. **Voraussetzung ist ein Google-, Apple- oder ChatGPT-Konto.**
+- **Wer kein solches Konto will, kann den Detektor nicht nutzen.** heise hat bei Google
+  nachgefragt, eine Antwort stand aus.
+- Google bettet SynthID seit **2023** ein, unsichtbar für das menschliche Auge, auslesbar auch über
+  Google Suche, Gemini-App und Chrome.
+- Nach der Meldung setzen außerdem **OpenAI, NVIDIA und Kakao** SynthID ein, **Apple** solle folgen.
+- Wasserzeichen sind nicht vor Manipulation oder nachträglicher Entfernung geschützt.
+**Das stützt Post 8**, der genau das sagt, und passt zum Textgrain-Kandidaten vom 06.10.
+
+### Kleinere Fundstücke vom 08.10.2026
+
+- **Cybercrime-Zentrum Karlsruhe, Zunahme KI-generierter Missbrauchsdarstellungen** (heise, 07.10.,
+  13:50 Uhr). **Wäre der zweite Teil des Deepfake-Kandidaten**, weil Artikel 5 Absatz 1 Buchstabe bb
+  der KI-Verordnung genau dieses Material erfasst. **Artikel aus dieser Umgebung nicht erreichbar,
+  Suche liefert nur Aggregatoren. Vorgemerkt mit Priorität.** Primärquelle wäre die Zentralstelle
+  für Cybercrime bei der Generalstaatsanwaltschaft Karlsruhe.
+- **EU-Jugendschutz, mehrstufiges Altersmodell** (heise, 07.10., 12:00 Uhr, Bezahlschranke).
+  Gehört zum Kids-Act-Kandidaten, zu dem COM(2026) 681 hier im Volltext vorliegt. **Nicht gelesen.**
+- **ChatGPT for Teens, Nutzungsdaten** (heise, 08.10., 05:03 Uhr). **Nicht abrufbar**, Suche belegt
+  die Nutzungsaussage nicht. **Vorgemerkt.**
+- **US-Berufungsgericht zu einem KI-generierten Video eines Opfers** (heise, 07.10., 16:26 Uhr).
+  **Ungeprüft. Vorgemerkt**, berührt den Deepfake-Strang von der Gerichtsseite.
+- **Umfrage zu KI-generierten Büchern und Übersetzungen** (heise, 07.10., 14:24 Uhr). **Ungeprüft**,
+  Auftraggeber und Methode unbekannt. **Vorgemerkt.**
+- **Digitale Brieftasche d-you** (netzpolitik, 07.10., Daniel Leisegang). Deutscher Fall mit
+  Datenbezug, **kein KI-Kern erkennbar**, nicht gelesen. **Vorgemerkt.**
