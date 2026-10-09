@@ -4269,3 +4269,159 @@ stammt von Google selbst**, heise nennt keine eigene Prüfung.
   Auftraggeber und Methode unbekannt. **Vorgemerkt.**
 - **Digitale Brieftasche d-you** (netzpolitik, 07.10., Daniel Leisegang). Deutscher Fall mit
   Datenbezug, **kein KI-Kern erkennbar**, nicht gelesen. **Vorgemerkt.**
+
+---
+
+## Recherchierte Einzelbefunde vom 09.10.2026
+
+**Rückstau bei vier, siebenunddreißigster Tag ohne Neubau.** Der gestrige Kandidat ist baubereit,
+dazu zwei neue Quellen im Original.
+
+### REGIERUNGSENTWURF GEGEN DIGITALE GEWALT, IM VOLLTEXT
+
+**Quelle:** „Gesetzentwurf der Bundesregierung, Entwurf eines Gesetzes zur Stärkung des
+zivilrechtlichen und strafrechtlichen Schutzes vor digitaler Gewalt", **102 Seiten**, heute im
+Volltext gelesen. **Belastbarkeit: belastbar.**
+Datei: `bmjv.de/SharedDocs/Downloads/DE/Gesetzgebung/RegE/RegE_GgdG.pdf`
+**Hinweis zur Beschaffung:** Die Adresse stand nicht im lesbaren Teil der BMJV-Seite und wurde
+geraten. Die Datei ist danach am Kopf („Gesetzentwurf der Bundesregierung") und am
+Inhaltsverzeichnis gegengeprüft.
+
+**DIE GESTRIGE OFFENE FRAGE IST BEANTWORTET, UND HEISE HATTE RECHT.** Die Inhaltsübersicht des StGB
+wird um **zwei** Vorschriften erweitert:
+
+> „§ 201b Verletzung von Persönlichkeitsrechten durch täuschende Inhalte
+> § 201c Verletzung von Persönlichkeitsrechten durch vorgetäuschte Identität"
+
+**„201c" kommt im Regierungsentwurf 32 Mal vor, in der Aprilfassung null Mal.** Er ist im
+Kabinettsverfahren neu dazugekommen. **Die gestrige Vermutung, die Nummerierung in der Meldung könne
+abweichen, war falsch.**
+
+**§ 184k heißt jetzt „Verletzung der Intimsphäre durch Bildinhalte"** (Aprilfassung: „durch
+Bildaufnahmen"). **Die Änderung ist inhaltlich**, eine Bildaufnahme setzt etwas Aufgenommenes
+voraus, ein Bildinhalt nicht.
+
+**§ 184k Absatz 1 des Regierungsentwurfs, wörtlich, gekürzt auf die Deepfake-Nummer:**
+
+> „Mit Freiheitsstrafe bis zu zwei Jahren oder mit Geldstrafe wird bestraft, wer absichtlich oder
+> wissentlich ... 2. einen Bildinhalt, der infolge der Erstellung oder Veränderung mittels eines
+> Computerprogramms den Anschein erweckt, dass sexuelle Handlungen oder die unbekleideten
+> Genitalien, das unbekleidete Gesäß oder die unbekleidete weibliche Brust einer bestimmten anderen
+> Person abgebildet seien, unbefugt herstellt oder einer dritten Person unbefugt zugänglich macht."
+
+**DREI UNTERSCHIEDE ZUR APRILFASSUNG:**
+1. Erfasst ist auch die **Erstellung**, nicht nur die Veränderung eines vorhandenen Bildes.
+2. Das Opfer muss eine **bestimmte** andere Person sein.
+3. Die Tat muss **absichtlich oder wissentlich** begangen werden.
+
+**ZWEI GRENZEN, DIE EIN EHRLICHER POST NENNEN MUSS:**
+- **§ 184k Absatz 4:** „Die Tat wird nur auf Antrag verfolgt, es sei denn, dass die
+  Strafverfolgungsbehörde wegen des besonderen öffentlichen Interesses an der Strafverfolgung ein
+  Einschreiten von Amts wegen für geboten hält."
+- **§ 184k Absatz 5:** Die Absätze 1 und 2 gelten nicht für Handlungen, „die in Wahrnehmung
+  überwiegender berechtigter Interessen erfolgen, namentlich der Kunst oder der Wissenschaft, der
+  Forschung oder der Lehre, der Berichterstattung über Vorgänge des Zeitgeschehens oder der
+  Geschichte oder ähnlichen Zwecken dienen".
+
+**WEITERE ABSÄTZE DES § 184k:** Absatz 2 Nummer 1 stellt das unbefugte Abrufen, Verschaffen und
+Besitzen einer Bildaufnahme unter Strafe, die eine Vergewaltigung abbildet. Absatz 3 erhöht auf bis
+zu drei Jahre, wenn die Bildaufnahme in den Fällen des Absatzes 1 Nummer 1 Buchstabe a eine
+Vergewaltigung abbildet.
+
+**§ 201b Absatz 1, wörtlich:** „Wer einer dritten Person einen mittels eines Computerprogramms
+erstellten oder veränderten Inhalt (§ 11 Absatz 3), der den Anschein erweckt, ein tatsächliches
+Geschehen in Bezug auf eine andere Person wiederzugeben, und der geeignet ist, dem Ansehen dieser
+Person erheblich zu schaden, unbefugt zugänglich macht, wird mit Freiheitsstrafe bis zu zwei Jahren
+oder mit Geldstrafe bestraft, wenn die Tat nicht in anderen Vorschriften mit schwererer Strafe
+bedroht ist. Dies gilt auch dann, wenn sich die Tat nach Satz 1 auf eine verstorbene Person
+bezieht."
+
+**§ 201c Absatz 1, wörtlich:** „Wer unter Vortäuschung der Identität einer anderen Person einen
+Inhalt (§ 11 Absatz 3), der geeignet ist, dem Ansehen dieser Person erheblich zu schaden, einer
+dritten Person unbefugt zugänglich macht, wird mit Freiheitsstrafe bis zu zwei Jahren oder mit
+Geldstrafe bestraft, wenn die Tat nicht in anderen Vorschriften mit schwererer Strafe bedroht ist."
+
+**Das StGB-Änderungsgesetz knüpft an die Fassung vom 13.11.1998 an, zuletzt geändert durch Artikel 1
+des Gesetzes vom 20.03.2026 (BGBl. 2026 I Nr. 95).**
+
+**DER KANDIDAT IST BAUBEREIT.** Fristgerüst unverändert: Richtlinie (EU) 2024/1385 Artikel 49
+Absatz 1 nennt den 14.06.2027, Artikel 5 Absatz 1 Buchstabe ba der KI-Verordnung verbietet das
+Werkzeug ab dem 02.12.2026.
+**Es fehlt nur noch die Gegenstimme.** Die Stellungnahmen von Gesellschaft für Freiheitsrechte,
+Bundesrechtsanwaltskammer und Deutschem Institut für Menschenrechte sind weiterhin nur über
+Suchergebnisse gesehen und **nicht gelesen**.
+
+### PERSPEKTIVVERSCHIEBUNG: EINE FOLIE TÄUSCHT KAMERA UND LIDAR
+
+**Quelle:** Marco Calipari, Michael Kühr, Dominik Kulmer, Maximilian Luedecke, Mohammad Hamad,
+Sebastian Steinhorst (Technische Universität München), „Perspective-Shift Attacks Against Optical
+Perception Sensors: A Novel Attack Vector on LiDAR and Camera", **4th USENIX Symposium on Vehicle
+Security and Privacy, 10. und 11. August 2026, Baltimore**, 18 Seiten,
+`usenix.org/system/files/vehiclesec26-calipari.pdf`. **Heute im Volltext gelesen, belastbar.**
+heise online hat am 08.10.2026 um 18:19 Uhr darüber berichtet (Stefan Krempl).
+
+**Methode:** Eine handelsübliche optische Folie, im Papier **„Direction Turning Film"**, lenkt Licht
+um einen vorgegebenen Winkel ab und verschiebt so das Sichtfeld von Kamera und Lidar. Geprüft wurde
+in einer digitalen Simulation, in Laborversuchen und an einem echten Forschungsfahrzeug.
+
+**Ergebnis, Abstract im Wortlaut:** „Results show that even moderate field-of-view shifts of 20°
+significantly impact critical tasks, including LiDAR-based odometry and camera-based lane detection,
+potentially triggering dangerous maneuvers, such as unintentionally invading the opposite lane,
+while having only a minor effect on the confidence of object detection algorithms, despite altering
+object positions."
+
+**DIE POINTE:** Die Erkennung bleibt zuversichtlich, während die Positionen verschoben sind. Ein
+System, das merkt, dass es nichts erkennt, kann anhalten. Eines, das sich sicher ist und falsch
+liegt, fährt weiter.
+
+**NICHT BESTÄTIGT:** heise nennt eine Verschiebung von mehr als einem Meter als Schwelle für
+Fehlentscheidungen. **Diese Angabe habe ich im Papier nicht gefunden, sie bleibt berichtet.**
+
+**GEGENGEWICHT, gehört auf ein Blatt:** Die Forschenden schlagen selbst Gegenmaßnahmen vor,
+Prüfungen auf physikalische Artefakte und semantische Konsistenz. Ohne diesen Teil wird der Post
+Panik.
+**Offen:** ob Serienfahrzeuge betroffen sind. Das Papier spricht von einem Forschungsfahrzeug.
+
+### GEDIG: ERSTE LESUNG AM 08.10.2026, ANHÖRUNG AM 14.10.2026
+
+**Quelle:** heise online, 08.10.2026, 23:39 Uhr. **Belastbarkeit: berichtet.**
+
+Das **Gesetz für Daten und digitale Innovation im Gesundheitswesen (GeDIG)** war am **08.10.2026**
+in erster Lesung im Bundestag; das Kabinett hatte es im **Juli 2026** beschlossen. Die öffentliche
+Anhörung im Gesundheitsausschuss ist am **14.10.2026**. Das Faxgerät soll bis **Herbst 2029** aus
+den Arztpraxen verschwinden, die Gematik soll mehr Befugnisse erhalten, und das Gesetz soll den
+**Europäischen Gesundheitsdatenraum** fristgerecht umsetzen.
+
+**Positionen, wie die Meldung sie wiedergibt:** Georg Kippels (CDU) stellte den Entwurf vor,
+Thomas Pauls (CDU) nannte das Impfbuch aus Papier „verdammt analog". Janosch Dahmen (Grüne) nennt
+den Entwurf „richtig, wichtig und überfällig", seine Fraktion hat **17 Änderungsanträge** gestellt,
+darunter ein **Datencockpit** zur Einsicht in die eigenen Einwilligungen. Stella Merendino (Linke)
+nennt das Gesetz einen **„Wolf im Schafspelz"** und kritisiert Personalwechsel zwischen Ministerium,
+Konzernen und Verbänden; genannt werden Frank Gotthardt, Gottfried Ludewig, Jörg Debatin und
+Henrik Matthies.
+
+**EIGENER BEFUND, mit Vorsicht:** Ein **Datencockpit** steht für einen Teil der Daten schon in
+§ 13 FDZGesV, hier am 01.10.2026 gelesen: Anzeige der übermittelten Daten samt Zeitpunkt, der Zwecke
+und der erklärten Widersprüche, mit Möglichkeit, dort den Widerspruch zu erklären. **Ob der Antrag
+der Grünen etwas Weitergehendes meint, ist offen**, der Antragstext ist nicht gelesen.
+**Keine Behauptung einer Dopplung, bevor beide Texte vorliegen.**
+
+**FOLGE FÜR DEN ePA-KANDIDATEN:** Das Fristgerüst aus § 342 Absatz 2 Nummer 4 SGB V und
+§ 7 Absatz 2 FDZGesV könnte durch das GeDIG berührt werden. **Vor dem Bau prüfen.**
+
+### Kleinere Fundstücke vom 09.10.2026
+
+- **„TK-Manager: In Deutschland haben wir einen echten Datenschutz-Fetisch"** (heise, 08.10.,
+  22:55 Uhr). **Nicht gelesen. Vorgemerkt mit Priorität**, das wäre eine Gegenstimme für den
+  ePA-Kandidaten, die bisher fehlt.
+- **„Apothekenvertreterin: Mit Nullen und Einsen ist noch keiner gesund geworden"** (heise, 08.10.,
+  09:35 Uhr). GeDIG-Strang, **nicht gelesen. Vorgemerkt.**
+- **„KI-Hype: Warum der massive Ausbau von Rechenzentren kritisch hinterfragt wird"** (c't, 08.10.,
+  11:30 Uhr). Gehört zu Post 27 und zu § 11 EnEfG. **Adresse nicht gefunden. Vorgemerkt mit
+  Priorität.**
+- **„Scharfe Kritik an OpenAI aus der Mathematik"** (heise, 08.10., 14:06 Uhr). Berührt die
+  arXiv-Meldung vom 05.10. **Ungeprüft. Vorgemerkt.**
+- **Österreichisches Verfassungsgericht zu ausländischen Beweisen** (heise, 09.10., 05:33 Uhr).
+  **Kein KI-Kern erkennbar. Vorgemerkt** für den Strang um § 18a AVG.
+- **Ecosia ersetzt Mistral AI durch chinesische KI** (heise, 08.10., 17:39 Uhr). **Ungeprüft.
+  Vorgemerkt**, betrifft deutsche Nutzer unmittelbar.
