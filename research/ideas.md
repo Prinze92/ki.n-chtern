@@ -4425,3 +4425,138 @@ der Grünen etwas Weitergehendes meint, ist offen**, der Antragstext ist nicht g
   **Kein KI-Kern erkennbar. Vorgemerkt** für den Strang um § 18a AVG.
 - **Ecosia ersetzt Mistral AI durch chinesische KI** (heise, 08.10., 17:39 Uhr). **Ungeprüft.
   Vorgemerkt**, betrifft deutsche Nutzer unmittelbar.
+
+---
+
+## Recherchierte Einzelbefunde vom 10.10.2026
+
+**Rückstau bei vier, achtunddreißigster Tag ohne Neubau.** Zwei von drei Gegenstimmen zum
+Gewaltschutzgesetz gelesen, dazu drei Artikel der KI-Verordnung im Wortlaut.
+
+### FUND: EINE KRITISIERTE FORMULIERUNG IST AUS DEM ENTWURF VERSCHWUNDEN
+
+**Die Bundesrechtsanwaltskammer** hat in **Stellungnahme Nr. 30/2026** (Newsletter „Nachrichten aus
+Berlin", Ausgabe 11/2026 vom 27.05.2026, Beitrag datiert 28.05.2026, heute gelesen) zum
+Referentenentwurf verlangt, der Begriff **„in sexuell bestimmter Weise"** in § 184k StGB-E sei
+**präziser zu fassen**.
+
+**Gegenprobe in beiden Entwurfstexten, die hier im Volltext liegen:**
+
+| Formulierung | Referentenentwurf (16.04.2026) | Regierungsentwurf (07.10.2026) |
+|---|---|---|
+| „in sexuell bestimmter Weise" | **4** | **0** |
+| „offensichtlich darauf abzielt" | **0** | **2** |
+
+**Neue Fassung im Regierungsentwurf, § 184k Absatz 1 Nummer 1 Buchstabe c, wörtlich:** die
+bekleideten Genitalien, das bekleidete Gesäß oder die bekleidete weibliche Brust „in einer Weise
+abbildet, die die Bildaufnahme prägt und offensichtlich darauf abzielt, diese Körperteile
+sexualisiert darzustellen".
+
+**WAS BELEGT IST UND WAS NICHT:** Die Reihenfolge ist belegt, Kritik im Mai und andere Formulierung
+im Oktober. **Die Ursache ist nicht belegt**, in der Entwurfsbegründung wurde nicht danach gesucht.
+**Als Ursache wird es deshalb nicht behauptet.** Als Beobachtung gehört es in den Post, weil es
+zeigt, dass diese Stellungnahmen gelesen werden.
+
+### GEGENSTIMMEN ZUM GEWALTSCHUTZGESETZ
+
+**1. Gesellschaft für Freiheitsrechte, Pressemitteilung vom 07.10.2026, heute im Original gelesen.
+Belastbar.** Zitate von Benjamin Lück:
+- „Trotzdem sieht der Entwurf bislang kein Verbandsantragsrecht vor"
+- „Auch braucht es eine klare Trennung von Auskunftsanspruch und Vorratsdatenspeicherung."
+- Lob für den Ansatz: „Nicht die Identität hinter einem Account sollte im Mittelpunkt stehen"
+**Forderungen:** Verbandsantragsrecht für anerkannte Stellen, damit Hetze gegen ganze Gruppen
+(genannt: antisemitische und antimuslimische Inhalte) erfasst wird; Klarstellung, dass Betroffene
+die Identität hinter einem Konto nicht vorab ermitteln müssen; Trennung von Auskunftsanspruch und
+Vorratsdatenspeicherung. Hintergrund ist ein eigener GFF-Entwurf von Mai 2023, der ohne
+Klarnamenpflicht und ohne neue Speicherpflichten auskommt.
+
+**2. Bundesrechtsanwaltskammer, Stellungnahme Nr. 30/2026, Mai 2026**, heute über den
+Kammer-Newsletter gelesen. **Die Stellungnahme selbst ist nicht im Original gelesen.** Punkte:
+- Für die Auskunft solle die Rechtsverletzung nicht schon festgestellt sein müssen; eine glaubhaft
+  gemachte mögliche Verletzung genüge.
+- Anknüpfung an IP-Adressen und Portnummern wird abgelehnt, das erhöhe die Eingriffsintensität.
+- Die Schwelle für Kontensperren sei zu niedrig, die Maßnahme könne sanktionsähnlich wirken.
+- Die Verfahren seien nach der ZPO statt dem FamFG auszugestalten; die Vertretung durch
+  Organisationen bei höchstpersönlichen Ansprüchen sei systemwidrig.
+- Mehrere Tatbestände seien zu weit oder zu unbestimmt; dort sehe sie den größten
+  Nachbesserungsbedarf.
+- **Zu Deepfakes unter Erwachsenen ohne Außenwirkung rät sie von vorschneller Kriminalisierung ab**,
+  kinder- und jugendpornografische Deepfakes hält sie für strafwürdig.
+- Schutzlücke: nicht strafbare, aber schwere Persönlichkeitsverletzungen seien nicht erfasst.
+
+**3. Deutsches Institut für Menschenrechte: WEITERHIN NICHT GELESEN.** Nach Suchergebnissen hält es
+die Voraussetzungen für Auskunftsansprüche und Accountsperren für zu eng. **Letzter offener Punkt
+vor dem Bau.**
+
+**WICHTIG FÜR DIE BLATTPLANUNG:** Beide gelesenen Stellungnahmen beziehen sich auf den
+**Referentenentwurf**, nicht auf den Regierungsentwurf. Wer sie zitiert, muss das dazusagen.
+
+### KI-VERORDNUNG: DREI ARTIKEL ZUR AUFSICHT IM WORTLAUT
+
+Alle drei heute aus der konsolidierten Fassung vom 27.07.2026 gelesen. **Belastbar.**
+
+**Artikel 91 Absatz 1 (Befugnis zur Anforderung von Dokumentation und Informationen):** „Die
+Kommission kann den Anbieter des betreffenden KI-Modells mit allgemeinem Verwendungszweck
+auffordern, die vom Anbieter gemäß den Artikeln 53 und 55 erstellte Dokumentation oder alle
+zusätzlichen Informationen vorzulegen, die erforderlich sind, um die Einhaltung dieser Verordnung
+durch den Anbieter zu beurteilen."
+**Absatz 4:** In dem Auskunftsersuchen sind „die Rechtsgrundlage und der Zweck des Ersuchens zu
+nennen", anzugeben, welche Informationen benötigt werden, **eine Frist zu setzen** und die Geldbußen
+zu nennen.
+**Absatz 2:** Vorher kann das Büro für Künstliche Intelligenz einen strukturierten Dialog einleiten.
+
+**Artikel 92 (Befugnis zur Durchführung von Bewertungen), Absatz 1:** Das Büro für Künstliche
+Intelligenz kann nach Konsultation des KI-Gremiums Bewertungen durchführen, um die Einhaltung zu
+beurteilen, wenn die nach Artikel 91 eingeholten Informationen unzureichend sind, oder um
+systemische Risiken zu ermitteln.
+**Absatz 2, wörtlich:** „Die Kommission kann beschließen, unabhängige Sachverständige zu benennen,
+die in ihrem Namen Bewertungen durchführen, einschließlich aus dem gemäß Artikel 68 eingesetzten
+wissenschaftlichen Gremium."
+**Absatz 3:** Zugang kann angefordert werden „über API oder weitere geeignete technische Mittel und
+Instrumente, einschließlich Quellcode".
+**DER UNTERSCHIED, DER AUF EIN BLATT GEHÖRT:** Unabhängige Fachleute können Zugang bekommen, aber
+nur von der Kommission benannt und in deren Namen. Ein eigenes Zugangsrecht unabhängiger Forschung
+steht dort nicht.
+
+**Artikel 101 Absatz 1 (Geldbußen für Anbieter von KI-Modellen mit allgemeinem Verwendungszweck):**
+bis zu **3 Prozent des gesamten weltweiten Jahresumsatzes** des vorangegangenen Geschäftsjahrs
+**oder 15 000 000 Euro**, je nachdem, welcher Betrag höher ist, bei vorsätzlichem oder fahrlässigem
+Verstoß. **Buchstabe b** nennt ausdrücklich den Fall, dass der Anbieter der Anforderung nach
+Artikel 91 nicht nachkommt. **Buchstabe d** den Fall, dass er keinen Zugang für eine Bewertung nach
+Artikel 92 gewährt.
+
+### ANLÄSSE DAZU, BERICHTET
+
+- **heise online, 09.10.2026, 18:37 Uhr:** Die Kommission hat nach Angabe von Digitalkommissarin
+  **Henna Virkkunen** (dpa-Interview) Auskunft von **OpenAI und Anthropic** verlangt, außerdem
+  formell von mehreren chinesischen Unternehmen. Zuvor habe sie Auskunftsersuchen an **mehr als 30**
+  KI-Unternehmen bestätigt, ohne Namen. Das Büro für Künstliche Intelligenz prüfe **seit August**,
+  ob große Modelle ausreichend kontrolliert werden und ob sie selbstständig Cyberangriffe ausführen.
+  Virkkunen wörtlich: „Derzeit konzentrieren sich die Risiken hauptsächlich auf den Bereich der
+  Cybersicherheit." **Die Meldung nennt die Rechtsgrundlage nicht und keine Frist.**
+- **heise online, 09.10.2026, 14:41 Uhr:** **Tomek Korbak, Jasmine Wang und Mikita Balesni**, drei
+  entlassene OpenAI-Mitarbeiter aus Sicherheit und Alignment, haben einen offenen Brief an die
+  Sicherheitsgremien des Unternehmens veröffentlicht (laut Meldung auf X). Sie bestreiten, interne
+  Informationen weitergegeben zu haben. **Erste Forderung:** externe Beratung und Sicherheitsaudits,
+  unabhängige Fachleute sollten einen Zugang ähnlich dem von Mitarbeitern erhalten.
+  **Der Brief selbst ist nicht gelesen**, der heise-Beitrag ist teilweise hinter der Bezahlschranke.
+
+### Kleinere Fundstücke vom 10.10.2026
+
+- **CEO-Fraud, Managerhaftung** (iX, 09.10.2026, 16:13 Uhr). **Wäre interessant**, weil § 201c StGB
+  im Regierungsentwurf die vorgetäuschte Identität erfasst. **Artikel nicht erreichbar.** Die Suche
+  findet nur ältere Fälle: Sächsisches LAG, Aktenzeichen **3 Sa 556/16**, Haftung eines
+  Finanzdirektors von 420.000 auf **150.000 Euro** begrenzt bei geringem Mitverschulden der
+  Arbeitgeberin; LG Düsseldorf **6 O 72/17** zu Zahlungsdienstleistern. **Beide ungeprüft, nur über
+  eine Kanzleiseite gesehen. Vorgemerkt.**
+- **Anthropic ändert Nutzungsbedingungen** (heise, 09.10.2026, 14:00 Uhr). **Ungeprüft.
+  Vorgemerkt**, berührt den Kandidaten zu KI-Begleitern.
+- **Oberverwaltungsgericht NRW, keine Netzsperren für Pornhub und YouPorn** (netzpolitik-Ticker,
+  09.10.2026): Die Landesmedienanstalt NRW sei nach EU-Recht nicht zuständig. **Kein KI-Kern**,
+  derselbe Jugendschutzstrang wie der Kids Act. **Aktenzeichen nicht erfasst. Vorgemerkt.**
+- **Sicherheitsforschung an der digitalen Brieftasche d-you erlaubt** (BMDS, über
+  netzpolitik-Ticker, 09.10.2026). **Kein KI-Kern. Vorgemerkt.**
+- **Bericht der Bildungsstätte Anne Frank zu antisemitischen, queerfeindlichen und
+  antifeministischen Inhalten in sozialen Medien** (über netzpolitik-Ticker, 09.10.2026).
+  **Nicht gelesen**, KI-Anteil unklar. **Vorgemerkt**, passt zum Gewaltschutzstrang und zum
+  Verbandsantragsrecht, das die GFF fordert.
