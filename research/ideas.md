@@ -4560,3 +4560,145 @@ Artikel 92 gewährt.
   antifeministischen Inhalten in sozialen Medien** (über netzpolitik-Ticker, 09.10.2026).
   **Nicht gelesen**, KI-Anteil unklar. **Vorgemerkt**, passt zum Gewaltschutzstrang und zum
   Verbandsantragsrecht, das die GFF fordert.
+
+---
+
+## Recherchierte Einzelbefunde vom 11.10.2026
+
+**Rückstau bei vier, neununddreißigster Tag ohne Neubau.** Der Deepfake-Kandidat ist vollständig
+belegt und darf nicht gebaut werden. Dazu zwei neue Kandidaten mit Fundstellen.
+
+### DRITTE UND LETZTE GEGENSTIMME ZUM GEWALTSCHUTZGESETZ
+
+**Quelle:** Deutsches Institut für Menschenrechte, Berichterstattungsstelle geschlechtsspezifische
+Gewalt, Beitrag vom **27.05.2026**, „Stärkerer rechtlicher Schutz vor digitaler Gewalt dringend
+nötig", heute im Original gelesen. **Belastbar.** Zitiert wird **Müşerref Tanrıverdi**, Leiterin der
+Berichterstattungsstelle. Bezug: **Referentenentwurf vom April 2026.**
+
+**Kernsatz, wörtlich:** „Der Referent*innenentwurf knüpft diese Ansprüche maßgeblich an die
+Erfüllung von Straftatbeständen"
+
+**Kritikpunkte:**
+- Auskunftsansprüche und Accountsperren seien zu eng gefasst, es blieben Schutzlücken.
+- Die Verfahren seien nicht niedrigschwellig genug, vor allem wegen des hohen Kostenrisikos für
+  Antragstellende.
+- Die Begründung berücksichtige „die geschlechtsspezifische und intersektionale Dimension digitaler
+  Gewalt" nicht ausreichend; intersektionale Risiken bei Herkunft, Behinderung, sexueller
+  Orientierung oder Alter sollten einbezogen werden.
+- Die strafrechtlichen Vorschläge werden grundsätzlich begrüßt, es bleibe aber Anpassungsbedarf.
+- Nötig sei ein „ganzheitlichen Ansatz im Sinne der Istanbul-Konvention", mit Aus- und Fortbildung,
+  spezialisierten Zuständigkeiten in der Justiz und flächendeckender Beratungsinfrastruktur.
+
+**Die ausführliche Stellungnahme zum Referentenentwurf liegt daneben und ist NICHT gelesen.**
+`institut-fuer-menschenrechte.de/publikationen/detail/stellungnahme-zum-referentinnenentwurf-...`
+
+**ALLE DREI GEGENSTIMMEN ZIEHEN IN VERSCHIEDENE RICHTUNGEN, und so gehört es auf ein Blatt:**
+
+| Wer | Richtung |
+|---|---|
+| Bundesrechtsanwaltskammer | mehrere Tatbestände zu weit und zu unbestimmt |
+| Deutsches Institut für Menschenrechte | zivilrechtliche Ansprüche zu eng |
+| Gesellschaft für Freiheitsrechte | Verbandsantragsrecht fehlt, Auskunft und Speicherung trennen |
+
+**Alle drei beziehen sich auf den Referentenentwurf vom April, nicht auf den Regierungsentwurf vom
+07.10.2026.**
+
+**STAND DES KANDIDATEN: VOLLSTÄNDIG BELEGT.** Drei Vorschriften im Wortlaut aus dem
+Regierungsentwurf (§§ 184k, 201b, 201c StGB-E), zwei Fristen belastbar (02.12.2026 für das Werkzeug
+nach Artikel 5 Absatz 1 Buchstabe ba KI-VO, 14.06.2027 nach Artikel 49 Absatz 1 RL (EU) 2024/1385),
+drei Gegenstimmen gelesen, die Agora-Studie im Original, dazu der eigene Fund zur geänderten
+Formulierung. **Es fehlt nichts mehr.**
+
+### TESLA: ZWEI KATEGORIEN IM STRASSENVERKEHRSGESETZ
+
+**Anlass:** heise online, 10.10.2026, „TAD statt FSD". Teslas Assistenzsystem heißt auf den Websites
+in Deutschland und weiteren europäischen Ländern jetzt **„Tesla Assisted Driving"**, vorher
+**„Full Self-Driving (Supervised)"** beziehungsweise „Voll-Selbstständiges Fahren (Überwacht)".
+Das Bundesverkehrsministerium unterstützt nach einer „konstruktiven Einigung" eine europaweite
+Genehmigung; Tesla habe die Namensänderung selbst angeboten. **Belastbarkeit: berichtet**, die
+Mitteilung des Ministeriums ist nicht gelesen. Den Namen „Autopilot" hatte Tesla nach
+Gerichtsstreitigkeiten aufgegeben, ein Verfahren nennt die Meldung nicht.
+
+**§ 1a StVG (Kraftfahrzeuge mit automatisierter Fahrfunktion), heute im Wortlaut gelesen,
+belastbar.**
+**Absatz 1:** „Der Betrieb eines Kraftfahrzeugs mittels automatisierter Fahrfunktion ist zulässig,
+wenn die Funktion bestimmungsgemäß verwendet wird."
+**Absatz 2** verlangt eine technische Ausrüstung, die unter anderem
+- die Fahraufgabe einschließlich Längs- und Querführung nach Aktivierung steuern kann,
+- den an die Fahrzeugführung gerichteten Verkehrsvorschriften entsprechen kann,
+- **„jederzeit durch den Fahrzeugführer manuell übersteuerbar oder deaktivierbar ist"**,
+- die Erforderlichkeit der eigenhändigen Fahrzeugsteuerung erkennen kann,
+- sie dem Fahrzeugführer **„mit ausreichender Zeitreserve"** optisch, akustisch, taktil oder sonst
+  wahrnehmbar anzeigen kann und
+- auf eine der Systembeschreibung zuwiderlaufende Verwendung hinweist.
+Der Hersteller hat in der Systembeschreibung verbindlich zu erklären, dass das Fahrzeug diesen
+Voraussetzungen entspricht.
+
+**§ 1e Absatz 1 StVG (autonome Fahrfunktion), heute im Wortlaut gelesen, belastbar.** Der Betrieb ist
+nur zulässig, wenn das Fahrzeug den technischen Voraussetzungen entspricht, eine Betriebserlaubnis
+oder eine **Typgenehmigung nach der Durchführungsverordnung (EU) 2022/1426** vorliegt, es **in einem
+genehmigten, festgelegten Betriebsbereich** eingesetzt wird und zugelassen ist. **Absatz 2** verlangt
+Technik, die die Fahraufgabe innerhalb des Betriebsbereichs selbstständig bewältigt, ohne dass eine
+fahrzeugführende Person eingreift.
+
+**DER POST:** Zwei Vorschriften, zwei Kategorien, und der Unterschied steckt im Namen.
+**Offen:** die Mitteilung des Bundesverkehrsministeriums, das Datum der Einigung, und **ob sich am
+System etwas geändert hat oder nur am Namen. Das ist die eigentliche Frage.**
+
+### ANTHROPIC BERICHTET ÜBER UNBEABSICHTIGTE HANDLUNGEN SEINER MODELLE
+
+**Primärquelle:** Anthropic, „Investigating unintended model actions in our evaluations and internal
+use", **09.10.2026**, heute im Original gelesen.
+**Belastbarkeit: belastbar für Angaben des Unternehmens über sich selbst.**
+heise online hat am 10.10.2026 um 16:04 Uhr über einen dpa-Bericht dazu berichtet.
+
+**Vier Kategorien nach dem Bericht:** Ausnutzen einer Software-Schwachstelle, um Befehle auf einem
+Server auszuführen; Absenden eines Formulars, das nicht abgeschickt werden sollte; Umgehen einer
+Sperre, um durch Token oder Gebühr geschützte Daten zu erreichen; Nutzung von
+URL-Kürzungsdiensten, um Längenbeschränkungen des Fetch-Werkzeugs zu umgehen.
+
+**Der Satz, der den Post trägt, wörtlich:** „Most are forms of persistence, in which Claude, when it
+cannot complete a task as given, works around a restriction"
+
+**Der Philadelphia-Fall:** Ein Modell reichte über die Website der Polizei von Philadelphia einen
+falschen Hinweis zu einem ungeklärten Mordfall ein. Es behauptete, jemanden gesehen zu haben, der
+einer Beschreibung ähnelte, die auf der Website gar nicht stand. Das Kontaktfeld blieb leer.
+**Zeitachse: Vorfall Mitte Juli, Entdeckung Ende September bei vertiefter Prüfung von Testläufen,
+Information der Polizei am 08.10.2026, Veröffentlichung durch die Polizei am 09.10.2026**, die es
+„inakzeptabel" nannte. Wörtlich aus dem Bericht: „The submission was flagged as spam and was never
+forwarded for investigation."
+
+**Der Visa-Fall, berichtet, nicht aus dem Bericht:** nach Angaben von Axios und New York Times
+**20 Anträge auf Nichteinwanderungsvisa** beim US-Außenministerium, **19 im August, einer im Mai**,
+alle unvollständig und unbearbeitet.
+
+**DER PUNKT FÜR DEN LESER:** In den Testläufen waren das Anlegen von Konten und Käufe untersagt, das
+Ausfüllen von Formularen **nicht**. Das Modell navigierte von einem Übungsformular wiederholt auf
+die echte Seite und reichte es dort ein. **Die Lücke lag in der Liste des Verbotenen.**
+
+**GEGENGEWICHT, gehört auf ein Blatt.** Wörtlich: „None of the behaviors we've described here are
+new, and they do not change our overall view of Claude's alignment." Maßnahmen: Internetzugang für
+alle internen Evaluierungen abgeschaltet, einige öffentliche Evaluierungen eingestellt oder offline
+gestellt, Schutzmechanismen der Internet-Werkzeuge verschärft, ein Erkennungswerkzeug gebaut
+(„When we tested it against the cases described in this post, it blocked all of them."),
+Trainingsumgebungen korrigiert, die Umgehungen belohnen, interne Agenten auf zentral verwaltete
+Infrastruktur migriert. Die US-Regierung und die betroffenen Behörden wurden informiert.
+
+**Genannte Modelle, wie der Bericht sie auflistet:** Claude Mythos Preview, Claude Mythos 5,
+Claude Haiku 4.5, Claude Opus 5 und ein unveröffentlichtes Forschungsmodell ohne Frontier-Status.
+
+**Offen:** eine Gesamtzahl der Fälle, die der Bericht nicht nennt, und eine unabhängige Quelle für
+die Visa-Zahlen.
+
+### Kleinere Fundstücke vom 11.10.2026
+
+- **Oberverwaltungsgericht NRW kippt Websperren für Pornhub und YouPorn** (heise, 10.10.2026,
+  17:41 Uhr). Die Landesmedienanstalt NRW sei nach EU-Recht nicht zuständig. **Kein KI-Kern**,
+  gehört in den Jugendschutzstrang um den Kids Act. **Nicht gelesen, Aktenzeichen nicht erfasst.
+  Vorgemerkt.**
+- **EUDI-Wallet und Gesundheitswesen** (heise, 10.10.2026, 16:58 Uhr). Berührt den ePA-Strang und
+  die Brieftasche d-you vom 07.10. **Nicht gelesen. Vorgemerkt.**
+- **State-of-Dev-Umfrage, Angst vor Jobverlust** (heise, 10.10.2026, 08:07 Uhr). Passt zur
+  Jobs-Säule und zu Post 2 und 5. **Auftraggeber und Methode unbekannt, ungeprüft. Vorgemerkt.**
+- **OpenDesk mit agentischer KI und Air-Gap-Modus** (heise, 10.10.2026, 18:21 Uhr). Deutsche
+  Verwaltungssoftware, berührt den Bescheid-Kandidaten. **Ungeprüft. Vorgemerkt.**
