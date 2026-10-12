@@ -4702,3 +4702,132 @@ die Visa-Zahlen.
   Jobs-Säule und zu Post 2 und 5. **Auftraggeber und Methode unbekannt, ungeprüft. Vorgemerkt.**
 - **OpenDesk mit agentischer KI und Air-Gap-Modus** (heise, 10.10.2026, 18:21 Uhr). Deutsche
   Verwaltungssoftware, berührt den Bescheid-Kandidaten. **Ungeprüft. Vorgemerkt.**
+
+---
+
+## Recherchierte Einzelbefunde vom 12.10.2026
+
+**Rückstau bei vier, vierzigster Tag ohne Neubau.** Dünne Wochenendlage, deshalb offene Punkte
+bearbeitet. Einer stand seit dem 30.09.2026 auf der Liste.
+
+### GESCHLOSSEN: ePA-ZAHLEN AUS EINER LESBAREN QUELLE
+
+**Der offene Punkt „ePA-Zahlen aus einer lesbaren Quelle" ist seit dem 30.09.2026 in jedem Briefing
+vermerkt**, weil das TI-Dashboard der Gematik aus dieser Umgebung nur Navigation liefert.
+
+**Ersatzquelle:** heise online vom **08.10.2026**, Bericht vom **TI-Summit in Leipzig**, heute
+gelesen. **Belastbarkeit: berichtet**, aber mit namentlich genannten Sprechern und Funktionen.
+
+**Zahlen, jeweils mit Urheber:**
+- **Rund 117 Millionen Dokumente** in der ePA, davon **etwa 43 Millionen Arztbriefe**
+  (Lena Dimde, Product-Owner der ePA, Gematik)
+- **Rund 4,3 Millionen Uploads** aus Krankenhäusern (Dimde)
+- Oktober des Vorjahres: nach Dimdes Erinnerung nur **50.000 bis 80.000 Dokumente**.
+  **Ausdrücklich ungefähre Erinnerungsangabe.**
+- **Über 9 Millionen Zahn-Bonushefte** (Dimde)
+- **Elektronische Medikationsliste: rund 41 Millionen Öffnungen pro Woche**, vor wenigen Wochen
+  etwa 25 Millionen (Dimde)
+- **88 Prozent** der Versicherten, die ihre Akte nicht aktiv nutzen, stehen der ePA grundsätzlich
+  eher positiv gegenüber (Projekt **ePA4All**, Charité)
+- **Mehr als 1.000 Behandelnde** befragt, rund **80 Prozent** berichten zusätzlichen Aufwand im
+  Praxisalltag (Susann May, Charité); dazu eine **Interviewstudie mit 22 Versicherten**
+- **Erstbefüllungspauschale 10 Euro**; die Vergütung entfällt mit dem
+  **GKV-Beitragssatzstabilisierungsgesetz**, das seit dem **30.07.2026** gilt, Abrechnung nach Angabe
+  der KBV bis **31.12.** möglich
+
+**DIE ZAHL, DIE DEN KANDIDATEN DREHT:** Hanna Seidling, Leiterin der Kooperationseinheit Klinische
+Pharmazie am Universitätsklinikum Heidelberg, sagt, bei der Krankenhausaufnahme seien von
+**100 bundeseinheitlichen Medikationsplänen 80 falsch**. Ruth Hecker, Chief Patient Safety Officer
+der Universitätsmedizin Essen, rechnet vor, aus **200 Befunden** würden nur **20** hochgeladen.
+
+**WAS DARAUS FOLGT:** Bisher war die Erzählung „deine Daten gehen ins Forschungsdatenzentrum, du
+kannst widersprechen". Jetzt kommt eine zweite Ebene dazu: **Trainiert wird mit einem Bestand, dessen
+Qualität die Fachleute selbst anzweifeln.** Das ist ein Qualitätsargument, kein
+Datenschutzargument, und es fehlt in der Berichterstattung über den Widerspruch.
+
+**DIE FEHLENDE GEGENSTIMME IST DA.** Christian Nölter, Techniker Krankenkasse, wörtlich:
+**„In Deutschland gibt es einen echten Datenschutz-Fetisch"**. Daraus werde abgeleitet, dass man
+mündigen Nutzern eine solche Entscheidung nicht zumuten dürfe. **Gehört auf ein Blatt**, sonst ist
+der Post einseitig.
+
+**Zwei Nutzerzitate für den Post:** „Authentifizierungsdschungel" (Teilnehmer der Charité-Studie) und
+eine Onkologie-Patientin, die sich beim Anmelden in der App „fast die Finger gebrochen" habe.
+
+**Weitere Sprecher im Bericht:** Marcel Weigand (Moderation), Mike von Gliszczynski (Bitmarck), der
+fordert, Versicherte sollten das Anmeldeverfahren selbst wählen dürfen.
+
+**OFFEN:** die vzbv-Drei-Viertel-Zahl samt Methode, und die Zahlen an amtlicher Stelle. **Das
+Dashboard bleibt unerreichbar**, der Post muss die Herkunft jeder Zahl mit Namen nennen.
+
+### TESLA: TEILANTWORT AUF DIE FRAGE VON GESTERN, NUR ÜBER AGGREGATOREN
+
+**Gestern offen:** Hat sich am System etwas geändert oder nur der Name?
+
+**Heute gefunden, Belastbarkeit berichtet bis ungeprüft, ausschließlich über Aggregatoren
+(ecomento, winfuture, auto motor und sport, automobilwoche, insidetesla):**
+- Minister **Steffen Bilger** habe sich im **September** mit Tesla über technische und
+  Haftungsfragen ausgetauscht.
+- Beide Seiten hätten sich darauf verständigt, dass das System die zulässige Höchstgeschwindigkeit
+  **um bis zu zehn Prozent überschreiten darf**.
+- Die **Niederlande** hätten das System im **April** über die **RDW** genehmigt, zunächst nur für
+  niederländisches Gebiet.
+- Die **Slowakei** werde als **neunter Staat** folgen, eine europaweite Entscheidung verschiebe sich
+  auf **Dezember**.
+- Das System sei nicht vollautonom, der Fahrer müsse aufmerksam bleiben und die Verantwortung tragen.
+
+**DIE ZEHN PROZENT SIND DER INTERESSANTESTE UND DER UNSICHERSTE PUNKT.** Wenn ein Assistenzsystem
+mit behördlichem Einverständnis schneller fahren darf als erlaubt, trägt das einen eigenen Post.
+**Die Mitteilung des Bundesverkehrsministeriums ist nicht gelesen, die Quellen widersprechen sich in
+Einzelheiten. Ohne das Original kommt die Zahl auf kein Blatt.**
+
+### KI-VERORDNUNG: DIE LEGALDEFINITION IM WORTLAUT
+
+**Artikel 3 Nummer 1, konsolidierte Fassung vom 27.07.2026, heute gelesen, belastbar:**
+
+> „‚KI-System' ein maschinengestütztes System, das für einen in unterschiedlichem Grade autonomen
+> Betrieb ausgelegt ist und das nach seiner Betriebsaufnahme anpassungsfähig sein kann und das aus
+> den erhaltenen Eingaben für explizite oder implizite Ziele ableitet, wie Ausgaben wie etwa
+> Vorhersagen, Inhalte, Empfehlungen oder Entscheidungen erstellt werden, die physische oder
+> virtuelle Umgebungen beeinflussen können"
+
+**Anlass:** heise online, 12.10.2026, 07:02 Uhr, Martin Holland, „‚Superintelligenz' statt ‚KI'".
+Nach dem Beitrag hat Trump vor der UN-Vollversammlung den Begriffswechsel angekündigt und
+Bundesbehörden per Anordnung darauf verpflichtet; auf Truth Social habe er geschrieben, wer weiter
+„künstliche Intelligenz" sage, werde vom Weißen Haus als „DER FEIND" betrachtet. Musk habe SpaceXAI
+auf X in SpaceXSI umbenannt (Domain weiter x.ai), Nadella habe am Wochenende nur von
+Superintelligenz geschrieben, Huang habe über **eine Milliarde US-Dollar** für die US-Forschung
+angekündigt und dabei fast nur von „super intelligence" gesprochen, Salesforce habe AIForce in
+SIForce umbenannt, Bezos bevorzuge laut Forbes den Begriff. **Alles berichtet.**
+
+**DER PUNKT:** Die Rechtsfolgen hängen an der Definition, nicht am Produktnamen.
+
+### CYBERCRIME-ZENTRUM BADEN-WÜRTTEMBERG: NAME GEKLÄRT
+
+Der am 08.10.2026 unerreichbare Beitrag über KI-generierte Missbrauchsdarstellungen betraf das
+**Cybercrime-Zentrum Baden-Württemberg (CCZ) bei der Generalstaatsanwaltschaft Karlsruhe.** Die
+Bezeichnung ergibt sich aus der heute gelesenen FAQ zum Cybergrooming (heise, 11.10.2026, 16:53 Uhr,
+Marco Krefting und dpa).
+
+**Die FAQ selbst: geprüft, dann entschieden. Kein KI-Kern**, das Wort kommt im Artikeltext nicht vor.
+**Material für den Strang, alles berichtet, die BKA-Analyse ist nicht gelesen:**
+- BKA-Analyse über gut **300 Strafverfahrensakten**: etwa sechs von zehn Tätern erwachsen, im Schnitt
+  **30 Jahre**, **98 Prozent männlich**, 89 Prozent deutsche Staatsangehörige.
+- Opfer **79 Prozent weiblich**, im Schnitt **11,9 Jahre**, Spanne 8 bis 13 Jahre. In drei Vierteln
+  der Akten keine Vorbeziehung.
+- **Anzeigequote im einstelligen Prozentbereich** (Thorsten Nees, Erster Staatsanwalt).
+- **Landgericht Heidelberg** verurteilte in zwei CCZ-Fällen zu viereinhalb und knapp vier Jahren
+  Haft. **Aktenzeichen nicht genannt.**
+- Provider speichern Verkehrsdaten derzeit **etwa sieben Tage**, das geplante Speichergesetz ist
+  nicht in Kraft.
+- Die EU-Ausnahmeregelung zur Chatkontrolle gilt **bis April 2028**, Ende-zu-Ende-verschlüsselte
+  Dienste sind ausgenommen.
+- Wörtlich: „Es handelt sich um ein Massenphänomen." und „Einen eigenen Tatbestand Cybergrooming gibt
+  es nicht."
+
+### Kleinere Fundstücke vom 12.10.2026
+
+- **Pilzbestimmung mit KI** (c't, veröffentlicht **24.09.2026**, Greta Friedrich, am 11.10. erneut im
+  Ticker). **Hinter der Bezahlschranke.** Im sichtbaren Teil keine App-Namen, keine Fehlerquoten,
+  keine Studie, kein Giftinformationszentrum. Sichtbar ist nur: „Potenziell tödliche Irrtümer sind
+  bei der KI nicht selten." **Vorgemerkt mit Priorität**, eine Primärquelle zu Vergiftungsfällen
+  wäre zu suchen, etwa bei einem Giftinformationszentrum.
