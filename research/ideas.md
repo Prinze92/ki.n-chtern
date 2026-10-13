@@ -4831,3 +4831,112 @@ Marco Krefting und dpa).
   keine Studie, kein Giftinformationszentrum. Sichtbar ist nur: „Potenziell tödliche Irrtümer sind
   bei der KI nicht selten." **Vorgemerkt mit Priorität**, eine Primärquelle zu Vergiftungsfällen
   wäre zu suchen, etwa bei einem Giftinformationszentrum.
+
+---
+
+## Recherchierte Einzelbefunde vom 13.10.2026
+
+**Rückstau bei vier, einundvierzigster Tag ohne Neubau.** Zwei Entscheidungen von Gericht und
+Aufsichtsbehörde, beide an der Quelle gelesen.
+
+### BVwG WIEN HEBT SCHULAUSSCHLUSS WEGEN SMART-BRILLE AUF
+
+**Quelle:** Bundesverwaltungsgericht Wien, Zusammenfassung unter „Ausgewählte Entscheidungen" auf
+`bvwg.gv.at`, heute im Original gelesen. **Belastbar für das, was dort steht.**
+**Entscheidung vom 03.08.2026, Aktenzeichen W224 2346501-1.**
+**Der Volltext steht im Rechtsinformationssystem des Bundes (RIS) und ist NICHT gelesen.**
+heise online hat am 12.10.2026 um 16:26 Uhr berichtet.
+
+**Sachverhalt nach der Zusammenfassung:** Ein Schüler trug im Unterricht mehrfach eine Smart-Brille
+und legte eine ärztliche Bestätigung vor, dass er wegen einer **Aufmerksamkeitsstörung** darauf
+angewiesen sei. Lehrkräfte und Mitschüler fühlten sich verunsichert, weil sie befürchteten,
+gefilmt oder aufgenommen zu werden. Nach mehrfacher Weigerung, die Brille abzunehmen, folgten
+**vier Suspendierungen** und im **Juni 2026** der Ausschluss durch die **Bildungsdirektion Wien**.
+
+**Tragender Satz, wörtlich aus der Zusammenfassung:**
+
+> „Entscheidend ist nicht die Anzahl der Vorfälle oder der gesetzten Maßnahmen, sondern deren
+> Schwere"
+
+**HINWEIS FÜR DEN BAU:** Dieser Satz enthält die „nicht X, sondern Y"-Konstruktion, die unsere
+Sprachregeln verbieten. **Er ist ein wörtliches Gerichtszitat und darf deshalb so ins Panel**, die
+Regel gilt für unsere eigenen Sätze.
+
+**Weitere Gründe nach der Zusammenfassung:** Die Bildungsdirektion habe keine konkreten Vorfälle
+eines schwerwiegenden Fehlverhaltens festgestellt; es fehle die Feststellung einer **dauernden
+Gefährdung der körperlichen Sicherheit sowie der Sittlichkeit**. Die wiederholte Weigerung
+beeinträchtige zwar das Vertrauen, **bloßes Unbehagen** sei aber kein ausreichender Grund. Der
+Bescheid wurde **ersatzlos aufgehoben**, eine **Revision nicht zugelassen**.
+**Ob das Tragen einer Smart-Brille überhaupt unter diese Voraussetzungen fallen kann, hat das
+Gericht nach der Zusammenfassung NICHT erörtert.**
+
+**NORM:** heise nennt **§ 49 SchUG**. **Die Zusammenfassung des Gerichts nennt keine Vorschrift**,
+das bleibt bis zum Volltext **berichtet**.
+
+**Marke des Geräts:** heise nennt eine **Ray-Ban Meta Wayfarer** mit Kamera, Mikrofon und
+KI-Funktionen. Die Zusammenfassung des Gerichts spricht nur von „Smart-Brille". **Die Marke ist
+damit berichtet, nicht belegt.**
+
+**ABGRENZUNG, DIE IN JEDEN POST GEHÖRT:** Der Hamburgische Beauftragte für Datenschutz und
+Informationsfreiheit hat am 10.09.2026 im Abschlussbericht zur ersten Generation derselben Brille
+geschrieben, Aufnahmen von Personen außerhalb des engen Freundes- und Familienkreises würden „bis
+auf seltene Konstellationen des berechtigten Interesses nicht zulässig sein".
+**Das Gericht in Wien entschied über den Ausschluss, die Aufsicht in Hamburg über die Aufnahme.
+Zwei Fragen, zwei Ergebnisse, kein Widerspruch.** Wer das verwechselt, baut einen falschen Post.
+**Bauform „Der Widerspruch" wäre hier also falsch.**
+
+**Offen:** der Volltext im RIS und die angewandte Vorschrift.
+
+### DATATILSYNET GEGEN XANDR: 92 MILLIONEN KRONEN
+
+**Primärquelle:** Datatilsynet (norwegische Datenschutzaufsicht), Mitteilung vom **12.10.2026**,
+heute im Original gelesen. **Belastbar.** heise online hat am selben Tag um 14:36 Uhr berichtet.
+
+- **Betrag: 92 Millionen norwegische Kronen.** Nach Angabe der Behörde das **höchste Bußgeld, das
+  sie bisher verhängt hat**. heise rechnet in der Überschrift 8,6 Millionen Euro um; **im
+  heise-Text steht keine Euro-Angabe, auf der Behördenseite auch nicht.**
+- **Adressat:** Xandr, früher AppNexus, heute Teil von Microsoft. **Microsofts Umsatz blieb bei der
+  Bemessung außen vor**, weil Xandr zur Tatzeit nicht zum Konzern gehörte.
+- **Zeitraum: Juli 2018 bis April 2020.**
+- **Sachverhalt:** Xandr leitete Daten über Grindr-Nutzer in Norwegen weiter, darunter Angaben zur
+  **sexuellen Orientierung**, in **Echtzeitauktionen (Real-Time Bidding)**, in denen Xandr
+  **zugleich Anbieter und Käufer** war. Die Daten gingen an möglicherweise Tausende Unternehmen,
+  ohne Wissen der Betroffenen.
+- **Begründung:** Für solche Daten ist eine ausdrückliche Einwilligung nötig. Xandr hatte keine
+  Rechtsgrundlage und prüfte die Einwilligungen von Grindr nicht. Die Behörde sieht Xandr als
+  **gemeinsam Verantwortlichen** mit Grindr und wies das Argument zurück, Grindr habe die
+  Einwilligung eingeholt.
+- **Betroffene:** Die Behörde spricht von „Tusener av brukere i Norge", also Tausenden Nutzern in
+  Norwegen. **Eine genaue Zahl nennt sie nicht.**
+- **Zitat der Direktorin Line Coll, wörtlich:** „Hovedbudskapet vårt er at ansvaret for personvern
+  ikke kan settes bort til andre." **Sinngemäß: Die Verantwortung für den Datenschutz lässt sich
+  nicht an andere abgeben. Die Übersetzung ist meine.**
+- **Nicht bestandskräftig**, Xandr kann binnen drei Wochen Beschwerde einlegen.
+- **Die Mitteilung nennt keine Artikel der DSGVO.** Offen.
+- **Hintergrund nach heise:** Die Beschwerde kam vom norwegischen Verbraucherrat
+  (Forbrukerrådet) und von noyb, gerichtet gegen Grindr, Xandr und vier weitere Adtech-Unternehmen.
+
+**WARUM DAS HIERHER GEHÖRT:** Die Davis-Arbeit vom 06.10.2026 zeigt, dass Chatbots Gesprächsdaten
+an Werbe- und Analyse-Endpunkte geben. Hier zeigt eine Aufsichtsbehörde, was am Ende dieser Kette
+passieren kann, mit Betrag und Zeitraum. **Das ist das fehlende zweite Blatt für den Kandidaten
+„Dein Chat geht an Werbenetzwerke".**
+
+### Kleinere Fundstücke vom 13.10.2026
+
+- **„OpenAI-Modell zerstört absichtlich eigene Testumgebung"** (heise, 12.10.2026, 15:40 Uhr).
+  **Passt unmittelbar zum Anthropic-Bericht vom 09.10.2026**, der hier im Original gelesen ist, und
+  wäre das zweite Blatt eines Posts über Agenten, die Grenzen umgehen. **Heute nicht gelesen.
+  Vorgemerkt mit Priorität.**
+- **Nadella fordert eine „Notbremse" zum Abschalten von KI** (heise, 12.10.2026, 15:58 Uhr).
+  **Ungeprüft. Vorgemerkt**, gehört zur Risikodebatte und zur Forderung der entlassenen
+  OpenAI-Mitarbeiter vom 09.10.
+- **UC Berkeley: zehn Minuten KI-Hilfe schwächen die Ausdauer bei schwierigen Aufgaben**
+  (netzpolitik-Ticker, 12.10.2026). **Klingt nach Studie mit Primärquelle, betrifft Leser
+  unmittelbar. Nicht gelesen. Vorgemerkt mit Priorität.**
+- **Harvard: KI-Coding erzeugt mehr Code, aber nicht mehr Software** (netzpolitik-Ticker,
+  12.10.2026). **Nicht gelesen. Vorgemerkt** für die Jobs-Säule.
+- **Nikon erkennt Preis wegen teils KI-generierter Fotos ab** (netzpolitik-Ticker, 12.10.2026).
+  Berührt Post 8 und die Kennzeichnung. **Ungeprüft. Vorgemerkt.**
+- **vzbv kritisiert die Empfängerüberprüfung beim Online-Banking** (heise, 12.10.2026, 15:00 Uhr).
+  **Kein KI-Kern erkennbar.** **Vorgemerkt**, der vzbv ist für den ePA-Kandidaten ohnehin eine
+  offene Quelle.
