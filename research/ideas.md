@@ -4940,3 +4940,130 @@ passieren kann, mit Betrag und Zeitraum. **Das ist das fehlende zweite Blatt fü
 - **vzbv kritisiert die Empfängerüberprüfung beim Online-Banking** (heise, 12.10.2026, 15:00 Uhr).
   **Kein KI-Kern erkennbar.** **Vorgemerkt**, der vzbv ist für den ePA-Kandidaten ohnehin eine
   offene Quelle.
+
+---
+
+## Recherchierte Einzelbefunde vom 14.10.2026
+
+**Rückstau bei vier, zweiundvierzigster Tag ohne Neubau.** Ein neuer Kandidat trifft die Grundlage
+dieses Kanals, und eine Vormerkung ist am Normtext geschlossen.
+
+### NEUER KANDIDAT: DIE AUFSICHTSBEHÖRDE SOLL VIERZIG PROZENT VERLIEREN
+
+**Quelle:** heise online, 13.10.2026, 20:11 Uhr, Volker Briegleb und Falk Steiner.
+**Belastbarkeit: berichtet**, der Haushaltsgesetzentwurf ist nicht gelesen.
+
+- Nach dem Haushaltsgesetzentwurf von Finanzminister **Danyal Bayaz** (Grüne) soll der
+  Landesbeauftragte für Datenschutz und Informationsfreiheit Baden-Württemberg, **Tobias Keber**,
+  **ab dem Haushalt 2027 vierzig Prozent seines Personals abbauen**.
+- **Andere Landesbehörden und Ministerien: fünf Prozent.**
+- Begründung des Finanzministeriums: im Koalitionsvertrag angelegt; Datenschutzaufsicht und
+  KI-Überwachung sollten stärker beim Bund angesiedelt werden; die Landesregierung gehe davon aus,
+  dass die Aufsicht über die Privatwirtschaft an den Bundesbeauftragten übergeht.
+  **Der Bericht merkt an, dass der Bund dazu bisher keine Schritte unternommen hat.**
+- Keber nennt es nach dem Bericht **„unverhältnismäßig"**; seine Einwände in der Stellungnahme seien
+  übergangen worden.
+- Über den Haushalt entscheidet der Landtag.
+
+**ARTIKEL 52 ABSATZ 4 DSGVO, heute im Wortlaut geprüft, belastbar:**
+
+> „Jeder Mitgliedstaat stellt sicher, dass jede Aufsichtsbehörde mit den personellen, technischen
+> und finanziellen Ressourcen, Räumlichkeiten und Infrastrukturen ausgestattet wird, die sie
+> benötigt, um ihre Aufgaben und Befugnisse auch im Rahmen der Amtshilfe, Zusammenarbeit und
+> Mitwirkung im Ausschuss effektiv wahrnehmen zu können."
+
+**Absatz 1 derselben Vorschrift:** „Jede Aufsichtsbehörde handelt bei der Erfüllung ihrer Aufgaben
+und bei der Ausübung ihrer Befugnisse gemäß dieser Verordnung völlig unabhängig."
+
+**Der Maßstab ist die effektive Wahrnehmung, keine Personalzahl.** Das macht den Fall schwerer zu
+entscheiden und besser zu erzählen.
+
+**EIGENER BEITRAG, prüfbar:** Für KI gibt es die Bundesbehörde längst. Nach **§ 2 Absatz 1 KI-MIG**,
+hier am 07.09.2026 geprüft, ist die **Bundesnetzagentur** seit dem **29.07.2026** die zuständige
+Marktüberwachungsbehörde, nach § 8 zugleich zentrale Beschwerdestelle. **Marktüberwachung nach der
+KI-Verordnung und Datenschutzaufsicht sind zwei verschiedene Aufgaben mit zwei verschiedenen
+Rechtsgrundlagen.** Die wiedergegebene Begründung des Ministeriums vermengt beides.
+
+**Offen:** der Haushaltsgesetzentwurf im Original, Kebers Stellungnahme, die **absoluten
+Stellenzahlen** und der Zeitplan im Landtag. **Ohne absolute Zahlen kein Balken.**
+
+### GESCHLOSSEN: PRODUKTHAFTUNGSRICHTLINIE (EU) 2024/2853
+
+**Stand seit Wochen als bloßes Datum auf der Vorgemerkt-Liste. Die Datei lag seit 23.09.2026 im
+Scratchpad (`phrl.txt`) und ist heute ausgewertet. Belastbar.**
+
+**Richtlinie (EU) 2024/2853 des Europäischen Parlaments und des Rates vom 23. Oktober 2024 über die
+Haftung für fehlerhafte Produkte und zur Aufhebung der Richtlinie 85/374/EWG**, Amtsblatt vom
+**18.11.2024**.
+
+**Artikel 4 Nummer 1, wörtlich:** „‚Produkt' bezeichnet jede bewegliche Sache, auch wenn diese in
+eine andere bewegliche oder unbewegliche Sache integriert oder damit verbunden ist; unter ‚Produkt'
+sind auch Elektrizität, digitale Konstruktionsunterlagen, Rohstoffe und **Software** zu verstehen"
+
+**Artikel 4 Nummer 3:** „‚verbundener Dienst' bezeichnet einen digitalen Dienst, der so in ein
+Produkt integriert oder so mit ihm verbunden ist, dass das Produkt ohne ihn eine oder mehrere seiner
+Funktionen nicht ausführen könnte"
+
+**Artikel 22 Absatz 1, wörtlich:** Die Mitgliedstaaten setzen die Rechts- und
+Verwaltungsvorschriften in Kraft, „die erforderlich sind, um dieser Richtlinie **bis zum
+9. Dezember 2026** nachzukommen."
+
+**EINSCHRÄNKUNG, GEHÖRT AUF JEDES BLATT. Erwägungsgrund 63:** Die Richtlinie gilt **nicht für
+Produkte, die vor dem 9. Dezember 2026 in Verkehr gebracht oder in Betrieb genommen wurden**; für
+diese bleibt es bei der Richtlinie 85/374/EWG.
+**Erwägungsgrund 6:** Die verschuldensunabhängige Haftung soll „für alle beweglichen Sachen,
+einschließlich Software, gelten".
+
+**Offen:** der deutsche Umsetzungsentwurf. **Die Vormerkung „Produkthaftungsrichtlinie" ist
+gestrichen.**
+
+### CHARACTER.AI INSOLVENT
+
+**Quelle:** heise online, 14.10.2026, 02:11 Uhr. **Belastbarkeit: berichtet**, der Insolvenzantrag
+ist nicht gelesen. heise verweist auf `cases.stretto.com` (Antrag), `techjusticelaw.org`
+(texanische Klageschrift) und `pa.gov` (Beschwerde Pennsylvania).
+
+- **Character Technologies, Inc.** hat in den USA **Gläubigerschutz nach Chapter 11** beantragt und
+  sucht einen Käufer; andernfalls Schließung.
+- **Zahlen aus dem Antrag:** Schulden **50 bis 100 Mio. Dollar** bei **100 bis 199 Gläubigern**,
+  Vermögen ebenfalls 50 bis 100 Mio. Größte unbesicherte Gläubiger: **Google rund 4,2 Mio.**,
+  Anwaltskanzleien rund 2,6 Mio., Digitalocean knapp 2 Mio., Doordash rund 90.000.
+  **Disney** biete **20 Mio. Dollar** für ausgewählte Forderungen und eine nicht-exklusive Lizenz.
+- **Verfahren:** Eltern klagen gegen Character.ai, die Gründer und Google, nachdem sich ihre Kinder
+  nach langen Chats das Leben genommen hatten. Die texanische Klageschrift
+  *A.F. on behalf of J.F. et al. v. Character Technologies Inc.* zitiert einen Bot mit „Ich habe
+  einfach keine Hoffnung für Deine Eltern." **Fünf Klagen** aus Colorado, Florida, New York und
+  Texas endeten Anfang des Jahres per **Vergleich ohne Anerkennung eines Fehlverhaltens**, Summen
+  geheim. Kalifornien: Superior Court San Francisco, **JCCP No. 5431** („ChatGPT Product Liability
+  Cases"). Kentucky: Franklin Circuit, **Az. 26-CI00029**. Pennsylvania: Commonwealth Court,
+  **Az. 220 MD 2026**, weil ein Bot sich als zugelassener Arzt ausgab und eine falsche Arztnummer
+  nannte. Die **FTC** untersucht.
+- **Vorgeschichte:** Gegründet 2021 von Noam Shazeer und Daniel de Freitas Adiwarsana, die Google
+  verlassen hatten. Google zahlte 2024 nach Medienberichten rund **2,7 Mrd. Dollar**, offiziell für
+  eine Lizenz; die New York Times schätzte Shazeers Anteil auf 750 Mio. bis 1 Mrd. Shazeer arbeitet
+  inzwischen für OpenAI. **Alles berichtet.**
+
+**ZU POST 14, GEPRÜFT: KEIN KORREKTURFALL.** Post 14 vom 19.08.2026 handelt von KI-Begleitern und
+Manipulationstaktiken beim Abschied, gestützt auf das Harvard-Arbeitspapier. Die Insolvenz widerlegt
+davon nichts. **Nachschlag, kein Widerruf.**
+
+**Offen:** Insolvenzantrag und Klageschriften im Original, und **ob es einen deutschen Bezug gibt.
+Ohne den bleibt es eine US-Meldung** und fällt nach dem Relevanzfilter durch.
+
+### Kleinere Fundstücke vom 14.10.2026
+
+- **„Digitalminister plant Steuer auf KI-Umsätze"** (heise, 13.10.2026, 08:11 Uhr). **Wäre ein
+  starker deutscher Kandidat.** Adresse im lesbaren Teil der Übersichtsseite nicht gefunden, Artikel
+  nicht gelesen. **Vorgemerkt mit Priorität.**
+- **Erster bekannter KI-Angriff auf eine deutsche Kommune**, Tangerhütte in Sachsen-Anhalt (MDR,
+  über netzpolitik-Ticker, 13.10.2026). **Nicht gelesen. Vorgemerkt mit Priorität.**
+- **Anthropic warnt vor KI-Replikation auf IoT-Geräten** (heise, 13.10.2026, 17:10 Uhr) und
+  **„Physiker finden Formel: Wann lokale KI-Modelle plötzlich gefährlich werden"** (13.10.2026,
+  13:05 Uhr). **Beide ungeprüft**, beim zweiten gäbe es vermutlich ein Papier. **Vorgemerkt.**
+- **„Stille Post bei KI-Agenten"** (iX, 13.10.2026, 13:30 Uhr). Gehört zum Agenten-Strang um den
+  Anthropic-Bericht vom 09.10. **Vorgemerkt mit Priorität.**
+- **OpenAI-Angestellter nahm Meetings heimlich auf, festgenommen und entlassen** (heise, 14.10.2026,
+  06:58 Uhr). **Ungeprüft. Vorgemerkt**, berührt den Aufnahme-Strang um die Kamerabrille.
+- **US-Polizeien bestimmen Hausstandorte anhand von Innenraumfotos**, Vergleichsdaten von
+  Kurzzeitvermietungsplattformen (404 Media, über netzpolitik-Ticker, 13.10.2026). **Ungeprüft.
+  Vorgemerkt.**
