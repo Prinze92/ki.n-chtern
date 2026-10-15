@@ -5067,3 +5067,150 @@ Ohne den bleibt es eine US-Meldung** und fällt nach dem Relevanzfilter durch.
 - **US-Polizeien bestimmen Hausstandorte anhand von Innenraumfotos**, Vergleichsdaten von
   Kurzzeitvermietungsplattformen (404 Media, über netzpolitik-Ticker, 13.10.2026). **Ungeprüft.
   Vorgemerkt.**
+
+---
+
+## Recherchierte Einzelbefunde vom 15.10.2026
+
+**Rückstau bei vier, dreiundvierzigster Tag ohne Neubau.** Eine Studie im Original gelesen, die ihre
+eigene Schlagzeile relativiert, und eine Bestätigung der Korrektur vom 02.10.
+
+### IAB: DIE SCHLAGZEILE UND DER STUDIENTEXT GEHEN AUSEINANDER
+
+**Primärquelle 1:** Presseinformation des **Instituts für Arbeitsmarkt- und Berufsforschung** vom
+**13.10.2026**, „KI bisher kein Jobkiller, aber Berufseinsteiger zunehmend betroffen".
+**Primärquelle 2:** Beitrag im **IAB-Forum** von **Melanie Arntz, Michele Dinelli und Oliver
+Schlenker**, ebenfalls 13.10.2026. **Beide heute im Original gelesen. Belastbar.**
+Anlass war heise online am 14.10.2026, 17:26 Uhr.
+
+**DATENGRUNDLAGE UND METHODE, in der Meldung nicht enthalten:**
+- Monatliche **administrative Beschäftigtendaten der Bundesagentur für Arbeit**,
+  **Januar 2021 bis Dezember 2025**
+- Im Schnitt rund **22,3 Millionen** sozialversicherungspflichtig Vollzeitbeschäftigte, 20 bis
+  64 Jahre
+- **Poisson-Regressionsmodell**, quartalsweise Beschäftigung je Kombination aus Altersgruppe,
+  dreistelligem Beruf und Branche
+- Berücksichtigt: KI-Exposition nach **Eloundou et al. 2024**, Homeoffice-Eignung nach
+  **Alipour et al. 2023**, Konjunkturanfälligkeit
+
+**DER SATZ, DER DEN POST TRÄGT, wörtlich aus dem IAB-Forum**, zum negativen Zusammenhang bei den
+20- bis 29-Jährigen:
+
+> „Dieser ist allerdings bisher nicht statistisch signifikant und deutlich geringer als der negative
+> Einfluss der Rezession."
+
+**Zur viel zitierten Zahl von 1,2 Prozentpunkten schreibt der Beitrag nur:** „lag der entsprechende
+Wachstumsabstand in der Altersgruppe zwischen 20 und 29 Jahren bei minus 1,2 Prozentpunkten".
+**Es ist eine deskriptive, unbereinigte Differenz gegenüber 2022, ohne Test und ohne
+Konfidenzintervall.** Die Signifikanzaussagen beziehen sich auf die Regressionsschätzungen.
+
+**ZAHLENREIHE FÜR BALKEN, lineare Skala**, Vollzeitbeschäftigung 2025 gegenüber 2022:
+- 20 bis 29 Jahre: rund **minus 3 Prozent**
+- 30 bis 39 Jahre: etwa **minus 1,3 Prozent**
+- 40 bis 64 Jahre: **unter 1 Prozent**
+
+**ZWEITE REIHE, die konkurrierenden Erklärungen für die Jüngsten:**
+- KI-Exposition, je Standardabweichung: **minus 1,8 Prozent, nicht signifikant**
+- Rezession in schwächelnden Sektoren: **minus 4,2 Prozent**
+- Der Beitrag schreibt, der Rezessionseffekt sei **mehr als doppelt so stark**.
+- Für Beschäftigte **ab 40 Jahren** ergibt eine höhere KI-Exposition ein **Plus von etwa
+  1,4 Prozent**.
+
+**Aus der Presseinformation zusätzlich:** Beschäftigungswachstum in KI-betroffenen Berufen liegt bei
+den **30- bis 39-Jährigen fast 6 Prozentpunkte** und bei den **40- bis 64-Jährigen rund
+5 Prozentpunkte** höher als in weniger betroffenen Berufen.
+
+**DIE GEGENBEWEGUNG, OHNE DIE DER POST UNFAIR WÄRE:** Im **verarbeitenden Gewerbe** und in
+**nichtakademischen Berufen** findet die Studie bei den 20- bis 29-Jährigen sehr wohl einen
+**statistisch signifikanten** negativen Zusammenhang mit der KI-Exposition, im verarbeitenden
+Gewerbe 2025 rund **minus 6 Prozent**. **Wer nur „nicht signifikant" aufs Blatt schreibt, lässt
+genau die Gruppe weg, bei der es signifikant ist.**
+
+**Zitate der Forschenden:**
+- Oliver Schlenker: „Vor allem die Wirtschaftsschwäche der letzten Jahre hat zu einer sinkenden
+  Beschäftigung von jungen Beschäftigten beigetragen"
+- Michele Dinelli: „Entgegen der öffentlichen Diskussion um die Einstiegsprobleme junger
+  Akademikerinnen und Akademiker" lenkten die Analysen den Blick auf nichtakademisch geprägte Berufe
+  und das verarbeitende Gewerbe
+- Melanie Arntz: „Eine höhere KI-Betroffenheit bedeutet nicht zwingend eine schwächere
+  Beschäftigungsentwicklung."
+
+**EINSCHRÄNKUNGEN, die die Studie selbst nennt, gehören aufs Quellenblatt:**
+1. Größtenteils deskriptiv, **keine Kausalität**.
+2. Das Expositionsmaß erfasst nur das **potenzielle** Einsatzfeld, nicht die tatsächliche Nutzung
+   in Betrieben.
+3. **Homeoffice-Eignung** ist eine alternative Erklärung für altersspezifische Unterschiede.
+4. Nur sozialversicherungspflichtig Vollzeitbeschäftigte; **keine Beamten, Selbstständigen,
+   Auszubildenden und geringfügig Beschäftigten**.
+5. Zeitraum endet **2025**.
+6. Die Konjunkturanfälligkeit berücksichtigt keine Entlassungen im betrachteten Beruf selbst.
+
+**ZU POST 5 „KILLT KI DIE JOBS?", GEPRÜFT: KEIN KORREKTURFALL.** Post 5 stützt sich auf die
+IAB-Pressemitteilung vom 19.11.2025 und sagt, netto passiere nahe null. Die neue Analyse bestätigt
+die Richtung und ergänzt die Altersdimension. **Nachschlag, kein Widerruf.**
+
+**WERKZEUGNOTIZ:** Die Seite im IAB-Forum trägt in der Zitierangabe stellenweise den **15. Mai
+2026**, während der Beitrag auf den **13.10.2026** datiert ist. **Vor einer Datumsangabe im Post
+klären.**
+
+### ePA: DAS FRISTGERÜST VOM 02.10. BESTÄTIGT SICH
+
+**Quelle:** heise online, 14.10.2026, 18:46 Uhr, Bericht vom **Health Data Summit** in Berlin.
+**Belastbarkeit: berichtet.**
+
+**Zeitangaben aus der Konferenz:** Ende Oktober startet das **Aufnahmeverfahren** für die ePA,
+danach **sechswöchige Widerspruchsfrist**, **Mitte Dezember** beginnt die stufenweise Ausleitung,
+**Anträge ab 2027**.
+
+**DAS BESTÄTIGT DIE EIGENE ABLEITUNG VOM 02.10.2026**, die damals eine Korrektur der Briefings vom
+30.09. und 01.10. war: § 342 Absatz 2 Nummer 4 SGB V nennt den **30.10.2026** für die technische
+Bereitstellbarkeit, § 7 Absatz 2 FDZGesV die erste Übermittlung **sechs Wochen danach**, gerechnet
+der **11.12.2026**. Die Konferenz sagt Mitte Dezember. **Die Korrektur hält, und sie stand hier
+sechs Wochen vorher.**
+
+**Weitere Zahlen:** Zugriff auf Daten von rund **75 Millionen** gesetzlich Versicherten,
+**mehr als 120 Anträge**, davon rund **zehn von Krankenkassen** (darunter eine Untersuchung zu
+Telemonitoring bei Herzinsuffizienz). ePA-Apps erreichen in den App-Stores im Schnitt **2,5 von
+5 Sternen**. Bei Diagnosedaten **neun Monate Verzögerung**.
+**NICHT VERWENDBAR:** Maschinelles Lernen solle klinische Hinweise mit „bis zu 90 Prozent
+Genauigkeit" liefern. **Der Bericht nennt dafür keine Quelle. Kommt auf kein Blatt.**
+
+**GEGENSTIMMEN, jetzt vielfältig und teils überraschend:**
+- **Karl Broich** (BfArM): das FDZ sei eine „Herzensangelegenheit"
+- **Matthias Mieves** (SPD): „German Health Data Hub" und „Riesenerfolg"; KI solle sich in einer
+  hochsicheren FDZ-Umgebung trainieren lassen
+- **Nisar Malek** (Universitätsklinikum Tübingen): „Wir wollen Promptisierung haben, nicht komplexe
+  Analysen."
+- **Verena Vogt** (Universitätsklinikum Jena): Verzögerungen und starre Prüfschleifen
+- **Stefanie Stoff-Ahnis** (GKV-Spitzenverband): fordert schnellere, stabilere Prozesse
+- **Alexandra Ramshorn-Zimmer** (IQTIG): „One-Stop-Shop"
+- **Christian Müller** (Bayer Vital): Der Zugang für die Industrie sei eine **„Ochsentour"**, die
+  Industrie arbeite im Analyseraum **„wie mit verbundenen Augen"**
+
+**DAS IST DAS BLATT, DAS DEM POST GEFEHLT HAT.** Die Erzählung „deine Daten fließen frei an die
+Industrie" trifft nicht, was die Industrie selbst sagt. Ein Post ohne diesen Punkt ist
+unvollständig.
+
+**Strittig:** die im GeDIG geplante **Re-Identifizierung von Ärzten und Kliniken**. Thomas Renner
+(BMG) sagt, sie sei auf **drei Anwendungsfälle** beschränkt, und zur Patientenseite: „Der Patient
+selbst darf weiterhin nicht re-identifiziert werden." Kritiker warnen vor einfacher
+De-Anonymisierung.
+
+### Kleinere Fundstücke vom 15.10.2026
+
+- **„Schatten-KI in der Personalabteilung: Wie KI heimlich Bewerbungen aussortiert"** (heise,
+  14.10.2026, 09:17 Uhr). **Wörtlich das Leitprinzip dieses Kanals**, verbindet sich mit Post 1 und
+  mit dem Befund vom 05.10., dass die Hochrisiko-Pflichten für Bewerbungssoftware erst am 02.12.2027
+  greifen. **Adresse nicht gefunden, nicht gelesen. HÖCHSTE PRIORITÄT, beim nächsten Lauf zuerst.**
+- **„Social-Media-Verbot für Jugendliche: Regierung beschließt Regulierungseckpunkte"** (heise,
+  14.10.2026, 18:54 Uhr). Deutscher Regierungsbeschluss, Kids-Act-Strang mit COM(2026) 681 im
+  Volltext hier. **Nicht gelesen. Vorgemerkt mit Priorität.**
+- **„Muse speichert anscheinend intime Details über Freunde und Familie seiner Nutzer"** (heise,
+  14.10.2026, 16:02 Uhr). Passt zum Chatbot-Tracking-Kandidaten. **Ungeprüft. Vorgemerkt.**
+- **„Digitalministerium stellt klar: Kein Rückzug bei KI-Projekt mit SAP und Mistral"** (heise,
+  14.10.2026, 08:09 Uhr). Berührt Bescheid-Kandidat und Deutschland-App. **Ungeprüft. Vorgemerkt.**
+- **EU-Gericht bestätigt Einstufung von Stripchat als Großplattform** (heise, 14.10.2026,
+  18:06 Uhr). **Kein KI-Kern**, aber dieselbe Schwellenlogik wie in Post 29. **Aktenzeichen nicht
+  erfasst. Vorgemerkt.**
+- **WERKZEUGNOTIZ:** `bundestag.de/ausschuesse/a14_gesundheit` antwortet mit **HTTP 404**. Die
+  Stellungnahmen zur GeDIG-Anhörung vom 14.10.2026 sind damit nicht beschafft. **Vorgemerkt.**
