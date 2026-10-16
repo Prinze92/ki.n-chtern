@@ -5214,3 +5214,128 @@ De-Anonymisierung.
   erfasst. Vorgemerkt.**
 - **WERKZEUGNOTIZ:** `bundestag.de/ausschuesse/a14_gesundheit` antwortet mit **HTTP 404**. Die
   Stellungnahmen zur GeDIG-Anhörung vom 14.10.2026 sind damit nicht beschafft. **Vorgemerkt.**
+
+---
+
+## Recherchierte Einzelbefunde vom 16.10.2026
+
+**Rückstau bei vier, vierundvierzigster Tag ohne Neubau.** Ein deutsches Urteil im Volltext, das
+genau den Fall entscheidet, um den dieser Kanal seit zwei Wochen herumrecherchiert.
+
+### LG KÖLN 33 O 120/24: CHATDATEN UND WERBUNG
+
+**Primärquelle:** Landgericht Köln, 33. Zivilkammer, **Aktenzeichen 33 O 120/24**, mündliche
+Verhandlung vom **16.07.2026**, Urteil veröffentlicht beim Verbraucherzentrale Bundesverband
+(`vzbv.de/sites/default/files/2026-10/Snaptchat Urteil LG Köln.pdf`), **22 Seiten, heute im Volltext
+gelesen. Belastbar.** heise online berichtete am 15.10.2026 um 14:22 Uhr.
+**Kläger:** vzbv. **Beklagte:** Snap Group Limited, London. **Das Urteil ist nicht rechtskräftig.**
+
+**TENOR, wörtlich, Ordnungsgeld bis 250.000 Euro je Zuwiderhandlung.** Snap wird verurteilt zu
+unterlassen, bezogen auf die App „Snapchat":
+
+> „a) ohne Rechtsgrundlage personenbezogene Daten, die mittels des in der App enthaltenen generativen
+> KI-Chatbots ‚My AI' erhoben werden, zu Werbezwecken zu verarbeiten, wenn dies geschieht wie in dem
+> vor der ersten Nutzung des Chatsbots ‚My AI' angezeigten Popup beschrieben ...
+> b) eine Einwilligung in die Verwendung personenbezogener Daten zu Werbezwecken durch voreingestellte
+> Ankreuzkästchen einzuholen ...
+> c) im Nutzerkonto minderjähriger Nutzer die Kategorien ‚Alkohol' und ‚Glücksspiel' als Themen von
+> Anzeigen vorauszuwählen und darauf hinzuweisen, dass die Einstellungen deaktiviert werden können,
+> um weniger Anzeigen zu diesen Themen zu sehen"
+
+**DIE BEGRÜNDUNG IST DER EIGENTLICHE FUND.** Das Gericht stützt sich auf das
+Unterlassungsklagengesetz und auf **Artikel 9 DSGVO**, der als lex specialis Sperrwirkung gegenüber
+Artikel 6 Absatz 1 entfaltet (mit Verweis auf BeckOK DatenschutzR/Albers/Veit, 56. Ed. 1.2.2026,
+und EuGH GRUR 2023, 1131 Rn. 89). Wörtlich:
+
+> „Bei der Funktionsweise des KI-Chatbots der Beklagten ist Art. 9 DSGVO einschlägig. Die
+> Übermittlung von sensiblen Daten an den Chatbot der Beklagten ist nicht nur faktisch möglich,
+> sondern der Nutzer wird bei der ersten Nutzung durch den Hinweis ‚Du kannst mir alle möglichen
+> Fragen stellen …' sogar dazu ermuntert"
+
+**Die Einladung zum Erzählen ist Teil der Begründung**, nicht nur die technische Möglichkeit.
+
+**Weitere Angaben:** Snap zahlt **242,99 Euro** Abmahnkosten nebst Zinsen seit dem 26.06.2024 und
+trägt die Kosten. Vorläufig vollstreckbar, hinsichtlich der Verbote gegen Sicherheitsleistung von
+**20.000 Euro**. Der vzbv wird im Urteil als Dachverband der **16 Verbraucherzentralen** der Länder
+und **29 weiterer** verbraucherpolitischer Verbände beschrieben. Nach dem heise-Bericht überzeugten
+das Gericht weder das Argument der personalisierten Werbung noch der Hinweistext vor der ersten
+Nutzung noch das berechtigte Interesse. Der Digital Services Act war zur Zeit der Abmahnung noch
+nicht in Kraft und ist nicht Grundlage.
+
+**ZU POST 7, GEPRÜFT: KEIN KORREKTURFALL, SONDERN BESTÄTIGUNG.** Post 7 „Was du besser nicht in eine
+KI eintippst" ist am 13.08.2026 erschienen. **Ein deutsches Gericht sagt jetzt, dass eingetippte
+Angaben Daten im Sinne von Artikel 9 DSGVO sein können und dass die Aufforderung dazu rechtlich
+zählt.** Das ist die stärkste Bestätigung, die ein Post dieses Kanals bisher bekommen hat.
+
+**OFFEN:** ob Snap Berufung eingelegt hat, und **ob der Hinweistext inzwischen geändert wurde**. Das
+zweite ist vor dem Posten zu prüfen, sonst steht ein überholter Zustand auf dem Blatt.
+
+### GEPRÜFT: DIE KUNSTAUSNAHME FEHLT IM EU-VERBOT UND STEHT IM DEUTSCHEN ENTWURF
+
+**Anlass:** heise online, 16.10.2026, 06:10 Uhr, „Auslegungssache 170" mit **Holger Bleich** (c't),
+**Joerg Heidrich** (heise-Verlagsjustiziar) und **Tahireh Panahi** (Universität Kassel). Eine ihrer
+Aussagen: Dem EU-Verbot ab Dezember fehle eine Kunstausnahme.
+
+**NACHGEPRÜFT AM NORMTEXT, DIE AUSSAGE HÄLT.** In der konsolidierten KI-Verordnung kommt
+„künstlerisch" **genau einmal** vor, in **Artikel 50 Absatz 4**:
+
+> „Ist der Inhalt Teil eines offensichtlich künstlerischen, kreativen, satirischen, fiktionalen oder
+> analogen Werks oder Programms, so beschränken sich die in diesem Absatz festgelegten
+> Transparenzpflichten darauf, das Vorhandensein solcher erzeugten oder manipulierten Inhalte in
+> geeigneter Weise offenzulegen"
+
+**Das begrenzt nur die Offenlegungspflicht.** In **Artikel 5 Absatz 1 Buchstabe ba** und in den
+**Absätzen 1a und 1b**, also im Verbot selbst, kommen Kunst, Satire, Wissenschaft und Forschung
+**nicht** vor. Geprüft durch Textsuche im Abschnitt.
+
+**Im deutschen Regierungsentwurf steht die Ausnahme dagegen im Verbot. § 184k Absatz 5 StGB-E** nimmt
+Handlungen aus, die „in Wahrnehmung überwiegender berechtigter Interessen erfolgen, namentlich der
+Kunst oder der Wissenschaft, der Forschung oder der Lehre, der Berichterstattung über Vorgänge des
+Zeitgeschehens oder der Geschichte".
+
+**DAS IST DAS VIERTE BLATT DES DEEPFAKE-KANDIDATEN**, ein Vergleich aus zwei Normtexten, die beide
+hier im Volltext liegen. **Es steht in keiner der gelesenen Meldungen.**
+
+**Weitere Punkte aus dem Podcast, berichtet, die Stellungnahmen selbst sind nicht gelesen:**
+- Panahi schlägt vor, „harmlose synthetische Inhalte und schädliche Deepfakes getrennt zu
+  definieren".
+- Heidrich: Bei der weiten Definition müsse man sogar ein Katzenbild kennzeichnen; er befürchtet,
+  gewöhnliche Nutzer könnten durch einen fehlerhaften Filter zu Straftätern werden.
+- Panahi bevorzugt den älteren Vorschlag der Grünen, der nur die Verbreitung bestraft.
+- Ein **bayerischer Vorschlag über den Bundesrat** sehe bis zu **fünf Jahre** Haft vor.
+- Zum **EU Kids Act** sagt Bleich, der Entwurf sei „überhastet und handwerklich missraten"; er nennt
+  ein Social-Media-Verbot unter 13 Jahren und strenge Altersprüfungen für alle.
+- Nebenbei genannt: **100.000 Euro** Bußgeld gegen Securitas in Spanien, weil Betroffene an eine
+  kostenpflichtige Hotline verwiesen wurden.
+- Das Gewaltschutzgesetz wird im Beitrag nicht beim Namen genannt, nur der Kabinettsbeschluss vom
+  7. Oktober. **§ 184k StGB kommt im Beitrag nicht vor.**
+
+### WERKZEUGNOTIZ: „SCHATTEN-KI" BLEIBT UNERREICHBAR
+
+Der Beitrag „Schatten-KI in der Personalabteilung: Wie KI heimlich Bewerbungen aussortiert"
+(heise, 14.10.2026, 09:17 Uhr) ist **an zwei Tagen nicht beschaffbar gewesen**. Die Adresse steht
+nicht im lesbaren Teil der Übersichtsseite (die WebFetch-Antwort bricht bei 100.000 Zeichen ab), und
+eine gezielte Suche findet nur verwandte Texte zu KI-generierten Bewerbungen.
+**Das ist eine Umgebungsgrenze und wird hier als solche festgehalten.** Der Strang bleibt vorgemerkt;
+die Rechtslage dazu liegt ohnehin belastbar vor (Anhang III Nummer 4 Buchstabe a der KI-Verordnung,
+Geltung erst ab 02.12.2027 nach Artikel 113 Buchstabe c, dazu § 2 Absatz 1 und § 8 KI-MIG).
+
+**Bei der Suche aufgetaucht, ungeprüft, nur über Aggregatoren:** Eine Erhebung des HR-Unternehmens
+Remote unter mehr als 4.100 Personalverantwortlichen; etwa 30 Prozent fühlten sich durch
+KI-Bewerbungen überfordert, 73 Prozent der Unternehmen hätten in sechs Monaten KI-Bewerbungen mit
+falschen Angaben erhalten. **Auftraggeber ist ein HR-Unternehmen, also Partei. Vorgemerkt, nicht
+verwendbar ohne das Original.**
+
+### Kleinere Fundstücke vom 16.10.2026
+
+- **Acht US-Bundesstaaten verklagen OpenAI wegen ChatGPT-Gefahren** (heise, 15.10.2026, 09:51 Uhr).
+  Passt zum Character.ai-Strang vom 14.10. **Adresse nicht gefunden, nicht gelesen. Vorgemerkt.**
+- **Bundestag gibt gesetzliche Grundlage für Staats-Wallet frei** (heise, 15.10.2026, 18:25 Uhr).
+  **Kein KI-Kern erkennbar**, gehört zum d-you-Strang vom 07.10. **Vorgemerkt.**
+- **„AdFection: Wie Online-Werbung zum Einfallstor für Staatstrojaner wird"** (heise, 15.10.2026,
+  17:06 Uhr). **Kein KI-Kern**, aber dieselbe Werbeinfrastruktur wie im Kölner Urteil und im
+  Xandr-Fall. **Vorgemerkt mit Priorität als Hintergrund.**
+- **EuGH zu Phishing-Schäden bei Banken** (heise, 15.10.2026, 20:20 Uhr). **Kein KI-Kern**, berührt
+  aber Post 17 zu KI-Phishing. **Aktenzeichen nicht erfasst. Vorgemerkt.**
+- **Datenschutz beim Apple HomeView** (heise, 15.10.2026, 10:40 Uhr). Kamera im Wohnraum, berührt den
+  Aufnahmestrang. **Ungeprüft. Vorgemerkt.**
