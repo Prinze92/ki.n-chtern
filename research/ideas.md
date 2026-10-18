@@ -5450,3 +5450,117 @@ nicht. Vorgemerkt** für den Bewerbungsstrang.
   Anwendungsbereichs der KI-Verordnung. **Vorgemerkt.**
 - **Bürgerrechtler und Bitkom zum Schwachstellenmanagement** (heise, 16.10.2026, 16:29 Uhr).
   **Kein KI-Kern erkennbar. Vorgemerkt.**
+
+---
+
+## Recherchierte Einzelbefunde vom 18.10.2026
+
+**Rückstau bei vier, sechsundvierzigster Tag ohne Neubau.** Dünner Samstag. Das Ergebnis besteht
+vor allem aus zwei Entscheidungen, etwas **nicht** zu verwenden, und einem Negativbefund.
+
+### META-BRILLEN NEHMEN OHNE WECKWORT AUF: BERICHTET, NICHT REPRODUZIERT
+
+**Anlass:** netzpolitik-Ticker vom 16.10.2026 mit TechSpot als Quelle. **Belastbarkeit: berichtet.**
+Mehrere voneinander unabhängige Berichte (TechSpot, Android Authority, Gizmodo, 9to5Google,
+AndroidHeadlines, ChannelNews), aber **keine Primärquelle und keine Meta-Stellungnahme im Original.**
+
+- Besitzer von **Ray-Ban-Meta-Brillen** fanden in der Meta-AI-App gespeicherte **Audioaufnahmen und
+  Texttranskripte** von Gesprächen, für die sie das Weckwort nicht gesagt hatten.
+- Ein Nutzer beschreibt das für **drei Brillen** der **zweiten und dritten Generation** und bringt
+  es mit einem **Firmware-Update** in Verbindung.
+- **Meta** erklärt gegenüber Android Authority, das Problem sei **„resolved"**, nennt aber **keine
+  Ursache** und keine Einzelheiten zur Behebung.
+- Metas Support hatte zuvor empfohlen, Mikrofonberechtigungen abzuschalten und den Sprachverlauf zu
+  löschen, was nach Darstellung des Betroffenen die Kernfunktion abschaltet und das Problem nicht
+  erklärt.
+- Nach Metas Datenschutzangaben werden gespeicherte Sprachaufnahmen **bis zu einem Jahr**
+  aufbewahrt, wenn Nutzer sie nicht löschen. Der Sprachverlauf ist in der App einsehbar und
+  löschbar.
+
+**DIE EINSCHRÄNKUNG GEHÖRT AUF JEDES BLATT:** Die berichtenden Medien schreiben ausdrücklich, dass
+sie das Verhalten **nicht reproduzieren konnten** und dass es **keinen Beleg für eine weite
+Verbreitung** gibt. **Ein Post daraus wäre genau der Hype, gegen den dieser Kanal gebaut ist.**
+
+**WARUM DER FALL TROTZDEM WERTVOLL IST:** Er trifft Post 10 und den Brillen-Kandidaten an einer
+neuen Stelle. Der Hamburgische Datenschutzbeauftragte hat im September argumentiert, Aufnahmen von
+**Dritten** seien bis auf seltene Konstellationen unzulässig. **Bei einer Aufnahme ohne Weckwort hat
+auch der Träger sie nicht gewollt.** Das ist eine andere Frage als die bisherige.
+
+**Offen und entscheidend:** Metas eigene Darstellung, Umfang und Ursache. **Ohne mindestens eine
+davon kein Post.**
+
+### HESSISCHER VGH MIT CHATGPT-MARKERN IM BESCHLUSS: UNGEPRÜFT, BERICHTE WIDERSPRÜCHLICH
+
+**Belastbarkeit: ungeprüft.** Gefunden bei der Nachprüfung der GovGPT-Meldung.
+
+Nach Berichten mehrerer Aggregatoren (IT-Boltwise, borncity, mind-verse) enthält ein **Beschluss des
+Hessischen Verwaltungsgerichtshofs vom 24. Juni 2026** zum Aufenthaltsrecht ukrainischer
+Schutzsuchender, mit dem dem EuGH eine Frage vorgelegt wird, **Quellenangaben mit ChatGPT-Markern**
+in den Adressen (`source=chatgpt.com`, `resource=chatgpt.com`). Mehrere Verweise seien nicht
+belegbar. Das Gericht räume Zitierfehler ein, halte die Entscheidung inhaltlich für richtig, weil
+ChatGPT nicht die einzige Quelle gewesen sei, und verweise zur Frage der Entfernung der Marker auf
+die richterliche Unabhängigkeit.
+
+**DIE BERICHTE WIDERSPRECHEN SICH AN DREI STELLEN:**
+
+| Punkt | Widerspruch |
+|---|---|
+| Form | eine Quelle „Urteil", andere „Beschluss" |
+| Datumsfehler | einmal georgisches Regierungsdekret fälschlich 2025 statt 2026, einmal umgekehrt |
+| Umfang | eine Quelle: fünf von zwölf Belegen unbrauchbar; andere nennen keine Zahl |
+
+**Kein Aktenzeichen, kein Volltext.** Die hessische Rechtsprechungsdatenbank
+(`lareda.hessenrecht.hessen.de`) antwortet mit **HTTP 503**.
+
+**ENTSCHEIDUNG: NICHT VERWENDEN**, weder für einen Post noch für einen Kommentar, bis Aktenzeichen
+und Volltext vorliegen. **Vorgemerkt mit Priorität.** Ein Gericht, das in einer Vorlage an den EuGH
+erfundene Belege zitiert, wäre genau das Thema dieses Kanals.
+
+### NEGATIVBEFUND: GOVGPT UND DIE ÖSTERREICHISCHE JUSTIZ
+
+Der netzpolitik-Ticker vom 16.10.2026 nennt mit Verweis auf den Standard (17:49 Uhr) „fehlerhafte
+Paragrafen durch das KI-Modell GovGPT in der österreichischen Justiz". **Eine Suche findet dazu
+nichts.**
+
+Zu GovGPT selbst, **ungeprüft:** Die österreichische Verwaltung habe mit GovGPT eine eigene
+Anwendung, die bis Jahresende rund **250.000** öffentlich Bedienstete unterstützen solle; der Bund
+nutze dafür derzeit **Mistral Small 3.2** und könne damit nicht mit den aktuellsten Versionen von
+ChatGPT oder Claude mithalten. **Zu Fehlern in der Justiz findet sich nichts.**
+
+**Möglich ist eine Verwechslung mit dem hessischen Fall, möglich ist auch, dass die Meldung zu neu
+ist. Beides hier festgehalten, damit der Gedanke nicht von vorn beginnt. Ohne den
+Standard-Beitrag im Original bleibt die Behauptung offen.**
+
+### PALANTIR IN EUROPA, ALS KOMMENTARANLASS
+
+**Quelle:** netzpolitik.org, Wochenrückblick „KW 42" vom **17.10.2026, 08:01 Uhr**, Anna Biselli;
+die Recherche selbst von Anna Biselli und Constanze. **Belastbarkeit: berichtet**, keine
+Vergabeunterlagen verlinkt.
+- Journalistinnen und Journalisten aus **18 Staaten**, koordiniert von **Follow The Money**.
+- Grundlage: Nachfragen bei Regierungen und Ministerien sowie Presse- und
+  Informationsfreiheitsanfragen.
+- **Rund 1,4 Milliarden Euro** zusammengerechnet, ausdrücklich eine **Untergrenze**, weil einige
+  Regierungen Kosten nicht offenlegen.
+- Beispiele: **rund 25 Millionen Euro in Baden-Württemberg**, **6,2 Millionen Euro in Italien**.
+- In Spanien werde der einzige Palantir-Vertrag wohl nicht verlängert.
+
+**EIGENE BEOBACHTUNG, als Nebeneinanderstellung und nicht als Zusammenhang:** Dasselbe Bundesland,
+das nach dieser Recherche rund 25 Millionen Euro für Palantir-Software zahlt, will nach dem
+Haushaltsgesetzentwurf beim Landesdatenschutzbeauftragten ab 2027 **vierzig Prozent** des Personals
+streichen, während andere Landesbehörden fünf Prozent einsparen sollen (heise, 13.10.2026).
+**Beide Zahlen sind berichtet**, weder Vergabeunterlagen noch Haushaltsgesetzentwurf sind gelesen.
+
+### Kleinere Fundstücke vom 18.10.2026
+
+- **Umgang mit Chatbots und KI-Agenten nach dem eigenen Tod** (The Guardian, über
+  netzpolitik-Ticker, 16.10.2026). **Ungeprüft. Vorgemerkt mit Priorität:** Die Verbindung zu
+  § 201b Satz 2 StGB-E ist neu, denn der Entwurf erfasst ausdrücklich auch Taten, die sich auf eine
+  **verstorbene** Person beziehen. Dazu passt Post 14.
+- **Täuschung mit KI-Bearbeitung und nachträglicher Unschärfe bei Bildern** (Bayerischer Rundfunk,
+  über netzpolitik-Ticker, 16.10.2026). Berührt Post 8. **Ungeprüft. Vorgemerkt.**
+- **Bundesregierung und Nvidia** (Die Zeit, über netzpolitik-Ticker, 16.10.2026). **Ungeprüft.
+  Vorgemerkt**, passt zum Rechenzentren-Strang um Post 27.
+- **Digitaler Euro, Wallet und Offlineguthaben** (heise, 17.10.2026, 14:00 Uhr). **Kein KI-Kern
+  erkennbar**, gehört zum Wallet-Strang. **Vorgemerkt.**
+- **Ferngesteuerter Roboter in Köln** (AP News, über netzpolitik-Ticker, 16.10.2026). **Kein
+  KI-Kern**, eine ferngesteuerte Maschine ist keine KI. **Nicht vorgemerkt.**
