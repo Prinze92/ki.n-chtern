@@ -5564,3 +5564,178 @@ streichen, während andere Landesbehörden fünf Prozent einsparen sollen (heise
   erkennbar**, gehört zum Wallet-Strang. **Vorgemerkt.**
 - **Ferngesteuerter Roboter in Köln** (AP News, über netzpolitik-Ticker, 16.10.2026). **Kein
   KI-Kern**, eine ferngesteuerte Maschine ist keine KI. **Nicht vorgemerkt.**
+
+---
+
+## Recherchierte Einzelbefunde vom 19.10.2026
+
+**Rückstau bei vier, siebenundvierzigster Tag ohne Neubau.** Zwei Primärdokumente im Volltext
+gelesen, beide seit dem 15.10. als „nicht gelesen, vorgemerkt" notiert.
+
+### ECKPUNKTE DER BUNDESREGIERUNG ZUM KINDER- UND JUGENDMEDIENSCHUTZ
+
+**Primärquelle:** BMBFSFJ, „Eckpunkte der Bundesregierung zum Kinder- und Jugendmedienschutz",
+Dateidatum **13.10.2026**, **7 Seiten, am 19.10.2026 im Volltext gelesen. Belastbar.**
+`bmbfsfj.bund.de/resource/blob/295776/a28602c770cd8fbbc19ed0f9989a1030/20261013-eckpunktepapier-kinder-und-jugendmedienschutz-data.pdf`
+Kabinettsbeschluss **14.10.2026**. heise 14.10., 18:54 Uhr; ZDFheute 14.10., 20:47 Uhr (Quelle epd).
+
+**Wörtlich, Abschnitt I.1 (europäische Ebene, EU Kids Act).** Die Bundesregierung werde sich dafür
+einsetzen, dass ein Ansatz verfolgt wird,
+
+> „der insbesondere ein Verbot suchtfördernder Designs für digitale Anwendungen bei der
+> Produktgestaltung berücksichtigt, um bereits die Entstehung und das in den Markt bringen
+> schädlicher Dienste zu verhindern. Dies umfasst ausdrücklich, dass algorithmische
+> Empfehlungssysteme standardmäßig deaktiviert sein müssen (Opt-In-Lösung)."
+
+Ebenfalls Abschnitt I.1, zum Anwendungsbereich: Der EU Kids Act gehe über den Digital Services Act
+hinaus und solle „neben sozialen Netzwerken unter anderem weitere Anwendungen wie Online-Games,
+App-Stores, Betriebssysteme und **KI-Begleiter**" erfassen. Weiter soll sich die Bundesregierung
+dafür einsetzen, dass „unter 13-Jährige grundsätzlich keinen Zugang zu sozialen Netzwerken haben"
+und dass die Vorgaben der Leitlinien nach **Art. 28 Abs. 4 DSA** in den Kids Act überführt werden.
+
+**Wörtlich, Abschnitt I.2 (nationale Ebene, Novelle des Jugendschutzgesetzes).**
+
+> „Solange auf europäischer Ebene noch kein Mindestalter für die Nutzung sozialer Netzwerke
+> festgelegt wurde, wird die Bundesregierung eine nationale Übergangsregelung schaffen. Diese wird
+> Kindern unter 13 Jahren die Nutzung sozialer Netzwerke grundsätzlich untersagen. Ausnahmen sollen
+> jedoch für nachweislich kindgerechte Angebote gelten. Für Minderjährige zwischen 13 und 18 Jahren
+> sollen abgestufte Beschränkungen der Nutzung sozialer Netzwerke vorgesehen werden."
+
+**EIGENER BEFUND 1:** In diesem Abschnitt steht **kein Wort** über Empfehlungsalgorithmen. Das
+Abschalten ist eine Position für Brüssel, nicht Inhalt der angekündigten deutschen Novelle. Die
+Abstufungen für 13 bis 18 sind im Papier nicht beschrieben.
+
+**Wörtlich, Abschnitt II.2 (Altersverifikation, EUDI-Wallet „d-you", ab 2027).**
+
+> „Die Nutzung der Wallet ist für Bürgerinnen und Bürger freiwillig. Zudem dürfen sie bei
+> Nichtnutzung in keiner Weise eingeschränkt oder benachteiligt werden (u.a. in ihrem Zugang zu
+> privaten Diensten)."
+
+Davor im selben Abschnitt: Zum Nachweis des Alters könne „auch ausschließlich eine Bestätigung des
+Mindestalters erfolgen, ohne dass dafür weitere personenbezogene Daten der Nutzenden übermittelt
+werden müssen". Bestandteil der Wallet sind die Personenidentifizierungsdaten aus Personalausweis
+oder Aufenthaltstitel, Sicherheitsniveau „hoch".
+
+**EIGENER BEFUND 2:** Verbot unter 13 auf der einen Seite, freiwilliges und folgenloses
+Prüfverfahren auf der anderen. **Das Papier sagt nicht, wie das Alter sonst festgestellt wird.**
+Das ist eine Leerstelle im Dokument, keine Unterstellung. Keine gefundene Quelle beantwortet sie.
+
+**Weitere Fundstellen.**
+- Generalvorbehalt (Seite 2): „Die Umsetzung der nachfolgenden Maßnahmen steht unter dem Vorbehalt
+  der jeweiligen Zuständigkeit und der verfügbaren Haushaltsmittel."
+- **„KI-Seepferdchen"** (II.3): Die Bundesregierung werde sich dafür einsetzen, dass es „als
+  altersgerechtes Angebot für das Grundschulalter entwickelt und deutschlandweit einheitlich
+  verbreitet werden kann". Kein Datum, kein Träger, keine Mittel. Bitkom nennt laut ZDFheute
+  79 Prozent Zustimmung, Umfrage nicht geprüft.
+- Weitere Vorhaben: § 1631 Abs. 1 BGB (elterliche Aufsicht konkretisieren), §§ 1, 11, 13, 13a, 14
+  und 16 SGB VIII, bundesweite Kampagne ab dem vierten Quartal 2026, Kinder-Online-Wache, Runder
+  Tisch, Bußgelder aus Jugendmedienschutzverstößen in medienpädagogische Maßnahmen.
+- Neue Früherkennungsuntersuchung **U10** für Neun- bis Zehnjährige, beschlossen vom Gemeinsamen
+  Bundesausschuss im **August 2026**, mit Schwerpunkt auf Gesundheitsrisiken digitalen
+  Medienkonsums. **Nicht an der G-BA-Quelle geprüft.**
+- Die in der Presse genannte Zahl **56 Handlungsempfehlungen** der Expertenkommission steht **nicht**
+  im Eckpunktepapier. Der Abschlussbericht (BMBFSFJ, September 2026, rund 6,8 MB) ist **ungelesen**.
+
+### DAK UND UKE, MEDIENSUCHTSTUDIE OTTER, ERGEBNISBERICHT 2025/2026
+
+**Primärquelle:** Wiedemann, Busch, Schlichter, Gebhardt, Paschke (2026), „Problematische
+Mediennutzung bei Kindern und Jugendlichen in Deutschland: Ergebnisbericht 2025/2026", DZSKJ am
+Universitätsklinikum Hamburg-Eppendorf im Auftrag der DAK-Gesundheit, **28 Seiten, am 19.10.2026 im
+Volltext gelesen. Belastbar.**
+`caas.content.dak.de/caas/v1/media/164480/data/668eaf4707e36da3f06d952d00e44da3/260324-download-mediensucht-ergebnisbericht.pdf`
+Achte Erhebungswelle, Datenerhebung **September und Oktober 2025** durch forsa, **1.005
+Eltern-Kind-Dyaden**, Kinder von 10 bis 17 Jahren, Kriterien nach **ICD-11**. Pressetermin
+**24.03.2026**.
+
+**Wörtlich, Abschnitt 4.2.2 (soziale Medien).**
+
+> „Im Herbst 2025 blieb die Prävalenz der riskanten Nutzung sozialer Medien mit 21,5 % ähnlich zum
+> Vorjahr (21,1 %; p = 0,861). Die pathologische Nutzung sozialer Medien stieg von 4,7 % im Vorjahr
+> auf 6,6 %, wobei dieser Anstieg statistisch nicht signifikant war (p = 0,066). Hochgerechnet
+> entspricht dies einer Betroffenenzahl von über 1,4 Millionen 10- bis 17-jährigen Kindern und
+> Jugendlichen in Deutschland, die problematische (d.h. riskante oder pathologische) Nutzungsmuster
+> aufweisen."
+
+Weiter dort: kein signifikanter Unterschied zwischen Jungen (6,7 Prozent) und Mädchen (6,5 Prozent),
+bei den Mädchen aber eine Verdopplung gegenüber 2024 (3,2 Prozent); 14- bis 17-Jährige mit
+10,2 Prozent signifikant häufiger betroffen als 10- bis 13-Jährige (2,7 Prozent, p < 0,001).
+
+Weitere Prävalenzen: digitale Spiele **6,6 Prozent** riskant (nicht signifikanter Rückgang um
+23,3 Prozent, p = 0,092). Online-Videos **21,4 Prozent** riskant, **signifikanter** Anstieg um knapp
+60 Prozent (p < 0,001), pathologisch von 2,6 auf 4,0 Prozent (p = 0,085), hochgerechnet mehr als
+1,3 Millionen. Tägliche Online-Video-Nutzung 108 Minuten werktags und 151 Minuten am Wochenende.
+
+**EIGENER BEFUND 3:** Das Eckpunktepapier schreibt „Mittlerweile zeigt jedes vierte Kind
+problematische Nutzungsmuster in den sozialen Netzwerken" **ohne Quellenangabe**. 21,5 plus 6,6
+ergibt 28,1 Prozent und trägt die Aussage. **Die Zuordnung bleibt eine Vermutung**, solange das
+Ministerium keine Quelle nennt. „Mittlerweile" legt einen Anstieg nahe; die Studie nennt beide
+Veränderungen ausdrücklich statistisch nicht signifikant.
+
+**EIGENER BEFUND 4:** Die DAK-Pressemitteilung spricht von „rund 1,5 Millionen", der eigene
+Ergebnisbericht von „über 1,4 Millionen". Die Mitteilung rundet in die unbequemere Richtung.
+
+**gKI-Chatbots, Abschnitt 4.6. Basis N = 644**, also nur Kinder, die Chatbots nicht „nie" nutzen.
+- 38,8 Prozent mindestens wöchentlich, **27,2 Prozent mehrmals pro Woche bis täglich**, 33,3 Prozent
+  in den letzten sechs Monaten gar nicht.
+- 70 Prozent vertrauen den Aussagen mindestens manchmal, **40,7 Prozent oft oder sehr oft**.
+- **10,9 Prozent**: „Der Chatbot hört mir zu und versteht mich besser, als ein echter Mensch."
+- **10,4 Prozent**: erzählen dem Chatbot Dinge, die sie sonst niemandem oder nur engen Freundinnen
+  und Freunden sagen würden.
+- **9,8 Prozent** nutzen ihn zur Ablenkung von negativen Gefühlen, **7,8 Prozent** gegen Einsamkeit.
+- Abschnitt 4.6.5: Kinder mit mindestens milder depressiver Symptomatik (PHQ-9 ab 10 Punkten) zeigen
+  diese Bindungsmuster „deutlich häufiger". **Diese Gruppe umfasst n = 73**, die Vergleichsgruppe
+  n = 538. Die Prozentwerte stehen nur in Abbildung 13, nicht im Fließtext, und waren aus dem
+  PDF-Text nicht auslesbar.
+
+**WARNUNG für einen späteren Post:** Mehrere Zusammenfassungen nennen für diese Untergruppe Werte um
+33 Prozent. **Bei n = 73 sind das etwa 24 Kinder.** Derzeit **ungeprüft**. Wer die Zahl verwendet,
+muss die Basis danebenschreiben. Ergebnispräsentation (3,58 MB) und forsa-Bericht (4,34 MB) sind
+verlinkt und **nicht gelesen**; dort stehen die Werte vermutlich.
+
+### LG MÜNCHEN I, GEMA GEGEN OPENAI, AN DER AMTLICHEN MITTEILUNG GEPRÜFT
+
+Für Post 22 lag bisher kein Gerichtstext aus erster Hand vor. **Heute nachgeholt:**
+Pressemitteilung **11/2025 des Landgerichts München I vom 11.11.2025** auf
+`justiz.bayern.de/gerichte-und-behoerden/landgericht/muenchen-1/presse/2025/11.php`, gelesen.
+**Belastbar.** 42. Zivilkammer, **Az. 42 O 14139/24**, den Klagen auf Unterlassung, Auskunft und
+Schadensersatz gegen zwei Unternehmen der OpenAI-Gruppe wurde „im Wesentlichen stattgegeben", die
+Klage wegen Verletzung des allgemeinen Persönlichkeitsrechts abgewiesen. Neun Liedtexte, darunter
+„Atemlos" und „Wie schön, dass du geboren bist". Das Gericht sah die Texte in den Modellen 4 und 4o
+memorisiert und in Chatbot-Antworten wiedergegeben, Vervielfältigung und öffentliche
+Zugänglichmachung nicht durch Schranken gedeckt, auch nicht durch Text und Data Mining.
+**Die Mitteilung hält ausdrücklich fest, dass das Urteil nicht rechtskräftig ist**, nennt aber
+**kein Rechtsmittel und keine Frist**. Das Berufungsaktenzeichen **6 U 3662/25 e** bleibt damit
+weiterhin nur berichtet und beim Gericht unbestätigt, wie in `posts.yaml` bei Post 22 vermerkt. Eine
+Entscheidung des OLG München ist nicht auffindbar.
+
+### KLEINERE FUNDSTÜCKE VOM 19.10.2026
+
+- **„KI-Kopien des Grüffelo: Illustrator Axel Scheffler will gegen Betreiber klagen"** (heise,
+  18.10.2026, 11:16 Uhr, Stefan Krempl, nach der Zeit). Scheffler erwägt eine Klage, am liebsten
+  gemeinsam mit anderen, und sucht Rechtsrat. **„Erwägt" ist kein Fall**, der Strang gehört Post 22.
+  Ins Kommentarmaterial geflossen.
+- **„Bau von KI-Rechenzentren kommt in den USA ins Stocken"** (heise, 18.10.2026, 16:16 Uhr, Nico
+  Ernst). 47 verzögerte, gestoppte oder blockierte Großprojekte 2026 nach RegLayer-Daten über die
+  Financial Times; über 1.000 US-Kommunen mit Regeln, teils Moratorien (FT-eigene Recherche);
+  3,6 Prozent des BIP für KI-Infrastruktur gegen 2,2 Prozent für Eisenbahn Ende des 19. Jahrhunderts
+  und 1,1 Prozent für den Internetausbau 1996 bis 2003 (Columbia Business School); Gartner-Prognose
+  8,5 Billionen nötiger Neocloud-Umsatz bis 2030 gegen höchstens 3,6 Billionen. **Alles über eine
+  Bezahlquelle, kein deutscher Bezug. Nicht verwendet, zum Rechenzentren-Strang vorgemerkt.**
+- **Nvidia und Bundesregierung, „Invest in Germany" am 19. und 20.10.2026 in Berlin** (ZDFheute,
+  17.10.2026, 01:00 Uhr; Handelsblatt). Geplante Partnerschaft zur Industrie-KI, „dreistelliger
+  Millionenbetrag", rund ein Dutzend Unternehmen, darunter Siemens, Audi und Black Forest Labs.
+  **Alles aus Regierungskreisen, keine amtliche Mitteilung.** Offizielle Bekanntgabe war für den
+  Abend des 19.10. angekündigt. **Morgen prüfen.**
+- **netzpolitik.org, „Alterskontrollen für alle: Der Kids Act oder die sechs Sargnägel des offenen
+  Internets"** (18.10.2026, 09:50 Uhr, Sebastian Meineck, zuerst in „mediendiskurs"). Nennt
+  Art. 6, 8 und 28 des Kommissionsentwurfs (CELEX 52026PC0681), Art. 6a AVMD-Richtlinie, über
+  400 Forschende aus 29 Ländern (offener Brief, März 2026), rund 450 Millionen Betroffene in Europa
+  und den Hinweis des Deutschen Ethikrats auf Zweckentfremdung. **Als Kommentarziel genutzt**, die
+  Zahlen des Beitrags selbst sind nicht nachgeprüft.
+- **Bundesrat will dem Verfassungsschutz Zugriff auf das Fahrerlaubnisregister geben** (heise,
+  18.10.2026). **Kein KI-Kern. Nicht vorgemerkt.**
+- **„Cybermobbing in der Schule nimmt weiter zu"** (ZDFheute, Datum unbekannt). Nicht gelesen,
+  KI-Bezug unklar. **Vorgemerkt.**
+- **WERKZEUGNOTIZEN:** `tagesschau.de` bleibt aus dieser Umgebung nicht abrufbar. Die KI-Themenseite
+  von ZDFheute zeigt **keine Veröffentlichungsdaten**, eine Sortierung nach Aktualität ist darüber
+  nicht möglich; die Einzelartikel tragen das Datum.
