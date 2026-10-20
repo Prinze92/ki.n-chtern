@@ -5739,3 +5739,178 @@ Entscheidung des OLG München ist nicht auffindbar.
 - **WERKZEUGNOTIZEN:** `tagesschau.de` bleibt aus dieser Umgebung nicht abrufbar. Die KI-Themenseite
   von ZDFheute zeigt **keine Veröffentlichungsdaten**, eine Sortierung nach Aktualität ist darüber
   nicht möglich; die Einzelartikel tragen das Datum.
+
+---
+
+## Recherchierte Einzelbefunde vom 20.10.2026
+
+**Rückstau bei vier, achtundvierzigster Tag ohne Neubau.** Der gestern mit höchster Priorität
+vermerkte Punkt ist abgearbeitet: die Handlungsempfehlungen der Expertenkommission.
+
+### HANDLUNGSEMPFEHLUNGEN DER UNABHÄNGIGEN EXPERTENKOMMISSION, LANGFASSUNG
+
+**Primärquelle:** „Entwicklung stärken, Verantwortung übernehmen. Für ein gutes Aufwachsen von
+Kindern und Jugendlichen in der digitalen Welt. Langfassungen der Handlungsempfehlungen der
+Unabhängigen Expertenkommission ‚Kinder- und Jugendschutz in der digitalen Welt'", **September
+2026, 216 Seiten, am 20.10.2026 im Volltext ausgewertet. Belastbar.**
+`bmbfsfj.bund.de/resource/blob/293646/c6c2e55c6457f8ea5fc118f2ac6e972e/20260831-handlungsempfehlungen-expertenkommission-kinder-und-jugendmedienschutz-langfassung-data.pdf`
+**Die in der Presse genannte Zahl 56 ist am Dokument geprüft:** HE 1 bis HE 56, lückenlos.
+Die Übersichtsseite verlinkt sechs PDF (Hauptfassung 6,8 MB vom 24.06.2026, diese Langfassung
+1,8 MB vom 31.08.2026, Kurzfassung, zwei englische Fassungen, Schaubild). **Einen Abschlussbericht
+verlinkt sie nicht**, sie kündigt ihn für September 2026 an.
+
+#### HE 46 — AI Companions, Altersgrenze als Sofortmaßnahme
+
+Titel wörtlich: **„Gefahren durch AI Companions: Altersgrenze als Sofortmaßnahme einführen"**.
+
+> „Für die Nutzung von AI Companions soll eine gesetzliche Altersgrenze von 13 Jahren eingeführt
+> werden. Die Regelung soll vorzugsweise auf europäischer Ebene erfolgen und an die KI-Verordnung
+> oder den geplanten Digital Fairness Act anknüpfen. Anbieter sollen verpflichtet werden, wirksame
+> und dem jeweiligen Risiko angemessene Jugendschutzmaßnahmen umzusetzen. Dazu gehören eine
+> zuverlässige Altersüberprüfung, kind- und jugendgerechte Voreinstellungen, Schutzmechanismen gegen
+> emotionale Abhängigkeit und exzessive Nutzung sowie insbesondere klar erkennbare Hinweise darauf,
+> dass es sich nicht um eine menschliche Beziehung handelt."
+
+> „Die Expertenkommission sieht ein Regulierungsdefizit: KI-Verordnung und DSA adressieren die von
+> Chatbots ausgehenden Gefahren nicht hinreichend."
+
+Selbstbeschränkung der Empfehlung, wörtlich:
+
+> „Den beschriebenen Risiken parasozialer Beziehungen zwischen Kindern und KI wird durch die
+> Altersbeschränkung für AI Companions nicht vollständig begegnet, da auch unspezifische General
+> Purpose AI (etwa ChatGPT oder Claude) risikobehaftete Funktionen erfüllen kann."
+
+Weiter im Hintergrundteil: Chatbots könnten von Kindern über Personalisierungseinstellungen zu
+Companions gepromptet werden, „hier ist es bereits zu Todesfällen gekommen („Suicide Coach")".
+Adressiert werden die Altersstufen 0–2, 3–5, 6–9 und 10–13. Wirkungsindikator nach fünf Jahren:
+„Unter 13-Jährige haben keinen Zugang zu AI Companions."
+
+**EIGENER BEFUND 1, ausgezählt am Eckpunktepapier vom 13.10.2026:** „Chatbot" kommt dort
+**null Mal** vor, „Altersgrenze" **null Mal**, „KI-Begleiter" **genau einmal**, und zwar
+ausschließlich in der Beschreibung des künftigen Anwendungsbereichs des EU Kids Act. **Eine
+deutsche Altersgrenze für KI-Begleiter steht nicht im Papier, auch nicht als Prüfauftrag.** Die
+einzige KI-Maßnahme im nationalen Teil ist das „KI-Seepferdchen".
+
+#### HE 44 — KI-bezogene Nutzungsrisiken in JuSchG und JMStV
+
+> „Die im Jugendschutzgesetz (JuSchG) und im Jugendmedienschutz-Staatsvertrag (JMStV) genannten
+> Nutzungsrisiken sollen um KI-bezogene Anwendungen erweitert werden, insbesondere um die
+> Generierung gefährdender Text-, Ton- und Bildinhalte sowie um Kommunikationsrisiken bei der
+> Verwendung von Bots. Im JuSchG soll dies über § 10b Abs. 3, im JMStV über § 5 Abs. 1 erfolgen."
+
+**EIGENER BEFUND 2:** Das Eckpunktepapier kündigt eine Novelle des Jugendschutzgesetzes an und
+nennt dafür ausschließlich die Altersregelung. **HE 44 ist nicht aufgegriffen.**
+
+#### HE 36 — zwei Alternativen, eine übernommen
+
+Titel: „Risiko- und designorientiert regulieren – zwei Alternativen: gesetzliche
+Mindestaltersgrenze (13 Jahre) und dienstspezifische Altersgrenzen". Rechtlicher Anknüpfungspunkt
+in beiden Fällen **Art. 28 Abs. 1 DSA**.
+
+- **Alternative A:** „Jugendschutz by Design" plus gesetzliche Mindestaltersgrenze von 13 Jahren für
+  die eigenständige Nutzung von Social-Media-Accounts, „ergänzt um einen Erlaubnisvorbehalt für
+  nachweislich kindgerechte Angebote **ab 6 Jahren**".
+- **Alternative B:** Konkretisierung des Art. 28 Abs. 1 DSA durch einen neuen Satz 2, risikobasiert
+  und dienstspezifisch, „ohne einheitliche Altersgrenzen festzulegen".
+- Beide lehnen eine einheitliche Grenze von 15 oder 16 Jahren ausdrücklich ab, unter anderem weil
+  Anbieter dann „auf die bisher für jüngere Jugendliche ab 13 Jahren bestehenden Vorsorgemaßnahmen
+  verzichten würden".
+
+**EIGENER BEFUND 3:** Das Kabinett hat Alternative A übernommen und die Formulierung „nachweislich
+kindgerechte Angebote" wörtlich mitgenommen, **die Altersangabe 6 aber weggelassen**.
+
+Zwei Schwächen des geltenden Rechts nennt die Kommission unter HE 36 selbst:
+
+> „Vollzugsdefizit der Altersverifikation: Auf keiner relevanten Social-Media-Plattform bestehen
+> wirksame Altersüberprüfungsmechanismen. Laut KIM-Studie nennen 27 Prozent der 10- bis 11-Jährigen
+> und 43 Prozent der 12- bis 13-Jährigen TikTok als ihre Lieblingsapp, obwohl alle einschlägigen
+> Anbieter in ihren AGB eine Mindestaltersgrenze von 13 Jahren festlegen. Diese selbstgesetzte
+> Grenze wird in großem Umfang unterlaufen."
+
+> „Unbestimmtheit der Rechtsgrundlage: Artikel 28 Absatz 1 DSA ist offen formuliert."
+
+Genannt wird außerdem das Verfahren der EU-Kommission gegen Meta (Pressemitteilung vom
+**29.04.2026**). **Weder die KIM-Zahlen noch diese Pressemitteilung sind an der Originalquelle
+geprüft.** Sie stehen hier als Zitate aus dem Kommissionsbericht.
+
+#### HE 38 — Altersbestimmung verbindlich regeln
+
+> „Die Europäische Union und der Bund sollen verbindlich festlegen, welche
+> Altersbestimmungstechnologien für welche Dienste und Inhalte zulässig sind. Das erforderliche
+> Schutzniveau soll sich am jeweiligen Risiko orientieren."
+
+Technische Mindestanforderungen, die gesetzlich vorgegeben werden sollen: Unverknüpfbarkeit von
+Aussteller und Prüfer, selektive Offenlegung („übermittelt wird ausschließlich, ob eine bestimmte
+Altersgrenze erreicht ist"), Verarbeitung biometrischer und Identitätsdaten „ausschließlich auf dem
+Endgerät", Verbot jeder Speicherung über die Altersbestätigung hinaus sowie jeder Nutzung für
+Werbung, Profilbildung oder Tracking, „Konformität mit öffentlich überprüfbaren, offengelegten
+kryptografischen Protokollen". Weiter:
+
+> „Technologien zur Altersableitung oder -schätzung, bei denen biometrische, Identitäts- oder
+> Verhaltensdaten das Endgerät verlassen, sind daher abzulehnen."
+
+Zur Marktmacht: Anbieter wie Google, Apple oder Meta könnten sich „als Aussteller von
+Altersbestätigungen positionieren und damit als Identitäts- und Compliance-Broker die Kontrolle
+stillschweigend wieder zentralisieren".
+
+**EIGENER BEFUND 4:** Die Kommission verlangt „verbindlich". Das Eckpunktepapier antwortet mit einer
+Wallet, deren Nutzung „freiwillig" ist und bei deren Nichtnutzung niemand benachteiligt werden darf.
+**Keine verbindlichen technischen Mindestanforderungen, kein Verbot von Schätzverfahren, keine Regel
+gegen Gatekeeping im Papier.**
+
+#### NEGATIVBEFUND zur Vierteln-Zahl
+
+Im Kommissionsbericht kommen „jedes vierte", „vierte Kind", „DAK", „OTTER" und „Paschke"
+**jeweils null Mal** vor, ebenso die Werte 21,5 und 6,6. **Die Herkunft der Zahl im
+Eckpunktepapier bleibt ungeklärt.** Der Befund vom 19.10. bleibt damit stehen: Das Kabinett nennt
+keine Quelle, und die Zuordnung zur DAK-Studie ist eine Vermutung.
+
+### BAYLDA GEGEN WORLDCOIN FOUNDATION, ENTSCHEIDUNG IM VOLLTEXT
+
+**Primärquelle:** Bayerisches Landesamt für Datenschutzaufsicht, Entscheidung gegen die Worldcoin
+Foundation, englische Fassung, veröffentlicht beim Europäischen Datenschutzausschuss
+(`edpb.europa.eu/system/files/2025-02/decision1594_0.pdf`), **132 Seiten, am 20.10.2026 am
+Tenorteil gelesen. Belastbar.**
+
+Tenorziffer I, wörtlich:
+
+> „A reprimand is issued to the Worldcoin Foundation for the infringement of Article 32 of the GDPR
+> lasting from 24 July 2023 to 14 May 2024 by storing the iris codes as plain text in a database."
+
+Tenorziffer II: Löschung der im Rahmen der Tätigkeit der Worldcoin Europe GmbH vom **24.07.2023 bis
+13.12.2024** erhobenen Iris-Codes binnen einer Woche nach Bestandskraft, soweit sie noch zum Zweck
+des passiven Abgleichs verarbeitet werden. Ziffer IV verlangt binnen zwei Monaten die Herstellung
+der Rechtmäßigkeit über eine ausdrückliche Einwilligung nach Art. 9 Abs. 2 lit. a DSGVO.
+**Nicht geprüft:** ob das Unternehmen Widerspruch eingelegt hat. Das steht nur in Sekundärquellen.
+
+### KLEINERE FUNDSTÜCKE VOM 20.10.2026
+
+- **„Iris-Scan gegen Deepfakes: So will Sam Altmans World Zoom-Meetings schützen"** (heise,
+  19.10.2026, 13:34 Uhr, Noëlle Bölling). Orb-Irisscan, drei Stufen von World ID (Proof of
+  Attributes, Proof of Presence, Proof of Human), blaue Markierung im Zoom-Fenster. Gartner-Umfrage
+  September 2025: 62 Prozent der Unternehmen von einem Deepfake-Angriff betroffen (**nicht
+  geprüft**). **Der Artikel nennt keine deutsche Aufsichtsbehörde und sagt nicht, wo die Daten
+  verarbeitet werden.** Als Kommentarziel genutzt.
+- **Absichtserklärung Bundesregierung und Nvidia**, Investitionsgipfel „Invest in Germany" am
+  19./20.10.2026 in Berlin. heise (19.10., 23:50 Uhr, Falk Steiner) nennt als Unterzeichner das
+  Bundesforschungsministerium, andere Meldungen Wirtschafts- und Forschungsministerium gemeinsam.
+  Modelle Nemotron und Cosmos, Schwerpunkt „Physical AI". Fünf Millionen Euro Veranstaltungskosten.
+  **Keine Summe für die Vereinbarung genannt.** Der vorab berichtete „dreistellige Millionenbetrag"
+  stammt vom Handelsblatt aus Regierungskreisen. **Die amtliche Mitteilung nicht gefunden**,
+  `bundesregierung.de/breg-de/aktuelles/investitionsgipfel-2026` antwortet mit HTTP 404.
+- **Industrial AI Cloud, München.** Telekom-Mitteilung („Germany's first AI factory for industry"),
+  gelesen: knapp **10.000 NVIDIA-Blackwell-GPUs** (DGX B200 und RTX PRO), bis zu **0,5 ExaFLOPS**,
+  rund **10.700 m²** Rechenzentrumsfläche, Betrieb durch T-Systems mit Polarise als
+  Rechenzentrumspartner, **zu über einem Drittel ausgelastet**. Zitat Tim Höttges: „Many can talk.
+  Deutsche Telekom acts". **Die Mitteilung nennt keine Investitionssumme und keine
+  Finanzierungsquelle.** Die in Sekundärquellen kursierende Milliarde Euro und die Angabe
+  „vollständig privat finanziert" sind **ungeprüft** und dürfen auf kein Blatt.
+  **Datumswiderspruch:** Die Seite trägt 02.04.2026, die Adresse enthält `/2026/2/`. **Ungeklärt.**
+- **„Apps sollen gegen Depressionen helfen – was digitale Therapien leisten können"** (heise,
+  19.10.2026, 21:21 Uhr). Berührt die DAK-Befunde zu Chatbots bei psychisch belasteten Jugendlichen.
+  **Nicht gelesen. Vorgemerkt.**
+- **„Von Gehirnscan zu Bild: Wie KI rekonstruiert, was Menschen gerade sehen"** (heise, 19.10.2026,
+  07:00 Uhr). Grundlagenforschung. **Nicht gelesen. Vorgemerkt.**
+- **„China will Export von KI- und Solartechnik beschränken"** (heise, 19.10., 18:35),
+  **„ISO/IEC 27090"** (17:40), **„KI-Markt im Wandel", Vercel-Index** (16:18). Makro-, Norm- und
+  Marktthemen ohne persönliche Betroffenheit. **Nicht vorgemerkt.**
