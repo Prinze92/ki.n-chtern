@@ -5914,3 +5914,115 @@ der Rechtmäßigkeit über eine ausdrückliche Einwilligung nach Art. 9 Abs. 2 l
 - **„China will Export von KI- und Solartechnik beschränken"** (heise, 19.10., 18:35),
   **„ISO/IEC 27090"** (17:40), **„KI-Markt im Wandel", Vercel-Index** (16:18). Makro-, Norm- und
   Marktthemen ohne persönliche Betroffenheit. **Nicht vorgemerkt.**
+
+---
+
+## Recherchierte Einzelbefunde vom 21.10.2026
+
+**Rückstau bei vier, neunundvierzigster Tag ohne Neubau.** Eine Meldung trifft direkt auf einen
+veröffentlichten eigenen Post, und das Werkzeug hat sich geändert.
+
+### WERKZEUGREGEL AB 21.10.2026
+
+`WebFetch` steht in dieser Sitzung nicht mehr als eigenes Werkzeug zur Verfügung. Seiten kommen
+jetzt über den Agenten `web-fetch`, der die Seite liest und berichtet. **Damit lese ich den Wortlaut
+nicht mehr selbst.** Für ein Beleg-Panel reicht das nicht. **Regel:** Wörtliche Zitate auf einem
+Blatt nur aus einem PDF, das im Container liegt und mit `/usr/bin/python3` ausgelesen wurde, oder
+aus einem Wortlaut, der zweimal unabhängig geholt wurde. Bei jedem Zitat in `ideas.md` steht ab
+heute, wie es beschafft wurde.
+
+### VERHALTENSSCANNER BERLIN, FAQ BEI NETZPOLITIK
+
+**Quelle:** netzpolitik.org, „FAQ: Was man zum Verhaltensscanner in Berlin wissen sollte",
+**20.10.2026, 14:19 Uhr**, Martin Schwarzbeck. **Über den Abruf-Agenten geholt. Belastbarkeit:
+berichtet**, der Beitrag nennt für die meisten Zahlen keine eigene Fundstelle.
+
+**Angaben zu Berlin:** rund 30 Kameras am Kottbusser Tor, Kalibrierung abgeschlossen, **seit dem
+6. Oktober** zeitweise Testbetrieb. Hersteller **Staige GmbH**, Tochter der **Adesso SE**
+(Dortmund), Kameras von **Axis** (Schweden). Die Software legt „eine Art Strichmännchen" über
+Personen und vergleicht Posen und Bewegungen mit Trainingsdaten; bei polizeilich relevanter
+Einschätzung geht ein Monitor in der Videoleitstelle an. **Videobild mindestens 28 Tage
+gespeichert.** Probeechtbetrieb mit 24 Stunden Aufzeichnung, Ende „vermutlich 2028". Ausbauplan
+nach dem Beitrag: Warschauer Brücke, Rotes Rathaus, Innenverwaltung, Jüdisches Museum in diesem
+Jahr, Alexanderplatz und Görlitzer Park im nächsten. **Kosten nennt der Beitrag nicht.**
+**Welche Bewegungen in Berlin gesucht werden, nennt der Beitrag „eine Black Box".** Die Software
+schlägt auch bei liegenden Personen an, „offiziell um „Unglücksfälle" zu detektieren".
+
+**Drei Angaben zu Mannheim und Hamburg, alle ohne eigene Fundstelle im Beitrag:**
+- Mannheim bislang **2.000 Show-Kämpfe**, die Polizei gehe von **10.000 nötigen** aus.
+- Nach **acht Jahren** KI-Einsatz keine Situation, in der die Analyse zur Verhinderung oder
+  Aufklärung einer Straftat beigetragen habe.
+- Hamburg: **rund 99 Prozent** der von der KI markierten Situationen seien Fehlalarme, nach einer
+  „von der Polizei veröffentlichten Zählung", verlinkt auf `marx.wtf`. **Eine private Auswertung
+  ist kein Polizeidokument. Ungeprüft.**
+
+**ABGLEICH MIT POST 9, ausdrücklich: kein Korrektur-Post.** Post 9 („Polizisten spielen Schläge vor,
+damit die Kamera sie erkennt", live 14.08.2026) stützt sich auf die Stellungnahme des
+Innenministeriums Baden-Württemberg zur **Landtagsdrucksache 17/5816 vom 12.12.2023**, damals im
+Volltext gelesen. Dort steht, die Alarme würden systemseitig erzeugt, aber ausschließlich zur
+Weiterentwicklung genutzt, unterlägen keiner standardisierten Protokollierung und seien deshalb
+nicht detailliert auswertbar; die **552** polizeilich relevanten Sachverhalte (Stand 31.10.2023)
+habe das Videobeobachtungspersonal mit konventioneller Technik erkannt; **136 Filmsequenzen** wurden
+2020 nach Drehbuch aufgenommen. **Nichts davon widerspricht dem FAQ.** Die Drucksache sagt, warum
+niemand die Erkennungsleistung kennt; das FAQ sagt, dass niemand sie kennt. Die 2.000 und 10.000
+Show-Kämpfe sind eine andere Größe als die 136 Filmsequenzen und beziehen sich auf einen späteren
+Stand. **Ungeprüft, aber kein Widerspruch.**
+
+**Was das FAQ nicht hat und wir schon:** die Schriftliche Anfrage **19/26879** der Linken im
+Berliner Abgeordnetenhaus mit der Senatsantwort, es werde anonymisiert, „es sei denn, eine
+Anonymisierung steht den Zwecken der Testung oder des Trainings entgegen" (vermerkt am 17.09.2026).
+**Das FAQ nennt keine einzige Drucksache.** Die Drucksache war am 17.09. im Archiv noch nicht
+abrufbar (HTTP 404). **Vor einem Post erneut holen.**
+
+**Was das FAQ ausdrücklich offenlässt:** Beginn des Probeechtbetriebs („Auf die Frage, wann dieser
+beginnt, hat die Polizei nicht geantwortet"), die gesuchten Bewegungen in Berlin, die Zeit nach
+2028, und ob die Verhaltensanalyse etwas bringt („Das weiß kein Mensch"). Das Berliner
+Sondierungspapier sehe eine Evaluation „unter Einbeziehung der Polizei" vor. **Papier nicht
+gelesen, vorgemerkt.**
+
+### AMAZON, 16 MILLIARDEN EURO FÜR DEUTSCHLAND 2027
+
+**Quelle:** Amazon, `aboutamazon.com/company-news/amazon-germany-investment`, vorgestellt am
+**20.10.2026 beim Invest in Germany Summit** in Berlin, englischer Text, „Written by Amazon Staff".
+**Über den Abruf-Agenten geholt.** Unternehmensmitteilung, für die Zahlen die Primärquelle.
+heise berichtete am 20.10.2026 um 11:53 Uhr über dpa, hinter Bezahlschranke.
+
+- **„more than €16 billion ($18 billion) in Germany in 2027"**
+- **4,8 Milliarden Euro** für den Ausbau der **AWS Europe (Frankfurt) Region**, also Cloud- und
+  KI-Infrastruktur.
+- Bestand: **mehr als 40.000** feste Stellen, davon **3.000** bei AWS; über 100 Standorte; seit 2010
+  mehr als 100 Milliarden Euro investiert (Zitat Rocco Bräuniger, Country Manager).
+- **Mehr als 3.000 neue Stellen** entfallen auf bereits angekündigte Logistikvorhaben.
+- Modernisierungen: Bad Hersfeld, Dortmund, Werne bis 2027; Koblenz, Pforzheim, Rheinberg bis 2028.
+  Zweibrücken eröffnet dieses Jahr, Könnern im Bau. Zweites Forschungslabor für Robotik und KI in
+  Berlin. Mehr als 15 Prime-Video-Produktionen „through the end of 2027". Mehr als 1,3 GW
+  Erneuerbaren-Projekte (Bestand).
+- Zitat Katherina Reiche, Bundesministerin für Wirtschaft und Energie: Amazons Investition sei
+  „a clear vote of confidence in Germany as a location for the future".
+
+**EIGENE BEOBACHTUNG 1:** Für die restlichen rund **11,2 Milliarden** gibt es **keine Aufteilung**.
+Keine Zahl für Logistik, Satelliten, Prime Video oder Forschung, keine Zahl und keine Standorte für
+neue Rechenzentren. heise hält das mit „Weitere Details zu den Investitionen nannte Amazon zunächst
+nicht" ebenfalls fest.
+
+**EIGENE BEOBACHTUNG 2, NOCH NICHT NACHGEPRÜFT:** Dieselben 4,8 Milliarden stehen im Text einmal als
+**„in 2027"** und einmal als **„through 2027"**. Das eine ist ein Jahresbudget, das andere eine
+Summe bis dahin. **Diese Beobachtung stammt aus dem Bericht des Abruf-Agenten und ist nicht ein
+zweites Mal am Text geprüft. Vor jeder Verwendung nachlesen.**
+
+**Anschluss:** Post 27 („Die Liste der 105 neuen Rechenzentren kommt nicht vom Amt"). Der Kandidat
+wartet, bis Post 27 veröffentlicht ist, sonst stehen zwei Posts derselben Säule hintereinander.
+
+### KLEINERE FUNDSTÜCKE VOM 21.10.2026
+
+- **„MIT-Forscherin warnt: KI könnte bei Menschen falsche Erinnerungen erzeugen"** (heise,
+  20.10.2026, 13:02 Uhr). Pattie Maes halte das für Gerichtsverfahren und Geschichtsschreibung für
+  gefährlich. **Berührt Post 16 und den Gerichtsstrang. Nicht gelesen, Studie nicht identifiziert.
+  Vorgemerkt mit Priorität.**
+- **„USA verbannen DeepSeek aus allen zivilen Bundesbehörden"** (heise, 20.10., 16:07),
+  **„Chinesische Konzerne geben enorme Grafikkarten-Bestellung auf"** (20.10., 22:46),
+  **„KI-Wohltäter-Battle"** (20.10., 15:08). US-Verwaltung, Markt, Unternehmen. **Kein
+  unmittelbarer Leserbezug, nicht vorgemerkt.**
+- **Berliner Sondierungspapier von Linke, Grünen und SPD** (netzpolitik, 19.10.2026). Enthält laut
+  FAQ eine Evaluation der KI-Kameras „unter Einbeziehung der Polizei". **Nicht gelesen. Vorgemerkt**,
+  gehört zum Verhaltensscanner-Kandidaten.
