@@ -6026,3 +6026,143 @@ wartet, bis Post 27 veröffentlicht ist, sonst stehen zwei Posts derselben Säul
 - **Berliner Sondierungspapier von Linke, Grünen und SPD** (netzpolitik, 19.10.2026). Enthält laut
   FAQ eine Evaluation der KI-Kameras „unter Einbeziehung der Polizei". **Nicht gelesen. Vorgemerkt**,
   gehört zum Verhaltensscanner-Kandidaten.
+
+---
+
+## Recherchierte Einzelbefunde vom 22.10.2026
+
+**Rückstau bei vier, fünfzigster Tag ohne Neubau.** Zwei Prüfaufträge von gestern erledigt, einer
+davon hat einen eigenen Kommentar korrigiert.
+
+### GEGENPRÜFUNG AMAZON: DIE ZAHL STEHT DREIMAL
+
+Am 21.10. stand hier, die 4,8 Milliarden Euro stünden in Amazons Mitteilung einmal als „in 2027"
+und einmal als „through 2027", **ausdrücklich ungeprüft**. Zweiter Abruf am 22.10.2026. **Der Befund
+hält, war aber unpräzise formuliert.** Die Zahl kommt **dreimal** vor:
+
+1. **Zwischenüberschrift, ohne Jahr:** „Investing €4.8 billion to expand AWS cloud and AI
+   infrastructure in Germany"
+2. **Fließtext:** „As part of the €16 billion euros investment, the company plans to invest
+   €4.8 billion in 2027 to expand its AWS Europe (Frankfurt) Region, continuing to meet customer
+   demand for advanced cloud and AI services."
+3. **Zitat Stefan Höchbauer** (Vice President AWS global sales, Germany and Europe Central): „As
+   part of the investments, €4.8 billion is planned to expand the AWS Europe (Frankfurt) Region
+   through 2027."
+
+**Es sind also nicht zwei gleichrangige Stellen, sondern Fließtext gegen Zitat.** Der Kommentar vom
+21.10. wird deshalb nicht abgesendet und ist am 22.10. neu geschrieben worden. **Das ist der erste
+Fall, in dem die Werkzeugregel vom 21.10. etwas abgefangen hat.**
+
+### FALSCHE ERINNERUNGEN: NEGATIVBEFUND UND AUFLÖSUNG
+
+**Negativbefund zur Meldung.** heise online, „MIT-Forscherin warnt: KI könnte bei Menschen falsche
+Erinnerungen erzeugen", **20.10.2026, 13:02 Uhr**, zuerst bei t3n erschienen. **Der Artikel nennt
+keine Studie:** kein Titel, keine Autoren, kein Jahr, kein Veröffentlichungsort, keine Adresse. Er
+beruft sich auf einen Bericht der Washington Post und verlinkt ihn nicht. Die Zahl „dreimal so viele
+falsche Erinnerungen" steht ohne Fundstelle. Eine „im Frühjahr 2026 veröffentlichte Studie" wird
+ohne Namen erwähnt. Verlinkt ist nur die Konferenz AIES in Malmö, ohne Aussage, dass die Arbeit dort
+vorgestellt wurde.
+
+**Auflösung, selbst geprüft.** Die Arbeit liegt als PDF im Container und ist mit `/usr/bin/python3`
+ausgelesen. **Belastbar.**
+
+> **„Synthetic Human Memories: AI-Edited Images and Videos Can Implant False Memories and Distort
+> Recollection"**, Pat Pataranutaporn (MIT Media Lab), Chayapatr Archiwaranguprok (University of the
+> Thai Chamber of Commerce), Samantha W. T. Chan (MIT Media Lab), **Elizabeth Loftus** (UCI School
+> of Social Ecology), Pattie Maes (MIT Media Lab). **arXiv:2409.08895v1 [cs.HC], 13. September
+> 2024**, 22 Seiten.
+
+Abstract, wörtlich aus dem PDF:
+
+> „In a pre-registered study, 200 participants were divided into four conditions of 50 each.
+> Participants viewed original images, completed a filler task, then saw stimuli corresponding to
+> their assigned condition: unedited images, AI-edited images, AI-generated videos, or AI-generated
+> videos of AI-edited images. AI-edited visuals significantly increased false recollections, with
+> AI-generated videos of AI-edited images having the strongest effect (2.05x compared to control).
+> Confidence in false memories was also highest for this condition (1.19x compared to control)."
+
+Aus der Bildunterschrift zu Figur 1, wörtlich, weil sie den Alltagsfall beschreibt:
+
+> „AI inadvertently modifies an image, eliminating bystanders from the frame as part of an automatic
+> filter without retaining the original version (a feature already available in Google Photos and
+> other camera apps). Later, when the individual reviews the photograph—potentially related to a
+> crime scene—they develop a false recollection that matches the edited image rather than the actual
+> event, leading to false witness testimony."
+
+**EIGENE BEFUNDE.**
+1. **Die Arbeit ist vom 13.09.2024** und läuft im Oktober 2026 als aktuelles Experiment durch die
+   Meldungen.
+2. **Präzise Effektstärken stehen im Abstract** (2,05-fach, 1,19-fach). heise nennt keine davon.
+3. **Elizabeth Loftus ist Mitautorin.** In keiner gefundenen deutschen Meldung steht ihr Name.
+4. **Die Zahl „dreimal so viele" passt nicht zu diesem Papier** (dort 2,05-fach). Sie gehört
+   vermutlich zu einer anderen Arbeit derselben Gruppe über Zeugenbefragungen durch Chatbots.
+   **Ungeprüft, nicht verwenden.**
+
+**Für einen Post fehlt eine Gegenstimme.** 200 Teilnehmende in vier Gruppen zu je 50 tragen keine
+große Aussage allein, und zu falschen Erinnerungen gibt es eine lange Methodendebatte. **Ohne
+Gegenstimme kein Post.**
+
+### LKA BADEN-WÜRTTEMBERG, GESICHTSERKENNUNG NACH EINER DEMONSTRATION
+
+**Quelle:** netzpolitik.org, „LKA Baden-Württemberg: Kritik an Gesichtserkennung bei
+Demo-Teilnehmenden", **21.10.2026, 17:14 Uhr**, Carla Rochel. **Über den Abruf-Agenten geholt.
+Belastbarkeit: berichtet.**
+
+Ein Beamter des Landeskriminalamts Baden-Württemberg wertete Aufnahmen einer angemeldeten
+Demonstration in Ulm aus und identifizierte nach eigener Aussage **neben zwei Angeklagten im
+sogenannten Ulm5-Prozess vier weitere Personen**. Die Ermittlungsakte enthalte auch von den
+unbeteiligten Personen Fotos der Gesichter, Namen, Geburtsdaten und vollständige Anschriften. Vor
+dem Landgericht Stuttgart äußerte sich der Zeuge nach dem Bericht nicht dazu, wer den Bildabgleich
+angeordnet hatte und auf welcher Rechtsgrundlage er erfolgte. Die fünf Angeklagten sitzen seit rund
+einem Jahr in Untersuchungshaft.
+
+**Kritik, wörtlich, David Werdermann (Gesellschaft für Freiheitsrechte):**
+
+> „Es gibt keinen ‚Grundsatz der Vollständigkeit', der es der Polizei erlauben würde, alle Menschen
+> zu identifizieren, die einmal zusammen mit einer tatverdächtigen Person demonstriert haben"
+
+> „Ohne konkrete Anhaltspunkte dafür, dass es sich um Mittäter*innen handelt, sind solche
+> Ermittlungsmaßnahmen rechtswidrig. Die Polizei ermittelt ins Blaue hinein – und das in einem
+> grundrechtlich sensiblen Bereich"
+
+**Stellungnahme LKA:** Es könne sich zu dem laufenden Verfahren nicht äußern, die Erhebung
+personenbezogener Daten richte sich nach den einschlägigen gesetzlichen Bestimmungen. Auf die Frage
+nach dem „Grundsatz der Vollständigkeit" sei das LKA nicht eingegangen. **Eine Stellungnahme des
+Innenministeriums gibt es im Beitrag nicht.**
+
+**Zahlen ohne eigene Quelle im Beitrag:** INPOL im Januar 2026 mit rund **5,4 Millionen Menschen**
+und **7,6 Millionen Lichtbildern**; **313.500 Suchläufe** 2025 gegen **121.000** 2024; Fehlerquote
+seit September 2024 „auf unter ein Prozent" gesunken; BKA betreibt GES seit 2008. **Alle ungeprüft.**
+
+**Was der Beitrag offenlässt:** Software und Hersteller, Rechtsgrundlage, wer den Abgleich anordnete,
+Datum und Ort der Demonstration, der Verbleib der Daten der Unbeteiligten. **Keine Drucksache, kein
+Aktenzeichen.** Als Post derzeit nicht tragfähig, gehört zum Strang von Post 9 und Post 15.
+
+**Rechtsstand dazu, aus eigenem Bestand:** Artikel 113 Buchstabe c der KI-Verordnung liegt seit dem
+05.10. hier im Wortlaut vor, geprüft an der konsolidierten Fassung. Danach gelten die
+Hochrisiko-Pflichten für Anhang-III-Systeme erst ab dem **2. Dezember 2027**. **Die Einordnung der
+biometrischen Fernidentifizierung unter Anhang III Nummer 1 Buchstabe a ist am 22.10. nur an
+juristischen Sekundärquellen geprüft** (dejure, buzer, Haufe, Kanzleiseiten), **nicht an EUR-Lex.
+Vor einer Verwendung am Amtsblatt nachlesen.** Artikel 5, der für Echtzeit-Fernidentifizierung schon
+gilt, ist für diesen Fall **nicht geprüft**, weil es um eine nachträgliche Auswertung geht.
+
+### KLEINERE FUNDSTÜCKE VOM 22.10.2026
+
+- **„Deepfakes und Voyeurismus: Neue Strafparagrafen geplant"** (heise, 21.10.2026, 07:00 Uhr, c't,
+  Bezahlschranke). **Unser Strang vom 08. und 09.10.** zum Regierungsentwurf des
+  Gewaltschutzgesetzes und zu § 201c StGB. **Nicht gelesen. Vorgemerkt mit Priorität**, der Entwurf
+  selbst ist hier bereits geprüft, es fehlt nur der Verfahrensstand.
+- **Google verliert vor dem Landgericht Frankfurt am Main** (netzpolitik-Ticker, 21.10.2026). Ein
+  Mann aus Frankfurt wollte Luftaufnahmen seines Grundstücks bei Google Maps und Google Earth nicht
+  hinnehmen und bekam recht; Google kann das Urteil anfechten. **Kein Aktenzeichen, kein
+  Entscheidungsdatum genannt. Kein KI-Bezug.** Pressemitteilung des Gerichts verlinkt unter
+  `ordentliche-gerichtsbarkeit.hessen.de/presse/keine-veroeffentlichung-von-bildern-eines-privaten-grundstuecks`,
+  **nicht abgerufen. Für den Datenschutzstrang vorgemerkt.**
+- **„Nvidia will KI-Agenten per Hardware überwachen"** (heise, 21.10., 15:08) und **„Nvidia will
+  Ausbau von Rechenzentren mit vorgefertigten Containern beschleunigen"** (21.10., 13:43). Beide
+  c't, technisch. **Nicht vorgemerkt**, das zweite berührt den Rechenzentren-Strang um Post 27.
+- **SpaceX- und Meta-Quartalszahlen, IBM Power per Chat, MCP für Android.** Markt und Entwicklung.
+  **Nicht vorgemerkt.**
+- **WERKZEUGNOTIZ:** Die heise-Themenseite lädt nur einen Teil der Liste nach („Mehr Artikel
+  laden"), ein Artikel vom 22.10. kann unerfasst geblieben sein. Ein Eintrag („Meta Platforms erhöht
+  Ausgaben deutlich", 05:04 Uhr) trägt dort **gar kein Datum**.
