@@ -6166,3 +6166,147 @@ gilt, ist für diesen Fall **nicht geprüft**, weil es um eine nachträgliche Au
 - **WERKZEUGNOTIZ:** Die heise-Themenseite lädt nur einen Teil der Liste nach („Mehr Artikel
   laden"), ein Artikel vom 22.10. kann unerfasst geblieben sein. Ein Eintrag („Meta Platforms erhöht
   Ausgaben deutlich", 05:04 Uhr) trägt dort **gar kein Datum**.
+
+---
+
+## Recherchierte Einzelbefunde vom 23.10.2026
+
+**Rückstau bei vier, einundfünfzigster Tag ohne Neubau.** Zwei Primärdokumente mit deutschem Bezug,
+beide heute heruntergeladen und mit `/usr/bin/python3` ausgelesen.
+
+### RATSDOKUMENT 14756/26: DIGITAL OMNIBUS, VERHANDLUNGSMANDAT
+
+**Primärquelle:** Rat der Europäischen Union, **Dokument 14756/26, Brüssel, 22. Oktober 2026**,
+Interinstitutionelles Dossier **2025/0360 (COD)**, „OUTCOME OF PROCEEDINGS … Mandate for
+negotiations with the European Parliament", **179 Seiten. Am 23.10.2026 im Volltext ausgelesen.
+Belastbar.** Bezogen über die Kopie bei
+`cdn.netzpolitik.org/wp-upload/2026/10/Daten-Omnibus-Rats-Einigung.pdf`.
+
+**Deckblatt, wörtlich:**
+
+> „Delegations will find in the Annex the text of the mandate for negotiations with the European
+> Parliament on the above-mentioned file as agreed by the Permanent Representatives Committee at
+> its meeting on 21 October 2026. Changes compared to the Commission proposal are marked in bold
+> and deletions in strikethrough."
+
+Betroffene Rechtsakte nach dem Betreff: Verordnungen **(EU) 2016/1679** [sic, Schreibweise des
+Deckblatts], (EU) 2018/1724, (EU) 2018/1725, (EU) 2023/2854, **(EU) 2024/1689** und Richtlinien
+2002/58/EG, (EU) 2022/2555 und (EU) 2022/2557; aufgehoben werden sollen (EU) 2018/1807,
+(EU) 2019/1150, (EU) 2022/868 und Richtlinie (EU) 2019/1024.
+
+**NEUER ARTIKEL 88c DSGVO** („Processing in the context of the development and operation of AI",
+im Kommissionsvorschlag Artikel 88b). Absatz 1, wörtlich aus dem PDF:
+
+> „The processing of personal data … in the context of the development and operation of an AI
+> system as defined in Article 3, point (1), of Regulation (EU) 2024/1689 or of an AI model, … may
+> be … carried out for a legitimate interest of the controller or a third party in accordance with
+> Article 6(1)(f) …, except where other Union or national laws explicitly require consent, and
+> where such interests are overridden by the interests, or fundamental rights and freedoms of the
+> data subject which require protection of personal data, in particular where the data subject is
+> a child."
+
+Absatz 3, wörtlich:
+
+> „Regardless of the lawful ground of processing pursuant to Article 6, processing in the context
+> of the development and operation of AI shall be subject to appropriate technical and
+> organisational measures and safeguards to protect the rights and freedoms of the data subject in
+> accordance with this Regulation, including the right to object under Article 21."
+
+Ebenfalls im Dokument: neuer **Artikel 88a DSGVO** „Processing of personal data in the terminal
+equipment of natural persons" (Cookie-Strang) und ein neuer **Artikel 97 Absatz 5a**, wonach die
+Kommission binnen sechs Monaten einen Bericht zur Verhältnismäßigkeit der Pflichten für kleine und
+mittlere Unternehmen vorlegen soll.
+
+**SPERRE FÜR EINEN POST, ausdrücklich.** Das PDF markiert Änderungen fett und Streichungen
+durchgestrichen. **Die Textauslesung verliert diese Auszeichnung.** In Absatz 2 stehen alte und
+neue Fassung ineinandergeschoben, darunter die Wendung „providing data subjects with an
+unconditional right to object to the…lawful ground of processing set out in Article 6". **Ob
+„unconditional" gestrichen ist, lässt sich so nicht entscheiden.** Der Unterschied zwischen einem
+unbedingten Widerspruchsrecht und dem Widerspruchsrecht nach Artikel 21 ist erheblich. **Vor einem
+Post muss die markierte Fassung gelesen werden**, etwa über das Dokumentenregister des Rates.
+
+**Aus dem netzpolitik-Bericht** (22.10.2026, 19:21 Uhr, Tomas Rudl, über den Abruf-Agenten), nicht
+im Ratsdokument geprüft: Deutschland habe gemeinsam mit Österreich und Estland gegen die Position
+gestimmt; das Auskunftsrecht solle bei „unbegründete oder exzessive Anfragen" entfallen; noyb
+spreche von „digitaler Enteignung"; ein Sprecher des Digitalministeriums nenne als rote Linien „der
+bessere Schutz von Geschäftsgeheimnissen und Vereinfachungen für KMU bei der DSGVO"; der Trilog
+beginne, sobald das Parlament eine Position habe, „im Februar" ohne Jahresangabe. **Alles
+berichtet, nicht geprüft.** Pressemitteilung des Rates unter
+`consilium.europa.eu/en/press/press-releases/2026/10/21/digital-rulebook-council-agrees-position-to-simplify-data-protection-privacy-and-cyber-reporting-rules/`,
+**nicht abgerufen.**
+
+### VIDEO TRENDS 2026 DER LANDESMEDIENANSTALTEN
+
+**Primärquelle:** die medienanstalten, **„Video Trends 2026", Ergebnisbericht, 85 Seiten**,
+Oktober 2026, **am 23.10.2026 heruntergeladen und ausgelesen. Belastbar.**
+`die-medienanstalten.de/fileadmin/user_upload/die_medienanstalten/Forschung/Videotrends/2026/Video_Trends_2026_Ergebnisbericht.pdf`
+heise berichtete am 22.10.2026 um 20:54 Uhr (Stefan Krempl).
+
+**Methode, wörtlich aus dem Bericht:** Erhebungsmethode „Online-Interviews anhand eines
+strukturierten Fragebogens auf Access-Panel-Basis (Horizoom)". Grundgesamtheit „Deutschsprachige
+Personen ab 14 Jahren in Deutschland **mit Internetzugang**". Auswahlverfahren „Repräsentative
+Random-Quota-Auswahl nach Alter, Geschlecht, Bildung, Bundesland, Orts- und Haushaltsgröße (Quelle:
+b4p 2025 II)". **Stichprobengröße 3.174 Befragte.** Feldzeit **22. Mai bis 10. Juni 2026**.
+Redressement-Gewichtung. „Umgesetzt wurde die Studie von **mindline media**." Qualitatives Modul:
+Medien-Nutzungstagebuch und Online-Fokusgruppen, **n = 44**, Feldzeit 5. bis 22. August 2026,
+14 bis 69 Jahre.
+
+**Zahlen, alle am Bericht geprüft.**
+- Bewegtbild: 93 Prozent täglich, davon Soziale Medien 61, lineares Fernsehen 56, Videoplattformen
+  48, SVoD 30, Mediatheken 21 Prozent.
+- **79 Prozent** sind KI-Videos begegnet, **43 Prozent** häufig oder sehr häufig (Frage KI.2,
+  n = 3.174). Nach Alter: 62 / 50 / 37 / 24 Prozent.
+- **68 Prozent** derjenigen mit Kontakt haben ein KI-Video schon einmal für echt gehalten. Nach
+  Alter 78 / 68 / 64 / 60 Prozent.
+- Wörtlich: **„Gut jede:r Vierte hat ein KI-Video geliked oder geteilt und erst danach gemerkt,
+  dass es KI war – bei 14- bis 29-Jährigen fast die Hälfte."** Basis KI.7 n = 2.510, Basis KI.8
+  n = 683.
+- Zweifel (Top-2): **81 Prozent** „Zweifle häufiger an der Echtheit von Videos", 81 „KI kaum noch
+  von echt zu unterscheiden", 81 „Viele Social-Videos sind KI / verändert", 77 „Sorge, gezielt
+  getäuscht zu werden", 76 „Prüfe Video-Inhalte seither kritischer", dann 72 und 68.
+- Regulierung (Frage KI.14, Basis 3.174, Top-2): **91 Prozent** „KI immer klar kennzeichnen",
+  **90** „Kennzeichnungspflicht bei Inhalten wie Nachrichten/Politik", **89** „KI-Anteil transparent
+  machen", **88** „Plattformen sollten stärker kontrollieren", **83** „Bestimmte Formen/ Deepfakes
+  ganz verbieten", **31** „Nur vollständige KI-Videos kennzeichnen".
+- Akzeptanz nach Art des KI-Einsatzes, letzter Wert der Reihe: **12 Prozent** für „Reale Personen /
+  Deepfakes".
+- Woran KI erkannt wird: 58 Prozent „Unnatürliches Aussehen / Mimik", 57 „Bild wirkt zu perfekt",
+  50 „Inhalt wirkt unrealistisch", 49 „Fehlerhafte Details (Hände, Augen)", **47 „KI-Kennzeichnung
+  am Video"**.
+
+**EIGENE BEOBACHTUNGEN.**
+1. **Die 31 Prozent stehen in keiner gefundenen Meldung.** Sie drehen die Leseart: Die Mehrheit will
+   die Kennzeichnung gerade auch dann, wenn KI nur nachgeholfen hat.
+2. **Die Grundgesamtheit sind Internetnutzende**, der Bericht beschriftet seine Schaubilder
+   trotzdem „Basis: Bevölkerung 14+". heise übernimmt „93 Prozent der Bevölkerung ab 14 Jahren".
+   Kleiner Unterschied, gehört aber auf ein Blatt.
+3. **Feldzeit Mai und Juni 2026, Artikel 50 der KI-Verordnung gilt seit dem 2. August 2026.** Die
+   Befragten forderten eine Kennzeichnungspflicht, die kurz darauf in Kraft trat. **Das ist der Kern
+   eines Posts**, zusammen mit Post 4 und Post 8.
+
+**Webseite der Landesmedienanstalten:** Sie nennt **keine Methodenangaben** und auch die Zahlen 81,
+91 und 83 nicht. Wer nur die Webseite liest, erfährt die Stichprobe nicht. Die Angaben stehen erst
+im Ergebnisbericht.
+
+### MAES-PAPIER: DIE SELBSTBESCHRÄNKUNG, GELESEN
+
+Nachtrag zum 22.10. Abschnitt **5.8 „Limitations and Future Research"** von arXiv:2409.08895
+nennt: kurze Expositionsdauer („relatively short-term exposure"), Hinweis auf Loftus, wonach
+Implantation falscher Erinnerungen meist „gradual and repeated suggestion" brauche, sowie
+„the constrained nature of our sample set, both in demographics and dataset size": US-Teilnehmende
+im Alter von 18 bis 100 und **nur 24 Bilder**. **Das ist eine Selbstbeschränkung, keine Gegenstimme
+von außen. Die fehlt weiterhin.**
+
+### KLEINERE FUNDSTÜCKE VOM 23.10.2026
+
+- **„OpenAI: Agenten schalteten eigene Sicherheitswarnungen ab"** (heise, 22.10.2026, 18:49 Uhr).
+  Passt zum Agenten-Strang. **Nicht gelesen, Primärquelle unbekannt. Vorgemerkt.**
+- **„Neue AGB von Meta: Verlage fordern EU-Stopp wegen KI-Scraping"** (heise, 22.10., 15:45).
+  **Vorgemerkt** für den Urheberrechtsstrang um Post 22.
+- **„Deepfakes und Voyeurismus: Neue Strafparagrafen geplant"** (heise, 22.10., 15:00, c't,
+  Bezahlschranke). **Zweiter Tag ohne Zugriff. Vorgemerkt mit Priorität**, unser § 201c-Strang.
+- **„Geheimdienstreform: Opposition kritisiert ungeregelte Überwachung mit Werbedaten"**
+  (netzpolitik, 22.10.). **Kein KI-Kern erkennbar. Nicht gelesen, vorgemerkt.**
+- **Quad9 verlässt Frankreich, WhatsApp-Fake, DOGE-Urteil in den USA, Tesla-Quartalszahlen,
+  Qwen 3.6, OpenCode 2.1, Microsoft Frontier Tour, Tado.** Kein KI-Kern oder reine Produkt- und
+  Marktnachrichten. **Nicht vorgemerkt.**
