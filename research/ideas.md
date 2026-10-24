@@ -6310,3 +6310,150 @@ von außen. Die fehlt weiterhin.**
 - **Quad9 verlässt Frankreich, WhatsApp-Fake, DOGE-Urteil in den USA, Tesla-Quartalszahlen,
   Qwen 3.6, OpenCode 2.1, Microsoft Frontier Tour, Tado.** Kein KI-Kern oder reine Produkt- und
   Marktnachrichten. **Nicht vorgemerkt.**
+
+---
+
+## Recherchierte Einzelbefunde vom 24.10.2026
+
+**Rückstau bei vier, zweiundfünfzigster Tag ohne Neubau.** Ein Gesetzentwurf im Original gelesen,
+der die These von Post 27 bestätigt und den Post zeitkritisch macht.
+
+### BUNDESTAGSDRUCKSACHE 21/8027: NOVELLE DES ENERGIEEFFIZIENZGESETZES
+
+**Primärquelle:** Deutscher Bundestag, **Drucksache 21/8027, 21. Wahlperiode, 16.09.2026**,
+Gesetzentwurf der Bundesregierung, „Entwurf eines Gesetzes zur Beschleunigung der Umsetzung der
+Energieeffizienzrichtlinie", **112 Seiten, am 24.10.2026 mit `/usr/bin/python3` ausgelesen.
+Belastbar.** `dserver.bundestag.de/btd/21/080/2108027.pdf`
+Anlass war der Gastbeitrag von Leonard Burtscher (Umweltinstitut München) bei netzpolitik.org,
+23.10.2026, 16:28 Uhr, der **weder Drucksache noch Paragraf nennt**.
+
+**Ziel, wörtlich aus „A. Problem und Ziel":**
+
+> „Zugleich enthält das EnEfG Vorschriften, die über die EED hinausgehen. Diese sollen grundsätzlich
+> auf das nach EU-Recht erforderliche Mindestmaß zurückgeführt werden."
+
+**§ 13 EnEfG, neu eingefügter Satz 2 in Absatz 1, wörtlich:**
+
+> „Von der Pflicht zur Veröffentlichung ausgenommen sind Informationen, die dem Unionsrecht oder dem
+> nationalen Recht zum Schutz von Betriebs- und Geschäftsgeheimnissen und der Vertraulichkeit
+> unterliegen."
+
+**§ 13 EnEfG, neuer Absatz 3, wörtlich:**
+
+> „Die nach Absatz 1 übermittelten Informationen sind vertraulich zu behandeln mit Rücksicht auf die
+> Wahrung von Betriebs- und Geschäftsgeheimnissen der Betroffenen. Eine Verarbeitung und
+> Übermittlung der Informationen zu Forschungszwecken ist zulässig. Eine sonstige Weitergabe oder
+> Veröffentlichung der Informationen erfolgt ohne vorherige Zustimmung der Betroffenen nur in
+> aggregierter und anonymisierter Form."
+
+Ebenfalls neu in § 13: Absatz 2 mit einer Mitwirkungspflicht der Betreiber von Informationstechnik,
+der bisherige Absatz 2 wird Absatz 4.
+
+**§ 18 EnEfG neu (Abschnitt 6 „Vollzug" wird ersetzt), wörtlich:**
+
+> „Das Bundesamt für Wirtschaft und Ausfuhrkontrolle hat die Einrichtung und den Betrieb von
+> Energie- und Umweltmanagementsystemen nach § 8 Absatz 1 oder § 12 Absatz 1, die Erstellung und
+> Veröffentlichung von Umsetzungsplänen nach § 9 Absatz 1 und die Übermittlung und Veröffentlichung
+> von Informationen nach § 13 Absatz 1 durch Stichproben zu kontrollieren."
+
+**§ 19 EnEfG neu (vollständig ersetzt), Absatz 1 Nummern 2 und 4, wörtlich:**
+
+> „2. entgegen § 9 Absatz 1 einen Umsetzungsplan nicht, nicht richtig, nicht vollständig oder nicht
+> rechtzeitig erstellt oder nicht, nicht richtig, nicht vollständig oder nicht rechtzeitig
+> veröffentlicht, … 4. entgegen § 13 Absatz 1 Satz 1 eine Information nicht, nicht richtig, nicht
+> vollständig oder nicht rechtzeitig übermittelt"
+
+Bußgeldrahmen nach Absatz 2: Nummern 1, 3 und 5 bis **hunderttausend Euro**, die übrigen Fälle bis
+**fünfzigtausend Euro**.
+
+**EIGENER BEFUND, der Kern:** Die Lücke, die Post 27 im geltenden Recht gefunden hat, **bleibt in
+der Neufassung bestehen**. Beim Umsetzungsplan steht „veröffentlicht" ausdrücklich im
+Bußgeldkatalog, bei den Rechenzentrumsinformationen steht weiterhin nur „übermittelt".
+**Verschärfend:** Der neue § 18 verpflichtet die Aufsicht ausdrücklich, die **Veröffentlichung**
+nach § 13 Absatz 1 durch Stichproben zu kontrollieren. Die Behörde soll also prüfen, was nicht
+bußgeldbewehrt ist. **Beides steht in demselben Entwurf, zwei Paragrafen auseinander.**
+
+**§ 11 EnEfG neu, Energieeffiziente Rechenzentren:** Betriebsaufnahme **vor** dem 1. Juli 2026:
+Energieverbrauchseffektivität ab 1. Juli 2027 **kleiner oder gleich 1,6**, ab 1. Juli 2030
+**kleiner oder gleich 1,4** im Jahresdurchschnitt. Betriebsaufnahme **ab** dem 1. Juli 2026:
+**kleiner oder gleich 1,2** und Anteil wiederverwendeter Energie nach DIN EN 50600-4-6 von
+**mindestens 10 Prozent**. **§ 10 und § 15 werden gestrichen.**
+
+**Erfüllungsaufwand, Angabe der Bundesregierung selbst:** jährlicher Erfüllungsaufwand der
+Wirtschaft **minus rund 760 Millionen Euro**, einmaliger **minus rund 2,9 Milliarden Euro**;
+Verwaltung **plus rund 20,5 Millionen Euro** jährlich (Bund 6,3, Länder 14,2). Einmaliger
+Mehrbedarf des Bundes rund 20 Millionen Euro aus dem Klima- und Transformationsfonds.
+
+**ABGLEICH MIT POST 27, ausdrücklich: kein Korrektur-Post.** Post 27 beschreibt geltendes Recht und
+bleibt richtig, solange der Entwurf nicht beschlossen ist. **Aber er ist zeitkritisch:** Nach
+Inkrafttreten trägt derselbe Bußgeldtatbestand die **Nummer 4 statt Nummer 6**. Der Gastbeitrag
+erwartet den Beschluss im November 2026. **Der Verfahrensstand ist nicht geprüft**, die gefundenen
+Angaben zu erster Lesung (24.09.2026?) und Kabinettsbeschluss (24.06.2026?) stammen aus
+Kanzleiblogs und Fachportalen und widersprechen sich. **Vor einem Post im DIP des Bundestages
+nachsehen.**
+
+**WERKZEUGNOTIZ:** `rechenzentrumsregister.bund.de` antwortet weiterhin mit **HTTP 503**, heute
+erneut geprüft. Damit zum zweiten Mal an einem anderen Datum bestätigt, also eine stabile Grenze
+dieser Umgebung. Die Einschränkung in der Caption von Post 27 gilt unverändert.
+
+### UMWELTBUNDESAMT ZUM RECHENZENTRUMSREGISTER
+
+**Quelle:** Umweltbundesamt, **21.09.2026**, „Rechenzentrumsregister: Daten widerlegen hohe
+Rechtsanforderungen", über WebFetch gelesen. **Belastbar** (Bundesoberbehörde), Wortlaut nicht
+zweifach geholt.
+
+**319 Rechenzentren** im Datensatz. Nach Bereinigung fehlerhafter Sätze erreichen rund **70 Prozent**
+einen PUE von **1,5 oder besser** (verbindlich ab Juli 2027) und rund **40 Prozent** einen von
+**1,3 oder besser** (verbindlich ab Juli 2030); knapp **7 Prozent** liegen bei 2,0 oder schlechter.
+**80 Prozent** erreichen bilanziell bereits 100 Prozent erneuerbare Energie (Pflicht ab
+1. Januar 2027). Durchschnittlich werden **rund 35 Prozent** der elektrischen Anschlussleistung
+genutzt. **Datenfehler:** bei 12 Prozent der Meldungen ist die IT-Anschlussleistung größer oder
+gleich der Gesamtanschlussleistung, bei 4 Prozent steht mehr Wärme- als elektrische Energie.
+Rechtsgrundlage der Veröffentlichungspflicht: **§ 13 EnEfG**, berichtspflichtig sind Betreiber ab
+**300 Kilowatt** seit 2024.
+
+**EIGENER BEFUND:** Der netzpolitik-Gastbeitrag schreibt aus denselben Daten „Ein Drittel der
+gemeldeten Rechenzentren erfüllt künftige PUE-Vorgaben, ein weiteres Drittel liegt über 1,5" und
+führt die PUE-Auswertung auf das UBA zurück. **Rechnerisch widerspricht das dem UBA nicht**
+(70 Prozent bei 1,5 oder besser heißt rund 30 Prozent darüber), **die Aussage ist aber gedreht**.
+Die Behörde überschreibt ihre Auswertung mit „Daten widerlegen hohe Rechtsanforderungen".
+**Die eigentliche Lage:** Eine Bundesoberbehörde hält die Anforderungen für erreichbar, die
+Bundesregierung senkt sie. **Das ist ein Widerspruch mit zwei amtlichen Quellen.**
+
+**Weitere Angaben aus dem Gastbeitrag, berichtet, nicht geprüft:** IT-Leistung von etwa 2 auf mehr
+als 4 GW bis 2030 (Nationale Rechenzentrumsstrategie des BMDS); rund 80 TWh Stromverbrauch bis 2045
+(Borderstep-Gutachten für das Wirtschaftsministerium); 319 Betreiber mit Namen und 166 anonym im
+Register; ERF bei knapp drei Prozent; Folgen der Lockerungen 2045 etwa 9 TWh mehr Strom und 10 TWh
+weniger genutzte Wärme (Umweltinstitut, Fraunhofer ISI, AlgorithmWatch). **Korrekturhinweis im
+Beitrag selbst** (23.10., 23:30 Uhr): statt geschätzt 2.000 seien **1.000** Rechenzentren
+meldepflichtig.
+
+### GESCHÄRFT: DIE FRIST FÜR DIE KI-KENNZEICHNUNG
+
+Zum Kandidaten vom 23.10. („Neun von zehn wollen KI-Videos gekennzeichnet sehen"). Die Schlagzeile
+„seit August steht das im Gesetz" wäre **ungenau** gewesen. **Artikel 111 Absatz 4 der
+KI-Verordnung**, eingefügt durch Verordnung (EU) 2026/1744, liegt seit dem 06.10. hier im Wortlaut
+vor: Anbieter von Systemen, die **vor dem 2. August 2026** in Verkehr gebracht wurden, treffen die
+erforderlichen Maßnahmen, um Artikel 50 Absatz 2 **bis zum 2. Dezember 2026** nachzukommen.
+**Vom 24.10.2026 aus sind das 39 Tage, nachgerechnet.** Die bessere Schlagzeile nennt dieses Datum.
+
+### KLEINERE FUNDSTÜCKE VOM 24.10.2026
+
+- **„Beschwerde erfolgreich: Politisches Microtargeting von vier Parteien war rechtswidrig"**
+  (netzpolitik, 23.10.2026, 14:45 Uhr, Carla Rochel). Die Berliner Datenschutzbeauftragte hat CDU,
+  SPD, Bündnis 90/Die Grünen und Die Linke verwarnt, Anlass waren noyb-Beschwerden von März 2023 zu
+  Facebook-Werbung im Bundestagswahlkampf 2021. **Bescheide nicht rechtskräftig, kein Aktenzeichen,
+  kein Bescheiddatum, keine Artikelangabe. Der Beitrag erwähnt keine KI.** Das AfD-Verfahren liegt
+  beim Oberverwaltungsgericht Berlin-Brandenburg. **Für den Datenschutzstrang vorgemerkt.**
+- **„W3C: Ein Auftrag ist kein Freibrief für KI-Agenten"** (heise, 23.10., 11:07 Uhr, Moritz
+  Förster). Diskussionspapier **„W3C and the State of the Web in the AI Era"** vom **21.10.2026**,
+  Philippe Le Hegaret für das W3C-Strategieteam, offizielle Vorstellung **29.10.2026**.
+  `w3.org/2026/10/w3c-and-state-of-web-in-ai-era.html`. **Empfehlungen, keine verabschiedeten
+  Standards.** Kein Rechtsbezug im Artikel. Inhalte: Schutz vor Prompt Injection, Zustimmung vor
+  folgenreichen Handlungen, Ausgabenlimits und widerrufliche Vollmachten bei Zahlungen, Warnung vor
+  Zustimmungsmüdigkeit, delegierte Identität über verifizierbare Nachweise, Vorrang menschlicher
+  Bedürfnisse bei Konflikten in ARIA. **Vorgemerkt**, für einen Post zu früh.
+- **„KI-Update Deep-Dive: Warum ControlAI ein Verbot von Superintelligenz fordert"** (heise, 23.10.,
+  15:00). Abstrakte Debatte, Gegenteil des Leitprinzips. **Nicht vorgemerkt.**
+- **Nvidia-CEO, Anthropic-Agent, Google Maps mit Gemini, lokale KI auf Smartphones, AWS Continuum,
+  JFrog.** Produkt und Unternehmen. **Nicht vorgemerkt.**
