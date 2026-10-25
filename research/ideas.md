@@ -6457,3 +6457,159 @@ erforderlichen Maßnahmen, um Artikel 50 Absatz 2 **bis zum 2. Dezember 2026** n
   15:00). Abstrakte Debatte, Gegenteil des Leitprinzips. **Nicht vorgemerkt.**
 - **Nvidia-CEO, Anthropic-Agent, Google Maps mit Gemini, lokale KI auf Smartphones, AWS Continuum,
   JFrog.** Produkt und Unternehmen. **Nicht vorgemerkt.**
+
+---
+
+## Recherchierte Einzelbefunde vom 25.10.2026
+
+**Rückstau bei vier, dreiundfünfzigster Tag ohne Neubau.** Dünner Sonntag, deshalb der
+Rechenzentren-Strang zu Ende recherchiert. Der Kandidat ist jetzt vollständig.
+
+### VERFAHRENSSTAND DRUCKSACHE 21/8027, AMTLICH GEKLÄRT
+
+**Quelle:** Deutscher Bundestag, Textarchiv,
+`bundestag.de/dokumente/textarchiv/2026/kw39-de-energieeffizienzrichtlinie-1211306`. **Belastbar.**
+
+- **Erste Lesung Donnerstag, 24.09.2026**, Aussprache 20 Minuten, Reden zu Protokoll von Lars Rohwer
+  (CDU/CSU) und Jörg Cezanne (Die Linke).
+- **Überweisung federführend an den Ausschuss für Wirtschaft und Energie.**
+- Gegenanträge: **Bündnis 90/Die Grünen, Drucksache 21/8139**
+  (`dserver.bundestag.de/btd/21/081/2108139.pdf`) und **Die Linke, Drucksache 21/8111**
+  (`dserver.bundestag.de/btd/21/081/2108111.pdf`), beide Stand 22.09.2026. **Beide nicht gelesen.**
+- **Öffentliche Anhörung Montag, 05.10.2026, 14:30 bis 16:00 Uhr**, 48. Sitzung,
+  Marie-Elisabeth-Lüders-Haus, Saal MELH 3.101.
+  Seite: `bundestag.de/ausschuesse/a09_wirtschaft/wp21_a09_Anhoerungen/1217440-1217440`
+- **Kein Beschlusstermin vermerkt.** Die Erwartung „November 2026" aus dem netzpolitik-Gastbeitrag
+  vom 23.10. ist damit **eine Erwartung, kein Termin**. Das korrigiert die gestrige Notiz.
+
+**Stellungnahmen (Ausschussdrucksachen), Adressen für später:**
+21(9)358 DENEFF `bundestag.de/resource/blob/1221710/Stellungnahme_DUiE_eV_u_DENEFF.pdf` ·
+21(9)365neu AlgorithmWatch `…/blob/1222062/Stellungnahme_Dr-_Julian_Bothe_Algorith_Watch.pdf` ·
+21(9)366 Landkreistag und Städte- und Gemeindebund `…/blob/1222102/Stellungnahme_DLKT_und_DStGB.pdf` ·
+21(9)367 Umweltinstitut München `…/blob/1222112/Stellungnahme_Umweltinstitut_Muenchen_eV.pdf` ·
+21(9)368 Prof. Sven-Joachim Otto `…/blob/1222126/Stellungnahme_RA_Sven_Otto.pdf` ·
+21(9)373 Deutscher Städtetag `…/blob/1222238/Stellungnahme-Deutscher-Staedtetag.pdf` ·
+21(9)378 DIHK `…/blob/1224382/Stellungnahme_DIHK.pdf` ·
+21(9)393 German Datacenter Association `…/blob/1223094/Stellungnahme_German_Datacenter_Association_eV.pdf` ·
+21(9)396 Bellona Deutschland `…/blob/1223436/Stellungnahme_Bellona_Deutschland_gGmbH.pdf`
+
+**Anmerkung ohne Unterstellung:** Leonard Burtscher, Autor des netzpolitik-Gastbeitrags vom 23.10.,
+war in dieser Anhörung Sachverständiger, benannt von Bündnis 90/Die Grünen. Der Beitrag weist ihn
+als Referenten des Umweltinstituts München aus, die Rolle als Sachverständiger nennt er nicht.
+
+### GEGENSTIMME 1: ALGORITHMWATCH, AUSSCHUSSDRUCKSACHE 21(9)365 NEU
+
+**Primärquelle:** Dr. Julian Bothe, Senior Policy Manager, AW AlgorithmWatch gGmbH, Papier datiert
+**01.10.2026**, beim Ausschuss **02.10.2026**, **19 Seiten, am 25.10.2026 ausgelesen. Belastbar**
+als Verfahrensdokument, inhaltlich Position einer Partei im Streit. Benannt von Die Linke.
+
+Empfehlungen in Kürze, wörtlich (Auszug):
+
+> „Ausbau steuern statt Regulierungen abbauen: Schon jetzt werden so viele Rechenzentren wie nie
+> zuvor gebaut."
+
+> „Erfolgsgeschichte hoher Effizienzstandards fortschreiben: Die geltenden PUE-Grenzwerte sollten
+> beibehalten werden. Auch neu gebaute Rechenzentren sollten weiter einen im Betrieb gemessenen PUE
+> nachweisen."
+
+> „Individuelle Veröffentlichungspflicht klarstellen: Der Gesetzestext sollte deutlich machen, dass
+> Betreiber die Energiekennzahlen einzelner Rechenzentren gemäß Anlage 3 im Regelfall weiterhin
+> veröffentlichen müssen – ungeachtet der neu hinzugefügten Ausnahme für Geschäftsgeheimnisse
+> (§ 13)."
+
+> „Hier besteht ein Widerspruch u.a. zur Gesetzesbegründung, die festhält, dass Betreiber nur ‚zum
+> Schutz besonders sensibler Daten' und ‚in sehr engen Grenzen' auf eine Veröffentlichung von
+> Kennzahlen verzichten dürfen."
+
+Weiter nennt die Stellungnahme eine **repräsentative Umfrage von Oktober 2025**, mitbeauftragt von
+AlgorithmWatch: **zwei Drittel** stimmen zu, dass Rechenzentren nur gebaut werden dürfen, wenn
+zusätzliche Kapazitäten erneuerbarer Energien geschaffen werden; **mehr als drei Viertel** fordern,
+dass Betreiber Energieverbrauch und Energiequelle offenlegen. **Auftraggeber ist Partei im Streit,
+Umfrage nicht im Original geprüft. Ungeprüft.**
+
+### GEGENSTIMME 2: GERMAN DATACENTER ASSOCIATION, AUSSCHUSSDRUCKSACHE 21(9)393
+
+**Primärquelle:** GDA e.V., Papier vom **05.10.2026**, beim Ausschuss **07.10.2026**, **5 Seiten, am
+25.10.2026 ausgelesen. Belastbar** als Verfahrensdokument, inhaltlich Branchenposition.
+Sachverständiger Günter Eggers, benannt von CDU/CSU.
+
+Zur Kennzahl selbst, wörtlich:
+
+> „Der PUE ist ein Verhältniswert aus Gesamtenergieverbrauch und Energieverbrauch der IT. Er bildet
+> weder die Effizienz der IT-Systeme noch den absoluten Energieverbrauch ab. Ein besserer PUE
+> bedeutet daher nicht automatisch, dass weniger Energie genutzt wird."
+
+Zur Veröffentlichung, wörtlich: „Betriebs- und Geschäftsgeheimnisse sind bei
+Veröffentlichungspflichten zu schützen." Zum Register: „Nationale Doppelstrukturen sind zu
+vermeiden. Die Berichterstattung sollte über einen EU-weit standardisierten Prozess erfolgen. Das
+Datenfeld zum jährlichen eingehenden und ausgehenden Datenverkehr sollte entfallen."
+Die GDA schlägt **auslastungsabhängige PUE-Höchstwerte** bei 25, 50, 75 und 100 Prozent Last vor und
+akzeptiert für hundert Prozent Last **1,2** als Referenz. Sie fordert außerdem, die Schwelle für
+Managementsysteme der IT-Betreiber (§ 12 Absatz 5) von **50 auf 500 Kilowatt** anzuheben.
+
+### DER FUND: DER ENTWURF WIDERSPRICHT SICH SELBST
+
+Der Hinweis von AlgorithmWatch ist **am 25.10.2026 im PDF von Drucksache 21/8027 selbst geprüft**.
+Begründung zu Nummer 11 (§ 13 EnEfG), wörtlich:
+
+> „Die Änderungen dienen der Anpassung an die Vorgaben des Artikels 12 Absatz 1 der Richtlinie
+> (EU) 2023/1791, der eine Ausnahme von der Veröffentlichungspflicht für Betreiber von
+> Rechenzentren für Informationen zulässt, die dem Unionsrecht oder dem nationalen Recht zum Schutz
+> von Betriebs- und Geschäftsgeheimnissen und der Vertraulichkeit unterliegen. In der alten Fassung
+> sah § 13 Absatz 1 EnEfG a. F. keine Ausnahme für die entsprechenden Informationen von der
+> Veröffentlichungspflicht vor. Demnach mussten sämtliche Informationen der Öffentlichkeit
+> zugänglich gemacht werden. In sehr engen Grenzen können die Betreiber zum Schutz besonders
+> sensibler Daten auf die Veröffentlichung verzichten. Zudem dient die Anpassung der Klarstellung,
+> dass neben der Pflicht zur Übermittlung der Information nach Maßgabe der Anlage 3 an den Bund, die
+> Pflicht zur Veröffentlichung der Informationen für Betreiber von Rechenzentren besteht."
+
+**Vier Aussagen in einem Dokument:**
+1. **§ 13 Absatz 1 Satz 2 neu:** ausgenommen sind **alle** Informationen, die dem Schutz von
+   Betriebs- und Geschäftsgeheimnissen und der Vertraulichkeit unterliegen.
+2. **Begründung:** verzichten dürfen Betreiber nur **„in sehr engen Grenzen"** und **„zum Schutz
+   besonders sensibler Daten"**.
+3. **§ 13 Absatz 3 neu:** Weitergabe oder Veröffentlichung ohne Zustimmung nur **„in aggregierter
+   und anonymisierter Form"**.
+4. **§ 18 neu gegen § 19 neu:** Die Aufsicht soll die Veröffentlichung durch Stichproben
+   kontrollieren, das Unterlassen ist nicht bußgeldbewehrt.
+
+**Fairnesshinweis für den Post:** Die Begründung nennt als Grund **Artikel 12 Absatz 1 der
+Richtlinie (EU) 2023/1791**. Die Ausnahme ist also europarechtlich angelegt. **Das gehört auf ein
+Blatt, sonst wird der Post unfair.** Der Richtlinientext selbst ist **nicht gelesen**.
+
+### W3C-DISKUSSIONSPAPIER, GELESEN
+
+**Quelle:** „W3C and the State of the Web in the AI Era", Philippe Le Hegaret, W3C VP Technical
+Strategy, für das W3C-Strategieteam, **finalisiert am 20.10.2026**, vorbereitet für TPAC 2026.
+`w3.org/2026/10/w3c-and-state-of-web-in-ai-era.html`. **Diskussionspapier mit „early
+recommendations", kein verabschiedeter Standard.**
+
+Wörtlich zu Agenten und Zahlungen:
+- Nutzerseite: „Spending caps, revocation, clear receipts and dispute paths"
+- Agentenseite: „Payment intent, agent mandate and limits, merchant-side signals"
+- Vollmacht: „Proof that a human approved; per-agent, revocable permissions"
+- Grundsatz: „Consequential actions need real human consent; people can see what was done, undo
+  where possible"
+
+**Datumsabweichung:** Das Papier nennt als Finalisierung den **20.10.2026**, heise schrieb am 23.10.
+von einer Veröffentlichung am **21.10.2026**. Offizielle Vorstellung am 29.10.2026.
+
+### KLEINERE FUNDSTÜCKE VOM 25.10.2026
+
+- **„Anthropic lässt KI-Agenten Verhandlungsregeln für Menschen lernen"** (heise, 24.10.2026,
+  10:14 Uhr, Carolin Riethmüller). Anthropic berate Kanzleien zu Agenten, die für Nutzer Preise,
+  Gehälter und Verträge verhandeln; Quelle ist die Financial Times mit Insiderinformationen.
+  Anthropics eigene Veröffentlichung „project-swap" vom September, zwei Experimente, sechs Büros.
+  **Der Artikel sagt, es gebe dafür bisher keine rechtlichen Leitplanken.** Als Kommentarziel
+  genutzt.
+- **„OpenAI stellt seine neue Trainingsumgebung vor, ohne Air Gap"** (heise, 24.10., 13:37).
+  **Nicht gelesen. Vorgemerkt.**
+- **„KW 43: Die Woche, in der das Internet geschlossen wurde"** (netzpolitik, 24.10., 08:53, Martin
+  Schwarzbeck). Aufhänger sind **mit KI gefundene kritische Sicherheitslücken in PHP** und
+  stundenlang vorsorglich abgeschaltete Onlineangebote. **Der Rückblick nennt dazu keine Zahl und
+  keine Primärquelle**, der verlinkte Einzelbeitrag ist nicht gelesen. **Eigener Strang,
+  vorgemerkt.**
+- **Kabinettsbeschlussdatum zu Drucksache 21/8027, NEU OFFEN.** Gefunden: **24.06.2026**
+  (Kanzleiblogs), **10.07.2026** (Kopfzeile der AlgorithmWatch-Stellungnahme) und ein
+  „Kabinettsbeschluss vom 5. Oktober 2025" in einer Fußnote derselben Stellungnahme. **Drei
+  Angaben, keine amtliche. Nicht verwenden, bis geklärt.**
