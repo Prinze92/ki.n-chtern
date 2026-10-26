@@ -6613,3 +6613,111 @@ von einer Veröffentlichung am **21.10.2026**. Offizielle Vorstellung am 29.10.2
   (Kanzleiblogs), **10.07.2026** (Kopfzeile der AlgorithmWatch-Stellungnahme) und ein
   „Kabinettsbeschluss vom 5. Oktober 2025" in einer Fußnote derselben Stellungnahme. **Drei
   Angaben, keine amtliche. Nicht verwenden, bis geklärt.**
+
+---
+
+## Recherchierte Einzelbefunde vom 26.10.2026
+
+**Rückstau bei vier, vierundfünfzigster Tag ohne Neubau.** Der Tag beginnt mit einer Korrektur in
+eigener Sache.
+
+### KORREKTUR: § 13 ABSATZ 3 ENEFG, GESTERN FALSCH GELESEN
+
+**Im Eintrag vom 25.10.2026 steht, der neue § 13 Absatz 3 bedeute, Weitergabe oder Veröffentlichung
+der gemeldeten Informationen erfolge ohne Zustimmung der Betroffenen nur in aggregierter und
+anonymisierter Form, und das sei eine Beschränkung der Betreiberpflichten. Das ist falsch.**
+Der Absatz regelt, was **der Bund** mit den an ihn übermittelten Daten darf.
+
+**Beleg, Begründung zu Nummer 11 von Drucksache 21/8027, am 26.10.2026 im PDF gelesen, wörtlich:**
+
+> „Durch die Neufassung wird zudem deutlich klargestellt, dass im Rahmen der Pflicht zur
+> Übermittlung an den Bund nach § 13 Absatz 1 EnEfG keine Ausnahme für Informationen, die dem
+> Unionsrecht oder dem nationalen Recht zum Schutz von Betriebs- und Geschäftsgeheimnissen und der
+> Vertraulichkeit unterliegen, besteht. Der Begriff des Geschäftsgeheimnisses ist in Artikel 2
+> Nummer 1 der Richtlinie (EU) Nr. 2016/943 legal definiert. Vor diesem Hintergrund stellt der neu
+> eingefügte § 13 Absatz 3 klar, dass der Bund die Informationen an die Europäische Datenbank über
+> Rechenzentren, entsprechend den Vorgaben aus Artikel 12 der Richtlinie (EU) 2023/1791 sowie der
+> Delegierten Verordnung (EU) 2024/1364 der Kommission vom 14. März 2024, über die erste Phase der
+> Einrichtung eines gemeinsamen Bewertungssystems der Union für Rechenzentren, übermittelt und die
+> übermittelten Informationen vertraulich behandelt, mit Rücksicht auf die Wahrung von Betriebs-
+> und Geschäftsgeheimnissen der Betroffenen. Eine Veröffentlichung der übermittelten Daten ist
+> dementsprechend durch den Bund nur in aggregierter und anonymisierter Form oder im Falle der
+> vorigen Zustimmung des betroffenen Betreibers des jeweiligen Rechenzentrums zulässig, wie dies
+> bereits auf der Website des Energieeffizienzregisters für Rechenzentren des Bundes geschieht.
+> Eine sonstige Weitergabe der Daten ist demnach ausgeschlossen, Ansprüche auf Herausgabe der Daten
+> bedürfen dementsprechend der Einwilligung nach § 6 des Informationsfreiheitsgesetzes"
+
+**Was daraus folgt.**
+- Die **Übermittlungspflicht an den Bund kennt keine Geheimnisausnahme.** Das war gestern nicht
+  herausgestellt.
+- Die Beschränkung auf aggregierte und anonymisierte Veröffentlichung trifft **den Bund** und
+  beschreibt nach der Begründung die **heutige Praxis** des Registers.
+- **Der Kommentarentwurf vom 24.10.**, der § 13 Absatz 3 zitierte, **wird zurückgezogen.**
+
+**Was unverändert steht.**
+1. **§ 13 Absatz 1 Satz 2 neu** nimmt die **Betreiber** von der Veröffentlichungspflicht aus, soweit
+   Informationen dem Schutz von Betriebs- und Geschäftsgeheimnissen unterliegen. Die Begründung
+   desselben Dokuments sagt, verzichten dürften sie nur „in sehr engen Grenzen" und „zum Schutz
+   besonders sensibler Daten". **Der Widerspruch steht.**
+2. **§ 18 neu gegen § 19 neu.** Kontrollpflicht für die Veröffentlichung, kein Bußgeld für das
+   Unterlassen. **Steht.**
+
+**Neue Fundstellen aus derselben Begründung, alle ungelesen:** Artikel 12 der Richtlinie
+(EU) 2023/1791, **Delegierte Verordnung (EU) 2024/1364 vom 14.03.2024**, Artikel 2 Nummer 1 der
+Richtlinie (EU) 2016/943, § 6 Informationsfreiheitsgesetz.
+
+**ARBEITSREGEL DARAUS:** Bei einem Änderungsgesetz wird zu jedem zitierten Absatz die zugehörige
+Begründung mitgelesen, bevor er in ein Briefing oder auf ein Blatt kommt. Der Gesetzestext allein
+reicht nicht, weil er den Adressaten nicht immer nennt.
+
+### IBM X-FORCE: ZWEI ZAHLEN, DIE EINE DPA-MELDUNG ZUSAMMENZIEHT
+
+**Anlass:** heise online, „Tal der Tränen: Warum Angreifer bei Sicherheitslücken derzeit im Vorteil
+sind", **25.10.2026, 11:28 Uhr, dpa**. Der Text nennt mindestens **10.124** offengelegte
+Schwachstellen von Januar bis September, ein Plus von rund **578 Prozent**, und schreibt, mehr als
+die Hälfte dieser **mit KI gefundenen** Schwachstellen sei hoch oder kritisch bewertet. Quelle sei
+IBM X-Force.
+
+**Primärquelle, am 26.10.2026 gelesen:** IBM, „AI can find serious vulnerabilities at unprecedented
+speed. Can defenders keep up?", Autor **Austin Zeizel**, Threat Intelligence Consultant bei
+IBM X-Force, Beiträge von Sandra Hill und Jeff Kuo.
+`ibm.com/think/x-force/ai-vulnerability-discovery`. **Die Seite nennt kein
+Veröffentlichungsdatum.** **Belastbar** als Herstellerquelle, inhaltlich eine Eigenzählung.
+
+- Die **10.124** beziehen sich auf öffentlich gemeldete CVEs bei **vier Herstellern**: Microsoft,
+  Oracle, Google Chrome und Apache. Vergleichswert Januar bis September 2025: **rund 1.493**. Daraus
+  die rund 578 Prozent.
+- Zur Ursache, wörtlich: **„While the causes behind this increase are difficult to quantify"** und
+  **„The available data does not establish a direct causal relationship"**. Vermutet wird nur:
+  **„AI-assisted research may be contributing to higher vulnerability disclosure volumes."**
+- Die **55,2 Prozent** hoch oder kritisch gelten für **223** öffentlich gemeldete Schwachstellen,
+  die mit Frontier-KI-Modellen gefunden wurden.
+
+**EIGENER BEFUND:** Die dpa-Meldung zieht die 10.124 und die Mehrheitsangabe zusammen und schreibt
+beides der KI zu. **Bei IBM sind das zwei getrennte Grundgesamtheiten, und IBM verneint die
+Ursächlichkeit ausdrücklich.** Als Kommentar verwendet. **Als Post zu schwach**, weil der deutsche
+Bezug und die persönliche Betroffenheit fehlen.
+
+**Aus derselben Meldung, nicht geprüft:** Die Cyberagentur arbeite an einem experimentellen
+Forschungsauftrag zu KI als Betriebssystemgrundlage und wolle bald ein Programm ausschreiben.
+Zitat Daniel Gille: „Wir befinden uns wahrscheinlich gerade schon momentan in einem kleinen Tal der
+Tränen" und „Das ist tatsächlich eine komplett offene Forschungsfrage." **Kein Titel, kein Datum,
+keine Adresse. Vorgemerkt**, ein Post bräuchte die Ausschreibung.
+
+### KLEINERE FUNDSTÜCKE VOM 26.10.2026
+
+- **„Mistral- und DeepL-Chefs warnen vor KI-Kapitulation Europas"** (heise, 25.10.2026, 14:28 Uhr,
+  Stefan Krempl). Arthur Mensch (Mistral) in einem LinkedIn-Beitrag „Build or surrender", Jarek
+  Kutylowski (DeepL) und Max Junestrand (Legora) bei Politico; von der Leyen wird ohne wörtliches
+  Zitat referiert. Genannt werden **sieben KI-Gigafabriken mit rund 30 Milliarden Euro** („im
+  Sommer" gestartet, **ohne Primärquelle und ohne genaues Datum, ungeprüft**) und ein Konsortium
+  unter Führung von Domyn. **Der Artikel nennt weder den Digital Omnibus noch die KI-Verordnung.**
+  Als Kommentarziel genutzt.
+- **„Breakpoint: Verboten emanzipatorisch?"** (netzpolitik, 25.10.2026). Meinungskolumne. **Nicht
+  gelesen, nicht vorgemerkt.**
+- **WERKZEUGNOTIZ, wichtig: EUR-Lex ist aus dieser Umgebung derzeit nicht lesbar.** Vier Versuche am
+  26.10., alle leer: `curl` auf `legal-content/DE/TXT/HTML/?uri=CELEX:32023L1791` und auf die
+  PDF-Fassung liefern **null Byte**, `WebFetch` auf die HTML-Fassung und auf
+  `eli/dir/2023/1791/oj/deu` liefert eine leere Seite. Deckt sich mit dem Befund vom 04.10.2026
+  (HTTP 202 mit leerem Körper). **Artikel 12 EED bleibt deshalb offen.** Normtexte, die schon hier
+  stehen, sind nicht betroffen.
