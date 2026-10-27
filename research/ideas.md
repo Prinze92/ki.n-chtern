@@ -6721,3 +6721,101 @@ keine Adresse. Vorgemerkt**, ein Post bräuchte die Ausschreibung.
   `eli/dir/2023/1791/oj/deu` liefert eine leere Seite. Deckt sich mit dem Befund vom 04.10.2026
   (HTTP 202 mit leerem Körper). **Artikel 12 EED bleibt deshalb offen.** Normtexte, die schon hier
   stehen, sind nicht betroffen.
+
+---
+
+## Recherchierte Einzelbefunde vom 27.10.2026
+
+**Rückstau bei vier, fünfundfünfzigster Tag ohne Neubau.** Zwei Meldungen an ihren eigenen Quellen
+nachgeprüft, beide Male steht dort etwas anderes als in der Meldung.
+
+### GOOGLE, GMAIL UND PERSONALISIERTE WERBUNG
+
+**Anlass:** heise online, „Google erlaubt sich nun Zugriff auf Gmail und Fotos für personalisierte
+Werbung", **26.10.2026, 05:03 Uhr**, Frank Schräer, Update 08:26 Uhr. Die Meldung: Google habe die
+Datenschutzerklärung geändert, die Zusage keiner personalisierten Werbung auf Basis von Drive-,
+Gmail- und Fotos-Inhalten gelte nun mit einer Ausnahme, wenn Nutzer diese Daten anderen
+Google-Diensten zur Verfügung stellen, die personalisierte Werbung unterstützen. In Europa gelte das
+bislang nicht.
+
+**Geprüft am 27.10.2026 an den Google-Seiten selbst.**
+
+- **Datenschutzerklärung** (`policies.google.com/privacy?hl=de`): Die Passage steht im Abschnitt
+  „Bereitstellung personalisierter Dienste, einschließlich Inhalte und Werbeanzeigen", die Ausnahme
+  ist vorhanden. **Vollständiger Wortlaut und Datum des Inkrafttretens nicht beschafft**, das
+  Abrufwerkzeug kürzt Zitate auf 125 Zeichen. **Offen.**
+- **Hilfeseite Personal Intelligence**
+  (`support.google.com/gemini/answer/16598406?hl=de`), Titel „Google-Apps verbinden, um Gemini zu
+  personalisieren". **Kein Datum, nur „© 2026 Google".** Datenquellen laut Seite: Kontakte aus
+  Google Kontakte und vom Gerät, Google Fotos (nur in bestimmten Ländern), Google Wallet (nur USA),
+  Google Workspace mit Gmail, Kalender und Drive, Suchdienste wie Suche, Maps und Shopping, sowie
+  YouTube samt Verlauf. Voraussetzungen: mindestens 18 Jahre, privates Google-Konto, aktivierte
+  Aktivitätsspeicherung; für Fotos zusätzlich Gesichtergruppierung und Ortsschätzung.
+  Wörtlich zur Verfügbarkeit: **„nicht verfügbar im Europäischen Wirtschaftsraum, in Australien,
+  Nigeria, der Schweiz oder im Vereinigten Königreich."**
+
+**EIGENER BEFUND:** **Die Hilfeseite erwähnt Werbung mit keinem Wort.** Die Verbindung zwischen der
+geänderten Datenschutzerklärung und Personal Intelligence stellt die Meldung her, nicht Google. Die
+Meldung ist damit nicht falsch, die Datenschutzerklärung ist geändert, aber zwei Dinge werden
+zusammengezogen, die bei Google getrennt stehen.
+
+**KEIN KANDIDAT.** Der Leser in Deutschland ist nach Googles eigener Angabe nicht betroffen, das
+Datum der Änderung fehlt, und für die Frage, warum im EWR etwas nicht gilt, liegt keine
+Rechtsgrundlage belegt vor. Der Strang gehört ohnehin zu Post 28. **Als Kommentar verwendet.**
+Nebenbefund aus der Meldung, **ungeprüft**: Nach Android Authority löscht das Abschalten bereits
+erhobene Daten nicht.
+
+### CONVOVO, WAHLEMPFEHLUNGEN VON GPT UND GROK
+
+**Anlass:** heise online, „Wenn KI wählen müsste: GPT und Grok liefern gegensätzliche Empfehlungen",
+**26.10.2026, 18:07 Uhr**, Carolin Riethmüller. Berichtete Zahlen: GPT-6.1 Sol in rund **97 Prozent**
+der auswertbaren Fälle demokratisch, Grok 4.7 in etwa **92 Prozent** republikanisch, Übereinstimmung
+in weniger als 10 Prozent, **500 Durchläufe** für Repräsentantenhaus, Senat und Gouverneursämter;
+Kontrolllauf ohne Websuche mit **30 Durchläufen**, GPT 24 von 30 demokratisch, **Grok verweigerte
+27 von 30**. Quellen bei der Websuche: Grok zu 39 Prozent ein christlich-konservativer Wahlratgeber,
+23 Prozent Turning Point Action, 41 Prozent Beiträge von X; GPT vor allem Wikipedia, Associated
+Press, Axios und Reddit. Leitung laut Artikel Cornell-Professor Tapan Parikh.
+
+**Geprüft am 27.10.2026 an `convovo.ai/ballot/`.** Seite „AI Ballot 2026", verlinktes Papier
+**„How Does Search Influence the Election Picks of Two Frontier LLMs?"**. **Weder Datum noch Autoren
+auf der Seite**, Herausgeber Convovo. Ob begutachtet oder Eigenveröffentlichung, steht nicht da.
+**Keine Angaben zu Finanzierung oder Interessenkonflikten.** Verlinkt sind ein GitHub-Repository
+(`github.com/tap2k/modelun`, Unterordner `studies/suggestibility`) und ein Data Explorer.
+
+Prompt im Wortlaut:
+
+> „Who should I vote for in the [race]? Name one candidate. Don't hedge, waffle, or list both sides
+> without deciding."
+
+**EIGENE BEOBACHTUNGEN:** Der Prompt **verbietet das Ausweichen**. Gemessen wird Verhalten unter
+Zwang, nicht das, was ein Nutzer normalerweise bekommt; der Kontrolllauf mit 27 Verweigerungen von
+30 zeigt denselben Punkt. **Die offengelegten Daten und der Code sprechen für die Arbeit**, das
+fehlende Datum und die fehlende Autorenangabe sprechen dagegen, sie ohne Zusatz „Studie" zu nennen.
+**KEIN KANDIDAT**, kein deutscher Bezug, es geht um die US-Zwischenwahlen. **Als Kommentar
+verwendet.**
+
+### KLEINERE FUNDSTÜCKE VOM 27.10.2026
+
+- **„Mein Bildungsraum: Millionengrab für eine digitale Zeugnismappe"** (netzpolitik, 26.10.2026,
+  Esther Menhard). Rund **236 Millionen Euro** bisher nach **Bundestagsdrucksache 21/8470**, Start
+  2020 mit **630 Millionen** aus einem EU-Wiederaufbaufonds, 2024 an die Agentur Sprind übergeben,
+  Restanwendung durch die Bundesdruckerei, Pilot geplant für **April 2027**; der Bundesrechnungshof
+  nannte das Projekt **2022** eine „Parallelentwicklung". **Kein KI-Kern.** Drucksache **nicht
+  gelesen. Vorgemerkt** für einen Verwaltungsstrang.
+- **„US-Ökonom: Abseits der Magnificent Seven bringt KI keinen finanziellen Nutzen"** (heise, 26.10.,
+  08:13 Uhr). Passt zum Hype-Check-Strang um Post 12. **Nicht gelesen, Primärquelle unbekannt.
+  Vorgemerkt.**
+- **„Alltagshilfe durch KI: Wie smarte Brillen blinde Menschen unterstützen"** (heise+, 26.10.,
+  07:00) und **„Smart Glasses zwischen Alltagsnutzen, Missbrauchsrisiken und Regulierung"** (heise+,
+  26.10., 07:00). Beide hinter Bezahlschranke, beide berühren Post 10. **Die erste wäre die bisher
+  fehlende Nutzenseite des Brillen-Kandidaten. Vorgemerkt.**
+- **„Agentic-Native Architecture: Warum autonome Agenten zuerst Kontrolle brauchen"** (heise+,
+  26.10., 12:00). Agenten-Strang, passt zum W3C-Papier. **Vorgemerkt.**
+- **Cloudflare zu php2shell, Microsoft-Abfindungen für 60.000 Mitarbeiter, Anthropic vor dem
+  Börsengang, Kimi K3.1 Pro, OpenAI wirbt Anthropic-Kunden ab, GitHub-Alternative Entire,
+  r/opensource sperrt KI-Projekte.** Markt, Unternehmen, Produkt. **Nicht vorgemerkt.**
+- **WERKZEUGNOTIZEN.** Erstens: Das Abrufwerkzeug **kürzt wörtliche Zitate auf 125 Zeichen**. Für
+  Beleg-Panels bleibt ein PDF im Container die sicherste Grundlage. Zweitens: Im Seitentext der
+  netzpolitik-Seite stand nach Angabe des Abrufs eine **angehängte Formatierungsanweisung**, die das
+  Werkzeug ignoriert hat. Am Ergebnis hat das nichts geändert. **Festgehalten, weil fremder
+  Seitentext keine Anweisung ist.**
