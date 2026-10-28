@@ -6819,3 +6819,97 @@ verwendet.**
   netzpolitik-Seite stand nach Angabe des Abrufs eine **angehängte Formatierungsanweisung**, die das
   Werkzeug ignoriert hat. Am Ergebnis hat das nichts geändert. **Festgehalten, weil fremder
   Seitentext keine Anweisung ist.**
+
+---
+
+## Recherchierte Einzelbefunde vom 28.10.2026
+
+**Rückstau bei vier, sechsundfünfzigster Tag ohne Neubau.** Ein neuer Kandidat, der **nicht** hinter
+Post 27 gesperrt ist, und er trifft Handlungsempfehlung 38 der Expertenkommission.
+
+### APPLE PRÜFT DAS ALTER PER SELFIE
+
+**Primärquelle:** Apple Support, **„Mit einem Selfie bestätigen, dass du volljährig bist"**,
+`support.apple.com/de-de/149095`, **Veröffentlichungsdatum 26.10.2026**, am 28.10.2026 gelesen.
+**Belastbar** als Herstellerdokument. Anlass: heise online, „iPhone-Altersverifizierung: Auch Apple
+bittet zum Selfie", **27.10.2026, 18:24 Uhr**, Leo Becker (Mac & i).
+
+**Wörtlich von der Apple-Seite:**
+
+> „Diese laufen sowohl auf dem Gerät als auch in Private Cloud Compute."
+
+> „Wenn dein Selfie auf deinem Gerät und in Private Cloud Compute analysiert wird, ist es für
+> niemanden zugänglich – nicht einmal für Apple."
+
+> „Sobald dein Alter bestätigt ist, wird dein Selfie gelöscht und in keiner Form aufbewahrt."
+
+Technik: ein „Modell zur Altersschätzung" wertet Bilder des Gesichts aus, vier Gesichtswinkel durch
+Kopfbewegung nach rechts, links, oben und unten. Voraussetzung **iOS oder iPadOS 27.2** oder neuer.
+**Apples Seite nennt keine Länder**, nur dass die Verfügbarkeit von Staat, Land oder Region abhängt.
+Alternativen: Kreditkarte, amtlicher Ausweis, für Minderjährige die Familienfreigabe.
+**Die Internetverbindung erwähnt Apple nur im Fehlerfall**, ob die Prüfung offline funktioniert,
+steht dort nicht. **Offen.**
+
+**Aus dem heise-Artikel, berichtet und nicht gegengeprüft:** Altersnachweispflicht in
+Großbritannien, Australien, Brasilien, Südkorea, Singapur und Texas; die Selfie-Option gebe es in
+Großbritannien, Australien, Brasilien und Singapur. Ohne Nachweis blockierten automatisierte Filter
+unerwünschte Webinhalte und Nacktbilder, Softwareupdates und bestimmte Sicherheitseinstellungen
+verlangten den Nachweis, Apps liefen nur über die Familienfreigabe. **Für Deutschland hat Apple
+nach dem Artikel nichts angekündigt.** Die Einführung in Großbritannien sei „offenbar ohne klare
+gesetzliche Vorgabe" erfolgt.
+
+**DER WIDERSPRUCH, beide Seiten hier geprüft.** Handlungsempfehlung **38** der Unabhängigen
+Expertenkommission „Kinder- und Jugendschutz in der digitalen Welt", September 2026, liegt seit dem
+20.10. als PDF im Container. Dort wörtlich:
+
+> „Technologien zur Altersableitung oder -schätzung, bei denen biometrische, Identitäts- oder
+> Verhaltensdaten das Endgerät verlassen, sind daher abzulehnen. Alterskontrollen sollen vorrangig
+> auf dem Endgerät stattfinden."
+
+Und zur Marktmacht, ebenfalls aus HE 38: Anbieter wie **Google, Apple oder Meta** könnten sich „als
+Aussteller von Altersbestätigungen positionieren und damit als Identitäts- und Compliance-Broker
+die Kontrolle stillschweigend wieder zentralisieren".
+
+**EIGENER BEFUND:** Die Kommission verlangt, dass biometrische Daten das Gerät nicht verlassen.
+Apple schreibt selbst, die Modelle liefen auch in Private Cloud Compute. **Nach Apples Darstellung
+ist das abgeschirmt, aber es ist nicht das Endgerät.** **Die Einschränkung, die auf ein Blatt
+gehört: Deutschland ist bislang nicht dabei.**
+
+**VORSICHT BEI DER BAUFORM:** Dieser Kandidat und der Kandidat „Altersgrenze für KI-Begleiter"
+ziehen aus demselben Kommissionsbericht. **Einer von beiden, nicht beide hintereinander.**
+
+### META-SPERREN UND ARTIKEL 20 ABSATZ 6 DSA
+
+**Anlass:** netzpolitik.org, „Account-Sperren auf Instagram und Facebook: Metas Willkür
+unterworfen", **27.10.2026, 15:36 Uhr**, Anna Ströbele Romero. **Belastbarkeit: berichtet.**
+Betroffen seien häufig queere, progressive, feministische und migrantische Konten; genannt werden
+der Instagram-Account der Bewegung „No Kings", Konten zu den Protesten in Albanien, PRAZZLE Arts
+und mehrere Berliner Clubs. Meta habe im **März 2026** angekündigt, Entscheidungen stärker durch
+KI-Systeme treffen zu lassen. Die EU-Kommission habe im **Oktober 2025** vorläufige Mängel bei
+Metas Inhaltsmoderation festgestellt, **eine abschließende Entscheidung steht aus**. Zitiert wird
+Thomas Gericke mit „Die KI sperrt aus den wildesten Gründen". **Der Beitrag lässt ausdrücklich
+offen, ob Menschen die Einsprüche prüfen.**
+
+**Dazu heute geprüft:** **Artikel 20 Absatz 6 des Digital Services Act** verlangt, dass Anbieter
+von Online-Plattformen die Entscheidungen über Beschwerden unter Aufsicht angemessen qualifizierter
+Mitarbeiter treffen und **„nicht allein mit automatisierten Mitteln getroffen werden"**.
+Gelesen auf `gesetz-digitale-dienste.de/dsa/artikel-20/`. **ACHTUNG: Rechtsportal, nicht Amtsblatt.
+EUR-Lex ist aus dieser Umgebung weiterhin nicht lesbar.** Für einen Kommentar reicht das, **für ein
+Beleg-Panel nicht.**
+
+**Als Kandidat vorgemerkt**, nicht gebaut: Es fehlen eine Zahl zur Häufigkeit und eine
+Meta-Stellungnahme im Wortlaut.
+
+### KLEINERE FUNDSTÜCKE VOM 28.10.2026
+
+- **„Erste KI-Blase geplatzt? Chinas KI-Leitindex 40 Prozent unter dem Höchststand"** (heise,
+  27.10.2026, 06:53 Uhr) und **„Anthropics Börsengang: Die Milliardenrisiken hinter dem KI-Boom"**
+  (27.10., 17:22 Uhr). Beides Markt, berührt den Hype-Check-Strang um Post 12. **Nicht gelesen,
+  vorgemerkt.**
+- **„Nutzerbericht: KI-Sperre bei Reverse Engineering von Fernsehern"** (heise, 27.10., 14:54).
+  Einzelner Nutzerbericht ohne Primärquelle. **Nicht vorgemerkt.**
+- **„Vibe-Coding statt Abo-Falle"** (17:30), **„GPT-6.1 Terra"** (10:17), **„Apples Kreativ-Abo
+  bekommt KI-Helfer"** (18:11), **„KI-Agent löscht M365-Dateien"** (11:47). Produkt und Entwicklung.
+  **Nicht vorgemerkt.**
+- **NEU OFFEN:** die Länderliste zur Apple-Altersprüfung an einer Apple-Quelle, und ob die Prüfung
+  ohne Internetverbindung funktioniert.
