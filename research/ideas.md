@@ -6913,3 +6913,115 @@ Meta-Stellungnahme im Wortlaut.
   **Nicht vorgemerkt.**
 - **NEU OFFEN:** die Länderliste zur Apple-Altersprüfung an einer Apple-Quelle, und ob die Prüfung
   ohne Internetverbindung funktioniert.
+
+---
+
+## Recherchierte Einzelbefunde vom 29.10.2026
+
+**Rückstau bei vier, siebenundfünfzigster Tag ohne Neubau.** Drei deutsche Fälle, zwei davon
+ausdrücklich abgelehnt.
+
+### BKA, FORSCHUNGSPROJEKT CERES ZU CYBERGROOMING
+
+**Primärquelle:** Bundeskriminalamt, Projektseite **CERES**, „Cybergrooming – Erforschung von
+Risikofaktoren, Ermittlungspraxis und Schutzmaßnahmen",
+`bka.de/DE/UnsereAufgaben/Forschung/ForschungsprojekteUndErgebnisse/Internetkriminalitaet/Ceres/Ceres.html`,
+am 29.10.2026 gelesen. **Belastbar** als Seite der Bundesbehörde. Laufzeit **2023 bis 2026**,
+gemeinsam mit der KrimZ, Hellfeldanalyse mit Fokus auf die Täterperspektive, Grundlage **303
+Strafverfahrensakten aus 2019 und 2020**, standardisierter Leitfaden zu Tatverdächtigen, Opfern,
+Modi Operandi und Verfahren.
+
+**Zahlen von der BKA-Seite.**
+- Opfer: **79 Prozent** weiblich, Durchschnittsalter **11,9 Jahre** (Spanne 8 bis 13),
+  **88 Prozent** leben bei den Eltern.
+- Tatverdächtige: **41 Prozent** Jugendliche (Durchschnitt 15 Jahre), **58 Prozent** volljährig
+  (Durchschnitt 30 Jahre), **98 Prozent** männlich, **89 Prozent** deutsche Staatsangehörigkeit.
+- Volljährige Tatverdächtige: **38 Prozent** leben bei den Eltern, **22 Prozent** haben eigene
+  Kinder, **34 Prozent** sind vorbestraft.
+- Hinweise auf pädophile Präferenz bei **16 Prozent**, auf hebephile bei **9 Prozent**.
+- Missbrauchsdarstellungen besitzen oder konsumieren **64 Prozent** der volljährigen und
+  **53 Prozent** der jugendlichen Tatverdächtigen.
+- **75 Prozent**: Tatverdächtige und Opfer kannten sich vorher nicht. Erstkontakt meist online über
+  Messenger oder soziale Medien. **7 Prozent** der Opfer werden bei einem persönlichen Treffen
+  sexuell missbraucht.
+- Verfahren: **61 Prozent** beginnen mit einer Anzeige, **34 Prozent** mit Erkenntnissen aus anderen
+  Verfahren. **57 Prozent** der Tatverdächtigen werden verurteilt.
+
+**Aus der dpa-Meldung** (heise, 28.10.2026, 09:34 Uhr, Christian Schultz), Polizeiliche
+Kriminalstatistik über das **LKA Rheinland-Pfalz**, Jahr **2025**, erstes Jahr mit eigener
+Erfassung: **81 Fälle**, davon 48 ohne Körperkontakt, 23 mit sexuellen Handlungen des Kindes an
+sich selbst, 8 Verbreitung pornografischer Inhalte, 1 exhibitionistische Handlung, 1 sexueller
+Missbrauch Jugendlicher. **Nicht an der PKS gegengeprüft.** Zitate: „Manchmal beginnt alles mit
+einem vermeintlich harmlosen Kontakt" (Magda Wihstutz, Kinderschutzbund), „Die Kinder sind wirklich
+in einer Notlage." (Joachim Türk, Kinderschutzbund).
+
+**ALS KI-POST ABGELEHNT.** Die Akten stammen aus **2019 und 2020**. Der einzige KI-Bezug ist die
+Einschätzung von Joachim Türk, KI mache Opfer über Deepfakes leichter erpressbar. **Das ist eine
+Einschätzung ohne Beleg im Bericht.** Ein Post „KI verschärft Cybergrooming" wäre genau die
+Zuspitzung, gegen die dieser Kanal gebaut ist. **Die Zahlen bleiben hier**, weil sie den
+Jugendschutzstrang um das Eckpunktepapier stützen, das Cybergrooming, die Kinder-Online-Wache und
+BKA-Maßnahmen zu „Scheinkindoperationen" ausdrücklich nennt. **Als Kommentar verwendet.**
+
+**WERKZEUGNOTIZ: `www.bka.de` liefert keine PDF-Downloads in diese Umgebung.** Der
+Ergebnisbericht unter
+`bka.de/SharedDocs/Downloads/DE/Sonstiges/Ergebnisbericht_CERES.pdf?__blob=publicationFile&v=4`
+war in **sechs Versuchen** nicht vollständig zu laden: „Recv failure: Connection reset by peer",
+„transfer closed with outstanding read data remaining" und über den Proxy
+„ws_closed_mid_exchange"; die abgeschnittene Datei weist pypdf mit „Stream has ended unexpectedly"
+zurück, `WebFetch` auf dieselbe Adresse bricht ab. **HTML-Seiten derselben Domain sind abrufbar.**
+
+### RECHENZENTRUM AUF DEM PLAYMOBIL-GELÄNDE IN DIETENHOFEN
+
+**Quelle:** heise online, „Playmobil-Stammwerk weicht Hochleistungsrechenzentrum", **28.10.2026,
+14:27 Uhr**, dpa. **Belastbarkeit: berichtet**, Angaben vom Unternehmen, **keine Pressemitteilung
+verlinkt**.
+
+Horst Brandstätter Group plant in **Dietenhofen** auf dem bisherigen Playmobil-Werksgelände einen
+Rechen-Campus mit **100 Megawatt**, erweiterbar. Partner können Flächen mit Netzanschluss mieten
+oder Rechenleistung beziehen, die Sparte heißt „Playmobil digital". Auf dem Gelände liegt ein
+**110-kV-Anschluss**, N-ERGIE habe die Kapazitäten zugesichert. Die Spielwarenproduktion wurde
+**Ende Juni** geschlossen und ins Ausland verlagert, **350 Beschäftigte** verloren ihre Arbeit.
+Zitat Matthias Fauser, Vorstand: man wolle „künftig eine der wichtigsten Infrastrukturen der
+digitalen Zukunft ermöglichen". Nach einem **BR-Bericht** fehle einem geplanten
+Anthropic-Rechenzentrum im nahen **Hirschneuses** deshalb die Netzkapazität. **Nicht gegengeprüft.**
+
+**Der Artikel lässt Kühlkonzept, Abwärme und Energieeffizienz ausdrücklich offen**, ebenso
+Investitionssumme, Zeitplan und Genehmigungsstand.
+
+**Einordnung aus eigenem Bestand:** 100 MW sind rund die Hälfte des Lübbenauer Vorhabens aus
+Post 13 (etwa 200 MW). Die offene Effizienzfrage beantwortet der **neu gefasste § 11 EnEfG** aus
+Drucksache 21/8027: Betriebsaufnahme ab **1. Juli 2026** verlangt eine Energieverbrauchseffektivität
+von **höchstens 1,2** und einen Anteil wiederverwendeter Energie von **mindestens 10 Prozent**.
+**Kein eigener Kandidat**, fällt in die seit sieben Tagen gesperrte Säule von Post 27. **Als
+Kommentar verwendet.**
+
+### PROTON UND DIE GESPRÄCHE ZUR KI-NUTZUNG
+
+**Quelle:** heise online, „Proton-Angestellte sollen wegen KI-Nutzung erneut ins
+Bewerbungsgespräch", **28.10.2026, 08:00 Uhr**, Martin Holland. **Belastbarkeit: berichtet.**
+
+Nach einem internen Memo, über das **404 Media** berichtet
+(`404media.co/proton-to-re-interview-staff-about-ai-to-see-who-gets-to-keep-their-job/`), sollen
+Teile der Belegschaft in neuen Gesprächen erklären, wie sie KI nutzen. Die Prüfung könne zu
+„Änderungen hinsichtlich der Aufgaben, Zuständigkeiten und weiteren Beschäftigung" führen. Termine
+**4. bis 11. November**, geführt von erfahrenen Beschäftigten mit starken KI-Fähigkeiten statt von
+Vorgesetzten. Proton hat rund **500 Beschäftigte** (Stand 2024 nach dem Artikel). CEO **Andy Yen**
+habe mehr als 40 Führungskräfte befragt. Protons Entgegnung, man baue keine Stellen ab und nutze KI
+nicht als Vorwand, steht in einem **Reddit-Thread**. Proton äußerte sich gegenüber 404 Media nicht.
+
+**ALS POST ABGELEHNT.** Das Memo ist nicht veröffentlicht, die Kette lautet Memo zu 404 Media zu
+heise, die Entgegnung steht auf Reddit, und Proton ist ein Schweizer Unternehmen ohne deutschen
+Bezug im Artikel. **Thematisch wäre es Leitprinzip pur.** **Vorgemerkt**, falls das Memo auftaucht.
+
+### KLEINERE FUNDSTÜCKE VOM 29.10.2026
+
+- **„Neue Alexa-Speaker: Echo Time hört beim Schlafen zu, Studio 3 guckt per Kamera"** (heise,
+  28.10., 13:00 Uhr). Berührt Post 10 und den Mithörstrang. **Nicht gelesen. Vorgemerkt**, ein Post
+  bräuchte Amazons Datenschutzangaben im Original.
+- **„Urheberrecht, Patente, Marken: Was beim KI-Nachbau von Software zu beachten ist"** (heise,
+  28.10., 08:00). Urheberrechtsstrang um Post 22. **Vorgemerkt.**
+- **„EU-Kommission: Frontex soll zur Abschiebeagentur werden"** und **„Präsidentschaftswahl in
+  Brasilien"** (netzpolitik, 28.10.). Kein KI-Kern beziehungsweise kein deutscher Bezug. **Nicht
+  vorgemerkt.**
+- **Gemini 4 Carbon, GitHub Copilot Access, Google Genie 4, Cisco MCP, HPE, PipesHub,
+  TypeScript-Statistik, GamsGo, Microsoft-Quartalszahlen.** Produkt und Markt. **Nicht vorgemerkt.**
