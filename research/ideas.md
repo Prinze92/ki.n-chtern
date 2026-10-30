@@ -7025,3 +7025,144 @@ Bezug im Artikel. **Thematisch wäre es Leitprinzip pur.** **Vorgemerkt**, falls
   vorgemerkt.**
 - **Gemini 4 Carbon, GitHub Copilot Access, Google Genie 4, Cisco MCP, HPE, PipesHub,
   TypeScript-Statistik, GamsGo, Microsoft-Quartalszahlen.** Produkt und Markt. **Nicht vorgemerkt.**
+
+---
+
+## Recherchierte Einzelbefunde vom 30.10.2026
+
+**Rückstau bei vier, achtundfünfzigster Tag ohne Neubau.** Der Apple-Kandidat vom 28.10. hat einen
+zweiten, unabhängigen Beleg bekommen.
+
+### BERICHT DER VORSITZENDEN DES EU-SPECIAL-PANELS, 157 SEITEN
+
+**Primärquelle:** **„Child safety online. Protecting and empowering minors in a digital world.
+Report by the co-chairs of the Special Panel on Child Safety Online"**, Prof. Dr. **Jörg M. Fegert**
+und Dr. **Maria Melchior**, Amt für Veröffentlichungen der Europäischen Union, **2026**,
+**157 Seiten**, ISBN 978-92-68-42197-0, doi 10.2775/5392522. Am **30.10.2026** heruntergeladen und
+mit `/usr/bin/python3` ausgelesen. **Belastbar.**
+`commission.europa.eu/document/download/d833504d-5ec3-4fac-945f-38e7d0bd5326_en?filename=Special-panel-report.pdf`
+**Eigener Hinweis im Dokument:** „This document should not be considered as representative of the
+European Commission's official position."
+
+**Empfehlung zu Altersprüfverfahren, wörtlich:**
+
+> „Any method employed to check age should uphold the highest privacy and data protection standards,
+> and should not lead to the processing of identity documents and biometric data for the purpose of
+> age estimation. Technical standards such as ‚Zero Knowledge Proof' should be implemented to ensure
+> that both the platform required to assess the age and the age verification provider do not receive
+> any information that can lead to the tracking or identification of the user."
+
+Weiter: „Age-assurance methods should be accurate in determining the age or age groups required and
+easy and reliable to use in practice, in real-life conditions. Methods should be robust to avoid
+circumvention and cybersecurity threats, inclusive (and non-discriminatory), and available equally
+to all who need to use them."
+
+**Vorwort, zur Wirksamkeit pauschaler Altersgrenzen, wörtlich:**
+
+> „Early results from countries that have introduced blanket age bans to access social media show
+> that most minors find a way to circumvent these policies. At the same time, some minors have
+> withdrawn from risky social media and other digital services and now have more time for offline
+> activities (such as sport and face-to-face social interactions)."
+
+In Kapitel 3 steht derselbe Satz mit dem Zusatz **„(for instance, Australia)"** und Fußnote 233.
+Ebenfalls aus Kapitel 3, wörtlich:
+
+> „Recent research indicates that blanket bans on social media+ use may be less effective than often
+> assumed. While such measures aim to reduce exposure and associated risks, the evidence for their
+> effectiveness is currently limited, in particular, for adolescents. Overly restrictive approaches
+> may be circumvented or shift risks to less regulated environments."
+
+**Zur Altersgrenze, wörtlich:** „Propose a harmonised EU-wide access restriction to social media and
+other digital services for children under 13. A harmonised EU-wide access restriction to social
+media and other digital services, **including AI companions**, for children under 13 is necessary."
+Außerdem: Unter 13 nur zeitlich begrenzter Zugang zu altersgerechten Umgebungen mit elterlicher
+Zustimmung und Aufsicht oder im Bildungskontext.
+Zur Aufsicht: „Given the multiple rules now applying to child safety online (the DSA, GDPR, AI Act,
+etc.), supervisory authorities should intensify cooperation and exchange information across legal
+frameworks."
+Der Bericht enthält außerdem eine **Ländertabelle** zum Stand der nationalen Debatten (Belgien
+13 Jahre, Bulgarien Vorschlag 16, Tschechien noch kein Vorschlag und weitere). **Nicht vollständig
+ausgewertet.**
+
+**EIGENER BEFUND, der den Apple-Kandidaten trägt.** Zwei unabhängige Gremien sagen dasselbe, mit
+unterschiedlicher Reichweite:
+- **Deutsche Expertenkommission, HE 38:** Verfahren, bei denen biometrische Daten **das Endgerät
+  verlassen**, sind abzulehnen.
+- **EU-Panel-Vorsitzende:** für die Altersschätzung soll **gar keine** Verarbeitung biometrischer
+  Daten stattfinden.
+- **Apple, Support-Seite vom 26.10.2026:** Altersschätzung aus einem Selfie, Modelle laufen „sowohl
+  auf dem Gerät als auch in Private Cloud Compute".
+
+**Zweiter eigener Befund:** Derselbe Bericht, auf den sich die Kommission beruft, schreibt, dass
+die meisten Minderjährigen pauschale Altersgrenzen umgehen, und empfiehlt sie trotzdem als
+Vorsorgemaßnahme. **Das ist ein Widerspruch im selben Dokument.**
+
+### WAS NETZPOLITIK BERICHTET UND HIER NICHT GEPRÜFT WERDEN KONNTE
+
+**Quelle:** netzpolitik.org, „Folgenabschätzung zum Kids Act: EU-Kommission spielt Gefahren für
+Grundrechte herunter", **29.10.2026, 15:53 Uhr**, Sebastian Meineck. **Belastbarkeit: berichtet.**
+
+Der Beitrag analysiert die **Folgenabschätzung, CELEX 52026SC0681**, nach seinen Angaben
+**83 Seiten**, zum **Kids Act, CELEX 52026PC0681**. **Beide liegen bei EUR-Lex und sind aus dieser
+Umgebung nicht lesbar.** Berichtet, **nicht geprüft**:
+- Die Kommission erwecke den Eindruck, der Panel-Bericht stamme von „mehr als 60 Fachleuten",
+  gebe aber vor allem die Empfehlungen von zwei Personen wieder.
+- Die kritische Position des **Deutschen Ethikrats** (26 Mitglieder) fehle, die ambivalente Position
+  des vom Familienministerium einberufenen Gremiums (18 Mitglieder) werde einseitig dargestellt.
+  Der Beitrag nennt das „Rosinenpicken".
+- Kosten „mehrere Hundert bis wenige Tausend Euro" für kleine und mittelgroße Anbieter halte die
+  Kommission für „im Allgemeinen tragbar".
+- Aus der Folgenabschätzung zitiert: „Technische und praktische Umgehung bleiben möglich." und das
+  „Vorsorgeprinzip" gegen Overblocking, ohne Angabe zum Ausmaß.
+- Eine externe Studie zu den Grundrechtsfolgen solle „Ende des Jahres" erscheinen.
+- **Jörg Fegert**, Co-Autor, erklärte auf Anfrage, Fachleute der Kommission hätten ihn und seine
+  Co-Autorin „auch inhaltlich bei Recherchen und Informationsbeschaffung unterstützt", und nannte
+  den Bericht „wissenschaftbasierte Politikberatung".
+- **Stephan Dreyer**, Hans-Bredow-Institut, halte eine Einigung bis Ende 2027 oder Anfang 2028 für
+  möglich.
+- **vzbv:** Betroffene stießen beim Melden illegaler Inhalte nach DSA auf „technische Hürden, Dark
+  Patterns und ein hohes Maß an Intransparenz".
+
+**Die Zahl 60 ist im Bericht nicht geprüft.** Das Dokument weist sich im Titel als Bericht **der
+beiden Vorsitzenden** aus, was den Vorwurf stützt, aber keine Prüfung der Zahl ist.
+
+### SCHWARZ-GRUPPE UND COHERE
+
+**Quelle:** heise online, „Schwarz-Gruppe investiert Milliarden in KI-Start-up Cohere",
+**29.10.2026, 18:12 Uhr**, dpa, **mit heise+-Bezahlschranke**. **Belastbarkeit: berichtet.**
+
+Finanzierungsrunde (Series E) über **bis zu 7 Milliarden kanadische Dollar (rund 4,7 Milliarden
+Euro)**, angeführt von der Schwarz-Gruppe, weitere Kapitalgeber die kanadische Regierung und Nvidia.
+Bewertung **rund 35,7 Milliarden kanadische Dollar (rund 23,9 Milliarden Euro)**. **Der Anteil der
+Schwarz-Gruppe wird nicht beziffert.** Zitat **Christian Müller**, CEO Schwarz Digits: „Bei
+digitaler Souveränität geht es um strategische Wahlfreiheit, Interoperabilität und darum, die
+Schlüssel zu den eigenen Daten selbst in der Hand zu behalten." Ziel sei, die Modelle „direkt in der
+eigenen ‚STACKIT'-Cloud-Infrastruktur zu verankern". Zitat CEO **Aidan Gomez**: das Kapital solle
+„in die Skalierung der Modellentwicklung, die Infrastruktur und die globale Expansion fließen".
+Bundesdigitalminister Karsten Wildberger zur Fusion mit Aleph Alpha: „Es wird ein globaler
+KI-Champion entstehen".
+
+**Widerspruch im Artikel selbst:** Im Einstieg heißt es, Cohere „hat eine Finanzierungsrunde
+abgeschlossen", später, das Unternehmen „strebt … ein Volumen von bis zu 7 Milliarden" an.
+**Die Rechenzentren der Gruppe beschreibt der Artikel nicht, Lübbenau kommt nicht vor.**
+
+**Anschluss aus eigenem Bestand:** Post 13 (live 16.08.2026) belegt, dass Schwarz Digits in
+Lübbenau auf einer Kraftwerksbrache für **11 Milliarden Euro** ein Rechenzentrum mit rund
+**200 Megawatt** und bis zu **100.000 KI-Prozessoren** baut, **ohne staatliche Förderung**, erste
+Module **2027**. **Als Kommentar verwendet.**
+
+### KLEINERE FUNDSTÜCKE VOM 30.10.2026
+
+- **„Finnische Polizei ermittelt jetzt wegen Bauarbeiten für Google-Rechenzentrum"** (heise, 29.10.,
+  16:57 Uhr). Finnland, **für den Rechenzentren-Strang vorgemerkt.**
+- **„Pandemien früh mit globalem Überwachungsnetz erkennen"** (heise, 29.10., 15:51 Uhr). **Nicht
+  gelesen. Vorgemerkt**, berührt den Gesundheitsstrang um Post 30.
+- **„Humanoide Roboter: Dank KI im kommenden Jahr alltagstauglich?"** (heise+, 29.10., 17:00).
+  Bezahlschranke. **Nicht vorgemerkt.**
+- **Quartalszahlen Samsung, Microsoft, Alphabet, Amazon; Mistral Large 4; Oracle mit ChatGPT;
+  Artificial Analysis v5; Mac Studio; Galaxy S27; Zollfund Malaysia; Valve zu KI-Klonen.** Markt und
+  Produkt. **Nicht vorgemerkt.**
+- **WERKZEUGNOTIZ:** `commission.europa.eu` liefert PDF zuverlässig (3,1 MB in einem Durchgang),
+  **EUR-Lex weiterhin nicht**. Für EU-Dokumente lohnt zuerst die Suche nach einer Kopie auf den
+  Kommissionsseiten. Das hat heute den entscheidenden Beleg gerettet. Beim Auslesen warnt pypdf über
+  fehlendes `fontTools`; der Text kam trotzdem vollständig und lesbar heraus.
