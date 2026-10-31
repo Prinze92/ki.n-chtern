@@ -7166,3 +7166,99 @@ Module **2027**. **Als Kommentar verwendet.**
   **EUR-Lex weiterhin nicht**. Für EU-Dokumente lohnt zuerst die Suche nach einer Kopie auf den
   Kommissionsseiten. Das hat heute den entscheidenden Beleg gerettet. Beim Auslesen warnt pypdf über
   fehlendes `fontTools`; der Text kam trotzdem vollständig und lesbar heraus.
+
+---
+
+## Recherchierte Einzelbefunde vom 31.10.2026
+
+**Rückstau bei vier, neunundfünfzigster Tag ohne Neubau.** Eine Studie mit einer Schlagzeile, die
+drei Vergleichswerte und drei Einschränkungen verschweigt.
+
+### ANTHROPIC-STUDIE ZUM ÜBERNEHMEN VON KI-MEINUNGEN
+
+**Anlass:** heise online, „86 Prozent der Experten übernehmen KI-Meinungen, mehrheitlich auch
+unbewusst", **30.10.2026, 12:21 Uhr**, Carolin Riethmüller. **Der Artikel nennt weder Titel noch
+Autoren noch Datum der Studie**, nur einen PDF-Link.
+
+**Primärquelle, am 31.10.2026 heruntergeladen und ausgelesen:** **„Who's Aligned to Whom? How AI
+Agents Shape Experts' Research Judgment Calls"**, **Amaç Herdağdelen** (Anthropic Fellows Program),
+**Hailey Joren** (Anthropic), **Alex Tamkin** (Anthropic), **29 Seiten**.
+`www-cdn.anthropic.com/519c17a5d23a794e8b6d50a854048d0b61e0d73a.pdf`
+**Belastbar für den Wortlaut.** **ZWEI EINSCHRÄNKUNGEN ZUR QUELLE:** Die Autoren arbeiten bei dem
+Unternehmen, dessen Modell geprüft wurde, und **ein Veröffentlichungsdatum steht nicht im
+Dokument**. Ob es die Arbeit außerhalb des Firmenservers gibt, ist **offen**.
+
+**Aufbau.** Randomisierter Versuch mit **50 Fachleuten für Kausalanalyse**, die Beobachtungsdaten
+mit einem KI-Coding-Agenten analysierten und eine Handlungsempfehlung abgaben. Bei vier analytischen
+Entscheidungen und der Schlussempfehlung entschied **ein Münzwurf**, welche von zwei vertretbaren
+Optionen der Agent vertrat; die Teilnehmenden wussten davon nichts. Agent für alle identisch:
+**Claude Code v2.1.220 mit Claude Opus 4.8 at high effort**, je eine von 32 möglichen Konfigurationen
+der fünf binären Leans, aus randomisierten Blöcken.
+
+**Abstract, wörtlich:**
+
+> „On the analytical decisions, participants went with the agent's lean 86% of the time (50% by
+> chance), and, in an exploratory analysis, these leans alone predicted 82% of
+> rollout-or-discontinue recommendations (majority baseline 61%). After the task, participants
+> recalled most of their decisions accurately, and more than half rated the recommendation as more
+> their own than the agent's. Yet when asked to justify their choices, 77% repeated the agent's
+> talking points, sometimes nearly verbatim, and only 15% mentioned the agent in any answer."
+
+**EIGENER BEFUND 1, was die Meldung weglässt:** den Zufallswert **50 Prozent** zu den 86 Prozent,
+die Mehrheitsbasislinie **61 Prozent** zu den 82 Prozent, und dass die 82 Prozent aus einer
+**„exploratory analysis"** stammen.
+
+**Die drei Grenzen, die die Studie selbst nennt, wörtlich:**
+
+> „1. Amplified lean. The system prompt instructed each agent to hold a view and voice it reliably.
+> Our direct simulations show that stock agents also have baseline preferences and voice them, so
+> the prompt amplifies an existing behavior."
+
+> „2. A single setting. The study used a single task in a single domain with a single pinned agent
+> (Claude Code, using Opus 4.8), and participants were OCI practitioners but new to the domain."
+
+> „3. Average causal effects only. Random assignment identifies the lean's average causal effect,
+> but we elicited no initial judgment from the participants, so we cannot say how much any single
+> participant was influenced."
+
+**EIGENER BEFUND 2:** Punkt 2 trifft die Schlagzeile. Die Teilnehmenden waren Fachleute für die
+**Methode**, aber **neu in dem Sachgebiet**, über das sie entscheiden sollten. „86 Prozent der
+Experten" liest sich anders, wenn Expertise und Entscheidung auseinanderfallen.
+
+**Der Satz aus der Diskussion, der den Fall für diesen Kanal trägt, wörtlich:**
+
+> „The work still goes out under the expert's name, but the decisions that most depend on their
+> judgment are in reality settled by the agent's prior."
+
+**ALS KANDIDAT MIT DREI BENANNTEN EINWÄNDEN.** Titel etwa „Das Gutachten trägt seinen Namen.
+Entschieden hat der Agent." Vor einem Bau zu klären: **n = 50**, ein Sachgebiet, ein Agent,
+fachfremde Teilnehmende; **die Studie stammt von dem Unternehmen, dessen Modell geprüft wurde**, das
+gehört aufs Quellenblatt; und **der deutsche Bezug fehlt** und müsste über eine deutsche Anwendung
+hergestellt werden, etwa über Post 16 zu den Sozialgerichten. **Ohne das kein Post.**
+
+### KLEINERE FUNDSTÜCKE VOM 31.10.2026
+
+- **„Erster Fall: Mann muss wegen Religion keine KI nutzen"** (heise, 30.10.2026, 17:28 Uhr,
+  Carolin Riethmüller). **David Durman**, Forschungsadministrator an der **University of Kentucky**,
+  erhielt eine Ausnahme von der Vorgabe, KI in die Arbeitsabläufe zu integrieren. **Kein Gericht,
+  kein Aktenzeichen, kein Entscheidungsdatum, kein Gesetz mit Namen.** Zitat aus einem Interview mit
+  Religion News: „Und diese Arbeit abzugeben, ganz gleich, ob sie anstrengend ist oder nicht,
+  untergräbt meine Fähigkeit, moralisch zu handeln." **Widerspruch im Artikel:** Er spricht von
+  religiösen Gründen, die Begründung ist ethisch formuliert, und der Antrag lief über die **American
+  Humanist Association**. Der Artikel erklärt das nicht. Quellen: `religionnews.com` vom 26.10.2026
+  und `americanhumanist.org`. **USA, kein deutscher Bezug. Nicht vorgemerkt.**
+- **„Grenzpartnerschaft: Auch der EU-Datenschützer rügt geplantes Polizeiabkommen mit den USA"**
+  (netzpolitik, 30.10.2026, Matthias Monroy). Stellungnahme des Europäischen Datenschutzbeauftragten,
+  also eine Primärquelle, und die Bundesregierung halte die Verhandlungen im Parlament geheim.
+  **Kein KI-Kern erkennbar. Nicht gelesen, für den Überwachungsstrang vorgemerkt.**
+- **„Auf den Punkt: Die EU-Kommission redet sich ihr eigenes Gesetz schön."** (netzpolitik,
+  30.10.2026, Sebastian Meineck). Kolumne zum Kids Act. **Als Kommentarziel genutzt**, mit dem am
+  30.10. aufgesparten Umgehungssatz aus dem Panel-Bericht.
+- **„Niedergang von Stack Overflow: Moderation und KI als Ursachen"** (heise, 30.10., 11:59) und
+  **„Hugging-Face-Übernahme: US-Justiz prüft Nvidias Expansionskurs"** (12:43). Branche und
+  Kartellrecht. **Nicht vorgemerkt.**
+- **„Malware-Lage 2026: Weniger Lösegeld, mehr Lücken, neue Tricks"** (heise+, 30.10., 07:00).
+  Bezahlschranke, Primärquelle unbekannt. **Vorgemerkt.**
+- **Intel-Aktie, Amazon-Quartalszahlen, Alphabets Börsenwert, Anthropic als größter SpaceX-Kunde,
+  Android Studio für Fremdmodelle, OpenAI-Nutzungslimits, Oracle Fusion, kritischer Linux-TCP-Bug.**
+  Markt, Produkt und Technik. **Nicht vorgemerkt.**
