@@ -7262,3 +7262,122 @@ hergestellt werden, etwa über Post 16 zu den Sozialgerichten. **Ohne das kein P
 - **Intel-Aktie, Amazon-Quartalszahlen, Alphabets Börsenwert, Anthropic als größter SpaceX-Kunde,
   Android Studio für Fremdmodelle, OpenAI-Nutzungslimits, Oracle Fusion, kritischer Linux-TCP-Bug.**
   Markt, Produkt und Technik. **Nicht vorgemerkt.**
+
+---
+
+## Recherchierte Einzelbefunde vom 01.11.2026
+
+**Rückstau bei vier, sechzigster Tag ohne Neubau.** Ein seit dem 30.10. offener Punkt ist
+geschlossen, und er macht den stärksten Kandidaten vollständig.
+
+### DEUTSCHER ETHIKRAT, AD-HOC-STELLUNGNAHME VOM 11.06.2026
+
+**Primärquelle:** Deutscher Ethikrat, **„Schutz, Teilhabe und Befähigung von Kindern und
+Jugendlichen in der digitalen Welt"**, **Ad-hoc-Stellungnahme, veröffentlicht 11. Juni 2026,
+87 Seiten, 13 Empfehlungen**. Am 01.11.2026 heruntergeladen und mit `/usr/bin/python3` ausgelesen.
+**Belastbar.**
+`ethikrat.org/fileadmin/Publikationen/Stellungnahmen/deutsch/kinder-und-jugendliche-in-der-digitalen-welt.pdf`
+Englische Fassung: `.../englisch/children-and-adolescents-in-the-digital-world.pdf`
+Detailseite: `ethikrat.org/publikationen/stellungnahmen/kinder-und-jugendliche-in-der-digitalen-welt/`
+Anlass nach der Detailseite: eine Bitte von Bundestagspräsidentin **Julia Klöckner vom Oktober 2025**.
+
+**Die vier Ansätze zur Alterskontrolle, wörtlich** (nach der Klassifizierung des australischen
+Pilotprojekts):
+
+> „1. Altersverifikation (age verification): Das Alter wird anhand amtlicher Dokumente überprüft.
+> 2. Altersschätzung (age estimation): Das Alter wird anhand biometrischer Merkmale wie Stimme oder
+> Fotos geschätzt. 3. Altersableitung (age inference): Das Alter wird anhand von Verhaltensspuren
+> einer Nutzerin oder eines Nutzers abgeleitet … 4. Elterliche Kontrolle (vorab) und Zustimmung
+> (nach Zugriffsversuch) (parental control and consent)"
+
+**DER ENTSCHEIDENDE SATZ, aus dem dreistufigen Modell, Stufe 2, wörtlich:**
+
+> „Eine Variante sind hier biometrische Verfahren der Altersschätzung, welche aufgrund ihrer
+> eingeschränkten Effektivität allerdings nur als ergänzendes Mittel empfehlenswert und aufgrund der
+> Sensibilität der Daten nur zulässig sind, wenn diese Daten auf dem Endgerät verbleiben. Verfahren,
+> bei denen Plattformen das Alter von Nutzerinnen und Nutzern auf Basis biometrischer Daten oder
+> Verhaltensdaten schätzen, sollten hingegen nicht erlaubt sein, da diese Verfahren einerseits nicht
+> hinreichend genau bzw. sicher und andererseits hochgradig invasiv [sind]."
+
+**Weitere Fundstellen, wörtlich.** Zu Zuverlässigkeit und Fehlern:
+
+> „Technologien, die das Alter auf der Grundlage von biometrischen Daten oder dem Verhalten im Netz
+> schätzen, sind weniger zuverlässig und weisen ein hohes Risiko auf, nicht altersgerechte Zugriffe
+> auf Dienste oder Inhalte zu ermöglichen oder umgekehrt Personen zu Unrecht vom Zugang
+> auszuschließen."
+
+Zur Zugangshürde:
+
+> „Zweitens können Techniken zur Altersüberprüfung spezifische Hardware erfordern, die manche
+> Menschen sich nicht leisten können, zum Beispiel Mobiltelefone mit Kameras, um Selfies zur
+> Altersschätzung aufzunehmen."
+
+Zu Missbrauch: „Die Technologien sind Instrumente zur Unterscheidung und unterschiedlichen
+Behandlung von N[utzern]" (Satz im Extrakt abgeschnitten, **vor einer Verwendung nachlesen**).
+Zur Sensibilität: biometrische Daten reichten „von den Gesichtszügen und der Stimmlage bis zur
+Knochenstruktur".
+
+**Das dreistufige Modell**, wörtlich eingeleitet mit: „Der Deutsche Ethikrat schlägt ein
+dreistufiges, risikobasiertes Modell für den technischen Kinder- und Jugendschutz vor … (vgl.
+Empfehlung 7.b-d)". Stufe 1 ist elterliche Kontrolle über die Konfiguration der Endgeräte und die
+Regulierung von Nutzungszeiten und App-Zugang. Stufe 2 sind Alterskontrollen auf Endgeräteebene.
+**Stufe 3 ist im Extrakt nicht erfasst, vor einer Verwendung nachlesen.** Fußnote 85: „Dieses Modell
+basiert auf der Analyse von Lueks et al. 2026." **Diese Analyse ist nicht gelesen.**
+
+**DIE REIHE, die damit vollständig ist.**
+
+| Quelle | Position zur biometrischen Altersschätzung |
+|---|---|
+| Deutscher Ethikrat, 11.06.2026 | nur zulässig, **wenn die Daten auf dem Endgerät verbleiben**; Schätzung durch Plattformen soll nicht erlaubt sein |
+| Unabhängige Expertenkommission, HE 38, September 2026 | Verfahren, bei denen biometrische Daten **das Endgerät verlassen**, sind abzulehnen |
+| EU-Panel-Vorsitzende, 2026 | Altersprüfung soll **gar keine** biometrischen Daten verarbeiten |
+| Apple, Support-Seite 26.10.2026 | Modelle laufen „sowohl auf dem Gerät **als auch in Private Cloud Compute**" |
+
+### VERHALTENSSCANNER BERLIN, BETRIEB SEIT DEM 28.10.2026
+
+**Quelle:** netzpolitik.org, „Verhaltensscanner in Berlin: Kreisverkehr der Kontrolle",
+**31.10.2026, 11:56 Uhr**, Martin Schwarzbeck. **Belastbarkeit: berichtet.** Der Beitrag nennt
+**keinen Paragrafen, keine Drucksache und kein Aktenzeichen.**
+
+**Neu gegenüber dem FAQ vom 20.10.:** „Seit dem 28. Oktober läuft am Kottbusser Tor eine ganz
+besondere Videoüberwachungsanlage." 30 Kameras. Die Bilder gehen über ein Kabel in die Wache am
+Kottbusser Tor (213 Quadratmeter, seit 2023) und von dort „in eine geheime Liegenschaft der
+Polizei". Hersteller **Staige**. Hinweisschilder „etwas über DIN-A4 groß" (Beobachtung des Autors).
+Ausbauplan nach dem Beitrag: Warschauer Brücke, Rotes Rathaus, Innenverwaltung und Jüdisches Museum
+noch dieses Jahr, Alexanderplatz und Görlitzer Park im nächsten. Polizei am Kotti im Vorjahr mit
+„3.500 bis 7.000 Personalstunden" monatlich, **ohne Quellenangabe**.
+
+**Zwei Herstellerzitate, wörtlich und neu.** Zum Weitertrainieren:
+
+> „Das Berliner System wird – so der Staige-Sprecher – mit den Bewegungsmustern der überwachten
+> Menschen am Kotti weitertrainiert, sobald die menschliche KI-Aufsicht eine angezeigte Warnmeldung
+> bestätigt oder verwirft."
+
+Zum Trainingsmaterial, ein von Staige beauftragter PR-Mitarbeiter:
+
+> „Das Trainingsmaterial umfasst Szenen zu Schlagabtauschen, Tritten, gewaltsamen Schub- oder
+> Zerrbewegungen mit Bodenkontakt sowie Rangelei auf Bodenebene"
+
+**Kritik des Autors, wörtlich:** „Diese umfassende Vorverdächtigung beißt sich jedoch zentral mit
+der Unschuldsvermutung" und „Die Freiwilligkeit der Datenspende an den Verhaltensscanner ist dabei
+mindestens fraglich." Passantenzitat: „Ich will gefragt werden, bevor ich gefilmt werde".
+Der Beitrag hält fest: „Dabei ist der Erfolg der Technologien weitgehend ungeklärt."
+
+**Weiterhin ungeprüft:** die **99 Fehlalarme pro Treffer** aus Hamburg (Beleg ist ein privater Blog,
+`marx.wtf`), und die Angabe, Mannheim habe nach acht Jahren keinen Erfolgsfall nennen können.
+**Weiterhin offen:** Drucksache **19/26879** aus dem Berliner Abgeordnetenhaus, am 17.09. noch nicht
+im Archiv, und eine Rechtsgrundlage mit Paragraf.
+
+### KLEINERE FUNDSTÜCKE VOM 01.11.2026
+
+- **`netzpolitik.org/2026/11/` antwortet mit HTTP 404.** Das Monatsarchiv für November existiert am
+  01.11. noch nicht. **Werkzeugnotiz.**
+- **„Datentausch und Strafverfolgung: Trump findet ersten EU-Partner zur Jagd auf Antifa-Gruppen"**
+  (netzpolitik, 31.10., Matthias Monroy). **Kein KI-Kern erkennbar. Nicht gelesen, vorgemerkt.**
+- **„KI verdrängt Fotostudios, Canon warnt vor Preisanstieg, News der Woche 44/2026"** (heise,
+  31.10., 10:00). **Nicht gelesen. Vorgemerkt**, der Fotostudio-Punkt berührt den Arbeitsmarktstrang
+  um Post 5.
+- **„Adobe-Konkurrenz? Das taugt KI-Klon PhotoCraft"** (heise, 31.10., 06:30) und ein iX-Workshop
+  als heise-Angebot. **Nicht vorgemerkt.**
+- **Vorgemerkt zum Nachlesen im Ethikrat-PDF:** Stufe 3 des Modells, der vollständige Satz zum
+  Missbrauchsrisiko, und die 13 Empfehlungen im Wortlaut, besonders Empfehlung 7.b bis 7.d.
