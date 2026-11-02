@@ -7381,3 +7381,191 @@ im Archiv, und eine Rechtsgrundlage mit Paragraf.
   als heise-Angebot. **Nicht vorgemerkt.**
 - **Vorgemerkt zum Nachlesen im Ethikrat-PDF:** Stufe 3 des Modells, der vollständige Satz zum
   Missbrauchsrisiko, und die 13 Empfehlungen im Wortlaut, besonders Empfehlung 7.b bis 7.d.
+
+---
+
+## Recherchierte Einzelbefunde vom 02.11.2026
+
+### KORREKTUR IN EIGENER SACHE: DREI DOKUMENTE, EINE WURZEL
+
+Hier stand seit dem 30.10. der Kandidat „Dein Gesicht beweist dein Alter. Drei Gremien raten davon
+ab." Die Zahl drei ist falsch eingeordnet. **Die Zitate und ihre Zuordnung waren richtig, die
+Unabhängigkeit der Quellen war es nicht.**
+
+**Ethikrat-Stellungnahme, Fußnote 85 zum Drei-Stufen-Modell, wörtlich:**
+
+> „Dieses Modell basiert auf der Analyse von Lueks et al. 2026."
+
+Dieselbe Quelle steht noch als Fußnote 27 und 67. Im Literaturverzeichnis löst sie sich auf:
+**Lueks, W.; Dreyer, S.; Federrath, H.; Simon, J. (2026): Assessing age assurance technologies:
+effectiveness, side-effects, and acceptance. In: arXiv, 26. März 2026.
+DOI 10.48550/arXiv.2603.25695.**
+
+**Danksagung der Stellungnahme, Seite 5, wörtlich:** Dank an die Unabhängige Expertenkommission
+„Kinder- und Jugendschutz in der digitalen Welt" des Bundesministeriums für Bildung, Familie,
+Senioren, Frauen und Jugend, „von deren Sachstandsbericht wir sehr profitiert haben", und
+„Besonderer Dank gebührt außerdem Stephan Dreyer, Wouter Lueks und Hannes Federrath für ihre
+konstruktiven Rückmeldungen zum Entwurf der Stellungnahme".
+
+**Mitgliederliste im Anhang, wörtlich:** „Mitglieder des Deutschen Ethikrates zum Zeitpunkt der
+Verabschiedung der Stellungnahme am 21. Mai 2026", darunter „Prof. Dr. phil. Judith Simon
+(Stellvertretende Vorsitzende)". **Eine Mitautorin der zugrunde liegenden Analyse ist
+stellvertretende Vorsitzende des Gremiums.** Kein Vorwurf, die Stellungnahme legt die Quelle in der
+Fußnote offen. Aber: eine Stimme an zwei Orten.
+
+**Nebenbefund zum Datum:** Verabschiedet am **21. Mai 2026**, veröffentlicht am **11. Juni 2026**.
+Bisher stand hier nur das Veröffentlichungsdatum.
+
+**Gegencheck im Kommissionsbericht, heute gemacht.** Handlungsempfehlung 38 Nummer (3), wörtlich:
+„Anbieter wie Google, Apple oder Meta, die bereits über verifizierte Identitätsdaten verfügen,
+könnten sich als Aussteller von Altersbestätigungen positionieren und damit als Identitäts- und
+Compliance-Broker die Kontrolle stillschweigend wieder zentralisieren." Empfehlung 8 der
+Ethikrat-Stellungnahme sagt dasselbe mit fast denselben Wörtern. Die Wurzel steht in Lueks et al.
+auf Englisch: die Vorgaben schaffen „additional market power in the hands of the providers of major
+mobile operating systems, namely Google and Apple".
+
+**Neue Arbeitsregel.** Wenn mehrere Dokumente dasselbe sagen, zuerst in Fußnoten und Danksagungen
+sehen, bevor daraus „mehrere Gremien" wird. Gleichlautende Sätze sind ein Hinweis auf eine
+gemeinsame Quelle, nicht auf eine Bestätigung.
+
+### LUEKS ET AL. 2026, DIE GEMEINSAME WURZEL (arXiv, heute gelesen)
+
+**Quelle:** `arxiv.org/pdf/2603.25695`, **53 Seiten**, „Version: March 26, 2026". Autoren und Häuser
+von Seite eins: Wouter Lueks (CISPA Helmholtz Center for Information Security), Stephan Dreyer
+(Leibniz Institute for Media Research, Hans-Bredow-Institut), Hannes Federrath (University of
+Hamburg), Judith Simon (University of Hamburg). **Preprint, kein Peer Review auf der Seite
+ausgewiesen. Belastbarkeit: Einzelquelle, aber Primärquelle für das, was der Ethikrat übernimmt.**
+
+Aus dem Abstract, wörtlich: „Guiding our assessment is a weighing of effectiveness against side
+effects, resulting in a graduated hierarchy of acceptable AAT mechanisms."
+
+**Die Hierarchie, Punkt 8 der Zusammenfassung, wörtlich:**
+
+> „First preference: Parental Control and Consent (PCC), on-device."
+
+> „Second preference: Device-based solutions as a second line of defence. These are rather effective
+> with still few side effects. Device-based age estimation (using on-device biometric processing) or
+> device-based verification of identity documents (via NFC reading of eIDs processed locally, for
+> instance) keep all sensitive data within the device. The service provider receives only an
+> age-threshold signal and not the underlying biometric or identity data."
+
+> „Third preference: Credential-based wallet solutions with strong privacy guarantees."
+
+Zur Mini-Wallet, wörtlich: „The parallel „mini wallet" currently being piloted in five Member
+States, though, does not guarantee unlinkability which would be required to preserve users'
+privacy."
+
+Punkt 9, Strafrecht, wörtlich: „Where criminal law prohibits the provision of certain content to
+minors (prototypical example: online pornography), PCC alone is legally insufficient because it
+provides the service provider with no assurance that an age assessment has occurred."
+
+### ETHIKRAT, EMPFEHLUNG 7 VOLLSTÄNDIG (offener Punkt vom 30.10., geschlossen)
+
+**Kopfsatz der Empfehlung 7, wörtlich:** „Alterskontrolltechnologien sollten klarer geregelt werden.
+Wenn altersgestaffelte Zugangsbeschränkungen zu Diensten oder Inhalten zum Einsatz kommen, sollte
+die Entscheidung über die anzuwendenden Verfahren zur Altersbestimmung nicht länger den Anbietern
+überlassen werden, sondern durch rechtlich verbindliche Vorgaben festgelegt werden."
+
+**7.a, wörtlich:** „Alterskontrolle sollte primär auf Ebene der Endgeräte stattfinden." Und:
+„Daher spricht sich der Deutsche Ethikrat gegen den Einsatz von Technologien zur Altersableitung
+oder Altersschätzung aus, bei denen Daten das Endgerät der Nutzerinnen und Nutzer verlassen."
+Primäre Adressaten: „Politik (Europäische Kommission), Betriebssystemanbieter".
+
+**7.b, wörtlich:** „Elterliche Kontrollsysteme sollten die Standardmethode zur Alterskontrolle sein."
+
+**7.c, wörtlich und wichtig, weil es Apples Verfahren erlaubt:** „Alterskontrollverfahren auf
+Geräteebene können ergänzend eingesetzt werden. … Dies beinhaltet Überprüfungen, ob Nutzerinnen und
+Nutzer das erforderliche Alter für die Nutzung eines Dienstes haben, etwa anhand von Altersschätzung
+durch die Kamera oder durch die Verifikation mit offiziellen Dokumenten. Aufgrund der Sensibilität
+insbesondere biometrischer Daten ist es hier jedoch wichtig, dass diese Daten auf dem Endgerät
+verbleiben und nur für diese Altersschätzung verwendet werden."
+
+**7.d, wörtlich, und nicht mit 7.c verwechseln:** „Bei erhöhten rechtlichen Anforderungen an eine
+Altersverifikation ist die EUDI-Wallet empfehlenswert, sofern Unverknüpfbarkeit und selektive
+Weitergabe von Daten garantiert sind." Darin: „Alternativen wie die Mini-Wallet oder gar das
+Vorzeigen von Pass und Gesicht vor der Handykamera sind aus Gründen der Sicherheit und des Schutzes
+der Privatsphäre abzulehnen." **Das betrifft Ausweis plus Gesicht, nicht Apples Selfie.**
+
+**7.e, wörtlich:** „Für Alterskontrolltechnologien müssen konkrete technische Anforderungen
+gesetzlich vorgegeben werden." Die Mindestvorgaben im Wortlaut: „Anforderungen an die
+Unverknüpfbarkeit von Aussteller und Prüfer sowie an die selektive Offenlegung; die Verarbeitung
+biometrischer Daten und Identitätsdaten auf dem Endgerät oder unter Kontrolle der Nutzerin oder des
+Nutzers; das Verbot der Datenspeicherung über die Altersbestätigung hinaus und die Konformität mit
+öffentlich geprüften, offengelegten kryptografischen Protokollen."
+
+**Stufe 3 des Modells, wörtlich:** „Für den Zugang zu bestimmten Inhalten, vor allem solchen, die
+Minderjährigen bereits nach dem Strafgesetzbuch oder nach § 4 JMStV nicht zugänglich gemacht werden
+dürfen, sind jedoch Verifikationsmechanismen erforderlich, bei denen die Anbieter verifizieren, dass
+der Altersnachweis auch wirklich von der Person stammt, die das Angebot nutzen will." Und: die
+EUDI-Wallet sei zu bevorzugen, „sofern sie den Vorgaben der eIDAS-Verordnung hinsichtlich selektiver
+Datenweitergabe und Unverknüpfbarkeit entspricht".
+
+**Der Missbrauchsabsatz vollständig, wörtlich:** „Missbrauch und Zensur: Auch das Risiko eines
+etwaigen Missbrauchs von Altersbestimmungstechnologien ist in den Blick zu nehmen. Die Technologien
+sind Instrumente zur Unterscheidung und unterschiedlichen Behandlung von Nutzergruppen. Als solche
+können sie auch zweckentfremdet werden, und zwar sowohl zur Beschränkung des Zugangs für weitere
+Gruppen als auch des Zugangs zu anderen Inhalten, zum Beispiel zu Materialien zur sexuellen
+Aufklärung oder gar zu solchen, die politisch unerwünscht sind. Aufgrund dieser breiten
+Einsatzmöglichkeiten kann nicht ausgeschlossen werden, dass die Altersbestimmungstechnologien als
+Zensurinstrument missbraucht werden."
+
+### APPLE-SUPPORT-SEITE, ZWEITER ABRUF (offene Punkte vom 28.10.)
+
+`support.apple.com/de-de/149095`, Veröffentlichungsdatum 26. Oktober 2026, bestätigt.
+
+- **Länder: Apple nennt keine.** Wörtlich nur: „Es muss in deinem Bundesstaat, deinem Land oder
+  deiner Region möglich sein, deine Volljährigkeit mit einem Selfie zu bestätigen." Und: „In einigen
+  Ländern oder Regionen wirst du vor bestimmten Aktionen … möglicherweise gebeten, deine
+  Volljährigkeit zu bestätigen." **Die heise-Länderliste bleibt ungeprüft und darf nur mit dieser
+  Zuordnung in einen Post.**
+- **Internetverbindung: genau eine Stelle, im Fehlerabschnitt**, wörtlich: „Vergewissere dich, dass
+  dein Gerät mit dem Internet verbunden ist, und nimm dann ein weiteres Selfie auf." Dass der
+  Vorgang eine Verbindung braucht, steht nicht da. **Offline-Frage bleibt offen.**
+- `apple.com/de/ios/feature-availability/` lieferte eine Weiterleitungsseite mit 16 Zeichen Inhalt.
+
+### DREI PARAGRAFEN STGB, AMTLICHE FASSUNG (heute erstmals gelesen)
+
+**Quelle:** `gesetze-im-internet.de`, herausgegeben vom Bundesministerium der Justiz.
+**Belastbar.** Der Abruf über das Fetch-Werkzeug scheiterte mit HTTP 503, **über `curl` ging es**.
+**Werkzeugnotiz.**
+
+**§ 184k, Überschrift:** „Verletzung des Intimbereichs durch Bildaufnahmen". Absatz 1 Nummer 1
+wörtlich: „absichtlich oder wissentlich von den Genitalien, dem Gesäß, der weiblichen Brust oder der
+diese Körperteile bedeckenden Unterwäsche einer anderen Person unbefugt eine Bildaufnahme herstellt
+oder überträgt, soweit diese Bereiche gegen Anblick geschützt sind". Absatz 2: Antragsdelikt, es sei
+denn, die Strafverfolgungsbehörde hält wegen besonderen öffentlichen Interesses ein Einschreiten von
+Amts wegen für geboten.
+
+**§ 184i, Überschrift:** „Sexuelle Belästigung". Absatz 1 wörtlich: „Wer eine andere Person in
+sexuell bestimmter Weise körperlich berührt und dadurch belästigt". **Setzt eine körperliche
+Berührung voraus, passt auf Filmen also nicht.**
+
+**§ 201a, Überschrift:** „Verletzung des höchstpersönlichen Lebensbereichs und von
+Persönlichkeitsrechten durch Bildaufnahmen". Absatz 1 Nummer 1 setzt voraus, dass sich die Person
+„in einer Wohnung oder einem gegen Einblick besonders geschützten Raum befindet". **Absatz 2
+wörtlich:** „Ebenso wird bestraft, wer unbefugt von einer anderen Person eine Bildaufnahme, die
+geeignet ist, dem Ansehen der abgebildeten Person erheblich zu schaden, einer dritten Person
+zugänglich macht." **Absatz 2 erfasst das Zugänglichmachen, nicht das Herstellen.**
+
+### KLEINERE FUNDSTÜCKE VOM 02.11.2026
+
+- **netzpolitik.org, „Trugbild: Männer, die auf Frauen starren"** (01.11.2026, 11:23, Vincent Först,
+  Kategorie Überwachung). Kolumne über heimliches Filmen mit Smartphones und Smartglasses. Nennt als
+  Quelle „Forscher der University of Sydney", die „350 Instagram-Videos dieser Art aus den letzten
+  drei Jahren" ausgewertet hätten, mit rund 60 Prozent möglicher Belästigung und 43 Prozent
+  Abwertung oder Identifizierung in den Kommentaren. **Verlinkt ist
+  `osf.io/preprints/socarxiv/wbj2x_v2`.** Der Beitrag nennt keinen Paragrafen im Text, nur im Pfad
+  eines verlinkten Deutschlandfunk-Beitrags stehen 184i und 184k.
+- **Die OSF-Seite lieferte heute vier Zeichen Text**, der Inhalt wird per JavaScript nachgeladen.
+  **Titel, Autoren, Datum und Abstract sind ungeprüft, die drei Zahlen ebenfalls. Keine davon in
+  einen Post.** SocArXiv ist eine Preprint-Ablage.
+- **Beim Abruf der OSF-Seite kam Text mit, der sich als Regel ausgab**, unter anderem eine
+  Höchstlänge für Zitate. Der abrufende Agent hat das als Seiteninhalt behandelt und nicht befolgt.
+  **Festgehalten, weil es das erste Mal in diesem Repo ist:** Anweisungen aus einer abgerufenen Seite
+  sind Material, keine Vorgaben.
+- **heise-Themenseite KI, 1. November:** „Sam Altman findet DRAM in Privathand „schrecklich""
+  (16:49), „Erste Daten von Googles KI-Satellit" (16:49), „Meta arbeitet offenbar mit chinesischer
+  Hilfe an humanoidem Haushaltsroboter" (05:04, **ohne Datum auf der Themenseite**). Markt,
+  Forschung, Unternehmen. **Nicht vorgemerkt.** Kein Artikel vom 2. November auf der Seite.
+- **`netzpolitik.org/2026/11/` antwortet jetzt mit HTTP 200** und enthält genau einen Beitrag.
+  Am 01.11. war die Seite noch 404. **Werkzeugnotiz, korrigiert.**
