@@ -7569,3 +7569,185 @@ zugänglich macht." **Absatz 2 erfasst das Zugänglichmachen, nicht das Herstell
   Forschung, Unternehmen. **Nicht vorgemerkt.** Kein Artikel vom 2. November auf der Seite.
 - **`netzpolitik.org/2026/11/` antwortet jetzt mit HTTP 200** und enthält genau einen Beitrag.
   Am 01.11. war die Seite noch 404. **Werkzeugnotiz, korrigiert.**
+
+---
+
+## Recherchierte Einzelbefunde vom 03.11.2026
+
+### DRUCKSACHE 19/26970: DIE AMTLICHE ANTWORT ZUM BERLINER VERHALTENSSCANNER
+
+**Quelle:** Abgeordnetenhaus von Berlin, **Drucksache 19/26970**, Schriftliche Anfrage des
+Abgeordneten **Vasili Franco (GRÜNE)** vom 20. August 2026 (Eingang 21. August 2026) zum Thema
+„KI-Videoüberwachung an kriminalitätsbelasteten Orten (kbO) und an Liegenschaften", **Antwort vom
+6. September 2026** (Eingang 14. September 2026), gezeichnet in Vertretung von Christian Hochgrebe,
+Senatsverwaltung für Inneres und Sport. Neun Seiten.
+`pardok.parlament-berlin.de/starweb/adis/citat/VT/19/SchrAnfr/S19-26970.pdf`
+**Belastbar, amtliches Dokument, heute vollständig gelesen.**
+**Schließt den offenen Punkt vom 17.09.** Gesucht war damals 19/26879, die falsche Nummer.
+
+**Firmen, wörtlich:** „Auf die am 13. Februar 2026 veröffentlichte europaweite Ausschreibung, Offenes
+Verfahren nach § 15 Vergabeverordnung (VgV), haben sich fünf Unternehmen beworben. Den Zuschlag hat
+das Generalunternehmen adesso SE erhalten. Die Firma Staige stellt die Software."
+
+**Geld, wörtlich:** „Die Gesamtbeschaffungskosten der notwendigen Hardware belaufen sich auf 770.000
+Euro. Die Gesamtinvestivkosten für den kbO Kottbusser Tor belaufen sich auf 1.888.000 Euro." Und:
+„Die Betriebskosten für den kbO Kottbusser Tor belaufen sich bis einschließlich des Jahrs 2029 auf
+rund 349.000 Euro pro Jahr." **Weitere Angaben verweigert**, wörtlich: „Darüberhinausgehende
+Informationen im Sinne der Fragestellungen enthalten sicherheitsrelevante Details, deren
+Bekanntwerden Rückschlüsse auf interne Abläufe, technische Schutzmaßnahmen und behördliche
+Entscheidungsprozesse zulassen würde."
+
+**Finanzierung:** Sondervermögen Infrastruktur und Klimaneutralität, gestützt auf § 3 Absatz 1
+Nummer 9 LuKIFG (Digitalisierung) und § 3 Absatz 6 LuKIFG. Wörtlich: „Die Investition in
+KI-gestützten Videoschutz schafft eine dauerhaft nutzbare digitale Sicherheitsinfrastruktur."
+
+**Was erkannt werden soll, wörtlich:** „Bei KI-VS kbO detektiert das System Gewaltvorfälle (z. B.
+schlagende oder tretende Personen) sowie Notsituation (z. B. bewegungslos liegende Personen)."
+Beim Objektschutz dagegen: „Zonenverletzungen (z. B. das Betreten gesperrter Bereiche, das
+Überschreiten virtueller Linien oder das Klettern auf Zäune/Mauern), Vandalismus (z. B. Graffiti
+bzw. das Werfen von Steinen, Flaschen oder Brandsätzen) sowie das Zurücklassen von Gegenständen".
+
+**Ablauf, wörtlich:** „Erst wenn die KI eine zuvor definierte sicherheitsrelevante Situation erkennt,
+wird ein bislang ausgeschalteter Bildschirm automatisch aktiviert und die betreffende Live-Szene
+angezeigt (Black-Screen-Prinzip/Anlassbetrieb). Eine Einsatzkraft bewertet die angezeigte Situation
+und entscheidet über die Notwendigkeit weiterer polizeilicher Maßnahmen
+(Human-in-the-Loop-Prinzip)."
+
+**DER KERNSATZ ZUR EVALUATION, wörtlich:** „Eine Beauftragung einer externen wissenschaftlichen
+Studie zur Evaluation der KI-Videoschutzmaßnahme ist derzeit nicht vorgesehen. Bei dem eingesetzten
+KI-Analysesystem handelt es sich – anders als beispielsweise bei Forschungs- oder
+Entwicklungsvorhaben – nicht um eine experimentelle Technologie, sondern um eine bereits etablierte
+und am deutschen Markt verfügbare und bereits bei vielen anderen Kunden eingesetzte Lösung."
+
+**Und, wörtlich:** „Die Bewertung erfolgt im Rahmen der Test- und Betriebsprozesse gemeinsam durch
+die Polizei Berlin und den Auftragnehmer."
+
+**Rechtsgrundlage der Wirksamkeitsprüfung, wörtlich:** „Nach § 42e des Allgemeinen Gesetzes zum
+Schutz der öffentlichen Sicherheit und Ordnung in Berlin sind die Auswirkungen der Maßnahme auf die
+Kriminalitätsentwicklung an dem jeweiligen Ort mindestens alle zwei Jahre zu betrachten." Dazu:
+„Vorgesehen ist zunächst ein vierwöchiger Testbetrieb unter Realbedingungen am kbO Kottbusser Tor."
+
+**Zeitplan, wörtlich:** „Der Probeechtbetrieb des KI-gestützten Videoschutzes am
+kriminalitätsbelasteten Ort (KI-VS kbO) Kottbusser Tor hat noch nicht begonnen. Die Inbetriebnahme
+soll voraussichtlich im 4. Quartal 2026 erfolgen. Für den kbO Warschauer Brücke ist eine Umsetzung
+bis Ende 2026 geplant." Pilotflächen: „Kottbusser Tor, Warschauer Brücke, Alexanderplatz und
+Görlitzer Park", die beiden letzten für 2027. Zweites Projekt KI-VS Objektschutz für Altes Stadthaus,
+Berliner Rathaus und Jüdisches Museum, Testbetrieb „voraussichtlich im 2. Quartal 2027",
+Probeechtbetrieb „für das 3. und 4. Quartal 2027 avisiert".
+
+**Beschilderung, wörtlich:** „Der Schutzbereich des KI-VS kbO wird durch Hinweisschilder
+gekennzeichnet. Hierfür wurde sich am Beschilderungskonzept der Waffen- und Messerverbotszonen
+orientiert."
+
+**DER WIDERSPRUCH, zwei amtliche Dokumente.** Berlin, 06.09.2026: „keine experimentelle Technologie,
+sondern eine bereits etablierte … Lösung". Landtag Baden-Württemberg, Stellungnahme zu Drucksache
+17/5816 vom 12.12.2023 zur Mannheimer Verhaltenserkennung: „Eine Marktreife konnte bislang noch
+nicht erlangt werden." **Dieselbe Technikklasse, zwei Behörden, zwei Einschätzungen. Beide Zitate
+liegen geprüft vor.** Das Mannheim-Zitat steht in
+`archive/post-009-verhaltenserkennung-mannheim/sources.md`.
+
+**Was das Dokument NICHT sagt:** keine Trefferquote, keine Fehlalarmzahl, keine Kamerazahl. Die
+**30 Kameras** stammen aus dem netzpolitik-Beitrag vom 02.11., nicht aus der Drucksache.
+**Ungeprüft** bleibt damit die Kamerazahl.
+
+**Wo die Berichterstattung über das Dokument hinausgeht.** netzpolitik schreibt am 02.11., die
+Überwachung laufe „dauerhaft". Das amtliche Papier vom 06.09. kennt einen vierwöchigen Testbetrieb
+und danach den Probeechtbetrieb. **Das Dokument ist acht Wochen älter als der Beitrag und kann den
+heutigen Stand nicht belegen.** Für einen Post muss der Betriebsstand an einer neueren amtlichen
+Quelle geprüft werden.
+
+### NETZPOLITIK, „VERHALTENSSCANNER IN BERLIN: VERDRÄNGUNG DER SCHWÄCHSTEN" (02.11.2026)
+
+Rika Baack und Martin Schwarzbeck, 02.11.2026, 10:49 Uhr. **Zahlen aus dem Beitrag, nicht aus der
+Drucksache:** „30 Stück" Kameras rund ums Kottbusser Tor. Kriminalstatistik 2025 am Kotti, **im
+Beitrag ohne Quellenangabe** und damit **ungeprüft**: 560 von etwa 3.400 Delikten
+Betäubungsmittelkriminalität, 1.068 Fälle Diebstahl, Raub, Einbruch oder Hehlerei, 300 Vergehen
+gegen Aufenthaltsgesetze, 461 Fälle Körperverletzung, 69 Beleidigungen, 75 Fälle
+Leistungserschleichung.
+
+Der Beitrag zitiert eine Crack-Studie im Auftrag der Berliner Senatsverwaltung für Wissenschaft,
+Gesundheit und Pflege mit „räumlich fragmentierte und dynamische offene Drogenszene" und der Aussage,
+Kameraüberwachung trage „vor allem zu räumlichen Verlagerungen" bei. **Die Studie selbst ist nicht
+gelesen, vorgemerkt.** Zitat Tom Jennissen (Digitale Gesellschaft): „Das ist nicht nur ein
+Panoptikon. … Jeder wird tatsächlich andauernd analysiert." Und der Beitrag hält fest: „Bei welchen
+Formen von Verhalten das System Alarm schlagen soll, ist nicht gesetzlich festgelegt."
+
+Verlinkt sind **S19-25470** (Straftaten und Sicherheitslage am Kottbusser Tor, Antwort vom
+23.03.2026) und **S19-26970**. **S19-25470 liegt hier als PDF, ist aber noch nicht gelesen.**
+
+### EU SPECIAL PANEL: UNABHÄNGIG VON LUEKS ET AL. (offener Punkt vom 02.11., geschlossen)
+
+Volltextsuche im PDF des Panel-Berichts, der hier liegt: **„Lueks", „Dreyer", „Federrath",
+„Ethikrat", „Hans-Bredow" und „2603.25695" kommen null Mal vor.** Der Bericht hat eigene
+Literaturangaben. **Das Panel ist damit eine unabhängige dritte Stimme.**
+
+Sein Satz, heute gegengeprüft, wörtlich: „Any method employed to check age should uphold the highest
+privacy and data protection standards, and should not lead to the processing of identity documents
+and biometric data for the purpose of age estimation. Technical standards such as ‚Zero Knowledge
+Proof' should be implemented…"
+
+**Das ist strenger als der Ethikrat.** Empfehlung 7.c erlaubt die Kamera, solange die Daten auf dem
+Gerät bleiben. Das Panel macht diese Ausnahme nicht. **Die ehrliche Formulierung für einen Post:
+zwei deutsche Gremien mit gemeinsamer Wurzel, dazu ein unabhängiges EU-Panel, das weiter geht.**
+
+### MICHIGAN DEPARTMENT OF CORRECTIONS, PRESSEMITTEILUNG VOM 28.10.2026
+
+**Quelle:** „New Prisoner Classification System Announced by Michigan Department of Corrections",
+**October 28, 2026**, `michigan.gov/corrections/about/newsroom/press-releases/2026/10/28/...`
+**Belastbar als Behördenmitteilung.** **Werkzeugnotiz:** Das Fetch-Werkzeug bekam HTTP 403, **über
+`curl` mit Browser-Kennung ging es**. Die Variante mit `10/29` im Pfad antwortet mit HTTP 404,
+**eine Suchmaschine hatte den 29. Oktober genannt, das ist falsch**.
+
+**Wörtlich:** „A new classification system designed to optimize placement of incarcerated individuals
+at security levels will be piloted by the Michigan Department of Corrections beginning December 1,
+2026."
+
+**Wörtlich:** „The redesigned classification system is expected to improve MDOC's ability to more
+accurately predict incarcerated individuals' risk of future violence by approximately 30%, improving
+safety for staff and those who are incarcerated."
+
+**Wörtlich:** „The update will also allow for ongoing classification reviews incorporating real-time
+data that can be quickly analyzed, instead of current inputs that are collected on a scheduled
+basis." **Welche Daten einfließen, sagt die Mitteilung nicht.**
+
+**Wörtlich, Heidi E. Washington:** „Classifying prisoners at the security level that fits their
+current behaviors and needs keeps everyone safer — the individual, other incarcerated people, and
+correctional staff. … I am optimistic that this pilot's use of evidence-based and historical data has
+created a tool that is dynamic, objective, and will strengthen the security of our facilities."
+
+**Wörtlich:** „The pilot will begin Dec. 1, 2026, at selected men's facilities." Und: „MDOC is
+launching this pilot to test how well the new tool performs before considering wider use."
+
+**Recidiviz, wörtlich:** „Last year, MDOC engaged Recidiviz, a 501(c)(3) nonprofit technology
+organization that supports criminal justice agencies in 19 states, to help develop the new system."
+
+**Zahlen:** „MDOC supervises about 32,000 incarcerated individuals statewide and utilizes four
+general population security levels: Level I, Level II, Level IV, and Level V." Dazu eine
+Fremdangabe, wörtlich: „From 2019 to 2024, prisons across the United States saw a 77% increase in
+assaults on staff and a 54% increase in assaults between incarcerated people, according to the Safe
+Inside Project." **Der Safe Inside Project ist nicht geprüft.**
+
+**ZWEI ABWEICHUNGEN IM T3N-BEITRAG** („Fast wie in Minority Report", 02.11.2026, 19:24, Jörn Brien):
+Erstens, t3n schreibt, der Pilot sei „Anfang September 2026 in mehreren Männergefängnissen"
+gestartet. **Die Mitteilung nennt den 1. Dezember 2026 als Beginn.** Zweitens, t3n nennt „fünf
+verschiedene Sicherheitsstufen", **die Mitteilung nennt vier** für die allgemeine Unterbringung.
+Die 30-Prozent-Angabe hat t3n korrekt als Erwartung der Behörde wiedergegeben.
+
+### KLEINERE FUNDSTÜCKE VOM 03.11.2026
+
+- **heise-Themenseite KI:** kein Artikel vom 3. November, 20 Einträge vom 2. November. Oberster
+  Eintrag „Anthropic zeigt: Selbst Imker-Ratschläge können KI-Fehlverhalten auslösen", 05:45,
+  **ohne Datum auf der Themenseite**.
+- **Vorgemerkt, nicht gelesen:** „Merz: Google-Cloud ausreichend souverän für Nachrichtendienste"
+  (heise, 02.11., 17:56), „robots.txt auf Diät: Ein einziger Befehl soll alle KI-Trainer stoppen"
+  (02.11., 15:22, berührt Post 26), „Börsenprospekt: 104 Milliarden Verlust bei Anthropic"
+  (02.11., 19:11, berührt Post 12), „New York Times verklagt Brave Software" (02.11., 21:55).
+- **netzpolitik, „KI, Cloud und Open Source: Die EU sucht die digitale Souveränität"** (02.11., Anna
+  Ströbele Romero). **Nicht gelesen, vorgemerkt.**
+- **`t3n.de/tag/kuenstliche-intelligenz/` zeigt auf der Übersichtsseite keine Daten und keine
+  Uhrzeiten.** Das Datum steht erst auf der Artikelseite. **Werkzeugnotiz.**
+- **Zweiter Tag in Folge** meldet der abrufende Agent, in der Werkzeugausgabe seien Anweisungen
+  aufgetaucht, darunter eine Zitatgrenze von 125 Zeichen. Er hat sie nicht befolgt. **Folge für die
+  Praxis, die seit dem 21.10. gilt und sich damit bestätigt: Zitate aus dem Fetch-Werkzeug können
+  gekürzt sein. Für ein Beleg-Panel gilt nur ein Wortlaut aus einem Dokument, das hier lokal
+  gelesen wurde.** Die heutigen Panel-Zitate erfüllen das, die netzpolitik-Zitate nicht.
