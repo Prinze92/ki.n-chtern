@@ -7751,3 +7751,179 @@ Die 30-Prozent-Angabe hat t3n korrekt als Erwartung der Behörde wiedergegeben.
   Praxis, die seit dem 21.10. gilt und sich damit bestätigt: Zitate aus dem Fetch-Werkzeug können
   gekürzt sein. Für ein Beleg-Panel gilt nur ein Wortlaut aus einem Dokument, das hier lokal
   gelesen wurde.** Die heutigen Panel-Zitate erfüllen das, die netzpolitik-Zitate nicht.
+
+---
+
+## Recherchierte Einzelbefunde vom 04.11.2026
+
+### RECHTSSACHE C-250/25 LIKE COMPANY: ERSTE GENERATIVE-KI-SACHE AM EUGH
+
+**Quelle:** Gerichtshof der Europäischen Union, **Pressemitteilung Nr. 155/26, Luxemburg, den
+3. November 2026**, „Schlussanträge des Generalanwalts am Gerichtshof Maciej Szpunar in der
+Rechtssache **C-250/25 | Like Company**", drei Seiten.
+`curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260155de.pdf`
+**Heute heruntergeladen und vollständig gelesen.**
+
+**EINSCHRÄNKUNG, die das Dokument selbst nennt, wörtlich:** „Zur Verwendung durch die Medien
+bestimmtes nicht amtliches Dokument, das den Gerichtshof nicht bindet." Und: „Der Volltext der
+Schlussanträge wird am Tag der Verlesung auf der Curia-Website veröffentlicht."
+**Das ist die Pressemitteilung, nicht der Wortlaut der Schlussanträge. Für ein Beleg-Panel genügt
+sie nicht.** EUR-Lex antwortet auf CELEX 62025CC0250 mit HTTP 202 und null Bytes, die
+Curia-Trefferliste zu C-250/25 mit HTTP 301. **Werkzeugnotiz.**
+
+**Titelsatz, wörtlich:** „Generalanwalt Szpunar: Der Gerichtshof sollte feststellen, dass es unter
+bestimmten Umständen die Rechte von Presseverlagen verletzen kann, wenn Online-Presseveröffentlichungen
+durch KI-Chatbots in Echtzeit abgerufen und weiterverwendet werden, um Antworten auf Nutzeranfragen
+zu generieren".
+
+**Einordnung durch das Gericht, wörtlich:** „In der ersten Rechtssache zum Thema generative KI, die
+vor den Gerichtshof gelangt ist, legt der Generalanwalt dar, unter welchen Umständen ein solcher
+Vorgang eine Verletzung der Rechte von Presseverlagen darstellt".
+
+**Sachverhalt, wörtlich:** „Die Like Company, ein ungarischer Betreiber verschiedener Webportale,
+erhob vor dem Stuhlgericht für das Umland von Budapest (Ungarn) Klage gegen Google." Und: Google habe
+die Artikel verwendet, um die Gemini-LLMs zu trainieren, „und sie zwischen dem 13. Juni 2023 und dem
+31. Mai 2024 mehrfach über den Gemini-Chatbot vervielfältigt und der Öffentlichkeit zugänglich
+gemacht".
+
+**Rechtsgrundlagen, aus den Fußnoten:** „Art. 15 Abs. 1 der Richtlinie (EU) 2019/790 des Europäischen
+Parlaments und des Rates vom 17. April 2019 über das Urheberrecht und die verwandten Schutzrechte im
+digitalen Binnenmarkt" und „Art. 4 der Richtlinie 2019/790" für Text- und Data-Mining.
+**Vier Vorlagefragen**, zwei zum Training, zwei zu den Antworten des Chatbots.
+
+**DER SATZ, DEN DIE BERICHTERSTATTUNG WEGLÄSST, wörtlich:** „Der Vollständigkeit halber weist er den
+Gerichtshof jedoch darauf hin, dass die Nutzung von Werken und anderen Gegenständen, die durch das
+Urheberrecht und das verwandte Schutzrecht geschützt seien, zum Trainieren eines LLM im Rahmen der
+Ausnahme für Text- und Data-Mining grundsätzlich frei zulässig sei."
+Davor: Er empfiehlt, „die beiden Fragen zum Trainieren von LLMs für unzulässig zu erklären", weil sie
+hypothetisch seien, „da es keine Beweise dafür gebe, dass die Artikel der Like Company zum Trainieren
+der Gemini-LLMs verwendet worden seien, und da das Trainieren eines LLM keine Form der
+‚Online-Nutzung' von Presseveröffentlichungen darstelle".
+
+**Was geschützt ist, wörtlich:** Das Recht des Presseverlags schütze „nicht die bloßen, in
+Presseveröffentlichungen berichteten Tatsachen, sondern lediglich die spezifische Ausdrucksform
+dieser Veröffentlichungen. Dieses Recht ziele nämlich darauf ab, die Investitionen zu schützen, die
+in die Erstellung einer solchen Veröffentlichung flössen, und nicht darauf, den Verlagen ein Monopol
+auf die Nachrichten selbst zu gewähren."
+
+**Die zwei Faktoren, wörtlich:** „erstens, ob dieser Chatbot unrechtmäßig auf die betreffende
+Presseveröffentlichung zugegriffen habe, insbesondere durch Umgehung wirksamer technischer Maßnahmen
+(wie einer Paywall), die dazu dienten, den Zugriff auf diese Veröffentlichung oder deren Web-Scraping
+zu beschränken; und zweitens, ob die dem Nutzer bereitgestellte Antwort lediglich Tatsachen wiedergebe,
+die in der Originalveröffentlichung enthalten seien, oder ob sie im Gegenteil die Ausdrucksform dieser
+Veröffentlichung in erkennbarer Weise wiederverwende, und zwar in einem solchen Ausmaß, dass der
+Nutzer nach dem Lesen dieser Antwort überhaupt kein Bedürfnis mehr habe, auf die
+Originalveröffentlichung zuzugreifen."
+
+**Öffentliche Zugänglichmachung, wörtlich:** „Das Recht des Presseverlags auf öffentliche
+Zugänglichmachung werde in der Regel verletzt, wenn die Ausdrucksform der betreffenden
+Presseveröffentlichung in den Antworten, die der Chatbot auf entsprechende Nutzeranfragen gebe, in
+dem oben beschriebenen Umfang systematisch erkennbar sei."
+
+**Haftung, wörtlich:** „Der Anbieter des Online-Chatbots hafte für solche potenziellen Nutzungen von
+Presseveröffentlichungen, wenn sie fester Bestandteil seines Geschäftsmodells seien oder wenn er es
+versäumt habe, geeignete Maßnahmen zu ergreifen, um solchen Handlungen glaubwürdig und wirksam
+entgegenzuwirken."
+
+**Verfahrensstand, wörtlich:** „Die Schlussanträge sind für den Gerichtshof nicht bindend. … Das
+Urteil wird zu einem späteren Zeitpunkt verkündet." **Gehört auf jedes Blatt.**
+
+**Wo heise überzieht.** Schlagzeile „EuGH-Gutachten: KI-Chatbots können Urheberrecht verletzen". Es
+geht um das verwandte Schutzrecht der Presseverlage aus Artikel 15, nicht um das Urheberrecht
+insgesamt, und dieses Recht schützt nur die Ausdrucksform. Der heise-Beitrag nennt **kein
+Aktenzeichen und keine Richtlinie** und ist außerdem nur teilweise frei lesbar.
+
+### DIE KOTTI-ZAHLEN NACHGERECHNET (die ungeprüfte Markierung von gestern ist aufgelöst)
+
+**Quelle:** Anlage 1 zu **Drucksache 19/25470**, Abgeordnetenhaus von Berlin, Schriftliche Anfrage
+Vasili Franco (GRÜNE) vom 10. März 2026, „Straftaten, Einsatzkräftestunden und Sicherheitslage rund um
+das Kottbusser Tor", **Antwort vom 23. März 2026**, 76 Seiten. Tabellenquelle: „DWH FI, Stand:
+11. März 2026". **Heute gelesen, 45 Deliktszeilen abgeschrieben und addiert.**
+
+**Eigenkontrolle zuerst:** Meine Spaltensummen ergeben für 2025 **3.407** und treffen die
+Monatssummen des Dokuments genau; über alle 14 Monate **3.917**, was die Gesamtzeile des Dokuments
+genau trifft. **Die Abschrift ist mit sich selbst konsistent.**
+
+Abgleich mit dem netzpolitik-Beitrag vom 02.11., der keine Quelle nennt:
+- „etwa 3.400 Delikte" 2025: **3.407. Trifft zu.**
+- 300 Vergehen gegen Aufenthaltsgesetze: **300. Trifft genau.**
+- 461 Fälle Körperverletzung: **339 einfache plus 122 gefährliche und schwere auf Straßen, Wegen,
+  Plätzen, zusammen 461. Trifft genau.**
+- 69 Beleidigungen: **69** in der Zeile „Beleidigung, Verleumdung, üble Nachrede". **Trifft genau.**
+  Die Zeile „Beleidigung pp. auf sexueller Grundlage" mit 3 Fällen ist nicht enthalten.
+- 75 Fälle Leistungserschleichung: **75. Trifft genau.**
+- 560 Betäubungsmittelkriminalität: tatsächlich **562** in der Zeile BtmG/NpSG/CanG. Gerundet.
+- **1.068 Diebstahl, Raub, Einbruch, Hehlerei: NICHT NACHVOLLZIEHBAR.** Dreizehn Zeilen kommen in
+  Frage, meine Gruppierung ergibt 1.089, ohne Hehlerei 1.074, ohne Hehlerei und ohne Krad- und
+  Kraftwagendiebstahl 1.072. **Welche Gruppierung der Beitrag nimmt, steht dort nicht. Diese Zahl
+  bleibt ungeprüft und darf nicht in einen Post.**
+
+**Zwei Zahlen aus derselben Antwort, bisher unverwendet, wörtlich:** „Im Jahr 2025 wurden 2.612
+Strafanzeigen und im Zeitraum vom 1. Januar 2026 bis 28. Februar 2026 260 Strafanzeigen in der
+Nebenwache am Kottbusser Tor entgegengenommen." Und: „Im Jahr 2025 wurden durch die Dienstkräfte der
+Nebenwache Kottbusser Tor im Rahmen ihrer Wachtätigkeit 26.636 Einsatzkräftestunden geleistet."
+Dazu 203 Einsätze außerhalb der Wache. Quelle jeweils „interne Datenerhebung Dir 5, Stand:
+13. März 2026".
+
+**Was das Dokument NICHT liefert:** keine Kamerazahl. **Die 30 Kameras stehen weiterhin nur im
+netzpolitik-Beitrag und bleiben ungeprüft.** Ebenfalls im Dokument: „Eine Aufschlüsselung nach
+Deliktsarten ist im automatisierten Verfahren nicht möglich" für die Anzeigen in der Wache.
+
+### BVERFG, KENNZEICHENSCANNER, AMTLICHE QUELLE
+
+**Quelle:** `bundesverfassungsgericht.de`, **Urteil des Ersten Senats vom 11. März 2008**,
+Aktenzeichen **1 BvR 2074/05** und **1 BvR 1254/07**, Pressemitteilung Nr. 27/2008 vom
+11. März 2008. Gegenstand: § 14 Absatz 5 des Hessischen Gesetzes über die öffentliche Sicherheit und
+Ordnung (HSOG) und § 184 Absatz 5 des Schleswig-Holsteinischen Landesverwaltungsgesetzes (LVwG).
+**Belastbar, heute an der amtlichen Quelle gelesen.**
+
+**Leitsätze, wörtlich:** „Eine automatisierte Erfassung von Kraftfahrzeugkennzeichen zwecks Abgleichs
+mit dem Fahndungsbestand greift dann, wenn der Abgleich nicht unverzüglich erfolgt und das Kennzeichen
+nicht ohne weitere Auswertung sofort und spurenlos gelöscht wird, in den Schutzbereich des Grundrechts
+auf informationelle Selbstbestimmung (Art. 2 Abs. 1 in Verbindung mit Art. 1 Abs. 1 GG) ein."
+
+Und: „Die bloße Benennung des Zwecks, das Kraftfahrzeugkennzeichen mit einem gesetzlich nicht näher
+definierten Fahndungsbestand abzugleichen, genügt den Anforderungen an die Normenbestimmtheit nicht."
+
+Und, der Satz für den Kommentar: „Die automatisierte Erfassung von Kraftfahrzeugkennzeichen darf
+nicht anlasslos erfolgen oder flächendeckend durchgeführt werden."
+
+Und: „Die stichprobenhafte Durchführung einer solchen Maßnahme kann gegebenenfalls zu Eingriffen von
+lediglich geringerer Intensität zulässig sein."
+
+**Die Übertragbarkeit auf Kameras, die ins Fahrzeuginnere filmen, ist offen und wird hier nicht
+bewertet.**
+
+### NETZPOLITIK, „HANDY-BLITZER" (03.11.2026)
+
+Markus Reuter, 03.11.2026, 14:28 Uhr, Update 15:00 Uhr. Wörtlich: „Bundesverkehrsminister Steffen
+Bilger (CDU) setzt sich für die bundesweite Einführung von sogenannten ‚Handy-Blitzern' ein." Und:
+„Die Bundesländer wollen laut dem Medienbericht nun eine bundesweite ‚technikoffene' Regelung für die
+Handy-Blitzer."
+**Belastbarkeit: berichtet.** Der Beitrag stützt sich auf „einen Bericht von dpa und Rheinischer
+Post" und nennt **keine Pressemitteilung, kein Interview, keine Bundesratsinitiative, keinen
+Gesetzentwurf, keine Drucksache und keine Paragrafen**. Zitiert wird der Datenschützer Konstantin
+Macher: „Damit wird eine technische Infrastruktur installiert, die sich einfach auf andere Zwecke
+anpassen lässt." Monocams sind in Rheinland-Pfalz „schon seit 2023 im Einsatz". Das Update ergänzt,
+dass die automatisch festgestellten Beweise noch von einem Menschen überprüft werden.
+**Neu offen: eine Fundstelle, die nicht aus einem Medienbericht stammt.**
+
+### KLEINERE FUNDSTÜCKE VOM 04.11.2026
+
+- **heise-Themenseite KI:** kein datierter Eintrag vom 4. November. Die zwei neuesten Einträge
+  („EuGH-Gutachten", 05:33, und „AMD verdoppelt Gewinne", 05:02) tragen **nur eine Uhrzeit und kein
+  Datum**. Die Zuordnung zum 4. November folgt aus der Reihenfolge und **ist nicht belegt**. Das
+  Datum der Schlussanträge ist dagegen amtlich: 3. November 2026. **Werkzeugnotiz.**
+- **`tagesschau.de` bleibt aus dieser Umgebung nicht abrufbar.** Die Abfrage meldet, sie könne von
+  dort nicht laden. **Die Themenseite fällt als Kommentarquelle aus.**
+- **Vorgemerkt, nicht gelesen:** „Digitalgipfel: Handwerk keine Lösung für KI-Jobverluste" (heise,
+  03.11., 16:31, berührt Post 5), „Trotz Rekordwachstum: Deutsche Rechenzentren global abgehängt"
+  (03.11., 14:26, berührt Post 27), „Indien: Lösungsidee für illegales Datensammeln von KI-Anbietern"
+  (03.11., 17:23).
+- **Unter Meinungsbeiträgen wird nicht kommentiert.** Betrifft heute „Google-Cloud sei ‚sicher'"
+  (heise, 03.11., 18:38) und „Digitalgipfel: Im Takt der Wirtschaft" (netzpolitik, 03.11.). Dort gibt
+  es eine Haltung und keine Behauptung zu prüfen. **Als Regel festgehalten.**
+- **Dritter Tag in Folge** meldet der abrufende Agent Anweisungen in der Werkzeugausgabe, darunter
+  die Zitatgrenze von 125 Zeichen. Er hat sie nicht befolgt. **Die Praxis bleibt: panelfähig ist nur
+  ein Wortlaut aus einem Dokument, das hier lokal gelesen wurde.** Die EuGH-, Drucksachen- und
+  BVerfG-Zitate von heute erfüllen das, die netzpolitik- und heise-Zitate nicht.
