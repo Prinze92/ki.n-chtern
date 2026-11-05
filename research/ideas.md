@@ -7927,3 +7927,164 @@ dass die automatisch festgestellten Beweise noch von einem Menschen überprüft 
   die Zitatgrenze von 125 Zeichen. Er hat sie nicht befolgt. **Die Praxis bleibt: panelfähig ist nur
   ein Wortlaut aus einem Dokument, das hier lokal gelesen wurde.** Die EuGH-, Drucksachen- und
   BVerfG-Zitate von heute erfüllen das, die netzpolitik- und heise-Zitate nicht.
+
+---
+
+## Recherchierte Einzelbefunde vom 05.11.2026
+
+### C-250/25: DER WORTLAUT DER SCHLUSSANTRÄGE IST VON HIER AUS NICHT ERREICHBAR
+
+Vier Versuche heute, alle gescheitert. **Als nicht beschaffbar abgeschlossen.**
+
+- `curia.europa.eu/juris/liste.jsf?num=C-250/25&language=de` antwortet mit Weiterleitung und dann
+  HTTP 200 bei 130 KB, liefert aber **eine Angular-Hülle mit dem Seitentitel „RPEX"**. Im Quelltext
+  kommen „Like", „Schlussantr" und „document.jsf" **null Mal** vor, es gibt **keine einzige `docid`**.
+  **Die serverseitig gerenderte Trefferliste existiert nicht mehr, und damit fällt der Weg über
+  `document.jsf?docid=...` weg.** Werkzeugnotiz, wichtig für alle künftigen EuGH-Recherchen.
+- EUR-Lex antwortet auf CELEX 62025CC0250 **viermal hintereinander mit HTTP 202 und null Bytes**, als
+  HTML und als PDF, mit Browser-Kennung und ohne.
+
+**Folge für die Panel-Frage, als Einschätzung gekennzeichnet.** Panelfähig bleibt die
+**Pressemitteilung Nr. 155/26** vom 03.11.2026, die hier als PDF liegt und gelesen ist. Sie nennt
+sich selbst „nicht amtliches Dokument". Verwendbar erscheint sie mir, wenn der Panel-Kopf sie als
+Pressemitteilung benennt, `sub` das Datum trägt und auf einem Blatt steht, dass der Wortlaut der
+Schlussanträge nicht vorlag. **Das ist eine Einschätzung und kein Befund.**
+
+**Klärung von gestern:** Der heise-Beitrag „EuGH-Gutachten: KI-Chatbots können Urheberrecht
+verletzen" ist vom **04.11.2026, 05:33 Uhr**, heute an der Artikelseite geprüft. Die Zuordnung aus
+der Reihenfolge war richtig.
+
+### GOOGLE, „DESIGNING RESPONSIBLE AI FOR LEARNING" (03.11.2026)
+
+**Quelle:** `blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/`,
+Titel „Designing responsible AI for learning", Untertitel „We're bringing Guided Learning
+capabilities to Search and Google Classroom, and evolving our approach to school controls.", Autor
+**Chris Phillips, VP & General Manager, Education**, Datum **Nov 03, 2026**.
+**Belastbar als Herstellerdokument, heute gelesen.**
+
+**Der Kernsatz, wörtlich:** „After listening to schools, teachers, leading researchers, and
+policymakers, we are now updating our approach to controls for Gemini, Gemini Notebook, Gemini in
+Classroom, and Google Search. Access to these products will be entirely off for K-12 student accounts
+until school administrators explicitly turn them on."
+
+**Zum Zeitplan, wörtlich:** „We'll share more specifics with schools in the coming months ahead of
+the changes rolling out so they have time to prepare and enable a smooth transition."
+
+**Weiter, wörtlich:** „We're starting with a pilot in select U.S. schools later this month." Und:
+„Starting today, Guided Learning is globally available in Google Classroom."
+
+**ZWEI ABWEICHUNGEN ZUM HEISE-BEITRAG** („Google: Internetsuche gibt es für Schulen nur, wenn
+KI-Tools freigegeben sind", 04.11.2026, 07:06, Martin Holland):
+1. **Die Kopplung steht so nicht im Blogbeitrag.** Google schreibt von einem gemeinsamen Schalter für
+   vier Produkte, nicht von einer Bedingung. Die Kopplungsaussage stammt nach dem heise-Beitrag selbst
+   aus einer Erklärung **gegenüber der New York Times**.
+2. **Das Jahr 2027 steht nicht im Blogbeitrag.** Dort ist nur von „the coming months" die Rede.
+
+**DIE ENTSCHEIDENDE LÜCKE:** Im Blogbeitrag steht **nichts zu Europa, zum Europäischen
+Wirtschaftsraum oder zu Deutschland**. „Deutschland" erscheint nur im Ländermenü der Seite.
+**Ob deutsche Schulen betroffen sind, ist ungeprüft. Eine Schlagzeile mit „deine Schule" wäre ohne
+diesen Beleg falsch.** Der heise-Beitrag nennt als Bereich „den kompletten primären und sekundären
+Bildungsbereich, der den Kindergarten bis zur 12. Klasse umfasst und unter der Abkürzung ‚K-12'
+zusammengefasst wird", und zitiert NBC News damit, dass Schulen die Suche einzeln freischalten
+können, dort aber automatisch erzeugte Zusammenfassungen enthalten bleiben. **Beides ungeprüft.**
+
+### CLAUDE HELP CENTER, „GET STARTED WITH SMART REPORTS"
+
+**Quelle:** `support.claude.com/en/articles/16893491-get-started-with-smart-reports`.
+**Kein absolutes Datum**, die Seite sagt nur „Updated over a week ago". **Belastbar als
+Herstellerdokument, mit dieser Einschränkung.** Anlass war heise online, 04.11.2026, 13:24 Uhr,
+Noëlle Bölling, zuerst erschienen auf t3n.
+
+**OFFENLEGUNG, die in einen Post gehört:** Dieses Briefing wird mit genau dem Modell geschrieben,
+dessen Auswertungsfunktion hier beschrieben wird. **Entscheidung über die Form liegt beim
+Kanalinhaber, hier nur festgehalten.**
+
+**Verfügbarkeit, wörtlich:** „Smart reports are available on Claude Enterprise plans and are off by
+default, so they must be turned on in your organization's settings." Ausgeschlossen sind nach der
+Seite Organisationen mit CMEK, HIPAA-Konfiguration oder Hybrid-Deployment.
+
+**Wer sie sehen kann, wörtlich:** „Once smart reports have been turned on for your organization,
+Primary Owners, Owners, Admins, and custom roles with analytics view access can create and view
+reports. Delegates with scoped access can also create and view reports, limited to the groups,
+departments, or cost centers assigned to them."
+
+**Was ausgewertet wird, wörtlich:** „Smart reports analyze how a team uses Claude and report on the
+work getting done, what it costs at list price, where sessions run into friction, and which repeated
+patterns are worth packaging as shared skills." Und: „Claude then reads a sample of transcripts in
+that scope, groups them into workstreams and types of outputs, attaches spend to each group, and
+writes up what it found."
+
+**DER WARNHINWEIS DES HERSTELLERS, vollständig und wörtlich, panelfähig:** „Important: Smart reports
+help you understand adoption and plan your investment in Claude. They aren't designed and should not
+be used for evaluating individual performance or making employment decisions."
+
+**DER SATZ, DER IM HEISE-BEITRAG FEHLT, wörtlich:** „This toggle controls whether report viewers can
+ever see who ran a given session, and each time a viewer reveals names, that action is logged."
+Standardmäßig aus, dann gilt wörtlich: „If the toggle is off: every drilldown shows ‚User' in place
+of a name and hides session IDs."
+**Der Hersteller sagt also beides:** nicht für die Beurteilung Einzelner gedacht, und es gibt eine
+Einstellung, mit der Betrachter sehen können, wer eine Sitzung geführt hat.
+
+**DER STÄRKSTE EINZELFUND, in keinem Artikel erwähnt.** Zu den „restricted topics", die nur in die
+aggregierte Auswertung einfließen, zählt die Seite ausdrücklich, wörtlich:
+„Union activity: organizing, collective bargaining, coworkers discussing pay or working conditions"
+Dazu, wörtlich: „Sessions that Claude identifies as involving restricted topics are used only for
+aggregate analysis. The report doesn't show a session summary for them." Und zu persönlichen
+Gesprächen: „Personal conversations also don't include individual sessions or names." Die Kategorie
+„Inefficiencies" erscheint „(shown only as an aggregate count and cost, with no summaries or
+drilldown)".
+
+**Grenze, wörtlich:** „Each organization can run up to 10 reports per month at no charge. Reports
+that are queued or in progress count toward this limit, and reports that fail don't." Und: „When your
+organization reaches its limit, you can't create new reports." Reset am „first day of the next
+calendar month".
+
+**Was auf der Seite NICHT vorkommt:** Datenschutz-Grundverordnung, Europa, Betriebsrat,
+Mitbestimmung. **Kein einziges Mal.** **Ob die Funktion in Deutschland angeboten wird, ist
+ungeprüft.**
+
+### § 87 BETRVG, AMTLICHE FASSUNG (heute gelesen)
+
+**Quelle:** `gesetze-im-internet.de`, Betriebsverfassungsgesetz, **§ 87 Mitbestimmungsrechte**.
+**Belastbar.** Abruf über `curl`, wie am 03.11. festgehalten.
+
+**Einleitungssatz, wörtlich:** „Der Betriebsrat hat, soweit eine gesetzliche oder tarifliche
+Regelung nicht besteht, in folgenden Angelegenheiten mitzubestimmen:"
+
+**Nummer 6, wörtlich:** „Einführung und Anwendung von technischen Einrichtungen, die dazu bestimmt
+sind, das Verhalten oder die Leistung der Arbeitnehmer zu überwachen"
+
+**Nummer 1, wörtlich:** „Fragen der Ordnung des Betriebs und des Verhaltens der Arbeitnehmer im
+Betrieb"
+**Nummer 14, wörtlich:** „Ausgestaltung von mobiler Arbeit, die mittels Informations- und
+Kommunikationstechnik erbracht wird."
+**Absatz 2, wörtlich:** „Kommt eine Einigung über eine Angelegenheit nach Absatz 1 nicht zustande, so
+entscheidet die Einigungsstelle. Der Spruch der Einigungsstelle ersetzt die Einigung zwischen
+Arbeitgeber und Betriebsrat."
+
+**Die Anwendung auf die Smart Reports wird hier nicht bewertet.** Das wäre die Bewertung eines
+Einzelfalls. Beschreibbar ist der Gegensatz: Der Hersteller sagt, die Funktion sei nicht zur
+Leistungsbeurteilung bestimmt, und die Vorschrift knüpft an Einrichtungen an, die dazu bestimmt sind.
+
+### KLEINERE FUNDSTÜCKE VOM 05.11.2026
+
+- **Kein Artikel vom 5. November** auf der heise-KI-Themenseite und im netzpolitik-Monatsarchiv.
+  19 heise-Einträge vom 4. November. Der oberste Eintrag („OpenAI wird mit Übernahme von Pierre
+  Computer zum GitHub-Konkurrenten", 05:05) trägt **kein Datum auf der Seite**. **Dritter Tag mit
+  demselben Muster, Werkzeugnotiz.**
+- **Vorgemerkt, nicht gelesen:** „Polizei: Selbst Smart-Staubsauger liefern Ermittlern Daten" (heise,
+  04.11., 11:11), „London, Paris, Berlin: Europaweite Proteste gegen Rechenzentren am Wochenende"
+  (netzpolitik, 04.11., berührt Post 27), „US-Zwischenwahlen: Rechenzentren noch größere Verlierer
+  als die Republikaner" (heise, 04.11., 09:35), „KI-Boom in den USA: Auch alte Flugzeugtriebwerke
+  sollen jetzt Strom liefern" (04.11., 13:57).
+- **„Bezahlkarte für Asylsuchende: Berlin setzt Bargeld-Obergrenze aus"** (netzpolitik, 04.11.).
+  Betrifft Menschen konkret, **kein KI-Kern erkennbar. Nicht vorgemerkt.**
+- **Meinungsbeiträge heute:** „Digitalgipfel: KI-Torschlusspanik" und „Auf den Punkt: KI ist doch
+  kein Selbstzweck." (netzpolitik, 04.11.). **Die Regel von gestern greift: unter Meinungsbeiträgen
+  wird nicht kommentiert.**
+- **Vierter Tag in Folge** meldet der abrufende Agent Anweisungen in der Werkzeugausgabe, darunter
+  die Zitatgrenze von 125 Zeichen. Er hat sie nicht befolgt. **Die beiden Herstellerdokumente von
+  heute sind über diesen Weg gelesen, die Zitate sind also mit dem Vorbehalt zu sehen, dass sie
+  gekürzt sein könnten.** Vollständig gesichert sind nur die Zitate aus lokal gelesenen Dateien:
+  die EuGH-Pressemitteilung und § 87 BetrVG. **Vor dem Bau eines Posts aus den Herstellerdokumenten
+  ist ein zweiter, unabhängiger Abruf nötig**, wie am 22.10. festgelegt.
