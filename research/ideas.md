@@ -8088,3 +8088,168 @@ Leistungsbeurteilung bestimmt, und die Vorschrift knüpft an Einrichtungen an, d
   gekürzt sein könnten.** Vollständig gesichert sind nur die Zitate aus lokal gelesenen Dateien:
   die EuGH-Pressemitteilung und § 87 BetrVG. **Vor dem Bau eines Posts aus den Herstellerdokumenten
   ist ein zweiter, unabhängiger Abruf nötig**, wie am 22.10. festgelegt.
+
+---
+
+## Recherchierte Einzelbefunde vom 06.11.2026
+
+### KI-TASKFORCE ERGEBNISBERICHT „DEUTSCHLAND ALS KI-NATION 2030" (02.11.2026)
+
+**Quelle:** „KI-Taskforce Ergebnisbericht. Deutschland als KI-Nation 2030", **02. November 2026**,
+**39 Seiten**, verlinkt auf der FAQ-Seite der Bundesregierung „KI als Treiber für Wachstum und
+Innovationen" vom 2. November 2026.
+`bundesregierung.de/resource/blob/975228/2459514/b8518975df987ac1cfdc1fc5b655efb3/2026-11-02-ki-data.pdf`
+**Belastbar, amtliches Dokument des Bundes. Heute heruntergeladen und gelesen.**
+Eine zweite Ablage nennt heise in seiner Leseprobe: `bmds.bund.de`, Dateiname
+`Deutschland_als_KI-Nation_2030_barrierefrei-Nov2026.pdf`. **Nicht abgerufen.**
+
+**Entstehung, wörtlich:** „Der Nationale Sicherheitsrat hat zur besseren Koordinierung der KI-Politik
+die Einrichtung einer KI-Taskforce beschlossen und das BMDS beauftragt, diese unter Leitung von
+Staatssekretär Dr. Markus Richter einzurichten. Die Auftaktsitzung fand am 02.07.2026 statt."
+Weiter: Zwischenbericht bis Ende August 2026, Ergebnisbericht bis Ende September 2026, „Im Oktober
+2026 wurde dieser auf Beschluss der KI-Taskforce zu einem gemeinsamen Bericht der Bundesregierung
+weiterentwickelt." Und, ohne Kommentar zitierbar: „Für den Digitalgipfel wurden darauf aufbauend
+Kommunikationsbotschaften erarbeitet."
+
+**Besetzung der sechs Arbeitsgruppen, wörtlich:** „Sie setzten sich aus Vertreterinnen und
+Vertretern der Bundesressorts auf Fachebene zusammen." **Regierungsintern nach dem Wortlaut.**
+Berücksichtigt wurden nach dem Bericht „der Strategiekreis Innovation beim Bundeskanzler, die
+Expertenkommission Wettbewerb und KI oder die laufenden Maßnahmen und Prozesse der Hightech Agenda
+Deutschland (HTAD)".
+
+**DER KERNFUND, wörtlich, panelfähig:** „Um eine stärkere Wirkungsorientierung in der Steuerung zu
+erreichen, werden in einem ersten Aufschlag mit diesem Bericht auch Resonanz-Kennzahlen aufgenommen.
+Diese erfassen beispielsweise Akzeptanz, Vertrauen, Nutzungsbereitschaft oder wahrgenommene
+Fortschritte bei Bevölkerung, Wirtschaft und Verwaltung."
+
+**Die Zielwerte, die das Gefühl der Bevölkerung betreffen, wörtlich aus der Tabelle:**
+- „Anteil der Bevölkerung, die sich ausreichend vor Manipulation, Desinformation und Formen digitaler
+  Gewalt durch KI-Inhalte geschützt fühlt **≥ 65 Prozent**"
+- „Anteil der Erwachsenen ab 16 Jahren, die sich sicher im Umgang mit KI-Tools fühlen
+  **≥ 60 Prozent**"
+- „Anteil der Erwerbstätigen, die für ihren Beruf einen Nutzen im Einsatz von KI sehen
+  **≥ 55 Prozent**"
+- „Anteil der Bevölkerung, die grundsätzlich offen ist für einen Einsatz von KI-Technologien durch
+  Akteure wie Unternehmen oder den öffentlichen Sektor und sich ausreichend informiert sieht, um
+  diesen kritisch einzuordnen **≥ 75 Prozent**"
+- „Anteil der Bevölkerung, die KI-Anwendungen aktiv im privaten oder beruflichen Alltag nutzt
+  **≥ 80 Prozent**"
+
+**DIE EINSCHRÄNKUNG, die der Bericht selbst macht und die auf ein Blatt gehört, wörtlich:**
+„Auf Basis der definierten Kennzahlen wurden indikative Zielwerte für das Jahr 2030 erarbeitet,
+sofern vergleichbare Beobachtungswerte für Indikatoren bereits heute vorliegen. Wo nicht, müssen
+diese zunächst erhoben werden, um dann Zielwerte zu definieren."
+Und: „Mit den in diesem Bericht genannten Kennzahlen und Zielwerten wird Neuland betreten. Der hier
+dargestellte Aufschlag wird daher im weiteren Prozess überprüft, angepasst und fortgeschrieben."
+**Ohne diese zwei Sätze wäre ein Post unfair.**
+
+**Die Systematik, wörtlich:** Evidenz-Kennzahlen „beruhen häufig auf statistischen Erhebungen,
+amtlichen Datenbeständen oder komplexen Analysen", seien aber „in der Regel sogenannte Lagging
+Indicators". Umsetzungs- oder Leistungskennzahlen „erlauben jedoch keine Aussage darüber, ob die
+angestrebten Wirkungen tatsächlich erreicht werden".
+
+**Weitere Zielwerte, wörtlich aus der Tabelle, alle belastbar:**
+Großunternehmen mit KI-Einsatz „≥ 80 Prozent"; KMU „≥ 55 Prozent"; „Anteil der deutschen
+Wirtschaftsleistung, der KI-basiert erwirtschaftet wird ≥ 10 Prozent"; „Anzahl der KI-Startups
+gegenüber dem Referenzjahr 2025 + 300 Prozent"; Wachstum privater Unternehmensinvestitionen in
+KI-Anwendungen gegenüber 2025 „+ 300 Prozent"; „Anteil der Bundesbehörden, die mindestens eine
+produktiv genutzte KI-Anwendung zur Bearbeitung von Kernaufgaben oder zur Entlastung der
+Zentralabteilung einsetzen ≥ 90 Prozent"; „Veränderung der in Deutschland bestehenden
+KI-Rechenzentrumskapazität gegenüber 2025 + 300 Prozent"; „Jährliche Steigerung der Investitionen in
+F&E in KI in Deutschland ≥ 15 Prozent"; Beschäftigte mit regelmäßigen Weiterbildungsangeboten des
+Arbeitgebers „≥ 65 Prozent"; „Anteil der Frauen unter den Studierenden in MINT-Studiengängen in
+Deutschland ≥ 45 Prozent"; KI-Toptalente mit langfristig positiven Karriereperspektiven
+„≥ 75 Prozent"; Anteil KI-nutzender Unternehmen mit Testaten oder Zertifikaten „≥ 80 Prozent";
+Anteil neuer Frontier-AI-Modelle, die das AISI binnen vier Monaten bewertet, „≥ 75 Prozent".
+**18 ressortübergreifende Schlüsselmaßnahmen.** Der Rechenzentrumswert ist eine amtliche Zahl für
+den Strang um Post 27.
+
+**DIE DÜNNE FUNDSTELLE, festhalten.** Der Bericht begründet die Dringlichkeit so, wörtlich: „Unter
+den dort getroffenen Annahmen kann das jährliche Wirtschaftswachstum um durchschnittlich 0,8
+Prozentpunkte höher liegen als im Referenz-Szenario. Kumuliert bis 2040 könnten so 4,5 Billionen
+Euro an zusätzlicher Wertschöpfung erwirtschaftet werden, wenn Deutschland rechtzeitig die
+Voraussetzungen dafür schafft". Quelle ist **Fußnote 1**: „Künstliche Intelligenz: Potenzielle
+Effekte für den deutschen Arbeitsmarkt - IAB (Zugriff: 02.11.2026)". **Institut und Zugriffsdatum,
+ohne Titel, Nummer und Datum der IAB-Veröffentlichung. Die IAB-Arbeit ist nicht gelesen, die 4,5
+Billionen Euro und die 0,8 Prozentpunkte bleiben ungeprüft.**
+
+**Zur Steuerung, wörtlich:** „Das Zielbild sollte daher nicht als statisches Dokument, sondern als
+fortlaufend weiterzuentwickelndes Steuerungsinstrument verstanden werden. Ambitionen, Kennzahlen,
+Zielwerte und Prioritäten sind regelmäßig zu überprüfen und bei Bedarf anzupassen."
+
+### ZWEITER UNABHÄNGIGER ABRUF DER HERSTELLERDOKUMENTE VOM 05.11. (Regel vom 22.10. erfüllt)
+
+Beide Seiten heute per `curl` lokal geholt und die Zeichenketten im Text gesucht. **Alle gestern
+notierten Sätze stehen wörtlich darin. Damit sind beide Dokumente panelfähig.**
+
+**Google, „Designing responsible AI for learning":** bestätigt der Satz „we are now updating our
+approach to controls for Gemini, Gemini Notebook, Gemini in Classroom, and Google Search", der Satz
+„Access to these products will be entirely off for K-12 student accounts until school administrators
+explicitly turn them on", „Nov 03, 2026", „Chris Phillips", „pilot in select U.S. schools",
+„Starting today, Guided Learning is globally available in Google Classroom".
+**Gegenprobe im Volltext: „2027" null Treffer, „Europe" null, „European Economic Area" null,
+„Germany" null.**
+
+**Claude Help Center, „Get started with smart reports":** bestätigt „They aren't designed and should
+not be used for evaluating individual performance or making employment decisions", „Smart reports
+are available on Claude Enterprise plans and are off by default", „This toggle controls whether
+report viewers can ever see who ran a given session, and each time a viewer reveals names, that
+action is logged", „Union activity: organizing, collective bargaining, coworkers discussing pay or
+working conditions", „Sessions that Claude identifies as involving restricted topics are used only
+for aggregate analysis", „Each organization can run up to 10 reports per month at no charge",
+„Claude then reads a sample of transcripts in that scope", „Updated over a week ago".
+**Gegenprobe: „GDPR" null Treffer, „Europe" null, „works council" null, „Germany" null.**
+
+### E.ON, ENVIAM UND NEURA ROBOTICS (Pressemitteilung vom 05.11.2026)
+
+**Quelle:** E.ON SE, „E.ON, enviaM-Gruppe und NEURA Robotics starten Partnerschaft für Physical AI
+in der kritischen Energieinfrastruktur", **05.11.2026, 09:00 Uhr**, `presseportal.de/pm/108695/6384531`.
+**Belastbar als Unternehmensmitteilung.** Anlass war heise online, 05.11.2026, 12:09 Uhr, dpa.
+
+**Zahlen aus der Mitteilung:** TUM RoboGym „mehr als 2.300 Quadratmetern", eröffnet im Oktober 2026.
+E.ON-Verteilnetz „1,6 Millionen Kilometern", MITNETZ-STROM-Netz „rund 71.000 Kilometern". Erste
+praktische Erfahrungen „im Laufe des Jahres 2027". **Keine Stückzahl der Roboter, keine
+Investitionssumme.** Der heise-Beitrag nennt zum Modell 4NE1 „1,8 Meter groß und rund 64 Kilogramm
+schwer", „nach Angaben der Unternehmen".
+
+**Stephan Lowis, Vorstandsvorsitzender enviaM-Gruppe, wörtlich:** „Unsere Mitarbeitenden leisten
+täglich anspruchsvolle und verantwortungsvolle Arbeit. Humanoide Roboter können sie gezielt
+entlasten, insbesondere bei körperlich belastenden Tätigkeiten oder solchen mit besonderen
+Sicherheitsanforderungen. Sie übernehmen Routinen und Einsätze in potenziell gefährlichen Bereichen,
+damit sich Fachkräfte auf die Aufgaben konzentrieren können, für die es ihre Erfahrung braucht."
+
+**David Reger, Gründer und CEO NEURA Robotics, wörtlich:** „Mit E.ON und enviaM wollen wir dieses
+Wissen über das Neuraverse für intelligente Maschinen nutzbar machen."
+
+**Zur Datenkontrolle, wörtlich:** „E.ON und enviaM behalten dabei zu jedem Zeitpunkt die Kontrolle
+über die eigenen Daten sowie trainierten Fähigkeiten und entscheiden selbst, ob und mit wem diese
+geteilt werden."
+
+**Was die Mitteilung NICHT sagt:** ob Stellen wegfallen oder erhalten bleiben. **Mitbestimmung und
+Betriebsrat kommen nicht vor, Datenschutz nicht ausdrücklich.** Das ist der Punkt für eine Nachfrage.
+
+### KLEINERE FUNDSTÜCKE VOM 06.11.2026
+
+- **netzpolitik.org, „Staatliche Transparenz: Innenminister will Informationsfreiheit durch die
+  Hintertür einschränken"** (05.11.2026, 14:01, Markus Reuter). **Geprüft, bevor abgelehnt**, wie die
+  Regel vom 15.08. es verlangt: „künstliche Intelligenz", „KI" und „automatisiert" kommen im
+  Artikeltext **nicht vor. Kein Kommentar, weil das ein stillschweigender Themenwechsel wäre.**
+  Festgehalten: Referentenentwurf „Transparenz-Anpassungsgesetz", abgelegt bei FragDenStaat,
+  Dateiname mit dem Datum 03.11.2026, **ohne Drucksachennummer und ohne Paragrafen im Artikel**. Laut
+  Beitrag sollen „zahlreiche Politikbereiche über deren Einstufung als ‚kritische Infrastruktur' vom
+  Anwendungsbereich des Informationsfreiheitsgesetzes" ausgeschlossen werden, genannt sind Energie,
+  Transport und Verkehr, Finanzwesen, Gesundheitswesen, Wasser, Ernährung, Informationstechnik und
+  Telekommunikation. Petition mit „mehr als 680.000" Unterschriften. **Vorgemerkt**, weil dieses Repo
+  auf Auskünfte und Drucksachen angewiesen ist.
+- **heise+ „So soll KI-Deutschland in 4 Jahren aussehen"** (05.11., 11:40, Carolin Riethmüller) steht
+  **hinter einer Bezahlschranke**, 16 Minuten Lesezeit. Die Leseprobe nennt die Zielwerte für
+  Unternehmen, Startups, Wirtschaftsleistung und Bundesbehörden. **Resonanz-Kennzahlen, fehlende
+  Ausgangswerte und das Wort Neuland stehen nicht in der Leseprobe**, über den Bezahlteil ist nichts
+  bekannt.
+- **Vorgemerkt, nicht gelesen:** „Brasilien: Gericht verbietet Meta die Nutzung von Medieninhalten
+  für KI-Training" (heise, 05.11., 23:22, ohne Aktenzeichen im Teaser, berührt C-250/25), „Nach
+  US-Zwischenwahlen: OpenAI verspricht anwohnerfreundliche Rechenzentren" (16:40), „Digitale
+  Souveränität: Die Rechnung, die niemand macht" (heise+, 07:00).
+- **Kein Artikel vom 6. November** auf der heise-KI-Themenseite und im netzpolitik-Monatsarchiv. Der
+  oberste heise-Eintrag („OpenAIs für Cybersecurity verbessertes KI-Modell GPT-6 Cyber hält sich an
+  Regeln", 05:04) trägt **kein Datum auf der Seite. Vierter Tag mit demselben Muster.**
