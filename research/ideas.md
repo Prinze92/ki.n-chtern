@@ -8253,3 +8253,168 @@ Betriebsrat kommen nicht vor, Datenschutz nicht ausdrücklich.** Das ist der Pun
 - **Kein Artikel vom 6. November** auf der heise-KI-Themenseite und im netzpolitik-Monatsarchiv. Der
   oberste heise-Eintrag („OpenAIs für Cybersecurity verbessertes KI-Modell GPT-6 Cyber hält sich an
   Regeln", 05:04) trägt **kein Datum auf der Seite. Vierter Tag mit demselben Muster.**
+
+---
+
+## Recherchierte Einzelbefunde vom 07.11.2026
+
+### DER PRÜFPUNKT AUS POST 5 IST EINGELÖST (offen seit 15.08.2026)
+
+In `archive/post-005-killt-ki-die-jobs/sources.md` stand ein Auftrag an uns selbst, wörtlich aus der
+eigenen Datei: „Alle Zahlen im Post stammen deshalb aus **P1**, der Pressemitteilung des IAB zu
+genau diesem Bericht" und „Wer den Bericht öffnen kann, sollte die 1,6 Millionen dort gegenlesen."
+Der Bericht ließ sich damals nicht dekodieren. **Heute ging es.**
+
+**Quelle:** `doku.iab.de/forschungsbericht/2025/fb2325.pdf`, **IAB-Forschungsbericht 23|2025**,
+„Künstliche Intelligenz: Potenzielle Effekte für den deutschen Arbeitsmarkt", **59 Seiten**,
+ISSN 2195-2655. Autorinnen und Autoren: Gerd Zika, Theresa-Marie Hassemer, Markus Hummel (IAB),
+Bennet Krebs, Tobias Maier (BIBB), Anke Mönnig (GWS), Christian Schneemann, Enzo Weber, Johanna Zenk
+(IAB). **Belastbar, Primärdokument, heute gelesen.**
+
+**Wörtlich aus „In aller Kürze", alles panelfähig:**
+> „In diesem Bericht wird mit einer Szenarioanalyse untersucht, welche Wirkungen der Einsatz
+> Künstlicher Intelligenz (KI) auf das Bruttoinlandsprodukt und den Arbeitskräftebedarf in
+> Deutschland innerhalb von 15 Jahren entfalten könnte."
+
+> „Im KI-Szenario fällt das jährliche Wirtschaftswachstum um durchschnittlich 0,8 Prozentpunkte
+> höher aus. Über 15 Jahre kumuliert könnten so 4,5 Billionen Euro an zusätzlicher Wertschöpfung
+> erwirtschaftet werden."
+
+> „Die Zahl an Arbeitsplätzen liegt im KI-Szenario nach 15 Jahren insgesamt auf einem ähnlichen
+> Niveau wie im Referenz-Szenario. Dennoch zeigen sich deutliche Verschiebungen am Arbeitsmarkt."
+
+> „Langfristig sind im KI-Szenario rund 1,6 Millionen Arbeitsplätze vom Strukturwandel betroffen,
+> die über den Projektionszeitraum hinweg entweder auf- oder abgebaut werden."
+
+> „Während in der mittleren Frist der Arbeitskräftebedarf auf Spezialist:innenniveau am stärksten
+> zurückgehen dürfte, werden in der langen Frist im Vergleich zwischen KI- und Referenz-Szenario vor
+> allem weniger Expert:innen beschäftigt sein; weniger stark betroffen sind Hilfs-, Anlern- und
+> Fachkräfte."
+
+**Branchenzahlen, wörtlich:** „Bei den IT- und Informationsdienstleistern liegt die Zahl der
+Erwerbstätigen nach 15 Jahren beispielsweise um rund 110.000 Personen höher als im Referenz-Szenario.
+Hingegen liegt die Zahl der Erwerbstätigen bei den Unternehmensdienstleistern im KI-Szenario zum
+gleichen Zeitpunkt um rund 120.000 Personen niedriger." Dazu: „Eine KI-induzierte Absenkung der
+Erwerbstätigenzahlen ist jedoch nicht zwingend mit einer Verschlechterung der Arbeitsmarktlage
+verbunden."
+
+**KEIN KORREKTUR-POST.** Post 5 ist am Original bestätigt, das Archiv wird nach den
+Repo-Konventionen nicht angefasst.
+**Eine Präzisierung für die Akten:** In `sources.md` steht als nicht veröffentlichte Angabe
+„Nachfrage nach Hilfs- und Anlernkräften bleibt stabil". Der Bericht formuliert schwächer, „weniger
+stark betroffen sind Hilfs-, Anlern- und Fachkräfte". **Das ist nicht dasselbe wie stabil.** Die
+Angabe stand nie auf einem Blatt, es ist also nichts zu korrigieren, aber so steht es jetzt richtig
+im Repo.
+
+**Der Referenzpfad, aus demselben Bericht, wörtlich:** „Demnach werden bis zum Jahr 2040 rund 4,0
+Millionen Arbeitsplätze im Vergleich zu 2023 wegfallen und gleichzeitig 3,1 Millionen Arbeitsplätze
+neu entstehen. Dies sind 0,9 Millionen Erwerbstätige weniger als 2023. Dies ist vor allem auf die
+demografische Entwicklung zurückzuführen." Quelle dort: achte Welle der Qualifikations- und
+Berufsprojektionen, QuBe-Projekt, Maier u. a. 2024. **Neu und bisher nicht verwendet.**
+
+### DIE FUSSNOTE DES TASKFORCE-BERICHTS IST AUFGELÖST, UND DIE AUSLASSUNG BENANNT
+
+Gestern stand hier, die größte Zahl des KI-Taskforce-Berichts hänge an einer Fußnote, die nur
+Institut und Zugriffsdatum nennt. **Die Quelle ist IAB-Forschungsbericht 23|2025, und 0,8
+Prozentpunkte sowie 4,5 Billionen Euro stehen dort wörtlich. Gestern ungeprüft, heute belastbar.**
+
+**Korrektur meiner eigenen Vermutung von gestern:** Der Taskforce-Bericht schreibt „Kumuliert bis
+2040", das IAB schreibt „Über 15 Jahre kumuliert". Da der IAB-Bericht von November 2025 stammt, sind
+fünfzehn Jahre etwa 2040. **Das ist eine Rundung und kein Fehler.** Ich hatte eine Abweichung
+vermutet, sie besteht nicht.
+
+**Die Auslassung, belegbar:** Der Taskforce-Bericht übernimmt aus dieser Quelle den Wachstumsteil.
+Den Satz, dass die Zahl der Arbeitsplätze nach fünfzehn Jahren auf ähnlichem Niveau liegt, und die
+1,6 Millionen umgeschichteten Stellen nennt er nicht. **Das ist eine Auslassung in einem amtlichen
+Dokument und gehört auf ein Blatt.**
+
+### WASSERVERBRAUCH VON RECHENZENTREN, ÖKO-INSTITUT FÜR GREENPEACE (Stand 11/2026)
+
+**Quelle:** „Wasserverbrauch von Rechenzentren in Deutschland. Auswertung statistischer Daten und
+Verbrauchsprognosen", Kurzstudie im Auftrag von Greenpeace e.V., erstellt von **Öko-Institut Consult
+gGmbH**, Autoren **Jens Gröger und Felix Behrens**, **Stand 11/2026**, **8 Seiten**.
+`greenpeace.de/publikationen/Kurzstudie_Wasserverbrauch_deutsche_Rechenzentren.pdf`
+**Belastbarkeit: Primärquelle für ihre eigene Rechnung, Auftraggeber ist eine Umweltorganisation.
+Das gehört in jeden Post dazu.** Heute heruntergeladen und gelesen.
+
+**Die drei Kernaussagen, wörtlich:**
+> „Deutsche Rechenzentren verbrauchten 2025 rund 13 Milliarden Liter Wasser zur Kühlung. Diese Menge
+> entspricht dem jährlichen Trinkwasserbedarf von 275.000 Personen in Deutschland, der Füllmenge von
+> 5.000 olympischen Schwimmbecken oder dem Wasservolumen des Berliner Wannsees."
+
+> „Bis zum Jahr 2030 kann der Wasserverbrauch auf bis zu 27 Milliarden Liter pro Jahr ansteigen. Das
+> entspricht dem Trinkwasserverbrauch von 580.000 Menschen. Die Auswirkungen sind vor allem lokal
+> spürbar: Für ein Rechenzentrum mit 100 Megawatt Anschlussleistung schätzt das Modell den jährlichen
+> Wasserbedarf je nach Kühltechnik auf 200 bis 930 Millionen Liter."
+
+> „Fehlende Transparenz erschwert die Bewertung der ökologischen Folgen von Rechenzentren. Die Studie
+> kritisiert sowohl die schlechte Meldequote als auch die schlechte Datenqualität im
+> Transparenzregister: Nur 139 von 319 Betreiberangaben zum Wasserverbrauch bestehen den
+> Plausibilitätstest."
+
+**DIE MELDEKETTE, wörtlich, panelfähig und die Verbindung zu Post 27:**
+> „Für das Jahr 2025 sind von den schätzungsweise 1.200 betroffenen Rechenzentren 484 Betreiber
+> dieser Pflicht nachgekommen, wovon 319 ihre Daten im Register offengelegt haben."
+
+**1.200, dann 484, dann 319, dann 139.** Gerechnet auf die Meldepflichtigen sind 139 **11,6 Prozent,
+eigene Rechnung**, also weniger als zwölf Prozent. **Das ist die unabhängige Messung für das, was
+hier seit dem 23.10. als Vermutung stand.**
+
+**Rechtsgrundlage, wörtlich:** „Nach dem Energieeffizienzgesetz (EnEfG) müssen Betreiber von
+Rechenzentren und Informationstechnik die Verbrauchsdaten und Effizienzkennzahlen in ein nationales
+Energieeffizienzregister für Rechenzentren melden. Die Meldung hat jeweils zum 31. März für die Werte
+des Vorjahres zu erfolgen."
+
+**Weiter wörtlich:** „Im Sommer 2026 ging das Rechenzentrumsregister online und bietet Einblicke in
+den Ressourcenverbrauch deutscher Rechenzentren. Doch das Register deckt auch ein massives
+Transparenzproblem der Branche auf: Weniger als die Hälfte der rund 1200 meldepflichtigen
+Rechenzentren erfüllten ihre gesetzliche Meldepflicht."
+Und zum Ausbau: „Die Bundesregierung plant bis 2030 eine Verdoppelung der Kapazitäten. Während
+bisherige Anlagen meist unter 5 Megawatt Anschlussleistung blieben, entstehen nun
+Mega-Rechenzentren mit 100 Megawatt bis über 1 Gigawatt. In Deutschland sind knapp 30 solcher
+Projekte in Planung."
+Und zu den Folgen: „In bereits trockenen Regionen können sie akuten Grundwasserstress,
+Verteilungskonflikte mit steigenden Belastungen für die Menschen in den betroffenen Gemeinden und
+Schäden am lokalen Ökosystem verursachen."
+
+**KORREKTUR IN EIGENER SACHE.** Hier stand seit dem 23.10. und bestätigt am 24.10., dass
+`rechenzentrumsregister.bund.de` mit HTTP 503 antwortet. **Die Studie belegt, dass das Register seit
+Sommer 2026 online ist und Daten liefert.** Als Werkzeugbefund war meine Notiz richtig, als Aussage
+über das Register wäre sie falsch gewesen. **So steht es jetzt richtig.**
+
+**Abweichung in der Berichterstattung:** Der netzpolitik-Beitrag nennt **482** meldende
+Rechenzentren, die Studie nennt **484**. In einem Post gilt die Studie.
+
+**Methodik, wörtlich:** Die Studie kombiniert die Registerwerte „mit den Hochrechnungen des
+Fraunhofer Instituts für Zuverlässigkeit und Mikrointegration zum Strombedarf von Rechenzentren in
+Deutschland (Stobbe et al., 2025)". **Diese Hochrechnung ist nicht gelesen, offener Punkt.**
+Weitere Werte aus der Berichterstattung, in der Studie nicht gegengeprüft: gewichteter Mittelwert
+0,67 Liter pro Kilowattstunde IT-Strom, bis zu 1,6 Liter pro Kilowattstunde abgeführter Wärme bei
+Verdunstungskälte, Bitkom-Angabe von maximal 0,1 Liter pro Kilowattstunde für fast zwei Drittel der
+Anlagen. **Die Bitkom-Angabe ist ungeprüft.**
+
+**Die Studie verweist auf unseren eigenen Strang:** Die Bundesregierung habe „dem Verein Netzpolitik
+im August 2026" mitgeteilt, „sie wisse nicht, wie viel Wasser diese benötigen werden".
+
+### KLEINERE FUNDSTÜCKE VOM 07.11.2026
+
+- **„Rabbit-Hole-Effekt: EU-Kommission hält TikTok-Feed für schädlich"** (netzpolitik, 06.11., Anna
+  Ströbele Romero). **Vorläufige Feststellungen einer EU-Behörde**, berührt den Strang um
+  Altersprüfung und EU Kids Act. **Hoch bewertet und vorgemerkt, erster Punkt für morgen**, das
+  Kommissionsdokument fehlt noch.
+- **Vorgemerkt, nicht gelesen:** „Zu schnell, zu groß": Protestierende in ganz Europa kämpfen gegen
+  den Rechenzentrums-Boom" (netzpolitik, 06.11., Muna Turki, auch englisch), „Nach US-Zwischenwahl:
+  Skepsis gegenüber KI-Boom löst heftigen Börsenabsturz aus" (heise, 06.11., 07:03, berührt Post 12).
+- **„Breitbandausbau: Die schwierigen letzten Meter"** (netzpolitik, 06.11., Tomas Rudl). **Kein
+  KI-Kern, nicht vorgemerkt.**
+- **Meinungsbeiträge heute:** „Auf den Punkt: Der Widerstand gegen Metas KI-Hunger zeigt Wirkung"
+  (netzpolitik, 06.11.) und „Microsoft ist kein Schicksal" (heise, 06.11., 13:37). **Die Regel vom
+  05.11. greift.**
+- **Kein Artikel vom 7. November** auf der heise-KI-Themenseite und im netzpolitik-Monatsarchiv.
+  **Heute trugen alle 16 heise-Einträge ein Datum**, das Muster der vier Tage davor ist einmal
+  unterbrochen.
+- **Werkzeugnotiz, neu und wichtig.** Der abrufende Agent hat heute die 125-Zeichen-Grenze **auf
+  meine Vorgabe geschoben** und seine Zitate deshalb gekürzt, obwohl ich das Gegenteil verlangt hatte.
+  **Folge: Agenten-Zitate sind nie panelfähig, auch wenn sie als wörtlich ausgewiesen sind.** Beide
+  Dokumente von heute sind lokal gelesen, deshalb ist das hier kein Schaden. **Die Regel vom 21.10.
+  gilt ab jetzt ohne Ausnahme.**
