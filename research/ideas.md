@@ -8418,3 +8418,126 @@ im August 2026" mitgeteilt, „sie wisse nicht, wie viel Wasser diese benötigen
   **Folge: Agenten-Zitate sind nie panelfähig, auch wenn sie als wörtlich ausgewiesen sind.** Beide
   Dokumente von heute sind lokal gelesen, deshalb ist das hier kein Schaden. **Die Regel vom 21.10.
   gilt ab jetzt ohne Ausnahme.**
+
+---
+
+## Recherchierte Einzelbefunde vom 08.11.2026
+
+### KOMMISSION, IP/26/2361: VORLÄUFIGE FESTSTELLUNGEN ZUM „FOR YOU"-FEED (06.11.2026)
+
+**Quelle:** Europäische Kommission, Pressemitteilung **IP/26/2361**, **Brüssel, 6. November 2026**,
+„Commission preliminarily finds TikTok's ‚For You' feed in breach of Digital Services Act for
+harmful ‚rabbit holes' effect", zwei Seiten. **Belastbar, Dokument der Kommission, heute lokal
+gelesen, englisches Original und deutsche Fassung.** Anlass war netzpolitik.org, 06.11.2026,
+17:08 Uhr, Anna Ströbele Romero.
+
+**WERKZEUGBEFUND, WICHTIG FÜR ALLE KÜNFTIGEN EU-RECHERCHEN.**
+`ec.europa.eu/commission/presscorner/detail/de/ip_26_2361` liefert eine JavaScript-Hülle mit **einem
+Zeichen** Text. **Diese zwei Wege funktionieren:**
+- `ec.europa.eu/commission/presscorner/api/documents?reference=IP/26/2361&language=de` liefert JSON.
+- `ec.europa.eu/commission/presscorner/api/files/document/print/<lang>/<ref_klein>/<REF_GROSS>_<LANG>.pdf`
+  liefert das Dokument als PDF, hier
+  `.../print/en/ip_26_2361/IP_26_2361_EN.pdf` und `.../print/de/ip_26_2361/IP_26_2361_DE.pdf`.
+**Damit sind Kommissionsmitteilungen erreichbar, obwohl EUR-Lex mit HTTP 202 und null Bytes antwortet
+und Curia nur noch eine Angular-Hülle ausgibt.**
+
+**ZWEITER WERKZEUGBEFUND, BETRIFFT DIE PANEL-REGEL.** Die deutsche Fassung trägt mitten im Text:
+„Dies ist eine maschinelle Übersetzung. Nur das Original ist maßgeblich. Die Europäische Kommission
+übernimmt keine Verantwortung für die Qualität und Genauigkeit dieser maschinellen Übersetzung."
+Die Qualität ist sichtbar schlecht: dort steht „das Design des Futtermittels ‚For You'" und „bedient
+der Algorithmus mehr der gleichen führenden Benutzer nach Kaninchenlöchern".
+**Folge: Für ein Beleg-Panel gilt nur das englische Original. Eine deutsche Wiedergabe muss als
+eigene Übersetzung gekennzeichnet werden.**
+
+**Wörtlich aus dem Original, alles panelfähig:**
+> „Today, the European Commission has preliminarily found TikTok in breach of the Digital Services
+> Act (DSA) for the so-called ‚rabbit hole effect' of its recommender system."
+
+> „TikTok's ‚For You' feed shows users a continuous stream of personalised videos, even when those
+> are related to mental health struggles and body image. The more a user interacts with a certain
+> type of content, the more TikTok's ‚For You' feed algorithm recommends similar content."
+
+**DER SATZ FÜR DAS PANEL:**
+> „The control tools do not effectively enable users to control the content recommended to them. For
+> example, using the ‚not interested' button may not be enough to change the content feed. The
+> algorithm prioritises showing users content based on viewing time, over their choice to see less
+> of certain content."
+
+**Was die Kommission verlangt, wörtlich:**
+> „At this stage of the investigation, the Commission considers that TikTok needs to change the
+> design of the ‚For You' feed. For example, TikTok should rely more on users' explicit preferences,
+> disable viewing time as an indicator to recommend content, increase the accessibility and usability
+> of user controls, and regularly test its algorithm."
+
+**Zur Risikobewertung, wörtlich:** „The Commission preliminarily found that TikTok did not adequately
+assess how its recommendation algorithm may lead users into such ‚rabbit holes', putting their
+wellbeing at risk." Und zu den Folgen: „Repeated exposure to such content may have serious negative
+effects on users' wellbeing, including increased feelings of sadness or anxiety, body
+dissatisfaction, lower self-esteem, or worsening of existing eating disorders and mental
+conditions."
+
+**Zur Minderung, wörtlich:** „Today's findings also preliminarily conclude that TikTok failed to
+implement proportionate, reasonable and effective mitigation measures to address these risks."
+
+**DIE EINSCHRÄNKUNGEN, gehören auf ein Blatt, wörtlich:** „These preliminary findings do not prejudge
+the outcome of the investigation." Dazu: „TikTok now has the possibility to exercise its right to
+defence. It may examine the documents in the Commission's investigation files and reply in writing to
+the Commission's preliminary findings. In parallel, the European Board for Digital Services will be
+consulted." Und zur Buße: „up to but not more than 6% of the total worldwide annual turnover of the
+provider".
+
+**Verfahrensstand, wörtlich:** „the Commission adopted preliminary findings related to addictive
+design in February 2026, as well as related to protection of minors in July of the same year",
+Datenzugang für Forschende mit vorläufigen Feststellungen im Oktober 2025, Werbetransparenz im
+Dezember 2025 „through binding commitments" abgeschlossen. Unterstützt hat „The Irish Digital
+Services Coordinator (DSC), Coimisiún na Meán". Zitiert wird **Henna Virkkunen**, Exekutiv-
+Vizepräsidentin für technologische Souveränität, Sicherheit und Demokratie, Datum 06/11/2026.
+Medienkontakte Thomas Regnier und Patricia Poropat.
+
+**Was der netzpolitik-Beitrag zusätzlich sagt und was davon ungeprüft bleibt:** Er schreibt,
+DSA-Verfahren hätten „keine konkreten Fristen". **Ungeprüft.** Er nennt den Kids Act als im
+September vorgestellt und einen Entwurf zum Digital Fairness Act für die kommende Woche.
+**Beides vorgemerkt, nicht geprüft.** TikTok wird im Beitrag nicht wörtlich zitiert.
+
+### BKA-FAHNDUNG MIT KI-BILD: INHALTLICH STARK, QUELLE NICHT ERREICHBAR
+
+**Anlass:** heise online, „Drohnen-Vorfall in Leipzig: BKA fahndet mit KI-Bild", **07.11.2026,
+12:37 Uhr**, Nico Ernst, teilweise hinter einer Bezahlschranke.
+
+**Was berichtet wird, Belastbarkeit berichtet:** Das Bundeskriminalamt fahndet nach dem Fund einer
+mit Semtex und Zündvorrichtung bestückten Drohne bei geparkten Antonow-Frachtmaschinen am Flughafen
+Leipzig/Halle mit **KI-generierten Bildern** einer verdächtigen Person, dazu einer Vergrößerung des
+Gesichtsbereichs. Tatzeitraum nach dem Fahndungsaufruf **31. Juli bis 4. August 2026**. Drei
+Personen sollen beteiligt gewesen sein, Bilder gibt es nur von einer. Mutmaßlicher Startplatz
+zwischen Rabutz und Beuditz. Ein DHL-Frachtflugzeug kollidierte kurz zuvor mit einem kleinen Objekt.
+Bildunterschrift bei heise: „(Dieses Bild wurde mit KI generiert)", Bildquelle BKA. Fahndungsplakate
+am Flughafen nach einem vom Beitrag zitierten Spiegel-Bericht.
+
+**WERKZEUGBEFUND, Verschärfung gegenüber dem 29.10.** `www.bka.de` ist aus dieser Umgebung **nicht
+mehr erreichbar, auch nicht für HTML**. Drei Versuche heute auf
+`.../Fahndungen/Personen/UnbekanntePersonen/LEJ/Sachverhalt.html`, mit und ohne Query, und auf die
+Übersichtsseite, alle mit „Recv failure: Connection reset by peer", auch mit Browser-Kennung und
+`Accept-Language: de-DE`. **Am 29.10. gingen HTML-Seiten noch, nur PDF-Downloads scheiterten.**
+
+**Was damit ungeprüft bleibt und einen Post blockiert:** ob das BKA das Bild selbst als KI-generiert
+kennzeichnet, ob es vollständig erzeugt oder ein bearbeitetes Foto ist, auf welcher Grundlage es
+veröffentlicht wird, und ob eine Belohnung ausgeschrieben ist. **Der Wortlaut von Artikel 50 des AI
+Act liegt ebenfalls nicht vor**, weil EUR-Lex unerreichbar bleibt. **Eine Bewertung, ob eine
+Kennzeichnungspflicht Behörden trifft, wäre Rechtsberatung und findet nicht statt.**
+
+### KLEINERE FUNDSTÜCKE VOM 08.11.2026
+
+- **Dünne Nachrichtenlage.** Fünf heise-Einträge am 7. November, ein netzpolitik-Wochenrückblick,
+  **kein Eintrag vom 8. November** auf beiden Seiten. Alle heise-Einträge trugen heute ein Datum,
+  zweiter Tag ohne das Muster vom 3. bis 6. November.
+- **Vorgemerkt, nicht gelesen:** „Protest gegen Microsoft-Rechenzentrum in Amsterdam, viele
+  Festnahmen" (heise, 07.11., 11:31), netzpolitik „KW 45: Die Woche, in der die Welt gegen
+  Rechenzentren aufbegehrte" (07.11., Martin Schwarzbeck), „Smart Glasses zwischen Teilhabe,
+  Missbrauch und Lifestyle" (c't uplink, 07.11., 06:30, berührt Post 10).
+- **„Sichere Architektur für KI-Agenten im Backoffice"** (heise developer, 07.11., 08:21) und
+  **„Vom Skill zum Plugin"** (13:00, heise-Angebot). **Nicht vorgemerkt.**
+- **Werkzeugnotiz, zweiter Tag in Folge und jetzt eindeutig.** Der abrufende Agent hat die
+  125-Zeichen-Grenze erneut angewandt und ausdrücklich geschrieben, sie stamme „aus meinen eigenen
+  Vorgaben und nicht aus dem Werkzeugtext", obwohl ich das Gegenteil verlangt hatte. **Damit steht
+  fest: Zitate aus dem Abrufagenten sind nie panelfähig, auch wenn sie als wörtlich ausgewiesen
+  sind.** Beide Dokumente von heute sind lokal gelesen, deshalb ist kein Schaden entstanden.
