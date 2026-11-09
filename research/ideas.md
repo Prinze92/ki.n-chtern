@@ -8541,3 +8541,131 @@ Kennzeichnungspflicht Behörden trifft, wäre Rechtsberatung und findet nicht st
   Vorgaben und nicht aus dem Werkzeugtext", obwohl ich das Gegenteil verlangt hatte. **Damit steht
   fest: Zitate aus dem Abrufagenten sind nie panelfähig, auch wenn sie als wörtlich ausgewiesen
   sind.** Beide Dokumente von heute sind lokal gelesen, deshalb ist kein Schaden entstanden.
+
+---
+
+## Recherchierte Einzelbefunde vom 09.11.2026
+
+### WERKZEUGBEFUND: TAGESSCHAU.DE IST ÜBER CURL ERREICHBAR
+
+Seit Wochen stand hier, `tagesschau.de` sei aus dieser Umgebung nicht abrufbar. **Das gilt nur für
+das Fetch-Werkzeug.** Über `curl` mit Browser-Kennung und `Accept-Language: de-DE` lieferte die
+Seite heute **HTTP 200 und 455 Kilobyte**, der Text ist vollständig extrahierbar.
+
+**Das ist dasselbe Muster wie am 03.11. bei `gesetze-im-internet.de` (dort HTTP 503 über das
+Werkzeug, 200 über curl) und am 04.11. bei `michigan.gov` (403 über das Werkzeug, 200 über curl).**
+**NEUE ARBEITSREGEL: Eine Quelle gilt erst dann als unerreichbar, wenn auch `curl` gescheitert ist.**
+
+**Heute trotz curl gescheitert:** `www.bka.de`, **vierter Versuch**, erneut „Recv failure:
+Connection reset by peer". Und der Wortlaut des AI Act: `eur-lex.europa.eu` antwortet auf
+`OJ:L_202401689`, auf die ELI-Route `eli/reg/2024/1689/oj/deu/pdfa1a` und auf `CELEX:32024R1689`
+jeweils mit **HTTP 202 und null Bytes**, `op.europa.eu` mit **404**. **Artikel 50 bleibt unbelegt.**
+
+### SWR DATA LAB: RECHENZENTREN VERÖFFENTLICHEN IHRE VERBRÄUCHE NICHT
+
+**Quelle:** tagesschau.de, „Trotz gesetzlicher Verpflichtung: Verbrauch vieler Rechenzentren nicht
+öffentlich einsehbar", **Stand 06.11.2026, 06:04 Uhr**, von **David Wünschel, Natalie Widmann und
+Jan Russezki, SWR**.
+`tagesschau.de/investigativ/swr/rechenzentren-transparenz-wasserverbrauch-stromverbrauch-100.html`
+**Belastbarkeit: Presse mit eigener Recherche und namentlichen Auskünften. Heute lokal gelesen.**
+Aufgegriffen von heise online, „Intransparente Rechenzentren: Versteckspiel beim Energiehunger",
+08.11.2026, 07:14 Uhr, Stefan Krempl.
+
+**Der Befund, wörtlich:** „Recherchen und Anfragen des SWR Data Lab bei rund 30 der bundesweit
+größten Betreiber zeigen allerdings: mehr als die Hälfte von ihnen kommt dieser Pflicht mutmaßlich
+nicht nach. Im Internet fand der SWR die vorgeschriebenen Angaben nicht. Auf Anfragen reagierten
+viele Betreiber nicht oder verweigerten die Auskunft. Darunter sind auch Marktführer wie Equinix,
+NTT und CloudHQ."
+
+**Die Pflicht, wörtlich:** „Betreiber sind nach dem Energieeffizienzgesetz dazu verpflichtet, für
+jedes größere Rechenzentrum Daten zu Strom- und Wasserverbrauch zu veröffentlichen."
+
+**DER JURISTISCHE SATZ, wörtlich, Bernhard Wegener, Professor für Öffentliches Recht und Europarecht
+an der Friedrich-Alexander-Universität Erlangen-Nürnberg:**
+> „Mit dem Energieeffizienzgesetz ist diese Praxis nicht vereinbar. Die Öffentlichkeit hat einen
+> Anspruch auf diese Daten."
+
+**DER SATZ, DER DEN STRANG VON AUSSEN BESTÄTIGT, wörtlich:**
+> „Tatsächlich enthält das deutsche Energieeffizienzgesetz, anders als die EU-Richtlinie, aber keine
+> Ausnahme für Betriebs- und Geschäftsgeheimnisse."
+
+**Das Register in Zahlen, wörtlich:** „Von den 100 größten Rechenzentren in Deutschland ist dort
+allerdings nur knapp jedes vierte verzeichnet." Und: „Laut BMWE hätten viele Betreiber ihre Daten
+zwar an das Ministerium übermittelt, einer Veröffentlichung im RZReg jedoch nicht zugestimmt. Wo die
+Betreiber ihre Angaben offenlegen, bleibt ihnen selbst überlassen." Das Register wurde nach dem
+Beitrag **im August** vom Bundeswirtschaftsministerium veröffentlicht.
+
+**Die Aufsicht, wörtlich.** BAFA: es gebe „keine Absprachen, um bestimmte Angaben wegen Betriebs-
+und Geschäftsgeheimnissen von der Veröffentlichung auszunehmen". BMWE: Kontrollen seien „nicht
+erforderlich", es handele sich um eine „allgemein gültige Rechtspflicht". Wegener hält das für
+„rechtsstaatlich problematisch".
+
+**Die Betreiber, wörtlich.** Equinix sei der Auffassung, „sämtliche anwendbaren Berichts- und
+Offenlegungspflichten gemäß dem Energieeffizienzgesetz" zu erfüllen, und argumentiert, Angaben zu
+einzelnen Rechenzentren könnten Wettbewerbern verraten, wo das Unternehmen wächst und investiert.
+NTT nennt nur den Gesamtenergieverbrauch 2025, der „dem Jahresverbrauch von etwa 450.000 Haushalten
+entspricht", und verweigert Standortangaben unter Verweis auf die EU-Richtlinie. CloudHQ reagierte
+nicht. Die GDA hält die Zurückhaltung für nachvollziehbar und verweist auf den Schutz digitaler
+Infrastruktur.
+
+**Julian Bothe, KI- und Nachhaltigkeitsexperte bei AlgorithmWatch, wörtlich:** „Wir sind mitten in
+einer Energiepreiskrise und in einer Wasserkrise." Und: „Damit wir darüber diskutieren können, ist
+es notwendig, dass die Öffentlichkeit über den Ressourcenverbrauch einzelner Rechenzentren Bescheid
+weiß." Zur Novelle vermutet er, Betreiber wollten nicht offenlegen, „wie groß der Stromverbrauch
+schon heute ist und wie viel Energie aufgrund von Ineffizienzen verschwendet wird".
+
+**Zur Novelle, wörtlich:** „Eine geplante Änderung des Energieeffizienzgesetzes könnte die
+Transparenz weiter einschränken. Sie sieht vor, Betriebs- und Geschäftsgeheimnisse von der
+Veröffentlichungspflicht auszunehmen. Die Bundesregierung würde damit Forderungen von Bitkom und GDA
+entgegenkommen."
+**Eine Drucksachennummer nennt der Beitrag nicht. Hier liegt sie seit dem 24.10.: Drucksache
+21/8027 vom 16.09.2026.**
+
+**UNGEPRÜFT aus diesem Beitrag, ausdrücklich gekennzeichnet:**
+- Die EU-Geheimhaltungsklausel sei „nach Recherchen der Zeit" nahezu wortgleich von einem
+  Lobbyverband übernommen worden und verstoße möglicherweise gegen die Aarhus-Konvention.
+  **Zuschreibung an ein anderes Medium, hier nicht geprüft.**
+- Bitkom: „knapp vier Prozent des gesamten Stroms in Deutschland".
+- Bitkom: „100 Rechenzentren mit einer Anschlussleistung von fünf Megawatt oder mehr".
+- Ein von AlgorithmWatch in Auftrag gegebenes Gutachten, nach dem Strom- und Wasserverbrauch nur in
+  Ausnahmen schützenswerte Geheimnisse sein dürften. **Gutachten nicht gelesen.**
+
+**DAMIT STEHEN DREI UNABHÄNGIGE BEINE UNTER DEMSELBEN BEFUND:** Drucksache 21/8027 im Original, die
+Kurzstudie des Öko-Instituts für Greenpeace mit der Meldekette 1.200, 484, 319, 139, und die
+SWR-Recherche mit juristischer Einschätzung und Auskünften von BAFA und BMWE. **Der Kandidat „Was
+dein Rechenzentrum verbraucht, soll Geschäftsgeheimnis werden" ist der bestbelegte im Repo.**
+**Für das Beleg-Panel gilt die Drucksache**, weil sie das amtliche Dokument ist. Die SWR-Recherche
+gehört auf ein Inhaltsblatt.
+
+### HEISE, „MISSING LINK: WENN DIE KI ZUHÖRT, WO MENSCHEN ES NICHT MEHR TUN" (08.11.2026)
+
+Marie-Claire Koch, 08.11.2026, 08:12 Uhr, 18 Minuten Lesezeit. Über die Doku „Finding Connection"
+von Florian Karner, Weltpremiere März 2026 beim CPH:DOX, deutsche Premiere 7. Mai 2026 beim
+DOK.fest München, 86 Minuten, Produktion DOMAR Film mit der Filmakademie Baden-Württemberg und dem
+SWR. **Berührt Post 14.**
+
+**Angaben aus dem Beitrag, alle ungeprüft:** Eine Stanford-Arbeit mit 1006 befragten Studierenden,
+die Replika nutzen, verlinkt als `nature.com/articles/s44184-023-00047-6`. **Der Abruf scheiterte
+heute mit HTTP 429.** Ergebnis laut Beitrag: „Auf drei Nutzer, die durch die App wieder mehr Kontakt
+zu anderen Menschen fanden, kam demnach etwa einer, bei dem die App solche Kontakte eher
+verdrängte." Italien: vorläufiges Verbot im Februar 2023, Bußgeld von fünf Millionen Euro gegen
+Luka Inc. im Mai 2025. **Nicht an einer Quelle der Behörde geprüft.**
+
+Zitiert werden Florian Karner („Ich finde es tragisch, dass ausgerechnet eine KI diese Lücke füllt.",
+„Die KI ist eher ein Notpflaster.", „Gestellt oder geskriptet ist nichts."), der
+Landesdatenschutzbeauftragte Baden-Württemberg Tobias Keber und der Mainzer Pfarrer Christoph
+Kiworr. **Zitate über den Abrufagenten, also nicht panelfähig.**
+**Nicht bauen, bevor die Stanford-Arbeit oder die italienische Entscheidung vorliegt.**
+
+### KLEINERE FUNDSTÜCKE VOM 09.11.2026
+
+- **Kein Artikel vom 9. November** auf der heise-KI-Themenseite und im netzpolitik-Monatsarchiv.
+  Fünf heise-Einträge am 8. November, bei netzpolitik einer. **Zweites dünnes Wochenende in Folge.**
+- **netzpolitik.org, „Degitalisierung: Agilität"** (08.11., Bianca Kastl). Kolumne. **Die Regel vom
+  05.11. greift.**
+- **„Jensen Huang soll Beziehung zu chinesischer Spionin gehabt haben"** (heise, 08.11., 16:40).
+  Teaser verweist auf „US-Berichte", keine Primärquelle, kein KI-Kern für Leser hier. **Nicht
+  vorgemerkt.**
+- **Der Kandidat zur Kennzeichnungsfrist am 2. Dezember ist heute schwächer geworden.** Ohne den
+  Wortlaut von Artikel 50 fehlt ihm das Beleg-Panel, und EUR-Lex bleibt auf allen geprüften Routen
+  stumm. **Entweder eine andere amtliche Fundstelle finden oder den Kandidaten fallen lassen.**
