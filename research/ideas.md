@@ -8669,3 +8669,188 @@ Kiworr. **Zitate über den Abrufagenten, also nicht panelfähig.**
 - **Der Kandidat zur Kennzeichnungsfrist am 2. Dezember ist heute schwächer geworden.** Ohne den
   Wortlaut von Artikel 50 fehlt ihm das Beleg-Panel, und EUR-Lex bleibt auf allen geprüften Routen
   stumm. **Entweder eine andere amtliche Fundstelle finden oder den Kandidaten fallen lassen.**
+
+---
+
+## Recherchierte Einzelbefunde vom 10.11.2026
+
+### KORREKTUR IN EIGENER SACHE: EUR-LEX IST ERREICHBAR, ÜBER DIE RICHTIGE ROUTE
+
+Hier stand seit dem 04.10. und wiederholt bis zum 09.11., EUR-Lex sei aus dieser Umgebung nicht
+lesbar, jeweils HTTP 202 und null Bytes. **Das gilt für die probierten Routen und nicht für EUR-Lex
+insgesamt.**
+
+**Funktioniert:**
+- `eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:32024R1689` → HTTP 200, 2,7 MB, 144 Seiten.
+- `eur-lex.europa.eu/legal-content/DE/AUTO/?uri=celex:32024R1689` → HTTP 200, 1,6 MB HTML.
+- `eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:32026R1744` → HTTP 200, 1,15 MB, 41 Seiten.
+
+**Stumm oder 404:** `TXT/HTML/?uri=CELEX:...` (202/0), `TXT/PDF/?uri=OJ:L_202401689` (202/0), die
+ELI-Route `eli/reg/2024/1689/oj/deu/pdfa1a` (202/0), und `CELEX:02024R1689`, also die **konsolidierte
+Fassung, mit HTTP 404**.
+
+**NEUE ARBEITSREGEL FÜR EUR-LEX:** erst `CELEX` als PDF über `TXT/PDF`, dann `AUTO`, dann aufgeben.
+**Konsolidierte Fassungen gibt es auf diesem Weg nicht**, also Ursprungsfassung plus
+Änderungsrechtsakt lesen und die Änderung einzeln prüfen.
+
+### DIE SPERRE VOM 04.10. IST AUFGEHOBEN, FÜR ARTIKEL 50
+
+**Der fehlende Rechtsakt liegt vor:** **Verordnung (EU) 2026/1744** des Europäischen Parlaments und
+des Rates **vom 8. Juli 2026**, „zur Änderung der Verordnungen (EU) 2024/1689, (EU) 2018/1139 und
+(EU) 2023/1230 im Hinblick auf die Vereinfachung der Umsetzung harmonisierter Vorschriften für
+künstliche Intelligenz (Digital-Omnibus-Verordnung zur KI)", **Amtsblatt L vom 24.7.2026**,
+**41 Seiten**, ELI `data.europa.eu/eli/reg/2026/1744/oj`. **Belastbar, amtlicher Text, heute
+gelesen.**
+
+**DIE ENTSCHEIDENDE FESTSTELLUNG, wörtlich:** „20. Artikel 50 Absatz 7 erhält folgende Fassung"
+**Von Artikel 50 wird nur Absatz 7 neu gefasst. Die Absätze 1 bis 6 bleiben unverändert.**
+**Damit ist die Sperre vom 04.10. für Artikel 50 aufgehoben, und nur für ihn.** Jeder andere Artikel
+braucht dieselbe Einzelprüfung.
+
+**Artikel 50 Absatz 7 in der neuen Fassung, wörtlich:** „(7) Die Kommission fördert und erleichtert
+die Ausarbeitung von Praxisleitfäden auf Unionsebene, um die wirksame Umsetzung der Pflichten in
+Bezug auf die Feststellung, Markierung und Kennzeichnung künstlich erzeugter oder manipulierter
+Inhalte zu erleichtern. Die Kommission prüft unter weitestgehender Berücksichtigung der Stellungnahme
+des KI-Gremiums nach dem Verfahren des Artikels 56 Absatz 6 Unterabsatz 1, ob die Befolgung dieser
+Praxisleitfäden angemessen ist, um die Einhaltung der in den Absätzen 2 und 4 dieses Artikels
+festgelegten Pflichten zu gewährleisten."
+
+### ARTIKEL 50 DER VERORDNUNG (EU) 2024/1689, GELTENDER WORTLAUT, PANELFÄHIG
+
+**Quelle:** Verordnung (EU) 2024/1689 vom 13. Juni 2024, Amtsblatt L vom 12.7.2024, Seite 82 von 144,
+Artikel 50 „Transparenzpflichten für Anbieter und Betreiber bestimmter KI-Systeme".
+
+**Absatz 1, wörtlich:** „Die Anbieter stellen sicher, dass KI-Systeme, die für die direkte
+Interaktion mit natürlichen Personen bestimmt sind, so konzipiert und entwickelt werden, dass die
+betreffenden natürlichen Personen informiert werden, dass sie mit einem KI-System interagieren, es
+sei denn, dies ist aus Sicht einer angemessen informierten, aufmerksamen und verständigen natürlichen
+Person aufgrund der Umstände und des Kontexts der Nutzung offensichtlich."
+
+**Absatz 2, Anbieterpflicht, wörtlich:** „Anbieter von KI-Systemen, einschließlich KI-Systemen mit
+allgemeinem Verwendungszweck, die synthetische Audio-, Bild-, Video- oder Textinhalte erzeugen,
+stellen sicher, dass die Ausgaben des KI-Systems in einem maschinenlesbaren Format gekennzeichnet und
+als künstlich erzeugt oder manipuliert erkennbar sind." Weiter: „Die Anbieter sorgen dafür, dass —
+soweit technisch möglich — ihre technischen Lösungen wirksam, interoperabel, belastbar und
+zuverlässig sind".
+**Ausnahme am Ende, wörtlich:** „Diese Pflicht gilt nicht, soweit die KI-Systeme eine unterstützende
+Funktion für die Standardbearbeitung ausführen oder die vom Betreiber bereitgestellten Eingabedaten
+oder deren Semantik nicht wesentlich verändern oder wenn sie zur Aufdeckung, Verhütung, Ermittlung
+oder Verfolgung von Straftaten gesetzlich zugelassen sind."
+
+**Absatz 3, wörtlich:** „Die Betreiber eines Emotionserkennungssystems oder eines Systems zur
+biometrischen Kategorisierung informieren die davon betroffenen natürlichen Personen über den Betrieb
+des Systems und verarbeiten personenbezogene Daten gemäß den Verordnungen (EU) 2016/679 und
+(EU) 2018/1725 und der Richtlinie (EU) 2016/680." Mit Ausnahme für gesetzlich zugelassene
+Strafverfolgung.
+**Ob der Berliner Verhaltensscanner unter eine dieser beiden Kategorien fällt, ist offen und wird
+hier nicht entschieden.** Nach der Beschreibung des Senats erkennt er Vorgänge und keine Gefühle.
+
+**Absatz 4, Betreiberpflicht, wörtlich:** „Betreiber eines KI-Systems, das Bild-, Ton- oder
+Videoinhalte erzeugt oder manipuliert, die ein Deepfake sind, müssen offenlegen, dass die Inhalte
+künstlich erzeugt oder manipuliert wurden. Diese Pflicht gilt nicht, wenn die Verwendung zur
+Aufdeckung, Verhütung, Ermittlung oder Verfolgung von Straftaten gesetzlich zugelassen ist."
+Für Kunst und Satire: „so beschränken sich die in diesem Absatz festgelegten Transparenzpflichten
+darauf, das Vorhandensein solcher erzeugten oder manipulierten Inhalte in geeigneter Weise
+offenzulegen, die die Darstellung oder den Genuss des Werks nicht beeinträchtigt."
+Für Texte von öffentlichem Interesse gilt die Pflicht nicht, „wenn die durch KI erzeugten Inhalte
+einem Verfahren der menschlichen Überprüfung oder redaktionellen Kontrolle unterzogen wurden und wenn
+eine natürliche oder juristische Person die redaktionelle Verantwortung für die Veröffentlichung der
+Inhalte trägt."
+
+**Absatz 5, wörtlich:** „Die in den Absätzen 1 bis 4 genannten Informationen werden den betreffenden
+natürlichen Personen spätestens zum Zeitpunkt der ersten Interaktion oder Aussetzung in klarer und
+eindeutiger Weise bereitgestellt."
+
+**ZUR BKA-FRAGE VOM 08.11., beschreibend und ohne Bewertung:** Die Vorschrift sieht für die
+Strafverfolgung eine Ausnahme von der Offenlegungspflicht vor. **Ob sie das KI-Fahndungsbild des
+Bundeskriminalamts erfasst, wird hier nicht beurteilt.** Erledigt ist die naheliegende Annahme, ein
+Amt müsse ein KI-Bild in jedem Fall kennzeichnen. **Sie trägt nach dem Wortlaut nicht ohne weiteres.**
+
+### DIE FRIST AM 2. DEZEMBER 2026 IST AM AMTSBLATT BELEGT
+
+**Hier stand seit dem 06.10.**, die Frist stamme aus Artikel 111 Absatz 4, eingefügt durch die
+Verordnung (EU) 2026/1744, und dieser Rechtsakt sei nicht gelesen. **Heute gelesen, die Angabe
+trifft zu.**
+
+**Nummer 39 des Änderungsrechtsakts, wörtlich, panelfähig:**
+> „(4) Anbieter von KI-Systemen, einschließlich KI-Systemen mit allgemeinem Verwendungszweck, die
+> synthetische Audio-, Bild-, Video- oder Textinhalte erzeugen, die vor dem 2. August 2026 in Verkehr
+> gebracht wurden, treffen die erforderlichen Maßnahmen, um Artikel 50 Absatz 2 bis zum
+> 2. Dezember 2026 nachzukommen."
+
+**Erwägungsgrund 38, die Begründung, wörtlich:**
+> „Um Anbietern generativer KI-Systeme, die den Kennzeichnungspflichten gemäß Artikel 50 Absatz 2 der
+> Verordnung (EU) 2024/1689 unterliegen, ausreichend Zeit einzuräumen, um ihre Verfahren innerhalb
+> einer angemessenen Frist anzupassen, ohne dabei den Markt zu stören, ist es angezeigt, einen
+> Übergangszeitraum von vier Monaten für Anbieter einzuführen, die ihre Systeme bereits vor dem
+> 2. August 2026 in Verkehr gebracht haben."
+
+**Die Präzisierung, die der Kandidat gebraucht hat:** Die Frist gilt **ausschließlich** für Systeme,
+die vor dem 2. August 2026 in Verkehr gebracht wurden. **Wer danach gestartet ist, hat keine
+Übergangsfrist.**
+
+**Der geänderte Artikel 113 Absatz 3, wörtlich:** „a) Die Kapitel I und II gelten ab dem 2. Februar
+2025, mit Ausnahme von Artikel 5 Absatz 1 Unterabsatz 1 Buchstaben ba und bb und Artikel 5 Absätze 1a
+und 1b, die ab dem 2. Dezember 2026 gelten." Und: „c) Kapitel III Abschnitte 1, 2 und 3, mit Ausnahme
+von Artikel 6 Absatz 5, gelten ab dem: i) 2. Dezember 2027 in Bezug auf KI-Systeme, die gemäß
+Artikel 6 Absatz 2 und Anhang III als hochriskant eingestuft sind, und ii) 2. August 2028 in Bezug
+auf KI-Systeme, die gemäß Artikel 6 Absatz 1 und Anhang I als hochriskant eingestuft sind."
+**Der erste Termin ist der Strang vom 03.10.**, die neuen Verbotstatbestände in Artikel 5.
+**Welche das sind, ist noch nicht gelesen. Erster Punkt für morgen.**
+
+**Artikel 113 der Ursprungsfassung, wörtlich, zum Vergleich:** „Sie gilt ab dem 2. August 2026.
+Jedoch: a) Die Kapitel I und II gelten ab dem 2. Februar 2025; b) Kapitel III Abschnitt 4, Kapitel V,
+Kapitel VII und Kapitel XII sowie Artikel 78 gelten ab dem 2. August 2025, mit Ausnahme des Artikels
+101; c) Artikel 6 Absatz 1 und die entsprechenden Pflichten gemäß dieser Verordnung gelten ab dem
+2. August 2027." **„2. Dezember" kommt in der Ursprungsfassung null Mal vor**, geprüft über eine
+Volltextsuche. Das war am 04.10. der Anlass für die Sperre, und die Sperre war richtig.
+
+### NETZPOLITIK, TRAININGSVIDEOS FÜR DEN BERLINER VERHALTENSSCANNER (09.11.2026)
+
+Martin Schwarzbeck, **09.11.2026, 11:05 Uhr**, Kategorie Überwachung. **Belastbarkeit: berichtet.**
+
+**Was berichtet wird:** Die Trainingsdaten seien „zum großen Teil KI-generierte Videos" samt einigen
+realen Szenen, erzeugt von einem Videogenerator aus abstrahiertem Geschehen, für manche Bewegungen
+mit Motion-Capture, produziert „am Einsatzort" in einer Liegenschaft der Berliner Polizei. Hersteller
+ist Staige. **Das Modell werde mit den Bewegungsdaten der Menschen am Kottbusser Tor „weiter
+optimiert"**, und die Vermerke der Einsatzkräfte über gerechtfertigte Alarme flössen als Beispiele
+für „ignore" oder „alarm" ein. Berlin habe „im vergangenen Dezember" erlaubt, die Überwachungs-KI mit
+personenbezogenen Daten zu trainieren und diese an die Software-Hersteller weiterzugeben.
+**Letzteres ist eine Paraphrase des Beitrags und nicht am Gesetz geprüft.**
+
+**Mannheim:** 2.000 Show-Kämpfe bereits veranstaltet, weitere 8.000 für nötig gehalten.
+**Die amtliche Vorgeschichte liegt in `archive/post-009-verhaltenserkennung-mannheim/sources.md`:**
+136 nachgestellte Filmsequenzen aus dem Jahr 2020, Vorbereitung „extrem zeitaufwändig und
+ressourcenintensiv". **Die Reihe 136, 2.000, 10.000 ist eine Dramaturgie, und nur die erste Zahl ist
+amtlich belegt.**
+
+**Mannheimer Polizei, vollständiger Satz aus dem Beitrag:** „Wie sich im Verlauf des Projektes
+zeigte, stehen leider nur sehr begrenzt öffentliche Daten zur Verfügung."
+**Heiko Paulheim**, Professor für Datenwissenschaften in Mannheim, warnt vor Stereotypen wie dem
+„des dunkelhäutigen Angreifers im schwarzen Kapuzenpullover" und sagt, die Leistung werde hinter
+einem auf echten Aufnahmen trainierten Modell zurückbleiben. **Zitate über den Abrufagenten und
+gekürzt, also nicht panelfähig.** 30 Kameras auf der Nordhälfte des Platzes. Keine Angaben zu Kosten,
+Trefferquoten oder Fehlalarmen. netzpolitik hat nach dem kompletten Trainingsdatensatz nach dem
+Informationsfreiheitsgesetz gefragt, **Ergebnis offen**.
+
+**DER WIDERSPRUCH, beide Seiten belegt.** Drucksache 19/26970 vom 06.09.2026, hier im Original
+gelesen: „nicht um eine experimentelle Technologie, sondern um eine bereits etablierte und am
+deutschen Markt verfügbare und bereits bei vielen anderen Kunden eingesetzte Lösung", deshalb sei
+eine externe wissenschaftliche Studie „derzeit nicht vorgesehen". Dagegen die Herstellerbeschreibung
+mit überwiegend erzeugten Trainingsvideos und laufender Optimierung im Betrieb. **Das ist der Kern
+eines Posts.**
+
+### KLEINERE FUNDSTÜCKE VOM 10.11.2026
+
+- **Kein Artikel vom 10. November** auf der heise-KI-Themenseite und im netzpolitik-Monatsarchiv.
+  Zwölf datierte heise-Einträge am 9. November, bei netzpolitik zwei.
+- **Ein heise-Eintrag ohne Datum**, „Anthropic Claude Fable 5.2 ist günstiger, aber Tempo kostet
+  extra", nur Uhrzeit 05:45. **Produkt, nicht vorgemerkt, Datum unbelegt.**
+- **Vorgemerkt, nicht gelesen:** „KI-Coding-Agenten verfrachten Zugangsdaten in öffentliche
+  Repositories" (heise, 09.11., 13:23), „Milliarden-Deal für Gasturbinen: Anthropic sichert sich
+  Energiekapazitäten" (21:13), „Telekom rüstet KI-Fabrik in München nach" (18:17).
+- **Meinungsbeitrag heute:** netzpolitik, „Auf den Punkt: Holterdipolter ist nicht besser."
+  (09.11., Anna Biselli). **Die Regel vom 05.11. greift.**
+- **Die vier stillgelegten Kommentar-Vorschläge vom 19.09., 28.09., 29.09. und 30.09.** sind durch
+  die Sperre vom 04.10. außer Gebrauch. **Sie sind jetzt wieder prüfbar, aber einzeln gegen die
+  Verordnung (EU) 2026/1744 zu kontrollieren, bevor einer davon verwendet wird.**
