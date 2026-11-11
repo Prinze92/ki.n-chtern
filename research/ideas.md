@@ -8854,3 +8854,152 @@ eines Posts.**
 - **Die vier stillgelegten Kommentar-Vorschläge vom 19.09., 28.09., 29.09. und 30.09.** sind durch
   die Sperre vom 04.10. außer Gebrauch. **Sie sind jetzt wieder prüfbar, aber einzeln gegen die
   Verordnung (EU) 2026/1744 zu kontrollieren, bevor einer davon verwendet wird.**
+
+---
+
+## Recherchierte Einzelbefunde vom 11.11.2026
+
+### DIE NEUEN VERBOTE IN ARTIKEL 5, GÜLTIG AB DEM 2. DEZEMBER 2026
+
+**Quelle:** Verordnung (EU) 2026/1744, **Nummer 7**, Änderungen an Artikel 5 der Verordnung
+(EU) 2024/1689, Amtsblatt L vom 24.7.2026. **Belastbar, amtlicher Text, heute gelesen, panelfähig.**
+**Geltungsbeginn** nach dem geänderten Artikel 113 Absatz 3 Buchstabe a: **2. Dezember 2026.**
+
+**Buchstabe ba, vollständig und wörtlich:**
+> „ba) das Inverkehrbringen, die Inbetriebnahme oder die Verwendung eines KI-Systems, das
+> realistische Bild-, Video-, Ton- oder ähnliche Inhalte erzeugt oder manipuliert, in denen intime
+> Körperteile einer bestimmbaren natürlichen Person dargestellt werden oder eine an eindeutig
+> sexuellen Handlungen beteiligte bestimmbare Person dargestellt wird, ohne dass die betreffende
+> Person eine aus freien Stücken erfolgende, spezifische, aufgeklärte, eindeutige und ausdrückliche
+> Zustimmung zu dieser Erzeugung oder Manipulation erteilt hat;"
+
+**Buchstabe bb, wörtlich:**
+> „bb) das Inverkehrbringen, die Inbetriebnahme oder die Verwendung eines KI-Systems, das Material
+> oder Darbietungen im Sinne von Artikel 2 Buchstaben c und e der Richtlinie 2011/93/EU erzeugt oder
+> manipuliert, es sei denn, nach nationalem Recht gilt das ‚unrechtmäßige' Verhalten als
+> gerechtfertigt;"
+**Artikel 2 Buchstaben c und e der Richtlinie 2011/93/EU sind nicht gelesen. Offener Punkt.**
+
+**DIE ERSTE EINSCHRÄNKUNG, Absatz 1a, wörtlich:**
+> „a) Das Inverkehrbringen oder die Inbetriebnahme eines KI-Systems, das Material oder Darbietungen
+> im Sinne von Absatz 1 Unterabsatz 1 Buchstaben ba oder bb generiert oder manipuliert, ist nur
+> verboten, wenn i) die Erzeugung oder Manipulation die Zweckbestimmung des KI-Systems sind oder
+> ii) aufgrund der Gestaltung, des Trainings, der Architektur, der Fähigkeiten oder der nutzerseitigen
+> Funktionen des Systems diese Erzeugung oder Manipulation ein nach vernünftigem Ermessen absehbares
+> und reproduzierbares Ergebnis ist, ohne dass erhebliche technische Änderungen erforderlich sind,
+> und das System nicht über zumutbare und angemessene technische Sicherheitsmaßnahmen und andere
+> Schutzvorkehrungen verfügt, um diese Erzeugung oder Manipulation unter Berücksichtigung einer nach
+> vernünftigem Ermessen absehbaren missbräuchlichen Nutzung zuverlässig zu verhindern und eine
+> beobachtete oder gemeldete missbräuchliche Nutzung zu korrigieren."
+
+Und für die Nutzung, wörtlich: „b) Die Verwendung eines KI-Systems, mit dem Material oder
+Darbietungen im Sinne von Absatz 1 Unterabsatz 1 Buchstaben ba und bb erzeugt oder manipuliert
+werden, ist nur verboten, wenn der Betreiber das System zum Zwecke der Erzeugung oder der
+Manipulation solchen Materials oder solcher Darbietungen verwendet."
+
+**DIE ZWEITE EINSCHRÄNKUNG, Absatz 1b, wörtlich:**
+> „Für die Zwecke von Absatz 1 Unterabsatz 1 Buchstabe ba gilt ein KI-System, mit dem das Material in
+> einer Weise manipuliert wird, die die Sichtbarkeit der dargestellten intimen Körperteile weder
+> erhöht noch die Art der dargestellten eindeutig sexuellen Handlungen verändert, nicht als
+> manipulativ."
+
+**DIE BEGRÜNDUNG, Erwägungsgrund 11, wörtlich:**
+> „Bei nicht einvernehmlich erstelltem intimem Material handelt es sich um sexuelle Gewalt gegen
+> Einzelpersonen, insbesondere Frauen, und sexuellen Missbrauch dieser Personen. KI-Systeme, mit
+> denen Material dieser Art erzeugt oder manipuliert wird, stellen eine gravierende Gefahr für
+> Gesundheit, Sicherheit und für die Grundrechte dar, darunter die Menschenwürde, die persönliche
+> Autonomie, die Unversehrtheit und das Privatleben der Opfer, und können zu potenziell
+> schwerwiegenden, dauerhaften psychischen und sonstigen Schäden führen sowie massivem Missbrauch
+> ermöglichen. Aufgrund der Verbreitung solcher Technologien, die häufig als ‚Nudify-Apps' bezeichnet
+> werden, ist ein ausdrückliches rechtliches Verbot dringend geboten."
+
+**Erwägungsgrund 10, der Anlass, wörtlich:** „Angesichts der technologischen und gesellschaftlichen
+Entwicklungen seit der Annahme der genannten Verordnung, darunter die Einführung und weit verbreitete
+Nutzung von KI-Systemen, mit denen nicht einvernehmlich erstellte intime Bilder, Videos,
+Audioaufnahmen und ähnliches Material … und Darstellungen von sexuellem Missbrauch von Kindern
+erzeugt werden, muss Artikel 5 der genannten Verordnung geändert werden."
+
+**Erwägungsgrund 12, was das Verbot nicht trifft, wörtlich:** „Dieses Verbot sollte Anbieter nicht
+daran hindern, die technischen Kapazitäten von KI-Systemen zur Erzeugung oder Manipulation von
+Bildern, Videos, Audiodateien oder ähnlichem Material weiterzuentwickeln."
+
+**TONLAGE-HINWEIS FÜR EINEN POST:** Das Thema ist sexualisierte Gewalt. **Kein Humor, keine
+Selbstironie, keine Produktnamen, keine Beschreibung von Funktionsweisen.** Beschrieben wird die
+Rechtslage und das geschützte Interesse, bewertet wird kein Einzelfall. **Ein Post, der nur
+„verboten" sagt und die Absätze 1a und 1b weglässt, wäre unvollständig und damit falsch.**
+
+### DIE ZAHL „NEUN VON ZEHN" IST NACHGELESEN (offener Punkt vom 10.11., geschlossen)
+
+**Quelle:** Bericht Video Trends 2026, hier seit dem 23.10., heute erneut gelesen. **Frage KI.14:
+„Inwiefern sollten KI-generierte oder KI-bearbeitete Videos stärker reguliert werden? Bitte geben Sie
+an, wie sehr Sie den folgenden Aussagen zustimmen. (4er Skala)" Basis: Bevölkerung 14+, n = 3.174.
+Angegeben sind Top-2-Werte, also „stimme voll und ganz zu" plus „stimme eher zu".**
+
+| Item, wörtlich | Zustimmung |
+| --- | --- |
+| „KI immer klar kennzeichnen" | 91 % |
+| „Kennzeichnungspflicht bei Inhalten wie Nachrichten/Politik" | 90 % |
+| „KI-Anteil transparent machen" | 89 % |
+| „Plattformen sollten stärker kontrollieren" | 88 % |
+| „Bestimmte Formen/ Deepfakes ganz verbieten" | 83 % |
+| „Nur vollständige KI-Videos kennzeichnen" | 31 % |
+
+**Die Schlagzeile „neun von zehn" trifft zu**, 91 Prozent.
+**DER INTERESSANTERE FUND:** Nur **31 Prozent** wollen die Kennzeichnung auf vollständig erzeugte
+Videos beschränken. **Die Bevölkerung will damit mehr, als Artikel 50 Absatz 2 verlangt.**
+Zusammenfassung des Berichts, wörtlich: „Der Wunsch nach Transparenz ist nahezu einhellig:
+Kennzeichnungspflicht, KI-Anteil und Plattformkontrolle finden breite Zustimmung."
+**Für die Untergruppe, die KI-Videos häufig wahrnimmt (n = 1.348), liegen die Werte bei 92, 92, 90,
+89, 85 und 32 Prozent.** Der Bericht dazu, wörtlich: „Wer KI-Videos häufig begegnet, fordert
+Kennzeichnung und Kontrolle praktisch genauso stark wie alle anderen".
+
+**EINSCHRÄNKUNG, gehört auf ein Blatt:** Es ist eine Befragung, die Werte sind Top-2-Werte einer
+Viererskala. **Zustimmung in einer Umfrage ist keine Rechtslage.**
+
+**Nebenbefund aus demselben Bericht**, Basis „schon KI-Videos begegnet, n = 2.510": Woran die
+Erkennung festgemacht wird, „v. a. an sichtbaren Fehlern", unnatürliches Aussehen 58 Prozent, „zu
+perfektes" Bild 57 Prozent, fehlerhafte Details wie Hände und Augen 49 Prozent. **„KI-Kennzeichnung
+am Video" liegt bei 47 Prozent.** Der Bericht nennt den Abschnitt „Trügerische Sicherheit".
+
+### EU-STUDIE ZUR ONLINE-WERBUNG, TITEL AN DER QUELLE GEPRÜFT
+
+**Anlass:** netzpolitik.org, „EU-Studie: Bei Online-Werbung versagt die europäische Tech-Regulierung",
+**10.11.2026, 19:00 Uhr**, Ingo Dachwitz.
+**Heute an der Quelle geprüft:** Die Publikation heißt „**Online advertising at the crossroads of
+different regulatory frameworks**", Publications Office of the European Union,
+`op.europa.eu/en/publication-detail/-/publication/d466f207-d7fd-11f1-8501-01aa75ed71a1/language-en`,
+**HTTP 200, 441 Kilobyte**. **Im Quelltext der Seite steht kein PDF-Link, die Studie selbst ist nicht
+gelesen. Der Download-Pfad beim Publications Office ist der erste Punkt für morgen.**
+
+**Alles Folgende stammt aus dem netzpolitik-Beitrag und ist UNGEPRÜFT:** Verfasserin sei die
+Beratungsfirma AWO, Auftraggeberin die EU-Kommission, Umfang 570 Seiten. Weltweite Ausgaben für
+Online-Werbung im letzten Jahr „knapp 800 Milliarden Euro", davon „63 Milliarden Euro" in der EU,
+drittgrößter Markt nach den USA und China. Ad Fraud könnte „ein Viertel aller Werbeausgaben in der EU
+im Jahr 2025" gekostet haben, „also etwa 15 Milliarden Euro". Zitat aus der Studie nach dem Beitrag:
+„kaum Anzeichen dafür, dass die relevanten Akteure auf dem Online-Werbemarkt ihre Praktiken
+wesentlich geändert haben". Wolfie Christl: „Die angebliche informierte Einwilligung ist unter diesen
+Bedingungen eine reine Farce." Florian Glatzner vom Verbraucherzentrale Bundesverband hält die
+Vorschläge für nicht ausreichend. **Berührt Post 28.**
+Genannt werden DSGVO, DSA und DMA **jeweils ohne Artikelnummer**, dazu ein für Mittwoch angekündigter
+Vorschlag zum Digital Fairness Act. **Alles vorgemerkt, nichts davon in einen Post, bevor die Studie
+gelesen ist.**
+
+### KLEINERE FUNDSTÜCKE VOM 11.11.2026
+
+- **Hinweis zur eigenen Aktenlage.** In `dl1023` liegt seit dem 23.10. eine Datei `omnibus.pdf` mit
+  332 Kilobyte Text. **Das ist nicht die Verordnung (EU) 2026/1744**, denn die Sperre vom 04.10. blieb
+  danach in Kraft. **Was in `omnibus.pdf` steht, ist nicht erneut geprüft.** Festgehalten, damit die
+  beiden Dokumente nicht verwechselt werden.
+- **„PraxisBarometer 2026: ePA fast überall, doch viel Aufwand und TI-Störungen"** (heise, 10.11.,
+  11:11). Quelle ist eine Erhebung der Kassenärztlichen Bundesvereinigung. **Vorgemerkt und hoch
+  bewertet**, berührt Post 30. **Nicht gelesen.**
+- **Vorgemerkt, nicht gelesen:** „Aktionstage zu Rechenzentren" (netzpolitik, 10.11., auch englisch),
+  „SpaceX will 24 Milliarden US-Dollar für Gaskraftwerk und Rechenzentrum ausgeben" (heise, 07:44),
+  „Anthropic-Börsengang" (15:37), „Kurz vor Bundestagsabstimmung: Geheimdienstreform" (netzpolitik).
+- **Geprüft und verworfen:** „Weniger staatliche Transparenz: Dobrindts Pläne sind ‚Angriff auf die
+  Pressefreiheit'" (netzpolitik, 10.11.) und „Racial Profiling: Polizei durchsucht in Frankfurt
+  migrantisch gelesene Personen" (10.11.). **Kein KI-Kern.**
+- **Ein heise-Eintrag ohne Datum**, „Bericht: Jensen Huangs Affäre brachte Nvidia-Chips im
+  Milliardenwert nach China", nur Uhrzeit 05:03. **Nicht vorgemerkt, Datum unbelegt.**
+- **Kein Artikel vom 11. November** auf der heise-KI-Themenseite und im netzpolitik-Monatsarchiv zum
+  Abrufzeitpunkt.
