@@ -9003,3 +9003,149 @@ gelesen ist.**
   Milliardenwert nach China", nur Uhrzeit 05:03. **Nicht vorgemerkt, Datum unbelegt.**
 - **Kein Artikel vom 11. November** auf der heise-KI-Themenseite und im netzpolitik-Monatsarchiv zum
   Abrufzeitpunkt.
+
+---
+
+## Recherchierte Einzelbefunde vom 12.11.2026
+
+### DIE 800.000 SIND DIE EINE HÄLFTE VON 1,6 MILLIONEN
+
+**Anlass:** heise online, „Nahles: ‚800.000 Jobs werden aufgrund von KI wegfallen'", **11.11.2026,
+09:48 Uhr**, dpa, Kürzel (mho). **Beitrag endet hinter einer Bezahlschranke.**
+
+**Was berichtet wird, Belastbarkeit berichtet.** Andrea Nahles, nach dem Text „Die Chefin der
+Bundesagentur für Arbeit", sagte dem Handelsblatt: „Wir prognostizieren, dass in den nächsten 15
+Jahren etwa 800.000 Jobs in Deutschland aufgrund von KI wegfallen," und „aber ähnlich viele auch neu
+entstehen". Stärker betroffen seien Dienstleister für Unternehmen sowie analytische Tätigkeiten bei
+Versicherungen und Banken; robust seien Berufe wie das Handwerk. **Das Handelsblatt-Interview ist
+nicht gelesen, heise nennt kein Datum der Äußerung und keinen Link.** Erwähnt wird außerdem eine
+Warnung vor einem jährlichen Netto-Verlust von „rund 500.000 Arbeitskräften" durch die Demografie,
+**das gehört nicht zur 800.000-Aussage.**
+
+**DER ABGLEICH mit dem, was hier seit dem 07.11. liegt.** IAB-Forschungsbericht 23|2025, im Original
+gelesen. **Impressum wörtlich:** „Herausgeber Institut für Arbeitsmarkt- und Berufsforschung der
+Bundesagentur für Arbeit", „Veröffentlichungsdatum 19. November 2025", Lizenz CC BY-SA 4.0.
+**Das ist das Forschungsinstitut der Behörde, die Nahles leitet.**
+
+Aus dem Bericht, wörtlich: „Die Zahl an Arbeitsplätzen liegt im KI-Szenario nach 15 Jahren insgesamt
+auf einem ähnlichen Niveau wie im Referenz-Szenario." Und: „Langfristig sind im KI-Szenario rund 1,6
+Millionen Arbeitsplätze vom Strukturwandel betroffen, die über den Projektionszeitraum hinweg
+entweder auf- oder abgebaut werden."
+
+**Die Rechnung:** 800.000 wegfallende plus ähnlich viele neue Stellen ergeben 1,6 Millionen bewegte
+Stellen. Zeithorizont fünfzehn Jahre in beiden Fällen. Branchenangabe deckungsgleich: Der Bericht
+nennt den stärksten KI-bedingten Rückgang „bei den Unternehmensdienstleistern" mit rund 120.000
+Personen, Nahles nennt „Dienstleister für Unternehmen".
+
+**AUSDRÜCKLICH ALS EIGENE LESART GEKENNZEICHNET:** Nahles nennt im heise-Beitrag kein Institut und
+keinen Bericht, sie sagt „Wir prognostizieren". **Dass sie sich auf diesen Bericht bezieht, ist
+plausibel und nicht belegt.** Belegt ist: Es gibt einen Bericht des Instituts ihrer Behörde mit
+derselben Größenordnung, demselben Horizont und derselben Branche.
+
+**Zu Post 5 geprüft, ausdrücklich kein Korrekturfall.** Post 5 („Killt KI die Jobs?") hat 2026 genau
+diese Dramaturgie gebaut, 1,6 Millionen bewegte Stellen gegen netto nahe null, und bleibt richtig.
+**Ein neuer Post mit derselben Figur wäre eine Wiederholung.** Der neue Anlass ist die Äußerung der
+Behördenchefin und die Zahl 800.000. **Entweder andere Bauform oder nur als Kommentar.**
+
+### ARTIKEL 2 DER RICHTLINIE 2011/93/EU (offener Punkt vom 11.11., geschlossen)
+
+**Quelle:** Richtlinie 2011/93/EU, geholt über `eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:32011L0093`,
+**HTTP 200, 14 Seiten. Belastbar, amtlicher Text.** Der neue Buchstabe bb in Artikel 5 der
+KI-Verordnung verweist auf die Buchstaben c und e.
+
+**Buchstabe c, wörtlich:** „‚Kinderpornografie' i) jegliches Material mit Darstellungen eines Kindes,
+das an realen oder simulierten eindeutig sexuellen Handlungen beteiligt ist; ii) jegliche Darstellung
+der Geschlechtsorgane eines Kindes für primär sexuelle Zwecke; iii) jegliches Material mit
+Darstellungen einer Person mit kindlichem Erscheinungsbild, die an realen oder simulierten eindeutig
+sexuellen Handlungen beteiligt ist, oder jegliche Darstellung der Geschlechtsorgane einer Person mit
+kindlichem Erscheinungsbild für primär sexuelle Zwecke oder iv) realistische Darstellung eines
+Kindes, das an eindeutig sexuellen Handlungen beteiligt ist, oder realistische Darstellung der
+Geschlechtsorgane eines Kindes für primär sexuelle Zwecke"
+
+**Buchstabe e, wörtlich:** „‚pornografische Darbietung' die Live-Zurschaustellung für ein Publikum,
+einschließlich mittels Informations- und Kommunikationstechnologie, i) eines Kindes, das an realen
+oder simulierten eindeutig sexuellen Handlungen beteiligt ist, oder ii) der Geschlechtsorgane eines
+Kindes für primär sexuelle Zwecke"
+
+**Buchstabe a, zur Einordnung, wörtlich:** „‚Kind' jede Person unter achtzehn Jahren".
+
+**Die Verweisungskette des neuen Verbots ist damit vollständig belegt.** Die Tonlage-Regel vom 11.11.
+gilt unverändert: kein Humor, keine Produktnamen, keine Beschreibung von Funktionsweisen, keine
+Bewertung eines Einzelfalls.
+
+### DIE EU-WERBESTUDIE LIEGT VOR (offener Punkt vom 11.11., geschlossen)
+
+**WERKZEUGBEFUND, wiederverwendbar.** Die Publikationsseite beim Publications Office nennt keinen
+PDF-Link im Quelltext. **Dieser Pfad funktioniert:**
+`op.europa.eu/o/opportal-service/download-handler?identifier=<uuid>&format=pdf&language=en&productionSystem=cellar`
+**HTTP 200, 7,8 Megabyte.** Die Route `publications.europa.eu/resource/cellar/<uuid>` antwortet mit
+**HTTP 400**.
+
+**Titelangaben wörtlich:** „Study on ‚Online advertising at the crossroads of different regulatory
+frameworks'. Final report", „Written by Nick Botton, Lex Zard and Oana Goga", „Prepared by AWO",
+„April 2026", „Manuscript completed in April 2026". European Commission, Directorate-General for
+Communications Networks, Content and Technology, Directorate D — Online Platforms - Economy,
+Unit D.2 — Digital Markets. Luxembourg: Publications Office of the European Union, 2026.
+ISBN 978-92-68-44486-3, doi:10.2759/3761596, CC BY 4.0. **571 Seiten.**
+
+**DER HAFTUNGSAUSSCHLUSS, gehört in jede Verwendung, wörtlich:** „The opinions expressed are those of
+the author(s) only and should not be considered as representative of the European Commission's
+official position."
+**Damit ist die Formulierung „EU-Studie" aus der Berichterstattung zwar nicht falsch, aber sie
+verdeckt, dass das Dokument nicht die Position der Kommission ist.**
+
+**Abstract, wörtlich, panelfähig:**
+> „The online advertising market generates negative impacts on advertisers, publishers and EU
+> citizens. Much market innovation has grown misaligned with the objectives of EU law linked to
+> privacy, user safety, contestability and fairness. This problem could worsen with the market's
+> growing uptake of artificial intelligence (AI)."
+
+> „Improvements in transparency since the introduction of the Digital Markets Act (DMA) have been
+> piecemeal, and insufficient for advertisers and publishers to make informed decisions about where
+> to spend their resources, including when they want to behave ethically and prevent their budgets
+> from being lost to fraud and disseminators of illegal content and disinformation."
+
+> „Similarly, the Digital Services Act (DSA) has so far failed to increase transparency regarding the
+> effectiveness of measures taken by large platforms to prevent their online advertising systems from
+> harming users and society."
+
+**Aus der Zusammenfassung, der Satz mit dem größten Leserbezug, wörtlich:** „social media platforms'
+ad-funded business models can lead them to develop recommender systems that maximise for engagement,
+which can exacerbate a range of harms for users, including the amplification of content that is
+emotional and provocative (e.g., politically charged content, disinformation, and self-harm
+content)". **Derselbe Mechanismus, den die Kommission am 06.11. bei TikTok vorläufig festgestellt
+hat. Zwei Dokumente, ein Befund.**
+
+Weiter aus der Zusammenfassung, wörtlich: „Initiatives and models with the most risks to privacy and
+data protection are those that support traditional forms of behavioural advertising, such as Consent
+or Pay and alternative ID solutions". Und: Begrenzungen der Nutzung personenbezogener Daten könnten
+gleichzeitig „Improve users' privacy and data protection", „Improve the protection of vulnerable
+people and children", „Reduce the monetisation of illegal content and disinformation", aber auch
+„Harm publishers' ability to generate revenues and media pluralism" und „Reduce contestability".
+
+**NOCH UNGEPRÜFT:** Die Zahlen aus dem netzpolitik-Beitrag, also 800 Milliarden Euro weltweit, 63
+Milliarden in der EU und rund 15 Milliarden Ad Fraud, stehen **nicht** in den gelesenen vierzehn
+Seiten. **Sie sind im Haupttext zu suchen. Offener Punkt.** **Berührt Post 28.**
+
+### KLEINERE FUNDSTÜCKE VOM 12.11.2026
+
+- **„Omnibus-Gesetze der EU und die Folgen für den Datenschutz"** (heise, 11.11., 13:07). Berührt
+  genau den Rechtsakt, der hier seit dem 10.11. gelesen vorliegt. **Vorgemerkt und hoch bewertet,
+  nicht gelesen.**
+- **„GovTech Deutschland: Gut vernetzt, schlecht durchleuchtet"** (netzpolitik, 11.11., Esther
+  Menhard). Beruht nach dem Teaser auf Antworten der Bundesregierung auf eine Anfrage der Grünen,
+  **ohne Drucksachennummer. Vorgemerkt und hoch bewertet**, die Drucksache dürfte auffindbar sein.
+- **„BKA-Herbsttagung: Zwischen Q-Day und Rückschlägen"** (heise, 11.11., 19:26). **Vorgemerkt**,
+  `bka.de` ist seit fünf Tagen nicht erreichbar.
+- **„Gemini Robotics 2.5 sortiert Metallteile bei Mercedes-Benz mit 96 Prozent Erfolg"** (11.11.,
+  13:42). Einsatz in Deutschland, **die 96 Prozent sind eine Herstellerangabe und ungeprüft.
+  Vorgemerkt.**
+- **„Grok Build: KI-Apps geben Geschäftsgeheimnisse und persönliche Daten preis"** (11.11., 14:02)
+  und **„CERT-EU warnt: Rapide Zunahme der Angriffe mit Agenten-Frameworks wie Artex"** (15:34).
+  **Vorgemerkt**, im Teaser keine benannte Quelle.
+- **„Münchner Rüstungs-KI: Helsing stellt Plattform Clarity vor"** (11.11., 17:52). **Kein Leserbezug
+  im Sinne des Leitprinzips. Nicht vorgemerkt.**
+- **Meinungsbeitrag heute:** netzpolitik, „Auf den Punkt: Der Digital Fairness Act ist
+  Flickschusterei." (11.11., Daniel Leisegang). **Die Regel vom 05.11. greift.**
+- **Kein Artikel vom 12. November** auf beiden Seiten zum Abrufzeitpunkt. Die heise-Themenseite war
+  nur in der ersten Ladung gelesen, 21 Einträge vom 11. November.
