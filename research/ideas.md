@@ -9149,3 +9149,128 @@ Seiten. **Sie sind im Haupttext zu suchen. Offener Punkt.** **Berührt Post 28.*
   Flickschusterei." (11.11., Daniel Leisegang). **Die Regel vom 05.11. greift.**
 - **Kein Artikel vom 12. November** auf beiden Seiten zum Abrufzeitpunkt. Die heise-Themenseite war
   nur in der ersten Ladung gelesen, 21 Einträge vom 11. November.
+
+---
+
+## Recherchierte Einzelbefunde vom 13.11.2026
+
+### DIE MARKTZAHLEN DER EU-WERBESTUDIE, AM DOKUMENT GEPRÜFT
+
+Gestern standen drei Zahlen aus dem netzpolitik-Beitrag vom 10.11. als ungeprüft hier. **Zwei sind
+jetzt belegt, beide weichen in der Form ab.** Quelle: „Study on ‚Online advertising at the crossroads
+of different regulatory frameworks'", Seite 22, hier gelesen.
+
+**Wörtlich:** „Advertisers are expected to spend just over €790bn on online advertising channels
+globally in 2025."
+**Fußnote 17, wörtlich:** „WPP forecasts that online advertising spend will be responsible for 81.6%
+of all advertising spend globally. WPP Media Business Intelligence. (2024). Mid-Year Global
+Advertising Forecast Update: $1.08 Trillion in 2025 Ad Revenue and 6% Growth."
+**Das ist eine Prognose für 2025, keine Ausgabe des Vorjahres, und es sind 790 Milliarden.** Der
+netzpolitik-Beitrag schreibt „Knapp 800 Milliarden Euro" und „gaben Werbetreibende im letzten Jahr
+… aus". **Größenordnung richtig, Zeitform nicht.**
+
+**Wörtlich:** „In 2024, advertisers spent €63bn to reach consumers in the EU through online
+advertising."
+**Fußnote 18, wörtlich:** „Data excludes Cyprus, Luxemburg and Malta." Quelle ist der ADEX Benchmark
+2024 Report des IAB Europe. **Eine Zahl, die drei Mitgliedstaaten ausnimmt, muss das auf dem Blatt
+sagen.** Dazu, wörtlich: „The EU is the third-largest single market for online advertising, after the
+United States (US) and China". Die China-Zahl wurde mit „$143bn" bei einem Kurs von „€1=$1.1"
+umgerechnet.
+
+**DIE DRITTE ZAHL BLEIBT OFFEN.** Die Angabe, ein Viertel der EU-Werbeausgaben 2025 könnte durch Ad
+Fraud verloren gegangen sein, also etwa 15 Milliarden Euro, **habe ich in einer gezielten Suche über
+alle 571 Seiten nicht gefunden**. Gesucht nach „ad fraud" in Verbindung mit Beträgen; Treffer auf den
+Seiten 13, 54, 55, 170, 256 und 309 bis 331 betreffen Definitionen, Prüfdienstleister und Belege zu
+Meta. **Ungeprüft.**
+
+**Nebenbefund, wörtlich, Seite 55:** DoubleVerify und Integral Ad Science seien „the verification
+providers with the highest global revenue, with shared revenue of nearly €1bn in 2023".
+**Definition aus dem Glossar, wörtlich:** „Ad fraud, also referred to as invalid traffic (IVT), is
+the fraudulent representation of online advertising impressions, clicks, conversions, or data events,
+in order to generate revenue."
+
+### GEPRÜFT UND VERWORFEN: PSYCHISCH-KRANKEN-GESETZ SCHLESWIG-HOLSTEIN
+
+**Anlass:** netzpolitik.org, „Psychisch-Kranken-Gesetz in Schleswig-Holstein: Polizei soll bei
+angenommener Fremdgefährdung informiert werden", **12.11.2026, 11:36 Uhr**, Anna Biselli.
+**Geprüft nach der Regel vom 15.08., dann verworfen.**
+
+**Inhalt nach dem Beitrag.** Entwurf von CDU und Grünen, erste Lesung im Landtag, einstimmig an den
+Sozialausschuss überwiesen. Kliniken beurteilen vor Entlassung oder Beurlaubung das Risiko,
+unterrichten den Kreis oder die kreisfreie Stadt, und der Kreis benachrichtigt die Polizei am
+Wohnort, wenn „das wesentlich erhöhte Risiko einer künftigen Fremdgefährdung besteht". Weitergegeben
+werden Name, Adresse und Entlassungsdaten, keine Diagnosen. Die betroffene Person soll informiert
+werden. Neu sind gesetzlich verankerte Fallkonferenzen, bei Fremdgefährdung ohne Einwilligung.
+**Keine Drucksachennummer, kein Entwurfsdatum, kein Paragraf im Beitrag.** Verlinkt ist nur eine
+Landtagsmeldung, `landtag.ltsh.de/nachrichten/26_11_10_hilfe_unterbringung_psychisch_erkrankte/`.
+
+**DER ENTSCHEIDENDE SATZ, wörtlich aus dem Entwurf nach dem Beitrag:** „In geeigneten Fällen soll die
+Beurteilung unter Verwendung eines wissenschaftlichen Beurteilungsinstruments erfolgen"
+**Das Gesetz definiert nicht, was ein solches Instrument ist.**
+
+**NEGATIVBEFUND, der die Entscheidung trägt:** Die Begriffe künstliche Intelligenz, KI, Algorithmus,
+automatisiert und Software **kommen im Beitrag nicht vor**. Ob es sich um Software, ein Punktesystem
+oder einen Fragebogen handelt, steht nirgends. **Kein KI-Kern, also kein Post und kein Kommentar.
+Ein Kommentar wäre ein stillschweigender Themenwechsel.**
+**Sollte sich herausstellen, dass das Instrument softwaregestützt ist, wird der Fall sofort unserer.
+Vorgemerkt.**
+
+**Was für den Strang um Vorhersagesysteme bleibt.** Die DGPPN schreibt in ihrer Stellungnahme zu
+Niedersachsen, eine verlässliche individuelle Vorhersage des Risikos für Fremdgefährdung sei nicht
+möglich. **Dieselbe Frage wie beim Berliner Verhaltensscanner und beim Einstufungssystem in
+Michigan.** Die Stellungnahme ist nicht gelesen, das Zitat kommt über den Abrufagenten und ist
+gekürzt. **Nicht verwendbar, vorgemerkt.** Weitere Angaben aus dem Beitrag: Schätzung einer
+„Risikogruppe von 50 bis 70 Personen" durch den Grünen-Innenpolitiker Jan Kürschner, **ungeprüft**.
+
+### UNABHÄNGIGE BESTÄTIGUNG DES TERMINS 2. DEZEMBER 2027
+
+Im heise-Beitrag „KI in der Justiz" (12.11.2026, 10:36, Marie-Claire Koch) steht, die Regeln für
+Hochrisiko-Systeme nach Anhang III gälten nach einer beschlossenen Änderung „ab dem 2. Dezember
+2027". **Das deckt sich mit dem geänderten Artikel 113 Absatz 3 Buchstabe c, hier am 10.11. im
+Wortlaut aus der Verordnung (EU) 2026/1744 gelesen.** Zwei unabhängige Wege, dasselbe Datum.
+
+### DIGITALE MEDIEN-STAATSVERTRAG TEIL 2, NEUER KANDIDAT
+
+**Anlass:** heise online, „Digitale Medienordnung: Länder wollen Big Tech und KI streng regulieren",
+**12.11.2026, 17:28 Uhr**, Stefan Krempl. **Belastbarkeit: berichtet, der Entwurf ist nicht
+gelesen.** Verlinkt ist `rundfunkkommission.rlp.de/digitale-medien-staatsvertrag-2`.
+
+**Was berichtet wird.** Die Rundfunkkommission der Länder hat einen Diskussionsentwurf „Digitale
+Medien-Staatsvertrag Teil 2" (DMStV) vorgelegt, nach dem Beitrag „am 16. September", **ohne
+Jahresangabe**. Stellungnahmefrist „zu diesem Freitag", **ohne Datum**.
+
+**Vorgeschlagene Pflichten für KI-Anbieter nach dem Beitrag:** journalistische Sorgfaltspflichten
+und Einstehen für generierte Inhalte; bei Nachrichten und politischen Informationen die verwendeten
+Quellen „im Sinngehalt unverfälscht" abbilden und Unsicherheiten deutlich kenntlich machen;
+Transparenz über die Funktionsweise der Algorithmen; und die Angabe, „mit welcher statistischen
+Wahrscheinlichkeit" generierte Aussagen zu Nachrichten und politischen Themen zutreffen.
+**Für Plattformen:** eine Mindestquote, nach der „mindestens jede fünfte Empfehlung" in
+algorithmischen Feeds aus einem Pool qualifizierter Medien stammt, und unentgeltliche direkte Links
+zu journalistischen Angeboten außerhalb geschlossener Ökosysteme.
+
+**Widerspruch im Beitrag selbst, festhalten:** Er nennt eine Vermutung vorherrschender Meinungsmacht
+ab „mindestens vier Milliarden Euro Jahresumsatz" in Deutschland und schreibt zugleich, „Die Höhe
+dieser Schwelle ist im Entwurf allerdings noch nicht festgelegt." **Beides passt nicht zusammen und
+ist am Entwurf zu klären.**
+**Der AI Act kommt im Beitrag nicht vor.** Genannt sind der Deutsche Journalisten-Verband und die
+Medienanstalten, **ohne Personen**. Das Medienkonzentrationsrecht sei „fast dreißig Jahre alt".
+**Erster Punkt für morgen: den Entwurf im Wortlaut holen.**
+
+### KLEINERE FUNDSTÜCKE VOM 13.11.2026
+
+- **heise, „KI in der Justiz"** (12.11., 10:36, Marie-Claire Koch). Es geht um KI-Nutzung **durch**
+  Gerichte. KI-Schriftsätze kommen nur als Begründung vor: Georg Borges meint, die Justiz müsse KI
+  nutzen, sonst werde sie davon überrollt. **Die Sozialgerichtsbarkeit kommt nicht vor**, obwohl
+  Post 16 dazu Zahlen hat. Brasilien: Bestand anhängiger Verfahren Ende 2023 nach dem Nationalen
+  Justizrat 83,8 Millionen, Ende 2025 75,5 Millionen. **Ungeprüft.** Zitiert werden Georg Borges,
+  Tobias Keber und Silja Vöneky.
+- **Vorgemerkt, nicht gelesen:** „Analyse des Koalitionsvertrages: Automatisierte Datenanalyse kommt
+  auch in Mecklenburg-Vorpommern" (netzpolitik, 12.11., berührt Post 15), „Brief an Abgeordnete: 28
+  Organisationen wehren sich gegen Geheimdienstreform" (12.11.), „Münch: Erheblichkeitsschwelle für
+  Datenaustausch ist aus der Zeit gefallen" (heise, 12.11., 18:48, BKA-Herbsttagung), „US-Firmen
+  verkaufen wohl KI-Trainingsdaten an China" (12:23), „Angriff über MCP-Server: Webhoster Mittwald im
+  Krisenmodus" (14:14).
+- **Ein heise-Eintrag ohne Datum**, „Berichte über kartellrechtliche Prüfung Nvidias und weitere
+  Affäre des Ex-Chefs", nur Uhrzeit 05:03. **Nicht vorgemerkt, Datum unbelegt.**
+- **Kein Artikel vom 13. November** auf beiden Seiten zum Abrufzeitpunkt. Die heise-Themenseite war
+  nur teilweise geladen, 21 Einträge vom 12. November.
