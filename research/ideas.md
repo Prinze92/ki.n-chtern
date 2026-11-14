@@ -9274,3 +9274,166 @@ Medienanstalten, **ohne Personen**. Das Medienkonzentrationsrecht sei „fast dr
   Affäre des Ex-Chefs", nur Uhrzeit 05:03. **Nicht vorgemerkt, Datum unbelegt.**
 - **Kein Artikel vom 13. November** auf beiden Seiten zum Abrufzeitpunkt. Die heise-Themenseite war
   nur teilweise geladen, 21 Einträge vom 12. November.
+
+---
+
+## Recherchierte Einzelbefunde vom 14.11.2026
+
+**Rückstau bei vier, dreiundsiebzigster Tag ohne Neubau.** Zwei große Primärdokumente im Original
+gelesen, beide panelreif. Der erste Punkt vom 13.11. ist abgearbeitet.
+
+### Nachrichtendienstrecht: Der Gesetzgeber schreibt selbst hin, dass die KI-Verordnung nicht gilt
+
+**Beschlossen am 13.11.2026 im Bundestag.** Gelesen: Drucksache 21/7868 (Regierungsentwurf vom
+07.09.2026, 612 Seiten) und Drucksache 21/9161 (neu) (Beschlussempfehlung des Innenausschusses vom
+11.11.2026, 112 Seiten). Beide über `dserver.bundestag.de/btd/21/...` erreichbar, PDF, direkt
+lesbar. **Neue funktionierende Route notiert:** `https://dserver.bundestag.de/btd/21/NNN/2NNNNNN.pdf`
+mit dreistelligem Zwischenverzeichnis aus den Stellen 3 bis 5 der Drucksachennummer.
+
+**Der Befund, der den Post trägt.** Begründung zu § 37 Abs. 7 BVerfSchG-E, wörtlich:
+
+> „Die EU-Verordnung über künstliche Intelligenz (2024/1689) gilt nach deren Artikel 2 Absatz 3
+> zwar nicht im Anwendungsbereich des Bundesverfassungsschutzgesetzes (so auch bereits
+> primärrechtlich nach Artikel 4 Absatz 2 satz 3 EUV, vgl. BVerfG, Beschluss vom 8. Oktober 2024
+> – 1 BvR 1743/16 / 1 BvR 2539/16 [BND – Cybergefahren] Rn. 77, 79) und passt darauf
+> bereichsspezifisch auch nicht."
+
+„satz 3" klein geschrieben, so im Original. **Am Verordnungstext gegengeprüft:** Art. 2 Abs. 3
+Satz 2 nimmt KI-Systeme aus, „wenn und soweit sie ausschließlich für militärische Zwecke,
+Verteidigungszwecke oder Zwecke der nationalen Sicherheit" verwendet werden. Die Begründung trifft
+zu, die Einschränkung „wenn und soweit ... ausschließlich" fehlt in jeder gelesenen
+Berichterstattung.
+
+**Was stattdessen gilt**, § 37 Abs. 7 in der beschlossenen Fassung: vier Anforderungen an
+„Anwendungen, die anpassungsfähig auf einen autonomen Betrieb angelegt sind". Beschaffungsvorrang
+für Inland und EU, „angemessenes Niveau an Genauigkeit, Robustheit und Cybersicherheit", Verbot
+diskriminierender Algorithmen, und: „sind auf ordnungsgemäßes Funktionieren durch das Bundesamt für
+Verfassungsschutz stichprobenartig zu überprüfen." **Die Kontrolle liegt beim Amt selbst.**
+
+**Änderung des Innenausschusses, Zeile für Zeile verglichen:** Nummern 1 bis 4 unverändert (bis auf
+„Mitgliedsstaates" statt „Mitgliedstaates"), angefügt wurde ein Satz 2, nach dem bei der
+Geeignetheitsprüfung „auch Belange der Daten-sicherheit und digitalen Souveränität zu
+berücksichtigen" sind. Der Bindestrich in „Daten-sicherheit" steht so in der Vorabfassung.
+
+**Zweiter Strang, am Normtext geprüft.** heise schreibt, die Systeme könnten ohne menschliche Sicht
+Daten löschen oder manipulieren. Trifft zu, ist aber enger: § 37 Abs. 6 erlaubt die automatisierte
+Veranlassung nur für § 59 Abs. 2 Satz 1 Nr. 1 Buchst. b (Umleitung, Unterbindung, Veränderung von
+Übertragungsinhalten) und Buchst. d (Löschung oder Verfälschung gespeicherter Informationen), und
+nur „zur Abwehr eines informationstechnischen Angriffs". Buchst. a und c sind für den automatisierten
+Weg gesperrt. Beim Buchst. c hat der Ausschuss ergänzt, dass falsche Informationen nicht zur
+Diskreditierung einer Person „in deren privatem, beruflichem oder sozialem Umfeld" eingesetzt werden
+dürfen.
+
+**Dritter Strang, kleine Zahl mit Datum.** Die Speicherfrist für kommunikationsbezogene Metadaten
+aus der strategischen Aufklärung wurde vom Innenausschuss von zwölf auf 13 Monate verlängert, zwei
+Tage vor der Abstimmung (Beschlussempfehlung, Buchstabe u, zu § 42 Abs. 1 Satz 2 Nr. 3 Buchst. h).
+Bei einer TKÜ nach § 35 bleiben es zwölf Monate. Für Daten ohne Einsichtnahme: sechs Monate
+Inhaltsdaten, 13 Monate Metadaten. **Die Zahl 13 ist keine einheitliche Frist.**
+
+**Begriffsbefund.** Im Normtext kommt „Künstliche Intelligenz" nicht vor. Das Gesetz spricht von
+„automatisierter Auswertung" (21 Treffer in der Begründung) und von „Anwendungen, die
+anpassungsfähig auf einen autonomen Betrieb angelegt sind". Die Begründung sagt dazu, der Begriff
+automatisierte Auswertung sei „in technischer Hinsicht sehr weit zu verstehen", inbegriffen seien
+„alle denkbaren Arten der Verarbeitungsprogramme, die auf ‚künstlicher Intelligenz‘ bzw.
+selbstlernender Systeme beruhen", ausgenommen nur „einfache Datenabgleiche".
+
+**Offen vor einem Post:** Stand im Bundesrat (als Nächstes befasst). Parallelvorschrift im BNDG
+nicht abschließend geprüft. Die lektorierte Fassung von 21/9161 abwarten, die Vorabfassung trägt den
+Vermerk auf jeder Seite.
+
+### DMStV Teil 2: der Entwurf im Wortlaut, 186 Seiten
+
+**Erster Punkt vom 13.11., erledigt.** Entwurf geladen und gelesen:
+`rundfunkkommission.rlp.de/fileadmin/rundfunkkommission/Dokumente/DMStV_2/Dokumente/2026-09-28_ANHOERUNG_DMStV_II_RFK.pdf`
+
+**Die Frist war der 13. November 2026**, also am Tag des gestrigen Briefings abgelaufen. Die
+Übersichtsseite: „Gelegenheit zur Stellungnahme, für Anmerkungen und Feedback besteht bis zum
+13. November 2026." Eingegangene Stellungnahmen werden ausgewertet und bei Einwilligung
+veröffentlicht.
+
+**Der wichtigste Satz steht auf dem Deckblatt**, und er begrenzt alles:
+
+> „Die nachstehenden Regelungsüberlegungen spiegeln den derzeitigen Beratungsstand zur Umsetzung der
+> Eckpunkte der Rundfunkkommission vom Oktober 2025 wider. Es handelt sich (auch außerhalb eckiger
+> Klammern) NICHT um abschließend geeinte Texte."
+
+„NICHT" in Großbuchstaben im Original. **Jeder Post zu diesem Entwurf muss diesen Satz tragen.**
+
+**§ 77c Abs. 1 Nr. 2, die Wahrscheinlichkeitsangabe**, wörtlich: „bei Inhalten im Bereich Nachrichten
+und politischer Information Angaben dazu, mit welcher Wahrscheinlichkeit die in dem neu generierten
+Inhalt angeführten Ausführungen zutreffend sind".
+
+**§ 77a, die Schwelle:** Die Pflichten gelten nicht für Systeme, die „im Durchschnitt von sechs
+Monaten in Deutschland weniger als eine Million Nutzer pro Monat erreichen oder in ihrer
+prognostizierten Entwicklung erreichen werden". Ausgenommen von der Ausnahme sind § 77b Abs. 1 und 2
+(Zustellungsbevollmächtigter, Verantwortlichkeit für generierte Inhalte).
+
+**§ 2 Abs. 2 Nr. 16a, Definition:** „KI-Informationssystem ein Telemedium, das unabhängig vom Grad
+seiner Individualisierung beim konkreten Einsatz für einen grundsätzlich unbestimmten Nutzerkreis
+bestimmt ist und auch auf der Grundlage journalistisch-redaktionell gestalteter und verantworteter
+Angebote Dritter für den jeweiligen Nutzer individualisiert und automatisiert neue Inhalte zur
+Verfügung stellt." Eine **zweite Fassung** steht zur Diskussion, die stattdessen an „ein KI-System im
+Sinne der Verordnung (EU) 2024/1689" anknüpft. Welche gelten soll, ist offen.
+
+**Der stärkste Hook, § 77b Abs. 4 mit Begründung:** Gegendarstellungen sollen „ab dem Zeitpunkt der
+Geltendmachung verpflichtend in die Wissensbasis des Systems" aufgenommen und „bei erneuten Anfragen
+bevorzugt" angegeben werden. Grund: „Da bei KI-Antworten aufgrund ihrer Nutzerindividualisierung die
+Zuordnung von Gegendarstellungen erschwert ist". Betrifft den Leser direkt, deutlich stärker als die
+Wahrscheinlichkeitsangabe.
+
+**Weitere Vorschriften des Unterabschnitts**, nicht im Detail ausgewertet: § 77d
+Diskriminierungsfreiheit, § 77e Hinweise auf bestimmte Inhalte (vollständig in Klammern, also
+offen), § 77f Vorlage von Unterlagen, § 77g Satzungen und Richtlinien. § 77b Abs. 3 erklärt § 19
+Abs. 2 bis 8 MStV für anwendbar und verlangt für Nachrichten und politische Information eine
+unverfälschte Wiedergabe.
+
+**Aufgelöst: der Widerspruch im heise-Beitrag.** „Mindestens vier Milliarden Euro Jahresumsatz" und
+„im Entwurf allerdings noch nicht festgelegt" sind beide richtig. Der Entwurf schreibt an drei
+Stellen „Umsatzerlöse in Höhe von mindestens [vier] Milliarden Euro", mit eckigen Klammern um die
+Zahl, und nennt in einem vollständig eingeklammerten Absatz eine zweite Stufe „[zwölf Milliarden
+Euro]". Gehört zum Medienkonzentrationsrecht, nicht zum KI-Teil.
+
+**Neue Spur aus demselben Entwurf:** § 19a, koordinierte künstliche Reichweitenverstärkung. Eine
+Vermutungsregel knüpft daran an, dass Echtzeitdaten „auf statistischer Basis eine hohe
+Wahrscheinlichkeit begründen, dass eine erhebliche Erhöhung der Reichweite von Inhalten
+automatisiert oder im Wesentlichen automatisiert erfolgt ist". Als Maßnahme ist in einem
+eingeklammerten Abs. 4 eine Kennzeichnung vorgesehen, mit der „offenzulegen" ist, „dass die hohe
+Wahrscheinlichkeit einer koordinierten künstlichen Reichweitenverstärkung besteht". Das wäre ein
+eigener Post: ein Hinweis am Inhalt, der nicht sagt, dass etwas falsch ist, sondern dass eine
+Statistik Bots für wahrscheinlich hält.
+
+### Berlin, Kottbusser Tor: Datum für den Betriebsbeginn, aber einzelquelle
+
+netzpolitik, Kommentar vom 23.10.2026, „Koalitionsverhandlungen in Berlin: Rot-Rot-Grün muss
+KI-Kameras stoppen": **„Seit dem 6. Oktober läuft am Kottbusser Tor Kamera-Überwachung mit einer als
+KI bezeichneten Software, die automatisiert das Verhalten der Abgebildeten bewertet."** Dazu „etwa
+vier Millionen Euro, die für Kameras und Software an das Unternehmen Adesso gehen sollen".
+**Einzelquelle, nicht primärbelegt**, aber das Datum ist jetzt prüfbar.
+
+**Wichtiger für den Kandidaten:** Die schwarz-rote Landesregierung wurde im September abgewählt,
+Linke, Grüne und SPD verhandeln, und die Kameras waren in den Sondierungen nach Angaben von
+Verhandelnden noch nicht konkret Thema. Ein Post zum Kottbusser Tor kann vom Koalitionsvertrag
+überholt werden. Verfahrensstand datieren oder abwarten.
+
+**Neue Spur, ungeprüft:** „Baden-Württemberg hat als erstes Bundesland bereits beschlossen,
+KI-Kameras und Live-Gesichtserkennung zu kombinieren." Keine Fundstelle im Beitrag. Primärquelle
+suchen, das wäre ein eigener Post. Dasselbe Land hat in Post 9 den Satz „Eine Marktreife konnte
+bislang noch nicht erlangt werden." geliefert.
+
+### Geprüft und verworfen
+
+- **Tinder, 11 Millionen Euro Bußgeld der irischen DPC** (heise, 13.11.). Geprüft, **kein KI-Kern**:
+  Art. 15 Abs. 3 DSGVO, das Werkzeug „Download My Data" lieferte nur einen Auszug, wurde aber als
+  Weg zur Kopie dargestellt. Ermittlungen seit Januar 2020, Berufung angekündigt. **Als Idee
+  vorgemerkt, nicht als Kandidat:** ein automatisches Werkzeug, das behauptet, es liefere „deine
+  Daten", und einen Teil liefert.
+- **Entschließung des EU-Parlaments zu KI in Verwaltung und Demokratie**, von heise auf Donnerstag
+  datiert. **Nicht gefunden.** Die Suche führte auf Resolution 2662 (2026) der Parlamentarischen
+  Versammlung des Europarats vom 24.06.2026 und einen AFCO-Bericht aus dem Oktober. Ungeprüft,
+  offener Punkt.
+- **50 Prozent mehr Beschwerden bei der Europäischen Bürgerbeauftragten** (dieselbe Meldung). Quelle
+  ist eine namenlose Angabe gegenüber einem Portal. **Ungeprüft, nicht verwendbar.** Jahresbericht
+  wäre die Fundstelle, nicht beschafft.
+- **Nvidia-Rücktritt, KI-Aktien, Gemini 4 Hydrogen, Siri AI auf Apple TV, Home Assistant mit KI,
+  Operation Endgame, Mercedes-Investitionsstopp.** Produkt-, Markt- und Personalnachrichten. Nicht
+  vorgemerkt.
