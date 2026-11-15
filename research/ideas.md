@@ -9437,3 +9437,172 @@ bislang noch nicht erlangt werden." geliefert.
 - **Nvidia-Rücktritt, KI-Aktien, Gemini 4 Hydrogen, Siri AI auf Apple TV, Home Assistant mit KI,
   Operation Endgame, Mercedes-Investitionsstopp.** Produkt-, Markt- und Personalnachrichten. Nicht
   vorgemerkt.
+
+---
+
+## Recherchierte Einzelbefunde vom 15.11.2026
+
+**Rückstau bei vier, vierundsiebzigster Tag ohne Neubau.** Eine alte Schuld eingelöst, eine
+Abweichung aufgelöst, der erste Punkt vom Vortag beantwortet.
+
+### EINGELÖST: Der Regierungsentwurf gegen digitale Gewalt liegt vor
+
+Am 07.10.2026 notiert: „Der Regierungsentwurf ist nicht veröffentlicht." **Heute gefunden und
+gelesen:** Bundesrat, **Drucksache 590/26 vom 09.10.2026, 105 Seiten**, TOP 37 der 1070. Sitzung am
+**20.11.2026**. Deckblatt: „Fristablauf: 20.11.26", das ist die Stellungnahmefrist des Bundesrates,
+nicht das Inkrafttreten.
+
+**NEUE FUNKTIONIERENDE ROUTE, wichtig für künftige Läufe:**
+`https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/<nr>-26.pdf?__blob=publicationFile&v=1`
+Das Zwischenverzeichnis ist der Hunderterblock der Drucksachennummer. Tagesordnungen liegen unter
+`https://www.bundesrat.de/SharedDocs/TO/<sitzung>/tagesordnung-<sitzung>.html`.
+`bundesrat.de/DE/service/termine/termine-node.html` antwortet mit HTTP 404, die Startseite nennt die
+nächste Sitzung.
+
+**AUFGELÖST: die Abweichung vom 07.10.** Damals festgehalten: heise nenne einen § 201c zum
+Identitätsmissbrauch, in der Aprilfassung komme „201c" null Mal vor, vor einem Post zu klären.
+**Geklärt: § 201c ist im Regierungsentwurf enthalten**, er heißt „Verletzung von
+Persönlichkeitsrechten durch vorgetäuschte Identität" und ist im Kabinettsbeschluss neu
+hinzugekommen. Die Meldung war richtig, unsere Fassung war älter. **Kein eigener Fehler**, weil die
+Abweichung als offen gekennzeichnet war und nichts veröffentlicht wurde.
+
+**§ 201b StGB-E im Wortlaut** (Artikel 2 des Entwurfs):
+
+> „(1) Wer einer dritten Person einen mittels eines Computerprogramms erstellten oder veränderten
+> Inhalt (§ 11 Absatz 3), der den Anschein erweckt, ein tatsächliches Geschehen in Bezug auf eine
+> andere Person wiederzugeben, und der geeignet ist, dem Ansehen dieser Person erheblich zu schaden,
+> unbefugt zugänglich macht, wird mit Freiheitsstrafe bis zu zwei Jahren oder mit Geldstrafe
+> bestraft, wenn die Tat nicht in anderen Vorschriften mit schwererer Strafe bedroht ist. Dies gilt
+> auch dann, wenn sich die Tat nach Satz 1 auf eine verstorbene Person bezieht.
+> (2) § 201a Absatz 3 und 4 gilt entsprechend."
+
+**Vier Punkte, in der Berichterstattung nicht gefunden:**
+1. **Strafbar ist das Zugänglichmachen, nicht das Herstellen.** Beim sexualisierten Gegenstück
+   § 184k heißt es dagegen „unbefugt herstellt oder einer dritten Person unbefugt zugänglich macht".
+2. Die Hürde „geeignet, dem Ansehen dieser Person erheblich zu schaden" ist im Entwurf nicht
+   konkretisiert.
+3. **Antragsdelikt.** Der geänderte § 205 Abs. 1 nimmt § 201b auf, „es sei denn, dass die
+   Strafverfolgungsbehörde wegen des besonderen öffentlichen Interesses an der Strafverfolgung ein
+   Einschreiten von Amts wegen für geboten hält".
+4. Der Schutz gilt auch für Verstorbene.
+
+**§ 201c StGB-E wörtlich:** „Wer unter Vortäuschung der Identität einer anderen Person einen Inhalt
+(§ 11 Absatz 3), der geeignet ist, dem Ansehen dieser Person erheblich zu schaden, einer dritten
+Person unbefugt zugänglich macht, wird mit Freiheitsstrafe bis zu zwei Jahren oder mit Geldstrafe
+bestraft, wenn die Tat nicht in anderen Vorschriften mit schwererer Strafe bedroht ist."
+
+**§ 202e StGB-E wörtlich:** „Wer den Aufenthaltsort oder die Tätigkeit einer anderen Person
+wiederholt oder ständig mittels Informations- oder Kommunikationstechnik unbefugt in einer Weise
+überwacht, die geeignet ist, die überwachte Person erheblich zu schädigen, wird mit Freiheitsstrafe
+bis zu zwei Jahren oder mit Geldstrafe bestraft." Begründung nennt GPS-Tracker.
+
+**Weitere Änderung:** In § 238 Abs. 1 Nr. 7 wird „Urheberschaft" durch „Identität" ersetzt.
+
+**§ 184k im Vergleich zur Aprilfassung gelesen.** Überschrift jetzt „durch Bildinhalte" statt „durch
+Bildaufnahmen". **Neu die Vorsatzform „absichtlich oder wissentlich"**, die im April fehlte, das
+verengt die Strafbarkeit. Die Deepfake-Variante ist von Nummer 4 zu **Nummer 2** gewandert und
+verlangt jetzt den Anschein in Bezug auf „eine bestimmte andere Person". Neu sind Absatz 2 (Abruf,
+Verschaffen, Besitz von Vergewaltigungsaufnahmen; Nacktaufnahmen unter achtzehn gegen Entgelt),
+Absatz 3 (drei Jahre Höchststrafe, wenn die Aufnahme eine Vergewaltigung abbildet), Absatz 4
+(Antragsdelikt) und Absatz 5 mit Ausnahmen für „Kunst oder der Wissenschaft, der Forschung oder der
+Lehre, der Berichterstattung über Vorgänge des Zeitgeschehens oder der Geschichte". Damit ist die
+heise-Formulierung vom 07.10., der Aprilentwurf sei „an zentralen Punkten weiterentwickelt" worden,
+**am Dokument bestätigt und präzisiert**.
+
+**Zahl mit Fundstelle**, Vorblatt „F. Weitere Kosten": den Ländern entstehen „jährliche Mehrkosten im
+justiziellen Kernbereich in Höhe von rund 1 250 000 Euro". Erfüllungsaufwand für Bürger und
+Wirtschaft jeweils „geringfügig", für die Verwaltung keiner.
+
+**Zivilrechtlicher Teil, nicht im Detail ausgewertet:** ein Gesetz gegen digitale Gewalt (GgdG) mit
+gerichtlichem Auskunftsverfahren, richterlich angeordneter Accountsperre und richterlich
+angeordneter Entfernung von Inhalten, jeweils unter Richtervorbehalt. Soziale Netzwerke ohne Sitz in
+der EU sollen einen inländischen Zustellungsbevollmächtigten vorhalten.
+
+**Offen vor einem Post:** § 201a Abs. 3 und 4 im geltenden Wortlaut (die Ausnahmen, auf die § 201b
+verweist). Ob der Bundesrat am 20.11. eine Stellungnahme mit Änderungen beschließt. Die Übersicht
+der Verbändestellungnahmen vom 03.06.2026 beim Ministerium, nicht gelesen.
+
+### ERLEDIGT: Stand der Geheimdienstreform im Bundesrat
+
+**Die Reform des Nachrichtendienstrechts steht nicht auf der Tagesordnung der 1070. Sitzung am
+20.11.2026.** Alle 63 Tagesordnungspunkte durchsucht, die Begriffe Nachrichtendienst,
+Verfassungsschutz und 21/7868 kommen nicht vor. **Ausdrückliche Einschränkung:** Das ist ein Befund
+über die Tagesordnung zum Abrufzeitpunkt, keine Aussage über das weitere Verfahren.
+Tagesordnungen werden ergänzt, und bei einem Einspruchsgesetz läuft die Frist nach Zuleitung.
+Richtig formuliert heißt der Befund: am 20.11. nicht.
+
+### NEUER KANDIDAT: EU KIDS ACT
+
+**Bundesrat, Drucksache 567/26 vom 28.09.2026, 117 Seiten**, enthält COM(2026) 681 final vom
+17.09.2026, Verfahren 2026/0286 (COD), „Vorschlag für eine Verordnung ... zur Gewährleistung der
+Verantwortung und Vertrauenswürdigkeit digitaler Räume im Internet (EU KIDS ACT)". TOP 45 am
+20.11.2026. **45 Treffer für „2024/1689", 27 für „Empfehlungssystem", sieben für „KI-System".**
+
+Aus der Begründung, wörtlich: Anbieter dürfen Dienste nicht so gestalten, „die darauf abzielt, eine
+zwanghafte oder übermäßige Nutzung des Dienstes durch Minderjährige zu fördern", und „sollten
+wirksame Zeitmanagement-Tools bereitstellen, die die Kernschlafzeiten und die Schulzeit von
+Minderjährigen schützen (Artikel 9)". Weiter müssen Einstellungen „standardmäßig auf ein hohes Maß
+an Privatsphäre, Sicherheit und Schutz von Minderjährigen gesetzt" sein und dürfen „nur geändert
+werden ..., wenn die Minderjährigen diesen Änderungen ausdrücklich zugestimmt haben". Vorgesehen ist
+außerdem ein Zurücksetzen des Empfehlungssystems durch Löschen „aller zuvor ermittelten
+Präferenzen", mit Verweis auf Artikel 38 der Verordnung (EU) 2022/2065 für eine Option ohne
+Profiling.
+
+**Vorsicht, festgehalten:** „Kernschlafzeiten" steht in einem Satz mit „sollten". Für ein
+Beleg-Panel ist **Artikel 9 im Normtext** zu lesen, nicht die Zusammenfassung in der Begründung.
+Noch nicht geschehen.
+
+### GEPRÜFT: Das Taskforce-Zitat zum Haushalt
+
+netzpolitik, 13.11.2026, 11:20, „Bundeshaushalt: Bund verschleiert KI-Ausgaben". **Am
+Ergebnisbericht der KI-Taskforce geprüft**, Abschnitt „Anspruch der dargestellten Zielwerte,
+Kennzahlen und Maßnahmen", Originalwortlaut:
+
+> „Die in diesem Bericht dargestellten Zielwerte, Kennzahlen und Maßnahmen dienen der strategischen
+> Konkretisierung des Zielbilds „Deutschland als KI-Nation 2030" und der Identifikation zentraler
+> Handlungsbedarfe. Sie begründen weder Finanzierungsentscheidungen noch präjudizieren sie laufende
+> oder künftige Haushaltsaufstellungsverfahren. Ebenso stellen sie keine Vorgabe etwa für Länder und
+> Kommunen dar. Gleichzeitig setzt die Erreichung des Zielbilds Beiträge aller staatlichen Ebenen
+> voraus."
+
+**Kleiner Befund zur Zitierpraxis, kein Vorwurf:** netzpolitik gibt den Satz als „weder
+Finanzierungsentscheidungen begründen noch laufende oder künftige Haushaltsaufstellungsverfahren
+präjudizieren" wieder und stellt die Wortstellung für den eigenen Satzbau um. Inhaltlich
+deckungsgleich, **nicht der Wortlaut**. Anschauungsfall für die Regel: kein Panel-Zitat aus einem
+Pressebeitrag, auch nicht aus einem guten.
+
+**Was den Kandidaten trägt, sind die beiden Folgesätze**, die der Beitrag nicht zitiert: Ausnahme für
+Länder und Kommunen und gleichzeitig „Beiträge aller staatlichen Ebenen" als Voraussetzung.
+
+**Zahlen aus dem Beitrag, alle ungeprüft:** über 560 Mrd. Euro Kernhaushalt 2027, davon 20,1 Mrd.
+Digitalausgaben (Berechnung Agora Digitale Transformation mit ZEW), 4,1 Mrd. aus dem Sondervermögen,
+5,3 Mrd. für das Digitalministerium, davon 1,52 Mrd. aus Einzelplan 24 und 3,75 Mrd. anderswoher.
+**Vor einem Post den Haushaltsentwurf 2027 selbst öffnen.**
+
+### Weitere Punkte der 1070. Sitzung, notiert und nicht geöffnet
+
+- **TOP 40, Drucksache 536/26**, Verordnung zur Cloud- und KI-Entwicklung, 174 Seiten, **geladen und
+  nicht gelesen**, 33 Treffer für „KI-System", sechs für „2024/1689". Berührt den
+  Rechenzentrumsstrang um Post 27.
+- **TOP 24, Drucksache 612/26**, Entschließung „Private Betreiber kritischer Infrastruktur ...
+  Videoüberwachung rechtssicher ermöglichen". Berührt den Videoüberwachungsstrang.
+- TOP 7 (Cyberresilienz-Verordnung), TOP 3 (Digitale Identitätengesetz), TOP 37 ist der
+  Kandidat oben.
+
+### Nicht verfolgt
+
+- **Koalitionsvertrag Mecklenburg-Vorpommern** (netzpolitik, 12.11.2026). Vorgemerkt. Der Beitrag
+  nennt Zählungen (Digitalisierung 42-mal, Silbe digital 171-mal), eine Absage an Palantir bei
+  gleichzeitiger automatisierter Datenanalyse, dazu Abschnitte zu Jugendschutz, Alterskontrollen,
+  Rechenzentren. Der Vertrag ist als PDF verlinkt, **nicht geladen**. Vor einem Post selbst
+  auszählen.
+- **Amazon Ring, autonome Drohnen für die Heimüberwachung** (netzpolitik, Datum nicht geprüft).
+  Vorgemerkt, nicht gelesen.
+- **Urteil des AG Hamburg gegen einen TikToker** (heise, 14.11., 17:15): ein Jahr und drei Monate
+  ohne Bewährung wegen heimlicher Aufnahmen, Amtsanmaßung und Verletzung von Persönlichkeitsrechten.
+  Als **Kommentaranlass verwendet**, nicht als Kandidat: Ein Einzelfall ohne KI-System im Kern, der
+  manipulierte Zusammenschnitt war Schnitt und nicht Generierung. **Ob so ein Fall unter § 201b
+  fiele, bewerten wir nicht.**
+- **Inference Manager, Nvidia-Personalie, O2-Zahlen, Microsoft-Ausfall, AWS-Emulator, Agentic AI mit
+  Rust, Smartphone-Fotografie, Router-Verbot, Starship.** Produkt-, Markt-, Personal- und
+  Konferenznachrichten. Nicht vorgemerkt.
