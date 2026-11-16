@@ -9765,3 +9765,27 @@ nirgends, und die Behörde sagt ausdrücklich das Gegenteil über den Umfang ihr
   oder keine persönliche Betroffenheit. Nicht vorgemerkt.
 - **Offen aus der Bundesratssitzung:** TOP 40 (Drs. 536/26, Cloud- und KI-Entwicklung) und TOP 24
   (Drs. 612/26, Videoüberwachung privater Betreiber kritischer Infrastruktur). Heute nicht geöffnet.
+
+### UMGEBUNGSBEFUND 16.11.2026: Sitzung startete im Detached-HEAD-Zustand
+
+**Der erste Push wurde abgelehnt**, Fehlermeldung im Wortlaut:
+
+```
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Prinze92/ki.n-chtern'
+hint: Updates were rejected because a pushed branch tip is behind its remote
+hint: counterpart.
+```
+
+**Ursache:** `git status -sb` zeigte `## HEAD (no branch)`. Der Commit war im Detached-HEAD erzeugt
+worden, der lokale Branch `master` stand noch auf `06078d8` vom 14.11. `git push origin master`
+pusht den Branch und nicht HEAD, also hätte der Push den Remote-Stand zurückgesetzt. Deshalb die
+Ablehnung. **Der Branch `master` war Vorfahr von HEAD**, geprüft mit
+`git merge-base --is-ancestor master HEAD`, also ging die Reparatur ohne Verlust:
+`git checkout -B master <commit>`, dann erneut pushen. Ergebnis identisch.
+
+**Für künftige Läufe:** In Schritt 0 nach dem Pull `git branch --show-current` prüfen. Ist die
+Ausgabe leer, steht die Sitzung im Detached-HEAD und `git checkout master` gehört vor die Arbeit.
+Am 14.11. und 15.11. hat `git branch --show-current` noch `master` ausgegeben, heute war das Feld
+leer, die Prüfung hat das aber nicht als Abbruchgrund erkannt. **Die Push-Kontrolle hat den Fehler
+gefangen**, genau dafür ist sie da.
