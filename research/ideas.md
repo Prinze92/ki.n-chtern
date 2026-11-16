@@ -9606,3 +9606,162 @@ Digitalausgaben (Berechnung Agora Digitale Transformation mit ZEW), 4,1 Mrd. aus
 - **Inference Manager, Nvidia-Personalie, O2-Zahlen, Microsoft-Ausfall, AWS-Emulator, Agentic AI mit
   Rust, Smartphone-Fotografie, Router-Verbot, Starship.** Produkt-, Markt-, Personal- und
   Konferenznachrichten. Nicht vorgemerkt.
+
+---
+
+## Recherchierte Einzelbefunde vom 16.11.2026
+
+**Rückstau bei vier, fünfundsiebzigster Tag ohne Neubau.** Beide offenen Punkte vom Vortag
+abgearbeitet. Der erste hat einen Fehler verhindert, der auf ein Blatt gekommen wäre.
+
+**Umgebungshinweis:** Das Scratchpad war beim Start leer, alle PDFs der Vortage weg. Was belegt
+werden soll, muss im Repo stehen.
+
+### NEUE ARBEITSREGEL: Verweise in Änderungsgesetzen gegen die Entwurfsfassung lesen
+
+Gestern notiert: „§ 201a Absatz 3 und 4 StGB im geltenden Wortlaut lesen, weil § 201b Absatz 2 darauf
+verweist." **Der geltende Wortlaut ist dafür der falsche Maßstab.**
+
+**Geltender § 201a StGB** (gesetze-im-internet.de, heute gelesen): **Absatz 3 regelt Nacktaufnahmen
+von Personen unter achtzehn Jahren gegen Entgelt.** Absatz 4 ist die Ausnahmeregel (Kunst,
+Wissenschaft, Forschung, Lehre, Berichterstattung). Absatz 5 die Einziehung. Hätte man den Verweis
+gegen diese Fassung gelesen, wäre auf dem Blatt gestanden, für gefälschte Videos gelte die
+Nacktbild-Regel entsprechend. **Falsch.**
+
+**Artikel 2 Nummer 6 der Drucksache 590/26 baut § 201a um**, wörtlich: „a) Absatz 3 wird durch den
+folgenden Absatz 3 ersetzt: (3) „Absatz 1 Nummer 2 und 3, auch in Verbindung mit Absatz 1 Nummer 4
+oder 5, sowie Absatz 2 gelten nicht für Handlungen, die in Wahrnehmung überwiegender berechtigter
+Interessen erfolgen, namentlich der Kunst oder der Wissenschaft, der Forschung oder der Lehre, der
+Berichterstattung über Vorgänge des Zeitgeschehens oder der Geschichte oder ähnlichen Zwecken
+dienen." b) Absatz 4 wird gestrichen. c) Absatz 5 wird zu Absatz 4."
+
+In der Entwurfsfassung ist Abs. 3 die Ausnahmeregel und Abs. 4 die Einziehung. **Der Verweis in
+§ 201b Abs. 2 ist damit stimmig.** Der alte Inhalt von Abs. 3 wandert nach § 184k Abs. 2 Nr. 2,
+deshalb musste der Platz frei werden.
+
+**Unabhängige Bestätigung im Entwurf:** Die Artikel 6 und 7 fügen in anderen Gesetzen bei jedem
+Verweis auf „201a Absatz 3" die Formel „in der bis einschließlich … [einsetzen: Datum des Tages vor
+dem Tag des Inkrafttretens nach Artikel 16 Absatz 2 dieses Gesetzes] geltenden Fassung" ein. Genau
+das tut ein Gesetzgeber, der den Inhalt eines Absatzes austauscht.
+
+**REGEL AB HEUTE:** Bei einem Verweis innerhalb eines Änderungsgesetzes ist die Fassung **nach dem
+Entwurf** maßgeblich. Vor dem Zitieren prüfen, ob dasselbe Gesetz die Zielvorschrift mitändert.
+**Kein Korrektur-Post**, es war nichts veröffentlicht und nichts gebaut.
+
+### EU KIDS ACT IM NORMTEXT: zwei blockierte Kandidaten eingelöst
+
+**Drucksache 567/26, 117 Seiten**, COM(2026) 681 final vom 17.09.2026, 2026/0286 (COD). TOP 45 am
+20.11.2026. **Normtext gelesen, nicht nur die Begründung.**
+
+**Artikel 9 – Suchterzeugende Gestaltung, Absatz 1 wörtlich:** „Die Anbieter von Online-Diensten
+sozialer Netzwerke und von Video-Sharing-Plattform-Diensten dürfen ihre Dienste nicht in einer Weise
+konzipieren, organisieren oder betreiben, die dazu bestimmt ist oder für die vernünftigerweise
+vorhersehbar ist, dass sie zwanghafte oder übermäßige Nutzung ... durch Minderjährige fördert."
+
+**Absatz 2, die vier Merkmale, die als Anreiz gelten** (wörtlich, gekürzt nur um Wiederholungen):
+- „a) Möglichkeit des automatischen Abspielens von Inhalten und des ununterbrochenen Konsums von
+  Inhalten ohne wirksame und regelmäßige Unterbrechungsmomente, während denen Minderjährige überlegen
+  können, ob sie mehr Inhalte konsumieren wollen;"
+- „b) Untergrabung der Entscheidung Minderjähriger, die Nutzung des Dienstes zu beenden, ... wie z. B.
+  durch Benachrichtigungen, die nicht durch die Interaktion oder Aktivität des Minderjährigen im
+  Dienst ausgelöst werden oder nicht in direktem Zusammenhang damit stehen;"
+- „c) Anreize für Minderjährige, Inhalte weiterzugeben oder in Echtzeit an eine unbestimmte Zahl von
+  Nutzern zu übermitteln, oder entsprechende Belohnungen;"
+- „d) Schaffung von Anreizen für eine regelmäßige oder häufigere Beschäftigung mit dem Dienst, unter
+  anderem durch Sanktionen oder den Verlust von Vorteilen, wenn die Beschäftigung nicht regelmäßig
+  oder innerhalb bestimmter Zeitabstände erfolgt."
+
+**Buchstabe d ist die Streak-Mechanik**, und sie ist nicht als Verdacht, sondern als geltendes
+Merkmal formuliert. **Das ist der Hook und braucht keine Erklärung.**
+
+**Artikel 10 Absatz 2 Buchstabe b wörtlich:** „sie deaktivieren standardmäßig die Empfehlung von
+Informationen, die vom Empfehlungssystem auf der Grundlage impliziter, auf Beschäftigung mit dem
+Dienst gestützter Signale aus dem Online-Verhalten Minderjähriger vorgeschlagen werden". Buchstabe a
+verlangt Vorrang für ausdrücklich angegebene Präferenzen, Buchstabe c, dass Empfehlungssysteme nicht
+auf außerhalb des Dienstes erhobenen Daten Minderjähriger beruhen.
+
+**Artikel 14 Absatz 1 Buchstabe a wörtlich** (löst den Companion-Strang ein): „Gewährleistung, dass
+Minderjährige keinen suchterzeugenden Gestaltungen ausgesetzt sind, indem Gestaltungsmerkmale und
+Systemverhalten vermieden werden, die zwischenmenschliche Beziehungen simulieren, die zu emotionalen
+Abhängigkeiten führen können, und indem die in Artikel 9 Absätze 1 und 3 festgelegten Maßnahmen auf
+solche Systeme angewandt werden". Buchstabe b: solche Systeme nutzen „standardmäßig keine
+Informationen oder Analysen, die sich aus früheren Interaktionen Minderjähriger ergeben, bei
+nachfolgenden Interaktionen". Buchstabe d: Zugang unter 13 Jahren nur über die Instrumente für
+Erziehungsberechtigte nach Artikel 20. Als Funktion eines sozialen Netzwerks darf ein solcher Chatbot
+„nicht automatisch aktiviert" und auf der Oberfläche nicht hervorgehoben werden.
+
+**Artikel 2 Anwendungsbereich:** sieben Kategorien (soziale Netzwerke, Video-Sharing, Geschäfte für
+Software-Anwendungen, Online-Spiele, Betriebssysteme, KI-Begleiter, allgemeine dialogbasierte
+Chatbots). **Keine Nutzerschwelle**, anders als der DMStV mit seiner Million Nutzer pro Monat. Gilt
+„ungeachtet deren Niederlassungsorts" für die ersten fünf, für KI-Systeme bei Inverkehrbringen oder
+Inbetriebnahme in der Union. Ausgenommen u. a. nicht gewinnorientierte Online-Enzyklopädien und
+Dienste, die in erster Linie Bildungszwecken dienen.
+
+**Weitere Artikel, notiert:** Art. 11 sichere Einstellungen, Art. 12 Schutzvorkehrungen für Kontakte,
+Art. 13 Sicherheit wirtschaftlicher Transaktionen, Art. 15 Online-Spiele, Art. 16 Alterseinstufung in
+App-Stores, Art. 17 Verhaltenskodizes, Art. 18 Handlungsfähigkeit, Art. 19 Meldewege, Art. 20
+Instrumente für Erziehungsberechtigte (mit Interoperabilitätspflicht für sehr große Plattformen nach
+Art. 6 der Verordnung (EU) 2022/1925), **Art. 21 Kollektivbeschwerden**.
+
+**EINGELÖST:** Der Companion-App-Kandidat brauchte bisher das Stanford-Paper, das mit HTTP 429
+antwortete. **Das Paper ist nicht mehr nötig.** Ebenso bekommt „Dein Feed ist so gebaut, dass du
+bleibst" eine Primärquelle.
+
+**KORREKTUR AN EIGENER NOTIZ VOM 15.11.:** Dort stand die Angabe zu „Kernschlafzeiten" aus der
+Begründung. **Im Normtext von Artikel 9 Absatz 1 und 2 kommt das Wort nicht vor.** Die
+Zeitmanagement-Werkzeuge stehen offenbar in Absatz 3, der noch nicht gelesen ist. **Erster Punkt für
+morgen.** Derselbe Fehlertyp wie beim § 201a-Verweis: Zusammenfassung statt Norm.
+
+### META, 805 MILLIONEN EURO: Primärquelle gelesen, zwei Präzisierungen
+
+**Garante per la protezione dei dati personali, Comunicato stampa vom 14.11.2026:**
+`https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10321080`
+Übersichtsseite der Behörde funktioniert, `garanteprivacy.it/home/stampa/comunicati` antwortet
+HTTP 404. Es gibt eine englische Fassung.
+
+**Erstens, die Rechtsgrundlage ist nicht die DSGVO.** Gerügt ist **Artikel 122 des italienischen
+Codice privacy, der die ePrivacy-Richtlinie umsetzt.** Die Behörde schreibt, diese Norm schütze das
+Smartphone als Teil der Privatsphäre, jeder Zugriff brauche eine freie und informierte Einwilligung,
+„a prescindere dalla trasmissione dei dati o dall'esistenza di un danno".
+
+**Zweitens, die Zuständigkeit.** Die Behörde hat die Unzuständigkeitseinrede zugunsten Irlands
+zurückgewiesen, „perché la disciplina ePrivacy non prevede il meccanismo dello 'sportello unico'".
+**Beschreibend wiedergeben, nicht bewerten**, die Folgerung für andere Mitgliedstaaten wäre eine
+Rechtsauskunft.
+
+**Der Satz, der den Kandidaten trägt, wörtlich:** „Il procedimento non ha riguardato l'eventuale uso
+dei contenuti per addestrare l'intelligenza artificiale, che Meta nega." Die Behörde behält sich vor,
+eine 2026 eingeführte Funktion zur Cloud-Verarbeitung der Galerie gesondert zu prüfen.
+
+**Weitere Angaben:** Funktion heißt „Ottieni suggerimenti dalla galleria quando navighi su Facebook",
+verfügbar seit 2023, war voreingestellt aktiv. Verfahren seit Juli 2025 nach Meldung des Centro
+Tutela Consumatori Utenti Bozen. 60 Tage Frist zur standardmäßigen Abschaltung und zur gesonderten
+Einwilligung. Etwa 20 Millionen betroffene Nutzer in Italien. **Die Angabe „0,47 Prozent des
+weltweiten Umsatzes" stammt aus dem heise-Bericht, steht nicht in der Mitteilung und ist
+ungeprüft.**
+
+**Was ein Post nicht tun darf:** die Lücke füllen. „Meta hat heimlich Fotos für KI gelesen" steht
+nirgends, und die Behörde sagt ausdrücklich das Gegenteil über den Umfang ihres Verfahrens.
+**Deutschlandbezug nicht geprüft**, ohne ihn bleibt es ein italienischer Fall.
+
+### Geprüft und nicht verfolgt
+
+- **ChatGPT Wallet** (heise, 15.11., 15:56). **Kein Deutschlandbezug:** nur ChatGPT-Pro-Abonnenten in
+  den USA ab 18 Jahren, mit American Express, Mastercard und Visa. Jeder Kauf wird einzeln
+  biometrisch freigegeben, Agenten erhalten transaktionsspezifische Zahlungstoken statt Kartendaten.
+  **Als Idee vorgemerkt:** OpenAI nennt als Ziel, dass Nutzer Einkäufe „vollständig an Agenten
+  delegieren könnten" und nur Ausgabenhöhe und Zeitraum vorgeben. Dann ist die Haftungsfrage unser
+  Thema.
+- **Klage auf Stopp der KI-Entwicklung** (heise, 15.11., 11:17). Public Citizen, Heat Initiative,
+  Alliance for Secure AI und Irreplaceable Education Fund gegen Anthropic, Google, Meta, OpenAI und
+  SpaceXSI vor dem Superior Court San Francisco, gestützt auf kalifornisches Recht gegen unlauteren
+  Wettbewerb. **Als Kandidat verworfen:** kein deutscher Leser unmittelbar betroffen, und die
+  Leitfrage ist die abstrakte Form, die unser Leitprinzip ausschließt (Fehler vom 14.08.2026). **Als
+  Kommentaranlass verwendet**, mit ausdrücklichem Hinweis auf die nicht belegbare Frage.
+- **Garante-Meldung zu „mehr Autonomie und Privatsphäre für Jugendliche ab 14"**, auf der Startseite
+  der Behörde gesehen. Datum und Inhalt **nicht geprüft**, vorgemerkt für den EU-KIDS-ACT-Strang.
+- **Rhysida-Leak Berlin, Vulcan-Rakete, UnrealIRCd, Phishing nach Microsoft-Ausfall, Megaspeed,
+  Nvidia-Personalie, Krypto-Miner auf N-central, Check-Point-Gateways, JavaLand 2027.** Kein KI-Kern
+  oder keine persönliche Betroffenheit. Nicht vorgemerkt.
+- **Offen aus der Bundesratssitzung:** TOP 40 (Drs. 536/26, Cloud- und KI-Entwicklung) und TOP 24
+  (Drs. 612/26, Videoüberwachung privater Betreiber kritischer Infrastruktur). Heute nicht geöffnet.
