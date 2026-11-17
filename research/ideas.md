@@ -9789,3 +9789,191 @@ Ausgabe leer, steht die Sitzung im Detached-HEAD und `git checkout master` gehö
 Am 14.11. und 15.11. hat `git branch --show-current` noch `master` ausgegeben, heute war das Feld
 leer, die Prüfung hat das aber nicht als Abbruchgrund erkannt. **Die Push-Kontrolle hat den Fehler
 gefangen**, genau dafür ist sie da.
+
+---
+
+## Recherchierte Einzelbefunde vom 17.11.2026
+
+**Rückstau bei vier, sechsundsiebzigster Tag ohne Neubau.** Der offene Punkt vom Vortag ist geklärt,
+und zwar gegen die eigene Vermutung. Wichtiger: **Ein veröffentlichter Post ist überholt.**
+
+**Branch-Prüfung aus dem Umgebungsbefund vom 16.11. hat funktioniert**, `git branch --show-current`
+gab `master` aus.
+
+### POST 21 IST ÜBERHOLT: drei Vorschriften lauten heute anders
+
+**Anlass.** netzpolitik, 16.11.2026, 17:02, „Pläne der Bundesregierung: Dutzende Organisationen
+warnen vor KI bei Migrationsverfahren". Beim Prüfen, ob das Thema vergeben ist, kam heraus: Post 21
+(„Das BAMF soll seine KI mit Asylanträgen trainieren dürfen", live seit 29.08.2026) beruht auf dem
+**Referentenentwurf vom 25.06.2026**. Seit **30.09.2026** liegt der **Gesetzentwurf der
+Bundesregierung** als **Bundestagsdrucksache 21/8275** vor, 36 Seiten, heute im Original gelesen:
+`https://dserver.bundestag.de/btd/21/082/2108275.pdf`
+
+**Am 23.11.2026, 14:00 Uhr, ist öffentliche Anhörung im Innenausschuss**, das KIMVG ist der einzige
+Punkt, mitberatend der Ausschuss für Recht und Verbraucherschutz. Laut Suchergebnissen liegen ein
+Änderungsantrag und ein Entschließungsantrag von CDU/CSU und SPD vor; als Sachverständige genannt
+werden Alexander Steen, Franziska Görlitz (GFF) und Eric Töpfer (Deutsches Institut für
+Menschenrechte). **Alles aus Suchergebnissen, nicht an der Ausschuss-Tagesordnung geprüft.**
+
+**DREI ABWEICHUNGEN, am Text verglichen, keine Extraktionsartefakte:**
+
+**1. Das Beleg-Panel von Post 21, § 7a Abs. 1 Satz 4.**
+Referentenentwurf (so im Post): „Abweichend von Satz 3, ist eine Weiterverarbeitung zulässig, soweit
+eine vorherige Aussonderung mit angemessenem technischem Aufwand nicht möglich ist."
+Drucksache 21/8275: **„Abweichend von Satz 3 ist eine Weiterverarbeitung zulässig, soweit eine
+vorherige Aussonderung technisch unmöglich ist oder unverhältnismäßig hohen technischen Aufwand
+erfordert."**
+Das Komma nach „Satz 3", in `sources.md` ausdrücklich als Quelleneigenheit vermerkt, ist weg. Die
+Schwelle ist umformuliert. **Ob „unverhältnismäßig hoher Aufwand" mehr verlangt als „kein
+angemessener Aufwand", bewerten wir nicht.**
+
+**2. § 7a Abs. 1 Satz 3 ist gekürzt.**
+Referentenentwurf: „Biometrische Daten im Sinne des Artikel 9 Absatz 1 der
+Datenschutz-Grundverordnung sind von der Weiterverarbeitung ausgeschlossen."
+Drucksache: **„Biometrische Daten sind von der Weiterverarbeitung ausgeschlossen."**
+
+**3. § 7a Abs. 2 letzter Satz, die inhaltlich schwerste Änderung.**
+Referentenentwurf: „Die Ergebnisse aus dem Verfahrensmonitoring dürfen nicht zur Bewertung oder
+Prognose des Verhaltens, der Zuverlässigkeit oder sonstiger Eigenschaften einzelner Personen
+verwendet werden."
+Drucksache: **„Die Ergebnisse aus dem Verfahrensmonitoring dürfen nicht für ein Profiling im Sinne
+von Artikel 4 Nummer 4 der Datenschutz-Grundverordnung verwendet werden."**
+Aus einem eigenständig formulierten Verbot ist ein Verweis auf einen Rechtsbegriff geworden.
+
+**WAS UNVERÄNDERT TRÄGT.** Die Trainingsbefugnis steht weiter in § 7 Abs. 2a, mit umgedrehter
+Reihenfolge: „auch zum Entwickeln, insbesondere zum Trainieren, Validieren und Testen von
+KI-Systemen im Sinne des Artikels 3 Nummer 1 der Verordnung (EU) 2024/1689 (Verordnung über
+künstliche Intelligenz) oder anderen automatisierten Anwendungen zur Datenverarbeitung". Im
+Referentenentwurf waren KI-Systeme ein Beispiel („wie KI-Systemen"), jetzt sind sie der Hauptfall.
+**Die Überschrift von Post 21 bleibt damit richtig.** § 7a Abs. 3 (diskriminierende Algorithmen
+„weder herausgebildet noch verwendet") ist unverändert. Neu im Normtext gefunden: Das
+Verfahrensmonitoring darf „datei- und informationssystemübergreifend Beziehungen oder Zusammenhänge
+zwischen Verfahren, Vorgängen, Personen, Personengruppierungen, Institutionen, Organisationen,
+Objekten und Sachen identifizieren und herstellen".
+
+**KEIN KORREKTUR-POST.** `archive/post-021-kimvg-asyl-ki/sources.md` hält fest: „Die Aussage im Post
+ist deshalb dem Referentenentwurf vom 25.06.2026 zugeschrieben, und Blatt 05 sagt das ausdrücklich."
+Der Post hat die Quelle datiert genannt und war zum Stand richtig. **Er ist überholt, nicht falsch.**
+Nach CLAUDE.md ist die Bauform Korrektur „nur bei echten Fehlern" zulässig. **Archivierter Post
+unangetastet**, wie die harten Grenzen es verlangen.
+
+**NEUER KANDIDAT, zeitkritisch.** Säule betrifft_dich, **Bauform Die Rekonstruktion**: ein Blatt je
+Schritt (Referentenentwurf 25.06., Stellungnahmen bis 02.07., Gesetzentwurf 30.09., Appell 16.11.,
+Anhörung 23.11.). Beleg-Panel: alte und neue Fassung von § 7a Abs. 2 letzter Satz übereinander.
+**Erster Punkt vor dem Bau: den Änderungsantrag der Koalitionsfraktionen beschaffen.** Fasst er
+dieselben Sätze erneut an, ist der Post vor dem Posten überholt.
+
+**bmi.bund.de nicht erreichbar:** `bmi.bund.de/SharedDocs/gesetzgebungsverfahren/DE/MI6/kimvg.html`
+antwortete einmal „Recv failure: Connection reset by peer" und dann HTTP 400. **Auch über curl
+gescheitert**, damit nach unserer Regel vom 09.11. als unerreichbar zu führen. Die Drucksache ersetzt
+den Weg.
+
+### DER APPELL DER 37 IM ORIGINAL
+
+**„Gemeinsamer Appell aus der Zivilgesellschaft: KI in der Migrationsverwaltung braucht klare Grenzen
+und unabhängige Kontrolle!", fünf Seiten, gelesen:**
+`https://algorithmwatch.org/wp-content/uploads/2026/11/Appell_KI-in-der-Migrationsverwaltung-braucht-klare-Grenzen-und-unabhangige-Kontrolle_final.pdf`
+
+**Die Zahl steht im Dokument selbst:** „Wir, 37 zivilgesellschaftliche Organisationen, fordern den
+Gesetzgeber zu grundlegenden Nachbesserungen am Gesetzentwurf auf." netzpolitik schreibt „mehr als
+30".
+
+**BEFUND: Der Appell zitiert keine einzige Vorschrift des Entwurfs.** Suche nach Paragraphenzeichen
+im Volltext: null Treffer. Genannt werden nur Grundgesetz und Grundrechtecharta („Art. 1 Abs. 1,
+Art. 2 Abs. 1 und Art. 3 Abs. 1 GG; Arts. 7, 8, 20 f. GRCh"). **Kein Vorwurf**, ein Appell ist kein
+Gutachten. **Für uns:** Panel-Zitate nur aus dem Gesetzentwurf, nicht aus dem Appell.
+
+**Einordnung der Zahl 37, ohne Unterstellung.** Unter den Unterzeichnern erscheint **siebenmal
+„Seebrücke"** (bundesweiter Verband plus sechs lokale Gruppen) und **siebenmal ein
+„Flüchtlingsrat"** (rechtlich eigenständige Landesorganisationen). Die Zahl ist richtig und besteht
+zu einem knappen Drittel aus zwei Organisationsfamilien. **Gehört in jeden Post, der die Zahl
+nennt**, nach dem Muster vom 02.11.2026.
+
+**Drei Forderungen des Appells:** wirksamen Datenschutz und Grundrechtsschutz im Gesetz definieren,
+verbindliche und unabhängige Evaluation verankern, Nachvollziehbarkeit und Transparenz herstellen.
+Genannt werden außerdem Anonymisierung als Regelfall, Begrenzung automatisierter Internetabgleiche,
+Grundrechtsfolgenabschätzung, Veröffentlichung der Evaluationsergebnisse und Vorlage beim Bundestag,
+sowie die Eintragung aller KI-Systeme in den „Marktplatz der KI-Möglichkeiten".
+**Der Begriff „Grundrechtefolgenabschätzung" kommt im Gesetzentwurf 21/8275 null Mal vor**, geprüft.
+
+**Prüfbare Fundstelle, nicht beschafft:** Fußnote 1 des Appells belegt die Extrahierbarkeit von
+Trainingsdaten mit „Xiong, Alexander, Xuandong Zhao, Aneesh Pappu, Dawn Song, The Landscape of
+Memorization in LLMs" (Titel im extrahierten Text abgeschnitten). **Vor einer Verwendung lesen.**
+
+### EU KIDS ACT: Artikel 9 Absatz 3 und Artikel 11 im Normtext
+
+**RICHTIGSTELLUNG DER EIGENEN NOTIZ VOM 15./16.11.** Dort stand, die Angabe zu „Kernschlafzeiten"
+stamme aus der Begründung und sei mit „sollten" formuliert, deshalb Vorsicht. **Der Normtext ist
+strenger als die Begründung.** Artikel 9 Absatz 3 wörtlich:
+
+> „Anbieter von Online-Diensten sozialer Netzwerke und von Video-Sharing-Plattform-Diensten ergreifen
+> wirksame Maßnahmen, um Folgendes sicherzustellen: a) zeitlich befristeten Zugang für Minderjährige
+> zu ihrem Dienst, b) Unterbrechung der Nutzung des Dienstes durch Minderjährige. Diese Maßnahmen
+> sind so zu gestalten, dass die Schulzeiten und die Kernschlafstunden von Minderjährigen geschützt
+> werden."
+
+„ergreifen wirksame Maßnahmen", nicht „sollten". Das Wort heißt **„Kernschlafstunden"**. **Lehre:
+Eine Zusammenfassung kann in beide Richtungen abweichen.** Am 16.11. war die Erwartung, die
+Begründung übertreibe; sie untertrieb.
+
+**Artikel 11 Absatz 1, wörtlich:** „müssen diese Anbieter standardmäßig zumindest Folgendes
+abschalten: a) Geolokalisierung und andere Tracking-Merkmale, b) Zugriff auf Mikrofon und Kamera,
+c) Empfehlungen anderer Konten und Synchronisierung von Kontakten, d) Push-Benachrichtigungen, die in
+jedem Fall so gestaltet sein sollten, dass die Kernschlafstunden und Schulzeiten von Minderjährigen
+geschützt werden."
+
+**Artikel 11 Absatz 2, wörtlich:** „Die in Absatz 1 genannten Standardeinstellungen dürfen vom
+Anbieter nur geändert werden, wenn die Minderjährigen älter als 15 Jahre sind, klar und eindeutig
+über diese Änderungen informiert wurden und ihnen ausdrücklich zugestimmt haben. Die in Absatz 1
+Buchstabe a genannten Standardeinstellungen werden, wenn sie von Minderjährigen aktiviert werden,
+nach dem Ende ihrer Sitzung im Dienst ausgeschaltet." **Standortfreigabe schaltet sich nach jeder
+Sitzung wieder aus.** Konkretester Punkt des Vorschlags.
+
+**Artikel 10 Absatz 3, Verbot dunkler Muster, wörtlich:** „Die in Unterabsatz 1 genannten Instrumente
+dürfen nicht so konzipiert sein, dass Minderjährige dazu verleitet werden, die auf Profiling
+gestützte Option zu wählen, werden während der Kontoerstellung angeboten und bleiben über den
+spezifischen Bereich der Online-Schnittstelle des Dienstes, in dem die Informationen priorisiert
+werden, direkt zugänglich, auch für Nutzer ohne Konto." Artikel 10 Absatz 3 Unterabsatz 1 gewährt
+Minderjährigen Instrumente, „die Parameter des Empfehlungssystems zu ändern oder zu steuern, unter
+anderem durch einfaches Löschen aller zuvor ermittelten Präferenzen", und „zumindest eine Option des
+Empfehlungssystems zu wählen, die sich nicht auf Profiling im Sinne des Artikels 4 Nummer 4 der
+Verordnung (EU) 2016/679 stützt".
+
+**Downloadhinweis:** Der erste Versuch brach mit „curl: (18) transfer closed with outstanding read
+data remaining" nach 9.562 Bytes ab. Mit `--retry 3 --retry-delay 2 --max-time 240` lief er durch
+(4.780.068 Bytes). **Bei großen Bundesrats-PDFs mit Retry arbeiten.**
+
+### RECHENZENTREN: die Schwelle, die die Meldung nicht nennt
+
+heise, 16.11.2026, 12:32, „1000 Kilowatt pro Schrank". **Die 1000 kW sind eine Prognose von IDTechEx
+für 2030**, nicht ein Messwert. Heutige Rechenzentren laut Beitrag 15 bis 25 kW je Rack, Nvidias
+Vera-Rubin-Konfiguration NVL72 „188 bis 227 kW Leistung pro Serverschrank". **Alles berichtet, die
+IDTechEx-Analyse ist nicht beschafft.**
+
+**Heute am Gesetz geprüft** (`gesetze-im-internet.de/enefg/__3.html`): § 3 Nummer 24 EnEfG definiert
+ein Rechenzentrum über „eine nicht redundante elektrische Nennanschlussleistung ab 300 Kilowatt".
+§ 3 Nummer 4 setzt für den „Betreiber von Informationstechnik" bei „50 Kilowatt" an. Damit bleibt ein
+einzelner Schrank mit 227 kW unter der Rechenzentrums-Schwelle. **Berührt Post 27** und den Nachtrag
+vom 04.09.2026 zum künftigen § 2 Nummer 18 EnEfG mit 500 Kilowatt. **Kein eigener Post**, als
+Kommentaranlass verwendet.
+
+### Nicht verfolgt
+
+- **Südkorea kontrolliert Brillen vor Hochschulprüfung** (heise, 16.11., 10:57). Nicht gelesen,
+  **vorgemerkt** für den Prüfungsstrang. Kein Deutschlandbezug erkennbar.
+- **„KI-Regeln: Staaten und Firmen fordern Sicherheit und Transparenz"** (heise, 16.11., 19:36).
+  Nicht gelesen. Nach der Überschrift eine Absichtserklärung, und „Staaten und Firmen fordern" ist
+  die Form vager Autorität. Niedrige Priorität.
+- **„Chatbot als Arzt: Apple erforscht Health AI"** (heise, 16.11., 12:44). Berührt Post 30.
+  Vorgemerkt, nicht gelesen.
+- **„Bundeshaushalt: Kein Moos für Open Source"** (netzpolitik). Haushaltsstrang. Nicht gelesen.
+- **„BundID: Massenhafte Angriffe führen zu Kontosperrungen"** (heise, 16.11., 12:29). Betrifft Leser
+  unmittelbar, **kein KI-Kern erkennbar**. Nicht gelesen.
+- **Revolut in Italien, US-Exportverbot für KI-Chips, US-Banken, US-Militärtechnologie, Top500,
+  iOS 27.3, Estlands Exilregierung, Killer-Roboter, Waldbrände, Tracking von US-Soldaten, Tesla
+  Grünheide, Cybercab, Samsung als Rechenzentrumsbetreiber, Rust 1.100, Qwen4-Max, Apple Smart
+  Glasses, ConnectWise, Telegram in Jordanien, EUDI-Wallet, Windows-Update, Ladepunkte, DE-CIX.**
+  Produkt-, Markt-, Sicherheits- und Auslandsnachrichten. Nicht vorgemerkt.
+- **Offen vom 16.11., heute nicht erledigt:** Ob eine deutsche Datenschutzbehörde zur
+  Galerie-Funktion der Facebook-App etwas veröffentlicht hat. Ebenso offen: TOP 40 (Drs. 536/26) und
+  TOP 24 (Drs. 612/26) der Bundesratssitzung.
