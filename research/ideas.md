@@ -9977,3 +9977,144 @@ Kommentaranlass verwendet.
 - **Offen vom 16.11., heute nicht erledigt:** Ob eine deutsche Datenschutzbehörde zur
   Galerie-Funktion der Facebook-App etwas veröffentlicht hat. Ebenso offen: TOP 40 (Drs. 536/26) und
   TOP 24 (Drs. 612/26) der Bundesratssitzung.
+
+---
+
+## Recherchierte Einzelbefunde vom 18.11.2026
+
+**Rückstau bei vier, siebenundsiebzigster Tag ohne Neubau.** Der erste Punkt vom Vortag endet mit
+einem Nein, dafür ein neuer Kandidat am Primärdokument mit einem Widerspruch in einem einzigen
+amtlichen Beschluss.
+
+### NEUER KANDIDAT, belastbar: Der Bundesrat will das Auskunftsrecht einschränken
+
+**Primärquelle, lokal gelesen:** Bundesrat, **Drucksache 34/26 (Beschluss) vom 27.03.2026**,
+16 Seiten, beschlossen in der 1063. Sitzung:
+`https://dserver.bundestag.de/brd/2026/0034-26B.pdf`
+Gegenstand: **COM(2025) 837 final**, Ratsdok. 15698/25, Verfahren **2025/0360(COD)**
+(Digital-Omnibus-Verordnung, Fassung vom 19.11.2025).
+
+**Der tragende Satz, wörtlich:**
+
+> „Der Bundesrat fordert dennoch die Kommission auf, den Artikel 15 DSGVO auf weitergehende
+> Vereinfachungen hin zu überprüfen. Eine solche Möglichkeit könnte insbesondere darin bestehen, dass
+> die Rechte aus Artikel 15 DSGVO innerhalb von zwei Jahren nur einmal kostenfrei geltend gemachten
+> werden können."
+
+**„geltend gemachten werden können" steht so im Original** (Grammatikfehler der Quelle). Bei einem
+Panel-Zitat gehört `[sic]` dazu oder die Stelle wird nicht zitiert.
+
+**Zwei weitere Forderungen, wörtlich:**
+> „Schreiben, die von der betroffenen Person selbst übermittelt wurden, sollten der betroffenen
+> Person im Rahmen der Auskunftserteilung nach Artikel 15 DSGVO nicht zur Verfügung gestellt werden."
+> „Beispielsweise könnte eine zur Verfügungsstellung innerhalb von zwei Jahren kostenfrei sein. Alle
+> Ansprüche darüber hinaus könnten kostenpflichtig gemacht werden."
+
+**DER WIDERSPRUCH IM SELBEN DOKUMENT, sieben Seiten später, wörtlich:**
+
+> „Er misst der Beibehaltung der menschlichen Aufsicht über automatisierte Entscheidungen im
+> Zusammenhang mit Verträgen gemäß Artikel 22 DSGVO eine hohe Bedeutung bei. Vollautomatisierte
+> Entscheidungen sind nur dann für Verträge zulässig, wenn dies erforderlich ist, d. h., wenn eine
+> Überprüfung durch Menschen keine sinnvolle Alternative darstellt."
+
+Menschliche Aufsicht über automatisierte Entscheidungen soll bleiben, das Recht zu erfahren, welche
+Daten eingeflossen sind, soll teurer werden. **Bauform Der Widerspruch**, zuletzt in Post 19
+verwendet. **Kein Vorwurf, zwei Absätze nebeneinander.**
+
+**Der wohlwollende Ausgangspunkt, gehört auf ein Blatt, wörtlich:** „Gerade im Interesse von kleinen
+und mittleren Unternehmen (KMU), ehrenamtlich Tätigen und Behörden sollte die Kommission jedoch
+weitergehende Entlastungsmöglichkeiten in diesem Bereich prüfen."
+
+**Bezug zum eigenen Archiv:** Post 24 („Eine Software sperrte Uber-Fahrer aus") handelt von einem
+Fall, in dem Fahrer genau dieses Auskunftsrecht benutzt haben; das Berufungsgericht Amsterdam gab
+ihnen 2023 recht und verpflichtete Uber und Ola zur Offenlegung. **Der neue Post ist die
+Fortschreibung mit neuem Rechtsstand**, ohne Wiederholung: Post 24 erzählte die Sperrung, dieser das
+Werkzeug.
+
+**Weitere Befunde aus dem Beschluss, vorgemerkt:** Der Bundesrat bittet um „eine Regelung in der
+DSGVO zu räumlich und zeitlich beschränkten Reallaboren nach Vorbild von Artikel 57 KI-Verordnung"
+mit „Erleichterungen im Hinblick auf Einwilligungserfordernisse, den Grundsatz der Datensparsamkeit,
+die Zweckbindung, Betroffenenrechte sowie Informations- oder Dokumentationspflichten". Die Ausnahme
+für besondere Datenkategorien bei KI soll „technologieoffen ausgeweitet" werden. Zu Artikel 3
+Nummer 7 empfiehlt er Regelungen, „die den Grundrechte- und Diskriminierungsschutz sowie die
+Gleichstellung wirksam sicherstellen".
+
+**TABU-HINWEIS, ausdrücklich:** Die zuletzt genannte Forderung wird im Beschluss mit
+Fahrassistenzsystemen begründet. Ein Zitat daraus ist unbedenklich (öffentliches Dokument), **aber
+dieses Beispiel darf nicht ins Zentrum eines Posts rücken**, damit der Kanal nicht nach
+Branchennähe des Absenders klingt.
+
+**Offen vor dem Bau:**
+- **COM(2025) 837 final im Wortlaut. Nicht beschafft.** EUR-Lex antwortete dreimal mit HTTP 202 und
+  **null Bytes** auf `legal-content/DE/TXT/PDF/?uri=CELEX:52025PC0837`, die AUTO-Route ebenso.
+  **NEUE ERKENNTNIS ZUR ROUTE: Für COM-Dokumente mit Präfix `52025PC` liefert der Weg, der am 10.11.
+  für Verordnungen (`32024R1689`) funktionierte, nichts.** Nächster Versuch über Presscorner-API oder
+  Ratsdokument 15698/25.
+- **ETUI Research Paper, Working Paper 2026.05**, Aida Ponce Del Castillo und Thomas le Bonniec,
+  nach Suchergebnissen vom 16.11.2026, am 17.11. bei SSRN. **Nicht beschafft**, `etui.org` antwortet
+  HTTP 403 mit JavaScript-Wand („Enable JavaScript and cookies to continue").
+- **EDPB-EDPS Joint Opinion 2/2026** vom 11.02.2026 zum Digital Omnibus. Die geratene URL bei
+  `edpb.europa.eu` ergab HTTP 404. Nicht beschafft.
+- Die Angabe, die Kommission rechne mit Einsparungen „bis zu 5 Milliarden Euro" bis 2029, stammt aus
+  dem netzpolitik-Beitrag und ist **ungeprüft**.
+
+### KIMVG: Der Änderungsantrag ist nicht beschaffbar
+
+**Tagesordnung gelesen:** `https://www.bundestag.de/resource/blob/1233342/to050oeA.pdf`, Mitteilung
+vom 16.11.2026. „Die 50. Sitzung des Innenausschusses findet statt am Montag, dem 23. November 2026,
+14:00 Uhr im Paul-Löbe-Haus, Raum 4 800". **Einziger Punkt der Tagesordnung ist der Gesetzentwurf,
+BT-Drucksache 21/8275.** Berichterstatter: Detlef Seif (CDU/CSU), Steffen Janich (AfD), Johannes
+Schätzl (SPD), Lukas Benner (Grüne), Clara Bünger (Linke); amtierender Vorsitzender Josef Oster.
+Hinweis in der Tagesordnung: Daten angemeldeter Gäste werden „im Polizeilichen Informationssystem
+(INPOL) überprüft".
+
+**Die Tagesordnung nennt keinen Änderungsantrag.** Damit ist die am 17.11. aus Suchergebnissen
+übernommene Angabe **nicht bestätigt**. Eine erneute Suche nennt heute Ausschussdrucksachen
+**21(4)239 und 21(4)240** (Änderungs- und Entschließungsantrag) sowie **21(26)53-12** und
+**21(4)181**, wieder nur in einer Zusammenfassung. **Vier Beschaffungswege gescheitert:**
+`dserver.bundestag.de/btadrs/21/04/2104239.pdf` → HTTP 404; `dip.bundestag.de/suche` → 2.375 Bytes
+JavaScript-Hülle; `bundestag.de/ausschuesse/a04_Inneres` → HTTP 404; `bmi.bund.de` schon am 17.11.
+gescheitert. **Nummern ungeprüft, Dokumente nicht beschafft.**
+
+**Folge für den Kandidaten vom 17.11.:** Der Vergleich der drei geänderten Vorschriften bleibt
+belastbar, aber **ein vierter Änderungsschritt in der Anhörung ist nicht auszuschließen.** Der Post
+muss sagen, auf welche Fassung mit welchem Datum er sich bezieht.
+
+### Grok und die irische Aufsicht: Bedenken, keine Verfügung
+
+heise, 17.11.2026, 17:59, „Irische Datenschützer bremsen Grok-Training bei X aus". **Quellenlage:
+berichtet**, heise stützt sich auf Politico, dort äußert sich Datenschutzkommissar Dale Sunderland.
+**Keine Mitteilung der DPC genannt, nicht gesucht** (offener Punkt).
+
+**Kein Bescheid, kein Bußgeld, kein Verfahren.** Die Behörde hat Bedenken vorgebracht und
+aufgefordert, X hat am Montag bestätigt, dass die Verarbeitung gestoppt sei. **Die Überschrift
+verspricht eine Anordnung, der Text beschreibt eine freiwillige Einstellung.**
+
+Gegenstand sind „Drittanbieterdaten", also „persönliche Informationen über eine unbeteiligte Person,
+die von anderen Parteien geteilt wurden", etwa Urlaubsfotos an einen Freund mit KI-Agent, und Daten,
+die ein Agent automatisiert aus dem Internet abgreift. Sunderland: die Behörde habe „kein
+grundsätzliches Problem mit KI-Agenten". Sie stehe mit einem weiteren, ungenannten Konzern im
+Austausch.
+
+**Kontrast aus eigener Arbeit:** Am 14.11. verhängte die italienische Behörde 805 Millionen Euro
+gegen Meta und hielt fest, dass das KI-Training nicht Gegenstand war (am 16.11. im Original gelesen).
+Hier geht es ums Training, und es gibt keinen Bescheid. **Als Post zu dünn, als Kommentaranlass
+verwendet.**
+
+### Nicht verfolgt
+
+- **„EuGH weist Klage gegen Europol-Befugnis zur Massenüberwachung ab"** (heise, 17.11., 13:58).
+  **Nicht gelesen, höchste Priorität, erster Punkt für morgen.** Ein Urteil ist die belastbarste
+  Quelle, die dieser Kanal bekommen kann.
+- **„Zu neugierige KI-Agenten: Apple warnt Mac-Nutzer vor Freigabe"** (heise, 17.11., 16:35).
+  Vorgemerkt, passt zum Agenten-Strang um ChatGPT Wallet.
+- **„Synchronisation: Netflix erhöht Folgevergütung, KI-Streit bleibt ungelöst"** (heise, 17.11.,
+  15:59). Betrifft eine deutsche Berufsgruppe. Vorgemerkt, nicht gelesen.
+- **„Bericht: China trainiert KI mit Destillation von US-Modellen"**, **„Youtube errechnet höhere
+  Abrufzahlen"** (kein KI-Kern), **ArtCraft auf GitHub-Backlogs, Rechenzentren in Ulanqab, Moonshot
+  AI, Proton Lumo, Java4Shell, NSA-Ausfälle, Panasonic, CachyOS, Megaspeed, Project Zero,
+  CPU-Absatz, DRAM-Mangel, Kryosphäre, Elektro-Lkw, Xiaomi, Bahn-App, Wear OS,
+  Lieferkettenangriff, IONOS, movie2k, RHEL.** Nicht vorgemerkt.
+- **Weiter offen aus den Vortagen:** deutsche Datenschutzbehörde zur Galerie-Funktion der
+  Facebook-App (seit 16.11.), TOP 40 (Drs. 536/26) und TOP 24 (Drs. 612/26) der Bundesratssitzung am
+  20.11., Südkorea-Brillenkontrolle, Koalitionsvertrag Mecklenburg-Vorpommern.
