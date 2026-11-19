@@ -10118,3 +10118,183 @@ verwendet.**
 - **Weiter offen aus den Vortagen:** deutsche Datenschutzbehörde zur Galerie-Funktion der
   Facebook-App (seit 16.11.), TOP 40 (Drs. 536/26) und TOP 24 (Drs. 612/26) der Bundesratssitzung am
   20.11., Südkorea-Brillenkontrolle, Koalitionsvertrag Mecklenburg-Vorpommern.
+
+---
+
+## Recherchierte Einzelbefunde vom 19.11.2026
+
+**Rückstau bei vier, achtundsiebzigster Tag ohne Neubau.** Stärkster Kandidat seit Wochen, aus dem
+Bundesgesetzblatt, und er gilt ab morgen.
+
+### NEUER KANDIDAT, belastbar und zeitkritisch: § 37a BDSG ab 20.11.2026
+
+**Primärquelle, lokal gelesen:** Bundesgesetzblatt 2026 Teil I Nr. 139, ausgegeben am 18.05.2026,
+51 Seiten, „Gesetz zur Umsetzung der Richtlinie (EU) 2023/2225 über Verbraucherkreditverträge und zur
+Regelung der Förderung klimaneutraler Mobilität. Vom 12. Mai 2026". **Artikel 3 ändert das BDSG.**
+
+**NEUE FUNKTIONIERENDE ROUTE, für künftige Läufe wichtig:**
+`https://www.recht.bund.de/eli/bund/bgbl-1/<jahr>/<nummer>/regelungstext.pdf`
+→ 921.242 Bytes, PDF, 51 Seiten. Die kürzere Form `recht.bund.de/bgbl/1/2026/139/regelungstext.pdf`
+liefert trotz HTTP 200 nur eine HTML-Seite von 35 KB. **Immer die ELI-Form nehmen.**
+
+**Inkrafttreten, wörtlich, Artikel 16:** „(1) Dieses Gesetz tritt vorbehaltlich des Absatzes 2 am
+20. November 2026 in Kraft." Artikel 3 ist in Absatz 2 nicht genannt, gilt also ab morgen.
+**§ 31 BDSG wird zu „(weggefallen)", § 37a „Scoring" wird nach § 37 eingefügt.**
+
+**§ 37a Absatz 2 wörtlich, die Liste, die den Post trägt:**
+
+> „Wahrscheinlichkeitswerte im Sinne des Absatzes 1 dürfen nur erstellt oder verwendet werden, wenn
+> 1. für die Erstellung folgende Daten nicht genutzt werden: a) besondere Kategorien personenbezogener
+> Daten im Sinne von Artikel 9 Absatz 1 der Verordnung (EU) 2016/679, b) das Alter, das Geschlecht,
+> der Name der betroffenen Person oder personenbezogene Daten aus der Nutzung sozialer Netzwerke,
+> c) Informationen über Zahlungseingänge und -ausgänge auf und von Bankkonten und d) Anschriftendaten,
+> 2. sie keine minderjährige Person betreffen und 3. die genutzten personenbezogenen Daten a) unter
+> Zugrundelegung eines wissenschaftlich anerkannten mathematisch-statistischen Verfahrens nachweisbar
+> für die Berechnung der Wahrscheinlichkeit des bestimmten Verhaltens erheblich sind und b) die aus
+> diesen ermittelten Wahrscheinlichkeitswerte für keine anderen Zwecke verarbeitet werden."
+
+**§ 37a Absatz 1** nimmt das Recht aus Artikel 22 Absatz 1 DSGVO für zwei Fälle zurück:
+Wahrscheinlichkeitswerte über „ein bestimmtes zukünftiges Verhalten der Person zum Zweck der
+Entscheidung über die Begründung, Durchführung oder Beendigung eines Vertragsverhältnisses" und über
+„ihre Zahlungsfähig- und -willigkeit durch Auskunfteien und unter Einbeziehung von Informationen über
+Forderungen".
+
+**§ 37a Absatz 4, das Auskunftsrecht, wörtlich (gekürzt):** auf Antrag mitzuteilen sind „1. die für
+die Erstellung genutzten personenbezogenen Daten der betroffenen Person und Kriterien, 2. die
+Gewichtung von Kategorien von Kriterien und der einzelnen Kriterien zueinander, die den
+Wahrscheinlichkeitswert am stärksten beeinflussen, 3. die Aussagekraft des konkreten
+Wahrscheinlichkeitswerts und 4. die erstellten Wahrscheinlichkeitswerte und ihre Empfänger. Die
+hierfür erforderlichen Informationen sind für ein Jahr zu speichern."
+
+**§ 37a Absatz 5 wörtlich:** „Gegenüber einem Verantwortlichen hat die betroffene Person hinsichtlich
+der jeweiligen auf Wahrscheinlichkeitswerten nach Absatz 1 beruhenden Entscheidung das Recht auf
+Anfechtung, Darlegung des eigenen Standpunkts und Entscheidung einer natürlichen Person."
+
+**§ 37a Absatz 3** übernimmt die Forderungsliste des alten § 31 Absatz 2 (Titel, Insolvenztabelle,
+Anerkennung, zweimalige Mahnung mit vier Wochen Abstand, fristlose Kündigung möglich).
+
+**ZWEITER STRANG, noch näher am Alltag: § 30 BDSG neu.** Artikel 3 Nummer 2 ersetzt § 30 Absatz 2
+durch die Absätze 2 bis 9. **Absatz 6 wörtlich:**
+
+> „Beinhaltet im Fall von Allgemein-Verbraucherdarlehensverträgen die Kreditwürdigkeitsprüfung eine
+> automatisierte Verarbeitung personenbezogener Daten, kann der Darlehensnehmer vom Darlehensgeber das
+> Eingreifen einer Person verlangen. Dies umfasst das Recht auf 1. klare und verständliche
+> Erläuterungen zu der Kreditwürdigkeitsprüfung, einschließlich der Logik und der Risiken der
+> automatisierten Verarbeitung personenbezogener Daten sowie ihrer Bedeutung für die Entscheidung des
+> Darlehensgebers über die Darlehensgewährung und ihrer Auswirkungen auf die Entscheidung, 2. die
+> Darlegung des eigenen Standpunkts des Darlehensnehmers und 3. die Überprüfung der
+> Kreditwürdigkeitsprüfung und der Entscheidung über die Darlehensgewährung durch den Darlehensgeber."
+
+**Absatz 7:** Wer wegen einer Auskunft ablehnt, hat den Verbraucher zu unterrichten „sowie über die
+erhaltene Auskunft, die Einzelheiten der konsultierten Datenbank und über die berücksichtigten
+Datenkategorien". **Absatz 5:** Darlehensgeber und -vermittler dürfen „weder besondere Kategorien
+personenbezogener Daten gemäß Artikel 9 Absatz 1 der Verordnung (EU) 2016/679 noch verarbeitete
+personenbezogene Daten aus sozialen Netzwerken verarbeiten". **Absatz 3:** Unterrichtung über
+Eintragungen von Rückständen „innerhalb von 30 Tagen nach der Eintragung".
+
+**BEFUND ZUR DURCHSETZUNG, ohne Bewertung.** Artikel 3 Nummer 5 ändert § 43 Absatz 1 BDSG
+(Bußgeldkatalog) und nennt dort **§ 30** Absatz 3 Satz 2 Nummer 1, Absatz 6 Satz 3, Absatz 7 sowie
+§ 30 Absatz 5. **§ 37a kommt in § 43 nicht vor.** Was daraus folgt, entscheiden wir nicht, weil
+Bußgelder sich auch unmittelbar aus Artikel 83 DSGVO ergeben können. **Festhalten lässt sich nur: Der
+deutsche Bußgeldkatalog führt den neuen § 37a nicht auf.**
+
+**DURCHSETZUNGSWEG, der im Gesetz steht:** Artikel 4 ändert das Unterlassungsklagengesetz, § 2
+Absatz 2 Nummer 14 lautet künftig „die §§ 30 und 37a des Bundesdatenschutzgesetzes". Verbraucher-
+verbände können auf Unterlassung klagen.
+
+**Thema im Repo nicht vergeben**, geprüft: nur ein Hinweis auf das EuGH-Urteil C-634/21 (2023) in
+ideas.md Zeile 139.
+
+**OFFEN, wichtigster Punkt vor dem Bau:** **Ob die Schufa und andere Auskunfteien die vier künftig
+verbotenen Datenarten bisher genutzt haben.** Ohne belegtes Vorher ist das eine Vorschrift ohne Fall.
+Die Schufa stellt ihr Modell nach dem netzpolitik-Kommentar seit Frühjahr 2026 ohnehin um.
+**Nicht geprüft.** Ebenso offen: Auslegung von „Anschriftendaten" (nach einer Kanzleiseite offen,
+**wir legen das nicht aus**), und ob eine Aufsichtsbehörde eine Auslegungshilfe veröffentlicht hat.
+
+### BGH-Beschluss zu KI-Schriftsätzen: Hinweis, keine Entscheidung
+
+heise, 18.11.2026, 17:42. **BGH, 3. Strafsenat, Beschluss vom 13.10.2026, Az. 3 StR 350/26**,
+Vorinstanz LG Kaiserslautern, Rechtsgrundlage § 345 Absatz 2 StPO. Der Senat führt aus, die
+gestaltende Mitwirkung des Verteidigers könne fehlen, wenn eine Revisionsbegründung mit KI erstellt
+wird und „eine maßgebliche inhaltliche Kontrolle durch den Rechtsanwalt" nicht stattfindet.
+
+**ENTSCHEIDEND, und in der Überschrift nicht sichtbar:** Im konkreten Fall wertete der Senat den
+Schriftsatz „noch als ausreichend", prüfte die Revision in der Sache und verwarf sie als unbegründet.
+Aufgefallen waren „allgemeine und stark standardisiert wirkende Passagen", die „kaum einen Bezug zu
+dem angefochtenen Urteil erkennen ließen", darunter abstrakte Erwägungen über Rücktrittsmöglichkeiten
+bei einem versuchten Delikt. **Die Zweifel reichten nicht aus, um die gestaltende Mitwirkung zu
+verneinen.**
+
+**BGH NICHT ERREICHBAR, drei Wege:** `juris.bundesgerichtshof.de` Timeout nach 35 s,
+`www.bundesgerichtshof.de` Timeout nach 40 s, `rechtsprechung-im-internet.de` „Recv failure:
+Connection reset by peer". **Agent-Proxy geprüft** (`__agentproxy/status`): `enabled: true`,
+`bundleCoversEveryHost: true`, gemeldet nur ein Relayfehler für rechtsprechung-im-internet.de.
+**Die BGH-Server antworten heute nicht.** Nach der Regel vom 09.11. als unerreichbar zu führen, weil
+curl ebenfalls gescheitert ist. **Erneut versuchen.**
+
+**Berührt Post 16** (Sozialgerichte und KI-Schriftsätze, gepostet). **Als Post zu dünn ohne
+Beschlusstext, als Kommentaranlass verwendet.**
+
+### Schufa-Urteile des BGH vom 21.10.2026, bisher nur über einen Kommentar
+
+netzpolitik, 18.11.2026, 10:08, **Gastbeitrag von Beata Hubrig, ausdrücklich als Kommentar
+gekennzeichnet**, daher **kein Kommentar darunter** (Regel vom 05.11.).
+
+**Nach dieser Darstellung** muss die Schufa ihre Algorithmen nicht pauschal und anlasslos offenlegen;
+ein tieferer Auskunftsanspruch greife „grundsätzlich erst dann, wenn ein Score-Wert tatsächlich
+spürbare Konsequenzen für einen Vertrag hatte". Gleichzeitig habe der BGH eine Beweiserleichterung
+eingeführt, die der Autor „Blitz-und-Donner-Regel" nennt: Übermittelt die Schufa einen Score und wird
+der Vertrag in unmittelbarem zeitlichen Zusammenhang abgelehnt, greife eine tatsächliche Vermutung,
+dass der Score der Auslöser war. Genannt wird außerdem das OLG Dresden als Vorinstanz, **ohne
+Aktenzeichen**. Der EuGH habe im Dezember 2023 entschieden, dass bereits das Erstellen des Scores
+eine automatisierte Entscheidung ist, wenn der Score maßgeblich über den Vertrag entscheidet
+(das ist C-634/21).
+
+**Alles berichtet, die Urteile sind nicht beschafft** (BGH nicht erreichbar). **Aktenzeichen der
+Urteile vom 21.10.2026 fehlen.** Vor einem Post zu klären.
+
+### Gemini: Kopplung gelöst, Speicherzeit verlängert
+
+heise, 18.11.2026, 14:31. Wer Chats behalten wollte, stimmte bisher dem KI-Training zu; diese
+Kopplung fällt weg. **Gleichzeitig steigt die Speicherdauer für temporäre Chats und Chats mit
+deaktiviertem Verlauf von 72 Stunden auf etwa zwei Monate.** Der Beitrag hält fest: „Warum dafür eine
+deutliche Ausweitung der Speicherzeit notwendig sein soll, erklärt Google nicht." Bei Feedback kann
+Google die Chats der vergangenen 24 Stunden nutzen, einschließlich Uploads und Daten aus verbundenen
+Apps. **Googles Privacy-Hub nicht gelesen**, für einen Post nötig. Berührt den offenen Punkt „Datum
+und Wortlaut der geänderten Google-Datenschutzerklärung".
+
+### RUML: Gesetze als maschinenlesbare Logik
+
+heise, 18.11.2026, 18:31 (iX). Die Berliner Rulemapping Group hat das offene JSON-Format **RUML**
+veröffentlicht, Spezifikation Version 1.0.0, „rund 200 Seiten", seit Montag auf `ruml.org`.
+Herausgeber ist die zeitgleich gegründete **Law as Code Institut GmbH**; Gründer der Rulemapping
+Group ist Stephan Breidenbach. **SPRIND** beteiligte sich im April 2025 an einer Finanzierungsrunde
+über **zwölf Millionen Euro**. Ziel: Behörden sollen eine neue Rechtslage „aus einer gemeinsamen
+maschinenlesbaren Quelle" übernehmen, „ähnlich einem Software-Update". **Alles berichtet, die
+Spezifikation ist nicht geöffnet.** Als Kommentaranlass verwendet, weil § 37a BDSG ab morgen ein
+Testfall dafür ist.
+
+### BEWUSST NICHT VERFOLGT: Fahrzeugdaten
+
+netzpolitik, „Heimlicher Zugriff auf Fahrzeugdaten". **Inhaltlich geeignet, aus Tabu-Gründen nicht
+verfolgt.** Ein Post, der Fahrzeugdaten in den Mittelpunkt stellt, rückt den Kanal in die Nähe der
+Branche des Absenders, auch ohne ein Wort über ihn. **Die Zurückhaltung ist die Regel, nicht die
+Vorsicht.** Dieselbe Entscheidung am 18.11. beim Bundesratsbeschluss, wo Fahrassistenzsysteme als
+Beispiel vorkommen.
+
+### Nicht verfolgt
+
+- **„Experiment: KIs identifizieren Zivilisten als Schussziele"** (heise, 18.11., 16:23). Kein
+  Deutschlandbezug, und „Ist KI im Krieg moralisch?" ist die abstrakte Form, die unser Leitprinzip
+  ausschließt. Nicht vorgemerkt.
+- **„AI Gigafactory im Norden: Nokia und Partner"** (heise, 18.11., 17:14). Berührt Post 27.
+  Vorgemerkt, nicht gelesen.
+- **„Nebenkostenprivileg: Verfassungsgericht weist Beschwerde gegen TKG zurück"** (heise, 18.11.,
+  15:40). Starke Quelle, **kein KI-Kern erkennbar.** Nicht gelesen.
+- **Anthropic-IPO, Cisco-Integration, Microsoft Ignite, Microsoft-KI-Modelle, Copilotforce, Meta
+  Direct, Lyft/FreeNow, GLS/DPD, DAZN, One UI, OHB, GTA 6, PHP, nginx, WordPress, SharePoint,
+  Kitesurf, App Store Awards, US-Flugstopp, Tankrabatt, Office Partner.** Produkt-, Markt-, Börsen-
+  und Sicherheitsnachrichten. Nicht vorgemerkt.
+- **EuGH-Urteil zur Europol-Befugnis**, erster Punkt vom 18.11. **Nicht bearbeitet.** Die geratene
+  Artikel-URL ergab HTTP 404, im heutigen Ticker steht der Beitrag nicht mehr. Die Zeit ging ins
+  Bundesgesetzblatt. **Bleibt offen.**
