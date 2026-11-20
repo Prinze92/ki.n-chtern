@@ -10298,3 +10298,157 @@ Beispiel vorkommen.
 - **EuGH-Urteil zur Europol-Befugnis**, erster Punkt vom 18.11. **Nicht bearbeitet.** Die geratene
   Artikel-URL ergab HTTP 404, im heutigen Ticker steht der Beitrag nicht mehr. Die Zeit ging ins
   Bundesgesetzblatt. **Bleibt offen.**
+
+---
+
+## Recherchierte Einzelbefunde vom 20.11.2026
+
+**Rückstau bei vier, neunundsiebzigster Tag ohne Neubau.** Der wichtigste offene Punkt vom Vortag ist
+geklärt, ein Gerichtsdokument im Original gelesen, ein Fall nach Prüfung verworfen.
+
+### GEKLÄRT: Das Vorher zu § 37a BDSG steht im alten Gesetz
+
+Gestern stand offen, ob Auskunfteien die vier künftig verbotenen Datenarten bisher genutzt haben.
+**Eine Auskunft dazu ist nicht nötig.** Der alte § 31 Absatz 1 BDSG, am 19.11. an der amtlichen
+Fundstelle gelesen, lautete:
+
+> „3. für die Berechnung des Wahrscheinlichkeitswerts nicht ausschließlich Anschriftendaten genutzt
+> wurden und 4. im Fall der Nutzung von Anschriftendaten die betroffene Person vor Berechnung des
+> Wahrscheinlichkeitswerts über die vorgesehene Nutzung dieser Daten unterrichtet worden ist; die
+> Unterrichtung ist zu dokumentieren."
+
+**Das Gesetz verbot nur, Anschriftendaten als einzige Grundlage zu nehmen, und setzte ihre Nutzung
+im Übrigen voraus.** Ab heute sind sie vollständig verboten (§ 37a Abs. 2 Nr. 1 Buchst. d). Das ist
+der Vorher-Nachher-Vergleich, und er braucht keine Aussage über eine einzelne Auskunftei.
+**Bauform Der Widerspruch wird damit möglich**, zwei Panels aus amtlichem Wortlaut.
+
+**AMTLICHE BESTÄTIGUNG DES INKRAFTTRETENS, heute geprüft.** Dieselbe URL, die gestern den Volltext
+lieferte, zeigt heute nur noch **„§ 31 (weggefallen)"**
+(`gesetze-im-internet.de/bdsg_2018/__31.html`). Und **§ 37a ist heute abrufbar** (10.295 Bytes),
+während dieselbe URL gestern „Recv failure: Connection reset by peer" ergab. Der Wortlaut stimmt mit
+dem Bundesgesetzblatt überein. **Inkrafttreten an zwei unabhängigen Stellen belegt.**
+
+**Weiter offen, aber nicht blockierend:** Ob eine Aufsichtsbehörde eine Auslegungshilfe
+veröffentlicht hat. `bfdi.bund.de` liefert über curl 11.460 Zeichen ohne Treffer für „37a" oder
+„20. November"; `schufa.de` nur 1.319 Zeichen, also eine JavaScript-Hülle, und
+`schufa.de/ueber-uns/daten-scoring/schufa-score/` HTTP 404. **Das sind Befunde über die abrufbaren
+Seiten, keine Aussagen über Behörde oder Unternehmen.**
+
+### EGMR: Anwältin für zwei Jahre ausgeschlossen, Pressemitteilung im Original
+
+**Primärquelle, im Original gelesen:** Pressemitteilung des Kanzlers, **ECHR 290 (2026) vom
+18.11.2026**, zwei Seiten, PDF und Webseite:
+`https://www.echr.coe.int/w/romanian-lawyer-barred-for-two-years-from-representing-applicants-before-the-court-over-unverified-ai-generated-citations`
+PDF über `hudoc.echr.coe.int/app/conversion/pdf/?library=ECHR&id=003-8699897-12417749`.
+**Neue funktionierende Route notiert:** `echr.coe.int/w/<slug>` liefert die Pressemitteilung als
+Text, `hudoc.echr.coe.int/` selbst nur eine leere Hülle (ein Zeichen Text).
+
+**Wörtlich:**
+
+> „On 13 November 2026, following a reasoned proposal by a Chamber, the President of the Court
+> decided, under Rule 44D §§ 1 and 2 of the Rules of Court, to exclude a Romanian lawyer from
+> representing or otherwise assisting litigants before the Court, for a period of two years."
+
+> „These included the citation of non-existent (“hallucinated”) cases; the citation of fictitious
+> paragraphs in genuine judgments and decisions of the Court; and the citation of existing case-law
+> that was irrelevant to the propositions advanced or that plainly contradicted the submissions they
+> were intended to support."
+
+> „The Chamber found that the lawyer’s submissions contained a pattern of numerous, repeated,
+> substantive errors rather than isolated citation mistakes and concluded that her conduct fell short
+> of the professional and ethical duties imposed by the Court, duties that are also found in domestic
+> law."
+
+**Verfahrensdetail, in der Berichterstattung nicht gefunden, wörtlich:** „In line with Rule 44D of
+the Rules of Court, the Chamber took into consideration the comments that the lawyer, the Romanian
+Government and the Romanian National Bar Association had been invited to submit on the proposed
+exclusion." **Drei Beteiligte wurden vorher gehört.** Gehört in jeden Post, der den Fall erzählt.
+
+**Die Anwältin selbst** räumte nach der Pressemitteilung ein, KI-Werkzeuge benutzt zu haben, und
+nannte die Fehler „inaccuracies" und „citation errors"; die Kammer hielt dem ein „pattern of
+numerous, repeated, substantive errors" entgegen.
+
+**DIE GEGENÜBERSTELLUNG, die den Post trägt.** Derselbe Sachverhalt, zwei Gerichte:
+- **EGMR:** Ausschluss zwei Jahre, Rule 44D, nach Anhörung von drei Beteiligten. **Belastbar.**
+- **BGH, 3. Strafsenat, 13.10.2026, 3 StR 350/26:** Hinweis, dass die gestaltende Mitwirkung fehlen
+  *kann*, im Ergebnis „noch als ausreichend" gewertet, Revision geprüft und als unbegründet
+  verworfen. **Nur berichtet**, Beschluss weiter nicht beschafft (BGH-Server am 19.11. auf drei Wegen
+  ohne Antwort).
+
+**Bauform: nicht Der Widerspruch**, weil zwei Gerichte nach verschiedenen Verfahrensordnungen
+entscheiden und sich darum nicht widersprechen. **Empfehlung Der Fall**, EGMR als Fall, BGH als
+Einordnung aufs vorletzte Blatt. Berührt Post 16.
+
+**Aus dem Bericht, nicht aus der Primärquelle, also ungeprüft:** dass nach Regel 44D „in den
+vergangenen zehn Jahren bereits 25" Anwälte betroffen waren (heise, gestützt auf eine Sprecherin),
+und dass der Jahresbericht 2025 den eigenen KI-Einsatz des Gerichts auf administrative und
+organisatorische Verfahren begrenzt. **Die Zahl steht nicht in der Pressemitteilung.**
+
+**Positiv zu notieren:** Die von heise genannte Rechtsgrundlage Rule 44D ist in der Pressemitteilung
+bestätigt.
+
+### GEPRÜFT UND VERWORFEN: Überwachung mit Werbedaten hat keinen KI-Kern
+
+netzpolitik, 19.11.2026, 16:40, „Vermutlich illegal: Bundespolizei soll Online-Werbung für
+Überwachung nutzen". Grundlage ist ein Bloomberg-Bericht über das Programm **Webloc** der US-Firma
+**Penlink** (ursprünglich vom israelischen Start-up Cobwebs entwickelt). Bloomberg stützt sich auf
+Dokumente und **sieben anonyme Quellen**. Bundespolizei und BKA antworteten netzpolitik nicht, das
+Innenministerium verweigerte die Auskunft.
+
+**DIE PRÜFUNG, die zur Verwerfung führt.** netzpolitik verlinkt ein Gutachten des Wissenschaftlichen
+Dienstes des Bundestages: **WD 3 - 3000 - 065/25, „Rechtliche Voraussetzungen und Grenzen des
+behördlichen Ankaufs von personenbezogenen Daten aus Werbedatenbanken", 25 Seiten**, heute im
+Original gelesen: `https://www.bundestag.de/resource/blob/1134752/WD-3-065-25.pdf`
+
+**„Künstliche Intelligenz": 0 Treffer. „KI": 0 Treffer.** „Werbedaten" 23-mal, „Standortdaten"
+zweimal, „ADINT" null Mal, „automatisiert" vier Mal, und diese vier betreffen ausschließlich den
+Standardbegriff aus Artikel 2 Absatz 1 DSGVO („ganz oder teilweise automatisierte Verarbeitung").
+**Kein KI-Kern, am Primärdokument festgestellt.**
+
+**Damit bestätigt sich die Einschätzung vom 22.10.2026**, als derselbe Strang als „kein KI-Kern
+erkennbar" vorgemerkt wurde. Nach der Regel vom 15.08. wurde erst geprüft, dann entschieden, und
+diesmal am Gutachten statt am Pressetext.
+
+**Als Idee vorgemerkt, nicht als Kandidat:** Das Zitat des Ministeriumssprechers gegenüber
+netzpolitik, eine Offenlegung über „Einsatz bzw. Nichteinsatz einzelner Softwareprodukte" würde
+„detaillierte Rückschlüsse auf die Arbeitsweise, die technischen Fähigkeiten, sowie die
+ermittlungstaktischen Verfahrensweisen der Sicherheitsbehörden und Nachrichtendienste des Bundes
+zulassen". **Zitat aus dem Bericht, nicht aus einer Primärquelle.**
+
+### NEUER KANDIDAT: Behörde testet sechs KI-Brillen und rät vom Kauf ab
+
+heise, 20.11.2026, 05:03. Die niederländische **Autoriteit Persoonsgegevens** hat **sechs
+verschiedene Typen** von KI-Brillen untersucht und rät vom Kauf ab. In einem **simulierten Notfall
+mit Wiederbelebung** nannte die Brille nach dem Bericht eine falsche Notrufnummer. Die AP kann kein
+Verkaufsverbot verhängen, das sei den Produktsicherheitsbehörden vorbehalten; **Norwegen** plane ein
+zeitweiliges Verbot an ausgewählten Orten. Schon im September hatte die AP gewarnt, dass das Filmen
+anderer Personen „fast immer verboten" ist.
+
+**Belastbarkeit: berichtet. Die Untersuchung ist nicht beschafft, erster Punkt für morgen.** Die
+Behörde nennt laut Bericht keine Produktnamen; die Herstellerliste (Meta, TCL/RayNeo, Rokid, HTC)
+stammt bei heise aus einer Reuters-Angabe.
+
+**PROBLEM FÜR DEN POST, vor dem Bau zu lösen:** Unsere Regel verlangt, das Thema auf Blatt 01 beim
+Namen zu nennen (entstanden aus Post 1). **Hier nennt die Behörde selbst keine Namen.** Eine
+Schlagzeile über „die Brille" verstößt gegen die eigene Regel, eine mit Herstellernamen ist durch die
+Quelle nicht gedeckt. Möglicher Ausweg: die Behörde beim Namen nennen statt das Produkt.
+
+### Nicht verfolgt
+
+- **„Heimlicher Zugriff auf Fahrzeugdaten"** (netzpolitik). **Weiter bewusst nicht verfolgt, aus
+  Tabu-Gründen**, Begründung vom 19.11. gilt unverändert.
+- **„KI nicht nach Geschenken fragen, sonst bekommen Deutsche die billigsten"** (heise, 19.11.,
+  14:17). **Nicht gelesen, vorgemerkt.** Vor einer Verwendung klären, wer getestet hat und mit
+  welcher Methode. Eine Schlagzeile über Preisunterschiede nach Nationalität braucht eine belastbare
+  Grundlage.
+- **„Mit KI-Suche durch den Behörden-Dschungel: NRW stellt neues Webportal vor"** (heise, 19.11.,
+  15:18). Deutsche Behörde, betrifft Bürger in NRW. **Vorgemerkt mit Priorität, nicht gelesen.**
+- **„Cyberangriff auf EU-Kommission: Verdacht auf KI-Tool Artex"** (heise, 19.11., 16:27). „Verdacht"
+  in der Überschrift, ohne Primärquelle nicht verwertbar. Nicht gelesen.
+- **„Britische Regierung muss gestehen, dass sie Apple eine Hintertür befohlen hat"** (19.11.,
+  20:33). Starke Geschichte, **kein KI-Kern.** Nicht vorgemerkt.
+- **Anthropic-Börsenstart, Project Suncatcher, Palantir-Spionagefall, Glasfaser, Tesla Grünheide,
+  Windkraft, DDR6, OLED-iMac, Model Y ohne Pedale, ruby2ßhell, PHP, Android Foldables, Symani,
+  Ubiquiti, PowerShell, Helsing, SSD-Preise, Paketschäden, Südkorea-Handytests, Kühlenergie,
+  Big-Tech-Steuerlücke.** Produkt-, Markt-, Sicherheits- und Auslandsnachrichten ohne persönliche
+  Betroffenheit in Deutschland oder ohne KI-Kern. Nicht vorgemerkt.
