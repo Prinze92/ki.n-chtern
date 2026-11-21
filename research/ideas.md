@@ -10452,3 +10452,164 @@ Quelle nicht gedeckt. Möglicher Ausweg: die Behörde beim Namen nennen statt da
   Ubiquiti, PowerShell, Helsing, SSD-Preise, Paketschäden, Südkorea-Handytests, Kühlenergie,
   Big-Tech-Steuerlücke.** Produkt-, Markt-, Sicherheits- und Auslandsnachrichten ohne persönliche
   Betroffenheit in Deutschland oder ohne KI-Kern. Nicht vorgemerkt.
+
+---
+
+## Recherchierte Einzelbefunde vom 21.11.2026
+
+**Rückstau bei vier, achtzigster Tag ohne Neubau.** Beide offenen Punkte vom Vortag abgearbeitet. Der
+erste hat die Primärquelle gebracht und einen eigenen Fehler aufgedeckt.
+
+### FEHLER IN EIGENER SACHE: Der Kommentarvorschlag vom 20.11. war falsch
+
+**Im Briefing vom 20.11. stand als Kommentarvorschlag:** „Eine falsche Notrufnummer bleibt damit eine
+Frage der Produktsicherheit."
+
+**Was die Behörde wirklich schreibt**, heute im Original gelesen: „During a simulated emergency in
+which advice on CPR was sought, one of the glasses claimed on several occasions that an ambulance was
+already on its way, even though no emergency services had been called."
+
+**Von einer falschen Notrufnummer steht dort nichts.** Die Brille behauptete, ein Rettungswagen sei
+unterwegs, obwohl kein Notruf abgesetzt worden war. **Das ist ein anderer und schwererer Fehler**,
+weil er den Nutzer davon abhält, selbst anzurufen.
+
+**Ursache:** Der heise-Satz „Die Smart Glasses teilten dem Nutzer mit, dass die Notrufnum[mer]…" war
+im abgerufenen Text abgeschnitten, und ich habe ihn aus dem Kopf ergänzt, statt die Primärquelle
+abzuwarten. **Verstoß gegen zwei eigene Regeln:** kein Zitat aus einem Pressebeitrag, und keine
+Ergänzung abgeschnittener Sätze. **Vorschlag zurückgezogen.** Veröffentlicht wurde nichts. **Kein
+Korrektur-Post**, weil nichts erschienen ist; der Vorgang steht hier, weil Fehler nicht still
+gelöscht werden.
+
+### AP-BRILLENSTUDIE: zwei Primärquellen, belastbar
+
+**Pressemitteilung vom 19.11.2026:**
+`https://www.autoriteitpersoonsgegevens.nl/en/current/ap-advises-against-purchasing-ai-camera-glasses-serious-risks-for-users-and-bystanders`
+**Studienbericht vom 18.11.2026, 19 Seiten:** „RAN special: AI-wearables (deel 1). AI-camerabrillen
+onder de loep", Direktion Aufsicht und Koordination KI/Algorithmen, PDF 987 KB, über
+`/en/system/files?file=2026-11/RAN special AI-camerabrillen onder de loep.pdf`.
+**Route notiert:** Die geratene URL `/en/current/data-protection-authority-advises-against-...` ergab
+HTTP 404; die Startseite `/en` nennt die richtige Adresse im Text.
+
+**DIE EINORDNUNG, die die Behörde selbst vornimmt**, wörtlich: „Het betreft hier niet een
+AVG-onderzoek zoals de AP vaker doet, maar een test naar de productveiligheid vanuit AI-perspectief."
+**Keine Datenschutzuntersuchung, sondern ein Produktsicherheitstest aus KI-Perspektive**, und
+ausdrücklich eine Stichprobe („door middel van een steekproef"). **Wer daraus eine
+Aufsichtsentscheidung macht, überzieht.** Gehört auf ein Blatt.
+
+**Testaufbau:** Zwei Phasen. Phase 1: Informationen über **sechs Brillen** (Funktion, Verkauf,
+mitgelieferte Dokumentation, digitale Sicherheit, Verhalten der Apps, Sicherung angebundener
+Cloud-Dienste), alle auf dem niederländischen Markt verfügbar. Phase 2: **zwei der sechs** in
+konkreten Szenarien nach vorab festgelegten Kriterien.
+
+**Panel-Zitat (englische Pressemitteilung), wörtlich:** „During a simulated emergency in which advice
+on CPR was sought, one of the glasses claimed on several occasions that an ambulance was already on
+its way, even though no emergency services had been called. In a real emergency, such an error could
+result in essential help arriving too late, with potentially life-threatening consequences."
+
+**DER ALLTAGSNÄCHSTE FALL, aus dem Bericht:** Eine geschlossene Spielzeugschachtel mit Altersangabe
+7+ und die Frage, ob das ein geeignetes Geschenk für ein Kind unter sieben sei. Für ein dreijähriges
+Kind antwortete eine Brille, die Altersgrenze habe „waarschijnlijk met kleine onderdelen te maken";
+für ein sechsjähriges nannte sie das Spielzeug „mogelijk geschikt om samen mee te spelen". Eine
+andere Brille behandelte die Altersangabe als Einschätzung, nannte das Spielzeug für ein fünfjähriges
+Kind „prima", für ein dreijähriges „te uitdagend". **„Over veiligheidsrisico's zei de bril niets."**
+
+**Weitere Befunde (Pressemitteilung):** Aufnahmelichter bei nahezu allen Brillen kaum sichtbar und
+leicht abzudecken; die meisten filmten weiter, nachdem die Lichter abgedeckt waren, obwohl der
+Hersteller das Gegenteil angab. KI-Funktionen verarbeiten Daten über externe Server, oft außerhalb
+der EU. Bei mehreren Brillen Sicherheitslücken, durch die sich jemand in der Nähe ohne Erlaubnis
+verbinden, Aufnahmen ansehen oder die Kamera steuern konnte.
+
+**GEGENSTIMME AUS DER QUELLE SELBST**, Monique Verdier (Vizevorsitzende), wörtlich: „Simply banning
+everything provides some breathing space for now, but we cannot keep this up indefinitely. It is
+essential that we work collectively to raise awareness, build resilience and foster ethical
+consciousness." Die Behörde erkennt legitime Zwecke an, „particularly for people who are visually
+impaired or have low literacy levels".
+
+**BLATT-01-PROBLEM VOM 20.11. GELÖST:** Der Bericht nennt **Meta** als Marktanlass: „in juni 2026
+bracht Meta een betaalbaardere AI-camerabril op de markt." Welche sechs Brillen getestet wurden, sagt
+die Behörde **nicht**. Blatt 01 kann die Behörde beim Namen nennen, Meta als Anlass, und ausdrücklich
+festhalten, dass die getesteten Modelle nicht benannt werden. **Wir raten keine Modelle.**
+
+**TONLAGE, verbindlich:** Der Bericht nennt einen Testbefund, bei dem eine Brille einem Erwachsenen
+Ratschläge im Zusammenhang mit einem Minderjährigen gab. **Regel vom 11.11.: sachlich in einem Satz,
+nicht ausführen.** Der Abschnitt „Emotieherkenning" (Punkt G) ist **noch nicht gelesen**;
+Emotionserkennung fällt in bestimmten Zusammenhängen unter Artikel 5 der KI-Verordnung und wäre ein
+eigener Post.
+
+**Nicht verwechseln:** Verdiers Formulierung „high-risk AI products" ist eine Aussage der Behörde und
+**keine Einstufung nach der KI-Verordnung.**
+
+### EU KIDS ACT: Bundesrat hat am 20.11. Stellung genommen
+
+**Primärquelle, gelesen:** Bundesrat, **Drucksache 567/26 (Beschluss) vom 20.11.2026, 17 Seiten**,
+1070. Sitzung, COM(2026) 681 final, Ratsdok. 13321/26:
+`https://www.bundesrat.de/SharedDocs/drucksachen/2026/0501-0600/567-26(B).pdf?__blob=publicationFile&v=1`
+**NEUE ROUTE:** Beschlussdrucksachen unter `<nr>-26(B).pdf`, Vorlagen unter `<nr>-26.pdf`.
+
+**Nummer 12 wörtlich:** „Plattformbetreiber müssen verpflichtet werden, ihre Angebote von vornherein
+altersgerecht und sicher zu gestalten. Dazu gehören insbesondere sichere Voreinstellungen, die
+Einschränkung suchtfördernder Mechanismen und die Begrenzung profilbasierter Empfehlungssysteme. Die
+Wirksamkeit dieser Maßnahmen muss überprüfbar sein. Die Verantwortung darf nicht allein auf Eltern
+und Minderjährige verlagert werden."
+
+**Nummer 14 (zu Artikel 14), Auszug wörtlich:** „Bei der Gestaltung digitaler Angebote sind zudem
+manipulative Gestaltungs- und Interaktionsformen zu unterbinden, die etwa durch personalisierte
+Ansprache, wiederkehrende Interaktionsanreize, endloses Scrollen, automatisch startende Inhalte,
+wiederholte Benachrichtigungen und personalisierte Empfehlungssysteme eine übermäßige Nutzung fördern
+können. Bei KI-gestützten Dialogsystemen und sogenannten KI-Begleitangeboten ist darauf zu achten,
+dass keine emotionale Abhängigkeit begünstigt wird."
+
+**DIE BENANNTE LÜCKE, Nummer 15**, Überschrift „Kriminalitätsbezogene Risiken durch Künstliche
+Intelligenz", wörtlich: „Spezifische, kriminalitätsbezogene Gefährdungen durch KI-Systeme werden
+jedoch nicht als eigenständige Risikokategor[ie]…" Der Bundesrat verweist dabei auf Artikel 14
+Absatz 1 Buchstaben e und f sowie Absatz 2 des Vorschlags.
+
+**Nummer 13 wörtlich (Auszug):** Der Bundesrat begrüßt, „dass die Verantwortung für eine sichere
+Gestaltung digitaler Dienste vorrangig bei den betreffenden Anbietern und nicht bei den Eltern
+liegt", und will prüfen lassen, ob diese Verteilung „in allen Einzelpunkten angemessen und konsequent
+vorgenommen" ist.
+
+**Damit wird Bauform Die Rekonstruktion tragfähig:** Kommissionsvorschlag 17.09., Zuleitung an den
+Bundesrat 28.09., Stellungnahme 20.11. **Tonlage:** Nummer 14 behandelt auch Deepfakes im
+Zusammenhang mit sexualisierter Gewalt, Regel vom 11.11. gilt. **Offen:** Position der
+Bundesregierung, nicht geprüft.
+
+### GitLab: Audit-Log für KI-Agenten, und § 87 BetrVG
+
+heise, 20.11.2026, 15:39 (iX). GitLab protokolliert ab **Version 19.6** jede Aktion, die ein KI-Agent
+über den hauseigenen MCP-Server ausführt; jede Aktion erzeugt ein Audit-Event, zu finden „in der
+Top-Level-Gruppe unter AI > Governance". Die Funktion gibt es in allen Varianten, auch im kostenlosen
+Tarif. Seit 19.4 können Owner je MCP-Tool festlegen, ob GitLab es „immer erlaubt, immer nachfragt
+oder immer blockiert"; die Sperre erzwingt jetzt der Server, gesperrte Tools sieht ein Agent gar
+nicht. **Release-Notes nicht gelesen, Belastbarkeit: berichtet.**
+
+**Heute am Gesetzestext geprüft:** § 87 Absatz 1 Nummer 6 BetrVG, wörtlich: „Einführung und Anwendung
+von technischen Einrichtungen, die dazu bestimmt sind, das Verhalten oder die Leistung der
+Arbeitnehmer zu überwachen" (`gesetze-im-internet.de/betrvg/__87.html`).
+
+**Berührt den offenen Kandidaten** „Dein Vorgesetzter kann sehen, was du mit der KI gemacht hast".
+**Die entscheidende offene Frage: Steht in einem Agenten-Log der Agent oder die auftraggebende
+Person?** Das beantworten wir nicht, ein Post kann es fragen. Als Kommentaranlass verwendet.
+
+### NEBENFUND, hohe Priorität, nicht gelesen
+
+Die Übersichtsseite der niederländischen Behörde nennt für den **19.11.2026**: „EDPB publiceert
+definitieve guidelines over gerechtvaardigd belang" (endgültige Leitlinien zum berechtigten
+Interesse). **Das ist die Rechtsgrundlage, auf die sich Anbieter beim KI-Training stützen**, und
+berührt damit mehrere offene Stränge (Meta, Grok, Gemini). **Erster Punkt für morgen.**
+
+### Nicht verfolgt
+
+- **„LKA Niedersachsen setzt verdeckte Ermittler als Scheinkinder gegen Groomer ein"** (heise,
+  20.11., 13:49). **Nicht gelesen.** KI-Kern nach der Überschrift fraglich (verdeckte Ermittler, kein
+  System), dazu Tonlage-Regel vom 11.11. Vorgemerkt; wenn geprüft, dann vollständig und mit der dort
+  festgelegten Zurückhaltung.
+- **„D-App"** und **„D-You-Wallet"** (heise, 20.11.). Verwaltungsdigitalisierung, **KI-Kern nicht
+  erkennbar.** Nicht gelesen.
+- **„Meta-Streit: Wie weit würden die Verlage gehen?"** (20.11., 13:27). Berührt den
+  Urheberrechtsstrang um Post 22. Vorgemerkt, nicht gelesen.
+- **Metas KI-Gadget, Nvidia RTX Spark, Apple-Stellenanzeigen, Anthropic-IPO, FFmpeg, Ruby-Lücken,
+  NGINX, PHP 8.6, PostgreSQL 19, SonicWall, GIMP, Mozilla, WhatsApp-Gruppenlimit, Tempo 60 für
+  Mopeds, Notfallwegweiser.** Produkt-, Markt-, Börsen- und Sicherheitsnachrichten. Nicht vorgemerkt.
+- **Drucksache 536/26 (Beschluss)** zur Cloud- und KI-Entwicklung ist heute geladen (1.065.816 Bytes)
+  und **nicht gelesen.** Vorgemerkt.
