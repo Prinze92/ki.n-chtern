@@ -10613,3 +10613,144 @@ berührt damit mehrere offene Stränge (Meta, Grok, Gemini). **Erster Punkt für
   Mopeds, Notfallwegweiser.** Produkt-, Markt-, Börsen- und Sicherheitsnachrichten. Nicht vorgemerkt.
 - **Drucksache 536/26 (Beschluss)** zur Cloud- und KI-Entwicklung ist heute geladen (1.065.816 Bytes)
   und **nicht gelesen.** Vorgemerkt.
+
+---
+
+## Recherchierte Einzelbefunde vom 22.11.2026
+
+**Rückstau bei vier, einundachtzigster Tag ohne Neubau.** Der erste Punkt vom Vortag brachte nicht
+das erwartete Dokument, aber über einen Umweg etwas Besseres.
+
+### ROUTEN-ERKENNTNIS: COM-Dokumente über EUR-Lex TXT/HTML, nicht TXT/PDF
+
+Am 18.11. wurde COM(2025) 837 final als nicht beschaffbar geführt: `TXT/PDF/?uri=CELEX:52025PC0837`
+antwortete dreimal mit **HTTP 202 und null Bytes**, die AUTO-Route ebenso. **Heute mit
+`legal-content/DE/TXT/HTML/?uri=CELEX:52025PC0837`: HTTP 200, 924.191 Bytes, deutscher Volltext
+(421.982 Zeichen extrahiert).** Die Form stand in einem netzpolitik-Beitrag, dort mit `EN`.
+
+**REGEL AB HEUTE: Verordnungen über CELEX-PDF (`TXT/PDF`), COM-Dokumente über CELEX-HTML
+(`TXT/HTML`).** Das löst den offenen Punkt vom 18.11.
+
+### STÄRKSTER KANDIDAT: Die Kommission will das Erforderlichkeitskriterium in Art. 22 DSGVO lösen
+
+**Primärquelle, im Original gelesen:** COM(2025) 837 final vom 19.11.2025, 2025/0360(COD), Artikel 3
+Nummer 7. **Wörtlich:**
+
+> „Artikel 22 Absätze 1 und 2 erhalten folgende Fassung: „(1) Eine Entscheidung, die für eine
+> betroffene Person Rechtswirkung entfaltet oder sie in ähnlicher Weise erheblich beeinträchtigt,
+> darf nur dann ausschließlich auf einer automatisierten Verarbeitung, einschließlich Profiling,
+> beruhen, wenn diese Entscheidung a) für den Abschluss oder die Erfüllung eines Vertrags zwischen
+> der betroffenen Person und einem Verantwortlichen notwendig ist, **unabhängig davon, ob die
+> Entscheidung auf andere Weise als mit ausschließlich automatisierten Mitteln getroffen werden
+> könnte**, …"
+
+**Die Begründung sagt es offen, wörtlich:** „insbesondere wäre darin geklärt, dass die
+„Erforderlichkeit" unabhängig davon gilt, ob die Entscheidung nur mit automatisierten Mitteln oder
+auch auf andere Weise getroffen werden könnte."
+
+**DER WIDERSPRUCH, aus einem deutschen Primärdokument** (BR-Drs. 34/26 (Beschluss) vom 27.03.2026,
+am 18.11. gelesen), wörtlich: „Er misst der Beibehaltung der menschlichen Aufsicht über
+automatisierte Entscheidungen im Zusammenhang mit Verträgen gemäß Artikel 22 DSGVO eine hohe
+Bedeutung bei. Vollautomatisierte Entscheidungen sind nur dann für Verträge zulässig, wenn dies
+erforderlich ist, d. h., wenn eine Überprüfung durch Menschen keine sinnvolle Alternative darstellt."
+
+**Die Kommission will Erforderlichkeit von der Frage lösen, ob ein Mensch es auch könnte; der
+Bundesrat definiert Erforderlichkeit genau über diese Frage.** Zwei Primärdokumente, beide wörtlich
+zitierbar. **Bauform Der Widerspruch**, zuletzt in Post 19.
+
+**PRÄZISIERUNG DES KANDIDATEN VOM 18.11.:** Die Einschränkung des Auskunftsrechts steht **nicht in
+Artikel 15, sondern in Artikel 12**. Wörtlich: Der Verantwortliche kann sich weigern, wenn die
+betroffene Person „die ihr mit dieser Verordnung verliehenen Rechte zu anderen Zwecken als dem Schutz
+ihrer Daten missbraucht"; „Der Verantwortliche hat nachzuweisen, dass der Antrag offenkundig
+unbegründet ist oder dass hinreichende Gründe für die Annahme bestehen, dass der Antrag exzessiv
+ist." Ein Erwägungsgrund nennt als Missbrauchsbeispiel, jemand wolle eine Ablehnung herbeiführen, „um
+anschließend eine Entschädigungszahlung zu verlangen", und hält fest: **„Zu weit gefasste und
+undifferenzierte Auskunftsverlangen sind ebenfalls als exzessiv anzusehen."** Die Beweislast für ein
+exzessives Verlangen soll ausdrücklich **geringer** sein als für einen offensichtlich unbegründeten
+Antrag. In **Artikel 15 wird ein neuer Absatz 5** mit einer Ausnahme für wissenschaftliche Forschung
+angefügt. (Am 18.11. war ausdrücklich notiert, dass der Vorschlag nicht gelesen ist, also keine
+Korrektur, sondern eine Präzisierung.)
+
+**FALLSTRICK, gehört in jede sources.md zu diesem Thema:** Der Omnibus ändert mehrere Verordnungen.
+Dieselbe Formulierung „unabhängig davon, ob die Entscheidung auf andere Weise … getroffen werden
+könnte" steht auch in einem **Artikel 24, der zur Verordnung (EU) 2018/1725 für die EU-Organe
+gehört** (erkennbar daran, dass der benachbarte Artikel 34 den Europäischen Datenschutzbeauftragten
+als Meldeadressaten nennt und eine 96-Stunden-Frist setzt). **Wer das verwechselt, zitiert die falsche
+Vorschrift.** Bei jeder Fundstelle prüfen, welche Verordnung der Änderungsbefehl betrifft.
+
+**OFFEN, blockierend:** Verfahrensstand im Europäischen Parlament zu Artikel 22. **Nicht geprüft.**
+Ohne das steht auf dem Blatt möglicherweise ein überholter Stand, der Fehlertyp vom 17.11. (Post 21).
+
+### EDPB-Leitlinien 1/2024 v2.0: KI nur im Verweis
+
+**Primärquelle, im Original gelesen:** „Guidelines 1/2024 on processing of personal data based on
+Article 6(1)(f) GDPR, Version 2.0, Adopted on 10 November 2026", **43 Seiten**:
+`https://www.edpb.europa.eu/system/files/2026-11/edpb_guidelines_202401_legitimateinterest_v2_en.pdf`
+Daneben verfügbar: Flussdiagramm-Anhang, Fassung mit Änderungsverfolgung v1 zu v2 (.docx), Bericht
+über die öffentliche Konsultation, Zusammenfassung. **Erste Version Oktober 2024, Konsultation,
+Endfassung am 10.11.2026 beschlossen** (die AP-Meldung vom 19.11. nennt das Beschlussdatum).
+
+**ROUTE:** `edpb.europa.eu` liefert über curl überwiegend JavaScript-Hüllen (News- und
+Guidelines-Übersicht je unter 6.000 Zeichen Text). **Die Dokument-Detailseite
+`/documents/guideline/guidelines-12024-on-processing-of-personal-data-based-on-article-61f-gdpr_en`
+enthält dagegen die PDF-Links im HTML.** Gefunden über die Meldung der niederländischen Behörde
+`autoriteitpersoonsgegevens.nl/actueel/edpb-publiceert-definitieve-guidelines-over-gerechtvaardigd-belang`.
+**Nationale Aufsichtsbehörden sind der verlässlichere Zeiger auf EDPB-Dokumente.**
+
+**BEFUND, der die Erwartung dämpft:** „artificial intelligence" **null Mal**, „AI model" sechsmal,
+„AI system" einmal, „training" zweimal, „scraping" einmal. **Die Leitlinien regeln KI nicht**, sie
+verweisen. Randnummer 90 wörtlich, Auszug: „the EDPB has provided, in its Opinion 28/2024, general
+considerations to take into account when assessing whether controllers can rely on Article 6(1)(f)
+GDPR for processing conducted in the context of the development and deployment of AI models. For
+example, developing the service of a conversational agent to assist users, developing an AI system to
+detect fraudulent content or behaviour, or the improvement of threat detection in an information
+system **may** constitute legitimate interests." **Das „may" ist der ganze Punkt.**
+
+**NEUE SPUR, belegt aber nicht beschafft.** Fußnote 137: **„EDPB, Guidelines 03/2026 on web scraping
+in the context of generative AI (version 1.0, 7 July 2026), in particular paras. 46–66."** Ein
+Ausschuss-Dokument speziell zum Web-Scraping für generative KI, seit Juli verfügbar, **bisher nicht
+in ideas.md.** Vier geratene PDF-Adressen ergaben HTTP 404. **Raten abgebrochen**, weil Raten statt
+Belegen gegen die eigenen Regeln geht. Existenz, Titel, Version und Datum sind durch die Fußnote
+belastbar, das Dokument nicht. **Hohe Priorität.**
+
+**Weitere Verweise, beide nicht gelesen:** EDPB Opinion 28/2024 zu KI-Modellen (17.12.2024),
+Abschnitte 3.4.2 und Randnummern 69 bis 108. Und **EuGH, Urteil vom 18.06.2026, C-484/24, NTH
+Haustechnik (ECLI:EU:C:2026:496), Rn. 112**: Nach der Fußnote schließt es aus, Daten auf ein
+berechtigtes Interesse zu stützen, wenn der Empfänger wusste oder wissen musste, dass sie rechtswidrig
+erhoben wurden. **Tragweite nicht bewertet.** Abschnitt 4.1 der Leitlinien behandelt ausdrücklich
+Kinderdaten, Brücke zum EU-KIDS-ACT-Strang.
+
+### EDPS Opinion 36/2026 zum EU KIDS ACT: berichtet, nicht beschafft
+
+netzpolitik, 20.11.2026, 16:52. Der Europäische Datenschutzbeauftragte **Wojciech Wiewiórowski** hat
+am **12.11.2026** eine **27-seitige** Stellungnahme abgegeben, **EDPS Opinion 36/2026**. Er
+unterstützt das Ziel, hält die Alterskontrollen aber für zu breit und empfiehlt mildere Mittel; der
+Beitrag bereitet zehn Kritikpunkte auf, darunter leichte Umgehbarkeit (VPN, Tor), unreife Technik,
+problematische biometrische Gesichtsscans, Barrieren für Erwachsene, zu strenge elterliche Kontrolle,
+Annahme traditioneller Familien, Gefahr für private Kommunikation.
+
+**`edps.europa.eu` antwortet auf die verlinkte Adresse mit HTTP 403 und 118 Bytes.** Die im Beitrag
+übersetzten Zitate sind **doppelt vermittelt und nicht panelreif.** Beschaffung über eine nationale
+Aufsichtsbehörde versuchen.
+
+### Landgericht Frankfurt: KI-Bilder sind keine „Fotos"
+
+heise, 21.11.2026, 10:00 (c't Fotografie). Das LG Frankfurt hat entschieden, dass KI-generierte
+Bilder nicht als „Fotos" bezeichnet werden dürfen, wenn echte Fotografien daneben stehen; Begründung
+Verwechslungsgefahr. **Kein Aktenzeichen, kein Urteilsdatum im Beitrag, Urteil nicht beschafft.
+Belastbarkeit: berichtet.** Als Kommentaranlass verwendet, berührt den Kennzeichnungsstrang um
+Artikel 50 KI-VO.
+
+### Nicht verfolgt
+
+- **UN-Konferenz zu Killer-Robotern ohne Mandat** (heise, 21.11., 16:28) und **fünf EU-Staaten planen
+  Zentrum für KI in der Verteidigung** (14:48). Keine persönliche Betroffenheit in Deutschland, und
+  die Leitfrage ist die abstrakte Form, die unser Leitprinzip ausschließt. Nicht vorgemerkt.
+- **„Riemannsche Vermutung: Anthropic-Mathematiker will KI-Beweis gefunden haben"** (21.11., 09:09).
+  Keine persönliche Betroffenheit. Nicht vorgemerkt. Prüfpunkt am Rand: Ein behaupteter Beweis ist
+  erst einer, wenn er nachgerechnet wurde.
+- **openchamber, Windows-Gesichts-Unlock, Internet Archive, FBI-Datenbank, GTA 6, XXRI OS, Monitore,
+  iX-Workshops, Mobilfunk aus dem All.** Produkt-, Markt-, Sicherheits- und Vermischtes ohne KI-Kern.
+  Nicht vorgemerkt.
+- **Abschnitt „Emotieherkenning" im AP-Brillenbericht**, zweiter Punkt vom 21.11. **Heute nicht
+  bearbeitet**, Zeit ging in den Omnibus-Volltext. Bleibt offen und wichtig (Artikel 5 KI-VO).
