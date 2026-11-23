@@ -10754,3 +10754,145 @@ Artikel 50 KI-VO.
   Nicht vorgemerkt.
 - **Abschnitt „Emotieherkenning" im AP-Brillenbericht**, zweiter Punkt vom 21.11. **Heute nicht
   bearbeitet**, Zeit ging in den Omnibus-Volltext. Bleibt offen und wichtig (Artikel 5 KI-VO).
+
+## Recherchierte Einzelbefunde vom 23.11.2026
+
+Rückstau bei vier (Posts 27, 28, 29, 30), zweiundachtzigster Tag ohne Neubau. Vollständig in
+`research/briefing/2026-11-23.md`.
+
+### Artikel 88c DSGVO neu: KI-Training auf berechtigtem Interesse
+
+**Quelle: COM(2025) 837 final vom 19.11.2025 (Digital Omnibus), Artikel 3, deutscher Volltext über
+`https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:52025PC0837`. Belastbar für den
+Vorschlag, geltendes Recht ist es nicht.**
+
+Wortlaut, vollständig:
+
+> „Artikel 88c Verarbeitung im Zusammenhang mit der Entwicklung und dem Betrieb von KI
+> Ist die Verarbeitung personenbezogener Daten im Zusammenhang mit der Entwicklung und dem Betrieb
+> eines KI-Systems im Sinne des Artikels 3 Nummer 1 der Verordnung (EU) 2024/1689 oder eines
+> KI-Modells im Interesse des Verantwortlichen erforderlich, so kann diese Verarbeitung
+> gegebenenfalls aus berechtigtem Interesse im Sinne des Artikels 6 Absatz 1 Buchstabe f der
+> Verordnung (EU) 2016/679 erfolgen, es sei denn, andere Rechtsvorschriften der Union oder der
+> Mitgliedstaaten sehen ausdrücklich eine Einwilligung vor und die Interessen oder Grundrechte und
+> Grundfreiheiten der betroffenen Person, die den Schutz personenbezogener Daten erfordern,
+> überwiegen, insbesondere wenn es sich bei der betroffenen Person um ein Kind handelt."
+
+Zweiter Satz, Auszug:
+
+> „Eine solche Verarbeitung unterliegt geeigneten organisatorischen, technischen Maßnahmen und
+> Garantien für die Rechte und Freiheiten der betroffenen Person, zum Beispiel um in der Phase der
+> Auswahl der Quellen und des Trainings und Testens von KI-Systemen oder KI-Modellen die Einhaltung
+> der Datenminimierung sicherzustellen, im KI-System oder KI-Modell auf Vorrat gespeicherte Daten
+> vor der Offenlegung zu schützen, für mehr Transparenz für die betroffenen Personen zu sorgen und
+> den betroffenen Personen ein bedingungsloses Recht auf Widerspruch gegen die Verarbeitung ihrer
+> personenbezogenen Daten einzuräumen."
+
+Das „bedingungslose" Widerspruchsrecht ist das Gegengewicht und gehört in jeden Post zu dieser Norm.
+Nach geltendem Artikel 21 Absatz 1 DSGVO verlangt der Widerspruch gegen eine Verarbeitung auf
+berechtigtes Interesse eine Abwägung; bedingungslos ist mehr. Ohne diesen Satz wäre der Post
+unredlich.
+
+Verhältnis zu den EDPB-Leitlinien vom 10.11.2026 (Befund vom 20.11.): Die Leitlinien sagen, die
+Entwicklung eines Chatbots **könne** ein berechtigtes Interesse sein („may constitute"). Artikel 88c
+würde daraus eine benannte Grundlage machen. Der Unterschied zwischen Auslegung und Norm ist der
+Kern des Kandidaten.
+
+### Zweiter Normbefund aus demselben Vorschlag: relativer Personenbezug
+
+Artikel 4 Nummer 1 DSGVO soll Sätze erhalten, nach denen Angaben „für eine bestimmte Einrichtung
+nicht personenbezogen" sind, wenn diese die Person „in Anbetracht der mit hinreichender
+Wahrscheinlichkeit von dieser Einrichtung genutzten Mittel, nicht identifizieren kann". Verkleinert
+den Anwendungsbereich der Verordnung. Für einen eigenen Post zu voraussetzungsreich, in `sources.md`
+des Kandidaten nötig.
+
+### Verfahrensstand 2025/0360(COD), offener Punkt vom 22.11. beantwortet
+
+- Legislative Observatory: Status „Awaiting committee decision". Ausschüsse ITRE und LIBE gemeinsam.
+  Berichterstatter Aura Salla (EPP, FI) für ITRE, ernannt 25.02.2026; Marina Kaljurand (S&D, EE) für
+  LIBE. `https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025/0360(COD)`
+- Legislative Train (redaktionelle Parlamentsseite, **einzelquelle**): Entwurfsbericht der
+  Ko-Berichterstatter vom **22.06.2026**, Ausschussberatung **13.07.2026**, Frist für
+  Änderungsanträge **15.07.2026**, **über 1750 Änderungsanträge**, Ratsmandat **21.10.2026**. Zum
+  Entwurfsbericht: zur DSGVO „no key amendments proposed", zu automatisierten Entscheidungen
+  „Controllers must offer meaningful human review on request, including in exception cases".
+- **Der Entwurfsbericht selbst ist nicht gelesen.** Über 1750 Änderungsanträge sind der Beleg dafür,
+  dass nichts entschieden ist.
+
+### Bundesrat, Drucksache 590/26 (Beschluss) vom 20.11.2026, 15 Seiten, im Volltext gelesen
+
+Belastbar. Stellungnahme zum Gesetz gegen digitale Gewalt.
+
+**Nummer 10, wörtlich:**
+
+> „Der Bundesrat bittet, im weiteren Gesetzgebungsverfahren sicherzustellen, dass mit Blick auf die
+> Verbreitung von Smart Glasses durch Änderungen in § 8 TDDDG a) einerseits eine stärkere
+> Regulierung erfolgt, indem insbesondere der Anwendungsbereich des TDDDG auf aufnahmefähige Geräte
+> ausgeweitet wird, die technisch geeignet sind, unbemerkt aufzunehmen, so dass es nicht mehr auf
+> die Erkennbarkeit der Aufnahme ankommt und b) andererseits klargestellt wird, dass die berechtigte
+> Nutzung von Smart Glasses – wie zum Beispiel als Assistenztechnologie für Menschen mit
+> Beeinträchtigungen – ausdrücklich als Bereichsausnahme zulässig bleibt."
+
+Aus der Begründung, wörtlich, Auszüge: Die Geräte ermöglichten es, „andere Personen unauffällig und
+ohne deren Einwilligung abzuhören oder zu filmen"; „Auch die Weiterverarbeitung der Daten auf den
+Servern der Hersteller erscheint datenschutzrechtlich mindestens problematisch, vor allem mit Blick
+auf den möglichen Einsatz von Künstlicher Intelligenz, Gesichtserkennung oder Livestreaming."
+
+**Damit hat der Brillen-Kandidat den deutschen Bezug, der ihm seit dem 20.11. fehlte.** Die
+niederländische Aufsicht erkennt im Bericht vom 18.11. Menschen mit Sehbehinderung als legitimen
+Zweck an, der Bundesrat formuliert für diese Nutzung zwei Tage später eine Bereichsausnahme. Zwei
+Länder, zwei Organe, dieselbe Grenze, beide Dokumente im Original gelesen.
+
+Weiter im Dokument, zum Kandidaten vom 15. und 17.11.: Der Bundesrat verlangt, den Katalog des
+§ 238 Absatz 1 StGB um Tathandlungen des neuen § 202e zu erweitern, weil Überwachung mittels GPS-
+oder Bluetooth-Tracker „regelmäßig nicht durch Nummer 5 erfasst" werde. Zitiert werden BGH,
+Beschluss vom 19.11.2009, 3 StR 244/09, Rn. 16, und OLG Hamburg, NJW-RR 2020, 203. Häufigkeiten im
+Dokument: § 184k 22-mal, § 201b viermal, „Freiheitsstrafe" achtmal. **Die einzelnen
+Verschärfungsforderungen zu § 184k und § 201b sind heute nicht ausgewertet.**
+
+### Artikel 50 Absatz 1 KI-VO, am Amtsblatt-PDF geprüft
+
+Wortlaut der Ausnahme: „es sei denn, dies ist aus Sicht einer angemessen informierten, aufmerksamen
+und verständigen natürlichen Person aufgrund der Umstände und des Kontexts der Nutzung
+offensichtlich". Gilt ab 02.08.2026 für die Transparenzpflichten; die Vorschrift nennt keine
+Beispiele. Grundlage des zweiten Kommentarvorschlags von heute.
+
+### Berichtet, nicht belastbar
+
+- Bundesnetzagentur sieht nach heise-Bericht „bei den derzeit vertriebenen Ray-Ban Meta Glasses
+  keinen Anlass für ein Marktverbot", weil die Voraussetzungen nach dem TDDDG nicht erfüllt seien.
+  **An keiner Primärquelle geprüft.** Wäre im Brillen-Post das dritte Panel und macht die Bauform
+  „Der Widerspruch" möglich. Erster Prüfpunkt nach der Anhörung.
+- Bitkom warnt im selben Bericht vor einem „pauschalen Verdacht gegen Smart-Glasses-Träger".
+
+### Nicht verfolgt
+
+- **netzpolitik, „Einsamkeit im Alter: Aber wenigstens hören Sie mir zu"** (22.11., 08:23).
+  Interview über eine Telefonhotline für Menschen ab 60. Bis zur gelesenen Stelle kein KI-Kern,
+  Interview ist nach der Regel vom 05.11. kein Kommentarziel. **Nicht bis zum Ende gelesen**, gilt
+  damit als ungeprüft. Vorgemerkt für den Companion-Strang.
+- **heise, US-Demokraten zur anlasslosen Internetüberwachung** (22.11.): kein Deutschlandbezug.
+- **heise, Internetwache der Berliner Polizei offline** (22.11.): kein KI-Kern erkennbar, nicht
+  gelesen.
+- Nvidia, GTA 6, GL.iNet-Schwachstelle, TDWI-Konferenz, iX-Workshop: Markt-, Kultur-, Sicherheits-
+  und Konferenznachrichten.
+
+### Routen-Notiz
+
+`bundesrat.de` brach heute dreimal mit „Recv failure: Connection reset by peer" ab, auch bei der
+Startseite, während eine kleinere Datei durchlief. Mit `curl --limit-rate 300k` ging der Download
+beim vierten Versuch durch (204.497 Bytes). Bei Abbrüchen auf dieser Domain künftig die Rate
+begrenzen, statt die Quelle als unerreichbar zu führen.
+
+### Offen, nach Priorität
+
+1. Ergebnis der Anhörung im Innenausschuss vom 23.11.2026, 14:00 Uhr, einziger Tagesordnungspunkt
+   KIMVG. Davon hängen zwei Kandidaten ab.
+2. Aussage der Bundesnetzagentur zu den Ray-Ban Meta Glasses an der Quelle.
+3. Abschnitt „Emotieherkenning" im Bericht der niederländischen Aufsicht, offen seit 21.11.
+4. Unverändert offen: EDPB-Leitlinien 03/2026 zum Web-Scraping (durch Fußnote 137 belegt, nicht
+   beschafft), EDPS Opinion 36/2026 (HTTP 403), EuGH C-484/24, EuGH-Urteil zur Europol-Befugnis,
+   BGH-Beschluss 3 StR 350/26, Schufa-Urteile vom 21.10. ohne Aktenzeichen, LG-Frankfurt-Urteil
+   ohne Aktenzeichen, Drucksache 536/26 (Beschluss), ETUI Working Paper 2026.05, deutsche
+   Datenschutzbehörde zur Galerie-Funktion der Facebook-App, Koalitionsvertrag
+   Mecklenburg-Vorpommern, Apple-Warnung zu KI-Agenten, Netflix-Synchronstreit, NRW-Behördenportal.
