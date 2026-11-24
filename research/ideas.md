@@ -10896,3 +10896,232 @@ begrenzen, statt die Quelle als unerreichbar zu führen.
    ohne Aktenzeichen, Drucksache 536/26 (Beschluss), ETUI Working Paper 2026.05, deutsche
    Datenschutzbehörde zur Galerie-Funktion der Facebook-App, Koalitionsvertrag
    Mecklenburg-Vorpommern, Apple-Warnung zu KI-Agenten, Netflix-Synchronstreit, NRW-Behördenportal.
+
+## Recherchierte Einzelbefunde vom 24.11.2026
+
+Rückstau bei vier (Posts 27, 28, 29, 30), dreiundachtzigster Tag ohne Neubau. Vollständig in
+`research/briefing/2026-11-24.md`.
+
+### Anhörung im Innenausschuss zum KIMVG am 23.11.2026, alle neun Dokumente im Volltext gelesen
+
+**Belastbar.** Öffentliche Anhörung am Montag, 23.11.2026, 14.00 Uhr, Paul-Löbe-Haus, Sitzungssaal
+4 800, einziger Tagesordnungspunkt BT-Drucksache 21/8275. Ein Wortprotokoll ist am 24.11. noch nicht
+veröffentlicht.
+
+Acht Sachverständige, mit der benennenden Fraktion (Sachverständigenliste, Stand 18.11.2026):
+
+- Prof. Dr. Matthias Friehe, EBS Universität, Oestrich-Winkel — CDU/CSU
+- Franziska Görlitz, Gesellschaft für Freiheitsrechte, Berlin — Die Linke
+- Yana Gospodinova, Referentin für Asyl-, Migrations- und Integrationspolitik, Deutscher
+  Caritasverband — SPD
+- Andree Pruin, Bundesvereinigung der kommunalen Spitzenverbände — nach § 69a Absatz 2 GO-BT
+- Prof. Dr. Sarah Rachut, Direktorin des Instituts für Rechtswissenschaften, TU Braunschweig — CDU/CSU
+- Joscha Rasch, Leiter des Referats II4 (Aufenthaltsrecht), Hessisches Innenministerium — CDU/CSU
+- Prof. Dr. Alexander Steen, Sprecher der Fachgruppe Künstliche Intelligenz, Gesellschaft für
+  Informatik — SPD
+- Eric Töpfer, Wissenschaftlicher Mitarbeiter, Deutsches Institut für Menschenrechte — Grüne
+
+Ausschussdrucksachen 21(4)258 A bis H sowie 21(4)260 (Der Paritätische Gesamtverband), zusammen
+115 Seiten, alle lokal gelesen. Routen-Muster siehe Briefing.
+
+### Die drei neuen Befugnisse des Entwurfs, mit Fundstellen
+
+Artikelgesetz, ändert Asylgesetz und Aufenthaltsgesetz im Wesentlichen gleichlautend:
+
+- **§ 7 Absatz 2a AsylG-E / § 86 Absatz 2 AufenthG-E:** Entwicklung, insbesondere Trainieren,
+  Validieren und Testen von KI-Systemen mit erhobenen personenbezogenen Daten.
+- **§ 7a AsylG-E / § 90d AufenthG-E:** automatisiertes Verfahrensmonitoring abgeschlossener Verfahren.
+- **§ 7b AsylG-E / § 90e AufenthG-E:** automatisierter Abgleich mit öffentlich zugänglichen Daten aus
+  dem Internet.
+
+### Der Widerspruch, beide Seiten heute an BT-Drs. 21/8275 geprüft
+
+**Normtext § 7b Absatz 1 AsylG-E, wörtlich:**
+
+> „Das Bundesamt kann im Einzelfall öffentlich zugängliche personenbezogene Daten aus dem Internet mit
+> entscheidungserheblichen Angaben aus dem Asylantrag mittels einer automatisierten Anwendung zur
+> Datenverarbeitung abgleichen, soweit bei diesen einzelnen entscheidungserheblichen Angaben auf Grund
+> tatsächlicher Anhaltspunkte begründete Zweifel an der Richtigkeit bestehen und der Abgleich zur
+> Aufklärung dieser Zweifel erforderlich ist. Biometrische Daten sind von dem Abgleich ausgeschlossen.
+> Die Ergebnisse des Abgleichs müssen stets durch das Bundesamt manuell bewertet, eingeordnet und
+> gegebenenfalls verifiziert werden."
+
+**Begründung derselben Drucksache, Seite 20, wörtlich:**
+
+> „Ebenso können konkrete Erkenntnisse aus der Beobachtung vergangener Verfahren vorliegen, dass
+> bestimmte Dokumente oder Angaben von bestimmten Orten oder Regionen besonders häufig als falsch
+> aufgefallen sind und daher besonders kritischer Überprüfung bedürfen."
+
+**Rachut, Ausschussdrucksache 21(4)258 F vom 23.11.2026, wörtlich:**
+
+> „Diese generalisierten Verdachtsmomente – gewonnen womöglich aus dem automatisierten
+> Verfahrensmonitoring – lassen sich nicht (mehr) mit der in Abs. 1 geforderten Einzelfallüberprüfung
+> aufgrund tatsächlicher Anhaltspunkte vereinen. Die diesbezüglichen Ausführungen sollten aus der
+> Begründung entfernt und die Anforderungen an die ‚tatsächlichen Anhaltspunkte‘ konkretisiert
+> werden."
+
+Rachut ist auf Vorschlag der CDU/CSU-Fraktion benannt. Das ist für die Einordnung erheblich und gehört
+in die Quellenlage.
+
+### Das Gegengewicht, ebenfalls aus den Primärquellen
+
+Rachut zum Vergleich mit dem Referentenentwurf, wörtlich: „Im Vergleich zur Fassung im
+Referentenentwurf zeigen sich hier die größten Unterschiede, da sich § 7b AsylG-E nun nur noch auf das
+Bundesamt (und nicht alle mit der Ausführung dieses Gesetzes betrauten Behörden) erstreckt, die
+Verarbeitung auf das Abgleichen von entscheidungserheblichen Informationen im Einzelfall beschränkt
+und bzgl. biometrischer Daten ausgeschlossen sowie die Weiterverarbeitung zu anderen Zwecken
+ausgeschlossen wird. Durch diese Vorgaben wurde das mit dem automatisierten Abgleich verbundene
+Eingriffsgewicht reduziert."
+
+**Das bestätigt den Befund vom 17.11.:** Post 21 ist überholt, nicht falsch, weil er dem
+Referentenentwurf vom 25.06.2026 zugeschrieben ist und Blatt 05 das sagt.
+
+Aus der Begründung, wörtlich: „Privatkommunikation über Messenger-Dienste von sozialen Medien kann
+nicht von der Maßnahme erfasst werden." Und: „Es handelt sich dabei um einen methodisch einfachen
+Datenabgleich." Rachut will diese Begrenzung im Normtext stehen sehen, weil sie sich bisher nur aus
+der Auslegung des Begriffs „Abgleich" in Abgrenzung zu „Analyse" oder „Auswertung" ergibt.
+
+Weiter aus § 7a Absatz 2 AsylG-E, wörtlich: „Die Ergebnisse aus dem Verfahrensmonitoring dürfen nicht
+für ein Profiling im Sinne von Artikel 4 Nummer 4 der Datenschutz-Grundverordnung verwendet werden."
+
+### Steen, Ausschussdrucksache 21(4)258 E, technische Befunde
+
+Kurzzusammenfassung Punkt E, wörtlich: „Die Auffindbarkeit von Internetinhalten belegt weder ihre
+Authentizität und sachliche Richtigkeit noch ihre Zuordnung zur betroffenen Person."
+
+Im Text, wörtlich: „so kann ein tatsächlich von einer Person veröffentlichter Social-Media-Beitrag
+sachlich falsche Angaben enthalten, ein (inhaltlich) unverändertes Foto mit falschen Metadaten wie
+Orts- oder Zeitangaben verbreitet werden oder ein scheinbar von einer Person geführtes Benutzerkonto
+von einem Dritten betrieben werden."
+
+**Die Wortlautlücke, am Normtext nachprüfbar:** Satz 3 verlangt „stets" eine manuelle Bewertung und
+Einordnung, eine Verifizierung dagegen nur „gegebenenfalls". Steen, wörtlich: „Dabei bleibt weitgehend
+offen, wann so eine Verifizierung tatsächlich durchgeführt werden muss und welche Anforderungen
+erfüllt sein müssen, sodass ein gefundener Inhalt zulasten der betroffenen Person verwendet werden
+darf."
+
+**Der überraschende Punkt**, wörtlich: „Lässt sich die Anfrage zum Beispiel durch IP-Adressenbereiche
+zudem einer Behörde zuordnen, kann darüber hinaus das Interesse an einer bestimmten Person plausibel
+dem Aufgabenbereich der Behörde zugerechnet werden. Auch könnten technisch gesehen Suchmaschinen für
+Suchanfragen von entsprechend erkannten und zugeordneten IP-Adressenbereichen gezielt andere
+Ergebnisse liefern oder deren Auswahl und Sortierung beeinflussen."
+
+### Görlitz, Ausschussdrucksache 21(4)258 A vom 13.11.2026
+
+Wörtlich: „Der vorliegende KIMVG-E wird den Risiken und rechtlichen Anforderungen für KI-Einsatz in
+der Migrationsverwaltung in keiner Form gerecht." Und zum Datenbestand, wörtlich: „Die Datenbanken der
+Migrationsbehörden enthalten dabei auch ungeprüfte und ungefilterte Datensätze, z.B. nach Auswertung
+von Mobiltelefonen."
+
+Die GFF hat nach eigener Angabe die Verfassungsbeschwerden zum Datenanalyseurteil des
+Bundesverfassungsgerichts koordiniert und erfolgreich gegen die anlasslose Auswertung von
+Mobiltelefonen durch das BAMF geklagt.
+
+### Rachut zu den „diskriminierungsfreien Algorithmen"
+
+Wörtlich: „Diese Vorgabe dürfte sich bereits aufgrund der konkreten Anwendungsfälle, die gerade die
+statistische Auswertung aufgrund von bestimmten Merkmalen wie Herkunft, Religion, Alter, sexueller
+Orientierung oder Geschlecht erfordern, als kaum umsetzbar erweisen."
+
+Dazu passend aus der Begründung des Entwurfs selbst, wörtlich, Beispiele für das
+Verfahrensmonitoring: „kommen aus einem bestimmten Herkunftsland mehrheitlich Personen eines
+bestimmten Geschlechts, werden Anträge von Personen mit bestimmten Eigenschaften besonders häufig
+abgelehnt oder positiv beschieden" und „kommen Menschen mit bestimmten Namen typischerweise aus einer
+bestimmten Region".
+
+### Signal zum Bildschirmzugriff durch KI-Assistenten
+
+**Primärquelle selbst gelesen:** Signal-Blog, Meredith Whittaker, 20.11.2026,
+`https://signal.org/blog/protecting-your-privacy/`. Belastbar als Aussage des Anbieters über sein
+eigenes Produkt, keine Prüfung durch Dritte. Zitate englisch.
+
+> „Our remedy is also incomplete – while we are doing everything we can, restricting screenshots does
+> not address other more sneaky ways AI agents could potentially access application data, such as
+> retrieving content already present on a user's device via the filesystem."
+
+> „In many cases these agents are leveraging accessibility settings that were meant to empower actual
+> people to get the most out of their apps and services, not to act as a skeleton key that provides
+> access to AI agents."
+
+Weiter wörtlich: „We will now be taking similar measures to restrict agentic systems built into iOS 27
+and on Android versions where we can detect an AI assistant attempting to read your Signal screen."
+Und: „People who want the ability to take screenshots can disable this protection within the Signal
+app's settings." Und zu macOS: „This is also the reason we are currently unable to implement these
+protections on macOS." Genannte Systeme: Gemini Intelligence mit Google Gemini, Onscreen Awareness mit
+Siri AI, Microsoft Recall unter Windows 11 im Vorjahr, als Drittanbieter-Agent Metas Muse.
+
+**Wo die Berichterstattung überzieht:** Die heise-Überschrift vom 23.11.2026, 12:13, nennt es eine
+„Sperre für neugierige KI-Assistenten". Gesperrt wird die Bildschirmaufnahme, dort wo Signal den
+Zugriff erkennt, abschaltbar, auf macOS nicht vorhanden, und nach eigener Aussage unvollständig.
+
+### BfDI-Konsultationsbericht zu KI-Modellen, 24 Seiten, Februar 2026, im Volltext gelesen
+
+`https://www.bfdi.bund.de/SharedDocs/Downloads/DE/Konsultationsverfahren/4_KI-Modelle-pbD/Bericht-Konsultation-KI.pdf`
+30 ausgewertete Stellungnahmen, Konsultationszeitraum 10.07. bis 31.08.2025.
+
+**Die Einschränkung gehört an jede Zahl daraus**, wörtlich: „Die in dem Bericht wiedergegebenen
+Ansichten stammen ausschließlich aus den im Rahmen der Konsultation eingegangenen Rückmeldungen und
+spiegeln nicht zwangsläufig die Position der BfDI wider. Der Verweis auf Mehrheitsverhältnisse ist
+rein informatorisch gemeint und hat keine indikative Wirkung für die Position der BfDI."
+
+Zum Auskunftsrecht, wörtlich: „Zu der Frage der Betroffenenrechte wurde für das Auskunftsrecht
+empfohlen, die entsprechenden Trainingsdaten, sofern vorhanden, vollständig aufzulisten und an die
+Antragstellenden zu verschicken. Vorschläge, wie dies zu regeln sei, sollte kein Zugriff auf die
+Trainingsdaten möglich sein, wurden nicht vorgebracht."
+
+Zur Löschung, wörtlich: „Die Löschung memorisierter Daten aus dem Modell solle, laut einer Mehrheit
+von 67%, durch Maßnahmen auf Systemebene erfolgen, insbesondere da Methoden wie Machine Unlearning
+noch nicht zuverlässig erprobt seien."
+
+**Eigener Befund, eine Zahl ist unbrauchbar, solange sie nicht aufgelöst ist:** Im Abschnitt zu
+Frage 7 steht „76% der Stellungnahmen sprachen sich für Maßnahmen zur Löschung auf Systemebene aus",
+in der Zusammenfassung desselben Dokuments 67 Prozent. Zwei Zahlen für dieselbe Aussage in einem
+Dokument. Weitere Werte aus der Grafik zu Frage 7: Verweis auf Artikel 11 DSGVO 16 Prozent, Machine
+Unlearning anwendbar 4 Prozent, juristische Anpassung 4 Prozent. Zu Frage 4: 58 Prozent sehen eine
+Verarbeitung memorisierter Daten nur, wenn sie im Output erscheinen, 20 Prozent immer, 8 Prozent nie,
+14 Prozent „nicht eindeutig beantwortbar". Zur Anonymität: Zwei-Drittel-Mehrheit für „unter gewissen
+Umständen anonym", je ein Sechstel für immer und nie. 77 Prozent halten eine rein quantitative
+Einschätzung memorisierter Daten für nicht zielführend.
+
+Genannte Methoden: Red Teaming, PII-Extraction Attacks, Membership Inference Attacks, Probabilistic
+Discoverable Extraction. Genannte systemseitige Maßnahmen: Output-Filter, Guardrails, Reinforcement
+Learning, RAG.
+
+**Teilweise geschlossener offener Punkt:** Der Bericht datiert die Stellungnahme 28/2024 des
+Europäischen Datenschutzausschusses auf den 18.12.2024 und gibt ihren Kern wieder, dass KI-Modelle
+personenbezogene Daten enthalten können, wenn sie mit personenbezogenen Daten trainiert wurden. Das
+Dokument selbst ist weiter nicht gelesen. Erwähnt wird außerdem eine eigene Handreichung „KI in
+Behörden – Datenschutz von Anfang an mitdenken" vom 22.12.2025, ebenfalls nicht gelesen.
+
+### Negativer Befund, selbst geprüft
+
+Die BfDI hat 2026 sechzehn Pressemitteilungen veröffentlicht, Nummer 16 vom 23.11.2026 zur Global
+Privacy Assembly. **Keine betrifft den Digital Omnibus, Artikel 88c oder das berechtigte Interesse.**
+Die am 23.11. berichtete Forderung des Bundesdatenschutzbeauftragten nach klaren Regeln für
+KI-Training stammt aus einer Börsen-Aggregatorseite und bleibt ungeprüft.
+
+### Neue Spur
+
+Pressemitteilung 16/2026 der BfDI nennt für die 48. Jahreskonferenz der Global Privacy Assembly vom
+16. bis 19.11.2026 in Brüssel „gemeinsame Erklärungen zu Themen wie Agentic AI und Privacy Enhancing
+Technologies". Die Erklärung zu Agentic AI ist nicht beschafft.
+
+### Nicht verfolgt
+
+- heise: USB4-Vernetzung für KI-Modelle, KI-Update kompakt, Eclipse Enclave, Nvidia-Personalie und
+  Megaspeed-Handelsverbot (letztere auf KI-Kern geprüft, Ergebnis negativ), EU-Digitalsteuer,
+  Dänemark-Handyverbot.
+- **netzpolitik, „Vermummungsverbot: Ein Mensch muss ins Gefängnis, weil er sein Gesicht schützte"**
+  (23.11., 11:07): Deutschlandbezug ja, KI-Kern ungeprüft, nicht gelesen. **Vorgemerkt.**
+
+### Offen, nach Priorität
+
+1. Abschnitt „Emotieherkenning" im Bericht der niederländischen Aufsicht. Dritter Tag unbearbeitet.
+2. netzpolitik-Beitrag zum Vermummungsverbot auf einen KI-Kern prüfen.
+3. Aussage der Bundesnetzagentur zu den Ray-Ban Meta Glasses an der Quelle.
+4. Wortprotokoll der Anhörung vom 23.11., sobald veröffentlicht.
+5. Unverändert offen: EDPB-Leitlinien 03/2026, EDPB Opinion 28/2024 im Original, EDPS Opinion
+   36/2026 (HTTP 403), EuGH C-484/24, EuGH-Urteil zur Europol-Befugnis, BGH-Beschluss 3 StR 350/26,
+   Schufa-Urteile vom 21.10., LG-Frankfurt-Urteil, Drucksache 536/26 (Beschluss), ETUI Working Paper
+   2026.05, deutsche Datenschutzbehörde zur Galerie-Funktion der Facebook-App, Koalitionsvertrag
+   Mecklenburg-Vorpommern, Apple-Warnung zu KI-Agenten, Netflix-Synchronstreit, NRW-Behördenportal.
