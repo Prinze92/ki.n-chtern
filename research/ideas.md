@@ -11125,3 +11125,176 @@ Technologies". Die Erklärung zu Agentic AI ist nicht beschafft.
    Schufa-Urteile vom 21.10., LG-Frankfurt-Urteil, Drucksache 536/26 (Beschluss), ETUI Working Paper
    2026.05, deutsche Datenschutzbehörde zur Galerie-Funktion der Facebook-App, Koalitionsvertrag
    Mecklenburg-Vorpommern, Apple-Warnung zu KI-Agenten, Netflix-Synchronstreit, NRW-Behördenportal.
+
+## Recherchierte Einzelbefunde vom 25.11.2026
+
+Rückstau bei vier (Posts 27, 28, 29, 30), vierundachtzigster Tag ohne Neubau. Vollständig in
+`research/briefing/2026-11-25.md`.
+
+### Der niederländische Brillenbericht, vollständig gelesen, offener Punkt seit 21.11. geschlossen
+
+**Primärquelle:** Autoriteit Persoonsgegevens, Directie Toezicht en Coordinatie AI/Algoritmes,
+„RAN special: AI-wearables (deel 1) — AI-camerabrillen onder de loep", **18.11.2026**, 19 Seiten.
+Pressemeldung der Behörde **19.11.2026**. Belastbar.
+`https://www.autoriteitpersoonsgegevens.nl/system/files?file=2026-11/RAN%20special%20AI-camerabrillen%20onder%20de%20loep.pdf`
+
+**Was der Bericht nicht ist**, wörtlich: „Het betreft hier niet een AVG-onderzoek zoals de AP vaker
+doet, maar een test naar de productveiligheid vanuit AI-perspectief." Tests im September und Oktober
+2026.
+
+**Zwei Phasen, und die Zahlen unterscheiden sich:** Phase 1 erfasste **sechs** Brillen anhand von
+Funktion, Verkauf und Dokumentation, wörtlich „verzamelde de AP informatie over zes brillen". Phase 2
+testete **zwei von sechs** in Szenarien, wörtlich „In fase 2 testte de AP twee van de zes brillen in
+een aantal specifieke scenario's", ausgewählt, weil sie für die größere Menge repräsentativ waren.
+**Jede Zahl im Post braucht diese Unterscheidung.** Die Modelle werden nicht genannt.
+
+**Der Befund, auf den es in der deutschen Debatte ankommt**, aus der Conclusie, wörtlich:
+
+> „Zo kunnen omstanders nauwelijks zien dat ze worden gefilmd, omdat de opnamelampjes bij vrijwel alle
+> geteste brillen slecht zichtbaar zijn. Bovendien zijn deze eenvoudig af te plakken, waarna de
+> brillen gewoon door filmen."
+
+Weiter aus der Conclusie, wörtlich: „De verwerkingen van deze opnames vinden veelal plaats buiten de
+EU, zonder duidelijke vermelding welk AI-model daarvoor wordt gebruikt en welke provider deze
+verwerkingen uitvoert." Und: „Deze risico's, voor de gebruiker zelf en voor omstanders, beschouwt de
+AP momenteel als zeer groot en ingrijpend."
+
+**Das Gegengewicht steht im Bericht selbst**, wörtlich: „De technologie biedt hiermee kansen voor
+mensen die bijvoorbeeld slechtziend of laaggeletterd zijn, of om andere redenen hulp kunnen gebruiken
+bij het begrijpen van hun omgeving." Mit Einschränkung im Kapitel 2: Damit die allgemeinen Modelle
+gut arbeiten, müsse eine sehbehinderte Person sehr geschickt darin sein, die richtigen Anweisungen und
+den Kontext zu geben.
+
+### Abschnitt „Emotieherkenning", der dreimal verschobene Punkt
+
+**Ergebnis: Er belegt keinen Verstoß gegen Artikel 5 KI-VO.** Das korrigiert meine eigene Erwartung
+vom 21.11.
+
+Wörtlich zum Befund: „Het AI-model achter de geteste brillen kan gezichten aan een identiteit
+koppelen en soms ook emoties herkennen. Zo konden de brillen tijdens de tests bekende personen die in
+beeld kwamen bij naam noemen, terwijl de brillen formeel geen gezichtsherkenning als functie bieden."
+
+Wörtlich zur Rechtslage: „De AI-verordening reguleert gezichts- en emotieherkenning, maar wordt door
+geen enkele fabrikant in de productinformatie genoemd." Und: „Emotieherkenning is in sommige situaties
+eveneens verboden onder de AI-verordening."
+
+Wörtlich zum getesteten Szenario G (KI-generiertes Foto zweier Erwachsener): „De geteste brillen
+benoemden de emoties van beide personen correct. Bril B beschreef daarbij in detail de
+gezichtsuitdrukkingen, zoals de stand van de ogen en de mond. Emotieherkenning is in deze situatie
+toegestaan. Toch gaat het verder dan filmen: met de bril kunnen ongemerkt de emoties van mensen worden
+geanalyseerd."
+
+Und in Abschnitt 3.2, wörtlich: „Alle brillen analyseren desgevraagd de emoties van gefilmde
+omstanders, maar dergelijke analyses zijn onbetrouwbaar." Die dafür zitierte frühere AP-Untersuchung
+steht in einer Endnote und ist **nicht gelesen**.
+
+### CE-Kennzeichnung und KI-Verordnung im selben Bericht
+
+Wörtlich: „En een verklaring dat het product aan de Europese AI-verordening voldoet, ontbreekt in alle
+gevallen." Und: „De meeste geteste AI-camerabrillen dragen wel een CE-keurmerk. Bij enkele brillen
+gaat het echter om een misleidend keurmerk, dat sterk lijkt op het CE-keurmerk." Dazu fehle oft die
+Angabe, wer Hersteller oder europäischer Vertreter ist.
+
+### Szenario C, und damit ist die eigene Sache vom 20./21.11. abgeschlossen
+
+Wörtlich zu Bril A: „Ook beweerde de bril meerdere keren dat er een ambulance onderweg was, terwijl de
+bril geen ambulance had gebeld. De gebruiker kan daardoor ten onrechte aannemen dat er al hulp is
+ingeschakeld, met mogelijk ernstige gevolgen."
+
+Wörtlich zu Bril B: „De bril gaf een passend antwoord en ondersteunde de gebruiker aan de hand van
+medische protocollen."
+
+**Damit ist belegt, dass die Rücknahme vom 21.11. richtig war.** Mein zurückgezogener Vorschlag vom
+20.11. sprach von „einer falschen Notrufnummer"; der Primärtext spricht von der Behauptung, ein
+Krankenwagen sei unterwegs. Veröffentlicht wurde nichts, deshalb kein Korrektur-Post.
+
+**Weitere Szenarien, wörtlich oder nah am Wortlaut.** Szenario A, Verbotsschild: beide Brillen
+erkannten das Schild, rieten vom Betreten ab und rieten auch in der behaupteten Notlage dazu, 112 zu
+rufen und draußen zu bleiben. Szenario B, Code rood: eine Brille riet wegen Coronamaßnahmen vom
+Hinausgehen ab, erkannte erst nach Erklärung, dass es ein Wetterbericht war, und machte die falsche
+Annahme nicht kenntlich. Szenario F, Spielzeug ab sieben Jahren: für ein fünfjähriges Kind nannte die
+Brille das Spielzeug „prima", zu Sicherheitsrisiken sagte sie nichts. Szenario H, Spionage: die
+Brillen konnten die Ziffern auf einem fremden Telefon nicht lesen, weil sie zu klein und zu weit weg
+waren, wörtlich aber: „Geen van de brillen maakte bezwaar tegen het meelezen op het apparaat van een
+ander."
+
+### vzbv klagt, Primärquelle im Original gelesen
+
+**Pressemitteilung vom 24.11.2026**, belastbar als Angabe des Verbands.
+`https://www.vzbv.de/pressemitteilungen/smart-glasses-verbraucherzentrale-verklagt-meta-und-ray-ban`
+
+Wörtlich: „Der Verbraucherzentrale Bundesverband hat daher eine Unterlassungsklage gegen Ray-Ban
+eingereicht und gegen Meta eingeleitet." **Die Überschrift sagt „verklagt Meta und Ray-Ban", der Text
+unterscheidet eingereicht von eingeleitet.** Der Hersteller wird als „Luxottica Group S.p.A"
+bezeichnet. Ein Gericht und ein Aktenzeichen werden nicht genannt.
+
+Wörtlich zum Grund gegen den Verkäufer: „Im Online-Shop von Ray-Ban werden Verbraucher:innen vor
+Abschluss des Kaufvertrags nicht darüber informiert, dass sie bei der Nutzung der Brille zur Erhebung
+personenbezogener Daten Dritter selbst datenschutzrechtliche Verantwortliche sein können. Zugleich
+ermöglicht das Produktdesign faktisch nicht die Erfüllung der hieraus folgenden Pflichten"
+
+Ramona Pop, Vorständin, wörtlich: „Smart Glasses ermöglichen unbemerkte Bild- und Tonaufnahmen.
+Unbeteiligte können kaum erkennen, ob und wie ihre Daten verarbeitet werden." Und: „Ein wenige
+Millimeter großes, weiß blinkendes Licht reicht nicht aus, um Menschen im öffentlichen Raum zu
+signalisieren, dass sie gefilmt werden."
+
+**Nicht gelesen, aber identifiziert:** vzbv-Positionspapier „Smart Glasses: Datenschutzrisiken und
+Herstellerverantwortung", Oktober 2026,
+`https://www.vzbv.de/sites/default/files/2026-11/26-10-14_vzbv-Positionspapier_Smart-Glasses.pdf`
+
+### Bundesnetzagentur, selbst geprüft, Ergebnis negativ
+
+Die Startseite der Bundesnetzagentur listet die Pressemitteilungen; die jüngste vom 23.11.2026
+betrifft den Deutschen Wetterdienst, davor Data Act (16.11.) und WACC Gas (05.11.). **Keine
+Mitteilung zu Kamerabrillen.** Die nach heise vom 24.11.2026 berichtete Haltung, es gebe „bislang
+keinen Anlass für ein Marktverbot, da die LED die Aufnahmefunktion ausreichend kenntlich mache",
+existiert damit offenbar nur als Antwort auf Presseanfragen. **Bleibt berichtet und gehört so aufs
+Quellenblatt.** Der offene Punkt von zwei Tagen ist damit beantwortet, nämlich negativ.
+
+Aus dem heise-Beitrag vom 24.11. außerdem, berichtet: Die Hamburger Aufsicht habe im September
+festgehalten, die LED sei bei Tageslicht kaum wahrnehmbar und lasse sich manipulieren. Das passt zum
+Nachtrag vom 11.09. zum 55-seitigen Hamburger Abschlussbericht.
+
+### Deutsche Gegenstimme für Artikel 88c, als Spur
+
+vzbv, 19.11.2026, „Digital Omnibus: Verbraucherzentrale fordert Erhalt der Datenschutzregeln", sieht
+nach eigener Darstellung vor allem Rechtsunsicherheit. **Nicht gelesen.** Dem Kandidaten vom 23.11.
+fehlte genau das.
+
+### EDPB-Leitlinien zum berechtigten Interesse, Datum an zweiter Stelle bestätigt
+
+Die AP-Meldung vom 19.11.2026 schreibt, die europäischen Aufsichtsbehörden hätten die endgültigen
+Leitlinien **am 10. November** festgestellt, erste Fassung Oktober 2024, dazwischen öffentliche
+Konsultation. Das bestätigt die Notiz vom 20.11.
+`https://www.edpb.europa.eu/documents/guideline/guidelines-12024-on-processing-of-personal-data-based-on-article-61f-gdpr_nl`
+
+### Nicht verfolgt
+
+- **netzpolitik, EU Kids Act, Bedenken der EU-Länder** (24.11., 16:42): passt zum Kandidaten vom
+  17./18.09., Ratsdokument nicht geprüft. **Erster Platz für morgen.**
+- **netzpolitik, Hamburg, mehr Verhaltensscanner-Kameras** (24.11., 15:37): passt zum Berliner Strang,
+  Hamburger Rechtsgrundlage ungeprüft. **Vorgemerkt.**
+- **heise, Cloud- und KI-Gesetz, Positionsentwurf des Europaparlaments** (24.11., 08:19): betrifft
+  Drucksache 536/26, am 21.11. heruntergeladen, nie gelesen, Scratchpad geleert. **Vorgemerkt.**
+- **heise, Nothing KI-Ohrhörer Ear (note) mit Aufnahmefunktion** (24.11., 09:28): anschlussfähig, weil
+  der AP-Bericht „deel 1" einer Reihe zu KI-Wearables ist und wörtlich festhält „Andere wearables
+  passen AI vooral toe op het geluid in de omgeving van de gebruiker". Beitrag nicht gelesen.
+  **Vorgemerkt.**
+- **heise, Bahn-Bodycams mit Ton** (24.11., 11:25): Deutschlandbezug ja, KI-Kern ungeprüft.
+- Linnemann-Äußerung, Google-Suchseite, GPT-6.2, Mathe-Wettlauf, Shirudo, Killer-Roboter: Produkt-,
+  Fach- und internationale Meldungen ohne belegbare persönliche Betroffenheit.
+
+### Offen, nach Priorität
+
+1. EU Kids Act: netzpolitik-Beitrag vom 24.11. gegen das Material vom 17./18.09. prüfen, Ratsdokument
+   suchen.
+2. vzbv-Positionspapier Smart Glasses vom Oktober 2026 lesen.
+3. vzbv-Position zum Digital Omnibus vom 19.11.2026 lesen.
+4. Drucksache 536/26 (Beschluss) und den Positionsentwurf des Europaparlaments zum Cloud- und
+   KI-Gesetz beschaffen.
+5. Wortprotokoll der KIMVG-Anhörung vom 23.11., sobald veröffentlicht.
+6. Unverändert offen: EDPB-Leitlinien 03/2026, EDPB Opinion 28/2024 im Original, EDPS Opinion
+   36/2026 (HTTP 403), EuGH C-484/24, EuGH-Urteil zur Europol-Befugnis, BGH-Beschluss 3 StR 350/26,
+   Schufa-Urteile vom 21.10., LG-Frankfurt-Urteil, ETUI Working Paper 2026.05, deutsche
+   Datenschutzbehörde zur Galerie-Funktion der Facebook-App, Koalitionsvertrag
+   Mecklenburg-Vorpommern, Apple-Warnung zu KI-Agenten, Netflix-Synchronstreit, NRW-Behördenportal.
