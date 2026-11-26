@@ -11298,3 +11298,205 @@ Konsultation. Das bestätigt die Notiz vom 20.11.
    Schufa-Urteile vom 21.10., LG-Frankfurt-Urteil, ETUI Working Paper 2026.05, deutsche
    Datenschutzbehörde zur Galerie-Funktion der Facebook-App, Koalitionsvertrag
    Mecklenburg-Vorpommern, Apple-Warnung zu KI-Agenten, Netflix-Synchronstreit, NRW-Behördenportal.
+
+## Recherchierte Einzelbefunde vom 26.11.2026
+
+Rückstau bei vier (Posts 27, 28, 29, 30), fünfundachtzigster Tag ohne Neubau. Vollständig in
+`research/briefing/2026-11-26.md`.
+
+### EU Kids Act: Verhandlungsstand im Rat, Primärdokument im Original gelesen
+
+**Rat der Europäischen Union, Dokument 15088/26 vom 06.11.2026**, 14 Seiten, deutsche Fassung,
+Vermerk des Vorsitzes an den Ausschuss der Ständigen Vertreter, Fortschrittsbericht zum Dossier
+2026/0286(COD). Belastbar.
+`https://data.consilium.europa.eu/doc/document/ST-15088-2026-INIT/de/pdf`
+
+**Der Satz, auf den es für uns ankommt**, wörtlich:
+
+> „KI-Chatbots sollen nach dem Vorschlag nicht zu den Diensten zählen, für die Beschränkungen aufgrund
+> des Alters gelten sollen, wobei nach einigen nationalen Rechtsvorschriften Altersgrenzen für sie
+> gelten."
+
+Zu den Altersvorgaben allgemein, wörtlich: „Wenngleich die meisten Delegationen sich für die
+Einführung eines EU-weiten Mindestalters für soziale Medien und Video-Sharing-Plattformen aussprechen,
+so gehen die Ansichten in der Frage des jeweils spezifischen Mindestalters und des Umfangs der davon
+betroffenen Dienste doch auseinander."
+
+Zu den Hybriddiensten, wörtlich: „beispielsweise KI-Begleiter in Videospielen, wenn für KI-Begleiter
+Zeitbegrenzungen gelten, für das Spiel selbst jedoch nicht."
+
+Zu den Suchmaschinen, wörtlich: Mehrere Delegationen hätten hinterfragt, warum Suchmaschinen nicht
+erfasst sind, „wobei von einigen Delegationen darauf hingewiesen wurde, dass bestimmte KI-Chatbots
+nach der Verordnung über digitale Dienste als sehr große Online-Suchmaschinen benannt werden."
+
+Zur fehlenden Folgenabschätzung, wörtlich: „Der Vorschlag enthält keine Folgenabschätzung." Und:
+„Es gab Bedenken in Bezug darauf, dass keine formelle Folgenabschätzung für das Dossier vorliegt".
+
+**Die amtliche Gegenstimme**, wörtlich: In der Entschließung des Europäischen Parlaments vom
+26.11.2025 werde „eine einheitliche europäische digitale Altersgrenze von 16 Jahren für den Zugang zu
+sozialen Medien, Video-Sharing-Plattformen und KI-Begleitern gefordert, sowie eine Altersbeschränkung
+von 13 Jahren für den Zugang zu sozialen Medien mit Zustimmung der Eltern." Der Bericht der
+Vorsitzenden des Sonderausschusses zur Online-Sicherheit von Kindern empfahl „Harmonisierte EU-weite
+Beschränkungen bei sozialen Medien und anderen digitalen Diensten, einschließlich KI-Begleitern, für
+Kinder unter 13."
+
+**Verfahrensstand aus demselben Dokument.** Veröffentlichung des Vorschlags 17.09.2026, Vorstellung
+im COREPER I 23.09.2026, in den Gruppen „Audiovisueller Sektor und Medien", „Telekommunikation und
+Informationsgesellschaft" und „Jugendfragen" am 02.10.2026, in der Gruppe „Wettbewerbsfähigkeit und
+Wachstum" und im Ausschuss für Bildungsfragen am 09.10.2026, Prüfung ab 06.10.2026. Plenardebatte im
+Europäischen Parlament am 06.10.2026, federführend IMCO. Stellungnahmen von EWSA und AdR für das
+erste Quartal 2027 erwartet. Vorgeschichte: Erklärung von Jütland im Oktober 2025, von Ministerinnen
+und Ministern aus 25 Mitgliedstaaten unterzeichnet; Schlussfolgerungen des Europäischen Rates im
+Oktober 2025 und März 2026.
+
+### Normtext zu KI-Begleitern, Artikel 14, im Original gelesen
+
+**Bundesrat, Drucksache 567/26**, enthält COM(2026) 681 final. **Artikel 14 Absatz 1**, wörtlich:
+
+> „Die Anbieter von KI-Begleitern und allgemeinen dialogbasierten Chatbots ergreifen verhältnismäßige
+> und wirksame Maßnahmen, um ein hohes Maß an Schutz der Gesundheit, der Sicherheit, der Grundrechte
+> sowie des Wohlergehens und der Entwicklung von Minderjährigen, die Zugang zu ihrem KI-System haben
+> können, zu gewährleisten. Diese Maßnahmen umfassen zumindest Folgendes: a) Gewährleistung, dass
+> Minderjährige keinen suchterzeugenden Gestaltungen ausgesetzt sind, indem Gestaltungsmerkmale und
+> Systemverhalten vermieden werden, die zwischenmenschliche Beziehungen simulieren, die zu emotionalen
+> Abhängigkeiten führen können, und indem die in Artikel 9 Absätze 1 und 3 festgelegten Maßnahmen auf
+> solche Systeme angewandt werden"
+
+Weiter aus Absatz 1, wörtlich: Buchstabe b verlangt sichere Einstellungen „unter anderem indem
+sichergestellt wird, dass ihr System standardmäßig keine Informationen oder Analysen, die sich aus
+früheren Interaktionen Minderjähriger ergeben, bei nachfolgenden Interaktionen nutzt". Buchstabe d:
+„Gewährleistung, dass der Zugang zu den in Absatz 1 genannten Diensten und Systemen für Minderjährige
+unter 13 Jahren nur mithilfe der in Artikel 20 genannten Instrumente für Erziehungsberechtigte
+ermöglicht und kontrolliert wird". Buchstabe e verlangt Evaluierungen und Tests vor dem
+Inverkehrbringen, Buchstabe f eine Beobachtung nach dem Inverkehrbringen, mit Ausnahme für
+Kleinstunternehmen und kleine Unternehmen.
+
+**Die genaue Lage, und sie präzisiert meine Notiz vom 20.11.** Dort stand pauschal, der Kids Act nehme
+KI-Begleiter ausdrücklich mit. Richtig ist: Die Pflichten zur inhärenten Sicherheit, zu Zeitgrenzen
+und zu sicheren Einstellungen gelten für KI-Begleiter. Die Altersgrenzen gelten für sie nicht. Unter
+13 Jahren läuft der Zugang über die Elternwerkzeuge des Artikels 20.
+
+### Artikel 9 im Normtext, offener Punkt vom 20.11. geschlossen
+
+**Artikel 9 Absatz 3**, wörtlich:
+
+> „Anbieter von Online-Diensten sozialer Netzwerke und von Video-Sharing-Plattform-Diensten ergreifen
+> wirksame Maßnahmen, um Folgendes sicherzustellen: a) zeitlich befristeten Zugang für Minderjährige
+> zu ihrem Dienst, b) Unterbrechung der Nutzung des Dienstes durch Minderjährige. Diese Maßnahmen sind
+> so zu gestalten, dass die Schulzeiten und die Kernschlafstunden von Minderjährigen geschützt
+> werden."
+
+**Wichtig für jedes Panel:** Der Normtext sagt **„Kernschlafstunden"**, die Begründung sagte
+„Kernschlafzeiten", und die Begründung formulierte als „sollten", der Normtext als Pflicht. Die Notiz
+vom 20.11. hatte die Fassung aus der Begründung. **Zweites Mal in zehn Tagen, dass die Regel
+„Normtext statt Begründung" einen Fehler abgefangen hat.**
+
+**Artikel 9 Absatz 1**, wörtlich: Anbieter „dürfen ihre Dienste nicht in einer Weise konzipieren,
+organisieren oder betreiben, die dazu bestimmt ist oder für die vernünftigerweise vorhersehbar ist,
+dass sie zwanghafte oder übermäßige Nutzung der Online-Dienste sozialer Netzwerke und der
+Video-Sharing-Plattform-Dienste durch Minderjährige fördert."
+
+**Artikel 9 Absatz 2**, Katalog, wörtlich in Auszügen: „Möglichkeit des automatischen Abspielens von
+Inhalten und des ununterbrochenen Konsums von Inhalten ohne wirksame und regelmäßige
+Unterbrechungsmomente, während denen Minderjährige überlegen können, ob sie mehr Inhalte konsumieren
+wollen"; „Benachrichtigungen, die nicht durch die Interaktion oder Aktivität des Minderjährigen im
+Dienst ausgelöst werden oder nicht in direktem Zusammenhang damit stehen"; „Schaffung von Anreizen
+für eine regelmäßige oder häufigere Beschäftigung mit dem Dienst, unter anderem durch Sanktionen oder
+den Verlust von Vorteilen".
+
+**Artikel 10** regelt Empfehlungssysteme, darunter wörtlich Buchstabe b: Anbieter „deaktivieren
+standardmäßig die Empfehlung von Informationen, die vom Empfehlungssystem auf der Grundlage
+impliziter, auf Beschäftigung mit dem Dienst gestützter Signale aus dem Online-Verhalten
+Minderjähriger vorgeschlagen werden", und Buchstabe c: Empfehlungssysteme dürfen nicht „auf außerhalb
+des Dienstes erhobenen personenbezogenen Daten von Minderjährigen" beruhen.
+
+### Bedenken der Mitgliedstaaten, aus dem Fortschrittsbericht und dem Pressebericht
+
+Aus 15088/26, belastbar: Konsens zeichne sich ab, dass bei Erziehungsberechtigten „komplexe
+Betreuungsregelungen berücksichtigt werden müssen, beispielsweise in Fällen von gemeinsamem Sorgerecht
+oder Amtsvormundschaft". Bedenken zu Kleinst-, kleinen und mittleren Unternehmen, zur Umgehung über
+VPN oder Scheinkonten und zu Videospielen. **Das Dokument nennt keine einzelnen Mitgliedstaaten.**
+
+Aus netzpolitik vom 24.11.2026, 16:42, Anna Ströbele Romero, **berichtet**: Estland ist der einzige
+klare Gegner einer Altersgrenze, Spanien und Schweden wollen höhere nationale Altersgrenzen
+ermöglichen, Polen und Dänemark wollen 15 Jahre ohne Ausnahmen, Luxemburg nennt die Mini-Accounts
+„komplex und unpraktisch", Österreich hat „erhebliche Bedenken" zum Sorgerechtsnachweis, Deutschland
+hält die Daten zum Sorgerecht für „äußerst sensible Daten". Außerdem: ein über 500-seitiges deutsches
+Dokument von Ende Oktober, von Politico verbreitet, **nicht verlinkt und nicht gelesen**, und ein
+geleaktes Dokument zu Estlands Position, **nicht benannt**. Die irische Präsidentschaft will im
+Dezember einen ersten Kompromisstext zur sicheren Plattformgestaltung vorlegen. **Das steht nicht in
+15088/26.**
+
+### NRW-Polizei wechselt von Palantir zu Celonis
+
+**heise, 25.11.2026, 12:28**, Axel Kannenberg mit dpa-Material, heise+. **Berichtet.** Übergangszeit,
+bisheriger Vertrag bis Oktober 2027, neuer Vertrag über maximal sieben Jahre, europaweites
+Vergabeverfahren, Programm „Datenübergreifende Analyse und Recherche" (DAR). Vertragswert nach
+Handelsblatt rund 15 Millionen Euro, **ungeprüft**. Innenminister Herbert Reul laut Beitrag: „Die
+Polizei muss Daten schnell und sicher analysieren." Die Software soll Informationen aus verschiedenen
+Datenbeständen zusammenführen und auswerten; das Produkt LENS wird vom Anbieter unter anderem mit
+„Integration von unterstützenden KI-Agenten" beworben. **Primärquellen verlinkt, nicht gelesen:**
+Mitteilung des Innenministeriums
+(`https://www.im.nrw/europaweites-vergabeverfahren-erfolgreich-abgeschlossen-mehr-digitale-souveraenitaet-und`)
+und eine Pressemitteilung des Anbieters.
+
+**Was der Beitrag auslässt:** das Urteil des Bundesverfassungsgerichts vom 16.02.2023 zur
+automatisierten Datenanalyse, 1 BvR 1547/19 und 1 BvR 2634/20. **Mir aus zwei unabhängigen Quellen
+bekannt** (heise 23.11., Stellungnahme der GFF zum KIMVG), **selbst nicht gelesen.** Vor einem Post im
+Original lesen.
+
+### Haushalt Baden-Württemberg, Datenschutzaufsicht
+
+**netzpolitik, 25.11.2026, 16:34**, Jette Scheibchen. **Berichtet.** 40 Prozent weniger Stellen beim
+Landesbeauftragten über drei Jahre, von 67,5 Vollzeitstellen minus 27 Stellen, andere Einrichtungen
+der zentralen Verwaltung 5 Prozent. Eingaben 4.034 im Jahr 2024 und 7.673 im Folgejahr. Keber hält
+sechs zusätzliche Stellen für „zwingend erforderlich" und spricht davon, „die Kettensäge am
+Beschwerderecht der DSGVO anzusetzen". Finanzausschuss hat am 12.11. zugestimmt, Abstimmung im Landtag
+für den 16.12.2026 geplant. **Primärquellen verlinkt, nicht gelesen:** Haushaltsentwurf des Landtags
+(`https://www.landtag-bw.de/resource/blob/659034/8d54b4cd9841643310ec10faf80694e5/18_0700_D.pdf`,
+Seiten 20 und 50), Stellungnahme der Behörde „Einsparungen LfDI verstoßen gegen Unionsrecht",
+Koalitionsvertrag Seite 141, föderale Modernisierungsagenda Seite 30, BDSG-Änderungsentwurf
+(`https://dserver.bundestag.de/btd/21/077/2107732.pdf`). Künstliche Intelligenz ist nach dem Beitrag
+eine der neuen Beratungsaufgaben derselben Behörde.
+
+### Pilotstudie zu digitaler Gewalt in Partnerschaften
+
+**netzpolitik, 25.11.2026, 06:46**, Martin Schwarzbeck. **Berichtet.** Befragung von 175
+Gewaltschutz-Fachkräften, 51 Prozent der Gespräche mit Schutzsuchenden berührten digitale Gewalt. In
+90 Prozent der Fälle Fremdzugriffe auf Geräte oder Konten, Ortung in mehr als jeder fünften Beratung,
+Synchronisation von Messenger-Konten in rund 25 Prozent, Social-Media-Konten in über 15 Prozent,
+Smart-Home-Geräte in 3,2 Prozent. Polizei nimmt nach dem Beitrag in rund 13 Prozent der Fälle von
+Partnerschaftsgewalt ein „Tatmittel Internet" an. Nach BKA 179.940 Betroffene im Jahr 2025, rund
+80 Prozent Frauen, 77 Prozent der Tatverdächtigen Männer. Nach einer Dunkelfeldstudie werden fünf
+Prozent der Taten angezeigt. **Die Studie selbst ist nicht gelesen**, verlinkt ist eine Cloud-Adresse.
+**Überschrift und Zahl passen nicht genau zusammen:** Die 51 Prozent sind ein Anteil an
+Beratungsgesprächen, nicht an gewalttätigen Partnern. **Kein KI-Kern im Beitrag.**
+
+### Nicht verfolgt
+
+- **heise, Klinik-KI AMPEL als Open Source, Leipzig** (25.11., 16:59): **berührt Post 30**, nicht
+  gelesen. **Vorgemerkt, hoch bewertet, erster Punkt für morgen.**
+- heise, Chatkontrolle und irische Präsidentschaft (25.11., 17:24): kein KI-Kern.
+- heise, Tidal löscht 27 Millionen KI-Tracks (25.11., 09:07): nicht gelesen, vorgemerkt.
+- heise, eine Million SpaceX-Satelliten für KI-Rechenzentren (26.11., 05:03): kein Deutschlandbezug,
+  Zahl vor jeder Verwendung an der Genehmigung prüfen.
+- netzpolitik, Trump und Huang (25.11., 13:01): Kommentar, nach der Regel vom 05.11. kein
+  Kommentarziel.
+- ZenDiS-Souveränitätscheck, Anthropic-Experiment, Skizzenbuch-KI, Quad9, 1Password, Deichmann,
+  Huawei, Solarstrom, MINT-Lücke, Speicherpreise, GTA 6, Robotaxis: ohne persönliche Betroffenheit in
+  Deutschland oder ohne KI-Kern.
+
+### Offen, nach Priorität
+
+1. Leipziger Klinik-KI AMPEL und die Veröffentlichung dahinter, wegen Post 30.
+2. Haushaltsentwurf Baden-Württemberg, Seiten 20 und 50, plus Stellungnahme der Behörde.
+3. Mitteilung des NRW-Innenministeriums und das BVerfG-Urteil vom 16.02.2023 im Original.
+4. vzbv-Positionspapier Smart Glasses (Oktober 2026) und vzbv-Position zum Digital Omnibus
+   (19.11.2026).
+5. Drucksache 536/26 (Beschluss) und Positionsentwurf des Europaparlaments zum Cloud- und KI-Gesetz.
+6. Wortprotokoll der KIMVG-Anhörung vom 23.11., sobald veröffentlicht.
+7. Unverändert offen: EDPB-Leitlinien 03/2026, EDPB Opinion 28/2024 im Original, EDPS Opinion
+   36/2026 (HTTP 403), EuGH C-484/24, EuGH-Urteil zur Europol-Befugnis, BGH-Beschluss 3 StR 350/26,
+   Schufa-Urteile vom 21.10., LG-Frankfurt-Urteil, ETUI Working Paper 2026.05, deutsche
+   Datenschutzbehörde zur Galerie-Funktion der Facebook-App, Koalitionsvertrag
+   Mecklenburg-Vorpommern, Apple-Warnung zu KI-Agenten, Netflix-Synchronstreit, NRW-Behördenportal.
