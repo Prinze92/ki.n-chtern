@@ -11500,3 +11500,181 @@ Beratungsgesprächen, nicht an gewalttätigen Partnern. **Kein KI-Kern im Beitra
    Schufa-Urteile vom 21.10., LG-Frankfurt-Urteil, ETUI Working Paper 2026.05, deutsche
    Datenschutzbehörde zur Galerie-Funktion der Facebook-App, Koalitionsvertrag
    Mecklenburg-Vorpommern, Apple-Warnung zu KI-Agenten, Netflix-Synchronstreit, NRW-Behördenportal.
+
+## Recherchierte Einzelbefunde vom 27.11.2026
+
+Rückstau bei vier (Posts 27, 28, 29, 30), sechsundachtzigster Tag ohne Neubau. Vollständig in
+`research/briefing/2026-11-27.md`.
+
+### NEUER STÄRKSTER KANDIDAT: 15 Euro für den Eilantrag beim Sozialgericht
+
+**Primärquelle, heute im Original gelesen.** Herbstkonferenz der Justizministerinnen und
+Justizminister, 19.11.2026 in Hamburg, Beschluss TOP I.25 (zusammengeführt mit I.11 und I.28),
+„KI-generierte Eingaben in gerichtlichen Verfahren – Zugang zu gerichtlichem Rechtsschutz gewähren,
+Verfahrensqualität und Funktionsfähigkeit der Justiz sichern", zwei Seiten. Berichterstattung:
+Niedersachsen, Sachsen, Hessen, Schleswig-Holstein, Thüringen, Berlin, Rheinland-Pfalz. Belastbar.
+`https://www.hamburg.de/resource/blob/1239780/93cb2ab4a34552b7ca76638a394079e6/i-25-ki-generierte-eingaben-im-gerichtlichen-verfahren-data.pdf`
+
+**Nummer 1, der wohlwollende Ausgangspunkt**, wörtlich:
+
+> „Sie stehen den Möglichkeiten, unter Nutzung von KI-Anwendungen mit den Gerichten in Kontakt zu
+> treten, offen gegenüber, soweit damit Hürden beim Zugang zu gerichtlichem Rechtsschutz abgebaut und
+> gerichtliche Verfahren zielgerichtet gefördert werden."
+
+**Nummer 2, und die Vorsicht der Formulierung ist wichtig**, wörtlich: Sie „nehmen zugleich Berichte
+zur Kenntnis, nach denen KI-generierte Schriftsätze, insbesondere in der Sozialgerichtsbarkeit, zu
+einem hohen Anteil Eilanträge enthalten und umfangreich richterliche Arbeitskapazitäten binden."
+**Berichte zur Kenntnis, keine eigene Erhebung.**
+
+**Nummer 3, die Gebühr als Möglichkeit**, wörtlich:
+
+> „Sie beschließen, eine Arbeitsgruppe unter der Federführung Hessens und Niedersachsens
+> einzurichten, die bis zur nächsten Konferenz der Justizministerinnen und Justizminister im Frühjahr
+> 2027 in Abstimmung mit der AG KI konkrete Handlungsempfehlungen für die Sozial- und
+> Verwaltungsgerichtsbarkeit unterbreitet. Dazu könnte auch ein Vorschlag gehören, dass die
+> Einleitung sozialgerichtlicher Eilverfahren von der Zahlung einer geringfügigen Eigenbeteiligung
+> abhängig gemacht wird."
+
+Weiter aus Nummer 3, wörtlich: „Darüber hinaus ist zu prüfen, wie der Beteiligtenvortrag strukturiert
+und begrenzt werden kann. Für die ordentliche Gerichtsbarkeit werden im Zuge der ZPO-Reform bereits
+Vorschläge erarbeitet."
+
+**Nummer 4, ein anderer Mechanismus**, wörtlich in Auszügen: Die Justizministerinnen und
+Justizminister „begrüßen zudem die mit dem Entwurf eines Siebten Gesetzes zur Änderung der
+Verwaltungsgerichtsordnung vorgesehenen Maßnahmen gegen missbräuchliche Klageerhebungen" und bitten um
+Prüfung, „ob eine dem § 85a VwGO-E entsprechende Regelung zur Anordnung einer Vorauszahlung von
+Gerichtskosten auch für die nach § 197a SGG kostenpflichtigen sozialgerichtlichen Verfahren geschaffen
+werden kann."
+
+**Der Schlusssatz, der nirgends zitiert wird**, wörtlich:
+
+> „Die grundsätzlich geltende Gerichtskostenfreiheit sozialgerichtlicher Verfahren soll durch diese
+> Regelung unberührt bleiben."
+
+**Wichtig für jeden Post und jeden Kommentar:** Dieser Satz bezieht sich auf die Prüfbitte nach
+Nummer 4, nicht auf die Eigenbeteiligung nach Nummer 3. Zwei Mechanismen, nicht einer.
+
+**Die Zahlen, alle berichtet**, aus dem dpa-Bericht bei heise vom 26.11.2026, 07:13: rund 1600
+Eilanträge im Monat bei den acht Sozialgerichten Nordrhein-Westfalens; Anstieg der Eilverfahren von
+rund 1400 im ersten Quartal 2025 auf 3600 im Vergleichszeitraum 2026; Bearbeitungsdauer regulärer
+Klagen 2025 knapp 16 Monate. **Der Beitrag nennt keine Quelle dafür, und ob 3600 ein Quartals- oder
+Monatswert ist, bleibt offen. Ohne Klärung kein Balken.** Der Vorschlag von 15 Euro
+Eingangsgebühr stammt von Jens Blüggel, Präsident des Landessozialgerichts Nordrhein-Westfalen, nach
+eigener Angabe mit den Präsidenten der anderen Länder abgestimmt; das Gericht hat dem
+Bundesarbeitsministerium einen „konkreten Gesetzentwurf" zugeleitet, der im Beitrag nicht verlinkt
+ist. Klagen bleiben nach dem Bericht kostenfrei, bei völliger Mittellosigkeit soll die Gebühr bei
+Antragstellung in der Rechtsantragstelle entfallen.
+
+Zitate Blüggels, berichtet: „Die Situation ist aus dem Ruder gelaufen", „Wir können keinen
+Rechtsschutz für alle mehr leisten. Das kann nicht richtig sein.", „Der Eilantrag ist aber nur der
+Notruf des Sozialsystems", „Sobald es irgendwo hakt, rät die KI zum Eilantrag", „Wir können nicht
+jedem Bürger einen Richter zur Seite stellen."
+
+### AMPEL-Plattform des Universitätsklinikums Leipzig
+
+**Primärquellen heute im Original gelesen:** die Seiten des Klinikums zur AMPEL-Plattform, zu Open
+Source und zu den Publikationen sowie die Publikationsliste der Abteilung für medizinische KI und
+Translation (MedKIT). Belastbar als Darstellung des Betreibers.
+`https://www.uniklinikum-leipzig.de/einrichtungen/ampel/Seiten/AMPEL-Plattform.aspx`
+
+AMPEL stand ursprünglich für „Analyse- und Meldesystem zur Verbesserung der Patientensicherheit durch
+Echtzeitintegration von Laborbefunden" und wertet nach eigener Angabe inzwischen mehr als Laborbefunde
+aus. Die Feature-Liste der Klinik nennt unter anderem „Nachgewiesene Erhöhung der Patientensicherheit",
+„Echtzeit-Überwachung zu jeder Tageszeit", „>10 wissenschaftlich untersuchte Algorithmen" und
+„Multimodale Hinweise über Telefon, Email und PC". Weiterentwicklung durch MedKIT.
+
+Von der Open-Source-Seite, wörtlich: „Vertrauen in klinische KI entsteht nur durch maximale
+Transparenz – und diese ist nur so stark wie ihr schwächstes Glied. Deshalb macht die AMPEL-Plattform
+alle Bausteine frei zugänglich: von den Datensätzen über die Algorithmen bis zum ausführbaren
+Quellcode." Und: „Der Quellcode der AMPEL-Plattform wird unter der MIT Lizenz veröffentlicht."
+
+Zum veröffentlichten Datensatz, wörtlich: „Der multizentrische Trainings- und Validierungsdatensatz
+umfasst mehr als 2,5 Millionen kleine Blutbilder mit Sepsis-Label."
+
+Genannte Adressen: `github.com/ampel-platform/ampel`, `github.com/ampel-leipzig/sbcdata`,
+`github.com/ampel-platform/aki-scoring-system`. Dazu ein AMPEL-Wiki mit technischer Bauanleitung,
+einem regulatorischen Handbuch zur Entwicklung von In-house-Medizinprodukten und einer
+Evidenzdatenbank.
+
+**Nicht prüfbar aus dieser Umgebung, und das ist die entscheidende Lücke.** Die drei Repositories sind
+nicht erreichbar. Siehe Routen-Notiz unten. Dass der Code dort liegt und unter welcher Lizenz, steht
+damit nur auf der Klinikseite und in Presseberichten.
+
+**Die Werbeaussage bleibt offen.** Die Publikationsliste ist mit DOI versehen und umfangreich, unter
+anderem: Sepsisvorhersage aus dem kleinen Blutbild (Clinical Chemistry 70(3), 2024,
+`10.1093/clinchem/hvae001`), maschinell abgeleiteter Blutbild-Algorithmus (Journal of Laboratory
+Medicine 47(5), 2023, `10.1515/labmed-2023-0101`), evidenzbasierte Cutoffs für Calcium (CCLM 2023,
+`10.1515/cclm-2023-0805`), CDSS für das Refeeding-Syndrom als ausdrückliche **„Feasibility Study"**
+(Nutrients 15(17):3712, `10.3390/nu15173712`), SBC-SHAP zur Interpretierbarkeit (JALM 10(5), 2025,
+`10.1093/jalm/jfaf091`), Graph Neural Networks auf Blutbildzeitreihen (PLOS One 20(7), 2025,
+`10.1371/journal.pone.0327636`). **Keine davon ist gelesen.** Ob eine Arbeit eine Erhöhung der
+Patientensicherheit im Sinne verringerten Patientenschadens zeigt, ist offen.
+
+**Zu Post 30:** Lücke 2 („keine deutschen Zahlen" zu Fehlerquoten) ist **nicht** geschlossen. AMPEL
+meldet Laborwerte, Post 30 handelt von Mitschriften beim Arztgespräch.
+
+### netzpolitik zum KIMVG, 26.11.2026
+
+**netzpolitik, 26.11.2026, 16:21**, Chris Köver und Anna Biselli, „KI in der Migrationsverwaltung:
+Automatisiert ins Risiko". Zitiert die Begründung wörtlich mit „bestimmte Dokumente oder Angaben von
+bestimmten Orten oder Regionen besonders häufig als falsch aufgefallen sind", außerdem aus den
+Erläuterungen „Werden Anträge von Personen mit bestimmten Eigenschaften besonders häufig abgelehnt
+oder positiv beschieden?" und „Kommen Menschen mit bestimmten Namen typischerweise aus einer
+bestimmten Region?" **Das deckt sich mit dem, was ich am 24.11. an der Drucksache gelesen habe.**
+
+**Was der Beitrag nicht hat:** keine Paragrafenangabe, keine Drucksachennummer im Text, § 7b nicht
+genannt, die Voraussetzung „tatsächliche Anhaltspunkte für begründete Zweifel" nicht genannt, von
+acht Sachverständigen nur Eric Töpfer. Lena Rohrbach von Amnesty International wird zitiert, ist aber
+keine Sachverständige der Anhörung. **Der Kandidat vom 24.11. bleibt damit unverändert tragfähig und
+wird aktueller.**
+
+Weitere Angaben aus dem Beitrag, berichtet: Hochrisiko-Pflichten der KI-Verordnung greifen „erst ab
+Dezember 2027", bei vorherigem Betrieb „sogar erst ab 2030". BAMF-Dialekterkennung ab 2017,
+niederländisches Visa-Risikosystem seit 2015, US-Offenlegung von Social-Media-Konten seit 2019.
+
+### Routen-Notiz, wichtig
+
+**`github.com` ist aus dieser Umgebung nur für das eigene Repository erreichbar.** `gh api repos/<x>`
+antwortet mit „GitHub access to this repository is not enabled for this session", ein direkter
+`curl`-Aufruf der Seite endet mit HTTP 403. **Fremde Repositories lassen sich damit nicht prüfen.** Bei
+jedem Kandidaten, dessen Aussage an einem Repository hängt, ist das zu vermerken.
+
+Beschlüsse der Justizministerkonferenz liegen beim Gastgeberland, hier unter
+`hamburg.de/resource/blob/<id>/<hash>/<name>-data.pdf`, ohne Umweg abrufbar.
+
+Die Seiten des Universitätsklinikums Leipzig sind SharePoint-Seiten und liefern per `curl`
+vollständigen Text. Pfade unter `/einrichtungen/ampel/` funktionieren teils mit und teils ohne
+`Seiten/`, also beide Formen versuchen (`modelle/sepsis` und `Seiten/open-source.aspx` sind 404,
+`open-source` und `Seiten/publikationen.aspx` sind 200).
+
+### Nicht verfolgt
+
+- **heise, Datenschutzkonferenz zu Bonitätschecks, Scoring und Patientendaten** (26.11., 18:18):
+  **berührt den Schufa-Strang.** Nicht gelesen. **Vorgemerkt, hoch bewertet.**
+- **heise, BSI warnt vor autonomen KI-Angriffen (AOF)** (26.11., 17:02): Bundesbehörde, Primärquelle
+  zu erwarten. Nicht gelesen. **Vorgemerkt.**
+- **heise, SAP: KI zuerst, 10.000 Mitarbeiter weniger** (26.11., 21:05): **berührt Post 5.** Nicht
+  gelesen. **Vorgemerkt**, Zuordnung von Stellenabbau zu KI ist erfahrungsgemäß der schwierigste Teil.
+- **heise, Tesla FSD, EU-Entscheidung auf 15.12. verschoben** (26.11., 13:40): nicht gelesen,
+  vorgemerkt.
+- Riemannsche Vermutung, Chinas KI-Labore, Software-Testing-Blog, Chatkontrolle, Temu, EuGH zu
+  Amazon, digitaler Führerschein, Neuralink, WhatsApp, Sparkassen, FIFA, 1Password, Palo Alto,
+  Nvidia-Lieferstopp, SpaceX: ohne KI-Kern, ohne Deutschlandbezug oder ohne persönliche Betroffenheit.
+
+### Offen, nach Priorität
+
+1. Herkunft der Zahlen 1600, 1400 und 3600 zu den Eilanträgen; Veröffentlichung des
+   Landessozialgerichts Nordrhein-Westfalen suchen.
+2. § 197a SGG und § 85a VwGO in der Entwurfsfassung im Wortlaut; Entwurf eines Siebten Gesetzes zur
+   Änderung der Verwaltungsgerichtsordnung.
+3. Mindestens eine AMPEL-Arbeit im Volltext, und zwar die mit klinischer Wirkungsmessung.
+4. Beschlüsse der Datenschutzkonferenz zu Scoring und Patientendaten.
+5. Haushaltsentwurf Baden-Württemberg Seiten 20 und 50; Mitteilung des NRW-Innenministeriums;
+   BVerfG-Urteil vom 16.02.2023 im Original.
+6. vzbv-Positionspapier Smart Glasses und vzbv-Position zum Digital Omnibus.
+7. Unverändert offen: Drucksache 536/26, Positionsentwurf des Europaparlaments zum Cloud- und
+   KI-Gesetz, Wortprotokoll der KIMVG-Anhörung, EDPB-Leitlinien 03/2026, EDPB Opinion 28/2024,
+   EDPS Opinion 36/2026 (HTTP 403), EuGH C-484/24, EuGH-Urteil zur Europol-Befugnis, BGH-Beschluss
+   3 StR 350/26, Schufa-Urteile vom 21.10., LG-Frankfurt-Urteil, ETUI Working Paper 2026.05,
+   deutsche Datenschutzbehörde zur Galerie-Funktion der Facebook-App, Koalitionsvertrag
+   Mecklenburg-Vorpommern, Apple-Warnung zu KI-Agenten, Netflix-Synchronstreit, NRW-Behördenportal.
