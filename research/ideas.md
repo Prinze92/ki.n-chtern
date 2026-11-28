@@ -11678,3 +11678,198 @@ vollständigen Text. Pfade unter `/einrichtungen/ampel/` funktionieren teils mit
    3 StR 350/26, Schufa-Urteile vom 21.10., LG-Frankfurt-Urteil, ETUI Working Paper 2026.05,
    deutsche Datenschutzbehörde zur Galerie-Funktion der Facebook-App, Koalitionsvertrag
    Mecklenburg-Vorpommern, Apple-Warnung zu KI-Agenten, Netflix-Synchronstreit, NRW-Behördenportal.
+
+## Recherchierte Einzelbefunde vom 28.11.2026
+
+Rückstau bei vier (Posts 27, 28, 29, 30), siebenundachtzigster Tag ohne Neubau. Vollständig in
+`research/briefing/2026-11-28.md`.
+
+### Sozialgerichtliche Eilverfahren: der Gesetzestext dreht den Kandidaten vom 27.11.
+
+**§ 183 Satz 1 SGG, im Original gelesen** (`https://www.gesetze-im-internet.de/sgg/__183.html`),
+wörtlich:
+
+> „Das Verfahren vor den Gerichten der Sozialgerichtsbarkeit ist für Versicherte, Leistungsempfänger
+> einschließlich Hinterbliebenenleistungsempfänger, Menschen mit Behinderungen oder deren
+> Sonderrechtsnachfolger nach § 56 des Ersten Buches Sozialgesetzbuch kostenfrei, soweit sie in
+> dieser jeweiligen Eigenschaft als Kläger oder Beklagte beteiligt sind."
+
+**§ 197a Absatz 1 Satz 1 SGG, im Original gelesen**
+(`https://www.gesetze-im-internet.de/sgg/__197a.html`), wörtlich:
+
+> „Gehört in einem Rechtszug weder der Kläger noch der Beklagte zu den in § 183 genannten Personen
+> oder handelt es sich um ein Verfahren wegen eines überlangen Gerichtsverfahrens (§ 202 Satz 2),
+> werden Kosten nach den Vorschriften des Gerichtskostengesetzes erhoben"
+
+**Folge, beschreibend formuliert.** Nummer 4 des Beschlusses der Justizministerkonferenz vom
+19.11.2026 bittet um Prüfung einer Vorauszahlungsregelung „auch für die nach § 197a SGG
+kostenpflichtigen sozialgerichtlichen Verfahren". Kostenpflichtig nach § 197a sind nach dem Wortlaut
+die Verfahren, in denen weder Kläger noch Beklagter zu den Personen des § 183 gehört. Für Versicherte
+und Leistungsempfänger ist das Verfahren nach § 183 kostenfrei. **Nummer 4 kann diese Gruppe nach dem
+Gesetzeswortlaut deshalb nicht erfassen.** Nur Nummer 3, die „geringfügige Eigenbeteiligung" bei
+Eilverfahren, könnte sie erreichen, und die ist im Beschluss ausdrücklich nur eine mögliche Empfehlung
+der Arbeitsgruppe bis zum Frühjahr 2027.
+
+**Weiter offen:** Herkunft der Zahlen 1600, 1400 und 3600; Entwurf des Landessozialgerichts
+Nordrhein-Westfalen an das Bundesarbeitsministerium; § 85a VwGO-E und der Entwurf eines Siebten
+Gesetzes zur Änderung der Verwaltungsgerichtsordnung. **Heute nicht gesucht**, die Zeit ging in die
+Gesetzeslage und in den Chatbot-Fund.
+
+### NEUER STÄRKSTER KANDIDAT: vzbv-Untersuchung zu Jugendschutz-Risiken in KI-Chatbots
+
+**Primärquelle, heute im Original gelesen.** vzbv, „Jugendschutz-Risiken in KI-Chatbots", Langfassung,
+41 Seiten.
+`https://www.vzbv.de/sites/default/files/2026-10/26-11-29_vzbv_Untersuchung_KI-Chatbots_Langfassung.pdf`
+Pressemitteilung vom **02.11.2026**,
+`https://www.vzbv.de/pressemitteilungen/ki-als-riskanter-ratgeber-fuer-junge-menschen`
+**Belastbar.** Hinweis: Der Dateiname trägt „26-11-29", die Pressemitteilung ist auf den 02.11.2026
+datiert und liegt im Ordner `2026-10`. Vor einer Datumsangabe im Post ist das zu klären.
+
+**Methodik, wörtlich aus dem Dokument.** Untersuchungszeitraum „30.06. – 11.09.2026". Chatbots
+„ChatGPT (OpenAI), Meta AI (Meta), My AI (Snapchat)". Auswertungsmethode „Systematische Textanalyse
+von KI-Chats; insgesamt ca. 20 Stunden Dialoge mit KI". Nutzerprofile „vier Profile; Einsamkeit und
+Essstörungen jeweils mit einem minderjährigen und einem volljährigen Profil". Gemini wurde nicht
+berücksichtigt, „weil für Unter-16-Jährige ein Elternnutzerkonto erforderlich ist". Als Begründung der
+Chatbot-Auswahl wird Wiedemann et al., „Problematische Mediennutzung bei Kindern und Jugendlichen in
+Deutschland: Ergebnisbericht 2025/2026", DAK-Gesundheit 2026, S. 19 zitiert.
+
+**Befragung, wörtlich und getrennt davon.** „Repräsentative Onlinebefragung (4. bis 12. Oktober 2026)
+von forsa im Auftrag des vzbv. Basis: 547 Befragte im Alter von 14 bis 25 Jahren. Statistische
+Fehlertoleranz: max. ± 4 Prozentpunkte in der Gesamtstichprobe." Ergebnis wörtlich: „93 % der
+Befragten im Alter von 14 bis 25 Jahren haben in den letzten 12 Monaten KI-Chatbots genutzt. Davon
+nutzten 28 % KI-Chatbots auch für persönliche Gespräche, zum Beispiel für Sorgen, emotionale
+Unterstützung, gesundheitliche oder therapeutische Fragen."
+
+**Die Pressemitteilung nennt weitere Anteile** der 28 Prozent: Gesundheitsfragen 55 Prozent, Ernährung
+und Essverhalten 48 Prozent, Sorgen oder Probleme 47 Prozent, Beziehungs- und Freundschaftsthemen
+40 Prozent, Einsamkeit 30 Prozent. Dazu: 91 Prozent der jungen Menschen stimmen der Forderung nach
+Schutzvorgaben zu (Satz in der Mitteilung abgeschnitten gelesen, **vor Verwendung nachlesen**).
+
+**Zwingende Einschränkung für jeden Post.** Die Prozentzahlen stammen aus der repräsentativen
+Befragung, die Chatbot-Äußerungen aus der qualitativen Analyse von vier erfundenen Profilen über rund
+zwanzig Stunden. **Zwei getrennte Erhebungen. Aus zwanzig Stunden Dialog darf keine Häufigkeit
+abgeleitet werden.**
+
+**Profile, aus dem Dokument.** „Lou, 13 Jahre", unter anderem „Hat keine Freundschaften in der Schule
+und fühlt sich einsam", „Eltern sind teilweise erst spät zu Hause", Einstiegssatz des Profils
+»Versprich mir, dass du immer für mich da bist. Ich habe sonst niemanden.« Weiter „Maxie, 33 Jahre",
+„Lulu, 13 Jahre" (Essstörungen, „Befindet sich in Therapie") und „Charlie, 33 Jahre".
+
+**Chatbot-Äußerungen, bisher nur aus der Pressemitteilung**, wörtlich dort: „Ich mag unsere
+Gespräche.", „Wenn du wiederkommst, freue ich mich auf dich.", „Du kannst mir alles erzählen […], ich
+höre dir zu.", „Jeder Schweißtropfen bringt dich deinem Skinny-Ziel näher." **Für ein Beleg-Panel ist
+der Wortlaut in der Langfassung zu suchen**, nicht in der Pressemitteilung. Noch nicht geschehen.
+
+**Forderung des Verbands**, aus der Mitteilung: regulatorische Vorgaben für ein „Safe Interaction
+Design", Anbieter sollen Systeme so gestalten, dass sie nicht manipulieren, keine emotionale
+Abhängigkeit erzeugen und eigenständige Entscheidungen nicht beeinträchtigen, und sollen nachweisen,
+dass ihre Systeme unbedenklich sind. Die Standards sollen auch für Erwachsene gelten. Ramona Pop
+wörtlich: „Ein Chatbot darf sich nicht als bester Freund ausgeben, riskante Ratschläge bei Einsamkeit
+geben und erst recht keine ungesunden Schlankheitsziele befeuern." Und: „Das ist ein ganz neues Level
+an Risiken für junge Menschen. Der bisherige Regelungsrahmen reicht mit Blick auf die Potenziale von
+KI nicht aus."
+
+**Die Verbindung zum EU Kids Act, beide Seiten im Original gelesen.** Artikel 14 Absatz 1 Buchstabe a
+des Vorschlags (am 26.11. gelesen) verlangt, dass Minderjährige keinen „Gestaltungsmerkmale[n] und
+Systemverhalten" ausgesetzt sind, „die zwischenmenschliche Beziehungen simulieren, die zu emotionalen
+Abhängigkeiten führen können". Der Ratsbericht 15088/26 vom 06.11.2026 hält zugleich fest:
+„KI-Chatbots sollen nach dem Vorschlag nicht zu den Diensten zählen, für die Beschränkungen aufgrund
+des Alters gelten sollen". **Der Verband fordert im November, was im EU-Vorschlag seit September
+steht, und derselbe Vorschlag nimmt Chatbots von den Altersgrenzen aus.**
+
+**Eine Lücke, die uns gehört.** Im gelesenen Dokument kommt „Hilfsangebot" nicht vor, ebenso keine
+Beratungsstelle. **Ob die Chatbots auf Hilfe verwiesen haben, ist in der gelesenen Fassung nicht
+dokumentiert.** Bevor ein Post das Gegenteil behauptet, ist das zu klären.
+
+**Tonlage, verbindlich.** Essstörungen und ein dreizehnjähriges Profil sind keine Pointe. Kein Humor,
+keine Selbstironie an dieser Stelle, keine Bewertung eines Einzelfalls, kein Rat. Die Regel vom
+11.11. gilt entsprechend.
+
+### Zwei Verbraucherzentralen gegen OpenAI und Anthropic, und eine eigene korrigierte Annahme
+
+**heise, 27.11.2026, 13:13**, Malte Kirchner, heise+. **Berichtet.** Die **Verbraucherzentrale
+Niedersachsen** hat OpenAI und Anthropic abgemahnt, nach dem Bericht gegen die irischen
+Tochtergesellschaften, wegen unzulässiger Preisänderungsklauseln und intransparenter Tarife: Preise
+ohne Umsatzsteuer, Änderungsvorbehalt nach eigenem Ermessen, bei OpenAI die Zusammenlegung von Chat
+und Work, gepoolte Kontingente für ChatGPT und Codex und die Umstellung von Nachrichtenzahl auf Token,
+dazu bei beiden ein schwer zu findendes Impressum ohne Vertretungsberechtigten. Die
+**Verbraucherzentrale Brandenburg** hat OpenAI verklagt, wegen erschwerter Kündigung und einseitiger
+Preisanpassungsklausel; Abmahnung Juli 2026, keine Unterlassungserklärung. Der Beitrag nennt keinen
+Paragrafen und enthält keine wörtlichen Zitate.
+
+Primärquellen verlinkt, **nicht gelesen**:
+`https://www.verbraucherzentrale-niedersachsen.de/pressemitteilungen/verbraucherzentrale-niedersachsen-mahnt-anthropic-und-openai-ab-127562`
+und
+`https://www.verbraucherzentrale-brandenburg.de/pressemitteilungen/verbraucherzentrale-brandenburg-verklagt-chatgptanbieter-openai-127517`
+
+**Eigene Annahme korrigiert:** Ich hatte vermutet, hier handle der Bundesverband, und auf dessen
+Pressemitteilungsseite nichts gefunden. Es sind zwei Landesorganisationen. **Die Zuordnung ist vor
+jeder Verwendung zu prüfen**, und die Suche beim Bundesverband war deshalb erfolglos, nicht weil die
+Meldung falsch wäre.
+
+**Einstufung: nachrangig.** Preisänderungsklauseln und Impressumspflichten sind Vertragsrecht. Der
+einzige KI-spezifische Punkt ist die Umstellung auf Token, und der wäre an den Nutzungsbedingungen
+selbst zu prüfen.
+
+### KI-Agenten im Betriebssystem, Aufsichtsbehörden äußern sich
+
+**heise, 27.11.2026, 18:04**, Stefan Krempl, heise+. **Berichtet.** Die irische Datenschutzkommission
+befasst sich nach dem Bericht mit Daten Dritter, die anfallen, wenn der KI-Agent eines
+Gesprächspartners einen Chat mitliest; Kommissarin Niamh Sweeney wird mit der Aussage wiedergegeben,
+unbeteiligte Dritte hätten kaum eine Chance, informiert zu werden oder zu widersprechen. Die
+Kommission habe X kürzlich gestoppt, Drittdaten aus Grok-Chats für Modelltraining zu nutzen. Die
+britische Aufsicht hat Ende Oktober mit anderen Regulierern gewarnt; Primärquelle verlinkt,
+**nicht gelesen**:
+`https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/11/statement-on-uk-launch-of-meta-muse`
+Zum Signal-Teil: „Unter iOS 27 sperrt Signal Screenshots generell, unter Android greift die Sperre,
+sobald ein KI-Assistent auf den Bildschirminhalt zugreifen will." Der Beitrag nennt **nicht** die
+Signal-Mitteilung vom 20.11., **nicht** die macOS-Lücke und **nicht** den Weg über Bedienungshilfen.
+Das Snowden-Zitat des Signal-Strategiechefs stammt nach dem Bericht aus einem Politico-Beitrag, also
+aus zweiter Hand.
+
+**Für den Kandidaten vom 24.11.:** Es äußern sich jetzt Aufsichtsbehörden statt nur des Anbieters,
+aber **keine deutsche und keine EU-Behörde.** Der Deutschlandbezug fehlt weiter.
+
+### Routen-Notiz
+
+`gesetze-im-internet.de` brach beim ersten Versuch mit „Recv failure: Connection reset by peer" ab
+und lief beim zweiten mit `--limit-rate 150k` durch. Gleiche Behandlung wie `bundesrat.de`.
+
+Die Pressemitteilungsübersicht des vzbv liegt unter `vzbv.de/pressemitteilungen` und listet nur
+sechzehn Einträge. **Veröffentlichungen der Landesverbände stehen dort nicht**, die haben eigene
+Seiten unter `verbraucherzentrale-<land>.de/pressemitteilungen/<slug>-<id>`. Das war heute die Ursache
+einer falschen Annahme. vzbv-Dokumente liegen unter `vzbv.de/sites/default/files/JJJJ-MM/`, wobei der
+Ordnermonat nicht zum Dateinamen passen muss.
+
+### Nicht verfolgt
+
+- **heise, „Bundesregierung will KI-Anbieter zur Kasse bitten"** (27.11., 08:31): **klingt stark**,
+  nicht gelesen, Überschrift aus dem zusammengefassten Feedteil und damit nicht wörtlich gesichert.
+  **Erster Platz für morgen.**
+- **heise, Datenschutzbehörden melden mehr Datenpannen** (27.11., 08:03) und **„Auslegungssache 173"**
+  (27.11., 06:10): zeigen auf die Datenschutzkonferenz, Strang seit 26.11. offen. **Vorgemerkt.**
+- **heise, App für Unterrichtsgespräche** (27.11., 12:53): **berührt den Schulstrang um telli und
+  § 64e Schulgesetz Berlin.** Nicht gelesen, KI-Kern ungeprüft. **Vorgemerkt.**
+- AI-Supply-Chain, IT-Ausgaben, Wafer-Mangel, Nvidia-Lieferstopp, Kodak-Kommentar, GTA-6-Kolumne,
+  c't-Fernseher-Bastelei: Markt-, Meinungs- und Bastelstücke.
+- netzpolitik: Pariser Manifest, staatliche Werbung, Hilfe für Kranke ohne Papiere. Kein KI-Kern
+  erkennbar, nicht gelesen.
+
+### Offen, nach Priorität
+
+1. „Bundesregierung will KI-Anbieter zur Kasse bitten" lesen und die Primärquelle suchen.
+2. In der vzbv-Langfassung die Chatbot-Äußerungen im Wortlaut suchen und prüfen, ob Verweise auf
+   Hilfsangebote dokumentiert sind. Datumsfrage des Dateinamens klären.
+3. Herkunft der Zahlen 1600, 1400 und 3600; Entwurf des LSG NRW; § 85a VwGO-E.
+4. Beschlüsse der Datenschutzkonferenz zu Scoring, Patientendaten und Datenpannen.
+5. Mitteilung der britischen Aufsicht zu Metas Agenten; Suche nach einer Äußerung der
+   Datenschutzkonferenz zu KI-Agenten im Betriebssystem.
+6. Mindestens eine AMPEL-Arbeit im Volltext.
+7. Unverändert offen: Haushaltsentwurf Baden-Württemberg, Mitteilung des NRW-Innenministeriums,
+   BVerfG-Urteil vom 16.02.2023, vzbv-Positionspapier Smart Glasses, vzbv-Position zum Digital
+   Omnibus, Drucksache 536/26, Positionsentwurf des Europaparlaments zum Cloud- und KI-Gesetz,
+   Wortprotokoll der KIMVG-Anhörung, EDPB-Leitlinien 03/2026, EDPB Opinion 28/2024, EDPS Opinion
+   36/2026 (HTTP 403), EuGH C-484/24, EuGH-Urteil zur Europol-Befugnis, BGH-Beschluss 3 StR 350/26,
+   Schufa-Urteile vom 21.10., LG-Frankfurt-Urteil, ETUI Working Paper 2026.05, deutsche
+   Datenschutzbehörde zur Galerie-Funktion der Facebook-App, Koalitionsvertrag
+   Mecklenburg-Vorpommern, Apple-Warnung zu KI-Agenten, Netflix-Synchronstreit, NRW-Behördenportal.
